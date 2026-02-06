@@ -1,0 +1,119 @@
+{
+  "metadata": {
+    "title": "FIECON — International Business Consulting",
+    "description": "FIECON Germany Co. KG — International business consulting for corporate law, company formations, financial administration and construction finance. Offices in Hamburg, Belgrade and Texas."
+  },
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "approach": "Approach",
+    "offices": "Offices",
+    "contact": "Contact"
+  },
+  "hero": {
+    "tagline": "Fiegler Consulting",
+    "headline": "International Consulting Excellence",
+    "subtitle": "Corporate law, company formations and financial administration — with presence in Hamburg, Belgrade and Texas.",
+    "cta_primary": "Our Services",
+    "cta_secondary": "Get in Touch"
+  },
+  "about": {
+    "badge": "About Us",
+    "headline": "Excellence in international consulting",
+    "text_1": "FIECON Germany Co. KG for International Consulting Industries combines deep expertise in corporate law with international reach. From our offices in Hamburg, Belgrade and Texas, we support businesses expanding across borders.",
+    "text_2": "Our team delivers tailored solutions for complex challenges — from international company formations to financial administration and specialized sectors like construction finance and yacht building.",
+    "quote": "Excellence in international consulting — from day one.",
+    "stat_1_label": "Locations worldwide",
+    "stat_2_label": "Practice areas",
+    "stat_3_label": "Countries"
+  },
+  "services": {
+    "badge": "Services",
+    "headline": "Our Expertise",
+    "subtitle": "Tailored consulting for your international business ventures.",
+    "consulting": {
+      "title": "Business Consulting",
+      "description": "Strategic consulting in corporate law and international company formations. We guide you from conception to successful implementation.",
+      "items": "Corporate Law, International Company Formations"
+    },
+    "finance": {
+      "title": "Financial Administration",
+      "description": "Professional management and optimization of your finances. Transparent processes and strategic planning for sustainable growth."
+    },
+    "construction": {
+      "title": "Construction Finance",
+      "description": "Specialized financing solutions for construction projects. From planning to completion — we secure your investments."
+    },
+    "yacht": {
+      "title": "Yacht Construction Finance",
+      "description": "Exclusive financing consulting for yacht building. Tailored solutions for a demanding market segment."
+    }
+  },
+  "approach": {
+    "badge": "Our Approach",
+    "headline": "Principles that guide us",
+    "values": {
+      "expertise": {
+        "title": "International Expertise",
+        "description": "In-depth knowledge of legal systems and business practices across Europe, the USA and Southeast Europe."
+      },
+      "personal": {
+        "title": "Personal Attention",
+        "description": "Every mandate receives individual attention. We understand your goals and develop tailored strategies."
+      },
+      "trust": {
+        "title": "Trusted Partnership",
+        "description": "Long-term relationships built on transparency, integrity and proven results."
+      }
+    }
+  },
+  "offices": {
+    "badge": "Offices",
+    "headline": "Globally positioned",
+    "subtitle": "Three locations, one mission — international consulting at the highest level.",
+    "hamburg": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "label": "Headquarters"
+    },
+    "belgrade": {
+      "city": "Belgrade",
+      "country": "Serbia",
+      "label": "Southeast Europe"
+    },
+    "texas": {
+      "city": "Texas",
+      "country": "USA",
+      "label": "North America"
+    }
+  },
+  "contact": {
+    "badge": "Contact",
+    "headline": "Let's talk",
+    "subtitle": "We look forward to your inquiry and are happy to advise you on your project.",
+    "phone": "Phone",
+    "mobile": "Mobile",
+    "email": "Email",
+    "address": "Address",
+    "cta": "Send Email"
+  },
+  "footer": {
+    "description": "FIECON Germany Co. KG for International Consulting Industries — Your partner for international business consulting.",
+    "services_title": "Services",
+    "offices_title": "Offices",
+    "legal_title": "Legal",
+    "impressum": "Legal Notice",
+    "datenschutz": "Privacy Policy",
+    "copyright": "© {year} FIECON Germany Co. KG. All rights reserved."
+  },
+  "impressum": {
+    "title": "Legal Notice",
+    "info_title": "Information according to § 5 TMG",
+    "contact_title": "Contact",
+    "register_title": "Commercial Register"
+  },
+  "datenschutz": {
+    "title": "Privacy Policy",
+    "intro": "We take the protection of your personal data very seriously."
+  }
+}

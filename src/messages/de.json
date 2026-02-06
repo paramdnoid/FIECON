@@ -1,0 +1,119 @@
+{
+  "metadata": {
+    "title": "FIECON — Internationale Unternehmensberatung",
+    "description": "FIECON Germany Co. KG — Internationale Unternehmensberatung für Gesellschaftsrecht, Firmengründungen, Finanzverwaltung und Baufinanzierung. Standorte in Hamburg, Belgrad und Texas."
+  },
+  "nav": {
+    "about": "Über uns",
+    "services": "Leistungen",
+    "approach": "Ansatz",
+    "offices": "Standorte",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "tagline": "Fiegler Consulting",
+    "headline": "Internationale Beratungskompetenz",
+    "subtitle": "Gesellschaftsrecht, Firmengründungen und Finanzverwaltung — mit Präsenz in Hamburg, Belgrad und Texas.",
+    "cta_primary": "Unsere Leistungen",
+    "cta_secondary": "Kontakt aufnehmen"
+  },
+  "about": {
+    "badge": "Über uns",
+    "headline": "Exzellenz in internationaler Beratung",
+    "text_1": "FIECON Germany Co. KG for International Consulting Industries vereint tiefgreifende Expertise im Gesellschaftsrecht mit internationaler Reichweite. Von unseren Standorten in Hamburg, Belgrad und Texas begleiten wir Unternehmen bei der Expansion über Ländergrenzen hinweg.",
+    "text_2": "Unser Team bietet maßgeschneiderte Lösungen für komplexe Herausforderungen — von internationalen Firmengründungen über Finanzverwaltung bis hin zu spezialisierten Bereichen wie Baufinanzierung und Yachtbau.",
+    "quote": "Exzellenz in internationaler Beratung — seit Tag eins.",
+    "stat_1_label": "Standorte weltweit",
+    "stat_2_label": "Fachbereiche",
+    "stat_3_label": "Länder"
+  },
+  "services": {
+    "badge": "Leistungen",
+    "headline": "Unsere Expertise",
+    "subtitle": "Maßgeschneiderte Beratung für Ihre internationalen Geschäftsvorhaben.",
+    "consulting": {
+      "title": "Unternehmensberatung",
+      "description": "Strategische Beratung im Gesellschaftsrecht und bei internationalen Firmengründungen. Wir begleiten Sie von der Konzeption bis zur erfolgreichen Umsetzung.",
+      "items": "Gesellschaftsrecht, Internationale Firmengründungen"
+    },
+    "finance": {
+      "title": "Finanzverwaltung",
+      "description": "Professionelle Verwaltung und Optimierung Ihrer Finanzen. Transparente Prozesse und strategische Planung für nachhaltiges Wachstum."
+    },
+    "construction": {
+      "title": "Baufinanzverwaltung",
+      "description": "Spezialisierte Finanzierungslösungen für Bauprojekte. Von der Planung bis zur Fertigstellung — wir sichern Ihre Investitionen ab."
+    },
+    "yacht": {
+      "title": "Yachtbau Finanzverwaltung",
+      "description": "Exklusive Finanzierungsberatung für den Yachtbau. Maßgeschneiderte Lösungen für ein anspruchsvolles Marktsegment."
+    }
+  },
+  "approach": {
+    "badge": "Unser Ansatz",
+    "headline": "Prinzipien, die uns leiten",
+    "values": {
+      "expertise": {
+        "title": "Internationale Expertise",
+        "description": "Fundiertes Wissen über Rechtssysteme und Geschäftspraktiken in Europa, den USA und Südosteuropa."
+      },
+      "personal": {
+        "title": "Persönliche Betreuung",
+        "description": "Jedes Mandat wird individuell betreut. Wir verstehen Ihre Ziele und entwickeln passgenaue Strategien."
+      },
+      "trust": {
+        "title": "Vertrauensvolle Partnerschaft",
+        "description": "Langfristige Beziehungen auf Basis von Transparenz, Integrität und nachweisbaren Ergebnissen."
+      }
+    }
+  },
+  "offices": {
+    "badge": "Standorte",
+    "headline": "Global aufgestellt",
+    "subtitle": "Drei Standorte, eine Mission — internationale Beratung auf höchstem Niveau.",
+    "hamburg": {
+      "city": "Hamburg",
+      "country": "Deutschland",
+      "label": "Hauptsitz"
+    },
+    "belgrade": {
+      "city": "Belgrad",
+      "country": "Serbien",
+      "label": "Südosteuropa"
+    },
+    "texas": {
+      "city": "Texas",
+      "country": "USA",
+      "label": "Nordamerika"
+    }
+  },
+  "contact": {
+    "badge": "Kontakt",
+    "headline": "Lassen Sie uns sprechen",
+    "subtitle": "Wir freuen uns auf Ihre Anfrage und beraten Sie gerne zu Ihrem Vorhaben.",
+    "phone": "Telefon",
+    "mobile": "Mobil",
+    "email": "E-Mail",
+    "address": "Adresse",
+    "cta": "E-Mail schreiben"
+  },
+  "footer": {
+    "description": "FIECON Germany Co. KG for International Consulting Industries — Ihr Partner für internationale Unternehmensberatung.",
+    "services_title": "Leistungen",
+    "offices_title": "Standorte",
+    "legal_title": "Rechtliches",
+    "impressum": "Impressum",
+    "datenschutz": "Datenschutz",
+    "copyright": "© {year} FIECON Germany Co. KG. Alle Rechte vorbehalten."
+  },
+  "impressum": {
+    "title": "Impressum",
+    "info_title": "Angaben gemäß § 5 TMG",
+    "contact_title": "Kontakt",
+    "register_title": "Handelsregister"
+  },
+  "datenschutz": {
+    "title": "Datenschutzerklärung",
+    "intro": "Wir nehmen den Schutz Ihrer persönlichen Daten sehr ernst."
+  }
+}
