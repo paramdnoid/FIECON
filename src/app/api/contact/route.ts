@@ -8,7 +8,43 @@ type ContactBody = {
   message: string;
 };
 
+// Rate limiting: max 5 requests per minute per IP
+const RATE_LIMIT_WINDOW_MS = 60_000;
+const RATE_LIMIT_MAX = 5;
+const rateLimitMap = new Map<string, number[]>();
+
+function isRateLimited(ip: string): boolean {
+  const now = Date.now();
+  const timestamps = rateLimitMap.get(ip) ?? [];
+  const recent = timestamps.filter((t) => now - t < RATE_LIMIT_WINDOW_MS);
+
+  if (recent.length >= RATE_LIMIT_MAX) return true;
+
+  recent.push(now);
+  rateLimitMap.set(ip, recent);
+  return false;
+}
+
+// Field length limits
+const MAX_LENGTHS = {
+  name: 200,
+  email: 254,
+  subject: 200,
+  message: 5000,
+} as const;
+
 export async function POST(request: Request) {
+  // Rate limiting
+  const forwarded = request.headers.get("x-forwarded-for");
+  const ip = forwarded?.split(",")[0]?.trim() ?? "unknown";
+
+  if (isRateLimited(ip)) {
+    return NextResponse.json(
+      { error: "Too many requests" },
+      { status: 429 },
+    );
+  }
+
   let body: ContactBody;
 
   try {
@@ -22,10 +58,23 @@ export async function POST(request: Request) {
 
   const { name, email, subject, message } = body;
 
-  // Validation
+  // Required fields
   if (!name?.trim() || !email?.trim() || !subject?.trim() || !message?.trim()) {
     return NextResponse.json(
       { error: "All fields are required" },
+      { status: 400 },
+    );
+  }
+
+  // Length limits
+  if (
+    name.length > MAX_LENGTHS.name ||
+    email.length > MAX_LENGTHS.email ||
+    subject.length > MAX_LENGTHS.subject ||
+    message.length > MAX_LENGTHS.message
+  ) {
+    return NextResponse.json(
+      { error: "Input exceeds maximum length" },
       { status: 400 },
     );
   }

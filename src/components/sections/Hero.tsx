@@ -39,7 +39,7 @@ export function Hero() {
   return (
     <section ref={heroRef} className="relative min-h-svh flex items-center overflow-hidden">
       {/* Background decorative layers */}
-      <div className="absolute inset-0 pointer-events-none">
+      <div className="absolute inset-0 pointer-events-none" aria-hidden="true">
         {/* Layer 1: Radial spotlight gradient */}
         <div
           className="absolute inset-0"

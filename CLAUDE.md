@@ -10,7 +10,7 @@ Corporate website for FIECON (Fiegler Consulting KG), an international consultin
 - **Animations:** Motion (Framer Motion) v12
 - **i18n:** next-intl v4 (German default + English, `localePrefix: "never"`)
 - **Package Manager:** pnpm
-- **Fonts:** Playfair Display (headings) + Inter (body) via next/font
+- **Fonts:** Cormorant Garamond (headings) + DM Sans (body) via next/font
 
 ## Commands
 - `pnpm dev` — Dev server on port 3000 (if port 3000 is occupied, kill the existing process first — never use a different port)
@@ -32,17 +32,22 @@ src/
 │   ├── page.tsx        # Homepage (single-page scroll, 7 sections)
 │   ├── layout.tsx      # Root layout
 │   ├── globals.css     # Global styles + Tailwind
-│   ├── api/contact/    # POST endpoint (nodemailer)
+│   ├── error.tsx       # Error boundary
+│   ├── not-found.tsx   # 404 page
+│   ├── global-error.tsx # Root error boundary
+│   ├── robots.ts       # SEO: robots.txt
+│   ├── sitemap.ts      # SEO: sitemap.xml
+│   ├── api/contact/    # POST endpoint (nodemailer, rate-limited)
 │   ├── impressum/      # Legal: Impressum
 │   └── datenschutz/    # Legal: Datenschutz
 ├── components/
-│   ├── animations/     # FadeIn, StaggerChildren, CountUp, ParallaxLayer,
-│   │                   # ScrollProgress, TextReveal, SlideReveal, MagneticButton
+│   ├── animations/     # FadeIn, StaggerChildren, CountUp, ScrollProgress,
+│   │                   # TextReveal, SlideReveal, MagneticButton
 │   ├── layout/         # Header, Footer, LanguageSwitcher, MobileMenu
 │   ├── sections/       # Hero, About, Services, Philosophy, Offices, Contact
 │   └── ui/             # Button, Badge, Container, SectionHeading,
-│                       # SectionDivider, GradientText, ContactDialog
-├── hooks/              # useReducedMotion, useScrollProgress
+│                       # SectionDivider, ContactDialog
+├── hooks/              # useReducedMotion, useScrollProgress, useActiveSection, useFocusTrap
 ├── i18n/               # next-intl routing + request config
 ├── lib/                # constants.ts (company data), utils.ts
 └── messages/           # de.json, en.json translation files

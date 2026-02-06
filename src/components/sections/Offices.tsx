@@ -44,6 +44,7 @@ export function Offices() {
                 <div className="p-8 lg:p-10">
                   {/* Country code as large watermark */}
                   <span
+                    aria-hidden="true"
                     className={`absolute top-4 right-6 font-display text-7xl lg:text-8xl font-bold select-none pointer-events-none ${
                       office.isHQ
                         ? "text-white/10"
@@ -84,6 +85,7 @@ export function Offices() {
 
                   {/* Decorative diamond */}
                   <div
+                    aria-hidden="true"
                     className={`mt-8 w-3 h-3 rotate-45 ${
                       office.isHQ ? "bg-beige-400" : "bg-bordeaux-900"
                     }`}

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { useScrollProgress } from "@/hooks/useScrollProgress";
 import { useActiveSection } from "@/hooks/useActiveSection";
@@ -33,10 +34,12 @@ export function Header() {
               onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
               className="flex items-center gap-3 cursor-pointer"
             >
-              <img
+              <Image
                 src="/logo.svg"
                 alt="FIECON"
-                className="h-9 w-9"
+                width={36}
+                height={36}
+                priority
               />
               <span className="font-display text-xl font-normal gradient-text-hero tracking-tight">
                 FIECON

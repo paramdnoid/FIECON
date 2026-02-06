@@ -55,7 +55,7 @@ export function Philosophy() {
                 <div className="absolute top-0 inset-x-0 h-[3px] bg-gradient-to-r from-bordeaux-900 via-bordeaux-700 to-beige-400 origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500" />
 
                 {/* Number watermark */}
-                <span className="absolute top-4 right-5 font-display text-6xl font-light text-bordeaux-900 opacity-[0.04] select-none pointer-events-none">
+                <span aria-hidden="true" className="absolute top-4 right-5 font-display text-6xl font-light text-bordeaux-900 opacity-[0.04] select-none pointer-events-none">
                   {VALUE_NUMBERS[index]}
                 </span>
 

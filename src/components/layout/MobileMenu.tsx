@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import { AnimatePresence, motion } from "motion/react";
 import { NAV_LINKS } from "@/lib/constants";
 import { useActiveSection } from "@/hooks/useActiveSection";
+import { useFocusTrap } from "@/hooks/useFocusTrap";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 
 type Props = {
@@ -14,6 +15,7 @@ type Props = {
 export function MobileMenu({ isOpen, onClose }: Props) {
   const t = useTranslations("nav");
   const activeSection = useActiveSection();
+  const trapRef = useFocusTrap(isOpen);
 
   return (
     <AnimatePresence>
@@ -28,11 +30,15 @@ export function MobileMenu({ isOpen, onClose }: Props) {
             onClick={onClose}
           />
           <motion.div
+            ref={trapRef}
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
             className="fixed top-24 left-4 right-4 bg-white rounded-xl shadow-2xl border border-border-subtle z-50 lg:hidden p-6"
+            role="dialog"
+            aria-modal="true"
+            aria-label="Navigation"
           >
             <nav className="flex flex-col gap-2">
               {NAV_LINKS.map((link) => {

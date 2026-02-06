@@ -1,14 +1,17 @@
 "use client";
 
-import { useState } from "react";
+import { useState, lazy, Suspense } from "react";
 import { useTranslations } from "next-intl";
 import { motion, useReducedMotion } from "motion/react";
 import { Container } from "@/components/ui/Container";
 import { Button } from "@/components/ui/Button";
 import { MagneticButton } from "@/components/animations/MagneticButton";
 import { FadeIn } from "@/components/animations/FadeIn";
-import { ContactDialog } from "@/components/ui/ContactDialog";
 import { CONTACT } from "@/lib/constants";
+
+const ContactDialog = lazy(() =>
+  import("@/components/ui/ContactDialog").then((m) => ({ default: m.ContactDialog }))
+);
 
 export function Contact() {
   const t = useTranslations("contact");
@@ -117,10 +120,14 @@ export function Contact() {
         </Container>
       </motion.div>
 
-      <ContactDialog
-        open={dialogOpen}
-        onClose={() => setDialogOpen(false)}
-      />
+      {dialogOpen && (
+        <Suspense>
+          <ContactDialog
+            open={dialogOpen}
+            onClose={() => setDialogOpen(false)}
+          />
+        </Suspense>
+      )}
     </section>
   );
 }

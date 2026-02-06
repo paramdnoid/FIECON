@@ -10,7 +10,7 @@ export function LanguageSwitcher() {
   const switchLocale = () => {
     const nextLocale = locale === "de" ? "en" : "de";
     document.cookie = `NEXT_LOCALE=${nextLocale};path=/;max-age=31536000;SameSite=Lax`;
-    window.location.reload();
+    router.refresh();
   };
 
   return (

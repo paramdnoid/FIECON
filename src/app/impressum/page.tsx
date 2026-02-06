@@ -1,6 +1,18 @@
+import type { Metadata } from "next";
 import { useTranslations } from "next-intl";
+import { getLocale, getTranslations } from "next-intl/server";
 import { Container } from "@/components/ui/Container";
 import { COMPANY, CONTACT } from "@/lib/constants";
+
+export async function generateMetadata(): Promise<Metadata> {
+  const locale = await getLocale();
+  const t = await getTranslations({ locale, namespace: "impressum" });
+
+  return {
+    title: `${t("title")} — FIECON`,
+    description: `${t("info_title")} — ${COMPANY.fullName}`,
+  };
+}
 
 export default function ImpressumPage() {
   const t = useTranslations("impressum");

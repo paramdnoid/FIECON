@@ -100,3 +100,33 @@ body::before {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--color-accent);
 }
+
+/* === Firefox Scrollbar === */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-beige-400) var(--color-beige-100);
+}
+
+/* === Focus Visible === */
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+/* === Print Styles === */
+@media print {
+  body::before {
+    display: none;
+  }
+
+  header,
+  footer,
+  .scroll-progress {
+    display: none !important;
+  }
+
+  body {
+    background: white;
+    color: black;
+  }
+}

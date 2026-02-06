@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "./kill-port.sh && next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "pnpm build && rsync -avz --delete --exclude '.env*' .next/ public/ package.json pnpm-lock.yaml next.config.ts middleware.ts src/i18n/ src/messages/ ${DEPLOY_TARGET:-user@server:/var/www/fiecon/} && echo 'Deploy complete. Run: ssh <server> \"cd /var/www/fiecon && pnpm install --prod && pm2 restart fiecon\"'"
   },
   "dependencies": {
     "motion": "^12.0.0",

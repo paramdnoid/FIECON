@@ -10,6 +10,7 @@ import {
 import { motion, AnimatePresence, useReducedMotion } from "motion/react";
 import { useTranslations } from "next-intl";
 import { CONTACT, COMPANY } from "@/lib/constants";
+import { useFocusTrap } from "@/hooks/useFocusTrap";
 
 type Props = {
   open: boolean;
@@ -32,6 +33,7 @@ export function ContactDialog({ open, onClose }: Props) {
   const tContact = useTranslations("contact");
   const prefersReduced = useReducedMotion();
   const dialogRef = useRef<HTMLDivElement>(null);
+  const trapRef = useFocusTrap(open);
   const firstInputRef = useRef<HTMLInputElement>(null);
 
   const [formState, setFormState] = useState<FormState>("idle");
@@ -137,7 +139,7 @@ export function ContactDialog({ open, onClose }: Props) {
   return (
     <AnimatePresence>
       {open && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6">
+        <div ref={trapRef} className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6">
           {/* Backdrop */}
           <motion.div
             {...backdropMotion}

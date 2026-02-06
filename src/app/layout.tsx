@@ -5,6 +5,7 @@ import { getLocale, getMessages, getTranslations } from "next-intl/server";
 import { Cormorant_Garamond, DM_Sans } from "next/font/google";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
+import { COMPANY, CONTACT } from "@/lib/constants";
 import "@/app/globals.css";
 
 const cormorant = Cormorant_Garamond({
@@ -32,6 +33,10 @@ export async function generateMetadata(): Promise<Metadata> {
     metadataBase: new URL("https://www.fiecon-consulting.eu"),
     alternates: {
       canonical: "/",
+      languages: {
+        de: "/",
+        en: "/",
+      },
     },
     openGraph: {
       title: t("title"),
@@ -55,6 +60,26 @@ export default async function RootLayout({
   return (
     <html lang={locale} className={`${cormorant.variable} ${dmSans.variable}`}>
       <body className="bg-surface text-text-primary font-body antialiased">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: COMPANY.fullName,
+              url: `https://${COMPANY.website}`,
+              email: CONTACT.email,
+              telephone: CONTACT.phone,
+              address: {
+                "@type": "PostalAddress",
+                streetAddress: CONTACT.address.street,
+                postalCode: CONTACT.address.zip,
+                addressLocality: CONTACT.address.city,
+                addressCountry: CONTACT.address.country,
+              },
+            }),
+          }}
+        />
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Header />
           <main>{children}</main>

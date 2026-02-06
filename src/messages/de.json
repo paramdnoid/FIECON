@@ -131,6 +131,11 @@
     "datenschutz": "Datenschutz",
     "copyright": "© {year} FIECON Germany Co. KG. Alle Rechte vorbehalten."
   },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "description": "Die angeforderte Seite existiert nicht oder wurde verschoben.",
+    "back": "Zur Startseite"
+  },
   "impressum": {
     "title": "Impressum",
     "info_title": "Angaben gemäß § 5 TMG",

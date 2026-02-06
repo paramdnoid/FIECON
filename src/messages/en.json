@@ -131,6 +131,11 @@
     "datenschutz": "Privacy Policy",
     "copyright": "© {year} FIECON Germany Co. KG. All rights reserved."
   },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "The requested page does not exist or has been moved.",
+    "back": "Back to Homepage"
+  },
   "impressum": {
     "title": "Legal Notice",
     "info_title": "Information according to § 5 TMG",

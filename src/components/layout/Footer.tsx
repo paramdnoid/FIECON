@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Container } from "@/components/ui/Container";
 import { COMPANY, CONTACT } from "@/lib/constants";
@@ -19,10 +20,12 @@ export function Footer() {
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="flex items-center gap-3 mb-4">
-              <img
+              <Image
                 src="/logo.svg"
                 alt="FIECON"
-                className="h-9 w-9 brightness-0 invert"
+                width={36}
+                height={36}
+                className="brightness-0 invert"
               />
               <span className="font-display text-xl font-normal text-white tracking-tight">
                 FIECON
