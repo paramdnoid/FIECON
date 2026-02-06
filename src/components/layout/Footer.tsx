@@ -1,3 +1,5 @@
+"use client";
+
 import { useTranslations } from "next-intl";
 import { Container } from "@/components/ui/Container";
 import { COMPANY, CONTACT } from "@/lib/constants";
@@ -38,24 +40,24 @@ export function Footer() {
             </h3>
             <ul className="space-y-3">
               <li>
-                <a href="#services" className="text-sm text-beige-400 hover:text-white transition-colors">
+                <button onClick={() => document.getElementById("services")?.scrollIntoView({ behavior: "smooth" })} className="text-sm text-beige-400 hover:text-white transition-colors cursor-pointer">
                   {tServices("consulting.title")}
-                </a>
+                </button>
               </li>
               <li>
-                <a href="#services" className="text-sm text-beige-400 hover:text-white transition-colors">
+                <button onClick={() => document.getElementById("services")?.scrollIntoView({ behavior: "smooth" })} className="text-sm text-beige-400 hover:text-white transition-colors cursor-pointer">
                   {tServices("finance.title")}
-                </a>
+                </button>
               </li>
               <li>
-                <a href="#services" className="text-sm text-beige-400 hover:text-white transition-colors">
+                <button onClick={() => document.getElementById("services")?.scrollIntoView({ behavior: "smooth" })} className="text-sm text-beige-400 hover:text-white transition-colors cursor-pointer">
                   {tServices("construction.title")}
-                </a>
+                </button>
               </li>
               <li>
-                <a href="#services" className="text-sm text-beige-400 hover:text-white transition-colors">
+                <button onClick={() => document.getElementById("services")?.scrollIntoView({ behavior: "smooth" })} className="text-sm text-beige-400 hover:text-white transition-colors cursor-pointer">
                   {tServices("yacht.title")}
-                </a>
+                </button>
               </li>
             </ul>
           </div>

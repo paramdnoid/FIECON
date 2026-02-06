@@ -135,10 +135,22 @@
     "title": "Impressum",
     "info_title": "Angaben gemäß § 5 TMG",
     "contact_title": "Kontakt",
-    "register_title": "Handelsregister"
+    "phone_label": "Telefon",
+    "mobile_label": "Mobil",
+    "email_label": "E-Mail",
+    "homepage_label": "Homepage"
   },
   "datenschutz": {
     "title": "Datenschutzerklärung",
-    "intro": "Wir nehmen den Schutz Ihrer persönlichen Daten sehr ernst."
+    "intro": "Wir nehmen den Schutz Ihrer persönlichen Daten sehr ernst.",
+    "section_1_title": "1. Verantwortliche Stelle",
+    "section_2_title": "2. Erhebung und Verarbeitung personenbezogener Daten",
+    "section_2_text": "Beim Besuch unserer Website werden automatisch Informationen allgemeiner Natur erfasst. Diese Informationen (Server-Logfiles) beinhalten etwa die Art des Webbrowsers, das verwendete Betriebssystem, den Domainnamen Ihres Internet-Service-Providers und ähnliches. Hierbei handelt es sich ausschließlich um Informationen, welche keine Rückschlüsse auf Ihre Person zulassen.",
+    "section_3_title": "3. Kontaktaufnahme",
+    "section_3_text": "Wenn Sie uns per E-Mail kontaktieren, werden Ihre Angaben einschließlich der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.",
+    "section_4_title": "4. Ihre Rechte",
+    "section_4_text_1": "Sie haben jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung sowie ein Recht auf Berichtigung, Sperrung oder Löschung dieser Daten.",
+    "section_4_text_2": "Hierzu sowie zu weiteren Fragen zum Thema personenbezogene Daten können Sie sich jederzeit über die im Impressum angegebenen Kontaktdaten an uns wenden.",
+    "email_label": "E-Mail"
   }
 }

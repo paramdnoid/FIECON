@@ -135,10 +135,22 @@
     "title": "Legal Notice",
     "info_title": "Information according to § 5 TMG",
     "contact_title": "Contact",
-    "register_title": "Commercial Register"
+    "phone_label": "Phone",
+    "mobile_label": "Mobile",
+    "email_label": "Email",
+    "homepage_label": "Homepage"
   },
   "datenschutz": {
     "title": "Privacy Policy",
-    "intro": "We take the protection of your personal data very seriously."
+    "intro": "We take the protection of your personal data very seriously.",
+    "section_1_title": "1. Responsible Entity",
+    "section_2_title": "2. Collection and Processing of Personal Data",
+    "section_2_text": "When visiting our website, information of a general nature is automatically collected. This information (server log files) includes the type of web browser, the operating system used, the domain name of your internet service provider and similar details. This is exclusively information that does not allow any conclusions about your person.",
+    "section_3_title": "3. Contact",
+    "section_3_text": "If you contact us by email, your details including the contact data you provide will be stored for the purpose of processing the inquiry and in case of follow-up questions. We will not share this data without your consent.",
+    "section_4_title": "4. Your Rights",
+    "section_4_text_1": "You have the right at any time to free information about your stored personal data, its origin and recipients, and the purpose of data processing, as well as the right to correction, blocking or deletion of this data.",
+    "section_4_text_2": "For this and other questions on the subject of personal data, you can contact us at any time using the contact details provided in the legal notice.",
+    "email_label": "Email"
   }
 }

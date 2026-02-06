@@ -3,6 +3,7 @@
 import { useTranslations } from "next-intl";
 import { AnimatePresence, motion } from "motion/react";
 import { NAV_LINKS } from "@/lib/constants";
+import { useActiveSection } from "@/hooks/useActiveSection";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 
 type Props = {
@@ -12,6 +13,7 @@ type Props = {
 
 export function MobileMenu({ isOpen, onClose }: Props) {
   const t = useTranslations("nav");
+  const activeSection = useActiveSection();
 
   return (
     <AnimatePresence>
@@ -33,16 +35,25 @@ export function MobileMenu({ isOpen, onClose }: Props) {
             className="fixed top-24 left-4 right-4 bg-white rounded-xl shadow-2xl border border-border-subtle z-50 lg:hidden p-6"
           >
             <nav className="flex flex-col gap-2">
-              {NAV_LINKS.map((link) => (
-                <a
-                  key={link.id}
-                  href={link.href}
-                  onClick={onClose}
-                  className="px-4 py-3 text-sm font-medium tracking-widest uppercase text-text-primary hover:text-bordeaux-900 hover:bg-beige-100 rounded-lg transition-colors duration-400"
-                >
-                  {t(link.id)}
-                </a>
-              ))}
+              {NAV_LINKS.map((link) => {
+                const isActive = activeSection === link.href;
+                return (
+                  <button
+                    key={link.id}
+                    onClick={() => {
+                      document.getElementById(link.href)?.scrollIntoView({ behavior: "smooth" });
+                      onClose();
+                    }}
+                    className={`px-4 py-3 text-left text-sm font-medium tracking-widest uppercase rounded-lg transition-colors duration-400 cursor-pointer ${
+                      isActive
+                        ? "text-bordeaux-900 bg-beige-100"
+                        : "text-text-primary hover:text-bordeaux-900 hover:bg-beige-100"
+                    }`}
+                  >
+                    {t(link.id)}
+                  </button>
+                );
+              })}
             </nav>
             <div className="mt-4 pt-4 border-t border-border-subtle flex justify-center">
               <LanguageSwitcher />

@@ -33,11 +33,11 @@ export default function ImpressumPage() {
             {t("contact_title")}
           </h2>
           <p>
-            Telefon: {CONTACT.phone}
+            {t("phone_label")}: {CONTACT.phone}
             <br />
-            Mobil: {CONTACT.mobile}
+            {t("mobile_label")}: {CONTACT.mobile}
             <br />
-            E-Mail:{" "}
+            {t("email_label")}:{" "}
             <a
               href={`mailto:${CONTACT.email}`}
               className="text-bordeaux-900 hover:text-bordeaux-700 transition-colors"
@@ -45,7 +45,7 @@ export default function ImpressumPage() {
               {CONTACT.email}
             </a>
             <br />
-            Homepage: {COMPANY.website}
+            {t("homepage_label")}: {COMPANY.website}
           </p>
         </div>
       </Container>

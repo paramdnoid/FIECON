@@ -1,6 +1,6 @@
 "use client";
 
-import type { ReactNode } from "react";
+import { type ReactNode, useEffect, useRef, useState } from "react";
 import { motion, useReducedMotion } from "motion/react";
 
 type Props = {
@@ -9,6 +9,7 @@ type Props = {
   delay?: number;
   duration?: number;
   className?: string;
+  animateOnMount?: boolean;
 };
 
 const clipPaths = {
@@ -24,10 +25,27 @@ export function SlideReveal({
   delay = 0,
   duration = 0.8,
   className = "",
+  animateOnMount = false,
 }: Props) {
   const prefersReduced = useReducedMotion();
+  const [hasAnimated, setHasAnimated] = useState(false);
+  const timeoutRef = useRef<ReturnType<typeof setTimeout>>(null);
+
+  useEffect(() => {
+    if (animateOnMount && !hasAnimated) {
+      const totalDuration = (delay + duration) * 1000;
+      timeoutRef.current = setTimeout(() => setHasAnimated(true), totalDuration);
+      return () => { if (timeoutRef.current) clearTimeout(timeoutRef.current); };
+    }
+  }, [animateOnMount, hasAnimated, delay, duration]);
 
   if (prefersReduced) {
+    return <div className={className}>{children}</div>;
+  }
+
+  // After animation completes, render a plain div so hash-navigation
+  // re-renders never flash the clipped initial state.
+  if (animateOnMount && hasAnimated) {
     return <div className={className}>{children}</div>;
   }
 
@@ -36,8 +54,10 @@ export function SlideReveal({
   return (
     <motion.div
       initial={{ clipPath: clip.hidden, opacity: 0 }}
-      whileInView={{ clipPath: clip.visible, opacity: 1 }}
-      viewport={{ once: true, margin: "0px" }}
+      {...(animateOnMount
+        ? { animate: { clipPath: clip.visible, opacity: 1 } }
+        : { whileInView: { clipPath: clip.visible, opacity: 1 }, viewport: { once: true, margin: "0px" } }
+      )}
       transition={{
         duration,
         delay,

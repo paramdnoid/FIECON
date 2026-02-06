@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 import { motion, useReducedMotion, useScroll, useTransform } from "motion/react";
 import { Container } from "@/components/ui/Container";
@@ -20,6 +20,14 @@ export function Hero() {
   const t = useTranslations("hero");
   const prefersReduced = useReducedMotion();
   const heroRef = useRef<HTMLElement>(null);
+  const [hasAnimated, setHasAnimated] = useState(false);
+
+  // After entrance animations complete (~1.5s), lock in the visible state
+  // so hash-navigation re-renders never flash the hidden initial state.
+  useEffect(() => {
+    const timer = setTimeout(() => setHasAnimated(true), 1500);
+    return () => clearTimeout(timer);
+  }, []);
 
   const { scrollYProgress } = useScroll({
     target: heroRef,
@@ -142,12 +150,10 @@ export function Hero() {
         <div className="text-center max-w-4xl mx-auto">
           {/* Tagline with decorative lines */}
           <motion.div
-            {...(!prefersReduced && {
-              initial: { opacity: 0 },
-              whileInView: { opacity: 1 },
-              viewport: { once: true },
-              transition: { duration: 0.8, delay: 0.2 },
-            })}
+            {...(!prefersReduced && (hasAnimated
+              ? { initial: false, animate: { opacity: 1 } }
+              : { initial: { opacity: 0 }, animate: { opacity: 1 }, transition: { duration: 0.8, delay: 0.2 } }
+            ))}
             className="flex items-center justify-center gap-4 mb-8"
           >
             <div className="w-8 h-px bg-linear-to-r from-transparent to-accent" />
@@ -163,6 +169,7 @@ export function Hero() {
               as="h1"
               delay={0.3}
               staggerDelay={0.1}
+              animateOnMount
               className="font-display font-light tracking-tight text-8xl sm:text-9xl lg:text-[11rem] gradient-text-hero leading-none"
             >
               FIECON
@@ -170,7 +177,7 @@ export function Hero() {
           </div>
 
           {/* Headline */}
-          <SlideReveal direction="bottom" delay={0.6} className="mb-6">
+          <SlideReveal direction="bottom" delay={0.6} animateOnMount className="mb-6">
             <p className="font-display text-2xl sm:text-3xl lg:text-4xl text-text-primary font-normal tracking-tight text-balance">
               {t("headline")}
             </p>
@@ -178,12 +185,10 @@ export function Hero() {
 
           {/* Subtitle */}
           <motion.p
-            {...(!prefersReduced && {
-              initial: { opacity: 0, y: 15 },
-              whileInView: { opacity: 1, y: 0 },
-              viewport: { once: true },
-              transition: { duration: 0.8, delay: 0.8, ease: [0.16, 1, 0.3, 1] as [number, number, number, number] },
-            })}
+            {...(!prefersReduced && (hasAnimated
+              ? { initial: false, animate: { opacity: 1, y: 0 } }
+              : { initial: { opacity: 0, y: 15 }, animate: { opacity: 1, y: 0 }, transition: { duration: 0.8, delay: 0.8, ease: [0.16, 1, 0.3, 1] as [number, number, number, number] } }
+            ))}
             className="text-lg sm:text-xl text-text-muted max-w-2xl mx-auto leading-relaxed mb-12 text-balance"
           >
             {t("subtitle")}
@@ -191,21 +196,19 @@ export function Hero() {
 
           {/* CTAs */}
           <motion.div
-            {...(!prefersReduced && {
-              initial: { opacity: 0, y: 15 },
-              whileInView: { opacity: 1, y: 0 },
-              viewport: { once: true },
-              transition: { duration: 0.6, delay: 1.0 },
-            })}
+            {...(!prefersReduced && (hasAnimated
+              ? { initial: false, animate: { opacity: 1, y: 0 } }
+              : { initial: { opacity: 0, y: 15 }, animate: { opacity: 1, y: 0 }, transition: { duration: 0.6, delay: 1.0 } }
+            ))}
             className="flex flex-col sm:flex-row gap-4 justify-center"
           >
             <MagneticButton>
-              <Button variant="primary" size="lg" href="#services">
+              <Button variant="primary" size="lg" href="services">
                 {t("cta_primary")}
               </Button>
             </MagneticButton>
             <MagneticButton>
-              <Button variant="secondary" size="lg" href="#contact">
+              <Button variant="secondary" size="lg" href="contact">
                 {t("cta_secondary")}
               </Button>
             </MagneticButton>
@@ -215,12 +218,10 @@ export function Hero() {
 
       {/* Scroll indicator */}
       <motion.div
-        {...(!prefersReduced && {
-          initial: { opacity: 0 },
-          whileInView: { opacity: 1 },
-          viewport: { once: true },
-          transition: { duration: 0.6, delay: 1.4 },
-        })}
+        {...(!prefersReduced && (hasAnimated
+          ? { initial: false, animate: { opacity: 1 } }
+          : { initial: { opacity: 0 }, animate: { opacity: 1 }, transition: { duration: 0.6, delay: 1.4 } }
+        ))}
         className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
       >
         <motion.div

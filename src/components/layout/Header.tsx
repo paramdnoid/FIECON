@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { useScrollProgress } from "@/hooks/useScrollProgress";
+import { useActiveSection } from "@/hooks/useActiveSection";
 import { NAV_LINKS } from "@/lib/constants";
 import { Container } from "@/components/ui/Container";
 import { ScrollProgress } from "@/components/animations/ScrollProgress";
@@ -12,6 +13,7 @@ import { MobileMenu } from "./MobileMenu";
 export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const scrolled = useScrollProgress();
+  const activeSection = useActiveSection();
   const t = useTranslations("nav");
 
   return (
@@ -27,7 +29,10 @@ export function Header() {
         <Container size="lg">
           <div className="flex items-center justify-between h-24">
             {/* Logo */}
-            <a href="#" className="flex items-center gap-3">
+            <button
+              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+              className="flex items-center gap-3 cursor-pointer"
+            >
               <img
                 src="/logo.svg"
                 alt="FIECON"
@@ -36,20 +41,27 @@ export function Header() {
               <span className="font-display text-xl font-normal gradient-text-hero tracking-tight">
                 FIECON
               </span>
-            </a>
+            </button>
 
             {/* Desktop Navigation */}
             <nav className="hidden lg:flex items-center gap-8">
-              {NAV_LINKS.map((link) => (
-                <a
-                  key={link.id}
-                  href={link.href}
-                  className="relative text-xs font-medium tracking-widest uppercase text-text-muted hover:text-bordeaux-900 transition-colors duration-400 group"
-                >
-                  {t(link.id)}
-                  <span className="absolute -bottom-1 left-0 w-0 h-px bg-accent transition-all duration-400 group-hover:w-full" />
-                </a>
-              ))}
+              {NAV_LINKS.map((link) => {
+                const isActive = activeSection === link.href;
+                return (
+                  <button
+                    key={link.id}
+                    onClick={() => document.getElementById(link.href)?.scrollIntoView({ behavior: "smooth" })}
+                    className={`relative text-xs font-medium tracking-widest uppercase transition-colors duration-400 group cursor-pointer ${
+                      isActive ? "text-bordeaux-900" : "text-text-muted hover:text-bordeaux-900"
+                    }`}
+                  >
+                    {t(link.id)}
+                    <span className={`absolute -bottom-1 left-0 h-px bg-accent transition-all duration-400 ${
+                      isActive ? "w-full" : "w-0 group-hover:w-full"
+                    }`} />
+                  </button>
+                );
+              })}
             </nav>
 
             {/* Right side */}

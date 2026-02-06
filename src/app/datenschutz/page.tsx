@@ -16,7 +16,7 @@ export default function DatenschutzPage() {
           <p className="text-lg">{t("intro")}</p>
 
           <h2 className="font-display text-xl font-semibold text-text-primary mt-8 mb-4">
-            1. Verantwortliche Stelle
+            {t("section_1_title")}
           </h2>
           <p>
             {COMPANY.fullName}
@@ -25,7 +25,7 @@ export default function DatenschutzPage() {
             <br />
             {CONTACT.address.zip} {CONTACT.address.city}
             <br />
-            E-Mail:{" "}
+            {t("email_label")}:{" "}
             <a
               href={`mailto:${CONTACT.email}`}
               className="text-bordeaux-900 hover:text-bordeaux-700 transition-colors"
@@ -35,42 +35,20 @@ export default function DatenschutzPage() {
           </p>
 
           <h2 className="font-display text-xl font-semibold text-text-primary mt-8 mb-4">
-            2. Erhebung und Verarbeitung personenbezogener Daten
+            {t("section_2_title")}
           </h2>
-          <p>
-            Beim Besuch unserer Website werden automatisch Informationen
-            allgemeiner Natur erfasst. Diese Informationen (Server-Logfiles)
-            beinhalten etwa die Art des Webbrowsers, das verwendete
-            Betriebssystem, den Domainnamen Ihres Internet-Service-Providers und
-            ähnliches. Hierbei handelt es sich ausschließlich um Informationen,
-            welche keine Rückschlüsse auf Ihre Person zulassen.
-          </p>
+          <p>{t("section_2_text")}</p>
 
           <h2 className="font-display text-xl font-semibold text-text-primary mt-8 mb-4">
-            3. Kontaktaufnahme
+            {t("section_3_title")}
           </h2>
-          <p>
-            Wenn Sie uns per E-Mail kontaktieren, werden Ihre Angaben
-            einschließlich der von Ihnen dort angegebenen Kontaktdaten zwecks
-            Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns
-            gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung
-            weiter.
-          </p>
+          <p>{t("section_3_text")}</p>
 
           <h2 className="font-display text-xl font-semibold text-text-primary mt-8 mb-4">
-            4. Ihre Rechte
+            {t("section_4_title")}
           </h2>
-          <p>
-            Sie haben jederzeit das Recht auf unentgeltliche Auskunft über Ihre
-            gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger
-            und den Zweck der Datenverarbeitung sowie ein Recht auf Berichtigung,
-            Sperrung oder Löschung dieser Daten.
-          </p>
-          <p>
-            Hierzu sowie zu weiteren Fragen zum Thema personenbezogene Daten
-            können Sie sich jederzeit über die im Impressum angegebenen
-            Kontaktdaten an uns wenden.
-          </p>
+          <p>{t("section_4_text_1")}</p>
+          <p>{t("section_4_text_2")}</p>
         </div>
       </Container>
     </section>
