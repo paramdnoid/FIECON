@@ -24,12 +24,12 @@ export function SectionHeading({
   return (
     <div className={`${alignment} mb-16`}>
       {badge && (
-        <span className="inline-block text-sm font-medium tracking-widest uppercase text-accent mb-4">
+        <span className="inline-block text-sm font-medium tracking-[0.4em] uppercase text-accent mb-4">
           {badge}
         </span>
       )}
       <h2
-        className={`font-display text-4xl sm:text-5xl lg:text-6xl font-semibold tracking-tight mb-6 text-balance ${
+        className={`font-display text-4xl sm:text-5xl lg:text-6xl font-light tracking-tight mb-6 text-balance ${
           gradient ? "gradient-text" : "text-text-primary"
         } ${italic ? "italic" : ""}`}
       >

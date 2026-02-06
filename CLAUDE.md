@@ -13,7 +13,7 @@ Corporate website for FIECON (Fiegler Consulting KG), an international consultin
 - **Fonts:** Playfair Display (headings) + Inter (body) via next/font
 
 ## Commands
-- `pnpm dev --port 3002` — Start dev server (ports 3000/3001 are taken)
+- `pnpm dev --port 3000`
 - `pnpm build` — Production build
 - `pnpm lint` — ESLint
 

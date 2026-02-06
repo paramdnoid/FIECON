@@ -20,16 +20,16 @@ export function Button({
   className = "",
 }: Props) {
   const base =
-    "inline-flex items-center justify-center font-medium rounded-lg transition-all duration-300 ease-out cursor-pointer hover:scale-[1.02] active:scale-[0.98]";
+    "inline-flex items-center justify-center font-medium rounded-lg transition-all duration-400 ease-out cursor-pointer";
 
   const variants = {
     primary:
       "bg-bordeaux-900 text-white hover:bg-bordeaux-700 shadow-lg shadow-bordeaux-900/20 hover:shadow-xl hover:shadow-bordeaux-700/25",
     secondary:
-      "border-2 border-bordeaux-900 text-bordeaux-900 hover:bg-bordeaux-900 hover:text-white",
+      "border border-bordeaux-900 text-bordeaux-900 hover:bg-bordeaux-900 hover:text-white",
     ghost: "text-bordeaux-900 hover:text-bordeaux-700 hover:bg-beige-200/50",
     inverse:
-      "border-2 border-white text-white hover:bg-white hover:text-bordeaux-900",
+      "border border-white text-white hover:bg-white hover:text-bordeaux-900",
   };
 
   const sizes = {

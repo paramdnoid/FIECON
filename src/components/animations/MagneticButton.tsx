@@ -12,7 +12,7 @@ type Props = {
 
 export function MagneticButton({
   children,
-  strength = 0.3,
+  strength = 0.08,
   className = "",
 }: Props) {
   const ref = useRef<HTMLDivElement>(null);

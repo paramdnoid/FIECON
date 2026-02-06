@@ -13,12 +13,19 @@ export function Footer() {
   return (
     <footer className="bg-bordeaux-900 text-beige-200 pt-20 pb-8">
       <Container size="lg">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-16 mb-16">
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
-            <span className="font-display text-2xl font-bold text-white tracking-tight block mb-4">
-              FIECON
-            </span>
+            <div className="flex items-center gap-3 mb-4">
+              <img
+                src="/logo.svg"
+                alt="FIECON"
+                className="h-9 w-9 brightness-0 invert"
+              />
+              <span className="font-display text-xl font-normal text-white tracking-tight">
+                FIECON
+              </span>
+            </div>
             <p className="text-beige-400 text-sm leading-relaxed max-w-xs">
               {t("description")}
             </p>
@@ -26,7 +33,7 @@ export function Footer() {
 
           {/* Services */}
           <div>
-            <h3 className="text-white font-semibold text-sm uppercase tracking-wider mb-4">
+            <h3 className="text-white font-medium text-sm uppercase tracking-[0.3em] mb-4">
               {t("services_title")}
             </h3>
             <ul className="space-y-3">
@@ -55,7 +62,7 @@ export function Footer() {
 
           {/* Offices */}
           <div>
-            <h3 className="text-white font-semibold text-sm uppercase tracking-wider mb-4">
+            <h3 className="text-white font-medium text-sm uppercase tracking-[0.3em] mb-4">
               {t("offices_title")}
             </h3>
             <ul className="space-y-3">
@@ -73,7 +80,7 @@ export function Footer() {
 
           {/* Legal */}
           <div>
-            <h3 className="text-white font-semibold text-sm uppercase tracking-wider mb-4">
+            <h3 className="text-white font-medium text-sm uppercase tracking-[0.3em] mb-4">
               {t("legal_title")}
             </h3>
             <ul className="space-y-3">

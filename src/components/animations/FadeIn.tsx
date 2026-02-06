@@ -12,10 +12,10 @@ type Props = {
 };
 
 const offsets = {
-  up: { y: 40 },
-  down: { y: -40 },
-  left: { x: 40 },
-  right: { x: -40 },
+  up: { y: 24 },
+  down: { y: -24 },
+  left: { x: 24 },
+  right: { x: -24 },
   none: {},
 };
 
@@ -36,7 +36,7 @@ export function FadeIn({
     <motion.div
       initial={{ opacity: 0, ...offsets[direction] }}
       whileInView={{ opacity: 1, x: 0, y: 0 }}
-      viewport={{ once: true, margin: "-80px" }}
+      viewport={{ once: true, margin: "0px" }}
       transition={{
         duration,
         delay,

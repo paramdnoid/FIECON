@@ -37,7 +37,7 @@ export function SlideReveal({
     <motion.div
       initial={{ clipPath: clip.hidden, opacity: 0 }}
       whileInView={{ clipPath: clip.visible, opacity: 1 }}
-      viewport={{ once: true, margin: "-80px" }}
+      viewport={{ once: true, margin: "0px" }}
       transition={{
         duration,
         delay,

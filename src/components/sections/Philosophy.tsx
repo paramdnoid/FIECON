@@ -4,7 +4,6 @@ import React from "react";
 import { useTranslations } from "next-intl";
 import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
-import { SlideReveal } from "@/components/animations/SlideReveal";
 import { FadeIn } from "@/components/animations/FadeIn";
 
 const VALUE_ICONS: Record<string, React.ReactNode> = {
@@ -30,42 +29,50 @@ const VALUE_ICONS: Record<string, React.ReactNode> = {
 };
 
 const VALUE_KEYS = ["expertise", "personal", "trust"] as const;
+const VALUE_NUMBERS = ["01", "02", "03"];
 
 export function Philosophy() {
   const t = useTranslations("approach");
 
   return (
-    <section id="approach" className="py-24 sm:py-32 bg-gradient-to-b from-white to-beige-50">
+    <section id="approach" className="py-32 sm:py-40 bg-beige-50">
       <Container size="lg">
         <FadeIn>
           <SectionHeading badge={t("badge")} headline={t("headline")} gradient italic />
         </FadeIn>
 
-        {/* Connecting line (hidden on mobile) */}
-        <div className="relative">
-          <div className="hidden md:block absolute top-8 left-[16.67%] right-[16.67%] h-px bg-gradient-to-r from-transparent via-beige-400/30 to-transparent" />
+        {/* Gradient divider */}
+        <div className="h-px bg-gradient-to-r from-transparent via-beige-400/30 to-transparent mb-12" />
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
-            {VALUE_KEYS.map((key, index) => (
-              <SlideReveal
-                key={key}
-                direction="bottom"
-                delay={0.1 + index * 0.15}
-              >
-                <div className="text-center relative">
-                  <div className="w-16 h-16 rounded-2xl border border-beige-200 bg-white flex items-center justify-center text-bordeaux-900 mx-auto mb-6 relative z-10">
-                    {VALUE_ICONS[key]}
-                  </div>
-                  <h3 className="font-display italic text-xl font-semibold text-text-primary mb-3">
-                    {t(`values.${key}.title`)}
-                  </h3>
-                  <p className="text-text-muted leading-relaxed max-w-xs mx-auto">
-                    {t(`values.${key}.description`)}
-                  </p>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+          {VALUE_KEYS.map((key, index) => (
+            <FadeIn
+              key={key}
+              delay={0.1 + index * 0.15}
+            >
+              <div className="group relative bg-white rounded-2xl border border-beige-200/60 p-8 text-center overflow-hidden transition-all duration-400 hover:shadow-lg hover:shadow-bordeaux-900/8 hover:border-beige-400/50">
+                {/* Accent bar top */}
+                <div className="absolute top-0 inset-x-0 h-[3px] bg-gradient-to-r from-bordeaux-900 via-bordeaux-700 to-beige-400 origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500" />
+
+                {/* Number watermark */}
+                <span className="absolute top-4 right-5 font-display text-6xl font-light text-bordeaux-900 opacity-[0.04] select-none pointer-events-none">
+                  {VALUE_NUMBERS[index]}
+                </span>
+
+                {/* Icon circle */}
+                <div className="w-14 h-14 rounded-full bg-bordeaux-900/5 group-hover:bg-bordeaux-900/10 flex items-center justify-center mx-auto mb-6 text-accent transition-colors duration-400">
+                  {VALUE_ICONS[key]}
                 </div>
-              </SlideReveal>
-            ))}
-          </div>
+
+                <h3 className="font-display italic text-xl font-normal text-text-primary mb-3">
+                  {t(`values.${key}.title`)}
+                </h3>
+                <p className="text-text-muted leading-relaxed text-sm max-w-xs mx-auto">
+                  {t(`values.${key}.description`)}
+                </p>
+              </div>
+            </FadeIn>
+          ))}
         </div>
       </Container>
     </section>

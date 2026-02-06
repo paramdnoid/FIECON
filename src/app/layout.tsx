@@ -2,21 +2,23 @@ import type { ReactNode } from "react";
 import type { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages, getTranslations } from "next-intl/server";
-import { Inter, Playfair_Display } from "next/font/google";
+import { Cormorant_Garamond, DM_Sans } from "next/font/google";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import "@/app/globals.css";
 
-const inter = Inter({
+const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
-  variable: "--font-inter",
+  variable: "--font-cormorant",
+  weight: ["300", "400", "500", "600"],
+  style: ["normal", "italic"],
   display: "swap",
 });
 
-const playfair = Playfair_Display({
+const dmSans = DM_Sans({
   subsets: ["latin"],
-  variable: "--font-playfair",
-  style: ["normal", "italic"],
+  variable: "--font-dm-sans",
+  weight: ["400", "500"],
   display: "swap",
 });
 
@@ -51,7 +53,7 @@ export default async function RootLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} className={`${inter.variable} ${playfair.variable}`}>
+    <html lang={locale} className={`${cormorant.variable} ${dmSans.variable}`}>
       <body className="bg-surface text-text-primary font-body antialiased">
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Header />

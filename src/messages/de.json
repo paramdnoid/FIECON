@@ -38,15 +38,18 @@
     },
     "finance": {
       "title": "Finanzverwaltung",
-      "description": "Professionelle Verwaltung und Optimierung Ihrer Finanzen. Transparente Prozesse und strategische Planung für nachhaltiges Wachstum."
+      "description": "Professionelle Verwaltung und Optimierung Ihrer Finanzen. Transparente Prozesse und strategische Planung für nachhaltiges Wachstum.",
+      "items": "Buchhaltung, Strategische Planung"
     },
     "construction": {
       "title": "Baufinanzverwaltung",
-      "description": "Spezialisierte Finanzierungslösungen für Bauprojekte. Von der Planung bis zur Fertigstellung — wir sichern Ihre Investitionen ab."
+      "description": "Spezialisierte Finanzierungslösungen für Bauprojekte. Von der Planung bis zur Fertigstellung — wir sichern Ihre Investitionen ab.",
+      "items": "Projektfinanzierung, Investitionssicherung"
     },
     "yacht": {
       "title": "Yachtbau Finanzverwaltung",
-      "description": "Exklusive Finanzierungsberatung für den Yachtbau. Maßgeschneiderte Lösungen für ein anspruchsvolles Marktsegment."
+      "description": "Exklusive Finanzierungsberatung für den Yachtbau. Maßgeschneiderte Lösungen für ein anspruchsvolles Marktsegment.",
+      "items": "Yachtfinanzierung, Exklusive Beratung"
     }
   },
   "approach": {
@@ -95,7 +98,29 @@
     "mobile": "Mobil",
     "email": "E-Mail",
     "address": "Adresse",
-    "cta": "E-Mail schreiben"
+    "cta": "E-Mail schreiben",
+    "dialog": {
+      "title": "Nachricht senden",
+      "panel_subtitle": "Wir freuen uns auf Ihre Anfrage und melden uns zeitnah bei Ihnen zurück.",
+      "name": "Name",
+      "name_placeholder": "Ihr vollständiger Name",
+      "email": "E-Mail-Adresse",
+      "email_placeholder": "ihre@email.de",
+      "subject": "Betreff",
+      "subject_placeholder": "Worum geht es?",
+      "message": "Nachricht",
+      "message_placeholder": "Ihre Nachricht an uns...",
+      "submit": "Nachricht senden",
+      "sending": "Wird gesendet...",
+      "success_title": "Nachricht gesendet",
+      "success_text": "Vielen Dank! Wir melden uns in Kürze bei Ihnen.",
+      "error_title": "Fehler",
+      "error_text": "Die Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut.",
+      "retry": "Erneut versuchen",
+      "close": "Schließen",
+      "required": "Pflichtfeld",
+      "invalid_email": "Ungültige E-Mail-Adresse"
+    }
   },
   "footer": {
     "description": "FIECON Germany Co. KG for International Consulting Industries — Ihr Partner für internationale Unternehmensberatung.",

@@ -30,7 +30,7 @@ export function MobileMenu({ isOpen, onClose }: Props) {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
-            className="fixed top-20 left-4 right-4 bg-white rounded-2xl shadow-2xl border border-border-subtle z-50 lg:hidden p-6"
+            className="fixed top-24 left-4 right-4 bg-white rounded-xl shadow-2xl border border-border-subtle z-50 lg:hidden p-6"
           >
             <nav className="flex flex-col gap-2">
               {NAV_LINKS.map((link) => (
@@ -38,7 +38,7 @@ export function MobileMenu({ isOpen, onClose }: Props) {
                   key={link.id}
                   href={link.href}
                   onClick={onClose}
-                  className="px-4 py-3 text-lg font-medium text-text-primary hover:text-bordeaux-900 hover:bg-beige-100 rounded-lg transition-colors"
+                  className="px-4 py-3 text-sm font-medium tracking-widest uppercase text-text-primary hover:text-bordeaux-900 hover:bg-beige-100 rounded-lg transition-colors duration-400"
                 >
                   {t(link.id)}
                 </a>

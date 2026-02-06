@@ -3,33 +3,20 @@
 import { useTranslations } from "next-intl";
 import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
-import { Badge } from "@/components/ui/Badge";
-import { SlideReveal } from "@/components/animations/SlideReveal";
 import { FadeIn } from "@/components/animations/FadeIn";
 import { OFFICES } from "@/lib/constants";
 
-const OFFICE_DECORATIONS: Record<string, { emoji: string; gradient: string }> = {
-  hamburg: {
-    emoji: "DE",
-    gradient: "from-bordeaux-900/10 to-beige-200/50",
-  },
-  belgrade: {
-    emoji: "RS",
-    gradient: "from-accent/10 to-beige-200/50",
-  },
-  texas: {
-    emoji: "US",
-    gradient: "from-bordeaux-700/10 to-beige-200/50",
-  },
+const COUNTRY_CODES: Record<string, string> = {
+  hamburg: "DE",
+  belgrade: "RS",
+  texas: "US",
 };
-
-const DIRECTIONS = ["left", "bottom", "right"] as const;
 
 export function Offices() {
   const t = useTranslations("offices");
 
   return (
-    <section id="offices" className="py-24 sm:py-32">
+    <section id="offices" className="py-32 sm:py-40">
       <Container size="lg">
         <FadeIn>
           <SectionHeading
@@ -40,46 +27,71 @@ export function Offices() {
         </FadeIn>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
-          {OFFICES.map((office, i) => {
-            const decoration = OFFICE_DECORATIONS[office.id];
-            return (
-              <SlideReveal
-                key={office.id}
-                direction={DIRECTIONS[i]}
-                delay={0.1 + i * 0.12}
+          {OFFICES.map((office, i) => (
+            <FadeIn key={office.id} delay={0.1 + i * 0.12}>
+              <div
+                className={`group relative overflow-hidden rounded-2xl transition-all duration-500 hover:-translate-y-1 ${
+                  office.isHQ
+                    ? "bg-bordeaux-900 text-white shadow-xl shadow-bordeaux-900/20"
+                    : "bg-white border border-border-subtle hover:border-beige-400 hover:shadow-lg hover:shadow-bordeaux-900/5"
+                }`}
               >
-                <div className="group relative p-8 lg:p-10 bg-white rounded-2xl border border-border-subtle hover:border-beige-400 transition-all duration-500 hover:shadow-2xl hover:shadow-bordeaux-900/8 hover:scale-[1.02] overflow-hidden">
-                  {/* Decorative gradient */}
+                {/* Top accent bar */}
+                {!office.isHQ && (
+                  <div className="h-1 bg-linear-to-r from-bordeaux-900 via-bordeaux-700 to-beige-400" />
+                )}
+
+                <div className="p-8 lg:p-10">
+                  {/* Country code as large watermark */}
+                  <span
+                    className={`absolute top-4 right-6 font-display text-7xl lg:text-8xl font-bold select-none pointer-events-none ${
+                      office.isHQ
+                        ? "text-white/10"
+                        : "text-beige-200/60"
+                    }`}
+                  >
+                    {COUNTRY_CODES[office.id]}
+                  </span>
+
+                  {/* Label / Region tag */}
+                  <p
+                    className={`text-xs font-semibold tracking-widest uppercase mb-6 ${
+                      office.isHQ
+                        ? "text-beige-400"
+                        : "text-accent"
+                    }`}
+                  >
+                    {t(`${office.id}.label`)}
+                  </p>
+
+                  {/* City */}
+                  <h3
+                    className={`font-display text-3xl lg:text-4xl font-normal mb-2 ${
+                      office.isHQ ? "text-white" : "text-text-primary"
+                    }`}
+                  >
+                    {t(`${office.id}.city`)}
+                  </h3>
+
+                  {/* Country */}
+                  <p
+                    className={`text-sm ${
+                      office.isHQ ? "text-beige-200" : "text-text-muted"
+                    }`}
+                  >
+                    {t(`${office.id}.country`)}
+                  </p>
+
+                  {/* Decorative diamond */}
                   <div
-                    className={`absolute top-0 left-0 right-0 h-1 bg-gradient-to-r ${decoration.gradient} opacity-0 group-hover:opacity-100 transition-opacity duration-500`}
+                    className={`mt-8 w-3 h-3 rotate-45 ${
+                      office.isHQ ? "bg-beige-400" : "bg-bordeaux-900"
+                    }`}
                   />
-
-                  {/* Country code */}
-                  <div className="w-14 h-14 rounded-xl border border-beige-200 bg-beige-50 flex items-center justify-center text-bordeaux-900 font-bold text-sm mb-6 group-hover:bg-beige-100 group-hover:border-beige-400 transition-all duration-300">
-                    {decoration.emoji}
-                  </div>
-
-                  {/* Content */}
-                  <div className="flex items-start justify-between mb-2">
-                    <h3 className="font-display text-2xl font-semibold text-text-primary">
-                      {t(`${office.id}.city`)}
-                    </h3>
-                    {office.isHQ && (
-                      <Badge variant="accent">
-                        {t(`${office.id}.label`)}
-                      </Badge>
-                    )}
-                  </div>
-                  <p className="text-text-muted">{t(`${office.id}.country`)}</p>
-                  {!office.isHQ && (
-                    <p className="text-xs text-accent mt-2 font-medium">
-                      {t(`${office.id}.label`)}
-                    </p>
-                  )}
                 </div>
-              </SlideReveal>
-            );
-          })}
+              </div>
+            </FadeIn>
+          ))}
         </div>
       </Container>
     </section>

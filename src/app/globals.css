@@ -23,8 +23,8 @@
   --color-border-subtle: #F0E8E0;
 
   /* === Typography === */
-  --font-display: "Playfair Display", Georgia, serif;
-  --font-body: "Inter", system-ui, sans-serif;
+  --font-display: "Cormorant Garamond", Georgia, serif;
+  --font-body: "DM Sans", system-ui, sans-serif;
 
   /* === Animation Timing === */
   --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
@@ -33,7 +33,7 @@
 /* === Base Styles === */
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 5rem;
+  scroll-padding-top: 6rem;
 }
 
 body {

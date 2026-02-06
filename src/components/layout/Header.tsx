@@ -25,10 +25,15 @@ export function Header() {
         }`}
       >
         <Container size="lg">
-          <div className="flex items-center justify-between h-20">
+          <div className="flex items-center justify-between h-24">
             {/* Logo */}
-            <a href="#" className="flex items-center gap-2">
-              <span className="font-display text-2xl font-bold gradient-text-hero tracking-tight">
+            <a href="#" className="flex items-center gap-3">
+              <img
+                src="/logo.svg"
+                alt="FIECON"
+                className="h-9 w-9"
+              />
+              <span className="font-display text-xl font-normal gradient-text-hero tracking-tight">
                 FIECON
               </span>
             </a>
@@ -39,10 +44,10 @@ export function Header() {
                 <a
                   key={link.id}
                   href={link.href}
-                  className="relative text-sm font-medium text-text-muted hover:text-bordeaux-900 transition-colors group"
+                  className="relative text-xs font-medium tracking-widest uppercase text-text-muted hover:text-bordeaux-900 transition-colors duration-400 group"
                 >
                   {t(link.id)}
-                  <span className="absolute -bottom-1 left-0 w-0 h-px bg-bordeaux-900 transition-all duration-300 group-hover:w-full" />
+                  <span className="absolute -bottom-1 left-0 w-0 h-px bg-accent transition-all duration-400 group-hover:w-full" />
                 </a>
               ))}
             </nav>
@@ -65,7 +70,7 @@ export function Header() {
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
-                  strokeWidth="2"
+                  strokeWidth="1.5"
                   strokeLinecap="round"
                 >
                   {menuOpen ? (
