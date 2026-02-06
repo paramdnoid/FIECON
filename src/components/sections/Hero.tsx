@@ -44,12 +44,12 @@ export function Hero() {
         <div className="absolute -top-32 -right-32 w-150 h-150 bg-beige-200/20 rounded-full blur-3xl" />
 
         {/* Layer 3: Bordeaux blob bottom-left (new) */}
-        <div className="absolute -bottom-48 -left-40 w-[30rem] h-[30rem] bg-bordeaux-500/[0.06] rounded-full blur-3xl" />
+        <div className="absolute -bottom-48 -left-40 w-120 h-120 bg-bordeaux-500/6 rounded-full blur-3xl" />
 
         {/* Layer 4: Logo watermark */}
         <motion.svg
           viewBox="0 0 1536 1536"
-          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[40rem] h-[40rem] sm:w-[50rem] sm:h-[50rem] lg:w-[60rem] lg:h-[60rem]"
+          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-160 h-160 sm:w-200 sm:h-200 lg:w-240 lg:h-240"
           style={!prefersReduced ? { y: logoY, scale: logoScale } : undefined}
           {...(!prefersReduced && {
             initial: { opacity: 0, scale: 0.95 },
@@ -70,7 +70,7 @@ export function Hero() {
 
         {/* Layer 5: Diagonal accent lines */}
         <motion.div
-          className="absolute top-[15%] left-[10%] w-px h-32 bg-linear-to-b from-bordeaux-900/[0.06] to-transparent origin-top rotate-[25deg]"
+          className="absolute top-[15%] left-[10%] w-px h-32 bg-linear-to-b from-bordeaux-900/6 to-transparent origin-top rotate-25"
           {...(!prefersReduced && {
             initial: { scaleY: 0, opacity: 0 },
             animate: { scaleY: 1, opacity: 1 },
@@ -78,7 +78,7 @@ export function Hero() {
           })}
         />
         <motion.div
-          className="absolute bottom-[20%] right-[12%] w-px h-24 bg-linear-to-t from-accent/[0.08] to-transparent origin-bottom -rotate-[20deg]"
+          className="absolute bottom-[20%] right-[12%] w-px h-24 bg-linear-to-t from-accent/8 to-transparent origin-bottom -rotate-20"
           {...(!prefersReduced && {
             initial: { scaleY: 0, opacity: 0 },
             animate: { scaleY: 1, opacity: 1 },

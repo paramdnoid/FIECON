@@ -13,7 +13,7 @@ Corporate website for FIECON (Fiegler Consulting KG), an international consultin
 - **Fonts:** Playfair Display (headings) + Inter (body) via next/font
 
 ## Commands
-- `pnpm dev --port 3000`
+- `pnpm dev --port 3002` — Dev server (ports 3000/3001 used by other projects)
 - `pnpm build` — Production build
 - `pnpm lint` — ESLint
 
@@ -32,13 +32,16 @@ src/
 │   ├── page.tsx        # Homepage (single-page scroll, 7 sections)
 │   ├── layout.tsx      # Root layout
 │   ├── globals.css     # Global styles + Tailwind
+│   ├── api/contact/    # POST endpoint (nodemailer)
 │   ├── impressum/      # Legal: Impressum
 │   └── datenschutz/    # Legal: Datenschutz
 ├── components/
-│   ├── animations/     # FadeIn, StaggerChildren, CountUp, ParallaxLayer, etc.
+│   ├── animations/     # FadeIn, StaggerChildren, CountUp, ParallaxLayer,
+│   │                   # ScrollProgress, TextReveal, SlideReveal, MagneticButton
 │   ├── layout/         # Header, Footer, LanguageSwitcher, MobileMenu
 │   ├── sections/       # Hero, About, Services, Philosophy, Offices, Contact
-│   └── ui/             # Button, Badge, Container, SectionHeading, etc.
+│   └── ui/             # Button, Badge, Container, SectionHeading,
+│                       # SectionDivider, GradientText, ContactDialog
 ├── hooks/              # useReducedMotion, useScrollProgress
 ├── i18n/               # next-intl routing + request config
 ├── lib/                # constants.ts (company data), utils.ts
