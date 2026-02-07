@@ -1,6 +1,7 @@
 import { describe, it, expect } from "vitest";
 import robots from "@/app/robots";
 import sitemap from "@/app/sitemap";
+import { routing } from "@/i18n/routing";
 
 describe("robots()", () => {
   const result = robots();
@@ -26,31 +27,36 @@ describe("robots()", () => {
 
 describe("sitemap()", () => {
   const result = sitemap();
+  const localeCount = routing.locales.length;
 
-  it("returns exactly 3 entries", () => {
-    expect(result).toHaveLength(3);
+  it("returns entries for all locales × 3 pages", () => {
+    expect(result).toHaveLength(localeCount * 3);
   });
 
-  it("has the homepage as first entry with priority 1", () => {
-    expect(result[0].url).toBe("https://www.fiecon-consulting.eu");
-    expect(result[0].priority).toBe(1);
-    expect(result[0].changeFrequency).toBe("monthly");
+  it("includes homepage for every locale with priority 1", () => {
+    const homepages = result.filter((e) => e.priority === 1);
+    expect(homepages).toHaveLength(localeCount);
+    for (const locale of routing.locales) {
+      expect(homepages.find((e) => e.url === `https://www.fiecon-consulting.eu/${locale}`)).toBeDefined();
+    }
   });
 
-  it("has impressum as second entry with low priority", () => {
-    expect(result[1].url).toBe(
-      "https://www.fiecon-consulting.eu/impressum",
+  it("includes impressum for every locale with low priority", () => {
+    const impressumEntries = result.filter((e) =>
+      e.url.endsWith("/impressum"),
     );
-    expect(result[1].priority).toBe(0.3);
-    expect(result[1].changeFrequency).toBe("yearly");
+    expect(impressumEntries).toHaveLength(localeCount);
+    expect(impressumEntries[0].priority).toBe(0.3);
+    expect(impressumEntries[0].changeFrequency).toBe("yearly");
   });
 
-  it("has datenschutz as third entry with low priority", () => {
-    expect(result[2].url).toBe(
-      "https://www.fiecon-consulting.eu/datenschutz",
+  it("includes datenschutz for every locale with low priority", () => {
+    const datenschutzEntries = result.filter((e) =>
+      e.url.endsWith("/datenschutz"),
     );
-    expect(result[2].priority).toBe(0.3);
-    expect(result[2].changeFrequency).toBe("yearly");
+    expect(datenschutzEntries).toHaveLength(localeCount);
+    expect(datenschutzEntries[0].priority).toBe(0.3);
+    expect(datenschutzEntries[0].changeFrequency).toBe("yearly");
   });
 
   it("includes lastModified as Date on all entries", () => {

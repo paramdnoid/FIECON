@@ -74,7 +74,15 @@ export async function POST(request: Request) {
   if (isRateLimited(ip)) {
     return NextResponse.json(
       { error: "Too many requests" },
-      { status: 429 },
+      { status: 429, headers: { "Retry-After": "60" } },
+    );
+  }
+
+  const contentType = request.headers.get("content-type");
+  if (!contentType?.includes("application/json")) {
+    return NextResponse.json(
+      { error: "Content-Type must be application/json" },
+      { status: 415 },
     );
   }
 

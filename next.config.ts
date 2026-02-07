@@ -4,9 +4,9 @@ import createNextIntlPlugin from "next-intl/plugin";
 const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 
 const nextConfig: NextConfig = {
-  allowedDevOrigins: [
-    `${process.env.DEV_HOST ?? "192.168.178.36"}:3000`,
-  ],
+  allowedDevOrigins: process.env.DEV_HOST
+    ? [`${process.env.DEV_HOST}:3000`]
+    : [],
   /**
    * Security headers applied to every response.
    *

@@ -116,7 +116,7 @@ html {
 
 /* Keyboard focus indicator for all interactive elements */
 :focus-visible {
-  outline: 2px solid var(--color-accent);
+  outline: 2px solid var(--color-bordeaux-900);
   outline-offset: 2px;
 }
 

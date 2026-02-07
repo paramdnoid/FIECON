@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { AnimatePresence, motion } from "motion/react";
@@ -20,6 +20,7 @@ export function MobileMenu({ isOpen, onClose }: Props) {
   const t = useTranslations("nav");
   const activeSection = useActiveSection();
   const trapRef = useFocusTrap(isOpen);
+  const closeButtonRef = useRef<HTMLButtonElement>(null);
 
   // Lock body scroll when open
   useEffect(() => {
@@ -31,6 +32,14 @@ export function MobileMenu({ isOpen, onClose }: Props) {
     return () => {
       document.body.style.overflow = "";
     };
+  }, [isOpen]);
+
+  // Focus close button when menu opens
+  useEffect(() => {
+    if (isOpen) {
+      const timer = setTimeout(() => closeButtonRef.current?.focus(), 150);
+      return () => clearTimeout(timer);
+    }
   }, [isOpen]);
 
   // Close on Escape key
@@ -83,6 +92,7 @@ export function MobileMenu({ isOpen, onClose }: Props) {
                 </span>
               </div>
               <button
+                ref={closeButtonRef}
                 type="button"
                 onClick={onClose}
                 className="p-2 text-text-primary hover:text-bordeaux-900 transition-colors cursor-pointer"

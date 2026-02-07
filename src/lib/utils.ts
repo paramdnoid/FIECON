@@ -6,7 +6,7 @@ export function cn(...inputs: (string | undefined | null | false)[]) {
  * Validates an email address format.
  * Requires: valid local part, domain with dots, TLD of at least 2 letters.
  */
-export const EMAIL_REGEX = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+export const EMAIL_REGEX = /^[a-zA-Z0-9](?:[a-zA-Z0-9._%+-]*[a-zA-Z0-9])?@[a-zA-Z0-9](?:[a-zA-Z0-9.-]*[a-zA-Z0-9])?\.[a-zA-Z]{2,}$/;
 
 export function escapeHtml(str: string): string {
   return str

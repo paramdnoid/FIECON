@@ -70,10 +70,25 @@ describe("POST /api/contact", () => {
     process.env.SMTP_PASS = "password123";
   });
 
-  it("returns 400 for invalid JSON body", async () => {
+  it("returns 415 for missing Content-Type header", async () => {
     const req = new Request("http://localhost:3000/api/contact", {
       method: "POST",
       headers: { "x-forwarded-for": "10.0.0.1" },
+      body: "not json",
+    });
+    const res = await POST(req);
+    expect(res.status).toBe(415);
+    const json = await res.json();
+    expect(json.error).toBe("Content-Type must be application/json");
+  });
+
+  it("returns 400 for invalid JSON body", async () => {
+    const req = new Request("http://localhost:3000/api/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "x-forwarded-for": "10.0.0.1",
+      },
       body: "not json",
     });
     const res = await POST(req);

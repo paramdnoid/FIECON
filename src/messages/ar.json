@@ -16,7 +16,8 @@
     "offices": "المكاتب",
     "contact": "اتصل بنا",
     "navigation": "التنقل",
-    "close_menu": "إغلاق القائمة"
+    "close_menu": "إغلاق القائمة",
+    "skip_to_content": "انتقل إلى المحتوى"
   },
   "hero": {
     "tagline": "Fiegler Consulting",
@@ -137,9 +138,9 @@
       "success_text": "شكرًا جزيلًا! سنتواصل معكم قريبًا.",
       "error_title": "خطأ",
       "error_text": "تعذر إرسال الرسالة. يرجى المحاولة مرة أخرى.",
-      "error_network_text": "Please check your internet connection and try again.",
-      "error_timeout_text": "The server is not responding. Please try again later.",
-      "error_rate_limit_text": "Too many requests. Please wait a moment and try again.",
+      "error_network_text": "يرجى التحقق من اتصالك بالإنترنت والمحاولة مرة أخرى.",
+      "error_timeout_text": "الخادم لا يستجيب. يرجى المحاولة مرة أخرى لاحقًا.",
+      "error_rate_limit_text": "طلبات كثيرة جدًا. يرجى الانتظار لحظة والمحاولة مرة أخرى.",
       "retry": "إعادة المحاولة",
       "close": "إغلاق",
       "required": "حقل مطلوب",

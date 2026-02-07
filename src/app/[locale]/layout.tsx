@@ -11,17 +11,47 @@ const OG_LOCALE_MAP: Record<string, string> = {
   de: "de_DE",
   en: "en_US",
   nds: "de_DE",
-  tr: "tr_TR",
-  ar: "ar_SA",
+  fr: "fr_FR",
+  it: "it_IT",
+  es: "es_ES",
+  pt: "pt_PT",
+  nl: "nl_NL",
+  lb: "de_LU",
+  ca: "ca_ES",
+  gl: "gl_ES",
+  eu: "eu_ES",
+  cy: "cy_GB",
+  ga: "ga_IE",
+  is: "is_IS",
+  sv: "sv_SE",
+  no: "nb_NO",
+  da: "da_DK",
+  fi: "fi_FI",
+  et: "et_EE",
+  lv: "lv_LV",
+  lt: "lt_LT",
   pl: "pl_PL",
-  ru: "ru_RU",
+  cs: "cs_CZ",
+  sk: "sk_SK",
+  hu: "hu_HU",
+  ro: "ro_RO",
+  sl: "sl_SI",
+  hr: "hr_HR",
+  bs: "bs_BA",
   "sr-Cyrl": "sr_RS",
   "sr-Latn": "sr_RS",
-  hu: "hu_HU",
-  bs: "bs_BA",
-  hr: "hr_HR",
+  mk: "mk_MK",
+  sq: "sq_AL",
+  mt: "mt_MT",
+  el: "el_GR",
+  bg: "bg_BG",
+  ru: "ru_RU",
+  uk: "uk_UA",
+  be: "be_BY",
+  ka: "ka_GE",
+  tr: "tr_TR",
+  ar: "ar_SA",
   rom: "de_DE",
-  es: "es_ES",
 };
 
 export function generateStaticParams() {
@@ -38,7 +68,7 @@ export async function generateMetadata({
 
   const languages: Record<string, string> = {};
   for (const l of LOCALES) {
-    languages[l.code] = "/";
+    languages[l.code] = `/${l.code}`;
   }
 
   return {
@@ -46,7 +76,7 @@ export async function generateMetadata({
     description: t("description"),
     metadataBase: new URL("https://www.fiecon-consulting.eu"),
     alternates: {
-      canonical: "/",
+      canonical: `/${locale}`,
       languages,
     },
     openGraph: {
@@ -70,9 +100,16 @@ export default async function LocaleLayout({
   const { locale } = await params;
   setRequestLocale(locale);
   const messages = await getMessages();
+  const tNav = await getTranslations({ locale, namespace: "nav" });
 
   return (
     <>
+      <a
+        href="#main"
+        className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:px-4 focus:py-2 focus:bg-bordeaux-900 focus:text-white focus:rounded-lg focus:text-sm focus:font-medium"
+      >
+        {tNav("skip_to_content")}
+      </a>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -95,7 +132,7 @@ export default async function LocaleLayout({
       />
       <NextIntlClientProvider locale={locale} messages={messages}>
         <Header />
-        <main>{children}</main>
+        <main id="main">{children}</main>
         <Footer />
       </NextIntlClientProvider>
     </>

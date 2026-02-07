@@ -49,11 +49,18 @@ export function ContactDialog({ open, onClose }: Props) {
     message: "",
   });
 
-  // Focus first input on open
+  // Capture the element that triggered the dialog for focus restoration
+  const triggerRef = useRef<Element | null>(null);
+
+  // Focus first input on open; restore focus on close
   useEffect(() => {
     if (open) {
+      triggerRef.current = document.activeElement;
       const timer = setTimeout(() => firstInputRef.current?.focus(), 150);
       return () => clearTimeout(timer);
+    } else if (triggerRef.current instanceof HTMLElement) {
+      triggerRef.current.focus();
+      triggerRef.current = null;
     }
   }, [open]);
 
@@ -134,6 +141,7 @@ export function ContactDialog({ open, onClose }: Props) {
     setTimeout(() => {
       setFormState("idle");
       setErrors({});
+      setForm({ name: "", email: "", subject: "", message: "" });
     }, 300);
   }
 
@@ -198,7 +206,7 @@ export function ContactDialog({ open, onClose }: Props) {
                   <h2 className="font-display text-4xl font-light leading-tight mb-3">
                     {t("title")}
                   </h2>
-                  <p className="text-beige-200/70 text-sm leading-relaxed">
+                  <p className="text-beige-200 text-sm leading-relaxed">
                     {t("panel_subtitle")}
                   </p>
                 </div>
@@ -206,19 +214,19 @@ export function ContactDialog({ open, onClose }: Props) {
 
               <div className="relative z-10 space-y-6 text-sm">
                 <div>
-                  <p className="text-beige-400/50 text-xs font-medium tracking-[0.2em] uppercase mb-1.5">
+                  <p className="text-beige-400 text-xs font-medium tracking-[0.2em] uppercase mb-1.5">
                     {tContact("email")}
                   </p>
                   <p className="text-beige-100 break-all">{CONTACT.email}</p>
                 </div>
                 <div>
-                  <p className="text-beige-400/50 text-xs font-medium tracking-[0.2em] uppercase mb-1.5">
+                  <p className="text-beige-400 text-xs font-medium tracking-[0.2em] uppercase mb-1.5">
                     {tContact("phone")}
                   </p>
                   <p className="text-beige-100">{CONTACT.phone}</p>
                 </div>
                 <div>
-                  <p className="text-beige-400/50 text-xs font-medium tracking-[0.2em] uppercase mb-1.5">
+                  <p className="text-beige-400 text-xs font-medium tracking-[0.2em] uppercase mb-1.5">
                     {tContact("address")}
                   </p>
                   <p className="text-beige-100 leading-relaxed">
@@ -230,7 +238,7 @@ export function ContactDialog({ open, onClose }: Props) {
 
                 <div className="pt-2 flex items-center gap-3">
                   <div className="w-2 h-2 rotate-45 bg-beige-400/30" />
-                  <p className="text-beige-400/30 text-xs">
+                  <p className="text-beige-400/60 text-xs">
                     {COMPANY.fullName}
                   </p>
                 </div>
