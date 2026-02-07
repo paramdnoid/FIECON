@@ -5,10 +5,12 @@ import { Philosophy } from "@/components/sections/Philosophy";
 import { Offices } from "@/components/sections/Offices";
 import { Contact } from "@/components/sections/Contact";
 import { SectionDivider } from "@/components/ui/SectionDivider";
+import { ScrollToSection } from "@/components/ScrollToSection";
 
 export default function HomePage() {
   return (
     <>
+      <ScrollToSection />
       <Hero />
       <SectionDivider variant="diamond" />
       <About />

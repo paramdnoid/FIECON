@@ -58,7 +58,11 @@ export function MobileMenu({ isOpen, onClose }: Props) {
                   <button
                     key={link.id}
                     onClick={() => {
-                      document.getElementById(link.href)?.scrollIntoView({ behavior: "smooth" });
+                      const el = document.getElementById(link.href);
+                      if (el) {
+                        const top = el.getBoundingClientRect().top + window.scrollY - 96;
+                        window.scrollTo({ top, behavior: "smooth" });
+                      }
                       onClose();
                     }}
                     className={`px-4 py-3 text-left text-sm font-medium tracking-widest uppercase rounded-lg transition-colors duration-400 cursor-pointer ${

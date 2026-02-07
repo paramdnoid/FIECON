@@ -32,7 +32,10 @@ export function Header() {
             {/* Logo */}
             <button
               type="button"
-              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+              onClick={() => {
+                window.scrollTo({ top: 0, behavior: "smooth" });
+                window.history.replaceState(null, "", "/");
+              }}
               className="flex items-center gap-3 cursor-pointer"
               aria-label={t("home")}
             >
@@ -55,7 +58,15 @@ export function Header() {
                 return (
                   <a
                     key={link.id}
-                    href={`#${link.href}`}
+                    href={`/${link.href}`}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      const el = document.getElementById(link.href);
+                      if (el) {
+                        const top = el.getBoundingClientRect().top + window.scrollY - 96;
+                        window.scrollTo({ top, behavior: "smooth" });
+                      }
+                    }}
                     aria-current={isActive ? "true" : undefined}
                     className={`relative text-xs font-medium tracking-widest uppercase transition-colors duration-400 group ${
                       isActive ? "text-bordeaux-900" : "text-text-muted hover:text-bordeaux-900"
