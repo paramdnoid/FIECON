@@ -10,3 +10,8 @@ export function escapeHtml(str: string): string {
     .replace(/"/g, "&quot;")
     .replace(/'/g, "&#39;");
 }
+
+/** Strip characters that could inject additional email headers (CRLF injection). */
+export function sanitizeHeaderValue(str: string): string {
+  return str.replace(/[\r\n\t]/g, "").trim();
+}

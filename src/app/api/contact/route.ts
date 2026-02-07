@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
-import { escapeHtml } from "@/lib/utils";
+import { escapeHtml, sanitizeHeaderValue } from "@/lib/utils";
 
 type ContactBody = {
   name: string;
@@ -136,8 +136,8 @@ export async function POST(request: Request) {
     await transporter.sendMail({
       from: process.env.SMTP_FROM || process.env.SMTP_USER,
       to: recipient,
-      replyTo: `${name} <${email}>`,
-      subject: `[FIECON Kontakt] ${subject}`,
+      replyTo: `${sanitizeHeaderValue(name)} <${sanitizeHeaderValue(email)}>`,
+      subject: `[FIECON Kontakt] ${sanitizeHeaderValue(subject)}`,
       text: [
         `Name: ${name}`,
         `E-Mail: ${email}`,
