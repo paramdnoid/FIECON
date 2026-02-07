@@ -23,8 +23,8 @@
   --color-border-subtle: #F0E8E0;
 
   /* === Typography === */
-  --font-display: "Cormorant Garamond", Georgia, serif;
-  --font-hero: var(--font-cinzel), "Cinzel", Georgia, serif;
+  --font-display: var(--font-playfair), "Playfair Display", Georgia, serif;
+  --font-hero: var(--font-playfair), "Playfair Display", Georgia, serif;
   --font-body: "DM Sans", system-ui, sans-serif;
 
   /* === Animation Timing === */

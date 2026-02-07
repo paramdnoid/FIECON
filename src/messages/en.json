@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "FIECON — International Business Consulting",
-    "description": "FIECON Germany Co. KG — International business consulting for corporate law, company formations, financial administration and construction finance. Offices in Hamburg, Belgrade and Texas."
+    "title": "FIECON — International Corporate Law & Company Formation Advisory",
+    "description": "FIECON Germany Co. KG — International advisory for corporate law, company formations, financial administration and construction finance. Offices in Hamburg, Belgrade and Texas."
   },
   "nav": {
     "home": "Go to homepage",
@@ -14,28 +14,29 @@
   },
   "hero": {
     "tagline": "Fiegler Consulting",
-    "headline": "International Consulting Excellence",
-    "subtitle": "Corporate law, company formations and financial administration — with presence in Hamburg, Belgrade and Texas.",
+    "headline": "Your Business. Internationally Advised.",
+    "subtitle": "Corporate law and international company formations — personal guidance in Hamburg, Belgrade and Texas.",
     "cta_primary": "Our Services",
     "cta_secondary": "Get in Touch"
   },
   "about": {
     "badge": "About Us",
-    "headline": "Excellence in international consulting",
-    "text_1": "FIECON Germany Co. KG for International Consulting Industries combines deep expertise in corporate law with international reach. From our offices in Hamburg, Belgrade and Texas, we support businesses expanding across borders.",
-    "text_2": "Our team delivers tailored solutions for complex challenges — from international company formations to financial administration and specialized sectors like construction finance and yacht building.",
-    "quote": "Excellence in international consulting — from day one.",
+    "headline": "Vision Meets Diligence",
+    "text_1": "FIECON stands for international advisory with a personal commitment. Our core expertise lies in corporate law and international company formations — fields where experience, precision and cultural understanding make all the difference.",
+    "text_2": "From Hamburg, Belgrade and Texas, we guide businesses across borders. We also advise on financial administration, construction finance and yacht construction finance — always with the ambition to represent your interests as if they were our own.",
+    "quote": "We advise as if it were our own company at stake.",
     "stat_1_label": "Locations worldwide",
     "stat_2_label": "Practice areas",
-    "stat_3_label": "Countries"
+    "stat_3_label": "Countries",
+    "quote_attribution": "Peter Fiegler, Founder"
   },
   "services": {
     "badge": "Services",
     "headline": "Our Expertise",
-    "subtitle": "Tailored consulting for your international business ventures.",
+    "subtitle": "Four areas of competence — one commitment: getting your international ventures right.",
     "consulting": {
-      "title": "Business Consulting",
-      "description": "Strategic consulting in corporate law and international company formations. We guide you from conception to successful implementation.",
+      "title": "Corporate Law & Company Formations",
+      "description": "Our core practice: we advise on the formation, structuring and governance of companies across international jurisdictions. From initial concept to legally sound implementation, we stand by your side.",
       "items": {
         "0": "Corporate Law",
         "1": "International Company Formations"
@@ -43,15 +44,15 @@
     },
     "finance": {
       "title": "Financial Administration",
-      "description": "Professional management and optimization of your finances. Transparent processes and strategic planning for sustainable growth.",
+      "description": "Clarity builds trust: we take charge of your corporate financial administration and create the transparent structures that enable sustainable growth.",
       "items": {
-        "0": "Accounting",
-        "1": "Strategic Planning"
+        "0": "Accounting & Reporting",
+        "1": "Strategic Financial Planning"
       }
     },
     "construction": {
       "title": "Construction Finance",
-      "description": "Specialized financing solutions for construction projects. From planning to completion — we secure your investments.",
+      "description": "Construction projects demand financial reliability. We structure and oversee the financing of your building ventures — from initial calculation to completion.",
       "items": {
         "0": "Project Finance",
         "1": "Investment Security"
@@ -59,35 +60,35 @@
     },
     "yacht": {
       "title": "Yacht Construction Finance",
-      "description": "Exclusive financing consulting for yacht building. Tailored solutions for a demanding market segment.",
+      "description": "A distinctive segment deserves distinctive care. We advise on the financing of yacht construction projects — discreetly, personally and with a genuine understanding of the industry's standards.",
       "items": {
         "0": "Yacht Finance",
-        "1": "Exclusive Consulting"
+        "1": "Personal Advisory"
       }
     }
   },
   "approach": {
     "badge": "Our Approach",
-    "headline": "Principles that guide us",
+    "headline": "What sets us apart",
     "values": {
       "expertise": {
         "title": "International Expertise",
-        "description": "In-depth knowledge of legal systems and business practices across Europe, the USA and Southeast Europe."
+        "description": "Deep understanding of legal systems, business cultures and regulatory nuances across Europe, the USA and Southeast Europe."
       },
       "personal": {
-        "title": "Personal Attention",
-        "description": "Every mandate receives individual attention. We understand your goals and develop tailored strategies."
+        "title": "Personal Closeness",
+        "description": "With us, you are never just a file number. We take the time to understand your goals and develop strategies that truly fit your situation."
       },
       "trust": {
-        "title": "Trusted Partnership",
-        "description": "Long-term relationships built on transparency, integrity and proven results."
+        "title": "Partnership on Equal Terms",
+        "description": "We think long-term. Transparency, integrity and measurable results are not just values to us — they are commitments."
       }
     }
   },
   "offices": {
     "badge": "Offices",
-    "headline": "Globally positioned",
-    "subtitle": "Three locations, one mission — international consulting at the highest level.",
+    "headline": "Close to Your Markets",
+    "subtitle": "Three locations, one promise — personal advisory with international reach.",
     "hamburg": {
       "city": "Hamburg",
       "country": "Germany",
@@ -107,7 +108,7 @@
   "contact": {
     "badge": "Contact",
     "headline": "Let's talk",
-    "subtitle": "We look forward to your inquiry and are happy to advise you on your project.",
+    "subtitle": "Whether an initial question or a concrete project — we take the time for you.",
     "phone": "Phone",
     "mobile": "Mobile",
     "email": "Email",
@@ -137,7 +138,7 @@
     }
   },
   "footer": {
-    "description": "FIECON Germany Co. KG for International Consulting Industries — Your partner for international business consulting.",
+    "description": "FIECON Germany Co. KG — International advisory for corporate law, company formations and beyond. Personal. Precise. Partnered.",
     "services_title": "Services",
     "offices_title": "Offices",
     "legal_title": "Legal",

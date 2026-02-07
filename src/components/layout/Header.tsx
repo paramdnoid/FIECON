@@ -122,8 +122,8 @@ export function Header() {
           </div>
         </Container>
 
-        <MobileMenu isOpen={menuOpen} onClose={() => setMenuOpen(false)} />
       </header>
+      <MobileMenu isOpen={menuOpen} onClose={() => setMenuOpen(false)} />
     </>
   );
 }

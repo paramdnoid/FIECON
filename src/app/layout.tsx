@@ -2,24 +2,17 @@ import type { ReactNode } from "react";
 import type { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages, getTranslations } from "next-intl/server";
-import { Cormorant_Garamond, DM_Sans, Cinzel } from "next/font/google";
+import { DM_Sans, Playfair_Display } from "next/font/google";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { COMPANY, CONTACT } from "@/lib/constants";
 import "@/app/globals.css";
 
-const cormorant = Cormorant_Garamond({
+const playfair = Playfair_Display({
   subsets: ["latin"],
-  variable: "--font-cormorant",
-  weight: ["300", "400", "500", "600"],
+  variable: "--font-playfair",
+  weight: ["400", "500", "600", "700"],
   style: ["normal", "italic"],
-  display: "swap",
-});
-
-const cinzel = Cinzel({
-  subsets: ["latin"],
-  variable: "--font-cinzel",
-  weight: ["400", "700"],
   display: "swap",
 });
 
@@ -65,7 +58,7 @@ export default async function RootLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} className={`${cormorant.variable} ${cinzel.variable} ${dmSans.variable}`}>
+    <html lang={locale} className={`${playfair.variable} ${dmSans.variable}`}>
       <body className="bg-surface text-text-primary font-body antialiased">
         <script
           type="application/ld+json"

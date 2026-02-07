@@ -152,7 +152,7 @@ export function Hero() {
           <h1
             className="font-hero font-normal leading-none select-none text-center"
             style={{
-              fontSize: "clamp(4rem, 14vw, 16rem)",
+              fontSize: "clamp(2.5rem, 8vw, 8rem)",
               letterSpacing: "-0.04em",
             }}
           >

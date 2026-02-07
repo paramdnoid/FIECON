@@ -24,10 +24,10 @@ export function Button({
 
   const variants = {
     primary:
-      "bg-bordeaux-900 text-white hover:bg-bordeaux-700 shadow-lg shadow-bordeaux-900/20 hover:shadow-xl hover:shadow-bordeaux-700/25",
+      "bg-bordeaux-900 text-white border border-transparent hover:bg-bordeaux-700 shadow-lg shadow-bordeaux-900/20 hover:shadow-xl hover:shadow-bordeaux-700/25",
     secondary:
       "border border-bordeaux-900 text-bordeaux-900 hover:bg-bordeaux-900 hover:text-white",
-    ghost: "text-bordeaux-900 hover:text-bordeaux-700 hover:bg-beige-200/50",
+    ghost: "border border-transparent text-bordeaux-900 hover:text-bordeaux-700 hover:bg-beige-200/50",
     inverse:
       "border border-white text-white hover:bg-white hover:text-bordeaux-900",
   };
