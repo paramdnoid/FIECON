@@ -65,7 +65,7 @@ export function MobileMenu({ isOpen, onClose }: Props) {
             className="fixed inset-0 bg-white z-50 lg:hidden flex flex-col"
             role="dialog"
             aria-modal="true"
-            aria-label="Navigation"
+            aria-label={t("navigation")}
           >
             {/* Header row — matches main header height */}
             <div className="flex items-center justify-between h-24 px-6 sm:px-8">
@@ -84,7 +84,7 @@ export function MobileMenu({ isOpen, onClose }: Props) {
                 type="button"
                 onClick={onClose}
                 className="p-2 text-text-primary hover:text-bordeaux-900 transition-colors cursor-pointer"
-                aria-label="Close menu"
+                aria-label={t("close_menu")}
               >
                 <svg
                   width="24"

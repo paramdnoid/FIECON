@@ -1,0 +1,214 @@
+{
+  "language": {
+    "title": "Alosaren e chib",
+    "close": "Phand"
+  },
+  "metadata": {
+    "title": "FIECON — Internacionalno konsultipe ande societarno zakono thaj formipe le firmengo",
+    "description": "FIECON Germany Co. KG — Internacionalno konsultipe ande societarno zakono, formipe le firmengo, finansialno administracia thaj konstrukciako finansipe. Ofisurea ando Hamburg, Belgrad thaj Texas."
+  },
+  "nav": {
+    "home": "Dza ki sherutni pajina",
+    "menu": "Putar o menuo",
+    "about": "Pal amende",
+    "services": "Sevaurea",
+    "approach": "Amaro drom",
+    "offices": "Ofisurea",
+    "contact": "Kontakto",
+    "navigation": "Navigacia",
+    "close_menu": "Phand o menüo"
+  },
+  "hero": {
+    "tagline": "Fiegler Consulting",
+    "headline": "Tumaro zakono. Internacionalno gondolime.",
+    "subtitle": "Societarno zakono thaj internacionalno formipe le firmengo — personalno arakhipe ando Hamburg, Belgrad thaj Texas.",
+    "cta_primary": "Amare sevaurea",
+    "cta_secondary": "Le kontakto"
+  },
+  "about": {
+    "badge": "Pal amende",
+    "headline": "Dural dikhipe arakhel griza",
+    "text_1": "FIECON sikavel internacionalno konsultipe personalna poziciasa. Amaro fokuso si ando societarno zakono thaj ande internacionalne formimata le firmengo — thana kaj e eksperiencia, e preciznost thaj o kulturalno hakharipe keren o phiravipe.",
+    "text_2": "Andar o Hamburg, o Belgrad thaj o Texas, phirasas le biznisuren pestar e granitse. Dopolnitelno, das konsultipe ande finansialno administracia, konstrukciako finansipe thaj jachtako konstrukciako finansipe — sakda le ambiciasa te reprezentisaras tumare interesura sar te avenas amare peske.",
+    "quote": "Das konsultipe sar te avelas amari peske firma.",
+    "stat_1_label": "Ofisurea ando sveto",
+    "stat_2_label": "Specialitetake thana",
+    "stat_3_label": "Phuvja",
+    "quote_attribution": "Peter Fiegler, Fondatoro"
+  },
+  "services": {
+    "badge": "Sevaurea",
+    "headline": "Amari ekspertiza",
+    "subtitle": "Shtar thana le kompetenciake — jekh ambicia: te thav tumare internacionalne planura ando lachho drom.",
+    "consulting": {
+      "title": "Societarno zakono thaj formipe le firmengo",
+      "description": "Amaro sherutno than: das konsultipe ko formipe, strukturipe thaj phiravipe le firmenge ando internacionalno konteksto. Andar e angluni idea dzi ko zakonsko realizipe, sam tumare pasche.",
+      "items": {
+        "0": "Societarno zakono",
+        "1": "Internacionalno formipe le firmengo"
+      }
+    },
+    "finance": {
+      "title": "Finansialno administracia",
+      "description": "E rendo anel patsiv: las pe amende e profesionalno administracia tumare firmake lovenge thaj keras le transparentne strukturura so den shajipe le dureder barjaripeske.",
+      "items": {
+        "0": "Kontabilipe thaj raportipe",
+        "1": "Strategiako finansialno planipe"
+      }
+    },
+    "construction": {
+      "title": "Konstrukciako finansipe",
+      "description": "Le konstrukciake proiekturea trubun finansialno siguripe. Strukturisaras thaj phirasas o finansipe tumare konstrukciake proiekturenge — andar o angluno kalkulipe dzi ko agoripe.",
+      "items": {
+        "0": "Proiektako finansipe",
+        "1": "Investiciako arakhipe"
+      }
+    },
+    "yacht": {
+      "title": "Jachtako konstrukciako finansipe",
+      "description": "Jekh specialno segmento zasluzil specialni griza. Das konsultipe ko finansipe le jachtake konstrukciake proiekturenge — diskretno, personalno thaj hakharipesa ande le truburimata kadala biznisure.",
+      "items": {
+        "0": "Jachtako finansipe",
+        "1": "Personalno konsultipe"
+      }
+    }
+  },
+  "approach": {
+    "badge": "Amaro drom",
+    "headline": "So amen keras aver",
+    "values": {
+      "expertise": {
+        "title": "Internacionalno ekspertiza",
+        "description": "Baro hakharipe le zakonske sistemenge, le biznisake kulturenge thaj le regulatorne specialitetenge ande Europa, le USA thaj e Sudoistni Europa."
+      },
+      "personal": {
+        "title": "Personalno pashipe",
+        "description": "Amare palunetsa, tumen nane ferdi jekh numero. Las amenge vreme te hakharas tumare ciljura thaj te keras strategiurea so chachimasa pashen tumenge."
+      },
+      "trust": {
+        "title": "Partneripe ande egalipe",
+        "description": "Gondolisaras pe dureder. Transparencia, integripe thaj merle rezultatura nane ferdi valorura amenge — von si obeshtime."
+      }
+    }
+  },
+  "offices": {
+    "badge": "Ofisurea",
+    "headline": "Pashol tumare pazarenge",
+    "subtitle": "Trin ofisurea, jekh obeshtime — personalno konsultipe internacionalno doshiperesa.",
+    "hamburg": {
+      "city": "Hamburg",
+      "country": "Germania",
+      "label": "Sherutno ofiso"
+    },
+    "belgrade": {
+      "city": "Belgrad",
+      "country": "Serbia",
+      "label": "Sudoistni Europa"
+    },
+    "texas": {
+      "city": "Texas",
+      "country": "USA",
+      "label": "Nordni Amerika"
+    }
+  },
+  "contact": {
+    "badge": "Kontakto",
+    "headline": "Te vakeras",
+    "subtitle": "Dali si angluni puchiba vai konkretno proiekto — las amenge vreme tumenge.",
+    "phone": "Telefono",
+    "mobile": "Mobilo",
+    "email": "E-Mail",
+    "address": "Adresa",
+    "cta": "Bishan e-mail",
+    "dialog": {
+      "title": "Bishan mesazho",
+      "panel_subtitle": "Radisaras pe tumari puchiba thaj phenasa tumenge sig palpale.",
+      "name": "Anav",
+      "name_placeholder": "Tumaro celo anav",
+      "email": "E-mail adresa",
+      "email_placeholder": "tumari@email.de",
+      "subject": "Tema",
+      "subject_placeholder": "Pal so si?",
+      "message": "Mesazho",
+      "message_placeholder": "Tumaro mesazho amenge...",
+      "submit": "Bishan mesazho",
+      "sending": "Bishaldol...",
+      "success_title": "Mesazho bishaldo",
+      "success_text": "Mishto nais! Phenasa tumenge sig palpale.",
+      "error_title": "Gresha",
+      "error_text": "O mesazho nashti bishaldjolas. Mangav, pale proves.",
+      "retry": "Pale proves",
+      "close": "Phand",
+      "required": "Trubul te pherdol",
+      "invalid_email": "Nalachi e-mail adresa"
+    }
+  },
+  "footer": {
+    "description": "FIECON Germany Co. KG — Internacionalno konsultipe ande societarno zakono, formipe le firmengo thaj maj but. Personalno. Precizno. Partnersko.",
+    "services_title": "Sevaurea",
+    "offices_title": "Ofisurea",
+    "legal_title": "Zakonsko",
+    "impressum": "Zakonsko info",
+    "datenschutz": "Datenge arakhipe",
+    "copyright": "© {year} FIECON Germany Co. KG. Sa e hakaja arakhle."
+  },
+  "error": {
+    "title": "Jekh gresha avili",
+    "description": "Mangav, pale proves vai irisav tut ki sherutni pajina.",
+    "retry": "Pale proves"
+  },
+  "notFound": {
+    "title": "E pajina chi arakhli",
+    "description": "E rodli pajina chi ekzistil vai sas premukli.",
+    "back": "Ki sherutni pajina"
+  },
+  "impressum": {
+    "title": "Zakonsko info",
+    "info_title": "Informacia koring o § 5 TMG",
+    "contact_title": "Kontakto",
+    "phone_label": "Telefono",
+    "mobile_label": "Mobilo",
+    "email_label": "E-Mail",
+    "homepage_label": "Homepage",
+    "responsible_title": "Responsabilno anglo soderzhanipe koring o § 55 Abs. 2 RStV",
+    "responsible_name": "Peter Fiegler",
+    "disclaimer_title": "Nasi-odpovedalnost",
+    "disclaimer_content_title": "Odpovedalnost anglo soderzhanipe",
+    "disclaimer_content_text": "O soderzhanipe amare pajinenge sas kerdo la majbari grizasa. Ama, nashti das garancia ande e chachimos, kompletnost thaj aktualnos le soderzhanipeske. Sar dajipe le sevaurenge, sam odpovednone anglo amaro pesko soderzhanipe pe kadala pajine koring o § 7 Abs. 1 TMG koring o opshto zakono. Koring le §§ 8 dzi 10 TMG, sar dajipe le sevaurenge, ama, nane amen obligacia te monitorisaras bishaldle vai arakhle averenge informacie vai te rodasas okolnostura so sikaven pe bikanonsko aktiviteta.",
+    "disclaimer_links_title": "Odpovedalnost anglo linkurea",
+    "disclaimer_links_text": "Amari pajina si la linkurea ki avriale pajine le tritone partijenge, ande save soderzhanipe nane amen influencia. Akava si o kazo soske nashti las pe amende garancia anglo adava avrialuno soderzhanipe. O respektivno dajitelo vai operatoro le pajinenge si sakda odpovedno anglo soderzhanipe le linkime pajinenge. Le linkime pajine sas kontrolime ko vakti le linkipesko pe shajutne zakonske krshimata. Bikanonsko soderzhanipe nashti sas arakhlo ko vakti le linkipesko.",
+    "copyright_title": "Avtorsko zakono",
+    "copyright_text": "O soderzhanipe thaj le butja kerdle kotar le operatorura kadale pajinenge si ando germansko avtorsko zakono. E reprodukcia, editipe, distribu thaj keci vol eksploitacia avri le granitsenge le avtorske zakonoskere trubul e pisimi dozvola le respektivne autoroskeri vai kerdipeske."
+  },
+  "datenschutz": {
+    "title": "Politika le datenge arakhipeske",
+    "intro": "Las but seriozno o arakhipe tumare personalne datengo. Keras tumare personalne daten konfidencialno thaj koring le zakonske regulacie le datenge arakhipeske thaj kadala politika le datenge arakhipeske.",
+    "section_1_title": "1. Odpovedno than",
+    "section_1_text": "Odpovedno than anglo datenge procesipe pe kadaja pajina si:",
+    "section_2_title": "2. Kidipe thaj procesipe le personalne datengo",
+    "section_2_text": "Kana vizitisaren amari pajina, automatikano kidel pe informacia opshtone karakteroske. Kadaja informacia (serverske log-dataje) inkludil o tipo le web-browseroskero, o operativno sistemo so sas koristimo, o domen-anav tumare internet provajderoskero, tumari IP-adresa thaj asavko. Kadaja si ekskluzvono informacia savi chi mukel konkluzije pal tumari persona.",
+    "section_2_legal_basis": "E zakonski baza anglo datenge procesipe si o Art. 6 Abs. 1 lit. f DSGVO. Amaro legitimno intereso si te sigurinas o bisterdo funkcionipe amare pajinako.",
+    "section_2_retention": "Le serverske log-dataje sas automatikano bushlarde pal 14 divesa.",
+    "section_3_title": "3. Kontaktipe",
+    "section_3_text": "Kana kontaktisaren amen po e-mail vai prekal o kontaktako formularo, tumare date inkluzirime le kontaktake date so tumende sas dine si arakhle amende ande cilo le procesipeske tumare puchipasko thaj ande cilo le shajutne puchipenge so aven palo. Kadala date chi das durneder bi tumari dozvola.",
+    "section_3_legal_basis": "E zakonski baza anglo procesipe le datengo si o Art. 6 Abs. 1 lit. b DSGVO (angluno kontraktsko thovipe) vai o Art. 6 Abs. 1 lit. f DSGVO (legitimno intereso ande procesipe tumare puchipasko).",
+    "section_3_retention": "Le date so sas bishlalde ande ramka le kontaktipeske si bushlarde kana tumari puchiba sas kompletno procesirime thaj nane zakonske obligacie arakhipeske.",
+    "section_4_title": "4. E-mail bishalipe",
+    "section_4_text": "Anglo bishalipe le e-mailenge prekal amaro kontaktako formularo koristinas jekh SMTP mail-servero. Le date so tumende sas dine (anav, e-mail adresa, tema, mesazho) si bishlalde amare e-mail provajderoske, savo del o e-mail ande amaro anav.",
+    "section_5_title": "5. Tumare hakaja",
+    "section_5_text_1": "Tumende si le gatle hakaja ande relacia tumare personalne datenge:",
+    "section_5_rights_0": "Hakaj pe informacia (Art. 15 DSGVO)",
+    "section_5_rights_1": "Hakaj pe korektipe (Art. 16 DSGVO)",
+    "section_5_rights_2": "Hakaj pe bushlardipe (Art. 17 DSGVO)",
+    "section_5_rights_3": "Hakaj pe limitipe le procesipesko (Art. 18 DSGVO)",
+    "section_5_rights_4": "Hakaj pe datenge portabilipe (Art. 20 DSGVO)",
+    "section_5_rights_5": "Hakaj pe opozicia anglo procesipe (Art. 21 DSGVO)",
+    "section_5_text_2": "Dopolnitelno, si tumen hakaj te den zhalba ki autoriteta anglo datenge arakhipe pal o procesipe tumare personalne datengo amendar.",
+    "section_6_title": "6. Cookie-ja",
+    "section_6_text": "Amari pajina koristil jekh funkcionalno cookie (NEXT_LOCALE) te arakhel tumari chibaki preferencia. Kadava cookie si tehnikano trubuno thaj chi trubul dozvola koring o § 25 Abs. 2 TDDDG. Nane tracking vai analitikake cookie-ja.",
+    "section_7_title": "7. Aktualnos thaj paruvipe kadala politikake le datenge arakhipeske",
+    "section_7_text": "Kadaja politika le datenge arakhipeske si aktualno valabilni. Koring o dureder kerdipe amare pajinako vai koring paruvdle zakonske vai oficijalne truburimata, shaj te trubul te paruvav kadaja politika le datenge arakhipeske.",
+    "email_label": "E-Mail",
+    "contact_label": "Kontakto"
+  }
+}

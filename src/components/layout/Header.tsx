@@ -58,7 +58,7 @@ export function Header() {
                 return (
                   <a
                     key={link.id}
-                    href={`/${link.href}`}
+                    href={`#${link.href}`}
                     onClick={(e) => {
                       e.preventDefault();
                       const el = document.getElementById(link.href);

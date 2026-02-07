@@ -1,11 +1,14 @@
 import type { Metadata } from "next";
-import { useTranslations } from "next-intl";
-import { getLocale, getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Container } from "@/components/ui/Container";
 import { COMPANY, CONTACT } from "@/lib/constants";
 
-export async function generateMetadata(): Promise<Metadata> {
-  const locale = await getLocale();
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "datenschutz" });
 
   return {
@@ -14,8 +17,14 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-export default function DatenschutzPage() {
-  const t = useTranslations("datenschutz");
+export default async function DatenschutzPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  const t = await getTranslations({ locale, namespace: "datenschutz" });
 
   return (
     <section className="pt-32 pb-24">

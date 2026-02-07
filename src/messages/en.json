@@ -1,4 +1,8 @@
 {
+  "language": {
+    "title": "Choose Language",
+    "close": "Close"
+  },
   "metadata": {
     "title": "FIECON — International Corporate Law & Company Formation Advisory",
     "description": "FIECON Germany Co. KG — International advisory for corporate law, company formations, financial administration and construction finance. Offices in Hamburg, Belgrade and Texas."
@@ -10,7 +14,9 @@
     "services": "Services",
     "approach": "Approach",
     "offices": "Offices",
-    "contact": "Contact"
+    "contact": "Contact",
+    "navigation": "Navigation",
+    "close_menu": "Close menu"
   },
   "hero": {
     "tagline": "Fiegler Consulting",

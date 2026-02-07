@@ -443,6 +443,7 @@ function SuccessView({
         {t("success_text")}
       </p>
       <button
+        type="button"
         onClick={onClose}
         className="px-8 py-3 rounded-xl border border-bordeaux-900 text-bordeaux-900 hover:bg-bordeaux-900 hover:text-white transition-all duration-400 font-medium cursor-pointer"
       >
@@ -486,6 +487,7 @@ function ErrorView({
         {t("error_text")}
       </p>
       <button
+        type="button"
         onClick={onRetry}
         className="px-8 py-3 rounded-xl bg-bordeaux-900 text-white hover:bg-bordeaux-700 transition-all duration-400 font-medium cursor-pointer"
       >
@@ -498,6 +500,7 @@ function ErrorView({
 function CloseButton({ onClick, label }: { onClick: () => void; label: string }) {
   return (
     <button
+      type="button"
       onClick={onClick}
       className="flex items-center justify-center w-10 h-10 rounded-full text-text-muted hover:text-text-primary hover:bg-beige-100 transition-colors cursor-pointer"
       aria-label={label}

@@ -1,4 +1,8 @@
 {
+  "language": {
+    "title": "Sprache wählen",
+    "close": "Schließen"
+  },
   "metadata": {
     "title": "FIECON — Internationale Beratung für Gesellschaftsrecht & Firmengründungen",
     "description": "FIECON Germany Co. KG — Internationale Beratung für Gesellschaftsrecht, Firmengründungen, Finanzverwaltung und Baufinanzierung. Standorte in Hamburg, Belgrad und Texas."
@@ -10,7 +14,9 @@
     "services": "Leistungen",
     "approach": "Ansatz",
     "offices": "Standorte",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "navigation": "Navigation",
+    "close_menu": "Menü schließen"
   },
   "hero": {
     "tagline": "Fiegler Consulting",

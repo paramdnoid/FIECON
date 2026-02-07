@@ -1,0 +1,214 @@
+{
+  "language": {
+    "title": "Dil seçin",
+    "close": "Kapat"
+  },
+  "metadata": {
+    "title": "FIECON — Şirketler Hukuku ve Uluslararası Şirket Kuruluşları İçin Danışmanlık",
+    "description": "FIECON Germany Co. KG — Şirketler hukuku, uluslararası şirket kuruluşları, finans yönetimi ve inşaat finansmanı alanlarında danışmanlık. Hamburg, Belgrad ve Texas'ta ofisler."
+  },
+  "nav": {
+    "home": "Ana sayfaya git",
+    "menu": "Menüyü aç",
+    "about": "Hakkımızda",
+    "services": "Hizmetler",
+    "approach": "Yaklaşım",
+    "offices": "Ofisler",
+    "contact": "İletişim",
+    "navigation": "Navigasyon",
+    "close_menu": "Menüyü kapat"
+  },
+  "hero": {
+    "tagline": "Fiegler Consulting",
+    "headline": "Hukukunuz. Uluslararası düşünülmüş.",
+    "subtitle": "Şirketler hukuku ve uluslararası şirket kuruluşları — Hamburg, Belgrad ve Texas'ta kişisel danışmanlık.",
+    "cta_primary": "Hizmetlerimiz",
+    "cta_secondary": "İletişime geçin"
+  },
+  "about": {
+    "badge": "Hakkımızda",
+    "headline": "Vizyon titizlikle buluşuyor",
+    "text_1": "FIECON, kişisel bir tutumla sunulan uluslararası danışmanlığı temsil eder. Odak noktamız şirketler hukuku ve uluslararası şirket kuruluşlarıdır — deneyim, hassasiyet ve kültürel anlayışın fark yarattığı alanlardır.",
+    "text_2": "Hamburg, Belgrad ve Texas'tan şirketlere sınır ötesinde eşlik ediyoruz. Bunun yanı sıra finans yönetimi, inşaat finansmanı ve yat inşaat finansmanı alanlarında da danışmanlık sunuyoruz — her zaman çıkarlarınızı kendi çıkarlarımız gibi koruma anlayışıyla.",
+    "quote": "Kendi şirketimizmiş gibi danışıyoruz.",
+    "stat_1_label": "Dünya genelinde ofis",
+    "stat_2_label": "Uzmanlık alanı",
+    "stat_3_label": "Ülke",
+    "quote_attribution": "Peter Fiegler, Kurucu"
+  },
+  "services": {
+    "badge": "Hizmetler",
+    "headline": "Uzmanlığımız",
+    "subtitle": "Dört yetkinlik alanı — tek bir hedef: Uluslararası projelerinizi doğru şekilde yapılandırmak.",
+    "consulting": {
+      "title": "Şirketler Hukuku ve Şirket Kuruluşları",
+      "description": "Temel uzmanlık alanımız: Uluslararası bağlamda şirketlerin kurulması, yapılandırılması ve yönetimi konusunda danışmanlık sunuyoruz. İlk fikirden hukuki güvence altına alınmış uygulamaya kadar yanınızdayız.",
+      "items": {
+        "0": "Şirketler hukuku",
+        "1": "Uluslararası şirket kuruluşları"
+      }
+    },
+    "finance": {
+      "title": "Finans Yönetimi",
+      "description": "Düzen güven yaratır: Şirket finanslarınızın profesyonel yönetimini üstleniyor ve sürdürülebilir büyümeyi mümkün kılan şeffaf yapılar oluşturuyoruz.",
+      "items": {
+        "0": "Muhasebe ve raporlama",
+        "1": "Stratejik finansal planlama"
+      }
+    },
+    "construction": {
+      "title": "İnşaat Finansmanı",
+      "description": "İnşaat projeleri finansal güvenilirlik gerektirir. İnşaat projelerinizin finansmanını yapılandırıyor ve ilk hesaplamadan tamamlanmasına kadar eşlik ediyoruz.",
+      "items": {
+        "0": "Proje finansmanı",
+        "1": "Yatırım güvencesi"
+      }
+    },
+    "yacht": {
+      "title": "Yat İnşaat Finansmanı",
+      "description": "Özel bir segment özel bir özen hak eder. Yat inşaat projelerinin finansmanı konusunda danışmanlık sunuyoruz — gizlilik içinde, kişisel ve bu sektörün beklentilerine uygun bir anlayışla.",
+      "items": {
+        "0": "Yat finansmanı",
+        "1": "Kişisel danışmanlık"
+      }
+    }
+  },
+  "approach": {
+    "badge": "Yaklaşımımız",
+    "headline": "Bizi farklı kılan",
+    "values": {
+      "expertise": {
+        "title": "Uluslararası Uzmanlık",
+        "description": "Avrupa, ABD ve Güneydoğu Avrupa'daki hukuk sistemleri, iş kültürleri ve düzenleyici özellikler hakkında derin bir anlayış."
+      },
+      "personal": {
+        "title": "Kişisel Yakınlık",
+        "description": "Bizde bir dosya numarası değilsiniz. Hedeflerinizi anlamak için zaman ayırıyor ve size gerçekten uygun stratejiler geliştiriyoruz."
+      },
+      "trust": {
+        "title": "Eşit Düzeyde Ortaklık",
+        "description": "Uzun vadeli düşünüyoruz. Şeffaflık, dürüstlük ve ölçülebilir sonuçlar bizim için sadece değerler değil — birer sözdür."
+      }
+    }
+  },
+  "offices": {
+    "badge": "Ofisler",
+    "headline": "Pazarlarınıza yakın",
+    "subtitle": "Üç ofis, bir söz — uluslararası erişime sahip kişisel danışmanlık.",
+    "hamburg": {
+      "city": "Hamburg",
+      "country": "Almanya",
+      "label": "Merkez"
+    },
+    "belgrade": {
+      "city": "Belgrad",
+      "country": "Sırbistan",
+      "label": "Güneydoğu Avrupa"
+    },
+    "texas": {
+      "city": "Texas",
+      "country": "ABD",
+      "label": "Kuzey Amerika"
+    }
+  },
+  "contact": {
+    "badge": "İletişim",
+    "headline": "Konuşalım",
+    "subtitle": "İlk bir soru olsun ya da somut bir proje — sizin için zaman ayırıyoruz.",
+    "phone": "Telefon",
+    "mobile": "Cep telefonu",
+    "email": "E-posta",
+    "address": "Adres",
+    "cta": "E-posta yazın",
+    "dialog": {
+      "title": "Mesaj gönderin",
+      "panel_subtitle": "Talebinizi bekliyoruz ve en kısa sürede size geri dönüş yapacağız.",
+      "name": "İsim",
+      "name_placeholder": "Tam adınız",
+      "email": "E-posta adresi",
+      "email_placeholder": "sizin@email.de",
+      "subject": "Konu",
+      "subject_placeholder": "Ne hakkında?",
+      "message": "Mesaj",
+      "message_placeholder": "Bize mesajınız...",
+      "submit": "Mesaj gönder",
+      "sending": "Gönderiliyor...",
+      "success_title": "Mesaj gönderildi",
+      "success_text": "Teşekkür ederiz! En kısa sürede size geri dönüş yapacağız.",
+      "error_title": "Hata",
+      "error_text": "Mesaj gönderilemedi. Lütfen tekrar deneyin.",
+      "retry": "Tekrar dene",
+      "close": "Kapat",
+      "required": "Zorunlu alan",
+      "invalid_email": "Geçersiz e-posta adresi"
+    }
+  },
+  "footer": {
+    "description": "FIECON Germany Co. KG — Şirketler hukuku, şirket kuruluşları ve daha fazlası için uluslararası danışmanlık. Kişisel. Hassas. Ortaklık ruhuyla.",
+    "services_title": "Hizmetler",
+    "offices_title": "Ofisler",
+    "legal_title": "Hukuki bilgiler",
+    "impressum": "Künye",
+    "datenschutz": "Gizlilik politikası",
+    "copyright": "© {year} FIECON Germany Co. KG. Tüm hakları saklıdır."
+  },
+  "error": {
+    "title": "Bir hata oluştu",
+    "description": "Lütfen tekrar deneyin veya ana sayfaya dönün.",
+    "retry": "Tekrar dene"
+  },
+  "notFound": {
+    "title": "Sayfa bulunamadı",
+    "description": "İstenen sayfa mevcut değil veya taşınmış.",
+    "back": "Ana sayfaya git"
+  },
+  "impressum": {
+    "title": "Künye",
+    "info_title": "§ 5 TMG uyarınca bilgiler",
+    "contact_title": "İletişim",
+    "phone_label": "Telefon",
+    "mobile_label": "Cep telefonu",
+    "email_label": "E-posta",
+    "homepage_label": "Web sitesi",
+    "responsible_title": "§ 55 Abs. 2 RStV uyarınca içerikten sorumlu",
+    "responsible_name": "Peter Fiegler",
+    "disclaimer_title": "Sorumluluk reddi",
+    "disclaimer_content_title": "İçerik sorumluluğu",
+    "disclaimer_content_text": "Sayfalarımızın içerikleri büyük bir özenle hazırlanmıştır. Ancak içeriklerin doğruluğu, eksiksizliği ve güncelliği konusunda garanti veremeyiz. § 7 Abs. 1 TMG uyarınca hizmet sağlayıcı olarak bu sayfalardaki kendi içeriklerimizden genel yasalar çerçevesinde sorumluyuz. Ancak §§ 8 ila 10 TMG uyarınca hizmet sağlayıcı olarak iletilen veya depolanan üçüncü taraf bilgileri izleme ya da yasadışı faaliyete işaret eden koşulları araştırma yükümlülüğümüz bulunmamaktadır.",
+    "disclaimer_links_title": "Bağlantı sorumluluğu",
+    "disclaimer_links_text": "Teklifimiz, içerikleri üzerinde herhangi bir etkimiz olmayan üçüncü taraf harici web sitelerine bağlantılar içermektedir. Bu nedenle bu harici içerikler için de garanti veremeyiz. Bağlantı verilen sayfaların içeriğinden her zaman ilgili sağlayıcı veya işletmeci sorumludur. Bağlantı verilen sayfalar, bağlantı kurulduğu sırada olası hukuk ihlalleri açısından kontrol edilmiştir. Bağlantı kurulduğu sırada yasadışı içerikler tespit edilememiştir.",
+    "copyright_title": "Telif hakkı",
+    "copyright_text": "Sayfa işletmecileri tarafından bu sayfalarda oluşturulan içerik ve eserler Alman telif hakkı yasasına tabidir. Telif hakkı sınırları dışında çoğaltma, işleme, dağıtım ve her türlü kullanım, ilgili yazar veya oluşturucunun yazılı onayını gerektirir."
+  },
+  "datenschutz": {
+    "title": "Gizlilik politikası",
+    "intro": "Kişisel verilerinizin korunmasını çok ciddiye alıyoruz. Kişisel verilerinizi gizli tutuyor ve yasal veri koruma düzenlemeleri ile bu gizlilik politikasına uygun şekilde işliyoruz.",
+    "section_1_title": "1. Sorumlu kuruluş",
+    "section_1_text": "Bu web sitesindeki veri işlemeden sorumlu kuruluş:",
+    "section_2_title": "2. Kişisel verilerin toplanması ve işlenmesi",
+    "section_2_text": "Web sitemizi ziyaret ettiğinizde otomatik olarak genel nitelikte bilgiler toplanır. Bu bilgiler (sunucu günlük dosyaları) web tarayıcısının türü, kullanılan işletim sistemi, internet servis sağlayıcınızın alan adı, IP adresiniz ve benzeri bilgileri içerir. Bu bilgiler yalnızca kişisel kimliğinize ilişkin herhangi bir sonuç çıkarılamayacak bilgilerdir.",
+    "section_2_legal_basis": "Veri işlemenin hukuki dayanağı Art. 6 Abs. 1 lit. f DSGVO'dur. Meşru menfaatimiz, web sitemizin sorunsuz işletilmesinin sağlanmasıdır.",
+    "section_2_retention": "Sunucu günlük dosyaları 14 gün sonra otomatik olarak silinir.",
+    "section_3_title": "3. İletişim",
+    "section_3_text": "E-posta veya iletişim formu aracılığıyla bizimle iletişime geçtiğinizde, talebinizin işlenmesi ve olası ek sorular için verdiğiniz bilgiler ve iletişim bilgileriniz tarafımızca saklanır. Bu verileri onayınız olmadan üçüncü taraflarla paylaşmayız.",
+    "section_3_legal_basis": "Verilerin işlenmesinin hukuki dayanağı Art. 6 Abs. 1 lit. b DSGVO (sözleşme öncesi işlemler) veya Art. 6 Abs. 1 lit. f DSGVO'dur (talebinizin işlenmesindeki meşru menfaat).",
+    "section_3_retention": "İletişim kapsamında iletilen veriler, talebiniz nihai olarak işlendikten ve yasal saklama yükümlülükleri sona erdikten sonra silinir.",
+    "section_4_title": "4. E-posta gönderimi",
+    "section_4_text": "İletişim formumuz üzerinden e-posta göndermek için bir SMTP posta sunucusu kullanıyoruz. Girdiğiniz veriler (isim, e-posta adresi, konu, mesaj) e-postayı bizim adımıza ileten e-posta sağlayıcımıza aktarılır.",
+    "section_5_title": "5. Haklarınız",
+    "section_5_text_1": "Sizi ilgilendiren kişisel veriler konusunda bize karşı aşağıdaki haklara sahipsiniz:",
+    "section_5_rights_0": "Bilgi edinme hakkı (Art. 15 DSGVO)",
+    "section_5_rights_1": "Düzeltme hakkı (Art. 16 DSGVO)",
+    "section_5_rights_2": "Silme hakkı (Art. 17 DSGVO)",
+    "section_5_rights_3": "İşlemenin kısıtlanması hakkı (Art. 18 DSGVO)",
+    "section_5_rights_4": "Veri taşınabilirliği hakkı (Art. 20 DSGVO)",
+    "section_5_rights_5": "İşlemeye itiraz hakkı (Art. 21 DSGVO)",
+    "section_5_text_2": "Ayrıca kişisel verilerinizin tarafımızca işlenmesi hakkında bir veri koruma denetim makamına şikayette bulunma hakkınız vardır.",
+    "section_6_title": "6. Çerezler",
+    "section_6_text": "Web sitemiz dil tercihinizi kaydetmek için işlevsel bir çerez (NEXT_LOCALE) kullanmaktadır. Bu çerez teknik olarak gereklidir ve § 25 Abs. 2 TDDDG uyarınca onay gerektirmez. İzleme veya analiz çerezleri kullanılmamaktadır.",
+    "section_7_title": "7. Bu gizlilik politikasının güncelliği ve değişiklikleri",
+    "section_7_text": "Bu gizlilik politikası şu anda geçerlidir. Web sitemizin geliştirilmesi veya değişen yasal ya da resmi gereklilikler nedeniyle bu gizlilik politikasının değiştirilmesi gerekebilir.",
+    "email_label": "E-posta",
+    "contact_label": "İletişim"
+  }
+}

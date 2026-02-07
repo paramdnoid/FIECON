@@ -200,15 +200,15 @@ export function Hero() {
         {/* CTAs */}
         <motion.div
           {...fadeAnimation(1.7)}
-          className="flex flex-col sm:flex-row gap-4"
+          className="flex flex-col sm:flex-row gap-3 w-full max-w-sm sm:max-w-none sm:w-auto"
         >
-          <MagneticButton>
-            <Button variant="primary" size="lg" href="services">
+          <MagneticButton className="w-full sm:w-auto">
+            <Button variant="primary" size="lg" href="services" className="w-full sm:w-auto">
               {t("cta_primary")}
             </Button>
           </MagneticButton>
-          <MagneticButton>
-            <Button variant="secondary" size="lg" href="contact">
+          <MagneticButton className="w-full sm:w-auto">
+            <Button variant="secondary" size="lg" href="contact" className="w-full sm:w-auto">
               {t("cta_secondary")}
             </Button>
           </MagneticButton>

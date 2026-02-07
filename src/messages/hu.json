@@ -1,0 +1,214 @@
+{
+  "language": {
+    "title": "Nyelv kiválasztása",
+    "close": "Bezárás"
+  },
+  "metadata": {
+    "title": "FIECON — Nemzetközi tanácsadás társasági jog és cégalapítás területén",
+    "description": "FIECON Germany Co. KG — Nemzetközi tanácsadás társasági jog, cégalapítás, pénzügyi igazgatás és építési finanszírozás területén. Irodák Hamburgban, Belgrádban és Texasban."
+  },
+  "nav": {
+    "home": "Főoldalra",
+    "menu": "Menü megnyitása",
+    "about": "Rólunk",
+    "services": "Szolgáltatások",
+    "approach": "Megközelítés",
+    "offices": "Helyszínek",
+    "contact": "Kapcsolat",
+    "navigation": "Navigáció",
+    "close_menu": "Menü bezárása"
+  },
+  "hero": {
+    "tagline": "Fiegler Consulting",
+    "headline": "Az Ön joga. Nemzetközi szemlélettel.",
+    "subtitle": "Társasági jog és nemzetközi cégalapítás — személyes kísérés Hamburgban, Belgrádban és Texasban.",
+    "cta_primary": "Szolgáltatásaink",
+    "cta_secondary": "Kapcsolatfelvétel"
+  },
+  "about": {
+    "badge": "Rólunk",
+    "headline": "Előrelátás és gondosság",
+    "text_1": "A FIECON a személyes elkötelezettséggel végzett nemzetközi tanácsadást képviseli. Fő szakterületünk a társasági jog és a nemzetközi cégalapítás — olyan területek, ahol a tapasztalat, a precizitás és a kulturális megértés döntő jelentőségű.",
+    "text_2": "Hamburgból, Belgrádból és Texasból kísérjük vállalatainkat az országhatárokon túl. Emellett tanácsadást nyújtunk pénzügyi igazgatás, építési finanszírozás és jachtépítési finanszírozás területén — mindig azzal az igénnyel, hogy az Ön érdekeit úgy képviseljük, mintha a sajátunk lennének.",
+    "quote": "Úgy tanácsadunk, mintha a saját vállalatunkról lenne szó.",
+    "stat_1_label": "Helyszín világszerte",
+    "stat_2_label": "Szakterület",
+    "stat_3_label": "Ország",
+    "quote_attribution": "Peter Fiegler, alapító"
+  },
+  "services": {
+    "badge": "Szolgáltatások",
+    "headline": "Szakértelmünk",
+    "subtitle": "Négy kompetenciaterület — egy cél: az Ön nemzetközi projektjeinek helyes felépítése.",
+    "consulting": {
+      "title": "Társasági jog és cégalapítás",
+      "description": "Alapszakterületünk: tanácsot adunk társaságok alapításában, strukturálásában és irányításában nemzetközi kontextusban. Az első ötlettől a jogilag biztonságos megvalósításig az Ön oldalán állunk.",
+      "items": {
+        "0": "Társasági jog",
+        "1": "Nemzetközi cégalapítás"
+      }
+    },
+    "finance": {
+      "title": "Pénzügyi igazgatás",
+      "description": "A rend bizalmat teremt: átvállaljuk vállalata pénzügyeinek professzionális kezelését, és megteremtjük a fenntartható növekedést lehetővé tevő átlátható struktúrákat.",
+      "items": {
+        "0": "Könyvelés és beszámolók",
+        "1": "Stratégiai pénzügyi tervezés"
+      }
+    },
+    "construction": {
+      "title": "Építési finanszírozás",
+      "description": "Az építési projektek pénzügyi megbízhatóságot igényelnek. Strukturáljuk és kísérjük az Ön építési beruházásainak finanszírozását — az első kalkulációtól a befejezésig.",
+      "items": {
+        "0": "Projektfinanszírozás",
+        "1": "Beruházásbiztonság"
+      }
+    },
+    "yacht": {
+      "title": "Jachtépítési finanszírozás",
+      "description": "Egy különleges szegmens különleges gondosságot érdemel. Tanácsadást nyújtunk a jachtépítési projektek finanszírozásában — diszkréten, személyesen és az iparág elvárásainak ismeretében.",
+      "items": {
+        "0": "Jachtfinanszírozás",
+        "1": "Személyes tanácsadás"
+      }
+    }
+  },
+  "approach": {
+    "badge": "Megközelítésünk",
+    "headline": "Ami megkülönböztet minket",
+    "values": {
+      "expertise": {
+        "title": "Nemzetközi szakértelem",
+        "description": "Mélyreható ismeret a jogrendszerekről, üzleti kultúrákról és szabályozási sajátosságokról Európában, az USA-ban és Délkelet-Európában."
+      },
+      "personal": {
+        "title": "Személyes közelség",
+        "description": "Nálunk Ön nem csupán egy aktaszám. Időt szánunk céljai megértésére, és olyan stratégiákat dolgozunk ki, amelyek valóban az Ön helyzetéhez illeszkednek."
+      },
+      "trust": {
+        "title": "Egyenrangú partnerség",
+        "description": "Hosszú távon gondolkodunk. Az átláthatóság, a tisztesség és a mérhető eredmények számunkra nem csupán értékek — hanem ígéretek."
+      }
+    }
+  },
+  "offices": {
+    "badge": "Helyszínek",
+    "headline": "Közel az Ön piacaihoz",
+    "subtitle": "Három helyszín, egy ígéret — személyes tanácsadás nemzetközi hatósugárral.",
+    "hamburg": {
+      "city": "Hamburg",
+      "country": "Németország",
+      "label": "Központi iroda"
+    },
+    "belgrade": {
+      "city": "Belgrád",
+      "country": "Szerbia",
+      "label": "Délkelet-Európa"
+    },
+    "texas": {
+      "city": "Texas",
+      "country": "USA",
+      "label": "Észak-Amerika"
+    }
+  },
+  "contact": {
+    "badge": "Kapcsolat",
+    "headline": "Beszéljünk",
+    "subtitle": "Legyen szó első kérdésről vagy konkrét projektről — időt szánunk Önre.",
+    "phone": "Telefon",
+    "mobile": "Mobil",
+    "email": "E-mail",
+    "address": "Cím",
+    "cta": "E-mail írása",
+    "dialog": {
+      "title": "Üzenet küldése",
+      "panel_subtitle": "Örülünk megkeresésének, és mielőbb válaszolunk Önnek.",
+      "name": "Név",
+      "name_placeholder": "Teljes neve",
+      "email": "E-mail-cím",
+      "email_placeholder": "az.on@email.hu",
+      "subject": "Tárgy",
+      "subject_placeholder": "Miről van szó?",
+      "message": "Üzenet",
+      "message_placeholder": "Üzenete számunkra...",
+      "submit": "Üzenet küldése",
+      "sending": "Küldés...",
+      "success_title": "Üzenet elküldve",
+      "success_text": "Köszönjük! Hamarosan felvesszük Önnel a kapcsolatot.",
+      "error_title": "Hiba",
+      "error_text": "Az üzenetet nem sikerült elküldeni. Kérjük, próbálja meg újra.",
+      "retry": "Újrapróbálkozás",
+      "close": "Bezárás",
+      "required": "Kötelező mező",
+      "invalid_email": "Érvénytelen e-mail-cím"
+    }
+  },
+  "footer": {
+    "description": "FIECON Germany Co. KG — Nemzetközi tanácsadás társasági jog, cégalapítás és egyéb területeken. Személyesen. Precízen. Partnerként.",
+    "services_title": "Szolgáltatások",
+    "offices_title": "Helyszínek",
+    "legal_title": "Jogi információk",
+    "impressum": "Impresszum",
+    "datenschutz": "Adatvédelmi nyilatkozat",
+    "copyright": "© {year} FIECON Germany Co. KG. Minden jog fenntartva."
+  },
+  "error": {
+    "title": "Hiba történt",
+    "description": "Kérjük, próbálja meg újra, vagy térjen vissza a főoldalra.",
+    "retry": "Újrapróbálkozás"
+  },
+  "notFound": {
+    "title": "Az oldal nem található",
+    "description": "A kért oldal nem létezik, vagy áthelyezésre került.",
+    "back": "Vissza a főoldalra"
+  },
+  "impressum": {
+    "title": "Impresszum",
+    "info_title": "Adatok a § 5 TMG szerint",
+    "contact_title": "Kapcsolat",
+    "phone_label": "Telefon",
+    "mobile_label": "Mobil",
+    "email_label": "E-mail",
+    "homepage_label": "Honlap",
+    "responsible_title": "A tartalomért felelős a § 55 (2) bek. RStV szerint",
+    "responsible_name": "Peter Fiegler",
+    "disclaimer_title": "Felelősségkizárás",
+    "disclaimer_content_title": "Felelősség a tartalomért",
+    "disclaimer_content_text": "Oldalaink tartalmát a legnagyobb gondossággal készítettük el. A tartalom helyességéért, teljességéért és aktualitásáért azonban nem vállalhatunk garanciát. Szolgáltatóként a § 7 (1) bek. TMG szerint az általános törvények alapján felelünk a saját tartalmunkért ezeken az oldalakon. A §§ 8–10 TMG értelmében azonban szolgáltatóként nem vagyunk kötelesek a továbbított vagy tárolt, harmadik féltől származó információk ellenőrzésére, illetve jogellenes tevékenységre utaló körülmények feltárására.",
+    "disclaimer_links_title": "Felelősség a hivatkozásokért",
+    "disclaimer_links_text": "Kínálatunk harmadik felek külső weboldalaira mutató hivatkozásokat tartalmaz, amelyek tartalmára nincs befolyásunk. Ezért ezen külső tartalmakért felelősséget nem vállalhatunk. A hivatkozott oldalak tartalmáért mindig az adott szolgáltató vagy üzemeltető felelős. A hivatkozott oldalakat a hivatkozás elhelyezésekor lehetséges jogsértések szempontjából ellenőriztük. Jogellenes tartalom a hivatkozás elhelyezésekor nem volt felismerhető.",
+    "copyright_title": "Szerzői jog",
+    "copyright_text": "Az oldalak üzemeltetői által létrehozott tartalmak és művek a német szerzői jog hatálya alá tartoznak. A sokszorosítás, szerkesztés, terjesztés és a szerzői jog határain túli bármilyen felhasználás az adott szerző vagy alkotó írásbeli hozzájárulását igényli."
+  },
+  "datenschutz": {
+    "title": "Adatvédelmi nyilatkozat",
+    "intro": "Személyes adatainak védelmét nagyon komolyan vesszük. Személyes adatait bizalmasan, a jogszabályi adatvédelmi előírásoknak és a jelen adatvédelmi nyilatkozatnak megfelelően kezeljük.",
+    "section_1_title": "1. Felelős szerv",
+    "section_1_text": "A jelen weboldalon történő adatkezelésért felelős szerv:",
+    "section_2_title": "2. Személyes adatok gyűjtése és feldolgozása",
+    "section_2_text": "Weboldalunk meglátogatásakor automatikusan általános jellegű információk kerülnek rögzítésre. Ezen információk (szerver-naplófájlok) többek között a webböngésző típusát, a használt operációs rendszert, az internetszolgáltató domainnevét, az Ön IP-címét és hasonló adatokat tartalmaznak. Ezek kizárólag olyan információk, amelyek nem engednek következtetést levonni az Ön személyére vonatkozóan.",
+    "section_2_legal_basis": "Az adatkezelés jogalapja a DSGVO 6. cikk (1) bek. f) pontja. Jogos érdekünk weboldalunk zavartalan működésének biztosítása.",
+    "section_2_retention": "A szerver-naplófájlok 14 nap után automatikusan törlődnek.",
+    "section_3_title": "3. Kapcsolatfelvétel",
+    "section_3_text": "Ha e-mailben vagy a kapcsolati űrlapon keresztül veszi fel velünk a kapcsolatot, az Ön adatait, beleértve az Ön által megadott elérhetőségeket, a megkeresés feldolgozása céljából és esetleges további kérdések esetére tároljuk. Ezeket az adatokat az Ön hozzájárulása nélkül nem adjuk tovább.",
+    "section_3_legal_basis": "Az adatkezelés jogalapja a DSGVO 6. cikk (1) bek. b) pontja (szerződéskötést megelőző intézkedések), illetve a DSGVO 6. cikk (1) bek. f) pontja (jogos érdek az Ön megkeresésének feldolgozásában).",
+    "section_3_retention": "A kapcsolatfelvétel során megadott adatok törlésre kerülnek, amint az Ön megkeresése véglegesen feldolgozásra került, és jogszabályi megőrzési kötelezettség nem áll fenn.",
+    "section_4_title": "4. E-mail küldés",
+    "section_4_text": "A kapcsolati űrlapon keresztül történő e-mail küldéséhez SMTP levelezőszervert használunk. Az Ön által megadott adatok (név, e-mail-cím, tárgy, üzenet) az e-mail szolgáltatónknak kerülnek továbbításra, aki megbízásunkból kézbesíti az e-mailt.",
+    "section_5_title": "5. Az Ön jogai",
+    "section_5_text_1": "Az Ön személyes adataival kapcsolatban a következő jogok illetik meg:",
+    "section_5_rights_0": "Hozzáférési jog (DSGVO 15. cikk)",
+    "section_5_rights_1": "Helyesbítéshez való jog (DSGVO 16. cikk)",
+    "section_5_rights_2": "Törléshez való jog (DSGVO 17. cikk)",
+    "section_5_rights_3": "Az adatkezelés korlátozásához való jog (DSGVO 18. cikk)",
+    "section_5_rights_4": "Adathordozhatósághoz való jog (DSGVO 20. cikk)",
+    "section_5_rights_5": "Tiltakozáshoz való jog az adatkezelés ellen (DSGVO 21. cikk)",
+    "section_5_text_2": "Önnek joga van panaszt tenni egy adatvédelmi felügyeleti hatóságnál a személyes adatainak általunk történő kezelésével kapcsolatban.",
+    "section_6_title": "6. Sütik",
+    "section_6_text": "Weboldalunk egy funkcionális sütit (NEXT_LOCALE) használ az Ön nyelvi beállításának tárolására. Ez a süti technikailag szükséges, és nem igényel hozzájárulást a § 25 (2) bek. TDDDG értelmében. Nyomkövető vagy elemző sütiket nem alkalmazunk.",
+    "section_7_title": "7. Jelen adatvédelmi nyilatkozat aktualitása és módosítása",
+    "section_7_text": "Jelen adatvédelmi nyilatkozat jelenleg érvényes. Weboldalunk továbbfejlesztése, illetve megváltozott jogszabályi vagy hatósági előírások miatt szükségessé válhat ezen adatvédelmi nyilatkozat módosítása.",
+    "email_label": "E-mail",
+    "contact_label": "Kapcsolat"
+  }
+}

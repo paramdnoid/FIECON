@@ -1,0 +1,214 @@
+{
+  "language": {
+    "title": "Odaberite jezik",
+    "close": "Zatvori"
+  },
+  "metadata": {
+    "title": "FIECON — Međunarodno savjetovanje za trgovačko pravo i osnivanje tvrtki",
+    "description": "FIECON Germany Co. KG — Međunarodno savjetovanje za trgovačko pravo, osnivanje tvrtki, financijsku administraciju i građevinsko financiranje. Uredi u Hamburgu, Beogradu i Teksasu."
+  },
+  "nav": {
+    "home": "Na početnu stranicu",
+    "menu": "Otvori izbornik",
+    "about": "O nama",
+    "services": "Usluge",
+    "approach": "Pristup",
+    "offices": "Uredi",
+    "contact": "Kontakt",
+    "navigation": "Navigacija",
+    "close_menu": "Zatvori izbornik"
+  },
+  "hero": {
+    "tagline": "Fiegler Consulting",
+    "headline": "Vaše pravo. Međunarodno osmišljeno.",
+    "subtitle": "Trgovačko pravo i međunarodno osnivanje tvrtki — osobna podrška u Hamburgu, Beogradu i Teksasu.",
+    "cta_primary": "Naše usluge",
+    "cta_secondary": "Kontaktirajte nas"
+  },
+  "about": {
+    "badge": "O nama",
+    "headline": "Vizija susreće temeljitost",
+    "text_1": "FIECON predstavlja međunarodno savjetovanje s osobnim pristupom. Naš fokus je na trgovačkom pravu i međunarodnom osnivanju tvrtki — područjima u kojima iskustvo, preciznost i razumijevanje kulturnih razlika čine ključnu razliku.",
+    "text_2": "Iz Hamburga, Beograda i Teksasa pratimo tvrtke preko granica. Dodatno savjetujemo u području financijske administracije, građevinskog financiranja i financiranja gradnje jahti — uvijek s ciljem da zastupamo vaše interese kao da su naši vlastiti.",
+    "quote": "Savjetujemo kao da se radi o našoj vlastitoj tvrtki.",
+    "stat_1_label": "Uredi diljem svijeta",
+    "stat_2_label": "Područja stručnosti",
+    "stat_3_label": "Zemlje",
+    "quote_attribution": "Peter Fiegler, osnivač"
+  },
+  "services": {
+    "badge": "Usluge",
+    "headline": "Naša stručnost",
+    "subtitle": "Četiri područja kompetencija — jedan cilj: pravilno postaviti vaše međunarodne pothvate.",
+    "consulting": {
+      "title": "Trgovačko pravo i osnivanje tvrtki",
+      "description": "Naša osnovna djelatnost: savjetujemo pri osnivanju, strukturiranju i vođenju trgovačkih društava u međunarodnom kontekstu. Od prve ideje do pravno sigurne realizacije stojimo vam na raspolaganju.",
+      "items": {
+        "0": "Trgovačko pravo",
+        "1": "Međunarodno osnivanje tvrtki"
+      }
+    },
+    "finance": {
+      "title": "Financijska administracija",
+      "description": "Red stvara povjerenje: preuzimamo profesionalno upravljanje financijama vaše tvrtke i stvaramo transparentne strukture koje omogućuju održivi rast.",
+      "items": {
+        "0": "Računovodstvo i izvještavanje",
+        "1": "Strateško financijsko planiranje"
+      }
+    },
+    "construction": {
+      "title": "Građevinsko financiranje",
+      "description": "Građevinski projekti zahtijevaju financijsku pouzdanost. Strukturiramo i pratimo financiranje vaših građevinskih pothvata — od prve kalkulacije do završetka.",
+      "items": {
+        "0": "Projektno financiranje",
+        "1": "Osiguranje investicija"
+      }
+    },
+    "yacht": {
+      "title": "Financiranje gradnje jahti",
+      "description": "Poseban segment zaslužuje posebnu pažnju. Savjetujemo pri financiranju projekata gradnje jahti — diskretno, osobno i s razumijevanjem za zahtjeve ove branše.",
+      "items": {
+        "0": "Financiranje jahti",
+        "1": "Osobno savjetovanje"
+      }
+    }
+  },
+  "approach": {
+    "badge": "Naš pristup",
+    "headline": "Što nas izdvaja",
+    "values": {
+      "expertise": {
+        "title": "Međunarodna stručnost",
+        "description": "Duboko razumijevanje pravnih sustava, poslovnih kultura i regulatornih specifičnosti u Europi, SAD-u i Jugoistočnoj Europi."
+      },
+      "personal": {
+        "title": "Osobna bliskost",
+        "description": "Kod nas niste samo broj u kartoteci. Uzimamo si vremena da razumijemo vaše ciljeve i razvijamo strategije koje doista odgovaraju vašim potrebama."
+      },
+      "trust": {
+        "title": "Partnerstvo na ravnopravnoj osnovi",
+        "description": "Razmišljamo dugoročno. Transparentnost, integritet i mjerljivi rezultati za nas nisu samo vrijednosti — to su obećanja."
+      }
+    }
+  },
+  "offices": {
+    "badge": "Uredi",
+    "headline": "Blizu vaših tržišta",
+    "subtitle": "Tri ureda, jedno obećanje — osobno savjetovanje s međunarodnim dometom.",
+    "hamburg": {
+      "city": "Hamburg",
+      "country": "Njemačka",
+      "label": "Sjedište"
+    },
+    "belgrade": {
+      "city": "Beograd",
+      "country": "Srbija",
+      "label": "Jugoistočna Europa"
+    },
+    "texas": {
+      "city": "Texas",
+      "country": "SAD",
+      "label": "Sjeverna Amerika"
+    }
+  },
+  "contact": {
+    "badge": "Kontakt",
+    "headline": "Razgovarajmo",
+    "subtitle": "Bilo da imate prvo pitanje ili konkretan plan — uzimamo si vremena za vas.",
+    "phone": "Telefon",
+    "mobile": "Mobitel",
+    "email": "E-pošta",
+    "address": "Adresa",
+    "cta": "Pošaljite e-poštu",
+    "dialog": {
+      "title": "Pošaljite poruku",
+      "panel_subtitle": "Radujemo se vašem upitu i javit ćemo vam se u najkraćem mogućem roku.",
+      "name": "Ime",
+      "name_placeholder": "Vaše puno ime",
+      "email": "E-pošta",
+      "email_placeholder": "vasa@eposta.hr",
+      "subject": "Predmet",
+      "subject_placeholder": "O čemu se radi?",
+      "message": "Poruka",
+      "message_placeholder": "Vaša poruka...",
+      "submit": "Pošalji poruku",
+      "sending": "Slanje u tijeku...",
+      "success_title": "Poruka poslana",
+      "success_text": "Hvala vam! Javit ćemo vam se uskoro.",
+      "error_title": "Pogreška",
+      "error_text": "Poruka nije mogla biti poslana. Molimo pokušajte ponovno.",
+      "retry": "Pokušajte ponovno",
+      "close": "Zatvori",
+      "required": "Obavezno polje",
+      "invalid_email": "Nevažeća adresa e-pošte"
+    }
+  },
+  "footer": {
+    "description": "FIECON Germany Co. KG — Međunarodno savjetovanje za trgovačko pravo, osnivanje tvrtki i još mnogo toga. Osobno. Precizno. Partnerski.",
+    "services_title": "Usluge",
+    "offices_title": "Uredi",
+    "legal_title": "Pravne informacije",
+    "impressum": "Impresum",
+    "datenschutz": "Zaštita podataka",
+    "copyright": "© {year} FIECON Germany Co. KG. Sva prava pridržana."
+  },
+  "error": {
+    "title": "Došlo je do pogreške",
+    "description": "Molimo pokušajte ponovno ili se vratite na početnu stranicu.",
+    "retry": "Pokušajte ponovno"
+  },
+  "notFound": {
+    "title": "Stranica nije pronađena",
+    "description": "Tražena stranica ne postoji ili je premještena.",
+    "back": "Na početnu stranicu"
+  },
+  "impressum": {
+    "title": "Impresum",
+    "info_title": "Podaci sukladno § 5 TMG",
+    "contact_title": "Kontakt",
+    "phone_label": "Telefon",
+    "mobile_label": "Mobitel",
+    "email_label": "E-pošta",
+    "homepage_label": "Web-stranica",
+    "responsible_title": "Odgovoran za sadržaj prema § 55 stavak 2 RStV",
+    "responsible_name": "Peter Fiegler",
+    "disclaimer_title": "Odricanje od odgovornosti",
+    "disclaimer_content_title": "Odgovornost za sadržaj",
+    "disclaimer_content_text": "Sadržaji naših stranica izrađeni su s najvećom pažnjom. Međutim, ne možemo jamčiti za točnost, potpunost i aktualnost sadržaja. Kao pružatelj usluga, odgovorni smo za vlastite sadržaje na ovim stranicama sukladno § 7 stavak 1 TMG prema općim zakonima. Prema §§ 8 do 10 TMG, kao pružatelj usluga nismo obvezni nadzirati prenesene ili pohranjene informacije trećih strana niti istraživati okolnosti koje upućuju na nezakonitu djelatnost.",
+    "disclaimer_links_title": "Odgovornost za poveznice",
+    "disclaimer_links_text": "Naša ponuda sadrži poveznice na eksterne web-stranice trećih strana, na čiji sadržaj nemamo utjecaj. Stoga ne možemo preuzeti jamstvo za te sadržaje. Za sadržaj povezanih stranica uvijek je odgovoran odgovarajući pružatelj ili operater tih stranica. Povezane stranice provjerene su u pogledu mogućih pravnih povreda u trenutku povezivanja. Nezakoniti sadržaji nisu bili prepoznatljivi u trenutku povezivanja.",
+    "copyright_title": "Autorsko pravo",
+    "copyright_text": "Sadržaji i djela koja su izradili operateri ovih stranica podliježu njemačkom autorskom pravu. Umnožavanje, obrada, distribucija i svaka vrsta iskorištavanja izvan granica autorskog prava zahtijevaju pisanu suglasnost odgovarajućeg autora, odnosno tvorca djela."
+  },
+  "datenschutz": {
+    "title": "Politika zaštite podataka",
+    "intro": "Vrlo ozbiljno shvaćamo zaštitu vaših osobnih podataka. Vaše osobne podatke tretiramo povjerljivo i sukladno zakonskim propisima o zaštiti podataka, kao i ovoj politici zaštite podataka.",
+    "section_1_title": "1. Odgovorna osoba",
+    "section_1_text": "Odgovorna osoba za obradu podataka na ovoj web-stranici je:",
+    "section_2_title": "2. Prikupljanje i obrada osobnih podataka",
+    "section_2_text": "Prilikom posjeta našoj web-stranici automatski se prikupljaju informacije opće prirode. Ove informacije (serverski log-datoteke) uključuju vrstu web-preglednika, korišteni operativni sustav, naziv domene vašeg internetskog pružatelja usluga, vašu IP adresu i slične podatke. Radi se isključivo o informacijama koje ne omogućuju zaključke o vašoj osobi.",
+    "section_2_legal_basis": "Pravna osnova za obradu podataka je čl. 6 stavak 1 točka f DSGVO. Naš legitimni interes sastoji se u osiguravanju nesmetanog rada naše web-stranice.",
+    "section_2_retention": "Serverski log-datoteke automatski se brišu nakon 14 dana.",
+    "section_3_title": "3. Kontaktiranje",
+    "section_3_text": "Ukoliko nas kontaktirate putem e-pošte ili kontakt obrasca, vaši podaci uključujući kontakt podatke koje ste naveli bit će pohranjeni u svrhu obrade upita i za slučaj dodatnih pitanja. Ove podatke ne prosljeđujemo bez vašeg pristanka.",
+    "section_3_legal_basis": "Pravna osnova za obradu podataka je čl. 6 stavak 1 točka b DSGVO (predugovorne radnje) odnosno čl. 6 stavak 1 točka f DSGVO (legitimni interes za obradu vašeg upita).",
+    "section_3_retention": "Podaci dostavljeni u okviru kontaktiranja brišu se čim je vaš upit konačno obrađen i ne postoje zakonske obveze čuvanja.",
+    "section_4_title": "4. Slanje e-pošte",
+    "section_4_text": "Za slanje e-pošte putem našeg kontakt obrasca koristimo SMTP poslužitelj za poštu. Podaci koje ste unijeli (ime, adresa e-pošte, predmet, poruka) prosljeđuju se našem pružatelju usluga e-pošte, koji e-poštu dostavlja u naše ime.",
+    "section_5_title": "5. Vaša prava",
+    "section_5_text_1": "Imate sljedeća prava u vezi s vašim osobnim podacima:",
+    "section_5_rights_0": "Pravo na pristup (čl. 15 DSGVO)",
+    "section_5_rights_1": "Pravo na ispravak (čl. 16 DSGVO)",
+    "section_5_rights_2": "Pravo na brisanje (čl. 17 DSGVO)",
+    "section_5_rights_3": "Pravo na ograničenje obrade (čl. 18 DSGVO)",
+    "section_5_rights_4": "Pravo na prenosivost podataka (čl. 20 DSGVO)",
+    "section_5_rights_5": "Pravo na prigovor na obradu (čl. 21 DSGVO)",
+    "section_5_text_2": "Također imate pravo podnijeti pritužbu nadzornom tijelu za zaštitu podataka u vezi s obradom vaših osobnih podataka od naše strane.",
+    "section_6_title": "6. Kolačići",
+    "section_6_text": "Naša web-stranica koristi funkcionalni kolačić (NEXT_LOCALE) za pohranu vaše jezične preferencije. Ovaj kolačić je tehnički nužan i ne zahtijeva suglasnost prema § 25 stavak 2 TDDDG. Kolačići za praćenje ili analitiku se ne koriste.",
+    "section_7_title": "7. Aktualnost i izmjene ove politike zaštite podataka",
+    "section_7_text": "Ova politika zaštite podataka trenutačno je važeća. Uslijed daljnjeg razvoja naše web-stranice ili uslijed izmijenjenih zakonskih odnosno regulatornih zahtjeva, može biti potrebno izmijeniti ovu politiku zaštite podataka.",
+    "email_label": "E-pošta",
+    "contact_label": "Kontakt"
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "language": {
+    "title": "Spraak utsöken",
+    "close": "Tomaken"
+  },
+  "metadata": {
+    "title": "FIECON — Internationale Beradung för Sellschopsrecht & Firmengrünnen",
+    "description": "FIECON Germany Co. KG — Internationale Beradung för Sellschopsrecht, Firmengrünnen, Finanzverwalten un Bufinanzeren. Standoorten in Hamborg, Belgrad un Texas."
+  },
+  "nav": {
+    "home": "Na de Startsiet",
+    "menu": "Menü opmaken",
+    "about": "Över uns",
+    "services": "Leistungen",
+    "approach": "Ansatz",
+    "offices": "Standoorten",
+    "contact": "Kontakt",
+    "navigation": "Navigation",
+    "close_menu": "Menü sluten"
+  },
+  "hero": {
+    "tagline": "Fiegler Consulting",
+    "headline": "Juw Recht. Internationaal dacht.",
+    "subtitle": "Sellschopsrecht un internationale Firmengrünnen — persöönliche Betreung in Hamborg, Belgrad un Texas.",
+    "cta_primary": "Uns Leistungen",
+    "cta_secondary": "Kontakt opnehmen"
+  },
+  "about": {
+    "badge": "Över uns",
+    "headline": "Wiedsicht drept Sorgfalt",
+    "text_1": "FIECON steiht för internationale Beradung mit persöönliche Haltung. Uns Swoorpunkt liggt bi't Sellschopsrecht un bi internationale Firmengrünnen — Bereiken, in de Erfahrung, Präzisioon un kulturell Verstahn den Ünnerscheed maakt.",
+    "text_2": "Vun Hamborg, Belgrad un Texas ut begleid wi Ünnernehmen över Ländergrenzen henweg. Dor to beraad wi in de Finanzverwalten, de Bufinanzeren un de Jachtbufinanzeren — jümmers mit den Ansprook, Juw Interessen so to vertreden, as weern dat uns egene.",
+    "quote": "Wi beraadt, as güng dat üm uns egen Ünnernehmen.",
+    "stat_1_label": "Standoorten weltwied",
+    "stat_2_label": "Fachbereiken",
+    "stat_3_label": "Länner",
+    "quote_attribution": "Peter Fiegler, Grünner"
+  },
+  "services": {
+    "badge": "Leistungen",
+    "headline": "Uns Expertise",
+    "subtitle": "Veer Kompetenzfeller — een Ansprook: Juw internationale Vörhebben richtig optostellen.",
+    "consulting": {
+      "title": "Sellschopsrecht & Firmengrünnen",
+      "description": "Uns Kernrebeet: Wi beraadt bi dat Grünnen, Struktureren un Föhren vun Sellschopen in den internationalen Kontext. Vun de eerste Idee bet to de rechtssekere Ümsetten staht wi an Juw Siet.",
+      "items": {
+        "0": "Sellschopsrecht",
+        "1": "Internationale Firmengrünnen"
+      }
+    },
+    "finance": {
+      "title": "Finanzverwalten",
+      "description": "Ordnung schafft Vertruen: Wi övvernehmt dat professionelle Verwalten vun Juw Ünnernehmenfinanzen un schafft de transparenten Strukturen, de nahaltiges Wassen mööglich maakt.",
+      "items": {
+        "0": "Bookholden & Reporting",
+        "1": "Strategische Finanzplanen"
+      }
+    },
+    "construction": {
+      "title": "Bufinanzeren",
+      "description": "Buprojekten bruukt finanzielle Verlässlichkeit. Wi struktureert un begleid de Finanzeren vun Juw Buvörhebben — vun de eerste Kalkulatioon bet to dat Feerdigstellen.",
+      "items": {
+        "0": "Projektfinanzeren",
+        "1": "Investitioonssekeren"
+      }
+    },
+    "yacht": {
+      "title": "Jachtbufinanzeren",
+      "description": "En besünner Segment verdeent besünnere Sorgfalt. Wi beraadt bi de Finanzeren vun Jachtbuprojekten — diskret, persöönlich un mit Verstahn för de Ansprööke vun düsse Branche.",
+      "items": {
+        "0": "Jachtfinanzeren",
+        "1": "Persöönliche Beradung"
+      }
+    }
+  },
+  "approach": {
+    "badge": "Uns Ansatz",
+    "headline": "Wat uns utmaakt",
+    "values": {
+      "expertise": {
+        "title": "Internationale Expertise",
+        "description": "Deep Verstahn för Rechtssystemen, Geschäftskulturen un regulatorische Besünnerheiten in Europa, de USA un Südoosteuropa."
+      },
+      "personal": {
+        "title": "Persöönliche Nähde",
+        "description": "Bi uns sünd Se keen Aktenteken. Wi nehmt uns Tied, Juw Telen to verstahn, un entwickelt Strategien, de wohrhaftig to Se passt."
+      },
+      "trust": {
+        "title": "Partnerschop op Oogenhööchde",
+        "description": "Wi denkt langfristig. Transparenz, Integriteet un meetbare Resultaten sünd för uns nich blots Weerten — se sünd Verspreeken."
+      }
+    }
+  },
+  "offices": {
+    "badge": "Standoorten",
+    "headline": "Nah an Juw Markten",
+    "subtitle": "Dree Standoorten, een Verspreeken — persöönliche Beradung mit internationale Riekwied.",
+    "hamburg": {
+      "city": "Hamborg",
+      "country": "Düütschland",
+      "label": "Hööfdsitz"
+    },
+    "belgrade": {
+      "city": "Belgrad",
+      "country": "Serbien",
+      "label": "Südoosteuropa"
+    },
+    "texas": {
+      "city": "Texas",
+      "country": "USA",
+      "label": "Noordamerika"
+    }
+  },
+  "contact": {
+    "badge": "Kontakt",
+    "headline": "Laat uns snacken",
+    "subtitle": "Of en eerste Fraag oder en konkret Vörhebben — wi nehmt uns Tied för Se.",
+    "phone": "Telefon",
+    "mobile": "Mobil",
+    "email": "E-Mail",
+    "address": "Adress",
+    "cta": "E-Mail schrieven",
+    "dialog": {
+      "title": "Naricht sennen",
+      "panel_subtitle": "Wi freut uns op Juw Anfraag un mellt uns binnenkört bi Se torüch.",
+      "name": "Naam",
+      "name_placeholder": "Juw vullständigen Naam",
+      "email": "E-Mail-Adress",
+      "email_placeholder": "juw@email.de",
+      "subject": "Bedreff",
+      "subject_placeholder": "Worüm geiht dat?",
+      "message": "Naricht",
+      "message_placeholder": "Juw Naricht an uns...",
+      "submit": "Naricht sennen",
+      "sending": "Warrt sennt...",
+      "success_title": "Naricht sennt",
+      "success_text": "Velen Dank! Wi mellt uns binnenkört bi Se.",
+      "error_title": "Fehler",
+      "error_text": "De Naricht kunn nich sennt warrn. Bitte versöökt Se dat nochmaal.",
+      "retry": "Nochmaal versöken",
+      "close": "Tomaken",
+      "required": "Plichtfeld",
+      "invalid_email": "Ungüllige E-Mail-Adress"
+    }
+  },
+  "footer": {
+    "description": "FIECON Germany Co. KG — Internationale Beradung för Sellschopsrecht, Firmengrünnen un mehr. Persöönlich. Präzies. Partnerschoplich.",
+    "services_title": "Leistungen",
+    "offices_title": "Standoorten",
+    "legal_title": "Rechtliches",
+    "impressum": "Impressum",
+    "datenschutz": "Datenschutz",
+    "copyright": "© {year} FIECON Germany Co. KG. Alle Rechten vörbeholln."
+  },
+  "error": {
+    "title": "Dor is en Fehler optreden",
+    "description": "Bitte versöökt Se dat nochmaal oder gaht torüch na de Startsiet.",
+    "retry": "Nochmaal versöken"
+  },
+  "notFound": {
+    "title": "Siet nich funnen",
+    "description": "De anfraagt Siet existeert nich oder is verschaven worrn.",
+    "back": "Na de Startsiet"
+  },
+  "impressum": {
+    "title": "Impressum",
+    "info_title": "Angaven na § 5 TMG",
+    "contact_title": "Kontakt",
+    "phone_label": "Telefon",
+    "mobile_label": "Mobil",
+    "email_label": "E-Mail",
+    "homepage_label": "Homepage",
+    "responsible_title": "Verantwoortlich för den Inholt na § 55 Abs. 2 RStV",
+    "responsible_name": "Peter Fiegler",
+    "disclaimer_title": "Haftungsutsluss",
+    "disclaimer_content_title": "Haftung för Inholten",
+    "disclaimer_content_text": "De Inholten vun uns Sieden sünd mit gröttste Sorgfalt opstellt worrn. För de Richtigheit, Vullständigheit un Aktualiteet vun de Inholten köönt wi aver keen Gewähr övernehmen. As Deensteanbeder sünd wi na § 7 Abs. 1 TMG för egene Inholten op düsse Sieden na de allgemeenen Gesetzen verantwoortlich. Na §§ 8 bet 10 TMG sünd wi as Deensteanbeder aver nich verplicht, övermiddelte oder spiekerte fremde Informatioonen to överwaken oder na Ümständ to forschen, de op en rechtswidrige Tätigkeit henwiesen doot.",
+    "disclaimer_links_title": "Haftung för Links",
+    "disclaimer_links_text": "Uns Angebott enthöllt Links to externe Websieden vun Drüdde, op deren Inholten wi keen Influss hebbt. Dorüm köönt wi för düsse fremden Inholten ok keen Gewähr övernehmen. För de Inholten vun de verlinkten Sieden is jümmers de jeweilige Anbeder oder Bedriefer vun de Sieden verantwoortlich. De verlinkten Sieden sünd to'n Tiedpunkt vun de Verlinkung op mööglich Rechtsverstööt överprööft worrn. Rechtswidrige Inholten weern to'n Tiedpunkt vun de Verlinkung nich to erkennen.",
+    "copyright_title": "Urheberrecht",
+    "copyright_text": "De dörch de Siedenbedrievers opstellt Inholten un Warken op düsse Sieden ünnerliggt dat düütsche Urheberrecht. De Vervelfältigung, Bearbeidung, Verbreedung un jede Oort vun Verwertung buten de Grenzen vun dat Urheberrecht bruukt de schriftliche Tostimmung vun den jeweiligen Autor bzw. Opsteller."
+  },
+  "datenschutz": {
+    "title": "Datenschutzerklärung",
+    "intro": "Wi nehmt den Schutz vun Juw persöönliche Daten sehr ernst. Wi behandelt Juw personenbezogene Daten vertroulich un na de gesetzlichen Datenschutzvörschriften as ok düsse Datenschutzerklärung.",
+    "section_1_title": "1. Verantwoortliche Steed",
+    "section_1_text": "Verantwoortliche Steed för de Datenverarbeidung op düsse Websiet is:",
+    "section_2_title": "2. Erheben un Verarbeiden vun personenbezogene Daten",
+    "section_2_text": "Bi't Besöken vun uns Websiet warrt automatisch Informatioonen vun allgemeine Natuur erfasst. Düsse Informatioonen (Server-Logfiles) beinholt to'n Bispeel de Oort vun den Webbrowser, dat bruukte Bedriefssystem, den Domainnaam vun Juw Internet-Service-Provider, Juw IP-Adress un so wieder. Hierbi hannelt dat sik utslietlich üm Informatioonen, de keen Rückslüsse op Juw Persoon tolaat.",
+    "section_2_legal_basis": "Rechtsgrundlaag för de Datenverarbeidung is Art. 6 Abs. 1 lit. f DSGVO. Uns berechtigtet Interess besteiht in dat Sekerstelln vun en störungsfreten Bedrieff vun uns Websiet.",
+    "section_2_retention": "De Server-Logfiles warrt na 14 Daag automatisch löscht.",
+    "section_3_title": "3. Kontaktopnahme",
+    "section_3_text": "Wenn Se uns per E-Mail oder över dat Kontaktformular kontakteert, warrt Juw Angaven inslietlich de vun Se dor angeven Kontaktdaten twecks Bearbeidung vun de Anfraag un för den Fall vun Anslussfrragen bi uns spiekert. Düsse Daten geevt wi nich ahn Juw Inwilligen wieder.",
+    "section_3_legal_basis": "Rechtsgrundlaag för de Verarbeidung vun de Daten is Art. 6 Abs. 1 lit. b DSGVO (Vertragsanbahnung) bzw. Art. 6 Abs. 1 lit. f DSGVO (berechtigtet Interess an de Bearbeidung vun Juw Anfraag).",
+    "section_3_retention": "De in den Rahmen vun de Kontaktopnahme övermiddelt Daten warrt löscht, sobald Juw Anfraag afsluutend bearbeidt worrn is un keen gesetzliche Opbewahrungsplichten dorto in'n Weg staht.",
+    "section_4_title": "4. E-Mail-Versand",
+    "section_4_text": "För den Versand vun E-Mails över uns Kontaktformular bruukt wi en SMTP-Mailserver. De vun Se ingeven Daten (Naam, E-Mail-Adress, Bedreff, Naricht) warrt dorbi an uns E-Mail-Provider övermiddelt, de de E-Mail in uns Opdrag tostellt.",
+    "section_5_title": "5. Juw Rechten",
+    "section_5_text_1": "Se hebbt gegenöver uns de folgenden Rechten hinsichtlich de Se bedreepende personenbezogene Daten:",
+    "section_5_rights_0": "Recht op Utkunft (Art. 15 DSGVO)",
+    "section_5_rights_1": "Recht op Berichtigung (Art. 16 DSGVO)",
+    "section_5_rights_2": "Recht op Löschen (Art. 17 DSGVO)",
+    "section_5_rights_3": "Recht op Inschränkung vun de Verarbeidung (Art. 18 DSGVO)",
+    "section_5_rights_4": "Recht op Datenöverdraaghbarkeit (Art. 20 DSGVO)",
+    "section_5_rights_5": "Recht op Weddersprook gegen de Verarbeidung (Art. 21 DSGVO)",
+    "section_5_text_2": "Se hebbt dor to dat Recht, sik bi en Datenschutz-Opsiichtsbehöörde över de Verarbeidung vun Juw personenbezogene Daten dörch uns to besweern.",
+    "section_6_title": "6. Cookies",
+    "section_6_text": "Uns Websiet bruukt en funktioonaal Cookie (NEXT_LOCALE) to't Spiekern vun Juw Spraakpräferenz. Dit Cookie is technisch nootwendig un bruukt keen Inwilligen na § 25 Abs. 2 TDDDG. Dat warrt keen Tracking- oder Analyse-Cookies insett.",
+    "section_7_title": "7. Aktualiteet un Ännern vun düsse Datenschutzerklärung",
+    "section_7_text": "Düsse Datenschutzerklärung is aktuell güllig. Dörch de Wiederentwicklung vun uns Websiet oder op Grund vun ännerte gesetzliche bzw. behöörtliche Vörgaven kann dat nootwendig warrn, düsse Datenschutzerklärung to ännern.",
+    "email_label": "E-Mail",
+    "contact_label": "Kontakt"
+  }
+}
