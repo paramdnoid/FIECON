@@ -1,0 +1,214 @@
+{
+  "language": {
+    "title": "Choisir la langue",
+    "close": "Fermer"
+  },
+  "metadata": {
+    "title": "FIECON — Droit des sociétés international et conseil en création d'entreprises",
+    "description": "FIECON Germany Co. KG — Conseil international en droit des sociétés, création d'entreprises, administration financière et financement de la construction. Bureaux à Hambourg, Belgrade et au Texas."
+  },
+  "nav": {
+    "home": "Aller à l'accueil",
+    "menu": "Ouvrir le menu",
+    "about": "À propos",
+    "services": "Services",
+    "approach": "Approche",
+    "offices": "Bureaux",
+    "contact": "Contact",
+    "navigation": "Navigation",
+    "close_menu": "Fermer le menu"
+  },
+  "hero": {
+    "tagline": "Fiegler Consulting",
+    "headline": "Votre entreprise. Conseillée à l'international.",
+    "subtitle": "Droit des sociétés et création d'entreprises internationales — un accompagnement personnalisé à Hambourg, Belgrade et au Texas.",
+    "cta_primary": "Nos services",
+    "cta_secondary": "Nous contacter"
+  },
+  "about": {
+    "badge": "À propos",
+    "headline": "La vision rencontre la rigueur",
+    "text_1": "FIECON incarne le conseil international avec un engagement personnel. Notre expertise principale réside dans le droit des sociétés et la création d'entreprises internationales — des domaines où l'expérience, la précision et la compréhension culturelle font toute la différence.",
+    "text_2": "Depuis Hambourg, Belgrade et le Texas, nous accompagnons les entreprises au-delà des frontières. Nous conseillons également en administration financière, financement de la construction et financement de la construction navale — toujours avec l'ambition de défendre vos intérêts comme s'ils étaient les nôtres.",
+    "quote": "Nous conseillons comme si c'était notre propre entreprise qui était en jeu.",
+    "stat_1_label": "Sites dans le monde",
+    "stat_2_label": "Domaines d'activité",
+    "stat_3_label": "Pays",
+    "quote_attribution": "Peter Fiegler, fondateur"
+  },
+  "services": {
+    "badge": "Services",
+    "headline": "Notre expertise",
+    "subtitle": "Quatre domaines de compétence — un seul engagement : mener à bien vos projets internationaux.",
+    "consulting": {
+      "title": "Droit des sociétés et création d'entreprises",
+      "description": "Notre activité principale : nous conseillons sur la création, la structuration et la gouvernance d'entreprises dans différentes juridictions internationales. Du concept initial à la mise en œuvre juridiquement solide, nous sommes à vos côtés.",
+      "items": {
+        "0": "Droit des sociétés",
+        "1": "Création d'entreprises internationales"
+      }
+    },
+    "finance": {
+      "title": "Administration financière",
+      "description": "La clarté crée la confiance : nous prenons en charge l'administration financière de votre entreprise et créons les structures transparentes qui permettent une croissance durable.",
+      "items": {
+        "0": "Comptabilité et reporting",
+        "1": "Planification financière stratégique"
+      }
+    },
+    "construction": {
+      "title": "Financement de la construction",
+      "description": "Les projets de construction exigent une fiabilité financière. Nous structurons et supervisons le financement de vos projets de construction — du calcul initial à l'achèvement.",
+      "items": {
+        "0": "Financement de projets",
+        "1": "Sécurité des investissements"
+      }
+    },
+    "yacht": {
+      "title": "Financement de la construction de yachts",
+      "description": "Un segment distinctif mérite une attention particulière. Nous conseillons sur le financement de projets de construction de yachts — avec discrétion, personnalisation et une véritable compréhension des standards du secteur.",
+      "items": {
+        "0": "Financement de yachts",
+        "1": "Conseil personnalisé"
+      }
+    }
+  },
+  "approach": {
+    "badge": "Notre approche",
+    "headline": "Ce qui nous distingue",
+    "values": {
+      "expertise": {
+        "title": "Expertise internationale",
+        "description": "Une compréhension approfondie des systèmes juridiques, des cultures d'entreprise et des nuances réglementaires en Europe, aux États-Unis et en Europe du Sud-Est."
+      },
+      "personal": {
+        "title": "Proximité personnelle",
+        "description": "Chez nous, vous n'êtes jamais un simple numéro de dossier. Nous prenons le temps de comprendre vos objectifs et de développer des stratégies véritablement adaptées à votre situation."
+      },
+      "trust": {
+        "title": "Partenariat d'égal à égal",
+        "description": "Nous pensons à long terme. La transparence, l'intégrité et les résultats mesurables ne sont pas seulement des valeurs pour nous — ce sont des engagements."
+      }
+    }
+  },
+  "offices": {
+    "badge": "Bureaux",
+    "headline": "Proches de vos marchés",
+    "subtitle": "Trois sites, une promesse — un conseil personnalisé à portée internationale.",
+    "hamburg": {
+      "city": "Hambourg",
+      "country": "Allemagne",
+      "label": "Siège social"
+    },
+    "belgrade": {
+      "city": "Belgrade",
+      "country": "Serbie",
+      "label": "Europe du Sud-Est"
+    },
+    "texas": {
+      "city": "Texas",
+      "country": "États-Unis",
+      "label": "Amérique du Nord"
+    }
+  },
+  "contact": {
+    "badge": "Contact",
+    "headline": "Parlons-en",
+    "subtitle": "Qu'il s'agisse d'une première question ou d'un projet concret — nous prenons le temps pour vous.",
+    "phone": "Téléphone",
+    "mobile": "Mobile",
+    "email": "E-mail",
+    "address": "Adresse",
+    "cta": "Envoyer un e-mail",
+    "dialog": {
+      "title": "Envoyer un message",
+      "panel_subtitle": "Nous nous réjouissons de votre demande et vous répondrons dans les plus brefs délais.",
+      "name": "Nom",
+      "name_placeholder": "Votre nom complet",
+      "email": "Adresse e-mail",
+      "email_placeholder": "votre@email.com",
+      "subject": "Objet",
+      "subject_placeholder": "De quoi s'agit-il ?",
+      "message": "Message",
+      "message_placeholder": "Votre message...",
+      "submit": "Envoyer le message",
+      "sending": "Envoi en cours...",
+      "success_title": "Message envoyé",
+      "success_text": "Merci ! Nous vous répondrons dans les plus brefs délais.",
+      "error_title": "Erreur",
+      "error_text": "Le message n'a pas pu être envoyé. Veuillez réessayer.",
+      "retry": "Réessayer",
+      "close": "Fermer",
+      "required": "Champ obligatoire",
+      "invalid_email": "Adresse e-mail invalide"
+    }
+  },
+  "footer": {
+    "description": "FIECON Germany Co. KG — Conseil international en droit des sociétés, création d'entreprises et au-delà. Personnel. Précis. Partenarial.",
+    "services_title": "Services",
+    "offices_title": "Bureaux",
+    "legal_title": "Mentions légales",
+    "impressum": "Mentions légales",
+    "datenschutz": "Politique de confidentialité",
+    "copyright": "© {year} FIECON Germany Co. KG. Tous droits réservés."
+  },
+  "error": {
+    "title": "Une erreur est survenue",
+    "description": "Veuillez réessayer ou retourner à la page d'accueil.",
+    "retry": "Réessayer"
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "description": "La page demandée n'existe pas ou a été déplacée.",
+    "back": "Retour à l'accueil"
+  },
+  "impressum": {
+    "title": "Mentions légales",
+    "info_title": "Informations conformément au § 5 TMG",
+    "contact_title": "Contact",
+    "phone_label": "Téléphone",
+    "mobile_label": "Mobile",
+    "email_label": "E-mail",
+    "homepage_label": "Site internet",
+    "responsible_title": "Responsable du contenu conformément au § 55 al. 2 RStV",
+    "responsible_name": "Peter Fiegler",
+    "disclaimer_title": "Avertissement",
+    "disclaimer_content_title": "Responsabilité du contenu",
+    "disclaimer_content_text": "Le contenu de nos pages a été élaboré avec le plus grand soin. Nous ne pouvons toutefois garantir l'exactitude, l'exhaustivité ou l'actualité du contenu. En tant que prestataire de services, nous sommes responsables de notre propre contenu sur ces pages conformément au § 7 al. 1 TMG selon le droit général. Conformément aux §§ 8 à 10 TMG, nous ne sommes toutefois pas tenus, en tant que prestataire de services, de surveiller les informations transmises ou stockées par des tiers ni de rechercher des circonstances indiquant une activité illégale.",
+    "disclaimer_links_title": "Responsabilité des liens",
+    "disclaimer_links_text": "Notre site internet contient des liens vers des sites internet externes de tiers sur le contenu desquels nous n'avons aucune influence. Par conséquent, nous déclinons toute responsabilité pour ce contenu tiers. Le fournisseur ou l'exploitant respectif des pages est toujours responsable du contenu des pages liées. Les pages liées ont été vérifiées pour d'éventuelles violations légales au moment de la création du lien. Aucun contenu illégal n'était identifiable au moment de la création du lien.",
+    "copyright_title": "Droit d'auteur",
+    "copyright_text": "Le contenu et les œuvres créés par les exploitants du site sur ces pages sont soumis au droit d'auteur allemand. La reproduction, le traitement, la diffusion et toute forme d'exploitation en dehors des limites du droit d'auteur nécessitent le consentement écrit de l'auteur ou du créateur respectif."
+  },
+  "datenschutz": {
+    "title": "Politique de confidentialité",
+    "intro": "Nous prenons très au sérieux la protection de vos données personnelles. Nous traitons vos données personnelles de manière confidentielle et conformément aux dispositions légales en matière de protection des données ainsi qu'à la présente politique de confidentialité.",
+    "section_1_title": "1. Entité responsable",
+    "section_1_text": "L'entité responsable du traitement des données sur ce site internet est :",
+    "section_2_title": "2. Collecte et traitement des données personnelles",
+    "section_2_text": "Lors de la visite de notre site internet, des informations de nature générale sont automatiquement collectées. Ces informations (fichiers journaux du serveur) comprennent le type de navigateur web, le système d'exploitation utilisé, le nom de domaine de votre fournisseur d'accès internet, votre adresse IP et des données similaires. Il s'agit exclusivement d'informations ne permettant aucune conclusion sur votre personne.",
+    "section_2_legal_basis": "La base juridique du traitement des données est l'art. 6 al. 1 lit. f DSGVO. Notre intérêt légitime réside dans le bon fonctionnement de notre site internet.",
+    "section_2_retention": "Les fichiers journaux du serveur sont automatiquement supprimés après 14 jours.",
+    "section_3_title": "3. Contact",
+    "section_3_text": "Si vous nous contactez par e-mail ou via le formulaire de contact, vos données, y compris les coordonnées que vous fournissez, seront stockées aux fins du traitement de la demande et en cas de questions complémentaires. Nous ne partagerons pas ces données sans votre consentement.",
+    "section_3_legal_basis": "La base juridique du traitement des données est l'art. 6 al. 1 lit. b DSGVO (mesures précontractuelles) ou l'art. 6 al. 1 lit. f DSGVO (intérêt légitime dans le traitement de votre demande).",
+    "section_3_retention": "Les données transmises dans le cadre de la prise de contact seront supprimées dès que votre demande aura été traitée de manière définitive et qu'aucune obligation légale de conservation ne s'applique.",
+    "section_4_title": "4. Envoi d'e-mails",
+    "section_4_text": "Pour l'envoi d'e-mails via notre formulaire de contact, nous utilisons un serveur de messagerie SMTP. Les données que vous saisissez (nom, adresse e-mail, objet, message) sont transmises à notre fournisseur de messagerie, qui délivre l'e-mail en notre nom.",
+    "section_5_title": "5. Vos droits",
+    "section_5_text_1": "Vous disposez des droits suivants concernant vos données personnelles :",
+    "section_5_rights_0": "Droit d'accès (Art. 15 DSGVO)",
+    "section_5_rights_1": "Droit de rectification (Art. 16 DSGVO)",
+    "section_5_rights_2": "Droit à l'effacement (Art. 17 DSGVO)",
+    "section_5_rights_3": "Droit à la limitation du traitement (Art. 18 DSGVO)",
+    "section_5_rights_4": "Droit à la portabilité des données (Art. 20 DSGVO)",
+    "section_5_rights_5": "Droit d'opposition au traitement (Art. 21 DSGVO)",
+    "section_5_text_2": "Vous avez également le droit de déposer une plainte auprès d'une autorité de contrôle de la protection des données concernant le traitement de vos données personnelles par nos soins.",
+    "section_6_title": "6. Cookies",
+    "section_6_text": "Notre site internet utilise un cookie fonctionnel (NEXT_LOCALE) pour stocker votre préférence linguistique. Ce cookie est techniquement nécessaire et ne nécessite pas de consentement en vertu du § 25 al. 2 TDDDG. Aucun cookie de suivi ou d'analyse n'est utilisé.",
+    "section_7_title": "7. Modifications de cette politique de confidentialité",
+    "section_7_text": "Cette politique de confidentialité est actuellement en vigueur. En raison du développement continu de notre site internet ou de modifications des exigences légales ou réglementaires, il peut s'avérer nécessaire de modifier cette politique de confidentialité.",
+    "email_label": "E-mail",
+    "contact_label": "Contact"
+  }
+}

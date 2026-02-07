@@ -1,0 +1,190 @@
+{
+  "language": {
+    "title": "Pasirinkite kalbą",
+    "close": "Uždaryti"
+  },
+  "metadata": {
+    "title": "FIECON — Tarptautinė bendrovių teisė ir konsultacijos dėl įmonių steigimo",
+    "description": "FIECON Germany Co. KG — Tarptautinės konsultacijos bendrovių teisės, įmonių steigimo, finansų administravimo ir statybų finansavimo srityse. Biurai Hamburge, Belgrade ir Teksase."
+  },
+  "nav": {
+    "home": "Eiti į pagrindinį puslapį",
+    "menu": "Atidaryti meniu",
+    "about": "Apie mus",
+    "services": "Paslaugos",
+    "approach": "Požiūris",
+    "offices": "Biurai",
+    "contact": "Kontaktai",
+    "navigation": "Navigacija",
+    "close_menu": "Uždaryti meniu"
+  },
+  "hero": {
+    "tagline": "Fiegler Consulting",
+    "headline": "Jūsų verslas. Tarptautiškai konsultuojamas.",
+    "subtitle": "Bendrovių teisė ir tarptautinis įmonių steigimas — asmeninis konsultavimas Hamburge, Belgrade ir Teksase.",
+    "cta_primary": "Mūsų paslaugos",
+    "cta_secondary": "Susisiekite su mumis"
+  },
+  "about": {
+    "badge": "Apie mus",
+    "headline": "Vizija sutinka kruopštumą",
+    "text_1": "FIECON reiškia tarptautines konsultacijas su asmeniniu įsipareigojimu. Mūsų pagrindinė kompetencija yra bendrovių teisės ir tarptautinio įmonių steigimo srityje — srityse, kurioje patirtis, tikslumas ir kultūrinis supratimas lemia viską.",
+    "text_2": "Iš Hamburgo, Belgrado ir Teksaso mes vedame verslus per sienas. Taip pat konsultuojame finansų administravimo, statybų finansavimo ir jachtų statybos finansavimo klausimais — visada siekdami atstovauti jūsų interesams taip, tarsi jie būtų mūsų pačių.",
+    "quote": "Mes konsultuojame taip, tarsi tai būtų mūsų pačių įmonė.",
+    "stat_1_label": "Vietos pasaulyje",
+    "stat_2_label": "Praktikos sritys",
+    "stat_3_label": "Šalys",
+    "quote_attribution": "Peter Fiegler, Įkūrėjas"
+  },
+  "services": {
+    "badge": "Paslaugos",
+    "headline": "Mūsų ekspertizė",
+    "subtitle": "Keturios kompetencijos sritys — vienas įsipareigojimas: tinkamai įgyvendinti jūsų tarptautinius projektus.",
+    "consulting": {
+      "title": "Bendrovių teisė ir įmonių steigimas",
+      "description": "Mūsų pagrindinė praktika: konsultuojame dėl įmonių steigimo, struktūrizavimo ir valdymo tarptautinėse jurisdikcijose. Nuo pradinės koncepcijos iki teisiškai pagrįsto įgyvendinimo — mes esame šalia jūsų.",
+      "items": { "0": "Bendrovių teisė", "1": "Tarptautinis įmonių steigimas" }
+    },
+    "finance": {
+      "title": "Finansų administravimas",
+      "description": "Aiškumas kuria pasitikėjimą: perimame jūsų įmonės finansų administravimą ir kuriame skaidrias struktūras, kurios leidžia tvarų augimą.",
+      "items": { "0": "Apskaita ir ataskaitų teikimas", "1": "Strateginis finansų planavimas" }
+    },
+    "construction": {
+      "title": "Statybų finansavimas",
+      "description": "Statybų projektams reikia finansinio patikimumo. Struktūrizuojame ir prižiūrime jūsų statybų projektų finansavimą — nuo pradinio skaičiavimo iki užbaigimo.",
+      "items": { "0": "Projektų finansavimas", "1": "Investicijų saugumas" }
+    },
+    "yacht": {
+      "title": "Jachtų statybos finansavimas",
+      "description": "Ypatingas segmentas nusipelno ypatingos priežiūros. Konsultuojame dėl jachtų statybos projektų finansavimo — diskretiškai, asmeniškai ir su tikru pramonės standartų supratimu.",
+      "items": { "0": "Jachtų finansavimas", "1": "Asmeninis konsultavimas" }
+    }
+  },
+  "approach": {
+    "badge": "Mūsų požiūris",
+    "headline": "Kas mus išskiria",
+    "values": {
+      "expertise": {
+        "title": "Tarptautinė ekspertizė",
+        "description": "Gilus teisinių sistemų, verslo kultūrų ir reguliavimo niuansų supratimas Europoje, JAV ir Pietryčių Europoje."
+      },
+      "personal": {
+        "title": "Asmeninis artumas",
+        "description": "Pas mus jūs niekada nesate tik bylos numeris. Skiriame laiko suprasti jūsų tikslus ir kurti strategijas, kurios tikrai atitinka jūsų situaciją."
+      },
+      "trust": {
+        "title": "Lygiateisė partnerystė",
+        "description": "Mąstome ilgalaikiškai. Skaidrumas, sąžiningumas ir išmatuojami rezultatai mums yra ne tik vertybės — tai įsipareigojimai."
+      }
+    }
+  },
+  "offices": {
+    "badge": "Biurai",
+    "headline": "Arti jūsų rinkų",
+    "subtitle": "Trys vietos, vienas pažadas — asmeninis konsultavimas su tarptautiniu pasiekiamumu.",
+    "hamburg": { "city": "Hamburgas", "country": "Vokietija", "label": "Pagrindinė būstinė" },
+    "belgrade": { "city": "Belgradas", "country": "Serbija", "label": "Pietryčių Europa" },
+    "texas": { "city": "Teksasas", "country": "JAV", "label": "Šiaurės Amerika" }
+  },
+  "contact": {
+    "badge": "Kontaktai",
+    "headline": "Pasikalbėkime",
+    "subtitle": "Nesvarbu, ar tai pradinis klausimas, ar konkretus projektas — mes skiriame jums laiko.",
+    "phone": "Telefonas",
+    "mobile": "Mobilusis",
+    "email": "El. paštas",
+    "address": "Adresas",
+    "cta": "Siųsti el. laišką",
+    "dialog": {
+      "title": "Siųsti žinutę",
+      "panel_subtitle": "Laukiame jūsų užklausos ir greitai su jumis susisieksime.",
+      "name": "Vardas",
+      "name_placeholder": "Jūsų pilnas vardas",
+      "email": "El. pašto adresas",
+      "email_placeholder": "jusu@elpastas.lt",
+      "subject": "Tema",
+      "subject_placeholder": "Apie ką norite pasiteirauti?",
+      "message": "Žinutė",
+      "message_placeholder": "Jūsų žinutė mums...",
+      "submit": "Siųsti žinutę",
+      "sending": "Siunčiama...",
+      "success_title": "Žinutė išsiųsta",
+      "success_text": "Ačiū! Greitai su jumis susisieksime.",
+      "error_title": "Klaida",
+      "error_text": "Žinutės nepavyko išsiųsti. Bandykite dar kartą.",
+      "retry": "Bandyti dar kartą",
+      "close": "Uždaryti",
+      "required": "Privalomas laukas",
+      "invalid_email": "Neteisingas el. pašto adresas"
+    }
+  },
+  "footer": {
+    "description": "FIECON Germany Co. KG — Tarptautinės konsultacijos bendrovių teisės, įmonių steigimo ir kitose srityse. Asmeniškai. Tiksliai. Partnerystėje.",
+    "services_title": "Paslaugos",
+    "offices_title": "Biurai",
+    "legal_title": "Teisinė informacija",
+    "impressum": "Impressum",
+    "datenschutz": "Privatumo politika",
+    "copyright": "© {year} FIECON Germany Co. KG. Visos teisės saugomos."
+  },
+  "error": {
+    "title": "Įvyko klaida",
+    "description": "Bandykite dar kartą arba grįžkite į pagrindinį puslapį.",
+    "retry": "Bandyti dar kartą"
+  },
+  "notFound": {
+    "title": "Puslapis nerastas",
+    "description": "Prašomas puslapis neegzistuoja arba buvo perkeltas.",
+    "back": "Grįžti į pagrindinį puslapį"
+  },
+  "impressum": {
+    "title": "Impressum",
+    "info_title": "Informacija pagal § 5 TMG",
+    "contact_title": "Kontaktai",
+    "phone_label": "Telefonas",
+    "mobile_label": "Mobilusis",
+    "email_label": "El. paštas",
+    "homepage_label": "Svetainė",
+    "responsible_title": "Atsakingas už turinį pagal § 55 str. 2 RStV",
+    "responsible_name": "Peter Fiegler",
+    "disclaimer_title": "Atsakomybės apribojimas",
+    "disclaimer_content_title": "Atsakomybė už turinį",
+    "disclaimer_content_text": "Mūsų puslapių turinys buvo sukurtas su didžiausiu kruopštumu. Tačiau negalime garantuoti turinio tikslumo, išsamumo ar aktualumo. Kaip paslaugų teikėjai, esame atsakingi už savo turinį šiuose puslapiuose pagal § 7 str. 1 TMG pagal bendrąjį įstatymą. Pagal §§ 8–10 TMG, kaip paslaugų teikėjai, neprivalome stebėti perduodamos ar saugomos trečiųjų šalių informacijos arba tirti aplinkybių, rodančių neteisėtą veiklą.",
+    "disclaimer_links_title": "Atsakomybė už nuorodas",
+    "disclaimer_links_text": "Mūsų svetainėje yra nuorodų į išorines trečiųjų šalių svetaines, kurių turiniui neturime jokios įtakos. Todėl negalime prisiimti jokios atsakomybės už šį trečiųjų šalių turinį. Atitinkamas puslapių tiekėjas ar operatorius visada yra atsakingas už nuorodų puslapių turinį. Nuorodų puslapiai buvo patikrinti dėl galimų teisinių pažeidimų nuorodų kūrimo metu. Neteisėtas turinys nebuvo atpažįstamas nuorodų kūrimo metu.",
+    "copyright_title": "Autorių teisės",
+    "copyright_text": "Svetainės operatorių sukurtas turinys ir kūriniai šiuose puslapiuose yra saugomi Vokietijos autorių teisių įstatymų. Kopijavimas, redagavimas, platinimas ir bet koks naudojimas už autorių teisių ribų reikalauja atitinkamo autoriaus ar kūrėjo raštiško sutikimo."
+  },
+  "datenschutz": {
+    "title": "Privatumo politika",
+    "intro": "Mes labai rimtai žiūrime į jūsų asmens duomenų apsaugą. Jūsų asmens duomenis tvarkome konfidencialiai ir laikydamiesi teisės aktų dėl duomenų apsaugos bei šios privatumo politikos.",
+    "section_1_title": "1. Atsakingas subjektas",
+    "section_1_text": "Atsakingas subjektas už duomenų tvarkymą šioje svetainėje yra:",
+    "section_2_title": "2. Asmens duomenų rinkimas ir tvarkymas",
+    "section_2_text": "Lankantis mūsų svetainėje, automatiškai renkama bendro pobūdžio informacija. Ši informacija (serverio žurnalų failai) apima naudojamos naršyklės tipą, operacinę sistemą, interneto paslaugų teikėjo domeno pavadinimą, jūsų IP adresą ir panašius duomenis. Tai išimtinai informacija, kuri neleidžia daryti jokių išvadų apie jūsų tapatybę.",
+    "section_2_legal_basis": "Duomenų tvarkymo teisinis pagrindas yra Art. 6 str. 1 lit. f DSGVO. Mūsų teisėtas interesas yra užtikrinti sklandų mūsų svetainės veikimą.",
+    "section_2_retention": "Serverio žurnalų failai automatiškai ištrinami po 14 dienų.",
+    "section_3_title": "3. Kontaktas",
+    "section_3_text": "Jei susisieksite su mumis el. paštu arba per kontaktų formą, jūsų duomenys, įskaitant jūsų pateiktus kontaktinius duomenis, bus saugomi užklausos apdorojimo tikslais ir galimų tolesnių klausimų atveju. Šių duomenų neperduosime be jūsų sutikimo.",
+    "section_3_legal_basis": "Duomenų tvarkymo teisinis pagrindas yra Art. 6 str. 1 lit. b DSGVO (ikisutartinės priemonės) arba Art. 6 str. 1 lit. f DSGVO (teisėtas interesas tvarkyti jūsų užklausą).",
+    "section_3_retention": "Susisiekimo metu perduoti duomenys ištrinami, kai tik jūsų užklausa yra galutinai apdorota ir netaikomi jokie teisės aktų nustatyti saugojimo įpareigojimai.",
+    "section_4_title": "4. El. laiškų pristatymas",
+    "section_4_text": "El. laiškų siuntimui per mūsų kontaktų formą naudojame SMTP pašto serverį. Jūsų įvesti duomenys (vardas, el. pašto adresas, tema, žinutė) perduodami mūsų el. pašto paslaugų teikėjui, kuris pristato el. laišką mūsų vardu.",
+    "section_5_title": "5. Jūsų teisės",
+    "section_5_text_1": "Turite šias teises dėl savo asmens duomenų:",
+    "section_5_rights_0": "Teisė susipažinti su duomenimis (Art. 15 DSGVO)",
+    "section_5_rights_1": "Teisė į duomenų ištaisymą (Art. 16 DSGVO)",
+    "section_5_rights_2": "Teisė į duomenų ištrynimą (Art. 17 DSGVO)",
+    "section_5_rights_3": "Teisė į duomenų tvarkymo apribojimą (Art. 18 DSGVO)",
+    "section_5_rights_4": "Teisė į duomenų perkeliamumą (Art. 20 DSGVO)",
+    "section_5_rights_5": "Teisė nesutikti su duomenų tvarkymu (Art. 21 DSGVO)",
+    "section_5_text_2": "Taip pat turite teisę pateikti skundą duomenų apsaugos priežiūros institucijai dėl mūsų atliekamo jūsų asmens duomenų tvarkymo.",
+    "section_6_title": "6. Slapukai",
+    "section_6_text": "Mūsų svetainė naudoja funkcinį slapuką (NEXT_LOCALE) jūsų kalbos pasirinkimui saugoti. Šis slapukas yra techniškai būtinas ir nereikalauja sutikimo pagal § 25 str. 2 TDDDG. Sekimo ar analitikos slapukai nenaudojami.",
+    "section_7_title": "7. Šios privatumo politikos pakeitimai",
+    "section_7_text": "Ši privatumo politika šiuo metu galioja. Dėl tolesnio mūsų svetainės vystymo arba pasikeitusių teisinių ar reguliavimo reikalavimų gali tekti pakeisti šią privatumo politiką.",
+    "email_label": "El. paštas",
+    "contact_label": "Kontaktai"
+  }
+}

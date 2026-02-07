@@ -1,0 +1,190 @@
+{
+  "language": {
+    "title": "Valitse kieli",
+    "close": "Sulje"
+  },
+  "metadata": {
+    "title": "FIECON — Kansainvälinen yhtiöoikeus & yrityksen perustamisneuvonta",
+    "description": "FIECON Germany Co. KG — Kansainvälinen neuvonta yhtiöoikeudessa, yritysten perustamisessa, taloushallinnossa ja rakennusrahoituksessa. Toimistot Hampurissa, Belgradissa ja Texasissa."
+  },
+  "nav": {
+    "home": "Siirry etusivulle",
+    "menu": "Avaa valikko",
+    "about": "Tietoa meistä",
+    "services": "Palvelut",
+    "approach": "Lähestymistapa",
+    "offices": "Toimistot",
+    "contact": "Yhteystiedot",
+    "navigation": "Navigointi",
+    "close_menu": "Sulje valikko"
+  },
+  "hero": {
+    "tagline": "Fiegler Consulting",
+    "headline": "Yrityksesi. Kansainvälisesti neuvottuna.",
+    "subtitle": "Yhtiöoikeus ja kansainvälinen yritysten perustaminen — henkilökohtainen ohjaus Hampurissa, Belgradissa ja Texasissa.",
+    "cta_primary": "Palvelumme",
+    "cta_secondary": "Ota yhteyttä"
+  },
+  "about": {
+    "badge": "Tietoa meistä",
+    "headline": "Visio kohtaa huolellisuuden",
+    "text_1": "FIECON tarkoittaa kansainvälistä neuvontaa henkilökohtaisella sitoutumisella. Ydinosaamisemme on yhtiöoikeudessa ja kansainvälisessä yritysten perustamisessa — aloilla, joilla kokemus, tarkkuus ja kulttuurinen ymmärrys tekevät kaiken eron.",
+    "text_2": "Hampurista, Belgradista ja Texasista ohjaamme yrityksiä yli rajojen. Neuvomme myös taloushallinnossa, rakennusrahoituksessa ja huvijahtirakentamisen rahoituksessa — aina pyrkien edustamaan etujasi kuin ne olisivat omiamme.",
+    "quote": "Neuvomme kuin kyseessä olisi oma yrityksemme.",
+    "stat_1_label": "Toimipistettä maailmalla",
+    "stat_2_label": "Osaamisaluetta",
+    "stat_3_label": "Maata",
+    "quote_attribution": "Peter Fiegler, Perustaja"
+  },
+  "services": {
+    "badge": "Palvelut",
+    "headline": "Osaamisemme",
+    "subtitle": "Neljä osaamisaluetta — yksi sitoumus: toteuttaa kansainväliset hankkeesi oikein.",
+    "consulting": {
+      "title": "Yhtiöoikeus & yritysten perustaminen",
+      "description": "Ydinosaamisemme: neuvomme yritysten perustamisessa, rakenteissa ja hallinnossa kansainvälisissä oikeudenkäyttöalueissa. Alkuideasta oikeudellisesti moitteettomaan toteutukseen — olemme rinnallasi.",
+      "items": { "0": "Yhtiöoikeus", "1": "Kansainvälinen yritysten perustaminen" }
+    },
+    "finance": {
+      "title": "Taloushallinto",
+      "description": "Selkeys rakentaa luottamusta: hoidamme yrityksesi taloushallinnon ja luomme läpinäkyvät rakenteet, jotka mahdollistavat kestävän kasvun.",
+      "items": { "0": "Kirjanpito ja raportointi", "1": "Strateginen taloussuunnittelu" }
+    },
+    "construction": {
+      "title": "Rakennusrahoitus",
+      "description": "Rakennushankkeet vaativat taloudellista luotettavuutta. Rakenteistamme ja valvomme rakennushankkeidesi rahoitusta — alkuperäisestä laskelmasta valmistumiseen.",
+      "items": { "0": "Hankkeenrahoitus", "1": "Sijoitusturva" }
+    },
+    "yacht": {
+      "title": "Huvijahtirakentamisen rahoitus",
+      "description": "Erityinen segmentti ansaitsee erityistä huolenpitoa. Neuvomme huvijahtirakentamisen rahoituksessa — hienotunteisesti, henkilökohtaisesti ja aidolla alan standardien ymmärryksellä.",
+      "items": { "0": "Jahtirahoitus", "1": "Henkilökohtainen neuvonta" }
+    }
+  },
+  "approach": {
+    "badge": "Lähestymistapamme",
+    "headline": "Mikä erottaa meidät",
+    "values": {
+      "expertise": {
+        "title": "Kansainvälinen asiantuntemus",
+        "description": "Syvällinen ymmärrys oikeusjärjestelmistä, liiketoimintakulttuureista ja sääntelynuansseista Euroopassa, Yhdysvalloissa ja Kaakkois-Euroopassa."
+      },
+      "personal": {
+        "title": "Henkilökohtainen läheisyys",
+        "description": "Meillä et ole koskaan vain asiakasnumero. Käytämme aikaa tavoitteidesi ymmärtämiseen ja kehitämme strategioita, jotka todella sopivat tilanteeseesi."
+      },
+      "trust": {
+        "title": "Tasavertainen kumppanuus",
+        "description": "Ajattelemme pitkäjänteisesti. Läpinäkyvyys, rehellisyys ja mitattavat tulokset eivät ole meille vain arvoja — ne ovat sitoumuksia."
+      }
+    }
+  },
+  "offices": {
+    "badge": "Toimistot",
+    "headline": "Lähellä markkinoitasi",
+    "subtitle": "Kolme toimipistettä, yksi lupaus — henkilökohtainen neuvonta kansainvälisellä ulottuvuudella.",
+    "hamburg": { "city": "Hampuri", "country": "Saksa", "label": "Pääkonttori" },
+    "belgrade": { "city": "Belgrad", "country": "Serbia", "label": "Kaakkois-Eurooppa" },
+    "texas": { "city": "Texas", "country": "Yhdysvallat", "label": "Pohjois-Amerikka" }
+  },
+  "contact": {
+    "badge": "Yhteystiedot",
+    "headline": "Keskustellaan",
+    "subtitle": "Olipa kyseessä ensimmäinen kysymys tai konkreettinen hanke — käytämme aikaa sinuun.",
+    "phone": "Puhelin",
+    "mobile": "Matkapuhelin",
+    "email": "Sähköposti",
+    "address": "Osoite",
+    "cta": "Lähetä sähköposti",
+    "dialog": {
+      "title": "Lähetä viesti",
+      "panel_subtitle": "Odotamme yhteydenottoasi innolla ja palaamme asiaan pikaisesti.",
+      "name": "Nimi",
+      "name_placeholder": "Koko nimesi",
+      "email": "Sähköpostiosoite",
+      "email_placeholder": "sinun@sahkoposti.fi",
+      "subject": "Aihe",
+      "subject_placeholder": "Mistä on kyse?",
+      "message": "Viesti",
+      "message_placeholder": "Viestisi meille...",
+      "submit": "Lähetä viesti",
+      "sending": "Lähetetään...",
+      "success_title": "Viesti lähetetty",
+      "success_text": "Kiitos! Palaamme sinulle pian.",
+      "error_title": "Virhe",
+      "error_text": "Viestiä ei voitu lähettää. Yritä uudelleen.",
+      "retry": "Yritä uudelleen",
+      "close": "Sulje",
+      "required": "Pakollinen kenttä",
+      "invalid_email": "Virheellinen sähköpostiosoite"
+    }
+  },
+  "footer": {
+    "description": "FIECON Germany Co. KG — Kansainvälinen neuvonta yhtiöoikeudessa, yritysten perustamisessa ja muussa. Henkilökohtaisesti. Tarkasti. Kumppanuudessa.",
+    "services_title": "Palvelut",
+    "offices_title": "Toimistot",
+    "legal_title": "Oikeudelliset tiedot",
+    "impressum": "Impressum",
+    "datenschutz": "Tietosuojakäytäntö",
+    "copyright": "© {year} FIECON Germany Co. KG. Kaikki oikeudet pidätetään."
+  },
+  "error": {
+    "title": "Tapahtui virhe",
+    "description": "Yritä uudelleen tai palaa etusivulle.",
+    "retry": "Yritä uudelleen"
+  },
+  "notFound": {
+    "title": "Sivua ei löytynyt",
+    "description": "Pyydettyä sivua ei ole olemassa tai se on siirretty.",
+    "back": "Takaisin etusivulle"
+  },
+  "impressum": {
+    "title": "Impressum",
+    "info_title": "Tiedot § 5 TMG:n mukaisesti",
+    "contact_title": "Yhteystiedot",
+    "phone_label": "Puhelin",
+    "mobile_label": "Matkapuhelin",
+    "email_label": "Sähköposti",
+    "homepage_label": "Kotisivu",
+    "responsible_title": "Sisällöstä vastaava § 55 kpl 2 RStV:n mukaisesti",
+    "responsible_name": "Peter Fiegler",
+    "disclaimer_title": "Vastuuvapauslauseke",
+    "disclaimer_content_title": "Vastuu sisällöstä",
+    "disclaimer_content_text": "Sivujemme sisältö on luotu suurimmalla mahdollisella huolellisuudella. Emme voi kuitenkaan taata sisällön oikeellisuutta, täydellisyyttä tai ajantasaisuutta. Palveluntarjoajana olemme vastuussa omasta sisällöstämme näillä sivuilla § 7 kpl 1 TMG:n mukaisesti yleisen lainsäädännön nojalla. §§ 8–10 TMG:n mukaisesti meillä palveluntarjoajana ei kuitenkaan ole velvollisuutta valvoa kolmannen osapuolen siirtämiä tai tallentamia tietoja tai tutkia laitonta toimintaa osoittavia olosuhteita.",
+    "disclaimer_links_title": "Vastuu linkeistä",
+    "disclaimer_links_text": "Verkkosivustomme sisältää linkkejä kolmansien osapuolten ulkoisille verkkosivustoille, joiden sisältöön meillä ei ole vaikutusvaltaa. Emme siksi voi ottaa vastuuta tästä kolmannen osapuolen sisällöstä. Linkitettyjen sivujen sisällöstä vastaa aina kyseinen palveluntarjoaja tai sivujen ylläpitäjä. Linkitetyt sivut tarkastettiin mahdollisten laillisten rikkomusten varalta linkin luomishetkellä. Laitonta sisältöä ei ollut tunnistettavissa linkin luomishetkellä.",
+    "copyright_title": "Tekijänoikeus",
+    "copyright_text": "Sivuston ylläpitäjien luoma sisältö ja teokset näillä sivuilla ovat Saksan tekijänoikeuslain alaisia. Kopiointi, muokkaus, jakelu ja kaikenlainen hyödyntäminen tekijänoikeuslain rajojen ulkopuolella edellyttävät kyseisen tekijän tai luojan kirjallista suostumusta."
+  },
+  "datenschutz": {
+    "title": "Tietosuojakäytäntö",
+    "intro": "Suhtaudumme henkilötietojesi suojaamiseen erittäin vakavasti. Käsittelemme henkilötietojasi luottamuksellisesti sekä lakisääteisten tietosuojasäännösten ja tämän tietosuojakäytännön mukaisesti.",
+    "section_1_title": "1. Vastuullinen taho",
+    "section_1_text": "Tämän verkkosivuston tietojenkäsittelystä vastuullinen taho on:",
+    "section_2_title": "2. Henkilötietojen kerääminen ja käsittely",
+    "section_2_text": "Verkkosivustollamme vieraillessasi kerätään automaattisesti yleisluonteista tietoa. Tämä tieto (palvelinlokitiedostot) sisältää selaimen tyypin, käytetyn käyttöjärjestelmän, internetpalveluntarjoajasi verkkotunnuksen, IP-osoitteesi ja vastaavia tietoja. Kyseessä on yksinomaan tietoja, jotka eivät mahdollista johtopäätöksiä henkilöllisyydestäsi.",
+    "section_2_legal_basis": "Tietojenkäsittelyn oikeusperuste on Art. 6 kpl 1 lit. f DSGVO. Oikeutettu etumme on verkkosivustomme häiriöttömän toiminnan varmistaminen.",
+    "section_2_retention": "Palvelinlokitiedostot poistetaan automaattisesti 14 päivän jälkeen.",
+    "section_3_title": "3. Yhteydenotto",
+    "section_3_text": "Jos otat meihin yhteyttä sähköpostitse tai yhteydenottolomakkeen kautta, tietosi mukaan lukien antamasi yhteystiedot tallennetaan tiedustelun käsittelyä varten sekä mahdollisia jatkokysymyksiä varten. Emme luovuta näitä tietoja ilman suostumustasi.",
+    "section_3_legal_basis": "Tietojen käsittelyn oikeusperuste on Art. 6 kpl 1 lit. b DSGVO (sopimusta edeltävät toimenpiteet) tai Art. 6 kpl 1 lit. f DSGVO (oikeutettu etu tiedustelusi käsittelyssä).",
+    "section_3_retention": "Yhteydenoton yhteydessä välitetyt tiedot poistetaan heti, kun tiedustelusi on lopullisesti käsitelty eikä lakisääteisiä säilyttämisvelvoitteita ole.",
+    "section_4_title": "4. Sähköpostin toimitus",
+    "section_4_text": "Sähköpostien lähettämiseen yhteydenottolomakkeen kautta käytämme SMTP-postipalvelinta. Syöttämäsi tiedot (nimi, sähköpostiosoite, aihe, viesti) välitetään sähköpostipalveluntarjoajallemme, joka toimittaa sähköpostin puolestamme.",
+    "section_5_title": "5. Oikeutesi",
+    "section_5_text_1": "Sinulla on seuraavat oikeudet henkilötietojesi suhteen:",
+    "section_5_rights_0": "Oikeus saada pääsy tietoihin (Art. 15 DSGVO)",
+    "section_5_rights_1": "Oikeus tietojen oikaisemiseen (Art. 16 DSGVO)",
+    "section_5_rights_2": "Oikeus tietojen poistamiseen (Art. 17 DSGVO)",
+    "section_5_rights_3": "Oikeus käsittelyn rajoittamiseen (Art. 18 DSGVO)",
+    "section_5_rights_4": "Oikeus tietojen siirrettävyyteen (Art. 20 DSGVO)",
+    "section_5_rights_5": "Oikeus vastustaa käsittelyä (Art. 21 DSGVO)",
+    "section_5_text_2": "Sinulla on myös oikeus tehdä valitus tietosuojavalvontaviranomaiselle henkilötietojesi käsittelystä.",
+    "section_6_title": "6. Evästeet",
+    "section_6_text": "Verkkosivustomme käyttää toiminnallista evästettä (NEXT_LOCALE) kielivalintasi tallentamiseen. Tämä eväste on teknisesti välttämätön eikä vaadi suostumusta § 25 kpl 2 TDDDG:n mukaisesti. Seuranta- tai analytiikkaevästeitä ei käytetä.",
+    "section_7_title": "7. Tämän tietosuojakäytännön muutokset",
+    "section_7_text": "Tämä tietosuojakäytäntö on tällä hetkellä voimassa. Verkkosivustomme jatkokehityksen tai muuttuneiden oikeudellisten tai sääntelyvaatimusten vuoksi tämän tietosuojakäytännön muuttaminen saattaa olla tarpeen.",
+    "email_label": "Sähköposti",
+    "contact_label": "Yhteystiedot"
+  }
+}

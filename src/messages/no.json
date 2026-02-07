@@ -1,0 +1,190 @@
+{
+  "language": {
+    "title": "Velg språk",
+    "close": "Lukk"
+  },
+  "metadata": {
+    "title": "FIECON — Internasjonal selskapsrett og rådgivning for selskapsetablering",
+    "description": "FIECON Germany Co. KG — Internasjonal rådgivning innen selskapsrett, selskapsetablering, økonomisk forvaltning og byggfinansiering. Kontorer i Hamburg, Beograd og Texas."
+  },
+  "nav": {
+    "home": "Gå til forsiden",
+    "menu": "Åpne meny",
+    "about": "Om oss",
+    "services": "Tjenester",
+    "approach": "Tilnærming",
+    "offices": "Kontorer",
+    "contact": "Kontakt",
+    "navigation": "Navigasjon",
+    "close_menu": "Lukk meny"
+  },
+  "hero": {
+    "tagline": "Fiegler Consulting",
+    "headline": "Din virksomhet. Internasjonalt rådgitt.",
+    "subtitle": "Selskapsrett og internasjonal selskapsetablering — personlig veiledning i Hamburg, Beograd og Texas.",
+    "cta_primary": "Våre tjenester",
+    "cta_secondary": "Ta kontakt"
+  },
+  "about": {
+    "badge": "Om oss",
+    "headline": "Visjon møter grundighet",
+    "text_1": "FIECON står for internasjonal rådgivning med personlig engasjement. Vår kjernekompetanse ligger innen selskapsrett og internasjonal selskapsetablering — områder der erfaring, presisjon og kulturell forståelse utgjør hele forskjellen.",
+    "text_2": "Fra Hamburg, Beograd og Texas veileder vi virksomheter over landegrenser. Vi rådgir også innen økonomisk forvaltning, byggfinansiering og yachtbyggfinansiering — alltid med ambisjonen om å representere dine interesser som om de var våre egne.",
+    "quote": "Vi rådgir som om det var vårt eget selskap.",
+    "stat_1_label": "Lokasjoner verden over",
+    "stat_2_label": "Fagområder",
+    "stat_3_label": "Land",
+    "quote_attribution": "Peter Fiegler, Grunnlegger"
+  },
+  "services": {
+    "badge": "Tjenester",
+    "headline": "Vår ekspertise",
+    "subtitle": "Fire kompetanseområder — én forpliktelse: å gjøre dine internasjonale satsinger riktig.",
+    "consulting": {
+      "title": "Selskapsrett & selskapsetablering",
+      "description": "Vår kjernepraksis: vi rådgir om etablering, strukturering og styring av selskaper på tvers av internasjonale jurisdiksjoner. Fra første konsept til juridisk forsvarlig gjennomføring står vi ved din side.",
+      "items": { "0": "Selskapsrett", "1": "Internasjonal selskapsetablering" }
+    },
+    "finance": {
+      "title": "Økonomisk forvaltning",
+      "description": "Klarhet bygger tillit: vi tar ansvar for din bedrifts økonomiske forvaltning og skaper de transparente strukturene som muliggjør bærekraftig vekst.",
+      "items": { "0": "Regnskap og rapportering", "1": "Strategisk økonomisk planlegging" }
+    },
+    "construction": {
+      "title": "Byggfinansiering",
+      "description": "Byggeprosjekter krever økonomisk pålitelighet. Vi strukturerer og overvåker finansieringen av dine byggeprosjekter — fra første beregning til ferdigstillelse.",
+      "items": { "0": "Prosjektfinansiering", "1": "Investeringssikkerhet" }
+    },
+    "yacht": {
+      "title": "Yachtbyggfinansiering",
+      "description": "Et spesielt segment fortjener spesiell omsorg. Vi rådgir om finansiering av yachtbyggprosjekter — diskret, personlig og med genuin forståelse for bransjens standarder.",
+      "items": { "0": "Yachtfinansiering", "1": "Personlig rådgivning" }
+    }
+  },
+  "approach": {
+    "badge": "Vår tilnærming",
+    "headline": "Hva som skiller oss ut",
+    "values": {
+      "expertise": {
+        "title": "Internasjonal ekspertise",
+        "description": "Dyp forståelse av rettssystemer, forretningskulturer og regulatoriske nyanser i Europa, USA og Sørøst-Europa."
+      },
+      "personal": {
+        "title": "Personlig nærhet",
+        "description": "Hos oss er du aldri bare et saksnummer. Vi tar oss tid til å forstå dine mål og utvikle strategier som virkelig passer din situasjon."
+      },
+      "trust": {
+        "title": "Partnerskap på like vilkår",
+        "description": "Vi tenker langsiktig. Åpenhet, integritet og målbare resultater er ikke bare verdier for oss — de er forpliktelser."
+      }
+    }
+  },
+  "offices": {
+    "badge": "Kontorer",
+    "headline": "Nær dine markeder",
+    "subtitle": "Tre lokasjoner, ett løfte — personlig rådgivning med internasjonal rekkevidde.",
+    "hamburg": { "city": "Hamburg", "country": "Tyskland", "label": "Hovedkontor" },
+    "belgrade": { "city": "Beograd", "country": "Serbia", "label": "Sørøst-Europa" },
+    "texas": { "city": "Texas", "country": "USA", "label": "Nord-Amerika" }
+  },
+  "contact": {
+    "badge": "Kontakt",
+    "headline": "La oss snakke",
+    "subtitle": "Enten det gjelder et innledende spørsmål eller et konkret prosjekt — vi tar oss tid for deg.",
+    "phone": "Telefon",
+    "mobile": "Mobil",
+    "email": "E-post",
+    "address": "Adresse",
+    "cta": "Send e-post",
+    "dialog": {
+      "title": "Send melding",
+      "panel_subtitle": "Vi ser frem til din henvendelse og kommer tilbake til deg så snart som mulig.",
+      "name": "Navn",
+      "name_placeholder": "Ditt fulle navn",
+      "email": "E-postadresse",
+      "email_placeholder": "din@epost.no",
+      "subject": "Emne",
+      "subject_placeholder": "Hva gjelder det?",
+      "message": "Melding",
+      "message_placeholder": "Din melding til oss...",
+      "submit": "Send melding",
+      "sending": "Sender...",
+      "success_title": "Melding sendt",
+      "success_text": "Takk! Vi tar kontakt med deg snart.",
+      "error_title": "Feil",
+      "error_text": "Meldingen kunne ikke sendes. Vennligst prøv igjen.",
+      "retry": "Prøv igjen",
+      "close": "Lukk",
+      "required": "Obligatorisk felt",
+      "invalid_email": "Ugyldig e-postadresse"
+    }
+  },
+  "footer": {
+    "description": "FIECON Germany Co. KG — Internasjonal rådgivning innen selskapsrett, selskapsetablering og mer. Personlig. Presis. I partnerskap.",
+    "services_title": "Tjenester",
+    "offices_title": "Kontorer",
+    "legal_title": "Juridisk",
+    "impressum": "Impressum",
+    "datenschutz": "Personvern",
+    "copyright": "© {year} FIECON Germany Co. KG. Alle rettigheter forbeholdt."
+  },
+  "error": {
+    "title": "Det oppstod en feil",
+    "description": "Vennligst prøv igjen eller gå tilbake til forsiden.",
+    "retry": "Prøv igjen"
+  },
+  "notFound": {
+    "title": "Siden ble ikke funnet",
+    "description": "Den forespurte siden finnes ikke eller har blitt flyttet.",
+    "back": "Tilbake til forsiden"
+  },
+  "impressum": {
+    "title": "Impressum",
+    "info_title": "Informasjon i henhold til § 5 TMG",
+    "contact_title": "Kontakt",
+    "phone_label": "Telefon",
+    "mobile_label": "Mobil",
+    "email_label": "E-post",
+    "homepage_label": "Hjemmeside",
+    "responsible_title": "Ansvarlig for innholdet i henhold til § 55 avs. 2 RStV",
+    "responsible_name": "Peter Fiegler",
+    "disclaimer_title": "Ansvarsfraskrivelse",
+    "disclaimer_content_title": "Ansvar for innholdet",
+    "disclaimer_content_text": "Innholdet på våre sider er utarbeidet med størst mulig omhu. Vi kan imidlertid ikke garantere innholdets nøyaktighet, fullstendighet eller aktualitet. Som tjenesteleverandør er vi ansvarlige for eget innhold på disse sidene i henhold til § 7 avs. 1 TMG etter alminnelig lovgivning. I henhold til §§ 8 til 10 TMG er vi imidlertid som tjenesteleverandør ikke forpliktet til å overvåke overført eller lagret tredjepartsinformasjon eller å undersøke omstendigheter som tyder på ulovlig virksomhet.",
+    "disclaimer_links_title": "Ansvar for lenker",
+    "disclaimer_links_text": "Vår nettside inneholder lenker til eksterne tredjeparts nettsider som vi ikke har innflytelse over innholdet til. Derfor kan vi ikke påta oss noe ansvar for dette tredjepartsinnholdet. Den respektive leverandøren eller operatøren av sidene er alltid ansvarlig for innholdet på de lenkede sidene. De lenkede sidene ble kontrollert for mulige juridiske overtredelser på tidspunktet for lenking. Ulovlig innhold var ikke gjenkjennelig på tidspunktet for lenking.",
+    "copyright_title": "Opphavsrett",
+    "copyright_text": "Innholdet og verkene som er skapt av nettstedets operatører på disse sidene er underlagt tysk opphavsrettslov. Reproduksjon, redigering, distribusjon og enhver form for utnyttelse utover opphavsrettens grenser krever skriftlig samtykke fra den respektive forfatteren eller skaperen."
+  },
+  "datenschutz": {
+    "title": "Personvernerklæring",
+    "intro": "Vi tar beskyttelsen av dine personopplysninger svært alvorlig. Vi behandler dine personopplysninger konfidensielt og i samsvar med lovbestemte personvernregler og denne personvernerklæringen.",
+    "section_1_title": "1. Ansvarlig enhet",
+    "section_1_text": "Den ansvarlige enheten for databehandling på dette nettstedet er:",
+    "section_2_title": "2. Innsamling og behandling av personopplysninger",
+    "section_2_text": "Når du besøker vårt nettsted, samles informasjon av generell karakter inn automatisk. Denne informasjonen (serverloggfiler) inkluderer nettlesertype, operativsystemet som brukes, domenenavnet til din internettleverandør, din IP-adresse og lignende opplysninger. Dette er utelukkende informasjon som ikke tillater noen slutninger om din person.",
+    "section_2_legal_basis": "Rettsgrunnlaget for databehandlingen er Art. 6 avs. 1 lit. f DSGVO. Vår berettigede interesse ligger i å sikre feilfri drift av vårt nettsted.",
+    "section_2_retention": "Serverloggfiler slettes automatisk etter 14 dager.",
+    "section_3_title": "3. Kontakt",
+    "section_3_text": "Hvis du kontakter oss via e-post eller via kontaktskjemaet, vil dine opplysninger inkludert kontaktinformasjonen du oppgir, bli lagret med det formål å behandle henvendelsen og i tilfelle oppfølgingsspørsmål. Vi deler ikke disse opplysningene uten ditt samtykke.",
+    "section_3_legal_basis": "Rettsgrunnlaget for behandling av opplysningene er Art. 6 avs. 1 lit. b DSGVO (førkontraktuelle tiltak) eller Art. 6 avs. 1 lit. f DSGVO (berettiget interesse i å behandle din henvendelse).",
+    "section_3_retention": "Opplysninger som overføres i forbindelse med kontakt med oss, slettes så snart din henvendelse er endelig behandlet og ingen lovbestemte oppbevaringsplikter gjelder.",
+    "section_4_title": "4. E-postlevering",
+    "section_4_text": "For å sende e-post via vårt kontaktskjema bruker vi en SMTP-mailserver. Opplysningene du oppgir (navn, e-postadresse, emne, melding) overføres til vår e-postleverandør, som leverer e-posten på våre vegne.",
+    "section_5_title": "5. Dine rettigheter",
+    "section_5_text_1": "Du har følgende rettigheter vedrørende dine personopplysninger:",
+    "section_5_rights_0": "Rett til innsyn (Art. 15 DSGVO)",
+    "section_5_rights_1": "Rett til retting (Art. 16 DSGVO)",
+    "section_5_rights_2": "Rett til sletting (Art. 17 DSGVO)",
+    "section_5_rights_3": "Rett til begrensning av behandlingen (Art. 18 DSGVO)",
+    "section_5_rights_4": "Rett til dataportabilitet (Art. 20 DSGVO)",
+    "section_5_rights_5": "Rett til å protestere mot behandlingen (Art. 21 DSGVO)",
+    "section_5_text_2": "Du har også rett til å klage til et datatilsynsmyndighet angående vår behandling av dine personopplysninger.",
+    "section_6_title": "6. Informasjonskapsler",
+    "section_6_text": "Vårt nettsted bruker en funksjonell informasjonskapsel (NEXT_LOCALE) for å lagre dine språkpreferanser. Denne informasjonskapselen er teknisk nødvendig og krever ikke samtykke i henhold til § 25 avs. 2 TDDDG. Ingen sporings- eller analyseinformasjonskapsler brukes.",
+    "section_7_title": "7. Endringer i denne personvernerklæringen",
+    "section_7_text": "Denne personvernerklæringen er gjeldende. På grunn av videreutviklingen av vårt nettsted eller endrede juridiske eller regulatoriske krav kan det bli nødvendig å endre denne personvernerklæringen.",
+    "email_label": "E-post",
+    "contact_label": "Kontakt"
+  }
+}

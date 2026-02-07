@@ -1,0 +1,214 @@
+{
+  "language": {
+    "title": "Taal kiezen",
+    "close": "Sluiten"
+  },
+  "metadata": {
+    "title": "FIECON — Internationaal Advies voor Ondernemingsrecht & Bedrijfsoprichtingen",
+    "description": "FIECON Germany Co. KG — Internationaal advies voor ondernemingsrecht, bedrijfsoprichtingen, financieel beheer en bouwfinanciering. Vestigingen in Hamburg, Belgrado en Texas."
+  },
+  "nav": {
+    "home": "Naar startpagina",
+    "menu": "Menu openen",
+    "about": "Over ons",
+    "services": "Diensten",
+    "approach": "Aanpak",
+    "offices": "Vestigingen",
+    "contact": "Contact",
+    "navigation": "Navigatie",
+    "close_menu": "Menu sluiten"
+  },
+  "hero": {
+    "tagline": "Fiegler Consulting",
+    "headline": "Uw recht. Internationaal gedacht.",
+    "subtitle": "Ondernemingsrecht en internationale bedrijfsoprichtingen — persoonlijke begeleiding in Hamburg, Belgrado en Texas.",
+    "cta_primary": "Onze diensten",
+    "cta_secondary": "Neem contact op"
+  },
+  "about": {
+    "badge": "Over ons",
+    "headline": "Visie ontmoet zorgvuldigheid",
+    "text_1": "FIECON staat voor internationaal advies met een persoonlijke inzet. Onze kernexpertise ligt in het ondernemingsrecht en bij internationale bedrijfsoprichtingen — gebieden waar ervaring, precisie en cultureel begrip het verschil maken.",
+    "text_2": "Vanuit Hamburg, Belgrado en Texas begeleiden wij bedrijven over landsgrenzen heen. Daarnaast adviseren wij op het gebied van financieel beheer, bouwfinanciering en jachtbouwfinanciering — altijd met de ambitie uw belangen te behartigen alsof het onze eigen zijn.",
+    "quote": "Wij adviseren alsof het ons eigen bedrijf betreft.",
+    "stat_1_label": "Vestigingen wereldwijd",
+    "stat_2_label": "Vakgebieden",
+    "stat_3_label": "Landen",
+    "quote_attribution": "Peter Fiegler, Oprichter"
+  },
+  "services": {
+    "badge": "Diensten",
+    "headline": "Onze expertise",
+    "subtitle": "Vier competentiegebieden — één ambitie: uw internationale plannen goed opzetten.",
+    "consulting": {
+      "title": "Ondernemingsrecht & Bedrijfsoprichtingen",
+      "description": "Ons kerngebied: wij adviseren bij de oprichting, structurering en besturing van ondernemingen in een internationale context. Van het eerste idee tot de juridisch correcte uitvoering staan wij aan uw zijde.",
+      "items": {
+        "0": "Ondernemingsrecht",
+        "1": "Internationale bedrijfsoprichtingen"
+      }
+    },
+    "finance": {
+      "title": "Financieel beheer",
+      "description": "Orde schept vertrouwen: wij nemen het professionele beheer van uw bedrijfsfinanciën op ons en creëren de transparante structuren die duurzame groei mogelijk maken.",
+      "items": {
+        "0": "Boekhouding & Rapportage",
+        "1": "Strategische financiële planning"
+      }
+    },
+    "construction": {
+      "title": "Bouwfinanciering",
+      "description": "Bouwprojecten vragen om financiële betrouwbaarheid. Wij structureren en begeleiden de financiering van uw bouwprojecten — van de eerste berekening tot de oplevering.",
+      "items": {
+        "0": "Projectfinanciering",
+        "1": "Investeringszekerheid"
+      }
+    },
+    "yacht": {
+      "title": "Jachtbouwfinanciering",
+      "description": "Een bijzonder segment verdient bijzondere zorg. Wij adviseren bij de financiering van jachtbouwprojecten — discreet, persoonlijk en met begrip voor de eisen van deze branche.",
+      "items": {
+        "0": "Jachtfinanciering",
+        "1": "Persoonlijk advies"
+      }
+    }
+  },
+  "approach": {
+    "badge": "Onze aanpak",
+    "headline": "Wat ons onderscheidt",
+    "values": {
+      "expertise": {
+        "title": "Internationale expertise",
+        "description": "Diepgaand begrip van rechtsstelsels, bedrijfsculturen en regelgevende bijzonderheden in Europa, de VS en Zuidoost-Europa."
+      },
+      "personal": {
+        "title": "Persoonlijke nabijheid",
+        "description": "Bij ons bent u geen dossiernummer. Wij nemen de tijd om uw doelen te begrijpen en ontwikkelen strategieën die werkelijk bij u passen."
+      },
+      "trust": {
+        "title": "Partnerschap op gelijk niveau",
+        "description": "Wij denken op de lange termijn. Transparantie, integriteit en meetbare resultaten zijn voor ons niet alleen waarden — het zijn beloften."
+      }
+    }
+  },
+  "offices": {
+    "badge": "Vestigingen",
+    "headline": "Dicht bij uw markten",
+    "subtitle": "Drie vestigingen, één belofte — persoonlijk advies met internationaal bereik.",
+    "hamburg": {
+      "city": "Hamburg",
+      "country": "Duitsland",
+      "label": "Hoofdkantoor"
+    },
+    "belgrade": {
+      "city": "Belgrado",
+      "country": "Servië",
+      "label": "Zuidoost-Europa"
+    },
+    "texas": {
+      "city": "Texas",
+      "country": "VS",
+      "label": "Noord-Amerika"
+    }
+  },
+  "contact": {
+    "badge": "Contact",
+    "headline": "Laten we praten",
+    "subtitle": "Of het nu een eerste vraag is of een concreet plan — wij nemen de tijd voor u.",
+    "phone": "Telefoon",
+    "mobile": "Mobiel",
+    "email": "E-mail",
+    "address": "Adres",
+    "cta": "E-mail sturen",
+    "dialog": {
+      "title": "Bericht versturen",
+      "panel_subtitle": "Wij kijken uit naar uw aanvraag en nemen zo snel mogelijk contact met u op.",
+      "name": "Naam",
+      "name_placeholder": "Uw volledige naam",
+      "email": "E-mailadres",
+      "email_placeholder": "uw@email.nl",
+      "subject": "Onderwerp",
+      "subject_placeholder": "Waar gaat het over?",
+      "message": "Bericht",
+      "message_placeholder": "Uw bericht aan ons...",
+      "submit": "Bericht versturen",
+      "sending": "Wordt verzonden...",
+      "success_title": "Bericht verzonden",
+      "success_text": "Bedankt! Wij nemen spoedig contact met u op.",
+      "error_title": "Fout",
+      "error_text": "Het bericht kon niet worden verzonden. Probeer het opnieuw.",
+      "retry": "Opnieuw proberen",
+      "close": "Sluiten",
+      "required": "Verplicht veld",
+      "invalid_email": "Ongeldig e-mailadres"
+    }
+  },
+  "footer": {
+    "description": "FIECON Germany Co. KG — Internationaal advies voor ondernemingsrecht, bedrijfsoprichtingen en meer. Persoonlijk. Precies. Partnerschap.",
+    "services_title": "Diensten",
+    "offices_title": "Vestigingen",
+    "legal_title": "Juridisch",
+    "impressum": "Impressum",
+    "datenschutz": "Privacybeleid",
+    "copyright": "© {year} FIECON Germany Co. KG. Alle rechten voorbehouden."
+  },
+  "error": {
+    "title": "Er is een fout opgetreden",
+    "description": "Probeer het opnieuw of keer terug naar de startpagina.",
+    "retry": "Opnieuw proberen"
+  },
+  "notFound": {
+    "title": "Pagina niet gevonden",
+    "description": "De opgevraagde pagina bestaat niet of is verplaatst.",
+    "back": "Naar startpagina"
+  },
+  "impressum": {
+    "title": "Impressum",
+    "info_title": "Informatie volgens § 5 TMG",
+    "contact_title": "Contact",
+    "phone_label": "Telefoon",
+    "mobile_label": "Mobiel",
+    "email_label": "E-mail",
+    "homepage_label": "Website",
+    "responsible_title": "Verantwoordelijk voor de inhoud volgens § 55 lid 2 RStV",
+    "responsible_name": "Peter Fiegler",
+    "disclaimer_title": "Disclaimer",
+    "disclaimer_content_title": "Aansprakelijkheid voor inhoud",
+    "disclaimer_content_text": "De inhoud van onze pagina's is met de grootste zorgvuldigheid opgesteld. Wij kunnen echter geen garantie geven voor de juistheid, volledigheid en actualiteit van de inhoud. Als dienstverlener zijn wij verantwoordelijk voor onze eigen inhoud op deze pagina's in overeenstemming met § 7 lid 1 TMG. Volgens §§ 8 tot 10 TMG zijn wij als dienstverlener echter niet verplicht om doorgegeven of opgeslagen informatie van derden te controleren of om omstandigheden te onderzoeken die wijzen op een onrechtmatige activiteit.",
+    "disclaimer_links_title": "Aansprakelijkheid voor links",
+    "disclaimer_links_text": "Ons aanbod bevat links naar externe websites van derden, waarop wij geen invloed hebben. Daarom kunnen wij voor deze externe inhoud geen aansprakelijkheid aanvaarden. De betreffende aanbieder of exploitant van de pagina's is altijd verantwoordelijk voor de inhoud van de gelinkte pagina's. De gelinkte pagina's zijn ten tijde van het linken gecontroleerd op mogelijke juridische overtredingen. Onrechtmatige inhoud was ten tijde van het linken niet herkenbaar.",
+    "copyright_title": "Auteursrecht",
+    "copyright_text": "De door de exploitanten van deze pagina's gecreëerde inhoud en werken vallen onder het Duitse auteursrecht. Verveelvoudiging, bewerking, verspreiding en elke vorm van exploitatie buiten de grenzen van het auteursrecht vereisen de schriftelijke toestemming van de betreffende auteur of maker."
+  },
+  "datenschutz": {
+    "title": "Privacybeleid",
+    "intro": "Wij nemen de bescherming van uw persoonsgegevens zeer serieus. Wij behandelen uw persoonsgegevens vertrouwelijk en in overeenstemming met de wettelijke gegevensbeschermingsvoorschriften en dit privacybeleid.",
+    "section_1_title": "1. Verantwoordelijke instantie",
+    "section_1_text": "Verantwoordelijke instantie voor de gegevensverwerking op deze website is:",
+    "section_2_title": "2. Verzameling en verwerking van persoonsgegevens",
+    "section_2_text": "Bij het bezoeken van onze website wordt automatisch informatie van algemene aard verzameld. Deze informatie (serverlogbestanden) omvat onder andere het type webbrowser, het gebruikte besturingssysteem, de domeinnaam van uw internetprovider, uw IP-adres en vergelijkbare gegevens. Het betreft uitsluitend informatie die geen conclusies over uw persoon toelaat.",
+    "section_2_legal_basis": "De rechtsgrondslag voor de gegevensverwerking is Art. 6 lid 1 lit. f AVG. Ons gerechtvaardigd belang ligt in het waarborgen van een storingsvrije werking van onze website.",
+    "section_2_retention": "De serverlogbestanden worden na 14 dagen automatisch verwijderd.",
+    "section_3_title": "3. Contactopname",
+    "section_3_text": "Wanneer u ons per e-mail of via het contactformulier contacteert, worden uw gegevens inclusief de door u opgegeven contactgegevens opgeslagen ten behoeve van de verwerking van uw aanvraag en voor eventuele vervolgvragen. Wij geven deze gegevens niet door zonder uw toestemming.",
+    "section_3_legal_basis": "De rechtsgrondslag voor de verwerking van de gegevens is Art. 6 lid 1 lit. b AVG (precontractuele maatregelen) resp. Art. 6 lid 1 lit. f AVG (gerechtvaardigd belang bij de verwerking van uw aanvraag).",
+    "section_3_retention": "De in het kader van de contactopname verzonden gegevens worden verwijderd zodra uw aanvraag definitief is afgehandeld en er geen wettelijke bewaarplichten van toepassing zijn.",
+    "section_4_title": "4. E-mailverzending",
+    "section_4_text": "Voor het verzenden van e-mails via ons contactformulier gebruiken wij een SMTP-mailserver. De door u ingevoerde gegevens (naam, e-mailadres, onderwerp, bericht) worden daarbij aan onze e-mailprovider doorgegeven, die de e-mail namens ons bezorgt.",
+    "section_5_title": "5. Uw rechten",
+    "section_5_text_1": "U heeft de volgende rechten met betrekking tot uw persoonsgegevens:",
+    "section_5_rights_0": "Recht op inzage (Art. 15 AVG)",
+    "section_5_rights_1": "Recht op rectificatie (Art. 16 AVG)",
+    "section_5_rights_2": "Recht op wissing (Art. 17 AVG)",
+    "section_5_rights_3": "Recht op beperking van de verwerking (Art. 18 AVG)",
+    "section_5_rights_4": "Recht op gegevensoverdraagbaarheid (Art. 20 AVG)",
+    "section_5_rights_5": "Recht op bezwaar tegen de verwerking (Art. 21 AVG)",
+    "section_5_text_2": "Daarnaast heeft u het recht om een klacht in te dienen bij een toezichthoudende autoriteit voor gegevensbescherming over de verwerking van uw persoonsgegevens door ons.",
+    "section_6_title": "6. Cookies",
+    "section_6_text": "Onze website maakt gebruik van een functioneel cookie (NEXT_LOCALE) om uw taalvoorkeur op te slaan. Dit cookie is technisch noodzakelijk en vereist geen toestemming op grond van § 25 lid 2 TDDDG. Er worden geen tracking- of analysecookies gebruikt.",
+    "section_7_title": "7. Wijzigingen in dit privacybeleid",
+    "section_7_text": "Dit privacybeleid is momenteel geldig. Door de verdere ontwikkeling van onze website of door gewijzigde wettelijke of regelgevende vereisten kan het noodzakelijk worden dit privacybeleid aan te passen.",
+    "email_label": "E-mail",
+    "contact_label": "Contact"
+  }
+}

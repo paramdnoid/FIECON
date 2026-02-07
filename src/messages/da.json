@@ -1,0 +1,190 @@
+{
+  "language": {
+    "title": "Vælg sprog",
+    "close": "Luk"
+  },
+  "metadata": {
+    "title": "FIECON — International selskabsret & rådgivning om selskabsstiftelse",
+    "description": "FIECON Germany Co. KG — International rådgivning inden for selskabsret, selskabsstiftelse, økonomisk forvaltning og byggelinansiering. Kontorer i Hamborg, Beograd og Texas."
+  },
+  "nav": {
+    "home": "Gå til forsiden",
+    "menu": "Åbn menu",
+    "about": "Om os",
+    "services": "Ydelser",
+    "approach": "Tilgang",
+    "offices": "Kontorer",
+    "contact": "Kontakt",
+    "navigation": "Navigation",
+    "close_menu": "Luk menu"
+  },
+  "hero": {
+    "tagline": "Fiegler Consulting",
+    "headline": "Din virksomhed. Internationalt rådgivet.",
+    "subtitle": "Selskabsret og international selskabsstiftelse — personlig vejledning i Hamborg, Beograd og Texas.",
+    "cta_primary": "Vores ydelser",
+    "cta_secondary": "Kontakt os"
+  },
+  "about": {
+    "badge": "Om os",
+    "headline": "Vision møder grundighed",
+    "text_1": "FIECON står for international rådgivning med personligt engagement. Vores kernekompetence ligger inden for selskabsret og international selskabsstiftelse — områder, hvor erfaring, præcision og kulturel forståelse gør hele forskellen.",
+    "text_2": "Fra Hamborg, Beograd og Texas vejleder vi virksomheder på tværs af grænser. Vi rådgiver også inden for økonomisk forvaltning, byggefinansiering og yachtbyggefinansiering — altid med ambitionen om at repræsentere dine interesser, som var de vores egne.",
+    "quote": "Vi rådgiver, som om det var vores eget selskab.",
+    "stat_1_label": "Lokationer verden over",
+    "stat_2_label": "Fagområder",
+    "stat_3_label": "Lande",
+    "quote_attribution": "Peter Fiegler, Grundlægger"
+  },
+  "services": {
+    "badge": "Ydelser",
+    "headline": "Vores ekspertise",
+    "subtitle": "Fire kompetenceområder — én forpligtelse: at gøre dine internationale satsninger rigtigt.",
+    "consulting": {
+      "title": "Selskabsret & selskabsstiftelse",
+      "description": "Vores kernepraksis: vi rådgiver om stiftelse, strukturering og ledelse af selskaber på tværs af internationale jurisdiktioner. Fra det første koncept til den juridisk forsvarlige gennemførelse står vi ved din side.",
+      "items": { "0": "Selskabsret", "1": "International selskabsstiftelse" }
+    },
+    "finance": {
+      "title": "Økonomisk forvaltning",
+      "description": "Klarhed skaber tillid: vi overtager din virksomheds økonomiske forvaltning og skaber de gennemsigtige strukturer, der muliggør bæredygtig vækst.",
+      "items": { "0": "Bogføring og rapportering", "1": "Strategisk økonomisk planlægning" }
+    },
+    "construction": {
+      "title": "Byggefinansiering",
+      "description": "Byggeprojekter kræver økonomisk pålidelighed. Vi strukturerer og overvåger finansieringen af dine byggeprojekter — fra den første beregning til færdiggørelsen.",
+      "items": { "0": "Projektfinansiering", "1": "Investeringssikkerhed" }
+    },
+    "yacht": {
+      "title": "Yachtbyggefinansiering",
+      "description": "Et særligt segment fortjener særlig omsorg. Vi rådgiver om finansiering af yachtbyggeprojekter — diskret, personligt og med ægte forståelse for branchens standarder.",
+      "items": { "0": "Yachtfinansiering", "1": "Personlig rådgivning" }
+    }
+  },
+  "approach": {
+    "badge": "Vores tilgang",
+    "headline": "Hvad der adskiller os",
+    "values": {
+      "expertise": {
+        "title": "International ekspertise",
+        "description": "Dyb forståelse af retssystemer, forretningskulturer og regulatoriske nuancer i Europa, USA og Sydøsteuropa."
+      },
+      "personal": {
+        "title": "Personlig nærhed",
+        "description": "Hos os er du aldrig blot et sagsnummer. Vi tager os tid til at forstå dine mål og udvikle strategier, der virkelig passer til din situation."
+      },
+      "trust": {
+        "title": "Partnerskab på lige vilkår",
+        "description": "Vi tænker langsigtet. Gennemsigtighed, integritet og målbare resultater er ikke blot værdier for os — de er forpligtelser."
+      }
+    }
+  },
+  "offices": {
+    "badge": "Kontorer",
+    "headline": "Tæt på dine markeder",
+    "subtitle": "Tre lokationer, ét løfte — personlig rådgivning med international rækkevidde.",
+    "hamburg": { "city": "Hamborg", "country": "Tyskland", "label": "Hovedkontor" },
+    "belgrade": { "city": "Beograd", "country": "Serbien", "label": "Sydøsteuropa" },
+    "texas": { "city": "Texas", "country": "USA", "label": "Nordamerika" }
+  },
+  "contact": {
+    "badge": "Kontakt",
+    "headline": "Lad os tale",
+    "subtitle": "Uanset om det drejer sig om et indledende spørgsmål eller et konkret projekt — vi tager os tid til dig.",
+    "phone": "Telefon",
+    "mobile": "Mobil",
+    "email": "E-mail",
+    "address": "Adresse",
+    "cta": "Send e-mail",
+    "dialog": {
+      "title": "Send besked",
+      "panel_subtitle": "Vi ser frem til din henvendelse og vender tilbage til dig hurtigst muligt.",
+      "name": "Navn",
+      "name_placeholder": "Dit fulde navn",
+      "email": "E-mailadresse",
+      "email_placeholder": "din@email.dk",
+      "subject": "Emne",
+      "subject_placeholder": "Hvad drejer det sig om?",
+      "message": "Besked",
+      "message_placeholder": "Din besked til os...",
+      "submit": "Send besked",
+      "sending": "Sender...",
+      "success_title": "Besked sendt",
+      "success_text": "Tak! Vi vender tilbage til dig snarest.",
+      "error_title": "Fejl",
+      "error_text": "Beskeden kunne ikke sendes. Prøv venligst igen.",
+      "retry": "Prøv igen",
+      "close": "Luk",
+      "required": "Obligatorisk felt",
+      "invalid_email": "Ugyldig e-mailadresse"
+    }
+  },
+  "footer": {
+    "description": "FIECON Germany Co. KG — International rådgivning inden for selskabsret, selskabsstiftelse og mere. Personlig. Præcis. I partnerskab.",
+    "services_title": "Ydelser",
+    "offices_title": "Kontorer",
+    "legal_title": "Juridisk",
+    "impressum": "Impressum",
+    "datenschutz": "Privatlivspolitik",
+    "copyright": "© {year} FIECON Germany Co. KG. Alle rettigheder forbeholdes."
+  },
+  "error": {
+    "title": "Der opstod en fejl",
+    "description": "Prøv venligst igen eller gå tilbage til forsiden.",
+    "retry": "Prøv igen"
+  },
+  "notFound": {
+    "title": "Siden blev ikke fundet",
+    "description": "Den ønskede side findes ikke eller er blevet flyttet.",
+    "back": "Tilbage til forsiden"
+  },
+  "impressum": {
+    "title": "Impressum",
+    "info_title": "Oplysninger i henhold til § 5 TMG",
+    "contact_title": "Kontakt",
+    "phone_label": "Telefon",
+    "mobile_label": "Mobil",
+    "email_label": "E-mail",
+    "homepage_label": "Hjemmeside",
+    "responsible_title": "Ansvarlig for indholdet i henhold til § 55 stk. 2 RStV",
+    "responsible_name": "Peter Fiegler",
+    "disclaimer_title": "Ansvarsfraskrivelse",
+    "disclaimer_content_title": "Ansvar for indholdet",
+    "disclaimer_content_text": "Indholdet på vores sider er udarbejdet med den størst mulige omhu. Vi kan dog ikke garantere indholdets nøjagtighed, fuldstændighed eller aktualitet. Som tjenesteudbyder er vi ansvarlige for vores eget indhold på disse sider i henhold til § 7 stk. 1 TMG efter den almene lovgivning. I henhold til §§ 8 til 10 TMG er vi dog som tjenesteudbyder ikke forpligtet til at overvåge overført eller lagret tredjepartsinformation eller at undersøge omstændigheder, der tyder på ulovlig aktivitet.",
+    "disclaimer_links_title": "Ansvar for links",
+    "disclaimer_links_text": "Vores hjemmeside indeholder links til eksterne tredjepartshjemmesider, hvis indhold vi ikke har nogen indflydelse på. Derfor kan vi ikke påtage os noget ansvar for dette tredjepartsindhold. Den respektive udbyder eller operatør af siderne er altid ansvarlig for indholdet af de linkede sider. De linkede sider blev kontrolleret for eventuelle juridiske overtrædelser på tidspunktet for linkningen. Ulovligt indhold var ikke genkendeligt på tidspunktet for linkningen.",
+    "copyright_title": "Ophavsret",
+    "copyright_text": "Indholdet og værkerne skabt af hjemmesidens operatører på disse sider er underlagt tysk ophavsretslovgivning. Reproduktion, redigering, distribution og enhver form for udnyttelse ud over ophavsrettens grænser kræver skriftligt samtykke fra den respektive forfatter eller skaber."
+  },
+  "datenschutz": {
+    "title": "Privatlivspolitik",
+    "intro": "Vi tager beskyttelsen af dine personoplysninger meget alvorligt. Vi behandler dine personoplysninger fortroligt og i overensstemmelse med de lovmæssige databeskyttelsesregler og denne privatlivspolitik.",
+    "section_1_title": "1. Ansvarlig enhed",
+    "section_1_text": "Den ansvarlige enhed for databehandling på denne hjemmeside er:",
+    "section_2_title": "2. Indsamling og behandling af personoplysninger",
+    "section_2_text": "Når du besøger vores hjemmeside, indsamles information af generel karakter automatisk. Denne information (serverlogfiler) omfatter webbrowsertype, det anvendte operativsystem, domænenavnet på din internetudbyder, din IP-adresse og lignende oplysninger. Der er udelukkende tale om information, der ikke tillader nogen slutninger om din person.",
+    "section_2_legal_basis": "Retsgrundlaget for databehandlingen er Art. 6 stk. 1 lit. f DSGVO. Vores berettigede interesse ligger i at sikre en fejlfri drift af vores hjemmeside.",
+    "section_2_retention": "Serverlogfiler slettes automatisk efter 14 dage.",
+    "section_3_title": "3. Kontakt",
+    "section_3_text": "Hvis du kontakter os via e-mail eller via kontaktformularen, vil dine oplysninger inklusive de kontaktoplysninger, du angiver, blive gemt med henblik på behandling af henvendelsen og i tilfælde af opfølgende spørgsmål. Vi deler ikke disse oplysninger uden dit samtykke.",
+    "section_3_legal_basis": "Retsgrundlaget for behandling af oplysningerne er Art. 6 stk. 1 lit. b DSGVO (prækontraktuelle foranstaltninger) eller Art. 6 stk. 1 lit. f DSGVO (berettiget interesse i at behandle din henvendelse).",
+    "section_3_retention": "Oplysninger, der overføres i forbindelse med kontakt med os, slettes, så snart din henvendelse er endeligt behandlet, og ingen lovbestemte opbevaringspligter gælder.",
+    "section_4_title": "4. E-maillevering",
+    "section_4_text": "Til afsendelse af e-mails via vores kontaktformular bruger vi en SMTP-mailserver. De oplysninger, du indtaster (navn, e-mailadresse, emne, besked), overføres til vores e-mailudbyder, som leverer e-mailen på vores vegne.",
+    "section_5_title": "5. Dine rettigheder",
+    "section_5_text_1": "Du har følgende rettigheder vedrørende dine personoplysninger:",
+    "section_5_rights_0": "Ret til indsigt (Art. 15 DSGVO)",
+    "section_5_rights_1": "Ret til berigtigelse (Art. 16 DSGVO)",
+    "section_5_rights_2": "Ret til sletning (Art. 17 DSGVO)",
+    "section_5_rights_3": "Ret til begrænsning af behandlingen (Art. 18 DSGVO)",
+    "section_5_rights_4": "Ret til dataportabilitet (Art. 20 DSGVO)",
+    "section_5_rights_5": "Ret til indsigelse mod behandlingen (Art. 21 DSGVO)",
+    "section_5_text_2": "Du har også ret til at indgive en klage til en databeskyttelsestilsynsmyndighed vedrørende vores behandling af dine personoplysninger.",
+    "section_6_title": "6. Cookies",
+    "section_6_text": "Vores hjemmeside bruger en funktionel cookie (NEXT_LOCALE) til at gemme dine sprogpræferencer. Denne cookie er teknisk nødvendig og kræver ikke samtykke i henhold til § 25 stk. 2 TDDDG. Der anvendes ingen sporings- eller analysecookies.",
+    "section_7_title": "7. Ændringer af denne privatlivspolitik",
+    "section_7_text": "Denne privatlivspolitik er aktuelt gældende. På grund af den videre udvikling af vores hjemmeside eller ændrede juridiske eller regulatoriske krav kan det blive nødvendigt at ændre denne privatlivspolitik.",
+    "email_label": "E-mail",
+    "contact_label": "Kontakt"
+  }
+}

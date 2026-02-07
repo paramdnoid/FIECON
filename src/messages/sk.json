@@ -1,0 +1,214 @@
+{
+  "language": {
+    "title": "Zvoľte jazyk",
+    "close": "Zavrieť"
+  },
+  "metadata": {
+    "title": "FIECON — Medzinárodné korporátne právo a poradenstvo pri zakladaní spoločností",
+    "description": "FIECON Germany Co. KG — Medzinárodné poradenstvo v oblasti korporátneho práva, zakladania spoločností, finančnej správy a stavebného financovania. Kancelárie v Hamburgu, Belehrade a Texase."
+  },
+  "nav": {
+    "home": "Prejsť na úvodnú stránku",
+    "menu": "Otvoriť menu",
+    "about": "O nás",
+    "services": "Služby",
+    "approach": "Prístup",
+    "offices": "Kancelárie",
+    "contact": "Kontakt",
+    "navigation": "Navigácia",
+    "close_menu": "Zavrieť menu"
+  },
+  "hero": {
+    "tagline": "Fiegler Consulting",
+    "headline": "Vaša firma. Medzinárodne poradená.",
+    "subtitle": "Korporátne právo a medzinárodné zakladanie spoločností — osobné sprevádzanie v Hamburgu, Belehrade a Texase.",
+    "cta_primary": "Naše služby",
+    "cta_secondary": "Kontaktujte nás"
+  },
+  "about": {
+    "badge": "O nás",
+    "headline": "Vízia a starostlivosť",
+    "text_1": "FIECON predstavuje medzinárodné poradenstvo s osobným nasadením. Naša hlavná odbornosť spočíva v korporátnom práve a medzinárodnom zakladaní spoločností — oblastiach, kde skúsenosti, presnosť a kultúrne porozumenie robia zásadný rozdiel.",
+    "text_2": "Z Hamburgu, Belehradu a Texasu sprevádzame firmy cez hranice. Poradíme tiež v oblasti finančnej správy, stavebného financovania a financovania stavby jácht — vždy s ambíciou zastupovať vaše záujmy, ako keby boli naše vlastné.",
+    "quote": "Radíme tak, ako keby šlo o našu vlastnú firmu.",
+    "stat_1_label": "Lokalít po celom svete",
+    "stat_2_label": "Oblastí činnosti",
+    "stat_3_label": "Krajín",
+    "quote_attribution": "Peter Fiegler, zakladateľ"
+  },
+  "services": {
+    "badge": "Služby",
+    "headline": "Naša odbornosť",
+    "subtitle": "Štyri oblasti kompetencií — jeden záväzok: správne realizovať vaše medzinárodné projekty.",
+    "consulting": {
+      "title": "Korporátne právo a zakladanie spoločností",
+      "description": "Naša hlavná prax: poradíme pri zakladaní, štruktúrovaní a riadení spoločností v rôznych medzinárodných jurisdikciách. Od počiatočného konceptu po právne spoľahlivú realizáciu stojíme po vašom boku.",
+      "items": {
+        "0": "Korporátne právo",
+        "1": "Medzinárodné zakladanie spoločností"
+      }
+    },
+    "finance": {
+      "title": "Finančná správa",
+      "description": "Prehľadnosť buduje dôveru: prevezmeme finančnú správu vašej spoločnosti a vytvoríme transparentné štruktúry, ktoré umožnia udržateľný rast.",
+      "items": {
+        "0": "Účtovníctvo a reporting",
+        "1": "Strategické finančné plánovanie"
+      }
+    },
+    "construction": {
+      "title": "Stavebné financovanie",
+      "description": "Stavebné projekty vyžadujú finančnú spoľahlivosť. Štruktúrujeme a dohliadame na financovanie vašich stavebných projektov — od prvého výpočtu po dokončenie.",
+      "items": {
+        "0": "Projektové financovanie",
+        "1": "Investičná bezpečnosť"
+      }
+    },
+    "yacht": {
+      "title": "Financovanie stavby jácht",
+      "description": "Výnimočný segment si zaslúži výnimočnú starostlivosť. Poradíme s financovaním stavby jácht — diskrétne, osobne a so skutočným porozumením štandardom odvetvia.",
+      "items": {
+        "0": "Financovanie jácht",
+        "1": "Osobné poradenstvo"
+      }
+    }
+  },
+  "approach": {
+    "badge": "Náš prístup",
+    "headline": "Čo nás odlišuje",
+    "values": {
+      "expertise": {
+        "title": "Medzinárodná odbornosť",
+        "description": "Hlboké porozumenie právnym systémom, podnikateľským kultúram a regulačným nuansám v Európe, USA a juhovýchodnej Európe."
+      },
+      "personal": {
+        "title": "Osobná blízkosť",
+        "description": "U nás nikdy nebudete len číslo spisu. Venujeme čas porozumeniu vašim cieľom a vyvíjame stratégie, ktoré skutočne zodpovedajú vašej situácii."
+      },
+      "trust": {
+        "title": "Partnerstvo na rovnej úrovni",
+        "description": "Myslíme dlhodobo. Transparentnosť, integrita a merateľné výsledky pre nás nie sú len hodnoty — sú to záväzky."
+      }
+    }
+  },
+  "offices": {
+    "badge": "Kancelárie",
+    "headline": "Blízko k vašim trhom",
+    "subtitle": "Tri lokality, jeden sľub — osobné poradenstvo s medzinárodným dosahom.",
+    "hamburg": {
+      "city": "Hamburg",
+      "country": "Nemecko",
+      "label": "Sídlo"
+    },
+    "belgrade": {
+      "city": "Belehrad",
+      "country": "Srbsko",
+      "label": "Juhovýchodná Európa"
+    },
+    "texas": {
+      "city": "Texas",
+      "country": "USA",
+      "label": "Severná Amerika"
+    }
+  },
+  "contact": {
+    "badge": "Kontakt",
+    "headline": "Poďme sa porozprávať",
+    "subtitle": "Či už ide o prvú otázku alebo konkrétny projekt — máme na vás čas.",
+    "phone": "Telefón",
+    "mobile": "Mobil",
+    "email": "E-mail",
+    "address": "Adresa",
+    "cta": "Odoslať e-mail",
+    "dialog": {
+      "title": "Odoslať správu",
+      "panel_subtitle": "Tešíme sa na váš dopyt a ozveme sa vám čo najskôr.",
+      "name": "Meno",
+      "name_placeholder": "Vaše celé meno",
+      "email": "E-mailová adresa",
+      "email_placeholder": "vas@email.sk",
+      "subject": "Predmet",
+      "subject_placeholder": "O čo ide?",
+      "message": "Správa",
+      "message_placeholder": "Vaša správa pre nás...",
+      "submit": "Odoslať správu",
+      "sending": "Odosielanie...",
+      "success_title": "Správa odoslaná",
+      "success_text": "Ďakujeme! Ozveme sa vám čo najskôr.",
+      "error_title": "Chyba",
+      "error_text": "Správu sa nepodarilo odoslať. Skúste to prosím znova.",
+      "retry": "Skúsiť znova",
+      "close": "Zavrieť",
+      "required": "Povinné pole",
+      "invalid_email": "Neplatná e-mailová adresa"
+    }
+  },
+  "footer": {
+    "description": "FIECON Germany Co. KG — Medzinárodné poradenstvo v oblasti korporátneho práva, zakladania spoločností a ďalšieho. Osobne. Presne. Partnersky.",
+    "services_title": "Služby",
+    "offices_title": "Kancelárie",
+    "legal_title": "Právne informácie",
+    "impressum": "Impressum",
+    "datenschutz": "Ochrana osobných údajov",
+    "copyright": "© {year} FIECON Germany Co. KG. Všetky práva vyhradené."
+  },
+  "error": {
+    "title": "Vyskytla sa chyba",
+    "description": "Skúste to prosím znova alebo sa vráťte na úvodnú stránku.",
+    "retry": "Skúsiť znova"
+  },
+  "notFound": {
+    "title": "Stránka nenájdená",
+    "description": "Požadovaná stránka neexistuje alebo bola presunutá.",
+    "back": "Späť na úvodnú stránku"
+  },
+  "impressum": {
+    "title": "Impressum",
+    "info_title": "Informácie podľa § 5 TMG",
+    "contact_title": "Kontakt",
+    "phone_label": "Telefón",
+    "mobile_label": "Mobil",
+    "email_label": "E-mail",
+    "homepage_label": "Webová stránka",
+    "responsible_title": "Zodpovedný za obsah podľa § 55 ods. 2 RStV",
+    "responsible_name": "Peter Fiegler",
+    "disclaimer_title": "Vylúčenie zodpovednosti",
+    "disclaimer_content_title": "Zodpovednosť za obsah",
+    "disclaimer_content_text": "Obsah našich stránok bol vytvorený s najväčšou starostlivosťou. Nemôžeme však zaručiť presnosť, úplnosť alebo aktuálnosť obsahu. Ako poskytovateľ služieb sme zodpovední za vlastný obsah na týchto stránkach podľa § 7 ods. 1 TMG v súlade so všeobecným právom. Podľa §§ 8 až 10 TMG však ako poskytovateľ služieb nie sme povinní sledovať prenášané alebo uložené informácie tretích strán ani zisťovať okolnosti nasvedčujúce nezákonnej činnosti.",
+    "disclaimer_links_title": "Zodpovednosť za odkazy",
+    "disclaimer_links_text": "Naše webové stránky obsahujú odkazy na externé webové stránky tretích strán, na obsah ktorých nemáme žiadny vplyv. Preto nemôžeme prevziať žiadnu zodpovednosť za tento obsah tretích strán. Za obsah odkazovaných stránok je vždy zodpovedný príslušný poskytovateľ alebo prevádzkovateľ stránok. Odkazované stránky boli v čase vytvorenia odkazu skontrolované z hľadiska možných právnych porušení. Nezákonný obsah nebol v čase vytvorenia odkazu rozpoznateľný.",
+    "copyright_title": "Autorské právo",
+    "copyright_text": "Obsah a diela vytvorené prevádzkovateľmi stránok na týchto stránkach podliehajú nemeckému autorskému právu. Rozmnožovanie, spracovanie, šírenie a akýkoľvek druh využitia mimo hraníc autorského práva vyžadujú písomný súhlas príslušného autora alebo tvorcu."
+  },
+  "datenschutz": {
+    "title": "Ochrana osobných údajov",
+    "intro": "Ochranu vašich osobných údajov berieme veľmi vážne. S vašimi osobnými údajmi nakladáme dôverne a v súlade so zákonnými predpismi o ochrane údajov a týmito zásadami ochrany osobných údajov.",
+    "section_1_title": "1. Zodpovedný subjekt",
+    "section_1_text": "Zodpovedným subjektom za spracovanie údajov na tejto webovej stránke je:",
+    "section_2_title": "2. Zhromažďovanie a spracovanie osobných údajov",
+    "section_2_text": "Pri návšteve našich webových stránok sa automaticky zhromažďujú informácie všeobecnej povahy. Tieto informácie (súbory protokolov servera) zahŕňajú typ webového prehliadača, použitý operačný systém, názov domény vášho poskytovateľa internetových služieb, vašu IP adresu a podobné údaje. Ide výlučne o informácie, ktoré neumožňujú žiadne závery o vašej osobe.",
+    "section_2_legal_basis": "Právnym základom pre spracovanie údajov je čl. 6 ods. 1 písm. f DSGVO. Náš oprávnený záujem spočíva v zabezpečení bezproblémovej prevádzky našich webových stránok.",
+    "section_2_retention": "Súbory protokolov servera sa automaticky mažú po 14 dňoch.",
+    "section_3_title": "3. Kontakt",
+    "section_3_text": "Ak nás kontaktujete e-mailom alebo prostredníctvom kontaktného formulára, vaše údaje vrátane vami poskytnutých kontaktných údajov budú uložené za účelom spracovania dopytu a pre prípad následných otázok. Tieto údaje neposkytujeme bez vášho súhlasu.",
+    "section_3_legal_basis": "Právnym základom pre spracovanie údajov je čl. 6 ods. 1 písm. b DSGVO (predzmluvné opatrenia) alebo čl. 6 ods. 1 písm. f DSGVO (oprávnený záujem na spracovaní vášho dopytu).",
+    "section_3_retention": "Údaje odovzdané v rámci kontaktovania budú vymazané, len čo bude váš dopyt definitívne vybavený a nebudú platiť žiadne zákonné povinnosti uchovávania.",
+    "section_4_title": "4. Odosielanie e-mailov",
+    "section_4_text": "Na odosielanie e-mailov prostredníctvom nášho kontaktného formulára používame poštový server SMTP. Vami zadané údaje (meno, e-mailová adresa, predmet, správa) sú odovzdané nášmu poskytovateľovi e-mailových služieb, ktorý e-mail doručí v našom mene.",
+    "section_5_title": "5. Vaše práva",
+    "section_5_text_1": "V súvislosti s vašimi osobnými údajmi máte nasledujúce práva:",
+    "section_5_rights_0": "Právo na prístup (Art. 15 DSGVO)",
+    "section_5_rights_1": "Právo na opravu (Art. 16 DSGVO)",
+    "section_5_rights_2": "Právo na vymazanie (Art. 17 DSGVO)",
+    "section_5_rights_3": "Právo na obmedzenie spracovania (Art. 18 DSGVO)",
+    "section_5_rights_4": "Právo na prenosnosť údajov (Art. 20 DSGVO)",
+    "section_5_rights_5": "Právo namietať proti spracovaniu (Art. 21 DSGVO)",
+    "section_5_text_2": "Máte tiež právo podať sťažnosť u dozorného úradu pre ochranu údajov ohľadom spracovania vašich osobných údajov z našej strany.",
+    "section_6_title": "6. Súbory cookie",
+    "section_6_text": "Naše webové stránky používajú funkčný súbor cookie (NEXT_LOCALE) na uloženie vašej jazykovej preferencie. Tento súbor cookie je technicky nevyhnutný a nevyžaduje súhlas podľa § 25 ods. 2 TDDDG. Sledovacie ani analytické súbory cookie sa nepoužívajú.",
+    "section_7_title": "7. Zmeny týchto zásad ochrany osobných údajov",
+    "section_7_text": "Tieto zásady ochrany osobných údajov sú v súčasnosti platné. V dôsledku ďalšieho vývoja našich webových stránok alebo zmien právnych či regulačných požiadaviek môže byť potrebné tieto zásady ochrany osobných údajov upraviť.",
+    "email_label": "E-mail",
+    "contact_label": "Kontakt"
+  }
+}

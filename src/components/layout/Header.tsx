@@ -8,6 +8,7 @@ import { useActiveSection } from "@/hooks/useActiveSection";
 import { COMPANY, NAV_LINKS } from "@/lib/constants";
 import { Container } from "@/components/ui/Container";
 import { ScrollProgress } from "@/components/animations/ScrollProgress";
+import { Link } from "@/i18n/navigation";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { MobileMenu } from "./MobileMenu";
 
@@ -30,13 +31,9 @@ export function Header() {
         <Container size="lg">
           <div className="flex items-center justify-between h-24">
             {/* Logo */}
-            <button
-              type="button"
-              onClick={() => {
-                window.scrollTo({ top: 0, behavior: "smooth" });
-                window.history.replaceState(null, "", "/");
-              }}
-              className="flex items-center gap-3 cursor-pointer"
+            <Link
+              href="/"
+              className="flex items-center gap-3"
               aria-label={t("home")}
             >
               <Image
@@ -49,21 +46,22 @@ export function Header() {
               <span className="font-display text-xl font-normal gradient-text-hero tracking-tight">
                 {COMPANY.name}
               </span>
-            </button>
+            </Link>
 
             {/* Desktop Navigation */}
             <nav className="hidden lg:flex items-center gap-8">
               {NAV_LINKS.map((link) => {
                 const isActive = activeSection === link.href;
                 return (
-                  <a
+                  <Link
                     key={link.id}
-                    href={`#${link.href}`}
+                    href={`/#${link.href}`}
                     onClick={(e) => {
-                      e.preventDefault();
                       const el = document.getElementById(link.href);
                       if (el) {
-                        const top = el.getBoundingClientRect().top + window.scrollY - 96;
+                        e.preventDefault();
+                        const offset = link.href === "services" ? 20 : 96;
+                        const top = el.getBoundingClientRect().top + window.scrollY - offset;
                         window.scrollTo({ top, behavior: "smooth" });
                       }
                     }}
@@ -76,7 +74,7 @@ export function Header() {
                     <span className={`absolute -bottom-1 left-0 h-px bg-accent transition-all duration-400 ${
                       isActive ? "w-full" : "w-0 group-hover:w-full"
                     }`} />
-                  </a>
+                  </Link>
                 );
               })}
             </nav>

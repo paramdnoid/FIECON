@@ -7,6 +7,7 @@ import { AnimatePresence, motion } from "motion/react";
 import { NAV_LINKS, EASE_OUT_EXPO, COMPANY } from "@/lib/constants";
 import { useActiveSection } from "@/hooks/useActiveSection";
 import { useFocusTrap } from "@/hooks/useFocusTrap";
+import { Link } from "@/i18n/navigation";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 
 type Props = {
@@ -110,7 +111,7 @@ export function MobileMenu({ isOpen, onClose }: Props) {
               {NAV_LINKS.map((link, i) => {
                 const isActive = activeSection === link.href;
                 return (
-                  <motion.button
+                  <motion.div
                     key={link.id}
                     initial={{ opacity: 0, x: 40 }}
                     animate={{ opacity: 1, x: 0 }}
@@ -119,33 +120,38 @@ export function MobileMenu({ isOpen, onClose }: Props) {
                       delay: 0.1 + i * 0.06,
                       ease: EASE_OUT_EXPO,
                     }}
-                    onClick={() => {
-                      const el = document.getElementById(link.href);
-                      if (el) {
-                        const top =
-                          el.getBoundingClientRect().top + window.scrollY - 96;
-                        window.scrollTo({ top, behavior: "smooth" });
-                      }
-                      onClose();
-                    }}
-                    className={`group flex items-center gap-4 py-4 text-left cursor-pointer transition-colors duration-300 ${
-                      isActive
-                        ? "text-bordeaux-900"
-                        : "text-text-primary hover:text-bordeaux-900"
-                    }`}
                   >
-                    {/* Accent line */}
-                    <span
-                      className={`h-px transition-all duration-300 ${
+                    <Link
+                      href={`/#${link.href}`}
+                      onClick={(e) => {
+                        const el = document.getElementById(link.href);
+                        if (el) {
+                          e.preventDefault();
+                          const offset = link.href === "services" ? 20 : 96;
+                        const top =
+                            el.getBoundingClientRect().top + window.scrollY - offset;
+                          window.scrollTo({ top, behavior: "smooth" });
+                        }
+                        onClose();
+                      }}
+                      className={`group flex items-center gap-4 py-4 text-left cursor-pointer transition-colors duration-300 ${
                         isActive
-                          ? "w-8 bg-bordeaux-900"
-                          : "w-0 group-hover:w-8 bg-bordeaux-900/50"
+                          ? "text-bordeaux-900"
+                          : "text-text-primary hover:text-bordeaux-900"
                       }`}
-                    />
-                    <span className="font-display text-2xl sm:text-3xl font-light tracking-tight">
-                      {t(link.id)}
-                    </span>
-                  </motion.button>
+                    >
+                      <span
+                        className={`h-px transition-all duration-300 ${
+                          isActive
+                            ? "w-8 bg-bordeaux-900"
+                            : "w-0 group-hover:w-8 bg-bordeaux-900/50"
+                        }`}
+                      />
+                      <span className="font-display text-2xl sm:text-3xl font-light tracking-tight">
+                        {t(link.id)}
+                      </span>
+                    </Link>
+                  </motion.div>
                 );
               })}
             </nav>

@@ -72,7 +72,7 @@ export function Hero() {
         {/* Logo watermark with parallax */}
         <motion.svg
           viewBox="0 0 1536 1536"
-          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-160 h-160 sm:w-200 sm:h-200 lg:w-240 lg:h-240"
+          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[85vw] h-[85vw] sm:w-[80vw] sm:h-[80vw] lg:w-[70vw] lg:h-[70vw] max-w-[1400px] max-h-[1400px]"
           style={!prefersReduced ? { y: logoY, scale: logoScale } : undefined}
           {...(!prefersReduced && {
             initial: { opacity: 0, scale: 0.95 },

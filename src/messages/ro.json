@@ -1,0 +1,214 @@
+{
+  "language": {
+    "title": "Alegeți limba",
+    "close": "Închide"
+  },
+  "metadata": {
+    "title": "FIECON — Drept societar internațional și consultanță în constituirea de societăți",
+    "description": "FIECON Germany Co. KG — Consultanță internațională în drept societar, constituirea de societăți, administrare financiară și finanțare a construcțiilor. Birouri în Hamburg, Belgrad și Texas."
+  },
+  "nav": {
+    "home": "Mergi la pagina principală",
+    "menu": "Deschide meniul",
+    "about": "Despre noi",
+    "services": "Servicii",
+    "approach": "Abordare",
+    "offices": "Birouri",
+    "contact": "Contact",
+    "navigation": "Navigare",
+    "close_menu": "Închide meniul"
+  },
+  "hero": {
+    "tagline": "Fiegler Consulting",
+    "headline": "Afacerea dumneavoastră. Consultanță internațională.",
+    "subtitle": "Drept societar și constituirea internațională de societăți — asistență personală în Hamburg, Belgrad și Texas.",
+    "cta_primary": "Serviciile noastre",
+    "cta_secondary": "Contactați-ne"
+  },
+  "about": {
+    "badge": "Despre noi",
+    "headline": "Viziune și rigoare",
+    "text_1": "FIECON reprezintă consultanță internațională cu angajament personal. Competența noastră principală constă în dreptul societar și constituirea internațională de societăți — domenii în care experiența, precizia și înțelegerea culturală fac toată diferența.",
+    "text_2": "Din Hamburg, Belgrad și Texas, ghidăm afaceri peste granițe. Oferim consultanță și în administrare financiară, finanțarea construcțiilor și finanțarea construcției de iahturi — întotdeauna cu ambiția de a vă reprezenta interesele ca și cum ar fi ale noastre.",
+    "quote": "Consiliem ca și cum ar fi propria noastră companie în joc.",
+    "stat_1_label": "Locații în lume",
+    "stat_2_label": "Domenii de activitate",
+    "stat_3_label": "Țări",
+    "quote_attribution": "Peter Fiegler, fondator"
+  },
+  "services": {
+    "badge": "Servicii",
+    "headline": "Expertiza noastră",
+    "subtitle": "Patru domenii de competență — un singur angajament: realizarea corectă a proiectelor dumneavoastră internaționale.",
+    "consulting": {
+      "title": "Drept societar și constituirea de societăți",
+      "description": "Practica noastră principală: consiliem în constituirea, structurarea și guvernanța societăților în diverse jurisdicții internaționale. De la conceptul inițial până la implementarea solidă din punct de vedere juridic, suntem alături de dumneavoastră.",
+      "items": {
+        "0": "Drept societar",
+        "1": "Constituirea internațională de societăți"
+      }
+    },
+    "finance": {
+      "title": "Administrare financiară",
+      "description": "Claritatea generează încredere: preluăm administrarea financiară a companiei dumneavoastră și creăm structurile transparente care permit o creștere sustenabilă.",
+      "items": {
+        "0": "Contabilitate și raportare",
+        "1": "Planificare financiară strategică"
+      }
+    },
+    "construction": {
+      "title": "Finanțarea construcțiilor",
+      "description": "Proiectele de construcții necesită fiabilitate financiară. Structurăm și supraveghem finanțarea proiectelor dumneavoastră de construcții — de la calculul inițial până la finalizare.",
+      "items": {
+        "0": "Finanțare de proiecte",
+        "1": "Securitate a investițiilor"
+      }
+    },
+    "yacht": {
+      "title": "Finanțarea construcției de iahturi",
+      "description": "Un segment distinctiv merită o atenție distinctivă. Consiliem în finanțarea proiectelor de construcție de iahturi — discret, personal și cu o înțelegere reală a standardelor industriei.",
+      "items": {
+        "0": "Finanțare iahturi",
+        "1": "Consultanță personalizată"
+      }
+    }
+  },
+  "approach": {
+    "badge": "Abordarea noastră",
+    "headline": "Ce ne diferențiază",
+    "values": {
+      "expertise": {
+        "title": "Expertiză internațională",
+        "description": "Înțelegere profundă a sistemelor juridice, culturilor de afaceri și nuanțelor de reglementare din Europa, SUA și Europa de Sud-Est."
+      },
+      "personal": {
+        "title": "Apropiere personală",
+        "description": "La noi, nu veți fi niciodată doar un număr de dosar. Ne luăm timpul necesar pentru a vă înțelege obiectivele și a dezvolta strategii care se potrivesc cu adevărat situației dumneavoastră."
+      },
+      "trust": {
+        "title": "Parteneriat pe picior de egalitate",
+        "description": "Gândim pe termen lung. Transparența, integritatea și rezultatele măsurabile nu sunt doar valori pentru noi — sunt angajamente."
+      }
+    }
+  },
+  "offices": {
+    "badge": "Birouri",
+    "headline": "Aproape de piețele dumneavoastră",
+    "subtitle": "Trei locații, o promisiune — consultanță personalizată cu acoperire internațională.",
+    "hamburg": {
+      "city": "Hamburg",
+      "country": "Germania",
+      "label": "Sediu central"
+    },
+    "belgrade": {
+      "city": "Belgrad",
+      "country": "Serbia",
+      "label": "Europa de Sud-Est"
+    },
+    "texas": {
+      "city": "Texas",
+      "country": "SUA",
+      "label": "America de Nord"
+    }
+  },
+  "contact": {
+    "badge": "Contact",
+    "headline": "Hai să discutăm",
+    "subtitle": "Fie că este o primă întrebare sau un proiect concret — ne facem timp pentru dumneavoastră.",
+    "phone": "Telefon",
+    "mobile": "Mobil",
+    "email": "E-mail",
+    "address": "Adresă",
+    "cta": "Trimite e-mail",
+    "dialog": {
+      "title": "Trimite mesaj",
+      "panel_subtitle": "Așteptăm cu interes solicitarea dumneavoastră și vă vom răspunde prompt.",
+      "name": "Nume",
+      "name_placeholder": "Numele dumneavoastră complet",
+      "email": "Adresă de e-mail",
+      "email_placeholder": "adresa@email.ro",
+      "subject": "Subiect",
+      "subject_placeholder": "Despre ce este vorba?",
+      "message": "Mesaj",
+      "message_placeholder": "Mesajul dumneavoastră pentru noi...",
+      "submit": "Trimite mesajul",
+      "sending": "Se trimite...",
+      "success_title": "Mesaj trimis",
+      "success_text": "Vă mulțumim! Vă vom contacta în scurt timp.",
+      "error_title": "Eroare",
+      "error_text": "Mesajul nu a putut fi trimis. Vă rugăm să încercați din nou.",
+      "retry": "Încearcă din nou",
+      "close": "Închide",
+      "required": "Câmp obligatoriu",
+      "invalid_email": "Adresă de e-mail invalidă"
+    }
+  },
+  "footer": {
+    "description": "FIECON Germany Co. KG — Consultanță internațională în drept societar, constituirea de societăți și nu numai. Personal. Precis. Partenerial.",
+    "services_title": "Servicii",
+    "offices_title": "Birouri",
+    "legal_title": "Informații legale",
+    "impressum": "Aviz legal",
+    "datenschutz": "Politica de confidențialitate",
+    "copyright": "© {year} FIECON Germany Co. KG. Toate drepturile rezervate."
+  },
+  "error": {
+    "title": "A apărut o eroare",
+    "description": "Vă rugăm să încercați din nou sau să reveniți la pagina principală.",
+    "retry": "Încearcă din nou"
+  },
+  "notFound": {
+    "title": "Pagină negăsită",
+    "description": "Pagina solicitată nu există sau a fost mutată.",
+    "back": "Înapoi la pagina principală"
+  },
+  "impressum": {
+    "title": "Aviz legal",
+    "info_title": "Informații conform § 5 TMG",
+    "contact_title": "Contact",
+    "phone_label": "Telefon",
+    "mobile_label": "Mobil",
+    "email_label": "E-mail",
+    "homepage_label": "Website",
+    "responsible_title": "Responsabil pentru conținut conform § 55 alin. 2 RStV",
+    "responsible_name": "Peter Fiegler",
+    "disclaimer_title": "Declinarea responsabilității",
+    "disclaimer_content_title": "Responsabilitatea pentru conținut",
+    "disclaimer_content_text": "Conținutul paginilor noastre a fost creat cu cea mai mare grijă. Cu toate acestea, nu putem garanta exactitatea, completitudinea sau actualitatea conținutului. În calitate de furnizor de servicii, suntem responsabili pentru propriul conținut de pe aceste pagini conform § 7 alin. 1 TMG în conformitate cu dreptul general. Conform §§ 8–10 TMG, în calitate de furnizor de servicii nu suntem obligați să monitorizăm informațiile transmise sau stocate de terți sau să investigăm circumstanțele care indică activitate ilegală.",
+    "disclaimer_links_title": "Responsabilitatea pentru linkuri",
+    "disclaimer_links_text": "Website-ul nostru conține linkuri către website-uri externe ale terților asupra cărora nu avem nicio influență. Prin urmare, nu putem accepta nicio responsabilitate pentru acest conținut al terților. Furnizorul sau operatorul respectiv al paginilor este întotdeauna responsabil pentru conținutul paginilor linkate. Paginile linkate au fost verificate pentru posibile încălcări legale la momentul creării linkului. Conținutul ilegal nu era identificabil la momentul creării linkului.",
+    "copyright_title": "Drept de autor",
+    "copyright_text": "Conținutul și lucrările create de operatorii site-ului pe aceste pagini sunt supuse legii germane a drepturilor de autor. Reproducerea, prelucrarea, distribuirea și orice fel de exploatare în afara limitelor dreptului de autor necesită consimțământul scris al autorului sau creatorului respectiv."
+  },
+  "datenschutz": {
+    "title": "Politica de confidențialitate",
+    "intro": "Luăm foarte în serios protecția datelor dumneavoastră personale. Tratăm datele dumneavoastră personale în mod confidențial și în conformitate cu reglementările legale privind protecția datelor și cu această politică de confidențialitate.",
+    "section_1_title": "1. Entitatea responsabilă",
+    "section_1_text": "Entitatea responsabilă pentru prelucrarea datelor pe acest website este:",
+    "section_2_title": "2. Colectarea și prelucrarea datelor personale",
+    "section_2_text": "La vizitarea website-ului nostru, sunt colectate automat informații de natură generală. Aceste informații (fișiere jurnal ale serverului) includ tipul browserului web, sistemul de operare utilizat, numele de domeniu al furnizorului dumneavoastră de internet, adresa IP și date similare. Acestea sunt exclusiv informații care nu permit tragerea unor concluzii cu privire la persoana dumneavoastră.",
+    "section_2_legal_basis": "Temeiul juridic pentru prelucrarea datelor este art. 6 alin. 1 lit. f DSGVO. Interesul nostru legitim constă în asigurarea funcționării fără probleme a website-ului nostru.",
+    "section_2_retention": "Fișierele jurnal ale serverului sunt șterse automat după 14 zile.",
+    "section_3_title": "3. Contact",
+    "section_3_text": "Dacă ne contactați prin e-mail sau prin formularul de contact, datele dumneavoastră, inclusiv datele de contact pe care le furnizați, vor fi stocate în scopul prelucrării solicitării și în cazul întrebărilor ulterioare. Nu vom partaja aceste date fără consimțământul dumneavoastră.",
+    "section_3_legal_basis": "Temeiul juridic pentru prelucrarea datelor este art. 6 alin. 1 lit. b DSGVO (măsuri precontractuale) sau art. 6 alin. 1 lit. f DSGVO (interesul legitim în prelucrarea solicitării dumneavoastră).",
+    "section_3_retention": "Datele transmise în cadrul contactării vor fi șterse de îndată ce solicitarea dumneavoastră a fost procesată definitiv și nu se aplică obligații legale de păstrare.",
+    "section_4_title": "4. Livrarea e-mailurilor",
+    "section_4_text": "Pentru trimiterea e-mailurilor prin formularul nostru de contact, utilizăm un server de mail SMTP. Datele pe care le introduceți (nume, adresă de e-mail, subiect, mesaj) sunt transmise furnizorului nostru de e-mail, care livrează e-mailul în numele nostru.",
+    "section_5_title": "5. Drepturile dumneavoastră",
+    "section_5_text_1": "Aveți următoarele drepturi în ceea ce privește datele dumneavoastră personale:",
+    "section_5_rights_0": "Dreptul de acces (Art. 15 DSGVO)",
+    "section_5_rights_1": "Dreptul la rectificare (Art. 16 DSGVO)",
+    "section_5_rights_2": "Dreptul la ștergere (Art. 17 DSGVO)",
+    "section_5_rights_3": "Dreptul la restricționarea prelucrării (Art. 18 DSGVO)",
+    "section_5_rights_4": "Dreptul la portabilitatea datelor (Art. 20 DSGVO)",
+    "section_5_rights_5": "Dreptul de opoziție la prelucrare (Art. 21 DSGVO)",
+    "section_5_text_2": "Aveți de asemenea dreptul de a depune o plângere la o autoritate de supraveghere a protecției datelor cu privire la prelucrarea datelor dumneavoastră personale de către noi.",
+    "section_6_title": "6. Cookie-uri",
+    "section_6_text": "Website-ul nostru folosește un cookie funcțional (NEXT_LOCALE) pentru a stoca preferința dumneavoastră lingvistică. Acest cookie este necesar din punct de vedere tehnic și nu necesită consimțământ conform § 25 alin. 2 TDDDG. Nu sunt utilizate cookie-uri de urmărire sau analiză.",
+    "section_7_title": "7. Modificări ale acestei politici de confidențialitate",
+    "section_7_text": "Această politică de confidențialitate este valabilă în prezent. Din cauza dezvoltării continue a website-ului nostru sau din cauza modificării cerințelor legale sau de reglementare, poate fi necesară modificarea acestei politici de confidențialitate.",
+    "email_label": "E-mail",
+    "contact_label": "Contact"
+  }
+}

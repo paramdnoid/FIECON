@@ -13,39 +13,50 @@ export function useActiveSection() {
   useEffect(() => {
     mountedAt.current = Date.now();
 
-    const observer = new IntersectionObserver(
-      (entries) => {
-        const intersecting = entries.filter((e) => e.isIntersecting);
-        if (intersecting.length > 0) {
-          const best = intersecting.reduce((a, b) =>
-            a.intersectionRatio > b.intersectionRatio ? a : b,
-          );
-          setActiveSection(best.target.id);
-        } else {
-          setActiveSection("");
+    // Use scroll-based detection: the active section is whichever section's
+    // top edge is closest to (but above) the detection line (header + offset).
+    const HEADER_HEIGHT = 96;
+    const DETECTION_OFFSET = 100; // px below header
+
+    const handleScroll = () => {
+      let best: string = "";
+      let bestDistance = Infinity;
+
+      for (const id of SECTION_IDS) {
+        const el = document.getElementById(id);
+        if (!el) continue;
+        const rect = el.getBoundingClientRect();
+        const topRelative = rect.top - HEADER_HEIGHT - DETECTION_OFFSET;
+
+        // Section top is above or at the detection line, and section bottom is below it
+        if (topRelative <= 0 && rect.bottom > HEADER_HEIGHT) {
+          const distance = Math.abs(topRelative);
+          if (distance < bestDistance) {
+            bestDistance = distance;
+            best = id;
+          }
         }
-      },
-      { rootMargin: "-40% 0px -55% 0px" },
-    );
+      }
 
-    for (const id of SECTION_IDS) {
-      const el = document.getElementById(id);
-      if (el) observer.observe(el);
-    }
+      setActiveSection(best);
+    };
 
-    return () => observer.disconnect();
+    handleScroll();
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Sync URL with active section (delay on mount to allow ScrollToSection to work first)
+  // Sync URL hash with active section (delay on mount to allow ScrollToSection to work first)
   useEffect(() => {
     const timeSinceMount = Date.now() - mountedAt.current;
     const delay = timeSinceMount < 300 ? 300 - timeSinceMount : 0;
 
     const timer = setTimeout(() => {
-      const newPath = activeSection ? `/${activeSection}` : "/";
-      if (newPath !== lastUrlSection.current) {
-        lastUrlSection.current = newPath;
-        window.history.replaceState(null, "", newPath);
+      const newHash = activeSection ? `#${activeSection}` : "";
+      if (newHash !== lastUrlSection.current) {
+        lastUrlSection.current = newHash;
+        const basePath = window.location.pathname;
+        window.history.replaceState(null, "", basePath + newHash);
       }
     }, delay);
 
