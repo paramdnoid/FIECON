@@ -130,6 +130,14 @@ html {
   font-family: var(--font-arabic), var(--font-display);
 }
 
+/* === Scrollbar-hide (carousel) === */
+@utility scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
 /* === Print Styles === */
 @media print {
   body::before {
