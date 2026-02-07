@@ -53,6 +53,12 @@ export const NAV_LINKS = [
 
 export const EASE_OUT_EXPO = [0.16, 1, 0.3, 1] as [number, number, number, number];
 
+/** Height of the fixed header in pixels — used for scroll offset calculations. */
+export const HEADER_HEIGHT = 96;
+
+/** Custom scroll offset for the services section (tighter spacing). */
+export const SERVICES_SCROLL_OFFSET = 20;
+
 export const HERO_LETTERS = ["F", "I", "E", "C", "O", "N"] as const;
 
 export const HERO_LETTER_COLORS = [

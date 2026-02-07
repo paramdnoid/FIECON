@@ -2,6 +2,7 @@
 
 import { useEffect } from "react";
 import { NAV_LINKS } from "@/lib/constants";
+import { scrollToSection } from "@/lib/utils";
 
 const SECTION_IDS = new Set<string>(NAV_LINKS.map((link) => link.href));
 
@@ -19,12 +20,7 @@ export function ScrollToSection() {
 
     if (section) {
       const timer = setTimeout(() => {
-        const el = document.getElementById(section);
-        if (el) {
-          const offset = section === "services" ? 20 : 96;
-          const top = el.getBoundingClientRect().top + window.scrollY - offset;
-          window.scrollTo({ top, behavior: "instant" });
-        }
+        scrollToSection(section, "instant");
       }, 50);
       return () => clearTimeout(timer);
     }

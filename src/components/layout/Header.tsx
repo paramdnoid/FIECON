@@ -6,6 +6,7 @@ import { useTranslations } from "next-intl";
 import { useScrollProgress } from "@/hooks/useScrollProgress";
 import { useActiveSection } from "@/hooks/useActiveSection";
 import { COMPANY, NAV_LINKS } from "@/lib/constants";
+import { scrollToSection } from "@/lib/utils";
 import { Container } from "@/components/ui/Container";
 import { ScrollProgress } from "@/components/animations/ScrollProgress";
 import { Link } from "@/i18n/navigation";
@@ -57,12 +58,9 @@ export function Header() {
                     key={link.id}
                     href={`/#${link.href}`}
                     onClick={(e) => {
-                      const el = document.getElementById(link.href);
-                      if (el) {
+                      if (document.getElementById(link.href)) {
                         e.preventDefault();
-                        const offset = link.href === "services" ? 20 : 96;
-                        const top = el.getBoundingClientRect().top + window.scrollY - offset;
-                        window.scrollTo({ top, behavior: "smooth" });
+                        scrollToSection(link.href);
                       }
                     }}
                     aria-current={isActive ? "true" : undefined}

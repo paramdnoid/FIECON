@@ -5,6 +5,7 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { AnimatePresence, motion } from "motion/react";
 import { NAV_LINKS, EASE_OUT_EXPO, COMPANY } from "@/lib/constants";
+import { scrollToSection } from "@/lib/utils";
 import { useActiveSection } from "@/hooks/useActiveSection";
 import { useFocusTrap } from "@/hooks/useFocusTrap";
 import { Link } from "@/i18n/navigation";
@@ -124,13 +125,9 @@ export function MobileMenu({ isOpen, onClose }: Props) {
                     <Link
                       href={`/#${link.href}`}
                       onClick={(e) => {
-                        const el = document.getElementById(link.href);
-                        if (el) {
+                        if (document.getElementById(link.href)) {
                           e.preventDefault();
-                          const offset = link.href === "services" ? 20 : 96;
-                        const top =
-                            el.getBoundingClientRect().top + window.scrollY - offset;
-                          window.scrollTo({ top, behavior: "smooth" });
+                          scrollToSection(link.href);
                         }
                         onClose();
                       }}

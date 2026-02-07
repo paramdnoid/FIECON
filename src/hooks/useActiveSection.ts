@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { NAV_LINKS } from "@/lib/constants";
+import { NAV_LINKS, HEADER_HEIGHT } from "@/lib/constants";
 
 const SECTION_IDS = NAV_LINKS.map((link) => link.href);
 
@@ -15,7 +15,6 @@ export function useActiveSection() {
 
     // Use scroll-based detection: the active section is whichever section's
     // top edge is closest to (but above) the detection line (header + offset).
-    const HEADER_HEIGHT = 96;
     const DETECTION_OFFSET = 100; // px below header
 
     const handleScroll = () => {

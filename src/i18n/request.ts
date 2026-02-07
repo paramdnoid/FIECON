@@ -8,20 +8,25 @@ function isValidLocale(value: string): value is Locale {
   return (routing.locales as readonly string[]).includes(value);
 }
 
-/** Map Accept-Language codes to supported locales */
-const ACCEPT_LANG_MAP: Record<string, Locale> = {
-  de: "de",
-  en: "en",
-  tr: "tr",
-  ar: "ar",
-  pl: "pl",
-  ru: "ru",
-  sr: "sr-Latn",
-  hu: "hu",
-  bs: "bs",
-  hr: "hr",
-  es: "es",
-};
+/**
+ * Build Accept-Language → locale map automatically from routing config.
+ * For locales with a subtag (e.g. "sr-Cyrl", "sr-Latn") the first
+ * entry in routing.locales wins — later ones are still reachable via
+ * their full tag (e.g. Accept-Language: sr-Latn).
+ */
+const ACCEPT_LANG_MAP: Record<string, Locale> = (() => {
+  const map: Record<string, Locale> = {};
+  for (const locale of routing.locales) {
+    // Full tag always maps to itself (e.g. "sr-Latn" → "sr-Latn")
+    map[locale.toLowerCase()] = locale;
+    // Primary subtag maps to first match (e.g. "sr" → "sr-Cyrl")
+    const primary = locale.split("-")[0].toLowerCase();
+    if (!map[primary]) {
+      map[primary] = locale;
+    }
+  }
+  return map;
+})();
 
 function detectFromAcceptLanguage(header: string): Locale | undefined {
   const parts = header.split(",");
@@ -30,9 +35,11 @@ function detectFromAcceptLanguage(header: string): Locale | undefined {
   for (const part of parts) {
     const [langTag, qPart] = part.trim().split(";");
     const quality = qPart ? parseFloat(qPart.replace("q=", "")) : 1;
-    const code = langTag.trim().split("-")[0].toLowerCase();
+    const tag = langTag.trim().toLowerCase();
+    const primary = tag.split("-")[0];
 
-    const mapped = ACCEPT_LANG_MAP[code];
+    // Prefer full tag match (e.g. "sr-latn" → "sr-Latn"), fall back to primary
+    const mapped = ACCEPT_LANG_MAP[tag] ?? ACCEPT_LANG_MAP[primary];
     if (mapped) {
       candidates.push({ locale: mapped, quality });
     }
