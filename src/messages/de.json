@@ -4,6 +4,8 @@
     "description": "FIECON Germany Co. KG — Internationale Unternehmensberatung für Gesellschaftsrecht, Firmengründungen, Finanzverwaltung und Baufinanzierung. Standorte in Hamburg, Belgrad und Texas."
   },
   "nav": {
+    "home": "Zur Startseite",
+    "menu": "Menü öffnen",
     "about": "Über uns",
     "services": "Leistungen",
     "approach": "Ansatz",
@@ -34,22 +36,34 @@
     "consulting": {
       "title": "Unternehmensberatung",
       "description": "Strategische Beratung im Gesellschaftsrecht und bei internationalen Firmengründungen. Wir begleiten Sie von der Konzeption bis zur erfolgreichen Umsetzung.",
-      "items": "Gesellschaftsrecht, Internationale Firmengründungen"
+      "items": {
+        "0": "Gesellschaftsrecht",
+        "1": "Internationale Firmengründungen"
+      }
     },
     "finance": {
       "title": "Finanzverwaltung",
       "description": "Professionelle Verwaltung und Optimierung Ihrer Finanzen. Transparente Prozesse und strategische Planung für nachhaltiges Wachstum.",
-      "items": "Buchhaltung, Strategische Planung"
+      "items": {
+        "0": "Buchhaltung",
+        "1": "Strategische Planung"
+      }
     },
     "construction": {
       "title": "Baufinanzverwaltung",
       "description": "Spezialisierte Finanzierungslösungen für Bauprojekte. Von der Planung bis zur Fertigstellung — wir sichern Ihre Investitionen ab.",
-      "items": "Projektfinanzierung, Investitionssicherung"
+      "items": {
+        "0": "Projektfinanzierung",
+        "1": "Investitionssicherung"
+      }
     },
     "yacht": {
       "title": "Yachtbau Finanzverwaltung",
       "description": "Exklusive Finanzierungsberatung für den Yachtbau. Maßgeschneiderte Lösungen für ein anspruchsvolles Marktsegment.",
-      "items": "Yachtfinanzierung, Exklusive Beratung"
+      "items": {
+        "0": "Yachtfinanzierung",
+        "1": "Exklusive Beratung"
+      }
     }
   },
   "approach": {
@@ -131,6 +145,11 @@
     "datenschutz": "Datenschutz",
     "copyright": "© {year} FIECON Germany Co. KG. Alle Rechte vorbehalten."
   },
+  "error": {
+    "title": "Ein Fehler ist aufgetreten",
+    "description": "Bitte versuchen Sie es erneut oder kehren Sie zur Startseite zurück.",
+    "retry": "Erneut versuchen"
+  },
   "notFound": {
     "title": "Seite nicht gefunden",
     "description": "Die angeforderte Seite existiert nicht oder wurde verschoben.",
@@ -143,19 +162,46 @@
     "phone_label": "Telefon",
     "mobile_label": "Mobil",
     "email_label": "E-Mail",
-    "homepage_label": "Homepage"
+    "homepage_label": "Homepage",
+    "responsible_title": "Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV",
+    "responsible_name": "Peter Fiegler",
+    "disclaimer_title": "Haftungsausschluss",
+    "disclaimer_content_title": "Haftung für Inhalte",
+    "disclaimer_content_text": "Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs. 1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.",
+    "disclaimer_links_title": "Haftung für Links",
+    "disclaimer_links_text": "Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar.",
+    "copyright_title": "Urheberrecht",
+    "copyright_text": "Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers."
   },
   "datenschutz": {
     "title": "Datenschutzerklärung",
-    "intro": "Wir nehmen den Schutz Ihrer persönlichen Daten sehr ernst.",
+    "intro": "Wir nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.",
     "section_1_title": "1. Verantwortliche Stelle",
+    "section_1_text": "Verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:",
     "section_2_title": "2. Erhebung und Verarbeitung personenbezogener Daten",
-    "section_2_text": "Beim Besuch unserer Website werden automatisch Informationen allgemeiner Natur erfasst. Diese Informationen (Server-Logfiles) beinhalten etwa die Art des Webbrowsers, das verwendete Betriebssystem, den Domainnamen Ihres Internet-Service-Providers und ähnliches. Hierbei handelt es sich ausschließlich um Informationen, welche keine Rückschlüsse auf Ihre Person zulassen.",
+    "section_2_text": "Beim Besuch unserer Website werden automatisch Informationen allgemeiner Natur erfasst. Diese Informationen (Server-Logfiles) beinhalten etwa die Art des Webbrowsers, das verwendete Betriebssystem, den Domainnamen Ihres Internet-Service-Providers, Ihre IP-Adresse und ähnliches. Hierbei handelt es sich ausschließlich um Informationen, welche keine Rückschlüsse auf Ihre Person zulassen.",
+    "section_2_legal_basis": "Rechtsgrundlage für die Datenverarbeitung ist Art. 6 Abs. 1 lit. f DSGVO. Unser berechtigtes Interesse besteht in der Sicherstellung eines störungsfreien Betriebs unserer Website.",
+    "section_2_retention": "Die Server-Logfiles werden nach 14 Tagen automatisch gelöscht.",
     "section_3_title": "3. Kontaktaufnahme",
-    "section_3_text": "Wenn Sie uns per E-Mail kontaktieren, werden Ihre Angaben einschließlich der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.",
-    "section_4_title": "4. Ihre Rechte",
-    "section_4_text_1": "Sie haben jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung sowie ein Recht auf Berichtigung, Sperrung oder Löschung dieser Daten.",
-    "section_4_text_2": "Hierzu sowie zu weiteren Fragen zum Thema personenbezogene Daten können Sie sich jederzeit über die im Impressum angegebenen Kontaktdaten an uns wenden.",
-    "email_label": "E-Mail"
+    "section_3_text": "Wenn Sie uns per E-Mail oder über das Kontaktformular kontaktieren, werden Ihre Angaben einschließlich der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.",
+    "section_3_legal_basis": "Rechtsgrundlage für die Verarbeitung der Daten ist Art. 6 Abs. 1 lit. b DSGVO (Vertragsanbahnung) bzw. Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Bearbeitung Ihrer Anfrage).",
+    "section_3_retention": "Die im Rahmen der Kontaktaufnahme übermittelten Daten werden gelöscht, sobald Ihre Anfrage abschließend bearbeitet wurde und keine gesetzlichen Aufbewahrungspflichten entgegenstehen.",
+    "section_4_title": "4. E-Mail-Versand",
+    "section_4_text": "Für den Versand von E-Mails über unser Kontaktformular nutzen wir einen SMTP-Mailserver. Die von Ihnen eingegebenen Daten (Name, E-Mail-Adresse, Betreff, Nachricht) werden dabei an unseren E-Mail-Provider übermittelt, der die E-Mail in unserem Auftrag zustellt.",
+    "section_5_title": "5. Ihre Rechte",
+    "section_5_text_1": "Sie haben gegenüber uns folgende Rechte hinsichtlich der Sie betreffenden personenbezogenen Daten:",
+    "section_5_rights_0": "Recht auf Auskunft (Art. 15 DSGVO)",
+    "section_5_rights_1": "Recht auf Berichtigung (Art. 16 DSGVO)",
+    "section_5_rights_2": "Recht auf Löschung (Art. 17 DSGVO)",
+    "section_5_rights_3": "Recht auf Einschränkung der Verarbeitung (Art. 18 DSGVO)",
+    "section_5_rights_4": "Recht auf Datenübertragbarkeit (Art. 20 DSGVO)",
+    "section_5_rights_5": "Recht auf Widerspruch gegen die Verarbeitung (Art. 21 DSGVO)",
+    "section_5_text_2": "Sie haben zudem das Recht, sich bei einer Datenschutz-Aufsichtsbehörde über die Verarbeitung Ihrer personenbezogenen Daten durch uns zu beschweren.",
+    "section_6_title": "6. Cookies",
+    "section_6_text": "Unsere Website verwendet ein funktionales Cookie (NEXT_LOCALE) zur Speicherung Ihrer Sprachpräferenz. Dieses Cookie ist technisch notwendig und erfordert keine Einwilligung gemäß § 25 Abs. 2 TDDDG. Es werden keine Tracking- oder Analyse-Cookies eingesetzt.",
+    "section_7_title": "7. Aktualität und Änderung dieser Datenschutzerklärung",
+    "section_7_text": "Diese Datenschutzerklärung ist aktuell gültig. Durch die Weiterentwicklung unserer Website oder aufgrund geänderter gesetzlicher bzw. behördlicher Vorgaben kann es notwendig werden, diese Datenschutzerklärung zu ändern.",
+    "email_label": "E-Mail",
+    "contact_label": "Kontakt"
   }
 }

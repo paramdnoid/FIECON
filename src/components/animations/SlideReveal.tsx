@@ -2,6 +2,7 @@
 
 import { type ReactNode, useEffect, useRef, useState } from "react";
 import { motion, useReducedMotion } from "motion/react";
+import { EASE_OUT_EXPO } from "@/lib/constants";
 
 type Props = {
   children: ReactNode;
@@ -61,7 +62,7 @@ export function SlideReveal({
       transition={{
         duration,
         delay,
-        ease: [0.16, 1, 0.3, 1] as [number, number, number, number],
+        ease: EASE_OUT_EXPO,
       }}
       className={className}
     >

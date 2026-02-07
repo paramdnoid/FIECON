@@ -1,13 +1,13 @@
 "use client";
 
+import Link from "next/link";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Container } from "@/components/ui/Container";
-import { COMPANY, CONTACT } from "@/lib/constants";
+import { COMPANY, CONTACT, SERVICES } from "@/lib/constants";
 
 export function Footer() {
   const t = useTranslations("footer");
-  const tNav = useTranslations("nav");
   const tServices = useTranslations("services");
   const tOffices = useTranslations("offices");
 
@@ -22,13 +22,13 @@ export function Footer() {
             <div className="flex items-center gap-3 mb-4">
               <Image
                 src="/logo.svg"
-                alt="FIECON"
+                alt={COMPANY.name}
                 width={36}
                 height={36}
                 className="brightness-0 invert"
               />
               <span className="font-display text-xl font-normal text-white tracking-tight">
-                FIECON
+                {COMPANY.name}
               </span>
             </div>
             <p className="text-beige-400 text-sm leading-relaxed max-w-xs">
@@ -42,26 +42,16 @@ export function Footer() {
               {t("services_title")}
             </h3>
             <ul className="space-y-3">
-              <li>
-                <button onClick={() => document.getElementById("services")?.scrollIntoView({ behavior: "smooth" })} className="text-sm text-beige-400 hover:text-white transition-colors cursor-pointer">
-                  {tServices("consulting.title")}
-                </button>
-              </li>
-              <li>
-                <button onClick={() => document.getElementById("services")?.scrollIntoView({ behavior: "smooth" })} className="text-sm text-beige-400 hover:text-white transition-colors cursor-pointer">
-                  {tServices("finance.title")}
-                </button>
-              </li>
-              <li>
-                <button onClick={() => document.getElementById("services")?.scrollIntoView({ behavior: "smooth" })} className="text-sm text-beige-400 hover:text-white transition-colors cursor-pointer">
-                  {tServices("construction.title")}
-                </button>
-              </li>
-              <li>
-                <button onClick={() => document.getElementById("services")?.scrollIntoView({ behavior: "smooth" })} className="text-sm text-beige-400 hover:text-white transition-colors cursor-pointer">
-                  {tServices("yacht.title")}
-                </button>
-              </li>
+              {SERVICES.map((service) => (
+                <li key={service.id}>
+                  <a
+                    href="#services"
+                    className="text-sm text-beige-400 hover:text-white transition-colors"
+                  >
+                    {tServices(`${service.id}.title`)}
+                  </a>
+                </li>
+              ))}
             </ul>
           </div>
 
@@ -90,14 +80,14 @@ export function Footer() {
             </h3>
             <ul className="space-y-3">
               <li>
-                <a href="/impressum" className="text-sm text-beige-400 hover:text-white transition-colors">
+                <Link href="/impressum" className="text-sm text-beige-400 hover:text-white transition-colors">
                   {t("impressum")}
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/datenschutz" className="text-sm text-beige-400 hover:text-white transition-colors">
+                <Link href="/datenschutz" className="text-sm text-beige-400 hover:text-white transition-colors">
                   {t("datenschutz")}
-                </a>
+                </Link>
               </li>
             </ul>
             <div className="mt-6 text-sm text-beige-400">

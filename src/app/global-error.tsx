@@ -1,7 +1,8 @@
 "use client";
 
+// Intentionally hardcoded German: at this error boundary level the entire React tree
+// (including next-intl providers) has failed, so translations are unavailable.
 export default function GlobalError({
-  error,
   reset,
 }: {
   error: Error & { digest?: string };

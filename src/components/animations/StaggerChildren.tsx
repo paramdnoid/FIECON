@@ -2,6 +2,7 @@
 
 import type { ReactNode } from "react";
 import { motion, useReducedMotion } from "motion/react";
+import { EASE_OUT_EXPO } from "@/lib/constants";
 
 type Props = {
   children: ReactNode;
@@ -25,7 +26,7 @@ export const staggerItemVariants = {
     y: 0,
     transition: {
       duration: 0.5,
-      ease: [0.16, 1, 0.3, 1] as [number, number, number, number],
+      ease: EASE_OUT_EXPO,
     },
   },
 };

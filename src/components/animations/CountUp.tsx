@@ -9,6 +9,7 @@ import {
   useInView,
   useReducedMotion,
 } from "motion/react";
+import { EASE_OUT_EXPO } from "@/lib/constants";
 
 type Props = {
   from?: number;
@@ -46,7 +47,7 @@ export function CountUp({
     const controls = animate(motionValue, to, {
       duration,
       delay,
-      ease: [0.16, 1, 0.3, 1] as [number, number, number, number],
+      ease: EASE_OUT_EXPO,
     });
 
     return controls.stop;

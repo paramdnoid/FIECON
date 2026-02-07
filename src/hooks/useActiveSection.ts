@@ -11,10 +11,12 @@ export function useActiveSection() {
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
-        for (const entry of entries) {
-          if (entry.isIntersecting) {
-            setActiveSection(entry.target.id);
-          }
+        const intersecting = entries.filter((e) => e.isIntersecting);
+        if (intersecting.length > 0) {
+          const best = intersecting.reduce((a, b) =>
+            a.intersectionRatio > b.intersectionRatio ? a : b,
+          );
+          setActiveSection(best.target.id);
         }
       },
       { rootMargin: "-40% 0px -55% 0px" },

@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { useScrollProgress } from "@/hooks/useScrollProgress";
 import { useActiveSection } from "@/hooks/useActiveSection";
-import { NAV_LINKS } from "@/lib/constants";
+import { COMPANY, NAV_LINKS } from "@/lib/constants";
 import { Container } from "@/components/ui/Container";
 import { ScrollProgress } from "@/components/animations/ScrollProgress";
 import { LanguageSwitcher } from "./LanguageSwitcher";
@@ -31,18 +31,20 @@ export function Header() {
           <div className="flex items-center justify-between h-24">
             {/* Logo */}
             <button
+              type="button"
               onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
               className="flex items-center gap-3 cursor-pointer"
+              aria-label={t("home")}
             >
               <Image
                 src="/logo.svg"
-                alt="FIECON"
+                alt={COMPANY.name}
                 width={36}
                 height={36}
                 priority
               />
               <span className="font-display text-xl font-normal gradient-text-hero tracking-tight">
-                FIECON
+                {COMPANY.name}
               </span>
             </button>
 
@@ -51,10 +53,11 @@ export function Header() {
               {NAV_LINKS.map((link) => {
                 const isActive = activeSection === link.href;
                 return (
-                  <button
+                  <a
                     key={link.id}
-                    onClick={() => document.getElementById(link.href)?.scrollIntoView({ behavior: "smooth" })}
-                    className={`relative text-xs font-medium tracking-widest uppercase transition-colors duration-400 group cursor-pointer ${
+                    href={`#${link.href}`}
+                    aria-current={isActive ? "true" : undefined}
+                    className={`relative text-xs font-medium tracking-widest uppercase transition-colors duration-400 group ${
                       isActive ? "text-bordeaux-900" : "text-text-muted hover:text-bordeaux-900"
                     }`}
                   >
@@ -62,7 +65,7 @@ export function Header() {
                     <span className={`absolute -bottom-1 left-0 h-px bg-accent transition-all duration-400 ${
                       isActive ? "w-full" : "w-0 group-hover:w-full"
                     }`} />
-                  </button>
+                  </a>
                 );
               })}
             </nav>
@@ -75,9 +78,11 @@ export function Header() {
 
               {/* Mobile menu button */}
               <button
+                type="button"
                 onClick={() => setMenuOpen(!menuOpen)}
                 className="lg:hidden p-2 text-text-primary hover:text-bordeaux-900 transition-colors cursor-pointer"
-                aria-label="Menu"
+                aria-label={t("menu")}
+                aria-expanded={menuOpen}
               >
                 <svg
                   width="24"
@@ -87,6 +92,7 @@ export function Header() {
                   stroke="currentColor"
                   strokeWidth="1.5"
                   strokeLinecap="round"
+                  aria-hidden="true"
                 >
                   {menuOpen ? (
                     <>

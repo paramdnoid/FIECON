@@ -9,7 +9,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: "datenschutz" });
 
   return {
-    title: `${t("title")} — FIECON`,
+    title: `${t("title")} — ${COMPANY.name}`,
     description: t("intro"),
   };
 }
@@ -27,9 +27,11 @@ export default function DatenschutzPage() {
         <div className="prose prose-lg max-w-none text-text-muted space-y-6">
           <p className="text-lg">{t("intro")}</p>
 
+          {/* 1. Verantwortliche Stelle */}
           <h2 className="font-display text-xl font-semibold text-text-primary mt-8 mb-4">
             {t("section_1_title")}
           </h2>
+          <p>{t("section_1_text")}</p>
           <p>
             {COMPANY.fullName}
             <br />
@@ -46,21 +48,51 @@ export default function DatenschutzPage() {
             </a>
           </p>
 
+          {/* 2. Erhebung und Verarbeitung */}
           <h2 className="font-display text-xl font-semibold text-text-primary mt-8 mb-4">
             {t("section_2_title")}
           </h2>
           <p>{t("section_2_text")}</p>
+          <p>{t("section_2_legal_basis")}</p>
+          <p>{t("section_2_retention")}</p>
 
+          {/* 3. Kontaktaufnahme */}
           <h2 className="font-display text-xl font-semibold text-text-primary mt-8 mb-4">
             {t("section_3_title")}
           </h2>
           <p>{t("section_3_text")}</p>
+          <p>{t("section_3_legal_basis")}</p>
+          <p>{t("section_3_retention")}</p>
 
+          {/* 4. E-Mail-Versand */}
           <h2 className="font-display text-xl font-semibold text-text-primary mt-8 mb-4">
             {t("section_4_title")}
           </h2>
-          <p>{t("section_4_text_1")}</p>
-          <p>{t("section_4_text_2")}</p>
+          <p>{t("section_4_text")}</p>
+
+          {/* 5. Ihre Rechte */}
+          <h2 className="font-display text-xl font-semibold text-text-primary mt-8 mb-4">
+            {t("section_5_title")}
+          </h2>
+          <p>{t("section_5_text_1")}</p>
+          <ul className="list-disc pl-6 space-y-1">
+            {[0, 1, 2, 3, 4, 5].map((i) => (
+              <li key={i}>{t(`section_5_rights_${i}`)}</li>
+            ))}
+          </ul>
+          <p>{t("section_5_text_2")}</p>
+
+          {/* 6. Cookies */}
+          <h2 className="font-display text-xl font-semibold text-text-primary mt-8 mb-4">
+            {t("section_6_title")}
+          </h2>
+          <p>{t("section_6_text")}</p>
+
+          {/* 7. Aktualität */}
+          <h2 className="font-display text-xl font-semibold text-text-primary mt-8 mb-4">
+            {t("section_7_title")}
+          </h2>
+          <p>{t("section_7_text")}</p>
         </div>
       </Container>
     </section>

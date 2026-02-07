@@ -6,27 +6,33 @@
     "dev": "./kill-port.sh && next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "deploy": "pnpm build && rsync -avz --delete --exclude '.env*' .next/ public/ package.json pnpm-lock.yaml next.config.ts middleware.ts src/i18n/ src/messages/ ${DEPLOY_TARGET:-user@server:/var/www/fiecon/} && echo 'Deploy complete. Run: ssh <server> \"cd /var/www/fiecon && pnpm install --prod && pm2 restart fiecon\"'"
+    "lint": "eslint .",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "dependencies": {
-    "motion": "^12.0.0",
-    "next": "^15.1.0",
-    "next-intl": "^4.0.0",
+    "motion": "^12.33.0",
+    "next": "^16.1.6",
+    "next-intl": "^4.8.2",
     "nodemailer": "^8.0.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3.2.0",
-    "@tailwindcss/postcss": "^4.0.0",
-    "@types/node": "^22.0.0",
+    "@tailwindcss/postcss": "^4.1.18",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/node": "^25.2.1",
     "@types/nodemailer": "^7.0.9",
-    "@types/react": "^19.0.0",
-    "@types/react-dom": "^19.0.0",
-    "eslint": "^9.17.0",
-    "eslint-config-next": "^15.1.0",
-    "tailwindcss": "^4.0.0",
-    "typescript": "^5.7.0"
+    "@types/react": "^19.2.13",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.3",
+    "eslint": "^9.39.2",
+    "eslint-config-next": "^16.1.6",
+    "jsdom": "^28.0.0",
+    "tailwindcss": "^4.1.18",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18"
   }
 }

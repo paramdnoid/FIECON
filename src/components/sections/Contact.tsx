@@ -7,7 +7,7 @@ import { Container } from "@/components/ui/Container";
 import { Button } from "@/components/ui/Button";
 import { MagneticButton } from "@/components/animations/MagneticButton";
 import { FadeIn } from "@/components/animations/FadeIn";
-import { CONTACT } from "@/lib/constants";
+import { CONTACT, EASE_OUT_EXPO } from "@/lib/constants";
 
 const ContactDialog = lazy(() =>
   import("@/components/ui/ContactDialog").then((m) => ({ default: m.ContactDialog }))
@@ -19,7 +19,7 @@ export function Contact() {
   const [dialogOpen, setDialogOpen] = useState(false);
 
   return (
-    <section id="contact" className="py-32 sm:py-40 relative overflow-hidden" style={{ backgroundColor: '#62191C' }}>
+    <section id="contact" className="py-32 sm:py-40 relative overflow-hidden bg-bordeaux-900">
       {/* Minimal decorative line */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-px h-24 bg-gradient-to-b from-white/10 to-transparent" />
@@ -31,7 +31,7 @@ export function Contact() {
           initial: { opacity: 0, scale: 0.96 },
           whileInView: { opacity: 1, scale: 1 },
           viewport: { once: true, margin: "-80px" },
-          transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1] as [number, number, number, number] },
+          transition: { duration: 0.8, ease: EASE_OUT_EXPO },
         })}
       >
         <Container size="md" className="relative z-10">

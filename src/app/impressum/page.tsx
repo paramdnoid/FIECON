@@ -9,7 +9,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: "impressum" });
 
   return {
-    title: `${t("title")} — FIECON`,
+    title: `${t("title")} — ${COMPANY.name}`,
     description: `${t("info_title")} — ${COMPANY.fullName}`,
   };
 }
@@ -59,6 +59,36 @@ export default function ImpressumPage() {
             <br />
             {t("homepage_label")}: {COMPANY.website}
           </p>
+
+          <h2 className="font-display text-xl font-semibold text-text-primary mt-8 mb-4">
+            {t("responsible_title")}
+          </h2>
+          <p>
+            {t("responsible_name")}
+            <br />
+            {CONTACT.address.street}
+            <br />
+            {CONTACT.address.zip} {CONTACT.address.city}
+          </p>
+
+          <h2 className="font-display text-xl font-semibold text-text-primary mt-10 mb-4">
+            {t("disclaimer_title")}
+          </h2>
+
+          <h3 className="font-display text-lg font-semibold text-text-primary mt-6 mb-3">
+            {t("disclaimer_content_title")}
+          </h3>
+          <p>{t("disclaimer_content_text")}</p>
+
+          <h3 className="font-display text-lg font-semibold text-text-primary mt-6 mb-3">
+            {t("disclaimer_links_title")}
+          </h3>
+          <p>{t("disclaimer_links_text")}</p>
+
+          <h3 className="font-display text-lg font-semibold text-text-primary mt-6 mb-3">
+            {t("copyright_title")}
+          </h3>
+          <p>{t("copyright_text")}</p>
         </div>
       </Container>
     </section>

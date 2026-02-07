@@ -5,7 +5,7 @@ type Props = {
 
 export function SectionDivider({ variant = "line", className = "" }: Props) {
   return (
-    <div className={`flex items-center justify-center py-12 ${className}`}>
+    <div aria-hidden="true" className={`flex items-center justify-center py-12 ${className}`}>
       {variant === "line" && (
         <div className="w-24 h-px bg-gradient-to-r from-transparent via-beige-400 to-transparent" />
       )}

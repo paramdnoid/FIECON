@@ -2,6 +2,7 @@
 
 import type { ReactNode } from "react";
 import { motion, useReducedMotion } from "motion/react";
+import { EASE_OUT_EXPO } from "@/lib/constants";
 
 type Props = {
   children: ReactNode;
@@ -40,7 +41,7 @@ export function FadeIn({
       transition={{
         duration,
         delay,
-        ease: [0.16, 1, 0.3, 1],
+        ease: EASE_OUT_EXPO,
       }}
       className={className}
     >

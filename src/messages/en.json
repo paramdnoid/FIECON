@@ -4,6 +4,8 @@
     "description": "FIECON Germany Co. KG — International business consulting for corporate law, company formations, financial administration and construction finance. Offices in Hamburg, Belgrade and Texas."
   },
   "nav": {
+    "home": "Go to homepage",
+    "menu": "Open menu",
     "about": "About",
     "services": "Services",
     "approach": "Approach",
@@ -34,22 +36,34 @@
     "consulting": {
       "title": "Business Consulting",
       "description": "Strategic consulting in corporate law and international company formations. We guide you from conception to successful implementation.",
-      "items": "Corporate Law, International Company Formations"
+      "items": {
+        "0": "Corporate Law",
+        "1": "International Company Formations"
+      }
     },
     "finance": {
       "title": "Financial Administration",
       "description": "Professional management and optimization of your finances. Transparent processes and strategic planning for sustainable growth.",
-      "items": "Accounting, Strategic Planning"
+      "items": {
+        "0": "Accounting",
+        "1": "Strategic Planning"
+      }
     },
     "construction": {
       "title": "Construction Finance",
       "description": "Specialized financing solutions for construction projects. From planning to completion — we secure your investments.",
-      "items": "Project Finance, Investment Security"
+      "items": {
+        "0": "Project Finance",
+        "1": "Investment Security"
+      }
     },
     "yacht": {
       "title": "Yacht Construction Finance",
       "description": "Exclusive financing consulting for yacht building. Tailored solutions for a demanding market segment.",
-      "items": "Yacht Finance, Exclusive Consulting"
+      "items": {
+        "0": "Yacht Finance",
+        "1": "Exclusive Consulting"
+      }
     }
   },
   "approach": {
@@ -131,6 +145,11 @@
     "datenschutz": "Privacy Policy",
     "copyright": "© {year} FIECON Germany Co. KG. All rights reserved."
   },
+  "error": {
+    "title": "An error occurred",
+    "description": "Please try again or return to the homepage.",
+    "retry": "Try again"
+  },
   "notFound": {
     "title": "Page Not Found",
     "description": "The requested page does not exist or has been moved.",
@@ -143,19 +162,46 @@
     "phone_label": "Phone",
     "mobile_label": "Mobile",
     "email_label": "Email",
-    "homepage_label": "Homepage"
+    "homepage_label": "Homepage",
+    "responsible_title": "Responsible for content according to § 55 para. 2 RStV",
+    "responsible_name": "Peter Fiegler",
+    "disclaimer_title": "Disclaimer",
+    "disclaimer_content_title": "Liability for Content",
+    "disclaimer_content_text": "The contents of our pages were created with the greatest care. However, we cannot guarantee the accuracy, completeness or topicality of the content. As a service provider, we are responsible for our own content on these pages in accordance with § 7 para. 1 TMG under general law. According to §§ 8 to 10 TMG, however, we as a service provider are not obliged to monitor transmitted or stored third-party information or to investigate circumstances that indicate illegal activity.",
+    "disclaimer_links_title": "Liability for Links",
+    "disclaimer_links_text": "Our website contains links to external third-party websites over whose content we have no influence. Therefore, we cannot accept any liability for this third-party content. The respective provider or operator of the pages is always responsible for the content of the linked pages. The linked pages were checked for possible legal violations at the time of linking. Illegal content was not recognisable at the time of linking.",
+    "copyright_title": "Copyright",
+    "copyright_text": "The content and works created by the site operators on these pages are subject to German copyright law. The reproduction, editing, distribution and any kind of exploitation outside the limits of copyright law require the written consent of the respective author or creator."
   },
   "datenschutz": {
     "title": "Privacy Policy",
-    "intro": "We take the protection of your personal data very seriously.",
+    "intro": "We take the protection of your personal data very seriously. We treat your personal data confidentially and in accordance with the statutory data protection regulations and this privacy policy.",
     "section_1_title": "1. Responsible Entity",
+    "section_1_text": "The responsible entity for data processing on this website is:",
     "section_2_title": "2. Collection and Processing of Personal Data",
-    "section_2_text": "When visiting our website, information of a general nature is automatically collected. This information (server log files) includes the type of web browser, the operating system used, the domain name of your internet service provider and similar details. This is exclusively information that does not allow any conclusions about your person.",
+    "section_2_text": "When visiting our website, information of a general nature is automatically collected. This information (server log files) includes the type of web browser, the operating system used, the domain name of your internet service provider, your IP address and similar details. This is exclusively information that does not allow any conclusions about your person.",
+    "section_2_legal_basis": "The legal basis for data processing is Art. 6 para. 1 lit. f GDPR. Our legitimate interest lies in ensuring the trouble-free operation of our website.",
+    "section_2_retention": "Server log files are automatically deleted after 14 days.",
     "section_3_title": "3. Contact",
-    "section_3_text": "If you contact us by email, your details including the contact data you provide will be stored for the purpose of processing the inquiry and in case of follow-up questions. We will not share this data without your consent.",
-    "section_4_title": "4. Your Rights",
-    "section_4_text_1": "You have the right at any time to free information about your stored personal data, its origin and recipients, and the purpose of data processing, as well as the right to correction, blocking or deletion of this data.",
-    "section_4_text_2": "For this and other questions on the subject of personal data, you can contact us at any time using the contact details provided in the legal notice.",
-    "email_label": "Email"
+    "section_3_text": "If you contact us by email or via the contact form, your details including the contact data you provide will be stored for the purpose of processing the inquiry and in case of follow-up questions. We will not share this data without your consent.",
+    "section_3_legal_basis": "The legal basis for processing the data is Art. 6 para. 1 lit. b GDPR (pre-contractual measures) or Art. 6 para. 1 lit. f GDPR (legitimate interest in processing your inquiry).",
+    "section_3_retention": "Data transmitted in the course of contacting us will be deleted as soon as your inquiry has been conclusively processed and no statutory retention obligations apply.",
+    "section_4_title": "4. Email Delivery",
+    "section_4_text": "For sending emails via our contact form, we use an SMTP mail server. The data you enter (name, email address, subject, message) is transmitted to our email provider, who delivers the email on our behalf.",
+    "section_5_title": "5. Your Rights",
+    "section_5_text_1": "You have the following rights with regard to your personal data:",
+    "section_5_rights_0": "Right of access (Art. 15 GDPR)",
+    "section_5_rights_1": "Right to rectification (Art. 16 GDPR)",
+    "section_5_rights_2": "Right to erasure (Art. 17 GDPR)",
+    "section_5_rights_3": "Right to restriction of processing (Art. 18 GDPR)",
+    "section_5_rights_4": "Right to data portability (Art. 20 GDPR)",
+    "section_5_rights_5": "Right to object to processing (Art. 21 GDPR)",
+    "section_5_text_2": "You also have the right to lodge a complaint with a data protection supervisory authority about the processing of your personal data by us.",
+    "section_6_title": "6. Cookies",
+    "section_6_text": "Our website uses a functional cookie (NEXT_LOCALE) to store your language preference. This cookie is technically necessary and does not require consent under § 25 para. 2 TDDDG. No tracking or analytics cookies are used.",
+    "section_7_title": "7. Changes to this Privacy Policy",
+    "section_7_text": "This privacy policy is currently valid. Due to the further development of our website or due to changed legal or regulatory requirements, it may become necessary to amend this privacy policy.",
+    "email_label": "Email",
+    "contact_label": "Contact"
   }
 }

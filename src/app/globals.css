@@ -49,7 +49,7 @@ body::before {
   content: "";
   position: fixed;
   inset: 0;
-  z-index: 9999;
+  z-index: 1;
   pointer-events: none;
   opacity: 0.03;
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
@@ -64,14 +64,14 @@ body::before {
 
 /* === Gradient Text Utility === */
 .gradient-text {
-  background: linear-gradient(135deg, #62191C 0%, #873632 30%, #9E7161 70%, #CAAE9F 100%);
+  background: linear-gradient(135deg, var(--color-bordeaux-900) 0%, var(--color-bordeaux-700) 30%, var(--color-bordeaux-500) 70%, var(--color-beige-400) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
 .gradient-text-hero {
-  background: linear-gradient(135deg, #62191C 0%, #873632 40%, #9E7161 100%);
+  background: linear-gradient(135deg, var(--color-bordeaux-900) 0%, var(--color-bordeaux-700) 40%, var(--color-bordeaux-500) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -79,8 +79,8 @@ body::before {
 
 /* === Selection === */
 ::selection {
-  background-color: #CAAE9F;
-  color: #62191C;
+  background-color: var(--color-beige-400);
+  color: var(--color-bordeaux-900);
 }
 
 /* === Scrollbar === */

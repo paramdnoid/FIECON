@@ -6,12 +6,6 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 import { FadeIn } from "@/components/animations/FadeIn";
 import { OFFICES } from "@/lib/constants";
 
-const COUNTRY_CODES: Record<string, string> = {
-  hamburg: "DE",
-  belgrade: "RS",
-  texas: "US",
-};
-
 export function Offices() {
   const t = useTranslations("offices");
 
@@ -51,7 +45,7 @@ export function Offices() {
                         : "text-beige-200/60"
                     }`}
                   >
-                    {COUNTRY_CODES[office.id]}
+                    {office.countryCode}
                   </span>
 
                   {/* Label / Region tag */}

@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
+import { escapeHtml } from "@/lib/utils";
 
 type ContactBody = {
   name: string;
@@ -13,6 +14,8 @@ const RATE_LIMIT_WINDOW_MS = 60_000;
 const RATE_LIMIT_MAX = 5;
 const rateLimitMap = new Map<string, number[]>();
 
+const MAX_TRACKED_IPS = 10_000;
+
 function isRateLimited(ip: string): boolean {
   const now = Date.now();
   const timestamps = rateLimitMap.get(ip) ?? [];
@@ -22,7 +25,37 @@ function isRateLimited(ip: string): boolean {
 
   recent.push(now);
   rateLimitMap.set(ip, recent);
+
+  // Periodically clean up expired entries to prevent unbounded growth
+  if (rateLimitMap.size > MAX_TRACKED_IPS) {
+    for (const [key, ts] of rateLimitMap) {
+      const valid = ts.filter((t) => now - t < RATE_LIMIT_WINDOW_MS);
+      if (valid.length === 0) rateLimitMap.delete(key);
+      else rateLimitMap.set(key, valid);
+      if (rateLimitMap.size <= MAX_TRACKED_IPS) break;
+    }
+  }
+
   return false;
+}
+
+// Lazy singleton SMTP transporter
+let _transporter: nodemailer.Transporter | null = null;
+
+function getTransporter(): nodemailer.Transporter | null {
+  if (_transporter) return _transporter;
+
+  const { SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS } = process.env;
+  if (!SMTP_HOST || !SMTP_USER || !SMTP_PASS) return null;
+
+  _transporter = nodemailer.createTransport({
+    host: SMTP_HOST,
+    port: Number(SMTP_PORT) || 587,
+    secure: Number(SMTP_PORT) === 465,
+    auth: { user: SMTP_USER, pass: SMTP_PASS },
+  });
+
+  return _transporter;
 }
 
 // Field length limits
@@ -88,10 +121,8 @@ export async function POST(request: Request) {
   }
 
   // SMTP configuration
-  const { SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS, SMTP_FROM, CONTACT_TO } =
-    process.env;
-
-  if (!SMTP_HOST || !SMTP_USER || !SMTP_PASS) {
+  const transporter = getTransporter();
+  if (!transporter) {
     console.error("Missing SMTP environment variables");
     return NextResponse.json(
       { error: "Email service not configured" },
@@ -99,21 +130,11 @@ export async function POST(request: Request) {
     );
   }
 
-  const transporter = nodemailer.createTransport({
-    host: SMTP_HOST,
-    port: Number(SMTP_PORT) || 587,
-    secure: Number(SMTP_PORT) === 465,
-    auth: {
-      user: SMTP_USER,
-      pass: SMTP_PASS,
-    },
-  });
-
-  const recipient = CONTACT_TO || "fiegler-fiecon-consulting@e.mail.de";
+  const recipient = process.env.CONTACT_TO || "fiegler-fiecon-consulting@e.mail.de";
 
   try {
     await transporter.sendMail({
-      from: SMTP_FROM || SMTP_USER,
+      from: process.env.SMTP_FROM || process.env.SMTP_USER,
       to: recipient,
       replyTo: `${name} <${email}>`,
       subject: `[FIECON Kontakt] ${subject}`,
@@ -162,12 +183,4 @@ export async function POST(request: Request) {
       { status: 500 },
     );
   }
-}
-
-function escapeHtml(str: string): string {
-  return str
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;");
 }

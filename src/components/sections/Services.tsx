@@ -9,20 +9,20 @@ import React from "react";
 
 const SERVICE_ICONS: Record<string, React.ReactNode> = {
   consulting: (
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round">
+    <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round">
       <path d="M12 2L2 7l10 5 10-5-10-5z" />
       <path d="M2 17l10 5 10-5" />
       <path d="M2 12l10 5 10-5" />
     </svg>
   ),
   finance: (
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round">
+    <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round">
       <line x1="12" y1="1" x2="12" y2="23" />
       <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
     </svg>
   ),
   construction: (
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round">
+    <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round">
       <rect x="1" y="4" width="22" height="16" rx="2" ry="2" />
       <line x1="1" y1="10" x2="23" y2="10" />
       <path d="M8 4v16" />
@@ -30,7 +30,7 @@ const SERVICE_ICONS: Record<string, React.ReactNode> = {
     </svg>
   ),
   yacht: (
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round">
+    <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round">
       <path d="M2 20h20" />
       <path d="M12 4v12" />
       <path d="M12 4l8 12H4z" />
@@ -39,6 +39,7 @@ const SERVICE_ICONS: Record<string, React.ReactNode> = {
 };
 
 const SERVICE_KEYS = ["consulting", "finance", "construction", "yacht"] as const;
+const ITEMS_PER_SERVICE = 2;
 
 export function Services() {
   const t = useTranslations("services");
@@ -82,16 +83,14 @@ export function Services() {
 
                   {/* Badges — pushed to bottom */}
                   <div className="flex flex-wrap gap-2 mt-auto pt-4">
-                    {t(`${key}.items`)
-                      .split(", ")
-                      .map((item: string) => (
-                        <span
-                          key={item}
-                          className="px-3 py-1 text-[11px] font-medium tracking-wide uppercase bg-beige-50 text-bordeaux-900 rounded-full"
-                        >
-                          {item}
-                        </span>
-                      ))}
+                    {Array.from({ length: ITEMS_PER_SERVICE }, (_, i) => (
+                      <span
+                        key={i}
+                        className="px-3 py-1 text-[11px] font-medium tracking-wide uppercase bg-beige-50 text-bordeaux-900 rounded-full"
+                      >
+                        {t(`${key}.items.${i}`)}
+                      </span>
+                    ))}
                   </div>
                 </div>
               </div>

@@ -41,23 +41,15 @@ export function Button({
   const classes = `${base} ${variants[variant]} ${sizes[size]} ${className}`;
 
   if (href) {
-    const handleScroll = (e: React.MouseEvent) => {
-      const el = document.getElementById(href);
-      if (el) {
-        e.preventDefault();
-        el.scrollIntoView({ behavior: "smooth" });
-      }
-    };
-
     return (
-      <button onClick={handleScroll} className={classes}>
+      <a href={`#${href}`} className={classes}>
         {children}
-      </button>
+      </a>
     );
   }
 
   return (
-    <button onClick={onClick} className={classes}>
+    <button type="button" onClick={onClick} className={classes}>
       {children}
     </button>
   );
