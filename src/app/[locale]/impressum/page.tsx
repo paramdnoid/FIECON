@@ -14,6 +14,7 @@ export async function generateMetadata({
   return {
     title: `${t("title")} — ${COMPANY.name}`,
     description: `${t("info_title")} — ${COMPANY.fullName}`,
+    alternates: { canonical: `/${locale}/impressum` },
   };
 }
 
@@ -27,7 +28,7 @@ export default async function ImpressumPage({
   const t = await getTranslations({ locale, namespace: "impressum" });
 
   return (
-    <section className="pt-32 pb-24">
+    <article className="pt-32 pb-24">
       <Container size="sm">
         <h1 className="font-display text-4xl sm:text-5xl font-semibold tracking-tight mb-12 gradient-text">
           {t("title")}
@@ -100,6 +101,6 @@ export default async function ImpressumPage({
           <p>{t("copyright_text")}</p>
         </div>
       </Container>
-    </section>
+    </article>
   );
 }

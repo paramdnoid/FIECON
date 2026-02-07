@@ -29,6 +29,13 @@ const nextConfig: NextConfig = {
       {
         source: "/(.*)",
         headers: [
+          // Enforce HTTPS for 1 year
+          {
+            key: "Strict-Transport-Security",
+            value: "max-age=31536000; includeSubDomains",
+          },
+          // Disable DNS prefetching for privacy
+          { key: "X-DNS-Prefetch-Control", value: "off" },
           // Prevent clickjacking: deny all framing
           { key: "X-Frame-Options", value: "DENY" },
           // Prevent MIME-type sniffing (e.g. treating a .txt as .html)

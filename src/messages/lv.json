@@ -142,9 +142,9 @@
       "close": "Aizvērt",
       "required": "Obligāts lauks",
       "invalid_email": "Nederīga e-pasta adrese",
-      "error_network_text": "Please check your internet connection and try again.",
-      "error_timeout_text": "The server is not responding. Please try again later.",
-      "error_rate_limit_text": "Too many requests. Please wait a moment and try again."
+      "error_network_text": "Lūdzu, pārbaudiet interneta savienojumu un mēģiniet vēlreiz.",
+      "error_timeout_text": "Serveris neatbild. Lūdzu, mēģiniet vēlreiz vēlāk.",
+      "error_rate_limit_text": "Pārāk daudz pieprasījumu. Lūdzu, uzgaidiet brīdi un mēģiniet vēlreiz."
     }
   },
   "footer": {

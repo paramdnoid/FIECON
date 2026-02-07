@@ -9,7 +9,9 @@ type ContactBody = {
   message: string;
 };
 
-// Rate limiting: max 5 requests per minute per IP
+// Rate limiting: max 5 requests per minute per IP.
+// NOTE: In-memory — won't persist across serverless cold starts or share
+// across instances. Acceptable for a low-traffic corporate site.
 const RATE_LIMIT_WINDOW_MS = 60_000;
 const RATE_LIMIT_MAX = 5;
 const rateLimitMap = new Map<string, number[]>();
@@ -66,10 +68,28 @@ const MAX_LENGTHS = {
   message: 5000,
 } as const;
 
+const ALLOWED_ORIGINS = [
+  "https://www.fiecon-consulting.eu",
+  "https://fiecon-consulting.eu",
+];
+
 export async function POST(request: Request) {
-  // Rate limiting
-  const forwarded = request.headers.get("x-forwarded-for");
-  const ip = forwarded?.split(",")[0]?.trim() ?? "unknown";
+  // CSRF protection: reject cross-origin requests
+  const origin = request.headers.get("origin");
+  const allowed =
+    process.env.NODE_ENV !== "production"
+      ? !origin || origin.startsWith("http://localhost:")
+      : origin != null && ALLOWED_ORIGINS.includes(origin);
+
+  if (!allowed) {
+    return NextResponse.json({ error: "Forbidden" }, { status: 403 });
+  }
+
+  // Rate limiting — prefer x-real-ip (set by trusted reverse proxy)
+  const ip =
+    request.headers.get("x-real-ip") ??
+    request.headers.get("x-forwarded-for")?.split(",").pop()?.trim() ??
+    "unknown";
 
   if (isRateLimited(ip)) {
     return NextResponse.json(
@@ -137,7 +157,14 @@ export async function POST(request: Request) {
     );
   }
 
-  const recipient = process.env.CONTACT_TO || "fiegler-fiecon-consulting@e.mail.de";
+  const recipient = process.env.CONTACT_TO;
+  if (!recipient) {
+    console.error("Missing CONTACT_TO environment variable");
+    return NextResponse.json(
+      { error: "Email service not configured" },
+      { status: 503 },
+    );
+  }
 
   try {
     await transporter.sendMail({

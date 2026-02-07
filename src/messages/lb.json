@@ -142,9 +142,9 @@
       "close": "Zoumaachen",
       "required": "Obligatorescht Feld",
       "invalid_email": "Ongülteg E-Mail Adress",
-      "error_network_text": "Please check your internet connection and try again.",
-      "error_timeout_text": "The server is not responding. Please try again later.",
-      "error_rate_limit_text": "Too many requests. Please wait a moment and try again."
+      "error_network_text": "Iwwerpréift w.e.g. Är Internetverbindung a probéiert nach eng Kéier.",
+      "error_timeout_text": "De Server äntwert net. Probéiert w.e.g. méi spéit nach eng Kéier.",
+      "error_rate_limit_text": "Ze vill Ufroen. Waart w.e.g. e Moment a probéiert nach eng Kéier."
     }
   },
   "footer": {

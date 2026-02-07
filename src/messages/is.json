@@ -142,9 +142,9 @@
       "close": "Loka",
       "required": "Nauðsynlegur reitur",
       "invalid_email": "Ógilt netfang",
-      "error_network_text": "Please check your internet connection and try again.",
-      "error_timeout_text": "The server is not responding. Please try again later.",
-      "error_rate_limit_text": "Too many requests. Please wait a moment and try again."
+      "error_network_text": "Vinsamlegast athugaðu nettenginguna þína og reyndu aftur.",
+      "error_timeout_text": "Þjónninn svarar ekki. Vinsamlegast reyndu aftur síðar.",
+      "error_rate_limit_text": "Of margar beiðnir. Vinsamlegast bíddu augnablik og reyndu aftur."
     }
   },
   "footer": {

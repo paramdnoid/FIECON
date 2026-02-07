@@ -86,6 +86,28 @@ export async function generateMetadata({
       siteName: "FIECON",
       locale: OG_LOCALE_MAP[locale] || "de_DE",
       type: "website",
+      images: [
+        {
+          url: "/og-image.png",
+          width: 1200,
+          height: 630,
+          alt: "FIECON — Internationale Beratung",
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: t("title"),
+      description: t("description"),
+      images: ["/og-image.png"],
+    },
+    icons: {
+      icon: [
+        { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+        { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      ],
+      shortcut: "/favicon.ico",
+      apple: "/apple-touch-icon.png",
     },
   };
 }
@@ -117,6 +139,7 @@ export default async function LocaleLayout({
             "@context": "https://schema.org",
             "@type": "Organization",
             name: COMPANY.fullName,
+            alternateName: COMPANY.name,
             url: `https://${COMPANY.website}`,
             email: CONTACT.email,
             telephone: CONTACT.phone,
@@ -126,6 +149,13 @@ export default async function LocaleLayout({
               postalCode: CONTACT.address.zip,
               addressLocality: CONTACT.address.city,
               addressCountry: CONTACT.address.country,
+            },
+            contactPoint: {
+              "@type": "ContactPoint",
+              telephone: CONTACT.phone,
+              email: CONTACT.email,
+              contactType: "customer service",
+              availableLanguage: ["de", "en", "sr"],
             },
           }),
         }}

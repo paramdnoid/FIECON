@@ -142,9 +142,9 @@
       "close": "დახურვა",
       "required": "სავალდებულო ველი",
       "invalid_email": "არასწორი ელ. ფოსტის მისამართი",
-      "error_network_text": "Please check your internet connection and try again.",
-      "error_timeout_text": "The server is not responding. Please try again later.",
-      "error_rate_limit_text": "Too many requests. Please wait a moment and try again."
+      "error_network_text": "გთხოვთ, შეამოწმოთ ინტერნეტ კავშირი და სცადოთ ხელახლა.",
+      "error_timeout_text": "სერვერი არ პასუხობს. გთხოვთ, სცადოთ მოგვიანებით.",
+      "error_rate_limit_text": "ძალიან ბევრი მოთხოვნა. გთხოვთ, დაელოდოთ ცოტა ხანს და სცადოთ ხელახლა."
     }
   },
   "footer": {

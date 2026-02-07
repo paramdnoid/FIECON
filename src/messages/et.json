@@ -142,9 +142,9 @@
       "close": "Sulge",
       "required": "Kohustuslik väli",
       "invalid_email": "Vigane e-posti aadress",
-      "error_network_text": "Please check your internet connection and try again.",
-      "error_timeout_text": "The server is not responding. Please try again later.",
-      "error_rate_limit_text": "Too many requests. Please wait a moment and try again."
+      "error_network_text": "Palun kontrollige oma internetiühendust ja proovige uuesti.",
+      "error_timeout_text": "Server ei vasta. Palun proovige hiljem uuesti.",
+      "error_rate_limit_text": "Liiga palju päringuid. Palun oodake hetk ja proovige uuesti."
     }
   },
   "footer": {

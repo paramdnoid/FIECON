@@ -68,6 +68,7 @@ describe("POST /api/contact", () => {
     process.env.SMTP_PORT = "587";
     process.env.SMTP_USER = "user@test.com";
     process.env.SMTP_PASS = "password123";
+    process.env.CONTACT_TO = "test@example.com";
   });
 
   it("returns 415 for missing Content-Type header", async () => {

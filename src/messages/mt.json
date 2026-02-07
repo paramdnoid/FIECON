@@ -142,9 +142,9 @@
       "close": "Agħlaq",
       "required": "Qasam obbligatorju",
       "invalid_email": "Indirizz tal-email invalidu",
-      "error_network_text": "Please check your internet connection and try again.",
-      "error_timeout_text": "The server is not responding. Please try again later.",
-      "error_rate_limit_text": "Too many requests. Please wait a moment and try again."
+      "error_network_text": "Jekk jogħġbok iċċekkja l-konnessjoni tal-internet tiegħek u erġa' pprova.",
+      "error_timeout_text": "Is-server mhux jirrispondi. Jekk jogħġbok erġa' pprova aktar tard.",
+      "error_rate_limit_text": "Wisq talbiet. Jekk jogħġbok stenna mument u erġa' pprova."
     }
   },
   "footer": {

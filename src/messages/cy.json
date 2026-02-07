@@ -142,9 +142,9 @@
       "close": "Cau",
       "required": "Maes gofynnol",
       "invalid_email": "Cyfeiriad e-bost annilys",
-      "error_network_text": "Please check your internet connection and try again.",
-      "error_timeout_text": "The server is not responding. Please try again later.",
-      "error_rate_limit_text": "Too many requests. Please wait a moment and try again."
+      "error_network_text": "Gwiriwch eich cysylltiad rhyngrwyd a rhowch gynnig arni eto.",
+      "error_timeout_text": "Nid yw'r gweinydd yn ymateb. Rhowch gynnig arni eto'n hwyrach.",
+      "error_rate_limit_text": "Gormod o geisiadau. Arhoswch funud a rhowch gynnig arni eto."
     }
   },
   "footer": {

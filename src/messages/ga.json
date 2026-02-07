@@ -142,9 +142,9 @@
       "close": "Dún",
       "required": "Réimse riachtanach",
       "invalid_email": "Seoladh ríomhphoist neamhbhailí",
-      "error_network_text": "Please check your internet connection and try again.",
-      "error_timeout_text": "The server is not responding. Please try again later.",
-      "error_rate_limit_text": "Too many requests. Please wait a moment and try again."
+      "error_network_text": "Seiceáil do nasc idirlín agus bain triail eile as.",
+      "error_timeout_text": "Níl an freastalaí ag freagairt. Bain triail eile as níos déanaí.",
+      "error_rate_limit_text": "An iomarca iarratas. Fan nóiméad agus bain triail eile as."
     }
   },
   "footer": {

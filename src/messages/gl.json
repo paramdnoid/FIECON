@@ -142,9 +142,9 @@
       "close": "Pechar",
       "required": "Campo obrigatorio",
       "invalid_email": "Enderezo de correo electrónico non válido",
-      "error_network_text": "Please check your internet connection and try again.",
-      "error_timeout_text": "The server is not responding. Please try again later.",
-      "error_rate_limit_text": "Too many requests. Please wait a moment and try again."
+      "error_network_text": "Por favor, comprobe a súa conexión a internet e tente de novo.",
+      "error_timeout_text": "O servidor non responde. Por favor, tente de novo máis tarde.",
+      "error_rate_limit_text": "Demasiadas solicitudes. Por favor, agarde un momento e tente de novo."
     }
   },
   "footer": {

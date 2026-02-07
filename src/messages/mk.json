@@ -142,9 +142,9 @@
       "close": "Затвори",
       "required": "Задолжително поле",
       "invalid_email": "Невалидна е-поштенска адреса",
-      "error_network_text": "Please check your internet connection and try again.",
-      "error_timeout_text": "The server is not responding. Please try again later.",
-      "error_rate_limit_text": "Too many requests. Please wait a moment and try again."
+      "error_network_text": "Проверете ја вашата интернет конекција и обидете се повторно.",
+      "error_timeout_text": "Серверот не одговара. Обидете се повторно подоцна.",
+      "error_rate_limit_text": "Премногу барања. Почекајте момент и обидете се повторно."
     }
   },
   "footer": {

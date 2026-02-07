@@ -142,9 +142,9 @@
       "close": "Mbyll",
       "required": "Fushë e detyrueshme",
       "invalid_email": "Adresë emaili e pavlefshme",
-      "error_network_text": "Please check your internet connection and try again.",
-      "error_timeout_text": "The server is not responding. Please try again later.",
-      "error_rate_limit_text": "Too many requests. Please wait a moment and try again."
+      "error_network_text": "Ju lutemi kontrolloni lidhjen tuaj me internetin dhe provoni përsëri.",
+      "error_timeout_text": "Serveri nuk përgjigjet. Ju lutemi provoni përsëri më vonë.",
+      "error_rate_limit_text": "Shumë kërkesa. Ju lutemi prisni një moment dhe provoni përsëri."
     }
   },
   "footer": {

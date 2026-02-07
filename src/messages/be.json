@@ -142,9 +142,9 @@
       "close": "Зачыніць",
       "required": "Абавязковае поле",
       "invalid_email": "Няправільны адрас электроннай пошты",
-      "error_network_text": "Please check your internet connection and try again.",
-      "error_timeout_text": "The server is not responding. Please try again later.",
-      "error_rate_limit_text": "Too many requests. Please wait a moment and try again."
+      "error_network_text": "Калі ласка, праверце падключэнне да інтэрнэту і паспрабуйце зноў.",
+      "error_timeout_text": "Сервер не адказвае. Калі ласка, паспрабуйце пазней.",
+      "error_rate_limit_text": "Занадта шмат запытаў. Калі ласка, пачакайце хвіліну і паспрабуйце зноў."
     }
   },
   "footer": {

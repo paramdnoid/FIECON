@@ -142,9 +142,9 @@
       "close": "Itxi",
       "required": "Derrigorrezko eremua",
       "invalid_email": "Posta elektroniko helbide baliogabea",
-      "error_network_text": "Please check your internet connection and try again.",
-      "error_timeout_text": "The server is not responding. Please try again later.",
-      "error_rate_limit_text": "Too many requests. Please wait a moment and try again."
+      "error_network_text": "Mesedez, egiaztatu zure internet konexioa eta saiatu berriro.",
+      "error_timeout_text": "Zerbitzaria ez du erantzuten. Mesedez, saiatu berriro geroago.",
+      "error_rate_limit_text": "Eskaera gehiegi. Mesedez, itxaron une bat eta saiatu berriro."
     }
   },
   "footer": {

@@ -142,9 +142,9 @@
       "close": "Zapri",
       "required": "Obvezno polje",
       "invalid_email": "Neveljaven e-poštni naslov",
-      "error_network_text": "Please check your internet connection and try again.",
-      "error_timeout_text": "The server is not responding. Please try again later.",
-      "error_rate_limit_text": "Too many requests. Please wait a moment and try again."
+      "error_network_text": "Preverite svojo internetno povezavo in poskusite znova.",
+      "error_timeout_text": "Strežnik se ne odziva. Poskusite znova pozneje.",
+      "error_rate_limit_text": "Preveč zahtevkov. Počakajte trenutek in poskusite znova."
     }
   },
   "footer": {

@@ -51,7 +51,8 @@ export function LanguageSwitcher() {
 
   const switchLocale = useCallback(
     (code: string) => {
-      globalThis.document.cookie = `NEXT_LOCALE=${code};path=/;max-age=31536000;SameSite=Lax`;
+      const secure = globalThis.location?.protocol === "https:" ? ";Secure" : "";
+      globalThis.document.cookie = `NEXT_LOCALE=${code};path=/;max-age=31536000;SameSite=Lax${secure}`;
       setOpen(false);
       router.push(`/${code}`);
     },
