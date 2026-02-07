@@ -1,5 +1,5 @@
-import { describe, it, expect } from "vitest";
-import { cn, sanitizeHeaderValue } from "@/lib/utils";
+import { describe, it, expect, vi, beforeEach } from "vitest";
+import { cn, sanitizeHeaderValue, scrollToSection } from "@/lib/utils";
 
 describe("cn", () => {
   it("joins class names with space", () => {
@@ -52,5 +52,101 @@ describe("sanitizeHeaderValue", () => {
 
   it("handles empty string", () => {
     expect(sanitizeHeaderValue("")).toBe("");
+  });
+});
+
+describe("scrollToSection", () => {
+  beforeEach(() => {
+    document.body.innerHTML = "";
+    vi.restoreAllMocks();
+  });
+
+  it("scrolls to element with default header offset", () => {
+    const section = document.createElement("div");
+    section.id = "about";
+    document.body.appendChild(section);
+
+    vi.spyOn(section, "getBoundingClientRect").mockReturnValue({
+      top: 500,
+      bottom: 600,
+      left: 0,
+      right: 0,
+      width: 0,
+      height: 100,
+      x: 0,
+      y: 500,
+      toJSON: () => {},
+    });
+
+    const scrollSpy = vi.spyOn(window, "scrollTo").mockImplementation(() => {});
+
+    scrollToSection("about");
+
+    expect(scrollSpy).toHaveBeenCalledWith({
+      top: 500 + window.scrollY - 96,
+      behavior: "smooth",
+    });
+  });
+
+  it("uses special offset for services section", () => {
+    const section = document.createElement("div");
+    section.id = "services";
+    document.body.appendChild(section);
+
+    vi.spyOn(section, "getBoundingClientRect").mockReturnValue({
+      top: 800,
+      bottom: 1200,
+      left: 0,
+      right: 0,
+      width: 0,
+      height: 400,
+      x: 0,
+      y: 800,
+      toJSON: () => {},
+    });
+
+    const scrollSpy = vi.spyOn(window, "scrollTo").mockImplementation(() => {});
+
+    scrollToSection("services");
+
+    expect(scrollSpy).toHaveBeenCalledWith({
+      top: 800 + window.scrollY - 20,
+      behavior: "smooth",
+    });
+  });
+
+  it("does nothing when element is not found", () => {
+    const scrollSpy = vi.spyOn(window, "scrollTo").mockImplementation(() => {});
+
+    scrollToSection("nonexistent");
+
+    expect(scrollSpy).not.toHaveBeenCalled();
+  });
+
+  it("respects custom scroll behavior", () => {
+    const section = document.createElement("div");
+    section.id = "contact";
+    document.body.appendChild(section);
+
+    vi.spyOn(section, "getBoundingClientRect").mockReturnValue({
+      top: 300,
+      bottom: 500,
+      left: 0,
+      right: 0,
+      width: 0,
+      height: 200,
+      x: 0,
+      y: 300,
+      toJSON: () => {},
+    });
+
+    const scrollSpy = vi.spyOn(window, "scrollTo").mockImplementation(() => {});
+
+    scrollToSection("contact", "instant");
+
+    expect(scrollSpy).toHaveBeenCalledWith({
+      top: 300 + window.scrollY - 96,
+      behavior: "instant",
+    });
   });
 });
