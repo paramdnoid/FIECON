@@ -53,3 +53,82 @@ describe("i18n translation completeness", () => {
     });
   }
 });
+
+// ---------------------------------------------------------------------------
+// Helper: collect all leaf [keyPath, value] pairs
+// ---------------------------------------------------------------------------
+function getLeafValues(
+  obj: Record<string, unknown>,
+  prefix = "",
+): [string, string][] {
+  const pairs: [string, string][] = [];
+  for (const [key, value] of Object.entries(obj)) {
+    const path = prefix ? `${prefix}.${key}` : key;
+    if (typeof value === "object" && value !== null && !Array.isArray(value)) {
+      pairs.push(
+        ...getLeafValues(value as Record<string, unknown>, path),
+      );
+    } else if (typeof value === "string") {
+      pairs.push([path, value]);
+    }
+  }
+  return pairs;
+}
+
+function extractPlaceholders(value: string): string[] {
+  return [...value.matchAll(/\{(\w+)\}/g)].map((m) => m[1]).sort();
+}
+
+const referenceMessages = loadMessages(referenceLocale);
+const referenceLeaves = getLeafValues(referenceMessages);
+
+describe("i18n translation quality", () => {
+  for (const locale of locales) {
+    it(`${locale}.json should have no empty string values`, () => {
+      const leaves = getLeafValues(loadMessages(locale));
+      const emptyKeys = leaves
+        .filter(([, value]) => value === "")
+        .map(([key]) => key);
+
+      expect(emptyKeys, `Empty values in ${locale}`).toEqual([]);
+    });
+  }
+
+  for (const locale of locales) {
+    if (locale === referenceLocale) continue;
+
+    it(`${locale}.json should have matching placeholders for all keys`, () => {
+      const localeMessages = loadMessages(locale);
+      const localeLeaves = getLeafValues(localeMessages);
+      const localeMap = new Map(localeLeaves);
+      const mismatches: string[] = [];
+
+      for (const [key, refValue] of referenceLeaves) {
+        const localeValue = localeMap.get(key);
+        if (localeValue === undefined) continue; // missing key caught by other test
+
+        const refPlaceholders = extractPlaceholders(refValue);
+        const localePlaceholders = extractPlaceholders(localeValue);
+
+        if (JSON.stringify(refPlaceholders) !== JSON.stringify(localePlaceholders)) {
+          mismatches.push(
+            `${key}: expected {${refPlaceholders.join(", ")}} but got {${localePlaceholders.join(", ")}}`,
+          );
+        }
+      }
+
+      expect(mismatches, `Placeholder mismatches in ${locale}`).toEqual([]);
+    });
+  }
+
+  for (const locale of locales) {
+    it(`${locale}.json should have no leading/trailing whitespace in values`, () => {
+      const leaves = getLeafValues(loadMessages(locale));
+      const badKeys = leaves
+        .filter(([, value]) => value !== value.trim())
+        .map(([key]) => key);
+
+      expect(badKeys, `Untrimmed values in ${locale}`).toEqual([]);
+    });
+  }
+});
