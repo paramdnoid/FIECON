@@ -1,25 +1,217 @@
 {
-  "language": { "title": "Dewiswch iaith", "close": "Cau" },
+  "language": {
+    "title": "Dewiswch iaith",
+    "close": "Cau"
+  },
   "metadata": {
     "title": "FIECON — Ymgynghoriaeth Ryngwladol mewn Cyfraith Corfforaethol a Sefydlu Cwmniau",
     "description": "FIECON Germany Co. KG — Ymgynghoriaeth ryngwladol mewn cyfraith gorfforaethol, sefydlu cwmniau, gweinyddiaeth ariannol a chyllid adeiladu. Swyddfeydd yn Hamburg, Belgrade a Texas."
   },
-  "nav": { "home": "Mynd i'r hafan", "menu": "Agor dewislen", "about": "Amdanom ni", "services": "Gwasanaethau", "approach": "Dull gweithredu", "offices": "Swyddfeydd", "contact": "Cysylltu", "navigation": "Llywio", "close_menu": "Cau dewislen" },
-  "hero": { "tagline": "Fiegler Consulting", "headline": "Eich Busnes. Wedi'i Gynghori'n Rhyngwladol.", "subtitle": "Cyfraith gorfforaethol a sefydlu cwmniau rhyngwladol — arweiniad personol yn Hamburg, Belgrade a Texas.", "cta_primary": "Ein Gwasanaethau", "cta_secondary": "Cysylltwch a Ni" },
-  "about": { "badge": "Amdanom ni", "headline": "Gweledigaeth a Diwydrwydd", "text_1": "Mae FIECON yn sefyll dros ymgynghoriaeth ryngwladol gydag ymrwymiad personol. Mae ein harbenigedd craidd mewn cyfraith gorfforaethol a sefydlu cwmniau rhyngwladol — meysydd lle mae profiad, manwl gywirdeb a dealltwriaeth ddiwylliannol yn gwneud yr holl wahaniaeth.", "text_2": "O Hamburg, Belgrade a Texas, rydym yn arwain busnesau ar draws ffiniau. Rydym hefyd yn cynghori ar weinyddiaeth ariannol, cyllid adeiladu a chyllid adeiladu iotiau — bob amser gyda'r uchelgais o gynrychioli eich buddiannau fel pe baent yn eiddo i ni.", "quote": "Rydym yn cynghori fel pe bai'n gwmni ein hunain.", "stat_1_label": "Lleoliadau ledled y byd", "stat_2_label": "Meysydd ymarfer", "stat_3_label": "Gwledydd", "quote_attribution": "Peter Fiegler, Sylfaenydd" },
-  "services": {
-    "badge": "Gwasanaethau", "headline": "Ein Harbenigedd", "subtitle": "Pedwar maes cymhwysedd — un ymrwymiad: sicrhau bod eich mentrau rhyngwladol yn llwyddo.",
-    "consulting": { "title": "Cyfraith Gorfforaethol a Sefydlu Cwmniau", "description": "Ein prif faes ymarfer: rydym yn cynghori ar sefydlu, strwythuro a llywodraethu cwmniau ar draws awdurdodaethau rhyngwladol. O'r cysyniad cychwynnol i'r gweithrediad cyfreithiol cadarn, rydym wrth eich ochr.", "items": { "0": "Cyfraith Gorfforaethol", "1": "Sefydlu Cwmniau Rhyngwladol" } },
-    "finance": { "title": "Gweinyddiaeth Ariannol", "description": "Mae eglurder yn meithrin ymddiriedaeth: rydym yn gofalu am eich gweinyddiaeth ariannol gorfforaethol ac yn creu'r strwythurau tryloyw sy'n galluogi twf cynaliadwy.", "items": { "0": "Cyfrifeg ac adrodd", "1": "Cynllunio ariannol strategol" } },
-    "construction": { "title": "Cyllid Adeiladu", "description": "Mae prosiectau adeiladu yn gofyn am ddibynadwyedd ariannol. Rydym yn strwythuro ac yn goruchwylio cyllid eich mentrau adeiladu — o'r cyfrifiad cychwynnol i'r cwblhad.", "items": { "0": "Cyllid prosiectau", "1": "Diogelwch buddsoddi" } },
-    "yacht": { "title": "Cyllid Adeiladu Iotiau", "description": "Mae segment arbennig yn haeddu gofal arbennig. Rydym yn cynghori ar gyllido prosiectau adeiladu iotiau — yn ddoeth, yn bersonol a chyda dealltwriaeth wirioneddol o safonau'r diwydiant.", "items": { "0": "Cyllid iotiau", "1": "Ymgynghoriaeth bersonol" } }
+  "nav": {
+    "home": "Mynd i'r hafan",
+    "menu": "Agor dewislen",
+    "about": "Amdanom ni",
+    "services": "Gwasanaethau",
+    "approach": "Dull gweithredu",
+    "offices": "Swyddfeydd",
+    "contact": "Cysylltu",
+    "navigation": "Llywio",
+    "close_menu": "Cau dewislen"
   },
-  "approach": { "badge": "Ein dull gweithredu", "headline": "Beth sy'n ein gwahaniaethu", "values": { "expertise": { "title": "Arbenigedd rhyngwladol", "description": "Dealltwriaeth ddofn o systemau cyfreithiol, diwylliannau busnes a naws rheoliadol ar draws Ewrop, yr Unol Daleithiau a De-ddwyrain Ewrop." }, "personal": { "title": "Agosatrwydd personol", "description": "Gyda ni, nid ydych byth yn ddim ond rhif ffeil. Rydym yn cymryd yr amser i ddeall eich nodau a datblygu strategaethau sy'n gweddu'n wirioneddol i'ch sefyllfa." }, "trust": { "title": "Partneriaeth ar delerau cyfartal", "description": "Rydym yn meddwl yn hirdymor. Nid gwerthoedd yn unig yw tryloywder, gonestrwydd a chanlyniadau mesuradwy i ni — maent yn ymrwymiadau." } } },
-  "offices": { "badge": "Swyddfeydd", "headline": "Yn Agos at Eich Marchnadoedd", "subtitle": "Tri lleoliad, un addewid — ymgynghoriaeth bersonol gyda chyrhaeddiad rhyngwladol.", "hamburg": { "city": "Hamburg", "country": "Yr Almaen", "label": "Pencadlys" }, "belgrade": { "city": "Belgrade", "country": "Serbia", "label": "De-ddwyrain Ewrop" }, "texas": { "city": "Texas", "country": "UDA", "label": "Gogledd America" } },
-  "contact": { "badge": "Cysylltu", "headline": "Gadewch i ni siarad", "subtitle": "Boed yn gwestiwn cyntaf neu'n brosiect penodol — rydym yn rhoi amser i chi.", "phone": "Ffon", "mobile": "Symudol", "email": "E-bost", "address": "Cyfeiriad", "cta": "Anfon e-bost", "dialog": { "title": "Anfon neges", "panel_subtitle": "Edrychwn ymlaen at eich ymholiad a byddwn yn ymateb yn brydlon.", "name": "Enw", "name_placeholder": "Eich enw llawn", "email": "Cyfeiriad e-bost", "email_placeholder": "eich@ebost.com", "subject": "Pwnc", "subject_placeholder": "Am beth mae hyn?", "message": "Neges", "message_placeholder": "Eich neges atom ni...", "submit": "Anfon neges", "sending": "Yn anfon...", "success_title": "Neges wedi'i hanfon", "success_text": "Diolch! Byddwn yn cysylltu a chi'n fuan.", "error_title": "Gwall", "error_text": "Ni ellid anfon y neges. Rhowch gynnig arni eto, os gwelwch yn dda.", "retry": "Rhoi cynnig arni eto", "close": "Cau", "required": "Maes gofynnol", "invalid_email": "Cyfeiriad e-bost annilys" } },
-  "footer": { "description": "FIECON Germany Co. KG — Ymgynghoriaeth ryngwladol mewn cyfraith gorfforaethol, sefydlu cwmniau a mwy. Personol. Manwl. Partneriaethol.", "services_title": "Gwasanaethau", "offices_title": "Swyddfeydd", "legal_title": "Cyfreithiol", "impressum": "Hysbysiad cyfreithiol", "datenschutz": "Polisi preifatrwydd", "copyright": "© {year} FIECON Germany Co. KG. Cedwir pob hawl." },
-  "error": { "title": "Digwyddodd gwall", "description": "Rhowch gynnig arni eto, os gwelwch yn dda, neu dychwelwch i'r hafan.", "retry": "Rhoi cynnig arni eto" },
-  "notFound": { "title": "Tudalen Heb ei Chanfod", "description": "Nid yw'r dudalen y gofynnwyd amdani yn bodoli neu mae wedi'i symud.", "back": "Yn ol i'r hafan" },
-  "impressum": { "title": "Hysbysiad Cyfreithiol", "info_title": "Gwybodaeth yn ol § 5 TMG", "contact_title": "Cysylltu", "phone_label": "Ffon", "mobile_label": "Symudol", "email_label": "E-bost", "homepage_label": "Gwefan", "responsible_title": "Yn gyfrifol am y cynnwys yn ol § 55 par. 2 RStV", "responsible_name": "Peter Fiegler", "disclaimer_title": "Ymwadiad", "disclaimer_content_title": "Atebolrwydd am gynnwys", "disclaimer_content_text": "Crewyd cynnwys ein tudalennau gyda'r gofal mwyaf. Fodd bynnag, ni allwn warantu cywirdeb, cyflawnrwydd nac amseroldeb y cynnwys. Fel darparwr gwasanaeth, rydym yn gyfrifol am ein cynnwys ein hunain ar y tudalennau hyn yn unol a § 7 par. 1 TMG o dan y gyfraith gyffredinol. Yn ol §§ 8 i 10 TMG, fodd bynnag, nid ydym fel darparwr gwasanaeth yn rhwymedig i fonitro gwybodaeth trydydd parti a drosglwyddwyd neu a storiwyd nac i ymchwilio i amgylchiadau sy'n awgrymu gweithgaredd anghyfreithlon.", "disclaimer_links_title": "Atebolrwydd am ddolenni", "disclaimer_links_text": "Mae ein gwefan yn cynnwys dolenni i wefannau allanol trydydd parti nad oes gennym unrhyw ddylanwad dros eu cynnwys. Felly, ni allwn dderbyn unrhyw atebolrwydd am y cynnwys trydydd parti hwn. Darparwr neu weithredwr priodol y tudalennau sy'n gyfrifol bob amser am gynnwys y tudalennau cysylltiedig. Gwiriwyd y tudalennau cysylltiedig am doriadau cyfreithiol posibl ar adeg y cysylltu. Nid oedd cynnwys anghyfreithlon yn adnabyddadwy ar adeg y cysylltu.", "copyright_title": "Hawlfraint", "copyright_text": "Mae'r cynnwys a'r gwaith a grewyd gan weithredwyr y safle ar y tudalennau hyn yn ddarostyngedig i gyfraith hawlfraint yr Almaen. Mae atgynhyrchu, golygu, dosbarthu a phob math o ecsbloetio y tu hwnt i derfynau cyfraith hawlfraint yn gofyn am ganiatad ysgrifenedig yr awdur neu'r crewdwr priodol." },
-  "datenschutz": { "title": "Polisi Preifatrwydd", "intro": "Rydym yn cymryd diogelu eich data personol o ddifrif. Rydym yn trin eich data personol yn gyfrinachol ac yn unol a'r rheoliadau diogelu data statudol a'r polisi preifatrwydd hwn.", "section_1_title": "1. Endid cyfrifol", "section_1_text": "Yr endid cyfrifol am brosesu data ar y wefan hon yw:", "section_2_title": "2. Casglu a phrosesu data personol", "section_2_text": "Wrth ymweld a'n gwefan, cesglir gwybodaeth o natur gyffredinol yn awtomatig. Mae'r wybodaeth hon (ffeiliau log y gweinydd) yn cynnwys y math o borwr gwe, y system weithredu a ddefnyddir, enw parth eich darparwr gwasanaeth rhyngrwyd, eich cyfeiriad IP a manylion tebyg. Mae hwn yn wybodaeth yn unig nad yw'n caniatau unrhyw gasgliadau am eich person.", "section_2_legal_basis": "Y sail gyfreithiol ar gyfer prosesu data yw Ert. 6 par. 1 llyth. f DSGVO. Mae ein diddordeb dilys yn gorwedd wrth sicrhau gweithrediad di-drafferth ein gwefan.", "section_2_retention": "Mae ffeiliau log y gweinydd yn cael eu dileu'n awtomatig ar ol 14 diwrnod.", "section_3_title": "3. Cysylltu", "section_3_text": "Os byddwch yn cysylltu a ni drwy e-bost neu drwy'r ffurflen gyswllt, bydd eich manylion gan gynnwys y data cyswllt a ddarparwyd gennych yn cael eu storio at bwrpas prosesu'r ymholiad ac rhag ofn y bydd cwestiynau dilynol. Ni fyddwn yn rhannu'r data hwn heb eich caniatad.", "section_3_legal_basis": "Y sail gyfreithiol ar gyfer prosesu'r data yw Ert. 6 par. 1 llyth. b DSGVO (mesurau cyn-gontractiol) neu Ert. 6 par. 1 llyth. f DSGVO (diddordeb dilys wrth brosesu eich ymholiad).", "section_3_retention": "Bydd data a drosglwyddwyd wrth gysylltu yn cael ei ddileu cyn gynted ag y bydd eich ymholiad wedi'i brosesu'n derfynol ac nad oes unrhyw rwymedigaethau cadw statudol yn berthnasol.", "section_4_title": "4. Danfon e-bost", "section_4_text": "Ar gyfer anfon e-byst drwy ein ffurflen gyswllt, rydym yn defnyddio gweinydd post SMTP. Mae'r data rydych yn ei nodi (enw, cyfeiriad e-bost, pwnc, neges) yn cael ei drosglwyddo i'n darparwr e-bost, sy'n danfon yr e-bost ar ein rhan.", "section_5_title": "5. Eich hawliau", "section_5_text_1": "Mae gennych yr hawliau canlynol o ran eich data personol:", "section_5_rights_0": "Hawl mynediad (Ert. 15 DSGVO)", "section_5_rights_1": "Hawl i gywiro (Ert. 16 DSGVO)", "section_5_rights_2": "Hawl i ddileu (Ert. 17 DSGVO)", "section_5_rights_3": "Hawl i gyfyngu ar brosesu (Ert. 18 DSGVO)", "section_5_rights_4": "Hawl i gludadwyedd data (Ert. 20 DSGVO)", "section_5_rights_5": "Hawl i wrthwynebu prosesu (Ert. 21 DSGVO)", "section_5_text_2": "Mae gennych hefyd yr hawl i gyflwyno cwyn i awdurdod goruchwylio diogelu data am brosesu eich data personol gennym.", "section_6_title": "6. Cwcis", "section_6_text": "Mae ein gwefan yn defnyddio cwci swyddogaethol (NEXT_LOCALE) i storio eich dewis iaith. Mae'r cwci hwn yn angenrheidiol yn dechnegol ac nid oes angen caniatad o dan § 25 par. 2 TDDDG. Ni ddefnyddir cwcis olrhain nac analytics.", "section_7_title": "7. Newidiadau i'r polisi preifatrwydd hwn", "section_7_text": "Mae'r polisi preifatrwydd hwn yn ddilys ar hyn o bryd. Oherwydd datblygiad pellach ein gwefan neu oherwydd gofynion cyfreithiol neu reoliadol newydd, gall fod yn angenrheidiol diwygio'r polisi preifatrwydd hwn.", "email_label": "E-bost", "contact_label": "Cysylltu" }
+  "hero": {
+    "tagline": "Fiegler Consulting",
+    "headline": "Eich Busnes. Wedi'i Gynghori'n Rhyngwladol.",
+    "subtitle": "Cyfraith gorfforaethol a sefydlu cwmniau rhyngwladol — arweiniad personol yn Hamburg, Belgrade a Texas.",
+    "cta_primary": "Ein Gwasanaethau",
+    "cta_secondary": "Cysylltwch a Ni"
+  },
+  "about": {
+    "badge": "Amdanom ni",
+    "headline": "Gweledigaeth a Diwydrwydd",
+    "text_1": "Mae FIECON yn sefyll dros ymgynghoriaeth ryngwladol gydag ymrwymiad personol. Mae ein harbenigedd craidd mewn cyfraith gorfforaethol a sefydlu cwmniau rhyngwladol — meysydd lle mae profiad, manwl gywirdeb a dealltwriaeth ddiwylliannol yn gwneud yr holl wahaniaeth.",
+    "text_2": "O Hamburg, Belgrade a Texas, rydym yn arwain busnesau ar draws ffiniau. Rydym hefyd yn cynghori ar weinyddiaeth ariannol, cyllid adeiladu a chyllid adeiladu iotiau — bob amser gyda'r uchelgais o gynrychioli eich buddiannau fel pe baent yn eiddo i ni.",
+    "quote": "Rydym yn cynghori fel pe bai'n gwmni ein hunain.",
+    "stat_1_label": "Lleoliadau ledled y byd",
+    "stat_2_label": "Meysydd ymarfer",
+    "stat_3_label": "Gwledydd",
+    "quote_attribution": "Peter Fiegler, Sylfaenydd"
+  },
+  "services": {
+    "badge": "Gwasanaethau",
+    "headline": "Ein Harbenigedd",
+    "subtitle": "Pedwar maes cymhwysedd — un ymrwymiad: sicrhau bod eich mentrau rhyngwladol yn llwyddo.",
+    "consulting": {
+      "title": "Cyfraith Gorfforaethol a Sefydlu Cwmniau",
+      "description": "Ein prif faes ymarfer: rydym yn cynghori ar sefydlu, strwythuro a llywodraethu cwmniau ar draws awdurdodaethau rhyngwladol. O'r cysyniad cychwynnol i'r gweithrediad cyfreithiol cadarn, rydym wrth eich ochr.",
+      "items": {
+        "0": "Cyfraith Gorfforaethol",
+        "1": "Sefydlu Cwmniau Rhyngwladol"
+      }
+    },
+    "finance": {
+      "title": "Gweinyddiaeth Ariannol",
+      "description": "Mae eglurder yn meithrin ymddiriedaeth: rydym yn gofalu am eich gweinyddiaeth ariannol gorfforaethol ac yn creu'r strwythurau tryloyw sy'n galluogi twf cynaliadwy.",
+      "items": {
+        "0": "Cyfrifeg ac adrodd",
+        "1": "Cynllunio ariannol strategol"
+      }
+    },
+    "construction": {
+      "title": "Cyllid Adeiladu",
+      "description": "Mae prosiectau adeiladu yn gofyn am ddibynadwyedd ariannol. Rydym yn strwythuro ac yn goruchwylio cyllid eich mentrau adeiladu — o'r cyfrifiad cychwynnol i'r cwblhad.",
+      "items": {
+        "0": "Cyllid prosiectau",
+        "1": "Diogelwch buddsoddi"
+      }
+    },
+    "yacht": {
+      "title": "Cyllid Adeiladu Iotiau",
+      "description": "Mae segment arbennig yn haeddu gofal arbennig. Rydym yn cynghori ar gyllido prosiectau adeiladu iotiau — yn ddoeth, yn bersonol a chyda dealltwriaeth wirioneddol o safonau'r diwydiant.",
+      "items": {
+        "0": "Cyllid iotiau",
+        "1": "Ymgynghoriaeth bersonol"
+      }
+    }
+  },
+  "approach": {
+    "badge": "Ein dull gweithredu",
+    "headline": "Beth sy'n ein gwahaniaethu",
+    "values": {
+      "expertise": {
+        "title": "Arbenigedd rhyngwladol",
+        "description": "Dealltwriaeth ddofn o systemau cyfreithiol, diwylliannau busnes a naws rheoliadol ar draws Ewrop, yr Unol Daleithiau a De-ddwyrain Ewrop."
+      },
+      "personal": {
+        "title": "Agosatrwydd personol",
+        "description": "Gyda ni, nid ydych byth yn ddim ond rhif ffeil. Rydym yn cymryd yr amser i ddeall eich nodau a datblygu strategaethau sy'n gweddu'n wirioneddol i'ch sefyllfa."
+      },
+      "trust": {
+        "title": "Partneriaeth ar delerau cyfartal",
+        "description": "Rydym yn meddwl yn hirdymor. Nid gwerthoedd yn unig yw tryloywder, gonestrwydd a chanlyniadau mesuradwy i ni — maent yn ymrwymiadau."
+      }
+    }
+  },
+  "offices": {
+    "badge": "Swyddfeydd",
+    "headline": "Yn Agos at Eich Marchnadoedd",
+    "subtitle": "Tri lleoliad, un addewid — ymgynghoriaeth bersonol gyda chyrhaeddiad rhyngwladol.",
+    "hamburg": {
+      "city": "Hamburg",
+      "country": "Yr Almaen",
+      "label": "Pencadlys"
+    },
+    "belgrade": {
+      "city": "Belgrade",
+      "country": "Serbia",
+      "label": "De-ddwyrain Ewrop"
+    },
+    "texas": {
+      "city": "Texas",
+      "country": "UDA",
+      "label": "Gogledd America"
+    }
+  },
+  "contact": {
+    "badge": "Cysylltu",
+    "headline": "Gadewch i ni siarad",
+    "subtitle": "Boed yn gwestiwn cyntaf neu'n brosiect penodol — rydym yn rhoi amser i chi.",
+    "phone": "Ffon",
+    "mobile": "Symudol",
+    "email": "E-bost",
+    "address": "Cyfeiriad",
+    "cta": "Anfon e-bost",
+    "dialog": {
+      "title": "Anfon neges",
+      "panel_subtitle": "Edrychwn ymlaen at eich ymholiad a byddwn yn ymateb yn brydlon.",
+      "name": "Enw",
+      "name_placeholder": "Eich enw llawn",
+      "email": "Cyfeiriad e-bost",
+      "email_placeholder": "eich@ebost.com",
+      "subject": "Pwnc",
+      "subject_placeholder": "Am beth mae hyn?",
+      "message": "Neges",
+      "message_placeholder": "Eich neges atom ni...",
+      "submit": "Anfon neges",
+      "sending": "Yn anfon...",
+      "success_title": "Neges wedi'i hanfon",
+      "success_text": "Diolch! Byddwn yn cysylltu a chi'n fuan.",
+      "error_title": "Gwall",
+      "error_text": "Ni ellid anfon y neges. Rhowch gynnig arni eto, os gwelwch yn dda.",
+      "retry": "Rhoi cynnig arni eto",
+      "close": "Cau",
+      "required": "Maes gofynnol",
+      "invalid_email": "Cyfeiriad e-bost annilys",
+      "error_network_text": "Please check your internet connection and try again.",
+      "error_timeout_text": "The server is not responding. Please try again later.",
+      "error_rate_limit_text": "Too many requests. Please wait a moment and try again."
+    }
+  },
+  "footer": {
+    "description": "FIECON Germany Co. KG — Ymgynghoriaeth ryngwladol mewn cyfraith gorfforaethol, sefydlu cwmniau a mwy. Personol. Manwl. Partneriaethol.",
+    "services_title": "Gwasanaethau",
+    "offices_title": "Swyddfeydd",
+    "legal_title": "Cyfreithiol",
+    "impressum": "Hysbysiad cyfreithiol",
+    "datenschutz": "Polisi preifatrwydd",
+    "copyright": "© {year} FIECON Germany Co. KG. Cedwir pob hawl."
+  },
+  "error": {
+    "title": "Digwyddodd gwall",
+    "description": "Rhowch gynnig arni eto, os gwelwch yn dda, neu dychwelwch i'r hafan.",
+    "retry": "Rhoi cynnig arni eto"
+  },
+  "notFound": {
+    "title": "Tudalen Heb ei Chanfod",
+    "description": "Nid yw'r dudalen y gofynnwyd amdani yn bodoli neu mae wedi'i symud.",
+    "back": "Yn ol i'r hafan"
+  },
+  "impressum": {
+    "title": "Hysbysiad Cyfreithiol",
+    "info_title": "Gwybodaeth yn ol § 5 TMG",
+    "contact_title": "Cysylltu",
+    "phone_label": "Ffon",
+    "mobile_label": "Symudol",
+    "email_label": "E-bost",
+    "homepage_label": "Gwefan",
+    "responsible_title": "Yn gyfrifol am y cynnwys yn ol § 55 par. 2 RStV",
+    "responsible_name": "Peter Fiegler",
+    "disclaimer_title": "Ymwadiad",
+    "disclaimer_content_title": "Atebolrwydd am gynnwys",
+    "disclaimer_content_text": "Crewyd cynnwys ein tudalennau gyda'r gofal mwyaf. Fodd bynnag, ni allwn warantu cywirdeb, cyflawnrwydd nac amseroldeb y cynnwys. Fel darparwr gwasanaeth, rydym yn gyfrifol am ein cynnwys ein hunain ar y tudalennau hyn yn unol a § 7 par. 1 TMG o dan y gyfraith gyffredinol. Yn ol §§ 8 i 10 TMG, fodd bynnag, nid ydym fel darparwr gwasanaeth yn rhwymedig i fonitro gwybodaeth trydydd parti a drosglwyddwyd neu a storiwyd nac i ymchwilio i amgylchiadau sy'n awgrymu gweithgaredd anghyfreithlon.",
+    "disclaimer_links_title": "Atebolrwydd am ddolenni",
+    "disclaimer_links_text": "Mae ein gwefan yn cynnwys dolenni i wefannau allanol trydydd parti nad oes gennym unrhyw ddylanwad dros eu cynnwys. Felly, ni allwn dderbyn unrhyw atebolrwydd am y cynnwys trydydd parti hwn. Darparwr neu weithredwr priodol y tudalennau sy'n gyfrifol bob amser am gynnwys y tudalennau cysylltiedig. Gwiriwyd y tudalennau cysylltiedig am doriadau cyfreithiol posibl ar adeg y cysylltu. Nid oedd cynnwys anghyfreithlon yn adnabyddadwy ar adeg y cysylltu.",
+    "copyright_title": "Hawlfraint",
+    "copyright_text": "Mae'r cynnwys a'r gwaith a grewyd gan weithredwyr y safle ar y tudalennau hyn yn ddarostyngedig i gyfraith hawlfraint yr Almaen. Mae atgynhyrchu, golygu, dosbarthu a phob math o ecsbloetio y tu hwnt i derfynau cyfraith hawlfraint yn gofyn am ganiatad ysgrifenedig yr awdur neu'r crewdwr priodol."
+  },
+  "datenschutz": {
+    "title": "Polisi Preifatrwydd",
+    "intro": "Rydym yn cymryd diogelu eich data personol o ddifrif. Rydym yn trin eich data personol yn gyfrinachol ac yn unol a'r rheoliadau diogelu data statudol a'r polisi preifatrwydd hwn.",
+    "section_1_title": "1. Endid cyfrifol",
+    "section_1_text": "Yr endid cyfrifol am brosesu data ar y wefan hon yw:",
+    "section_2_title": "2. Casglu a phrosesu data personol",
+    "section_2_text": "Wrth ymweld a'n gwefan, cesglir gwybodaeth o natur gyffredinol yn awtomatig. Mae'r wybodaeth hon (ffeiliau log y gweinydd) yn cynnwys y math o borwr gwe, y system weithredu a ddefnyddir, enw parth eich darparwr gwasanaeth rhyngrwyd, eich cyfeiriad IP a manylion tebyg. Mae hwn yn wybodaeth yn unig nad yw'n caniatau unrhyw gasgliadau am eich person.",
+    "section_2_legal_basis": "Y sail gyfreithiol ar gyfer prosesu data yw Ert. 6 par. 1 llyth. f DSGVO. Mae ein diddordeb dilys yn gorwedd wrth sicrhau gweithrediad di-drafferth ein gwefan.",
+    "section_2_retention": "Mae ffeiliau log y gweinydd yn cael eu dileu'n awtomatig ar ol 14 diwrnod.",
+    "section_3_title": "3. Cysylltu",
+    "section_3_text": "Os byddwch yn cysylltu a ni drwy e-bost neu drwy'r ffurflen gyswllt, bydd eich manylion gan gynnwys y data cyswllt a ddarparwyd gennych yn cael eu storio at bwrpas prosesu'r ymholiad ac rhag ofn y bydd cwestiynau dilynol. Ni fyddwn yn rhannu'r data hwn heb eich caniatad.",
+    "section_3_legal_basis": "Y sail gyfreithiol ar gyfer prosesu'r data yw Ert. 6 par. 1 llyth. b DSGVO (mesurau cyn-gontractiol) neu Ert. 6 par. 1 llyth. f DSGVO (diddordeb dilys wrth brosesu eich ymholiad).",
+    "section_3_retention": "Bydd data a drosglwyddwyd wrth gysylltu yn cael ei ddileu cyn gynted ag y bydd eich ymholiad wedi'i brosesu'n derfynol ac nad oes unrhyw rwymedigaethau cadw statudol yn berthnasol.",
+    "section_4_title": "4. Danfon e-bost",
+    "section_4_text": "Ar gyfer anfon e-byst drwy ein ffurflen gyswllt, rydym yn defnyddio gweinydd post SMTP. Mae'r data rydych yn ei nodi (enw, cyfeiriad e-bost, pwnc, neges) yn cael ei drosglwyddo i'n darparwr e-bost, sy'n danfon yr e-bost ar ein rhan.",
+    "section_5_title": "5. Eich hawliau",
+    "section_5_text_1": "Mae gennych yr hawliau canlynol o ran eich data personol:",
+    "section_5_rights_0": "Hawl mynediad (Ert. 15 DSGVO)",
+    "section_5_rights_1": "Hawl i gywiro (Ert. 16 DSGVO)",
+    "section_5_rights_2": "Hawl i ddileu (Ert. 17 DSGVO)",
+    "section_5_rights_3": "Hawl i gyfyngu ar brosesu (Ert. 18 DSGVO)",
+    "section_5_rights_4": "Hawl i gludadwyedd data (Ert. 20 DSGVO)",
+    "section_5_rights_5": "Hawl i wrthwynebu prosesu (Ert. 21 DSGVO)",
+    "section_5_text_2": "Mae gennych hefyd yr hawl i gyflwyno cwyn i awdurdod goruchwylio diogelu data am brosesu eich data personol gennym.",
+    "section_6_title": "6. Cwcis",
+    "section_6_text": "Mae ein gwefan yn defnyddio cwci swyddogaethol (NEXT_LOCALE) i storio eich dewis iaith. Mae'r cwci hwn yn angenrheidiol yn dechnegol ac nid oes angen caniatad o dan § 25 par. 2 TDDDG. Ni ddefnyddir cwcis olrhain nac analytics.",
+    "section_7_title": "7. Newidiadau i'r polisi preifatrwydd hwn",
+    "section_7_text": "Mae'r polisi preifatrwydd hwn yn ddilys ar hyn o bryd. Oherwydd datblygiad pellach ein gwefan neu oherwydd gofynion cyfreithiol neu reoliadol newydd, gall fod yn angenrheidiol diwygio'r polisi preifatrwydd hwn.",
+    "email_label": "E-bost",
+    "contact_label": "Cysylltu"
+  }
 }

@@ -1,5 +1,5 @@
 import { describe, it, expect, vi, beforeEach } from "vitest";
-import { cn, sanitizeHeaderValue, scrollToSection } from "@/lib/utils";
+import { cn, sanitizeHeaderValue, scrollToSection, EMAIL_REGEX } from "@/lib/utils";
 
 describe("cn", () => {
   it("joins class names with space", () => {
@@ -52,6 +52,31 @@ describe("sanitizeHeaderValue", () => {
 
   it("handles empty string", () => {
     expect(sanitizeHeaderValue("")).toBe("");
+  });
+});
+
+describe("EMAIL_REGEX", () => {
+  it("accepts standard email addresses", () => {
+    expect(EMAIL_REGEX.test("user@example.com")).toBe(true);
+    expect(EMAIL_REGEX.test("max.mustermann@fiecon.de")).toBe(true);
+    expect(EMAIL_REGEX.test("info+tag@company.co.uk")).toBe(true);
+  });
+
+  it("rejects emails without TLD of at least 2 characters", () => {
+    expect(EMAIL_REGEX.test("user@example.c")).toBe(false);
+  });
+
+  it("rejects emails without @ sign", () => {
+    expect(EMAIL_REGEX.test("not-an-email")).toBe(false);
+  });
+
+  it("rejects emails with spaces", () => {
+    expect(EMAIL_REGEX.test("user @example.com")).toBe(false);
+    expect(EMAIL_REGEX.test("user@ example.com")).toBe(false);
+  });
+
+  it("rejects empty string", () => {
+    expect(EMAIL_REGEX.test("")).toBe(false);
   });
 });
 

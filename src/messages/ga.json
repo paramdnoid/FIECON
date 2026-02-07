@@ -1,25 +1,217 @@
 {
-  "language": { "title": "Roghnaigh teanga", "close": "Dún" },
+  "language": {
+    "title": "Roghnaigh teanga",
+    "close": "Dún"
+  },
   "metadata": {
     "title": "FIECON — Comhairle Idirnáisiúnta ar Dhlí Corparáideach agus Bunú Cuideachtaí",
     "description": "FIECON Germany Co. KG — Comhairle idirnáisiúnta ar dhlí corparáideach, bunú cuideachtaí, riarachán airgeadais agus maoiniú tógála. Oifigí i Hamburg, Béalgrád agus Texas."
   },
-  "nav": { "home": "Go dtí an leathanach baile", "menu": "Oscail roghchlár", "about": "Fúinn", "services": "Seirbhísí", "approach": "Cur chuige", "offices": "Oifigí", "contact": "Teagmháil", "navigation": "Nascleanúint", "close_menu": "Dún roghchlár" },
-  "hero": { "tagline": "Fiegler Consulting", "headline": "Do ghnó. Comhairle idirnáisiúnta.", "subtitle": "Dlí corparáideach agus bunú cuideachtaí idirnáisiúnta — treoir phearsanta i Hamburg, Béalgrád agus Texas.", "cta_primary": "Ár seirbhísí", "cta_secondary": "Déan teagmháil" },
-  "about": { "badge": "Fúinn", "headline": "Fís ag casadh le dúthracht", "text_1": "Seasann FIECON do chomhairle idirnáisiúnta le tiomantas pearsanta. Tá ár bpríomhshaineolas i ndlí corparáideach agus bunú cuideachtaí idirnáisiúnta — réimsí ina ndéanann taithí, cruinneas agus tuiscint chultúrtha an difríocht ar fad.", "text_2": "Ó Hamburg, Béalgrád agus Texas, treoraimid gnólachtaí thar theorainneacha. Tugaimid comhairle freisin ar riarachán airgeadais, maoiniú tógála agus maoiniú tógála luamh — i gcónaí leis an uaillmhian do leasanna a ionadú amhail is gur leasanna linn féin iad.", "quote": "Tugaimid comhairle amhail is go mba é ár gcuideachta féin a bheadh i gceist.", "stat_1_label": "Suíomhanna ar fud an domhain", "stat_2_label": "Réimsí cleachtais", "stat_3_label": "Tíortha", "quote_attribution": "Peter Fiegler, Bunaitheoir" },
-  "services": {
-    "badge": "Seirbhísí", "headline": "Ár saineolas", "subtitle": "Ceithre réimse inniúlachta — gealltanas amháin: d'fhiontair idirnáisiúnta a dhéanamh i gceart.",
-    "consulting": { "title": "Dlí corparáideach agus bunú cuideachtaí", "description": "Ár bpríomhchleachtas: tugaimid comhairle ar bhunú, structúrú agus rialachas cuideachtaí i ndlínsí idirnáisiúnta éagsúla. Ón mbunchoincheap go dtí an cur i bhfeidhm atá fónta go dlíthiúil, seasaimid leat.", "items": { "0": "Dlí corparáideach", "1": "Bunú cuideachtaí idirnáisiúnta" } },
-    "finance": { "title": "Riarachán airgeadais", "description": "Tógann soiléireacht muinín: glacaimid freagracht as riarachán airgeadais do chuideachta agus cruthaímid struchtúir thrédhearcacha a chumasaíonn fás inbhuanaithe.", "items": { "0": "Cuntasaíocht agus tuairisciú", "1": "Pleanáil airgeadais straitéiseach" } },
-    "construction": { "title": "Maoiniú tógála", "description": "Éilíonn tionscadail tógála iontaofacht airgeadais. Struchtúraimid agus maoirsímid maoiniú d'fhiontar tógála — ón ríomh tosaigh go dtí an chríochnú.", "items": { "0": "Maoiniú tionscadail", "1": "Slándáil infheistíochta" } },
-    "yacht": { "title": "Maoiniú tógála luamh", "description": "Tuillimid cúram ar leith do segmint ar leith. Tugaimid comhairle ar mhaoiniú tionscadal tógála luamh — go discréideach, go pearsanta agus le fíorthuiscint ar chaighdeáin an tionscail.", "items": { "0": "Maoiniú luamh", "1": "Comhairle phearsanta" } }
+  "nav": {
+    "home": "Go dtí an leathanach baile",
+    "menu": "Oscail roghchlár",
+    "about": "Fúinn",
+    "services": "Seirbhísí",
+    "approach": "Cur chuige",
+    "offices": "Oifigí",
+    "contact": "Teagmháil",
+    "navigation": "Nascleanúint",
+    "close_menu": "Dún roghchlár"
   },
-  "approach": { "badge": "Ár gcur chuige", "headline": "Cad a dhéanann difríocht dúinn", "values": { "expertise": { "title": "Saineolas idirnáisiúnta", "description": "Tuiscint dhomhain ar chórais dlí, ar chultúir ghnó agus ar chiútaí rialála ar fud na hEorpa, SAM agus Oirdheisceart na hEorpa." }, "personal": { "title": "Cóngaracht phearsanta", "description": "Linne, ní huimhir comhaid tú riamh ach amháin. Glacaimid an t-am chun do spriocanna a thuiscint agus straitéisí a fhorbairt a oireann go fírinneach do do chás." }, "trust": { "title": "Comhpháirtíocht ar théarmaí comhionanna", "description": "Smaoínimid go fadtéarmach. Trédhearcacht, ionracas agus torthaí intomhaiste — ní luachanna amháin iad dúinn ach gealltanais." } } },
-  "offices": { "badge": "Oifigí", "headline": "Gar do do mhargaí", "subtitle": "Trí shuíomh, gealltanas amháin — comhairle phearsanta le raon idirnáisiúnta.", "hamburg": { "city": "Hamburg", "country": "An Ghearmáin", "label": "Ceanncheathrú" }, "belgrade": { "city": "Béalgrád", "country": "An tSeirbia", "label": "Oirdheisceart na hEorpa" }, "texas": { "city": "Texas", "country": "SAM", "label": "Meiriceá Thuaidh" } },
-  "contact": { "badge": "Teagmháil", "headline": "Bímis ag caint", "subtitle": "Cibé an ceist tosaigh nó tionscadal coincréiteach é — glacaimid an t-am duit.", "phone": "Fón", "mobile": "Fón póca", "email": "Ríomhphost", "address": "Seoladh", "cta": "Seol ríomhphost", "dialog": { "title": "Seol teachtaireacht", "panel_subtitle": "Tá súil againn le d'fhiosrúchán agus tabharfaimid freagra ort go pras.", "name": "Ainm", "name_placeholder": "D'ainm iomlán", "email": "Seoladh ríomhphoist", "email_placeholder": "do@riomhphost.ie", "subject": "Ábhar", "subject_placeholder": "Cad é an t-ábhar?", "message": "Teachtaireacht", "message_placeholder": "Do theachtaireacht chugainn...", "submit": "Seol teachtaireacht", "sending": "Á sheoladh...", "success_title": "Teachtaireacht seolta", "success_text": "Go raibh maith agat! Rachaimid ar ais chugat go luath.", "error_title": "Earráid", "error_text": "Níorbh fhéidir an teachtaireacht a sheoladh. Bain triail eile as le do thoil.", "retry": "Bain triail eile as", "close": "Dún", "required": "Réimse riachtanach", "invalid_email": "Seoladh ríomhphoist neamhbhailí" } },
-  "footer": { "description": "FIECON Germany Co. KG — Comhairle idirnáisiúnta ar dhlí corparáideach, bunú cuideachtaí agus tuilleadh. Pearsanta. Cruinn. Comhpháirtíocht.", "services_title": "Seirbhísí", "offices_title": "Oifigí", "legal_title": "Dlí", "impressum": "Fógra dlíthiúil", "datenschutz": "Polasaí príobháideachais", "copyright": "© {year} FIECON Germany Co. KG. Gach ceart ar cosaint." },
-  "error": { "title": "Tharla earráid", "description": "Bain triail eile as nó fill ar an leathanach baile le do thoil.", "retry": "Bain triail eile as" },
-  "notFound": { "title": "Leathanach gan aimsiú", "description": "Níl an leathanach a iarradh ann nó bogadh é.", "back": "Ar ais go dtí an leathanach baile" },
-  "impressum": { "title": "Fógra dlíthiúil", "info_title": "Faisnéis de réir § 5 TMG", "contact_title": "Teagmháil", "phone_label": "Fón", "mobile_label": "Fón póca", "email_label": "Ríomhphost", "homepage_label": "Leathanach baile", "responsible_title": "Freagrach as ábhar de réir § 55 mír 2 RStV", "responsible_name": "Peter Fiegler", "disclaimer_title": "Séanadh", "disclaimer_content_title": "Dliteanas as ábhar", "disclaimer_content_text": "Cruthaíodh ábhair ár leathanach leis an gcúram is mó. Mar sin féin, ní féidir linn cruinneas, iomláine ná ábharthacht an ábhair a ráthú. Mar sholáthraí seirbhíse, táimid freagrach as ár n-ábhar féin ar na leathanaigh seo de réir § 7 mír 1 TMG faoin dlí ginearálta. De réir §§ 8 go 10 TMG, áfach, mar sholáthraí seirbhíse nílimid faoi oibleagáid faisnéis tríú páirtí a tharchuirtear nó a stóráiltear a mhonatóireacht ná cúinsí a fhiosrú a léiríonn gníomhaíocht neamhdhleathach.", "disclaimer_links_title": "Dliteanas as naisc", "disclaimer_links_text": "Tá naisc ar ár suíomh gréasáin le suíomhanna gréasáin seachtracha tríú páirtí nach bhfuil aon tionchar againn ar a n-ábhar. Dá bhrí sin, ní féidir linn aon dliteanas a ghlacadh as ábhar tríú páirtí seo. Is é soláthraí nó oibreoir faoi seach na leathanach atá freagrach i gcónaí as ábhar na leathanach nasctha. Seiceáladh na leathanaigh nasctha maidir le sáruithe dlí féideartha tráth an nasctha. Ní raibh ábhar neamhdhleathach inaitheanta tráth an nasctha.", "copyright_title": "Cóipcheart", "copyright_text": "Tá an t-ábhar agus na saothair a chruthaigh oibreoirí an tsuímh ar na leathanaigh seo faoi réir dhlí cóipchirt na Gearmáine. Teastaíonn toiliú i scríbhinn ón údar nó cruthaitheoir faoi seach le haghaidh atáirgeadh, eagarthóireacht, dáileadh agus aon chineál saothraithe lasmuigh de theorainneacha an dlí chóipchirt." },
-  "datenschutz": { "title": "Polasaí príobháideachais", "intro": "Glacaimid le cosaint do shonraí pearsanta go han-dáiríre. Déileálaimid le do shonraí pearsanta go rúnda agus de réir na rialachán reachtúil um chosaint sonraí agus an pholasaí príobháideachais seo.", "section_1_title": "1. Eintiteas freagrach", "section_1_text": "Is é an t-eintiteas freagrach as próiseáil sonraí ar an suíomh gréasáin seo:", "section_2_title": "2. Bailiú agus próiseáil sonraí pearsanta", "section_2_text": "Agus ár suíomh gréasáin á thaispeáint agat, bailítear faisnéis ghinearálta go huathoibríoch. Áirítear san fhaisnéis seo (logchomhaid an fhreastalaí) cineál an bhrabhsálaí gréasáin, an córas oibriúcháin a úsáidtear, ainm fearainn do sholáthraí seirbhíse idirlín, do sheoladh IP agus sonraí comhchosúla. Is faisnéis í seo go heisiach nach gceadaíonn aon chonclúidí faoi do phearsa.", "section_2_legal_basis": "Is é bunús dlí na próiseála sonraí Art. 6 mír 1 lit. f DSGVO. Is é ár leas dlisteanach oibriú gan stró ár suíomh gréasáin a chinntiú.", "section_2_retention": "Scriostar logchomhaid an fhreastalaí go huathoibríoch tar éis 14 lá.", "section_3_title": "3. Teagmháil", "section_3_text": "Má dhéanann tú teagmháil linn trí ríomhphost nó trí fhoirm teagmhála, stórálfar do shonraí lena n-áirítear na sonraí teagmhála a sholáthraíonn tú chun an fiosrúchán a phróiseáil agus ar eagla ceisteanna leantacha. Ní roinnfimid na sonraí seo gan do thoiliú.", "section_3_legal_basis": "Is é bunús dlí na próiseála sonraí Art. 6 mír 1 lit. b DSGVO (bearta réamhchonarthacha) nó Art. 6 mír 1 lit. f DSGVO (leas dlisteanach maidir le d'fhiosrúchán a phróiseáil).", "section_3_retention": "Scriosfar sonraí a tharchuirtear le linn teagmhála linn a luaithe a bheidh d'fhiosrúchán próiseáilte go críochnúil agus nach bhfuil aon oibleagáidí coinneála reachtúla i bhfeidhm.", "section_4_title": "4. Seachadadh ríomhphoist", "section_4_text": "Chun ríomhphoist a sheoladh trínár bhfoirm teagmhála, úsáidimid freastalaí ríomhphoist SMTP. Tarchuirtear na sonraí a chuireann tú isteach (ainm, seoladh ríomhphoist, ábhar, teachtaireacht) chuig ár soláthraí ríomhphoist, a sheachadann an ríomhphost ar ár son.", "section_5_title": "5. Do chearta", "section_5_text_1": "Tá na cearta seo a leanas agat maidir le do shonraí pearsanta:", "section_5_rights_0": "Ceart rochtana (Art. 15 DSGVO)", "section_5_rights_1": "Ceart ceartúcháin (Art. 16 DSGVO)", "section_5_rights_2": "Ceart scriosta (Art. 17 DSGVO)", "section_5_rights_3": "Ceart srianta próiseála (Art. 18 DSGVO)", "section_5_rights_4": "Ceart iniomparthachta sonraí (Art. 20 DSGVO)", "section_5_rights_5": "Ceart agóide in aghaidh próiseála (Art. 21 DSGVO)", "section_5_text_2": "Tá an ceart agat freisin gearán a dhéanamh le húdarás maoirseachta um chosaint sonraí maidir le próiseáil do shonraí pearsanta againn.", "section_6_title": "6. Fianáin", "section_6_text": "Úsáideann ár suíomh gréasáin fianán feidhmiúil (NEXT_LOCALE) chun do rogha teanga a stóráil. Tá an fianán seo riachtanach go teicniúil agus ní éilíonn sé toiliú faoi § 25 mír 2 TDDDG. Ní úsáidtear aon fhianáin rianaithe ná anailísíochta.", "section_7_title": "7. Athruithe ar an bpolasaí príobháideachais seo", "section_7_text": "Tá an polasaí príobháideachais seo bailí faoi láthair. Mar gheall ar fhorbairt bhreise ár suíomh gréasáin nó mar gheall ar cheanglais athraithe dlíthiúla nó rialála, b'fhéidir go mbeidh gá an polasaí príobháideachais seo a leasú.", "email_label": "Ríomhphost", "contact_label": "Teagmháil" }
+  "hero": {
+    "tagline": "Fiegler Consulting",
+    "headline": "Do ghnó. Comhairle idirnáisiúnta.",
+    "subtitle": "Dlí corparáideach agus bunú cuideachtaí idirnáisiúnta — treoir phearsanta i Hamburg, Béalgrád agus Texas.",
+    "cta_primary": "Ár seirbhísí",
+    "cta_secondary": "Déan teagmháil"
+  },
+  "about": {
+    "badge": "Fúinn",
+    "headline": "Fís ag casadh le dúthracht",
+    "text_1": "Seasann FIECON do chomhairle idirnáisiúnta le tiomantas pearsanta. Tá ár bpríomhshaineolas i ndlí corparáideach agus bunú cuideachtaí idirnáisiúnta — réimsí ina ndéanann taithí, cruinneas agus tuiscint chultúrtha an difríocht ar fad.",
+    "text_2": "Ó Hamburg, Béalgrád agus Texas, treoraimid gnólachtaí thar theorainneacha. Tugaimid comhairle freisin ar riarachán airgeadais, maoiniú tógála agus maoiniú tógála luamh — i gcónaí leis an uaillmhian do leasanna a ionadú amhail is gur leasanna linn féin iad.",
+    "quote": "Tugaimid comhairle amhail is go mba é ár gcuideachta féin a bheadh i gceist.",
+    "stat_1_label": "Suíomhanna ar fud an domhain",
+    "stat_2_label": "Réimsí cleachtais",
+    "stat_3_label": "Tíortha",
+    "quote_attribution": "Peter Fiegler, Bunaitheoir"
+  },
+  "services": {
+    "badge": "Seirbhísí",
+    "headline": "Ár saineolas",
+    "subtitle": "Ceithre réimse inniúlachta — gealltanas amháin: d'fhiontair idirnáisiúnta a dhéanamh i gceart.",
+    "consulting": {
+      "title": "Dlí corparáideach agus bunú cuideachtaí",
+      "description": "Ár bpríomhchleachtas: tugaimid comhairle ar bhunú, structúrú agus rialachas cuideachtaí i ndlínsí idirnáisiúnta éagsúla. Ón mbunchoincheap go dtí an cur i bhfeidhm atá fónta go dlíthiúil, seasaimid leat.",
+      "items": {
+        "0": "Dlí corparáideach",
+        "1": "Bunú cuideachtaí idirnáisiúnta"
+      }
+    },
+    "finance": {
+      "title": "Riarachán airgeadais",
+      "description": "Tógann soiléireacht muinín: glacaimid freagracht as riarachán airgeadais do chuideachta agus cruthaímid struchtúir thrédhearcacha a chumasaíonn fás inbhuanaithe.",
+      "items": {
+        "0": "Cuntasaíocht agus tuairisciú",
+        "1": "Pleanáil airgeadais straitéiseach"
+      }
+    },
+    "construction": {
+      "title": "Maoiniú tógála",
+      "description": "Éilíonn tionscadail tógála iontaofacht airgeadais. Struchtúraimid agus maoirsímid maoiniú d'fhiontar tógála — ón ríomh tosaigh go dtí an chríochnú.",
+      "items": {
+        "0": "Maoiniú tionscadail",
+        "1": "Slándáil infheistíochta"
+      }
+    },
+    "yacht": {
+      "title": "Maoiniú tógála luamh",
+      "description": "Tuillimid cúram ar leith do segmint ar leith. Tugaimid comhairle ar mhaoiniú tionscadal tógála luamh — go discréideach, go pearsanta agus le fíorthuiscint ar chaighdeáin an tionscail.",
+      "items": {
+        "0": "Maoiniú luamh",
+        "1": "Comhairle phearsanta"
+      }
+    }
+  },
+  "approach": {
+    "badge": "Ár gcur chuige",
+    "headline": "Cad a dhéanann difríocht dúinn",
+    "values": {
+      "expertise": {
+        "title": "Saineolas idirnáisiúnta",
+        "description": "Tuiscint dhomhain ar chórais dlí, ar chultúir ghnó agus ar chiútaí rialála ar fud na hEorpa, SAM agus Oirdheisceart na hEorpa."
+      },
+      "personal": {
+        "title": "Cóngaracht phearsanta",
+        "description": "Linne, ní huimhir comhaid tú riamh ach amháin. Glacaimid an t-am chun do spriocanna a thuiscint agus straitéisí a fhorbairt a oireann go fírinneach do do chás."
+      },
+      "trust": {
+        "title": "Comhpháirtíocht ar théarmaí comhionanna",
+        "description": "Smaoínimid go fadtéarmach. Trédhearcacht, ionracas agus torthaí intomhaiste — ní luachanna amháin iad dúinn ach gealltanais."
+      }
+    }
+  },
+  "offices": {
+    "badge": "Oifigí",
+    "headline": "Gar do do mhargaí",
+    "subtitle": "Trí shuíomh, gealltanas amháin — comhairle phearsanta le raon idirnáisiúnta.",
+    "hamburg": {
+      "city": "Hamburg",
+      "country": "An Ghearmáin",
+      "label": "Ceanncheathrú"
+    },
+    "belgrade": {
+      "city": "Béalgrád",
+      "country": "An tSeirbia",
+      "label": "Oirdheisceart na hEorpa"
+    },
+    "texas": {
+      "city": "Texas",
+      "country": "SAM",
+      "label": "Meiriceá Thuaidh"
+    }
+  },
+  "contact": {
+    "badge": "Teagmháil",
+    "headline": "Bímis ag caint",
+    "subtitle": "Cibé an ceist tosaigh nó tionscadal coincréiteach é — glacaimid an t-am duit.",
+    "phone": "Fón",
+    "mobile": "Fón póca",
+    "email": "Ríomhphost",
+    "address": "Seoladh",
+    "cta": "Seol ríomhphost",
+    "dialog": {
+      "title": "Seol teachtaireacht",
+      "panel_subtitle": "Tá súil againn le d'fhiosrúchán agus tabharfaimid freagra ort go pras.",
+      "name": "Ainm",
+      "name_placeholder": "D'ainm iomlán",
+      "email": "Seoladh ríomhphoist",
+      "email_placeholder": "do@riomhphost.ie",
+      "subject": "Ábhar",
+      "subject_placeholder": "Cad é an t-ábhar?",
+      "message": "Teachtaireacht",
+      "message_placeholder": "Do theachtaireacht chugainn...",
+      "submit": "Seol teachtaireacht",
+      "sending": "Á sheoladh...",
+      "success_title": "Teachtaireacht seolta",
+      "success_text": "Go raibh maith agat! Rachaimid ar ais chugat go luath.",
+      "error_title": "Earráid",
+      "error_text": "Níorbh fhéidir an teachtaireacht a sheoladh. Bain triail eile as le do thoil.",
+      "retry": "Bain triail eile as",
+      "close": "Dún",
+      "required": "Réimse riachtanach",
+      "invalid_email": "Seoladh ríomhphoist neamhbhailí",
+      "error_network_text": "Please check your internet connection and try again.",
+      "error_timeout_text": "The server is not responding. Please try again later.",
+      "error_rate_limit_text": "Too many requests. Please wait a moment and try again."
+    }
+  },
+  "footer": {
+    "description": "FIECON Germany Co. KG — Comhairle idirnáisiúnta ar dhlí corparáideach, bunú cuideachtaí agus tuilleadh. Pearsanta. Cruinn. Comhpháirtíocht.",
+    "services_title": "Seirbhísí",
+    "offices_title": "Oifigí",
+    "legal_title": "Dlí",
+    "impressum": "Fógra dlíthiúil",
+    "datenschutz": "Polasaí príobháideachais",
+    "copyright": "© {year} FIECON Germany Co. KG. Gach ceart ar cosaint."
+  },
+  "error": {
+    "title": "Tharla earráid",
+    "description": "Bain triail eile as nó fill ar an leathanach baile le do thoil.",
+    "retry": "Bain triail eile as"
+  },
+  "notFound": {
+    "title": "Leathanach gan aimsiú",
+    "description": "Níl an leathanach a iarradh ann nó bogadh é.",
+    "back": "Ar ais go dtí an leathanach baile"
+  },
+  "impressum": {
+    "title": "Fógra dlíthiúil",
+    "info_title": "Faisnéis de réir § 5 TMG",
+    "contact_title": "Teagmháil",
+    "phone_label": "Fón",
+    "mobile_label": "Fón póca",
+    "email_label": "Ríomhphost",
+    "homepage_label": "Leathanach baile",
+    "responsible_title": "Freagrach as ábhar de réir § 55 mír 2 RStV",
+    "responsible_name": "Peter Fiegler",
+    "disclaimer_title": "Séanadh",
+    "disclaimer_content_title": "Dliteanas as ábhar",
+    "disclaimer_content_text": "Cruthaíodh ábhair ár leathanach leis an gcúram is mó. Mar sin féin, ní féidir linn cruinneas, iomláine ná ábharthacht an ábhair a ráthú. Mar sholáthraí seirbhíse, táimid freagrach as ár n-ábhar féin ar na leathanaigh seo de réir § 7 mír 1 TMG faoin dlí ginearálta. De réir §§ 8 go 10 TMG, áfach, mar sholáthraí seirbhíse nílimid faoi oibleagáid faisnéis tríú páirtí a tharchuirtear nó a stóráiltear a mhonatóireacht ná cúinsí a fhiosrú a léiríonn gníomhaíocht neamhdhleathach.",
+    "disclaimer_links_title": "Dliteanas as naisc",
+    "disclaimer_links_text": "Tá naisc ar ár suíomh gréasáin le suíomhanna gréasáin seachtracha tríú páirtí nach bhfuil aon tionchar againn ar a n-ábhar. Dá bhrí sin, ní féidir linn aon dliteanas a ghlacadh as ábhar tríú páirtí seo. Is é soláthraí nó oibreoir faoi seach na leathanach atá freagrach i gcónaí as ábhar na leathanach nasctha. Seiceáladh na leathanaigh nasctha maidir le sáruithe dlí féideartha tráth an nasctha. Ní raibh ábhar neamhdhleathach inaitheanta tráth an nasctha.",
+    "copyright_title": "Cóipcheart",
+    "copyright_text": "Tá an t-ábhar agus na saothair a chruthaigh oibreoirí an tsuímh ar na leathanaigh seo faoi réir dhlí cóipchirt na Gearmáine. Teastaíonn toiliú i scríbhinn ón údar nó cruthaitheoir faoi seach le haghaidh atáirgeadh, eagarthóireacht, dáileadh agus aon chineál saothraithe lasmuigh de theorainneacha an dlí chóipchirt."
+  },
+  "datenschutz": {
+    "title": "Polasaí príobháideachais",
+    "intro": "Glacaimid le cosaint do shonraí pearsanta go han-dáiríre. Déileálaimid le do shonraí pearsanta go rúnda agus de réir na rialachán reachtúil um chosaint sonraí agus an pholasaí príobháideachais seo.",
+    "section_1_title": "1. Eintiteas freagrach",
+    "section_1_text": "Is é an t-eintiteas freagrach as próiseáil sonraí ar an suíomh gréasáin seo:",
+    "section_2_title": "2. Bailiú agus próiseáil sonraí pearsanta",
+    "section_2_text": "Agus ár suíomh gréasáin á thaispeáint agat, bailítear faisnéis ghinearálta go huathoibríoch. Áirítear san fhaisnéis seo (logchomhaid an fhreastalaí) cineál an bhrabhsálaí gréasáin, an córas oibriúcháin a úsáidtear, ainm fearainn do sholáthraí seirbhíse idirlín, do sheoladh IP agus sonraí comhchosúla. Is faisnéis í seo go heisiach nach gceadaíonn aon chonclúidí faoi do phearsa.",
+    "section_2_legal_basis": "Is é bunús dlí na próiseála sonraí Art. 6 mír 1 lit. f DSGVO. Is é ár leas dlisteanach oibriú gan stró ár suíomh gréasáin a chinntiú.",
+    "section_2_retention": "Scriostar logchomhaid an fhreastalaí go huathoibríoch tar éis 14 lá.",
+    "section_3_title": "3. Teagmháil",
+    "section_3_text": "Má dhéanann tú teagmháil linn trí ríomhphost nó trí fhoirm teagmhála, stórálfar do shonraí lena n-áirítear na sonraí teagmhála a sholáthraíonn tú chun an fiosrúchán a phróiseáil agus ar eagla ceisteanna leantacha. Ní roinnfimid na sonraí seo gan do thoiliú.",
+    "section_3_legal_basis": "Is é bunús dlí na próiseála sonraí Art. 6 mír 1 lit. b DSGVO (bearta réamhchonarthacha) nó Art. 6 mír 1 lit. f DSGVO (leas dlisteanach maidir le d'fhiosrúchán a phróiseáil).",
+    "section_3_retention": "Scriosfar sonraí a tharchuirtear le linn teagmhála linn a luaithe a bheidh d'fhiosrúchán próiseáilte go críochnúil agus nach bhfuil aon oibleagáidí coinneála reachtúla i bhfeidhm.",
+    "section_4_title": "4. Seachadadh ríomhphoist",
+    "section_4_text": "Chun ríomhphoist a sheoladh trínár bhfoirm teagmhála, úsáidimid freastalaí ríomhphoist SMTP. Tarchuirtear na sonraí a chuireann tú isteach (ainm, seoladh ríomhphoist, ábhar, teachtaireacht) chuig ár soláthraí ríomhphoist, a sheachadann an ríomhphost ar ár son.",
+    "section_5_title": "5. Do chearta",
+    "section_5_text_1": "Tá na cearta seo a leanas agat maidir le do shonraí pearsanta:",
+    "section_5_rights_0": "Ceart rochtana (Art. 15 DSGVO)",
+    "section_5_rights_1": "Ceart ceartúcháin (Art. 16 DSGVO)",
+    "section_5_rights_2": "Ceart scriosta (Art. 17 DSGVO)",
+    "section_5_rights_3": "Ceart srianta próiseála (Art. 18 DSGVO)",
+    "section_5_rights_4": "Ceart iniomparthachta sonraí (Art. 20 DSGVO)",
+    "section_5_rights_5": "Ceart agóide in aghaidh próiseála (Art. 21 DSGVO)",
+    "section_5_text_2": "Tá an ceart agat freisin gearán a dhéanamh le húdarás maoirseachta um chosaint sonraí maidir le próiseáil do shonraí pearsanta againn.",
+    "section_6_title": "6. Fianáin",
+    "section_6_text": "Úsáideann ár suíomh gréasáin fianán feidhmiúil (NEXT_LOCALE) chun do rogha teanga a stóráil. Tá an fianán seo riachtanach go teicniúil agus ní éilíonn sé toiliú faoi § 25 mír 2 TDDDG. Ní úsáidtear aon fhianáin rianaithe ná anailísíochta.",
+    "section_7_title": "7. Athruithe ar an bpolasaí príobháideachais seo",
+    "section_7_text": "Tá an polasaí príobháideachais seo bailí faoi láthair. Mar gheall ar fhorbairt bhreise ár suíomh gréasáin nó mar gheall ar cheanglais athraithe dlíthiúla nó rialála, b'fhéidir go mbeidh gá an polasaí príobháideachais seo a leasú.",
+    "email_label": "Ríomhphost",
+    "contact_label": "Teagmháil"
+  }
 }

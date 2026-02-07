@@ -1,25 +1,217 @@
 {
-  "language": { "title": "Vali keel", "close": "Sulge" },
+  "language": {
+    "title": "Vali keel",
+    "close": "Sulge"
+  },
   "metadata": {
     "title": "FIECON — Rahvusvaheline äriõiguse ja ettevõtte asutamise nõustamine",
     "description": "FIECON Germany Co. KG — Rahvusvaheline nõustamine äriõiguse, ettevõtete asutamise, finantshalduse ja ehitusfinantseerimise valdkonnas. Kontorid Hamburgis, Belgradis ja Texases."
   },
-  "nav": { "home": "Avalehele", "menu": "Ava menüü", "about": "Meist", "services": "Teenused", "approach": "Lähenemine", "offices": "Kontorid", "contact": "Kontakt", "navigation": "Navigatsioon", "close_menu": "Sulge menüü" },
-  "hero": { "tagline": "Fiegler Consulting", "headline": "Teie äri. Rahvusvaheliselt nõustatud.", "subtitle": "Äriõigus ja rahvusvaheline ettevõtete asutamine — isiklik juhendamine Hamburgis, Belgradis ja Texases.", "cta_primary": "Meie teenused", "cta_secondary": "Võtke ühendust" },
-  "about": { "badge": "Meist", "headline": "Visioon kohtub hoolsusega", "text_1": "FIECON tähendab rahvusvahelist nõustamist isikliku pühendumisega. Meie põhipädevus on äriõigus ja rahvusvaheline ettevõtete asutamine — valdkonnad, kus kogemus, täpsus ja kultuuriline mõistmine on otsustava tähtsusega.", "text_2": "Hamburgist, Belgradist ja Texasest juhime ettevõtteid üle piiride. Nõustame ka finantshalduse, ehitusfinantseerimise ja jahiehituse finantseerimise küsimustes — alati ambitsiooniga esindada teie huve nii, nagu need oleksid meie enda omad.", "quote": "Me nõustame nii, nagu oleks kaalul meie enda ettevõte.", "stat_1_label": "Asukohta maailmas", "stat_2_label": "Tegevusvaldkonda", "stat_3_label": "Riiki", "quote_attribution": "Peter Fiegler, asutaja" },
-  "services": {
-    "badge": "Teenused", "headline": "Meie pädevus", "subtitle": "Neli pädevusvaldkonda — üks kohustus: teie rahvusvaheliste ettevõtmiste õigsuse tagamine.",
-    "consulting": { "title": "Äriõigus ja ettevõtete asutamine", "description": "Meie põhipraktika: nõustame ettevõtete asutamise, struktureerimise ja juhtimise osas erinevates rahvusvahelistes jurisdiktsioonides. Esialgsest kontseptsioonist kuni õiguslikult kindla teostuseni seisame teie kõrval.", "items": { "0": "Äriõigus", "1": "Rahvusvaheline ettevõtete asutamine" } },
-    "finance": { "title": "Finantshaldus", "description": "Selgus loob usaldust: võtame teie ettevõtte finantshalduse enda kanda ja loome läbipaistvad struktuurid, mis võimaldavad jätkusuutlikku kasvu.", "items": { "0": "Raamatupidamine ja aruandlus", "1": "Strateegiline finantsplaneerimine" } },
-    "construction": { "title": "Ehitusfinantseerimine", "description": "Ehitusprojektid nõuavad rahalist usaldusväärsust. Struktureerime ja jälgime teie ehitusprojektide finantseerimist — algsest arvutusest kuni valmimiseni.", "items": { "0": "Projektide finantseerimine", "1": "Investeeringute turvalisus" } },
-    "yacht": { "title": "Jahiehituse finantseerimine", "description": "Erilise segmendi jaoks eriline hoolitsus. Nõustame jahiehitusprojektide finantseerimise osas — diskreetselt, isiklikult ja tõelise valdkonnastandardite mõistmisega.", "items": { "0": "Jahifinantseerimine", "1": "Isiklik nõustamine" } }
+  "nav": {
+    "home": "Avalehele",
+    "menu": "Ava menüü",
+    "about": "Meist",
+    "services": "Teenused",
+    "approach": "Lähenemine",
+    "offices": "Kontorid",
+    "contact": "Kontakt",
+    "navigation": "Navigatsioon",
+    "close_menu": "Sulge menüü"
   },
-  "approach": { "badge": "Meie lähenemine", "headline": "Mis meid eristab", "values": { "expertise": { "title": "Rahvusvaheline pädevus", "description": "Sügav arusaamine õigussüsteemidest, ärikultuuridest ja regulatiivsetest nüanssidest Euroopas, USA-s ja Kagu-Euroopas." }, "personal": { "title": "Isiklik lähedus", "description": "Meie juures ei ole te kunagi lihtsalt toimiku number. Võtame aega, et mõista teie eesmärke ja töötada välja strateegiad, mis tõeliselt sobivad teie olukorraga." }, "trust": { "title": "Partnerlus võrdsetel tingimustel", "description": "Mõtleme pikaajalises perspektiivis. Läbipaistvus, ausus ja mõõdetavad tulemused ei ole meile lihtsalt väärtused — need on kohustused." } } },
-  "offices": { "badge": "Kontorid", "headline": "Teie turgude lähedal", "subtitle": "Kolm asukohta, üks lubadus — isiklik nõustamine rahvusvahelise ulatusega.", "hamburg": { "city": "Hamburg", "country": "Saksamaa", "label": "Peakontor" }, "belgrade": { "city": "Belgrad", "country": "Serbia", "label": "Kagu-Euroopa" }, "texas": { "city": "Texas", "country": "USA", "label": "Põhja-Ameerika" } },
-  "contact": { "badge": "Kontakt", "headline": "Räägime", "subtitle": "Olgu see esmane küsimus või konkreetne projekt — võtame teie jaoks aega.", "phone": "Telefon", "mobile": "Mobiil", "email": "E-post", "address": "Aadress", "cta": "Saada e-kiri", "dialog": { "title": "Saada sõnum", "panel_subtitle": "Ootame teie päringut ja vastame teile esimesel võimalusel.", "name": "Nimi", "name_placeholder": "Teie täisnimi", "email": "E-posti aadress", "email_placeholder": "teie@epost.ee", "subject": "Teema", "subject_placeholder": "Millest on jutt?", "message": "Sõnum", "message_placeholder": "Teie sõnum meile...", "submit": "Saada sõnum", "sending": "Saadab...", "success_title": "Sõnum saadetud", "success_text": "Täname! Võtame teiega peagi ühendust.", "error_title": "Viga", "error_text": "Sõnumit ei saanud saata. Palun proovige uuesti.", "retry": "Proovi uuesti", "close": "Sulge", "required": "Kohustuslik väli", "invalid_email": "Vigane e-posti aadress" } },
-  "footer": { "description": "FIECON Germany Co. KG — Rahvusvaheline nõustamine äriõiguse, ettevõtete asutamise ja muude valdkondade osas. Isiklik. Täpne. Partnerluslik.", "services_title": "Teenused", "offices_title": "Kontorid", "legal_title": "Õigusalane", "impressum": "Õigusteade", "datenschutz": "Privaatsuspoliitika", "copyright": "© {year} FIECON Germany Co. KG. Kõik õigused kaitstud." },
-  "error": { "title": "Tekkis viga", "description": "Palun proovige uuesti või pöörduge tagasi avalehele.", "retry": "Proovi uuesti" },
-  "notFound": { "title": "Lehte ei leitud", "description": "Soovitud lehte ei ole olemas või see on teisaldatud.", "back": "Tagasi avalehele" },
-  "impressum": { "title": "Õigusteade", "info_title": "Teave vastavalt § 5 TMG", "contact_title": "Kontakt", "phone_label": "Telefon", "mobile_label": "Mobiil", "email_label": "E-post", "homepage_label": "Koduleht", "responsible_title": "Sisu eest vastutav vastavalt § 55 lõige 2 RStV", "responsible_name": "Peter Fiegler", "disclaimer_title": "Vastutuse välistamine", "disclaimer_content_title": "Vastutus sisu eest", "disclaimer_content_text": "Meie lehtede sisu on loodud suurima hoolega. Siiski ei saa me garanteerida sisu õigsust, täielikkust ega ajakohasust. Teenusepakkujana vastutame nendel lehtedel oma sisu eest vastavalt § 7 lõige 1 TMG üldiste seaduste kohaselt. Vastavalt §§ 8 kuni 10 TMG ei ole meil teenusepakkujana kohustust jälgida edastatud või salvestatud kolmanda osapoole teavet ega uurida asjaolusid, mis viitavad ebaseaduslikule tegevusele.", "disclaimer_links_title": "Vastutus linkide eest", "disclaimer_links_text": "Meie veebileht sisaldab linke välistele kolmandate osapoolte veebilehtedele, mille sisu üle meil puudub kontroll. Seetõttu ei saa me nende kolmandate osapoolte sisu eest vastutust võtta. Lingitud lehtede sisu eest vastutab alati vastav pakkuja või operaator. Lingitud lehti kontrolliti linkimise ajal võimalike õigusrikkumiste suhtes. Ebaseaduslikku sisu ei olnud linkimise ajal tuvastatav.", "copyright_title": "Autoriõigus", "copyright_text": "Nendel lehtedel olevad saidi operaatorite loodud sisu ja teosed on kaitstud Saksa autoriõiguse seadusega. Paljundamine, töötlemine, levitamine ja igasugune kasutamine väljaspool autoriõiguse seaduse piire nõuab vastava autori või looja kirjalikku nõusolekut." },
-  "datenschutz": { "title": "Privaatsuspoliitika", "intro": "Suhtume teie isikuandmete kaitsesse väga tõsiselt. Käsitleme teie isikuandmeid konfidentsiaalselt ning kooskõlas kehtivate andmekaitseõigusaktide ja käesoleva privaatsuspoliitikaga.", "section_1_title": "1. Vastutav isik", "section_1_text": "Selle veebilehe andmetöötluse eest vastutav isik on:", "section_2_title": "2. Isikuandmete kogumine ja töötlemine", "section_2_text": "Meie veebilehe külastamisel kogutakse automaatselt üldist teavet. See teave (serveri logifailid) sisaldab veebibrauseri tüüpi, kasutatavat operatsioonisüsteemi, teie internetiteenuse pakkuja domeeninime, teie IP-aadressi ja sarnaseid andmeid. Tegemist on eranditult teabega, mis ei võimalda teie isiku tuvastamist.", "section_2_legal_basis": "Andmetöötluse õiguslik alus on Art. 6 lõige 1 punkt f DSGVO. Meie õigustatud huvi seisneb meie veebilehe tõrgeteta toimimise tagamises.", "section_2_retention": "Serveri logifailid kustutatakse automaatselt 14 päeva pärast.", "section_3_title": "3. Kontakt", "section_3_text": "Kui võtate meiega ühendust e-posti teel või kontaktvormi kaudu, salvestatakse teie andmed, sealhulgas teie esitatud kontaktandmed, päringu töötlemise ja võimalike järelküsimuste jaoks. Me ei jaga neid andmeid ilma teie nõusolekuta.", "section_3_legal_basis": "Andmetöötluse õiguslik alus on Art. 6 lõige 1 punkt b DSGVO (lepingueelsed meetmed) või Art. 6 lõige 1 punkt f DSGVO (õigustatud huvi teie päringu töötlemisel).", "section_3_retention": "Meiega ühenduse võtmisel edastatud andmed kustutatakse niipea, kui teie päring on lõplikult töödeldud ja seadusest tulenevad säilitamiskohustused ei ole kohaldatavad.", "section_4_title": "4. E-posti edastamine", "section_4_text": "E-kirjade saatmiseks meie kontaktvormi kaudu kasutame SMTP-meiliserveri. Teie sisestatud andmed (nimi, e-posti aadress, teema, sõnum) edastatakse meie e-posti teenuse pakkujale, kes edastab e-kirja meie nimel.", "section_5_title": "5. Teie õigused", "section_5_text_1": "Teil on seoses oma isikuandmetega järgmised õigused:", "section_5_rights_0": "Õigus andmetele juurdepääsule (Art. 15 DSGVO)", "section_5_rights_1": "Õigus parandamisele (Art. 16 DSGVO)", "section_5_rights_2": "Õigus kustutamisele (Art. 17 DSGVO)", "section_5_rights_3": "Õigus töötlemise piiramisele (Art. 18 DSGVO)", "section_5_rights_4": "Õigus andmete ülekantavusele (Art. 20 DSGVO)", "section_5_rights_5": "Õigus esitada vastuväide töötlemisele (Art. 21 DSGVO)", "section_5_text_2": "Teil on samuti õigus esitada kaebus andmekaitse järelevalveasutusele seoses teie isikuandmete töötlemisega meie poolt.", "section_6_title": "6. Küpsised", "section_6_text": "Meie veebileht kasutab funktsionaalset küpsist (NEXT_LOCALE) teie keele-eelistuse salvestamiseks. See küpsis on tehniliselt vajalik ja ei nõua vastavalt § 25 lõige 2 TDDDG nõusolekut. Jälgimis- ega analüütilisi küpsiseid ei kasutata.", "section_7_title": "7. Muudatused selles privaatsuspoliitikas", "section_7_text": "See privaatsuspoliitika kehtib praegu. Meie veebilehe edasise arendamise või muutunud õiguslike ja regulatiivsete nõuete tõttu võib osutuda vajalikuks selle privaatsuspoliitika muutmine.", "email_label": "E-post", "contact_label": "Kontakt" }
+  "hero": {
+    "tagline": "Fiegler Consulting",
+    "headline": "Teie äri. Rahvusvaheliselt nõustatud.",
+    "subtitle": "Äriõigus ja rahvusvaheline ettevõtete asutamine — isiklik juhendamine Hamburgis, Belgradis ja Texases.",
+    "cta_primary": "Meie teenused",
+    "cta_secondary": "Võtke ühendust"
+  },
+  "about": {
+    "badge": "Meist",
+    "headline": "Visioon kohtub hoolsusega",
+    "text_1": "FIECON tähendab rahvusvahelist nõustamist isikliku pühendumisega. Meie põhipädevus on äriõigus ja rahvusvaheline ettevõtete asutamine — valdkonnad, kus kogemus, täpsus ja kultuuriline mõistmine on otsustava tähtsusega.",
+    "text_2": "Hamburgist, Belgradist ja Texasest juhime ettevõtteid üle piiride. Nõustame ka finantshalduse, ehitusfinantseerimise ja jahiehituse finantseerimise küsimustes — alati ambitsiooniga esindada teie huve nii, nagu need oleksid meie enda omad.",
+    "quote": "Me nõustame nii, nagu oleks kaalul meie enda ettevõte.",
+    "stat_1_label": "Asukohta maailmas",
+    "stat_2_label": "Tegevusvaldkonda",
+    "stat_3_label": "Riiki",
+    "quote_attribution": "Peter Fiegler, asutaja"
+  },
+  "services": {
+    "badge": "Teenused",
+    "headline": "Meie pädevus",
+    "subtitle": "Neli pädevusvaldkonda — üks kohustus: teie rahvusvaheliste ettevõtmiste õigsuse tagamine.",
+    "consulting": {
+      "title": "Äriõigus ja ettevõtete asutamine",
+      "description": "Meie põhipraktika: nõustame ettevõtete asutamise, struktureerimise ja juhtimise osas erinevates rahvusvahelistes jurisdiktsioonides. Esialgsest kontseptsioonist kuni õiguslikult kindla teostuseni seisame teie kõrval.",
+      "items": {
+        "0": "Äriõigus",
+        "1": "Rahvusvaheline ettevõtete asutamine"
+      }
+    },
+    "finance": {
+      "title": "Finantshaldus",
+      "description": "Selgus loob usaldust: võtame teie ettevõtte finantshalduse enda kanda ja loome läbipaistvad struktuurid, mis võimaldavad jätkusuutlikku kasvu.",
+      "items": {
+        "0": "Raamatupidamine ja aruandlus",
+        "1": "Strateegiline finantsplaneerimine"
+      }
+    },
+    "construction": {
+      "title": "Ehitusfinantseerimine",
+      "description": "Ehitusprojektid nõuavad rahalist usaldusväärsust. Struktureerime ja jälgime teie ehitusprojektide finantseerimist — algsest arvutusest kuni valmimiseni.",
+      "items": {
+        "0": "Projektide finantseerimine",
+        "1": "Investeeringute turvalisus"
+      }
+    },
+    "yacht": {
+      "title": "Jahiehituse finantseerimine",
+      "description": "Erilise segmendi jaoks eriline hoolitsus. Nõustame jahiehitusprojektide finantseerimise osas — diskreetselt, isiklikult ja tõelise valdkonnastandardite mõistmisega.",
+      "items": {
+        "0": "Jahifinantseerimine",
+        "1": "Isiklik nõustamine"
+      }
+    }
+  },
+  "approach": {
+    "badge": "Meie lähenemine",
+    "headline": "Mis meid eristab",
+    "values": {
+      "expertise": {
+        "title": "Rahvusvaheline pädevus",
+        "description": "Sügav arusaamine õigussüsteemidest, ärikultuuridest ja regulatiivsetest nüanssidest Euroopas, USA-s ja Kagu-Euroopas."
+      },
+      "personal": {
+        "title": "Isiklik lähedus",
+        "description": "Meie juures ei ole te kunagi lihtsalt toimiku number. Võtame aega, et mõista teie eesmärke ja töötada välja strateegiad, mis tõeliselt sobivad teie olukorraga."
+      },
+      "trust": {
+        "title": "Partnerlus võrdsetel tingimustel",
+        "description": "Mõtleme pikaajalises perspektiivis. Läbipaistvus, ausus ja mõõdetavad tulemused ei ole meile lihtsalt väärtused — need on kohustused."
+      }
+    }
+  },
+  "offices": {
+    "badge": "Kontorid",
+    "headline": "Teie turgude lähedal",
+    "subtitle": "Kolm asukohta, üks lubadus — isiklik nõustamine rahvusvahelise ulatusega.",
+    "hamburg": {
+      "city": "Hamburg",
+      "country": "Saksamaa",
+      "label": "Peakontor"
+    },
+    "belgrade": {
+      "city": "Belgrad",
+      "country": "Serbia",
+      "label": "Kagu-Euroopa"
+    },
+    "texas": {
+      "city": "Texas",
+      "country": "USA",
+      "label": "Põhja-Ameerika"
+    }
+  },
+  "contact": {
+    "badge": "Kontakt",
+    "headline": "Räägime",
+    "subtitle": "Olgu see esmane küsimus või konkreetne projekt — võtame teie jaoks aega.",
+    "phone": "Telefon",
+    "mobile": "Mobiil",
+    "email": "E-post",
+    "address": "Aadress",
+    "cta": "Saada e-kiri",
+    "dialog": {
+      "title": "Saada sõnum",
+      "panel_subtitle": "Ootame teie päringut ja vastame teile esimesel võimalusel.",
+      "name": "Nimi",
+      "name_placeholder": "Teie täisnimi",
+      "email": "E-posti aadress",
+      "email_placeholder": "teie@epost.ee",
+      "subject": "Teema",
+      "subject_placeholder": "Millest on jutt?",
+      "message": "Sõnum",
+      "message_placeholder": "Teie sõnum meile...",
+      "submit": "Saada sõnum",
+      "sending": "Saadab...",
+      "success_title": "Sõnum saadetud",
+      "success_text": "Täname! Võtame teiega peagi ühendust.",
+      "error_title": "Viga",
+      "error_text": "Sõnumit ei saanud saata. Palun proovige uuesti.",
+      "retry": "Proovi uuesti",
+      "close": "Sulge",
+      "required": "Kohustuslik väli",
+      "invalid_email": "Vigane e-posti aadress",
+      "error_network_text": "Please check your internet connection and try again.",
+      "error_timeout_text": "The server is not responding. Please try again later.",
+      "error_rate_limit_text": "Too many requests. Please wait a moment and try again."
+    }
+  },
+  "footer": {
+    "description": "FIECON Germany Co. KG — Rahvusvaheline nõustamine äriõiguse, ettevõtete asutamise ja muude valdkondade osas. Isiklik. Täpne. Partnerluslik.",
+    "services_title": "Teenused",
+    "offices_title": "Kontorid",
+    "legal_title": "Õigusalane",
+    "impressum": "Õigusteade",
+    "datenschutz": "Privaatsuspoliitika",
+    "copyright": "© {year} FIECON Germany Co. KG. Kõik õigused kaitstud."
+  },
+  "error": {
+    "title": "Tekkis viga",
+    "description": "Palun proovige uuesti või pöörduge tagasi avalehele.",
+    "retry": "Proovi uuesti"
+  },
+  "notFound": {
+    "title": "Lehte ei leitud",
+    "description": "Soovitud lehte ei ole olemas või see on teisaldatud.",
+    "back": "Tagasi avalehele"
+  },
+  "impressum": {
+    "title": "Õigusteade",
+    "info_title": "Teave vastavalt § 5 TMG",
+    "contact_title": "Kontakt",
+    "phone_label": "Telefon",
+    "mobile_label": "Mobiil",
+    "email_label": "E-post",
+    "homepage_label": "Koduleht",
+    "responsible_title": "Sisu eest vastutav vastavalt § 55 lõige 2 RStV",
+    "responsible_name": "Peter Fiegler",
+    "disclaimer_title": "Vastutuse välistamine",
+    "disclaimer_content_title": "Vastutus sisu eest",
+    "disclaimer_content_text": "Meie lehtede sisu on loodud suurima hoolega. Siiski ei saa me garanteerida sisu õigsust, täielikkust ega ajakohasust. Teenusepakkujana vastutame nendel lehtedel oma sisu eest vastavalt § 7 lõige 1 TMG üldiste seaduste kohaselt. Vastavalt §§ 8 kuni 10 TMG ei ole meil teenusepakkujana kohustust jälgida edastatud või salvestatud kolmanda osapoole teavet ega uurida asjaolusid, mis viitavad ebaseaduslikule tegevusele.",
+    "disclaimer_links_title": "Vastutus linkide eest",
+    "disclaimer_links_text": "Meie veebileht sisaldab linke välistele kolmandate osapoolte veebilehtedele, mille sisu üle meil puudub kontroll. Seetõttu ei saa me nende kolmandate osapoolte sisu eest vastutust võtta. Lingitud lehtede sisu eest vastutab alati vastav pakkuja või operaator. Lingitud lehti kontrolliti linkimise ajal võimalike õigusrikkumiste suhtes. Ebaseaduslikku sisu ei olnud linkimise ajal tuvastatav.",
+    "copyright_title": "Autoriõigus",
+    "copyright_text": "Nendel lehtedel olevad saidi operaatorite loodud sisu ja teosed on kaitstud Saksa autoriõiguse seadusega. Paljundamine, töötlemine, levitamine ja igasugune kasutamine väljaspool autoriõiguse seaduse piire nõuab vastava autori või looja kirjalikku nõusolekut."
+  },
+  "datenschutz": {
+    "title": "Privaatsuspoliitika",
+    "intro": "Suhtume teie isikuandmete kaitsesse väga tõsiselt. Käsitleme teie isikuandmeid konfidentsiaalselt ning kooskõlas kehtivate andmekaitseõigusaktide ja käesoleva privaatsuspoliitikaga.",
+    "section_1_title": "1. Vastutav isik",
+    "section_1_text": "Selle veebilehe andmetöötluse eest vastutav isik on:",
+    "section_2_title": "2. Isikuandmete kogumine ja töötlemine",
+    "section_2_text": "Meie veebilehe külastamisel kogutakse automaatselt üldist teavet. See teave (serveri logifailid) sisaldab veebibrauseri tüüpi, kasutatavat operatsioonisüsteemi, teie internetiteenuse pakkuja domeeninime, teie IP-aadressi ja sarnaseid andmeid. Tegemist on eranditult teabega, mis ei võimalda teie isiku tuvastamist.",
+    "section_2_legal_basis": "Andmetöötluse õiguslik alus on Art. 6 lõige 1 punkt f DSGVO. Meie õigustatud huvi seisneb meie veebilehe tõrgeteta toimimise tagamises.",
+    "section_2_retention": "Serveri logifailid kustutatakse automaatselt 14 päeva pärast.",
+    "section_3_title": "3. Kontakt",
+    "section_3_text": "Kui võtate meiega ühendust e-posti teel või kontaktvormi kaudu, salvestatakse teie andmed, sealhulgas teie esitatud kontaktandmed, päringu töötlemise ja võimalike järelküsimuste jaoks. Me ei jaga neid andmeid ilma teie nõusolekuta.",
+    "section_3_legal_basis": "Andmetöötluse õiguslik alus on Art. 6 lõige 1 punkt b DSGVO (lepingueelsed meetmed) või Art. 6 lõige 1 punkt f DSGVO (õigustatud huvi teie päringu töötlemisel).",
+    "section_3_retention": "Meiega ühenduse võtmisel edastatud andmed kustutatakse niipea, kui teie päring on lõplikult töödeldud ja seadusest tulenevad säilitamiskohustused ei ole kohaldatavad.",
+    "section_4_title": "4. E-posti edastamine",
+    "section_4_text": "E-kirjade saatmiseks meie kontaktvormi kaudu kasutame SMTP-meiliserveri. Teie sisestatud andmed (nimi, e-posti aadress, teema, sõnum) edastatakse meie e-posti teenuse pakkujale, kes edastab e-kirja meie nimel.",
+    "section_5_title": "5. Teie õigused",
+    "section_5_text_1": "Teil on seoses oma isikuandmetega järgmised õigused:",
+    "section_5_rights_0": "Õigus andmetele juurdepääsule (Art. 15 DSGVO)",
+    "section_5_rights_1": "Õigus parandamisele (Art. 16 DSGVO)",
+    "section_5_rights_2": "Õigus kustutamisele (Art. 17 DSGVO)",
+    "section_5_rights_3": "Õigus töötlemise piiramisele (Art. 18 DSGVO)",
+    "section_5_rights_4": "Õigus andmete ülekantavusele (Art. 20 DSGVO)",
+    "section_5_rights_5": "Õigus esitada vastuväide töötlemisele (Art. 21 DSGVO)",
+    "section_5_text_2": "Teil on samuti õigus esitada kaebus andmekaitse järelevalveasutusele seoses teie isikuandmete töötlemisega meie poolt.",
+    "section_6_title": "6. Küpsised",
+    "section_6_text": "Meie veebileht kasutab funktsionaalset küpsist (NEXT_LOCALE) teie keele-eelistuse salvestamiseks. See küpsis on tehniliselt vajalik ja ei nõua vastavalt § 25 lõige 2 TDDDG nõusolekut. Jälgimis- ega analüütilisi küpsiseid ei kasutata.",
+    "section_7_title": "7. Muudatused selles privaatsuspoliitikas",
+    "section_7_text": "See privaatsuspoliitika kehtib praegu. Meie veebilehe edasise arendamise või muutunud õiguslike ja regulatiivsete nõuete tõttu võib osutuda vajalikuks selle privaatsuspoliitika muutmine.",
+    "email_label": "E-post",
+    "contact_label": "Kontakt"
+  }
 }

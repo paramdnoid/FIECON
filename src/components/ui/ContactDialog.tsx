@@ -9,6 +9,7 @@ import {
 import { motion, AnimatePresence, useReducedMotion } from "motion/react";
 import { useTranslations } from "next-intl";
 import { CONTACT, COMPANY, LOGO_PATHS, EASE_OUT_EXPO } from "@/lib/constants";
+import { EMAIL_REGEX } from "@/lib/utils";
 import { useFocusTrap } from "@/hooks/useFocusTrap";
 import { FormField } from "./FormField";
 import { CloseButton } from "./CloseButton";
@@ -20,6 +21,7 @@ type Props = {
 };
 
 type FormState = "idle" | "sending" | "success" | "error";
+type ErrorKind = "network" | "timeout" | "rate_limit" | "server";
 
 type FieldErrors = {
   name?: string;
@@ -38,6 +40,7 @@ export function ContactDialog({ open, onClose }: Props) {
   const firstInputRef = useRef<HTMLInputElement>(null);
 
   const [formState, setFormState] = useState<FormState>("idle");
+  const [errorKind, setErrorKind] = useState<ErrorKind>("server");
   const [errors, setErrors] = useState<FieldErrors>({});
   const [form, setForm] = useState({
     name: "",
@@ -79,7 +82,7 @@ export function ContactDialog({ open, onClose }: Props) {
     if (!form.name.trim()) errs.name = t("required");
     if (!form.email.trim()) {
       errs.email = t("required");
-    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email)) {
+    } else if (!EMAIL_REGEX.test(form.email)) {
       errs.email = t("invalid_email");
     }
     if (!form.subject.trim()) errs.subject = t("required");
@@ -95,19 +98,34 @@ export function ContactDialog({ open, onClose }: Props) {
 
     setFormState("sending");
 
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 15_000);
+
     try {
       const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),
+        signal: controller.signal,
       });
 
-      if (!res.ok) throw new Error("Request failed");
+      if (!res.ok) {
+        setErrorKind(res.status === 429 ? "rate_limit" : "server");
+        setFormState("error");
+        return;
+      }
 
       setFormState("success");
       setForm({ name: "", email: "", subject: "", message: "" });
-    } catch {
+    } catch (err) {
+      setErrorKind(
+        err instanceof DOMException && err.name === "AbortError"
+          ? "timeout"
+          : "network",
+      );
       setFormState("error");
+    } finally {
+      clearTimeout(timeout);
     }
   }
 
@@ -246,7 +264,7 @@ export function ContactDialog({ open, onClose }: Props) {
                 {formState === "success" ? (
                   <SuccessView t={t} onClose={handleClose} />
                 ) : formState === "error" ? (
-                  <ErrorView t={t} onRetry={() => setFormState("idle")} />
+                  <ErrorView t={t} errorKind={errorKind} onRetry={() => setFormState("idle")} />
                 ) : (
                   <form onSubmit={handleSubmit} noValidate className="space-y-5">
                     {/* Name + Email row */}
@@ -385,11 +403,22 @@ function SuccessView({
 
 function ErrorView({
   t,
+  errorKind,
   onRetry,
 }: {
   t: (key: string) => string;
+  errorKind: ErrorKind;
   onRetry: () => void;
 }) {
+  const textKey =
+    errorKind === "network"
+      ? "error_network_text"
+      : errorKind === "timeout"
+        ? "error_timeout_text"
+        : errorKind === "rate_limit"
+          ? "error_rate_limit_text"
+          : "error_text";
+
   return (
     <div className="text-center py-12">
       <div className="mx-auto w-20 h-20 rounded-full bg-red-50 flex items-center justify-center mb-8">
@@ -414,7 +443,7 @@ function ErrorView({
         {t("error_title")}
       </h3>
       <p className="text-text-muted max-w-xs mx-auto mb-10 leading-relaxed">
-        {t("error_text")}
+        {t(textKey)}
       </p>
       <button
         type="button"

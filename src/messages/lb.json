@@ -1,25 +1,217 @@
 {
-  "language": { "title": "Sprooch wielen", "close": "Zoumaachen" },
+  "language": {
+    "title": "Sprooch wielen",
+    "close": "Zoumaachen"
+  },
   "metadata": {
     "title": "FIECON — International Gesellschaftsrecht & Firmengrënnung Berodung",
     "description": "FIECON Germany Co. KG — International Berodung fir Gesellschaftsrecht, Firmengrënnungen, Finanzverwaltung a Baufinanzéierung. Büroen an Hamburg, Belgrad an Texas."
   },
-  "nav": { "home": "Op d'Startsäit", "menu": "Menü opmaachen", "about": "Iwwer eis", "services": "Servicer", "approach": "Approche", "offices": "Büroen", "contact": "Kontakt", "navigation": "Navigatioun", "close_menu": "Menü zoumaachen" },
-  "hero": { "tagline": "Fiegler Consulting", "headline": "Äert Geschäft. International Beroden.", "subtitle": "Gesellschaftsrecht an international Firmengrënnungen — perséinlech Begleedung an Hamburg, Belgrad an Texas.", "cta_primary": "Eis Servicer", "cta_secondary": "Kontaktéiert eis" },
-  "about": { "badge": "Iwwer eis", "headline": "Visioun trëfft Suergfalt", "text_1": "FIECON steet fir international Berodung mat perséinlechem Asaz. Eis Kärkompetenz läit am Gesellschaftsrecht an an internationale Firmengrënnungen — Beräicher, wou Erfarung, Präzisioun a kulturellt Versteesdemech den Ënnerscheed maachen.", "text_2": "Vun Hamburg, Belgrad an Texas aus begleede mir Betriber iwwer Grenzen. Mir beroden och bei der Finanzverwaltung, Baufinanzéierung a Yachtbaufinanzéierung — ëmmer mat dem Ambitioun, Är Interessen ze vertrieden, wéi wann et eis eegen wieren.", "quote": "Mir beroden, wéi wann et eis eege Firma wier.", "stat_1_label": "Standuerter weltwäit", "stat_2_label": "Berodungsberäicher", "stat_3_label": "Länner", "quote_attribution": "Peter Fiegler, Grënner" },
-  "services": {
-    "badge": "Servicer", "headline": "Eis Expertise", "subtitle": "Véier Kompetenzberäicher — een Engagement: Är international Projeten richteg ëmzesetzen.",
-    "consulting": { "title": "Gesellschaftsrecht & Firmengrënnungen", "description": "Eise Käerberäich: mir beroden bei der Grënnung, Strukturéierung a Gouvernance vu Firmen an internationale Jurisdiktiounen. Vum éischten Konzept bis zur rechtlech fundéierter Ëmsetzung stinn mir Iech zur Säit.", "items": { "0": "Gesellschaftsrecht", "1": "International Firmengrënnungen" } },
-    "finance": { "title": "Finanzverwaltung", "description": "Kloerheet schafft Vertrauen: mir iwwerhuelen Är Finanzverwaltung a schafen transparent Strukturen, déi nohaltegt Wuesstem erméiglechen.", "items": { "0": "Buchhaltung & Berichterstattung", "1": "Strategesch Finanzplanung" } },
-    "construction": { "title": "Baufinanzéierung", "description": "Bauprojete verlaangen finanziell Zouverlässegkeet. Mir strukturéieren an iwwerwaachen d'Finanzéierung vun Äre Bauvirhuelen — vun der éischter Kalkulatioun bis zur Fäerdegstellung.", "items": { "0": "Projetfinanzéierung", "1": "Investitiounssécherheet" } },
-    "yacht": { "title": "Yachtbaufinanzéierung", "description": "En distinctive Segment verdéngt distinctive Betreiung. Mir beroden bei der Finanzéierung vu Yachtbauprojeten — diskret, perséinlech a mat engem echte Versteesdemech fir d'Standarden vun der Branche.", "items": { "0": "Yachtfinanzéierung", "1": "Perséinlech Berodung" } }
+  "nav": {
+    "home": "Op d'Startsäit",
+    "menu": "Menü opmaachen",
+    "about": "Iwwer eis",
+    "services": "Servicer",
+    "approach": "Approche",
+    "offices": "Büroen",
+    "contact": "Kontakt",
+    "navigation": "Navigatioun",
+    "close_menu": "Menü zoumaachen"
   },
-  "approach": { "badge": "Eisen Approche", "headline": "Wat eis ënnerscheet", "values": { "expertise": { "title": "International Expertise", "description": "Déift Versteesdemech vu Rechtssystemer, Geschäftskulturen a regulatoresche Nuancen an Europa, den USA a Südosteuropa." }, "personal": { "title": "Perséinlech Noperschaft", "description": "Bei eis sidd Dir ni nëmmen eng Dossiersnummer. Mir huelen eis Zäit, fir Är Ziler ze verstoen an Strategien z'entwéckelen, déi wierklech zu Ärer Situatioun passen." }, "trust": { "title": "Partnerschaft op Aenhéicht", "description": "Mir denken laangfristeg. Transparenz, Integritéit a moossbar Resultater sinn fir eis net nëmme Wäerter — et si Verflichtungen." } } },
-  "offices": { "badge": "Büroen", "headline": "No bei Äre Mäert", "subtitle": "Dräi Standuerter, ee Verspriechen — perséinlech Berodung mat internationaler Räichwäit.", "hamburg": { "city": "Hamburg", "country": "Däitschland", "label": "Haaptsëtz" }, "belgrade": { "city": "Belgrad", "country": "Serbien", "label": "Südosteuropa" }, "texas": { "city": "Texas", "country": "USA", "label": "Nordamerika" } },
-  "contact": { "badge": "Kontakt", "headline": "Loosst eis schwätzen", "subtitle": "Ob eng éischt Fro oder e konkreete Projet — mir huelen eis Zäit fir Iech.", "phone": "Telefon", "mobile": "Mobil", "email": "E-Mail", "address": "Adress", "cta": "E-Mail schécken", "dialog": { "title": "Noriicht schécken", "panel_subtitle": "Mir freeën eis op Är Ufro a mellen eis geschwënn bei Iech.", "name": "Numm", "name_placeholder": "Äre kompletten Numm", "email": "E-Mail Adress", "email_placeholder": "är@email.com", "subject": "Sujet", "subject_placeholder": "Wourëms geet et?", "message": "Noriicht", "message_placeholder": "Är Noriicht un eis...", "submit": "Noriicht schécken", "sending": "Gëtt geschéckt...", "success_title": "Noriicht geschéckt", "success_text": "Merci! Mir mellen eis geschwënn bei Iech.", "error_title": "Feeler", "error_text": "D'Noriicht konnt net geschéckt ginn. Probéiert w.e.g. nach eng Kéier.", "retry": "Nach eng Kéier probéieren", "close": "Zoumaachen", "required": "Obligatorescht Feld", "invalid_email": "Ongülteg E-Mail Adress" } },
-  "footer": { "description": "FIECON Germany Co. KG — International Berodung fir Gesellschaftsrecht, Firmengrënnungen a méi. Perséinlech. Prezis. Partnerschaftlech.", "services_title": "Servicer", "offices_title": "Büroen", "legal_title": "Rechtleches", "impressum": "Impressum", "datenschutz": "Dateschutz", "copyright": "© {year} FIECON Germany Co. KG. All Rechter virbehal." },
-  "error": { "title": "E Feeler ass opgetrueden", "description": "Probéiert w.e.g. nach eng Kéier oder gitt zréck op d'Startsäit.", "retry": "Nach eng Kéier probéieren" },
-  "notFound": { "title": "Säit net fonnt", "description": "Déi ugefrote Säit existéiert net oder gouf geréckelt.", "back": "Zréck op d'Startsäit" },
-  "impressum": { "title": "Impressum", "info_title": "Informatiounen no § 5 TMG", "contact_title": "Kontakt", "phone_label": "Telefon", "mobile_label": "Mobil", "email_label": "E-Mail", "homepage_label": "Homepage", "responsible_title": "Verantwortlech fir den Inhalt no § 55 Abs. 2 RStV", "responsible_name": "Peter Fiegler", "disclaimer_title": "Haftungsausschluss", "disclaimer_content_title": "Haftung fir Inhalter", "disclaimer_content_text": "D'Inhalter vun eise Säite goufe mat gréisster Suergfalt erstallt. Mir kënnen awer keng Garantie fir d'Richtegkeet, Vollständegkeet oder Aktualitéit vun den Inhalter iwwerhuelen. Als Déngschtleeschter si mir fir eis eegen Inhalter op dëse Säiten no § 7 Abs. 1 TMG no den allgemenge Gesetzer verantwortlech. No §§ 8 bis 10 TMG si mir als Déngschtleeschter awer net verflicht, iwwerdroe oder gespäichert Informatiounen vun Drëtten z'iwwerwaachen oder no Ëmstänn ze fuerschen, déi op eng illegal Aktivitéit hiweisen.", "disclaimer_links_title": "Haftung fir Linken", "disclaimer_links_text": "Eis Websäit enthält Linken op extern Websäite vu Drëtten, iwwer deenen hire Contenu mir kee Afloss hunn. Dofir kënne mir keng Haftung fir dës Inhalter vun Drëtten iwwerhuelen. De jeweilege Ubidder oder Bedreiwer vun de Säiten ass ëmmer verantwortlech fir den Inhalt vun de verlinkte Säiten. D'verlinkte Säite goufen zum Zäitpunkt vun der Verlinkung op méiglech Rechtsverstéiss iwwerpréift. Illegal Inhalter waren zum Zäitpunkt vun der Verlinkung net erkennbar.", "copyright_title": "Urheberrecht", "copyright_text": "D'Inhalter an d'Wierker, déi vun de Säitebedreiwer op dëse Säite geschaf goufen, ënnerleien dem däitsche Urheberrecht. D'Vervielfältegung, Beaarbechtung, Verdeelung an all Aart vu Verwäertung ausserhalb vun de Grenzen vum Urheberrecht erfuerderen d'schrëftlech Zoustëmmung vum jeweilegen Auteur oder Schëpfer." },
-  "datenschutz": { "title": "Dateschutzerkläerung", "intro": "Mir huelen de Schutz vun Ären perséinlechen Donnéeën ganz eescht. Mir behandelen Är perséinlech Donnéeë vertraulech an a Konformitéit mat de gesetzleche Dateschutzbestëmmungen an dëser Dateschutzerkläerung.", "section_1_title": "1. Verantwortlech Stell", "section_1_text": "Déi verantwortlech Stell fir d'Datenveraarbechtung op dëser Websäit ass:", "section_2_title": "2. Erfaassung a Veraarbechtung vu perséinlechen Donnéeën", "section_2_text": "Beim Besuch vun eiser Websäit ginn automatesch Informatiounen vun allgemenger Natur gesammelt. Dës Informatiounen (Server-Logdateien) enthalen den Typ vum Webbrowser, dat benotzt Betriibssystem, den Domainnumm vun Ärem Internetprovider, Är IP-Adress a ähnlech Detailer. Dëst sinn ausschliisslech Informatiounen, déi keng Réckschlëss op Är Persoun erméiglechen.", "section_2_legal_basis": "Déi rechtlech Grondlag fir d'Datenveraarbechtung ass Art. 6 Abs. 1 lit. f DSGVO. Eise berechtegten Interessi läit an der Gewährleeschtung vum stéierungsfreie Betrib vun eiser Websäit.", "section_2_retention": "Server-Logdateie ginn automatesch no 14 Deeg geläscht.", "section_3_title": "3. Kontakt", "section_3_text": "Wann Dir eis per E-Mail oder iwwer d'Kontaktformulaire kontaktéiert, ginn Är Ugaben inklusiv den ugegebene Kontaktdaten zum Zweck vun der Veraarbechtung vun der Ufro a fir de Fall vu Nofroe gespäichert. Mir ginn dës Donnéeën net weider ouni Är Zoustëmmung.", "section_3_legal_basis": "Déi rechtlech Grondlag fir d'Veraarbechtung vun den Donnéeën ass Art. 6 Abs. 1 lit. b DSGVO (virvertraglech Moossnahmen) oder Art. 6 Abs. 1 lit. f DSGVO (berechtegten Interessi un der Veraarbechtung vun Ärer Ufro).", "section_3_retention": "Donnéeën, déi am Kader vun der Kontaktopnahm iwwerdroe goufen, ginn geläscht, soubal Är Ufro ofschléissend behandelt ass an keng gesetzlech Opbewahrungspflichten bestinn.", "section_4_title": "4. E-Mail-Versand", "section_4_text": "Fir den E-Mail-Versand iwwer eist Kontaktformulaire benotze mir en SMTP-Mailserver. D'Donnéeën, déi Dir agitt (Numm, E-Mail-Adress, Sujet, Noriicht), ginn un eisen E-Mail-Provider iwwerdroe, deen d'E-Mail an eisem Numm liwwert.", "section_5_title": "5. Är Rechter", "section_5_text_1": "Dir hutt folgend Rechter betreffend Är perséinlech Donnéeën:", "section_5_rights_0": "Recht op Auskunft (Art. 15 DSGVO)", "section_5_rights_1": "Recht op Berichtegung (Art. 16 DSGVO)", "section_5_rights_2": "Recht op Läschung (Art. 17 DSGVO)", "section_5_rights_3": "Recht op Aschränkung vun der Veraarbechtung (Art. 18 DSGVO)", "section_5_rights_4": "Recht op Dateniwwerdroung (Art. 20 DSGVO)", "section_5_rights_5": "Recht op Widdersproch géint d'Veraarbechtung (Art. 21 DSGVO)", "section_5_text_2": "Dir hutt och d'Recht, eng Beschwéird bei enger Dateschutz-Opsiichtsbehéird iwwer d'Veraarbechtung vun Ären perséinleche Donnéeën duerch eis anzerechen.", "section_6_title": "6. Cookien", "section_6_text": "Eis Websäit benotzt e funktionelle Cookie (NEXT_LOCALE), fir Är Sproochpreferenz ze späicheren. Dëse Cookie ass technesch néideg a brauch keng Zoustëmmung no § 25 Abs. 2 TDDDG. Et ginn keng Tracking- oder Analyse-Cookien benotzt.", "section_7_title": "7. Ännerungen un dëser Dateschutzerkläerung", "section_7_text": "Dës Dateschutzerkläerung ass aktuell gülteg. Duerch d'Weiderentwécklung vun eiser Websäit oder opgrond vun geännerten gesetzleche respektiv regulatoresche Viraussetzunge kann et néideg ginn, dës Dateschutzerkläerung unzepassen.", "email_label": "E-Mail", "contact_label": "Kontakt" }
+  "hero": {
+    "tagline": "Fiegler Consulting",
+    "headline": "Äert Geschäft. International Beroden.",
+    "subtitle": "Gesellschaftsrecht an international Firmengrënnungen — perséinlech Begleedung an Hamburg, Belgrad an Texas.",
+    "cta_primary": "Eis Servicer",
+    "cta_secondary": "Kontaktéiert eis"
+  },
+  "about": {
+    "badge": "Iwwer eis",
+    "headline": "Visioun trëfft Suergfalt",
+    "text_1": "FIECON steet fir international Berodung mat perséinlechem Asaz. Eis Kärkompetenz läit am Gesellschaftsrecht an an internationale Firmengrënnungen — Beräicher, wou Erfarung, Präzisioun a kulturellt Versteesdemech den Ënnerscheed maachen.",
+    "text_2": "Vun Hamburg, Belgrad an Texas aus begleede mir Betriber iwwer Grenzen. Mir beroden och bei der Finanzverwaltung, Baufinanzéierung a Yachtbaufinanzéierung — ëmmer mat dem Ambitioun, Är Interessen ze vertrieden, wéi wann et eis eegen wieren.",
+    "quote": "Mir beroden, wéi wann et eis eege Firma wier.",
+    "stat_1_label": "Standuerter weltwäit",
+    "stat_2_label": "Berodungsberäicher",
+    "stat_3_label": "Länner",
+    "quote_attribution": "Peter Fiegler, Grënner"
+  },
+  "services": {
+    "badge": "Servicer",
+    "headline": "Eis Expertise",
+    "subtitle": "Véier Kompetenzberäicher — een Engagement: Är international Projeten richteg ëmzesetzen.",
+    "consulting": {
+      "title": "Gesellschaftsrecht & Firmengrënnungen",
+      "description": "Eise Käerberäich: mir beroden bei der Grënnung, Strukturéierung a Gouvernance vu Firmen an internationale Jurisdiktiounen. Vum éischten Konzept bis zur rechtlech fundéierter Ëmsetzung stinn mir Iech zur Säit.",
+      "items": {
+        "0": "Gesellschaftsrecht",
+        "1": "International Firmengrënnungen"
+      }
+    },
+    "finance": {
+      "title": "Finanzverwaltung",
+      "description": "Kloerheet schafft Vertrauen: mir iwwerhuelen Är Finanzverwaltung a schafen transparent Strukturen, déi nohaltegt Wuesstem erméiglechen.",
+      "items": {
+        "0": "Buchhaltung & Berichterstattung",
+        "1": "Strategesch Finanzplanung"
+      }
+    },
+    "construction": {
+      "title": "Baufinanzéierung",
+      "description": "Bauprojete verlaangen finanziell Zouverlässegkeet. Mir strukturéieren an iwwerwaachen d'Finanzéierung vun Äre Bauvirhuelen — vun der éischter Kalkulatioun bis zur Fäerdegstellung.",
+      "items": {
+        "0": "Projetfinanzéierung",
+        "1": "Investitiounssécherheet"
+      }
+    },
+    "yacht": {
+      "title": "Yachtbaufinanzéierung",
+      "description": "En distinctive Segment verdéngt distinctive Betreiung. Mir beroden bei der Finanzéierung vu Yachtbauprojeten — diskret, perséinlech a mat engem echte Versteesdemech fir d'Standarden vun der Branche.",
+      "items": {
+        "0": "Yachtfinanzéierung",
+        "1": "Perséinlech Berodung"
+      }
+    }
+  },
+  "approach": {
+    "badge": "Eisen Approche",
+    "headline": "Wat eis ënnerscheet",
+    "values": {
+      "expertise": {
+        "title": "International Expertise",
+        "description": "Déift Versteesdemech vu Rechtssystemer, Geschäftskulturen a regulatoresche Nuancen an Europa, den USA a Südosteuropa."
+      },
+      "personal": {
+        "title": "Perséinlech Noperschaft",
+        "description": "Bei eis sidd Dir ni nëmmen eng Dossiersnummer. Mir huelen eis Zäit, fir Är Ziler ze verstoen an Strategien z'entwéckelen, déi wierklech zu Ärer Situatioun passen."
+      },
+      "trust": {
+        "title": "Partnerschaft op Aenhéicht",
+        "description": "Mir denken laangfristeg. Transparenz, Integritéit a moossbar Resultater sinn fir eis net nëmme Wäerter — et si Verflichtungen."
+      }
+    }
+  },
+  "offices": {
+    "badge": "Büroen",
+    "headline": "No bei Äre Mäert",
+    "subtitle": "Dräi Standuerter, ee Verspriechen — perséinlech Berodung mat internationaler Räichwäit.",
+    "hamburg": {
+      "city": "Hamburg",
+      "country": "Däitschland",
+      "label": "Haaptsëtz"
+    },
+    "belgrade": {
+      "city": "Belgrad",
+      "country": "Serbien",
+      "label": "Südosteuropa"
+    },
+    "texas": {
+      "city": "Texas",
+      "country": "USA",
+      "label": "Nordamerika"
+    }
+  },
+  "contact": {
+    "badge": "Kontakt",
+    "headline": "Loosst eis schwätzen",
+    "subtitle": "Ob eng éischt Fro oder e konkreete Projet — mir huelen eis Zäit fir Iech.",
+    "phone": "Telefon",
+    "mobile": "Mobil",
+    "email": "E-Mail",
+    "address": "Adress",
+    "cta": "E-Mail schécken",
+    "dialog": {
+      "title": "Noriicht schécken",
+      "panel_subtitle": "Mir freeën eis op Är Ufro a mellen eis geschwënn bei Iech.",
+      "name": "Numm",
+      "name_placeholder": "Äre kompletten Numm",
+      "email": "E-Mail Adress",
+      "email_placeholder": "är@email.com",
+      "subject": "Sujet",
+      "subject_placeholder": "Wourëms geet et?",
+      "message": "Noriicht",
+      "message_placeholder": "Är Noriicht un eis...",
+      "submit": "Noriicht schécken",
+      "sending": "Gëtt geschéckt...",
+      "success_title": "Noriicht geschéckt",
+      "success_text": "Merci! Mir mellen eis geschwënn bei Iech.",
+      "error_title": "Feeler",
+      "error_text": "D'Noriicht konnt net geschéckt ginn. Probéiert w.e.g. nach eng Kéier.",
+      "retry": "Nach eng Kéier probéieren",
+      "close": "Zoumaachen",
+      "required": "Obligatorescht Feld",
+      "invalid_email": "Ongülteg E-Mail Adress",
+      "error_network_text": "Please check your internet connection and try again.",
+      "error_timeout_text": "The server is not responding. Please try again later.",
+      "error_rate_limit_text": "Too many requests. Please wait a moment and try again."
+    }
+  },
+  "footer": {
+    "description": "FIECON Germany Co. KG — International Berodung fir Gesellschaftsrecht, Firmengrënnungen a méi. Perséinlech. Prezis. Partnerschaftlech.",
+    "services_title": "Servicer",
+    "offices_title": "Büroen",
+    "legal_title": "Rechtleches",
+    "impressum": "Impressum",
+    "datenschutz": "Dateschutz",
+    "copyright": "© {year} FIECON Germany Co. KG. All Rechter virbehal."
+  },
+  "error": {
+    "title": "E Feeler ass opgetrueden",
+    "description": "Probéiert w.e.g. nach eng Kéier oder gitt zréck op d'Startsäit.",
+    "retry": "Nach eng Kéier probéieren"
+  },
+  "notFound": {
+    "title": "Säit net fonnt",
+    "description": "Déi ugefrote Säit existéiert net oder gouf geréckelt.",
+    "back": "Zréck op d'Startsäit"
+  },
+  "impressum": {
+    "title": "Impressum",
+    "info_title": "Informatiounen no § 5 TMG",
+    "contact_title": "Kontakt",
+    "phone_label": "Telefon",
+    "mobile_label": "Mobil",
+    "email_label": "E-Mail",
+    "homepage_label": "Homepage",
+    "responsible_title": "Verantwortlech fir den Inhalt no § 55 Abs. 2 RStV",
+    "responsible_name": "Peter Fiegler",
+    "disclaimer_title": "Haftungsausschluss",
+    "disclaimer_content_title": "Haftung fir Inhalter",
+    "disclaimer_content_text": "D'Inhalter vun eise Säite goufe mat gréisster Suergfalt erstallt. Mir kënnen awer keng Garantie fir d'Richtegkeet, Vollständegkeet oder Aktualitéit vun den Inhalter iwwerhuelen. Als Déngschtleeschter si mir fir eis eegen Inhalter op dëse Säiten no § 7 Abs. 1 TMG no den allgemenge Gesetzer verantwortlech. No §§ 8 bis 10 TMG si mir als Déngschtleeschter awer net verflicht, iwwerdroe oder gespäichert Informatiounen vun Drëtten z'iwwerwaachen oder no Ëmstänn ze fuerschen, déi op eng illegal Aktivitéit hiweisen.",
+    "disclaimer_links_title": "Haftung fir Linken",
+    "disclaimer_links_text": "Eis Websäit enthält Linken op extern Websäite vu Drëtten, iwwer deenen hire Contenu mir kee Afloss hunn. Dofir kënne mir keng Haftung fir dës Inhalter vun Drëtten iwwerhuelen. De jeweilege Ubidder oder Bedreiwer vun de Säiten ass ëmmer verantwortlech fir den Inhalt vun de verlinkte Säiten. D'verlinkte Säite goufen zum Zäitpunkt vun der Verlinkung op méiglech Rechtsverstéiss iwwerpréift. Illegal Inhalter waren zum Zäitpunkt vun der Verlinkung net erkennbar.",
+    "copyright_title": "Urheberrecht",
+    "copyright_text": "D'Inhalter an d'Wierker, déi vun de Säitebedreiwer op dëse Säite geschaf goufen, ënnerleien dem däitsche Urheberrecht. D'Vervielfältegung, Beaarbechtung, Verdeelung an all Aart vu Verwäertung ausserhalb vun de Grenzen vum Urheberrecht erfuerderen d'schrëftlech Zoustëmmung vum jeweilegen Auteur oder Schëpfer."
+  },
+  "datenschutz": {
+    "title": "Dateschutzerkläerung",
+    "intro": "Mir huelen de Schutz vun Ären perséinlechen Donnéeën ganz eescht. Mir behandelen Är perséinlech Donnéeë vertraulech an a Konformitéit mat de gesetzleche Dateschutzbestëmmungen an dëser Dateschutzerkläerung.",
+    "section_1_title": "1. Verantwortlech Stell",
+    "section_1_text": "Déi verantwortlech Stell fir d'Datenveraarbechtung op dëser Websäit ass:",
+    "section_2_title": "2. Erfaassung a Veraarbechtung vu perséinlechen Donnéeën",
+    "section_2_text": "Beim Besuch vun eiser Websäit ginn automatesch Informatiounen vun allgemenger Natur gesammelt. Dës Informatiounen (Server-Logdateien) enthalen den Typ vum Webbrowser, dat benotzt Betriibssystem, den Domainnumm vun Ärem Internetprovider, Är IP-Adress a ähnlech Detailer. Dëst sinn ausschliisslech Informatiounen, déi keng Réckschlëss op Är Persoun erméiglechen.",
+    "section_2_legal_basis": "Déi rechtlech Grondlag fir d'Datenveraarbechtung ass Art. 6 Abs. 1 lit. f DSGVO. Eise berechtegten Interessi läit an der Gewährleeschtung vum stéierungsfreie Betrib vun eiser Websäit.",
+    "section_2_retention": "Server-Logdateie ginn automatesch no 14 Deeg geläscht.",
+    "section_3_title": "3. Kontakt",
+    "section_3_text": "Wann Dir eis per E-Mail oder iwwer d'Kontaktformulaire kontaktéiert, ginn Är Ugaben inklusiv den ugegebene Kontaktdaten zum Zweck vun der Veraarbechtung vun der Ufro a fir de Fall vu Nofroe gespäichert. Mir ginn dës Donnéeën net weider ouni Är Zoustëmmung.",
+    "section_3_legal_basis": "Déi rechtlech Grondlag fir d'Veraarbechtung vun den Donnéeën ass Art. 6 Abs. 1 lit. b DSGVO (virvertraglech Moossnahmen) oder Art. 6 Abs. 1 lit. f DSGVO (berechtegten Interessi un der Veraarbechtung vun Ärer Ufro).",
+    "section_3_retention": "Donnéeën, déi am Kader vun der Kontaktopnahm iwwerdroe goufen, ginn geläscht, soubal Är Ufro ofschléissend behandelt ass an keng gesetzlech Opbewahrungspflichten bestinn.",
+    "section_4_title": "4. E-Mail-Versand",
+    "section_4_text": "Fir den E-Mail-Versand iwwer eist Kontaktformulaire benotze mir en SMTP-Mailserver. D'Donnéeën, déi Dir agitt (Numm, E-Mail-Adress, Sujet, Noriicht), ginn un eisen E-Mail-Provider iwwerdroe, deen d'E-Mail an eisem Numm liwwert.",
+    "section_5_title": "5. Är Rechter",
+    "section_5_text_1": "Dir hutt folgend Rechter betreffend Är perséinlech Donnéeën:",
+    "section_5_rights_0": "Recht op Auskunft (Art. 15 DSGVO)",
+    "section_5_rights_1": "Recht op Berichtegung (Art. 16 DSGVO)",
+    "section_5_rights_2": "Recht op Läschung (Art. 17 DSGVO)",
+    "section_5_rights_3": "Recht op Aschränkung vun der Veraarbechtung (Art. 18 DSGVO)",
+    "section_5_rights_4": "Recht op Dateniwwerdroung (Art. 20 DSGVO)",
+    "section_5_rights_5": "Recht op Widdersproch géint d'Veraarbechtung (Art. 21 DSGVO)",
+    "section_5_text_2": "Dir hutt och d'Recht, eng Beschwéird bei enger Dateschutz-Opsiichtsbehéird iwwer d'Veraarbechtung vun Ären perséinleche Donnéeën duerch eis anzerechen.",
+    "section_6_title": "6. Cookien",
+    "section_6_text": "Eis Websäit benotzt e funktionelle Cookie (NEXT_LOCALE), fir Är Sproochpreferenz ze späicheren. Dëse Cookie ass technesch néideg a brauch keng Zoustëmmung no § 25 Abs. 2 TDDDG. Et ginn keng Tracking- oder Analyse-Cookien benotzt.",
+    "section_7_title": "7. Ännerungen un dëser Dateschutzerkläerung",
+    "section_7_text": "Dës Dateschutzerkläerung ass aktuell gülteg. Duerch d'Weiderentwécklung vun eiser Websäit oder opgrond vun geännerten gesetzleche respektiv regulatoresche Viraussetzunge kann et néideg ginn, dës Dateschutzerkläerung unzepassen.",
+    "email_label": "E-Mail",
+    "contact_label": "Kontakt"
+  }
 }

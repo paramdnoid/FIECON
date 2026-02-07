@@ -1,25 +1,217 @@
 {
-  "language": { "title": "Escoller idioma", "close": "Pechar" },
+  "language": {
+    "title": "Escoller idioma",
+    "close": "Pechar"
+  },
   "metadata": {
     "title": "FIECON — Asesoría Internacional en Dereito Societario e Constitución de Empresas",
     "description": "FIECON Germany Co. KG — Asesoría internacional en dereito societario, constitución de empresas, administración financeira e financiamento da construción. Oficinas en Hamburgo, Belgrado e Texas."
   },
-  "nav": { "home": "Ir á páxina de inicio", "menu": "Abrir menú", "about": "Sobre nós", "services": "Servizos", "approach": "Enfoque", "offices": "Oficinas", "contact": "Contacto", "navigation": "Navegación", "close_menu": "Pechar menú" },
-  "hero": { "tagline": "Fiegler Consulting", "headline": "O seu negocio. Asesorado internacionalmente.", "subtitle": "Dereito societario e constitución internacional de empresas — asesoramento persoal en Hamburgo, Belgrado e Texas.", "cta_primary": "Os nosos servizos", "cta_secondary": "Contacte connosco" },
-  "about": { "badge": "Sobre nós", "headline": "Visión e dilixencia", "text_1": "FIECON representa asesoría internacional con compromiso persoal. A nosa competencia principal reside no dereito societario e na constitución internacional de empresas — ámbitos onde a experiencia, a precisión e a comprensión cultural fan a diferenza.", "text_2": "Dende Hamburgo, Belgrado e Texas, guiamos empresas alén das fronteiras. Tamén asesoramos en administración financeira, financiamento da construción e financiamento da construción de iates — sempre coa ambición de representar os seus intereses coma se fosen os nosos.", "quote": "Asesoramos coma se fose a nosa propia empresa.", "stat_1_label": "Localizacións no mundo", "stat_2_label": "Áreas de práctica", "stat_3_label": "Países", "quote_attribution": "Peter Fiegler, Fundador" },
-  "services": {
-    "badge": "Servizos", "headline": "A nosa experiencia", "subtitle": "Catro áreas de competencia — un compromiso: facer ben os seus proxectos internacionais.",
-    "consulting": { "title": "Dereito Societario e Constitución de Empresas", "description": "A nosa práctica principal: asesoramos na constitución, estruturación e gobernanza de empresas en xurisdicións internacionais. Dende o concepto inicial ata a implementación xurídicamente sólida, estamos ao seu lado.", "items": { "0": "Dereito Societario", "1": "Constitución Internacional de Empresas" } },
-    "finance": { "title": "Administración Financeira", "description": "A claridade xera confianza: encargámonos da súa administración financeira corporativa e creamos as estruturas transparentes que permiten un crecemento sustentable.", "items": { "0": "Contabilidade e informes", "1": "Planificación financeira estratéxica" } },
-    "construction": { "title": "Financiamento da Construción", "description": "Os proxectos de construción esixen fiabilidade financeira. Estruturamos e supervisamos o financiamento dos seus proxectos de construción — dende o cálculo inicial ata a finalización.", "items": { "0": "Financiamento de proxectos", "1": "Seguridade de investimento" } },
-    "yacht": { "title": "Financiamento de Construción de Iates", "description": "Un segmento distintivo merece unha atención distintiva. Asesoramos no financiamento de proxectos de construción de iates — con discreción, persoalmente e cunha comprensión xenuína dos estándares do sector.", "items": { "0": "Financiamento de iates", "1": "Asesoramento persoal" } }
+  "nav": {
+    "home": "Ir á páxina de inicio",
+    "menu": "Abrir menú",
+    "about": "Sobre nós",
+    "services": "Servizos",
+    "approach": "Enfoque",
+    "offices": "Oficinas",
+    "contact": "Contacto",
+    "navigation": "Navegación",
+    "close_menu": "Pechar menú"
   },
-  "approach": { "badge": "O noso enfoque", "headline": "Que nos diferencia", "values": { "expertise": { "title": "Experiencia internacional", "description": "Comprensión profunda dos sistemas xurídicos, culturas empresariais e matices regulatorios en Europa, os EUA e o sueste de Europa." }, "personal": { "title": "Proximidade persoal", "description": "Connosco, vostede nunca é só un número de expediente. Tomamos o tempo para entender os seus obxectivos e desenvolver estratexias que realmente se axusten á súa situación." }, "trust": { "title": "Colaboración en igualdade de condicións", "description": "Pensamos a longo prazo. A transparencia, a integridade e os resultados medibles non son só valores para nós — son compromisos." } } },
-  "offices": { "badge": "Oficinas", "headline": "Preto dos seus mercados", "subtitle": "Tres localizacións, unha promesa — asesoramento persoal con alcance internacional.", "hamburg": { "city": "Hamburgo", "country": "Alemaña", "label": "Sede central" }, "belgrade": { "city": "Belgrado", "country": "Serbia", "label": "Sueste de Europa" }, "texas": { "city": "Texas", "country": "EUA", "label": "América do Norte" } },
-  "contact": { "badge": "Contacto", "headline": "Falemos", "subtitle": "Sexa unha primeira consulta ou un proxecto concreto — dedicamos o tempo necesario para vostede.", "phone": "Teléfono", "mobile": "Móbil", "email": "Correo electrónico", "address": "Enderezo", "cta": "Enviar correo electrónico", "dialog": { "title": "Enviar mensaxe", "panel_subtitle": "Agardamos a súa consulta e responderémoslle axiña.", "name": "Nome", "name_placeholder": "O seu nome completo", "email": "Enderezo de correo electrónico", "email_placeholder": "o-seu@correo.com", "subject": "Asunto", "subject_placeholder": "De que se trata?", "message": "Mensaxe", "message_placeholder": "A súa mensaxe para nós...", "submit": "Enviar mensaxe", "sending": "Enviando...", "success_title": "Mensaxe enviada", "success_text": "Grazas! Responderémoslle en breve.", "error_title": "Erro", "error_text": "Non se puido enviar a mensaxe. Por favor, inténteo de novo.", "retry": "Intentar de novo", "close": "Pechar", "required": "Campo obrigatorio", "invalid_email": "Enderezo de correo electrónico non válido" } },
-  "footer": { "description": "FIECON Germany Co. KG — Asesoría internacional en dereito societario, constitución de empresas e moito máis. Persoal. Preciso. Colaborativo.", "services_title": "Servizos", "offices_title": "Oficinas", "legal_title": "Legal", "impressum": "Aviso legal", "datenschutz": "Política de privacidade", "copyright": "© {year} FIECON Germany Co. KG. Todos os dereitos reservados." },
-  "error": { "title": "Produciuse un erro", "description": "Por favor, inténteo de novo ou volva á páxina de inicio.", "retry": "Intentar de novo" },
-  "notFound": { "title": "Páxina non atopada", "description": "A páxina solicitada non existe ou foi trasladada.", "back": "Volver á páxina de inicio" },
-  "impressum": { "title": "Aviso Legal", "info_title": "Información segundo § 5 TMG", "contact_title": "Contacto", "phone_label": "Teléfono", "mobile_label": "Móbil", "email_label": "Correo electrónico", "homepage_label": "Páxina web", "responsible_title": "Responsable do contido segundo § 55 par. 2 RStV", "responsible_name": "Peter Fiegler", "disclaimer_title": "Aviso legal", "disclaimer_content_title": "Responsabilidade polo contido", "disclaimer_content_text": "Os contidos das nosas páxinas foron creados co maior coidado. Non obstante, non podemos garantir a exactitude, integridade ou actualidade dos contidos. Como provedores de servizos, somos responsables dos nosos propios contidos nestas páxinas de acordo co § 7 par. 1 TMG segundo a lexislación xeral. Segundo §§ 8 a 10 TMG, non obstante, como provedores de servizos non estamos obrigados a supervisar a información transmitida ou almacenada de terceiros nin a investigar circunstancias que indiquen actividade ilegal.", "disclaimer_links_title": "Responsabilidade polas ligazóns", "disclaimer_links_text": "O noso sitio web contén ligazóns a sitios web externos de terceiros sobre cuxo contido non temos influencia. Polo tanto, non podemos asumir ningunha responsabilidade por este contido de terceiros. O provedor ou operador respectivo das páxinas é sempre responsable do contido das páxinas enlazadas. As páxinas enlazadas foron verificadas para posibles infraccións legais no momento da vinculación. Non se recoñeceu contido ilegal no momento da vinculación.", "copyright_title": "Dereitos de autor", "copyright_text": "O contido e as obras creadas polos operadores do sitio nestas páxinas están suxeitos á lei alemá de dereitos de autor. A reprodución, edición, distribución e calquera tipo de explotación fóra dos límites da lei de dereitos de autor requiren o consentimento por escrito do respectivo autor ou creador." },
-  "datenschutz": { "title": "Política de Privacidade", "intro": "Tomamos moi en serio a protección dos seus datos persoais. Tratamos os seus datos persoais de forma confidencial e de acordo coas disposicións legais de protección de datos e esta política de privacidade.", "section_1_title": "1. Entidade responsable", "section_1_text": "A entidade responsable do tratamento de datos neste sitio web é:", "section_2_title": "2. Recollida e tratamento de datos persoais", "section_2_text": "Ao visitar o noso sitio web, recóllese automaticamente información de carácter xeral. Esta información (ficheiros de rexistro do servidor) inclúe o tipo de navegador web, o sistema operativo utilizado, o nome de dominio do seu provedor de Internet, o seu enderezo IP e detalles similares. Esta é exclusivamente información que non permite ningunha conclusión sobre a súa persoa.", "section_2_legal_basis": "A base legal para o tratamento de datos é o Art. 6 par. 1 lit. f DSGVO. O noso interese lexítimo reside en garantir o funcionamento sen problemas do noso sitio web.", "section_2_retention": "Os ficheiros de rexistro do servidor elimínanse automaticamente despois de 14 días.", "section_3_title": "3. Contacto", "section_3_text": "Se contacta connosco por correo electrónico ou a través do formulario de contacto, os seus datos, incluídos os datos de contacto proporcionados, almacenaranse co propósito de procesar a consulta e en caso de preguntas posteriores. Non compartiremos estes datos sen o seu consentimento.", "section_3_legal_basis": "A base legal para o tratamento dos datos é o Art. 6 par. 1 lit. b DSGVO (medidas precontractuais) ou o Art. 6 par. 1 lit. f DSGVO (interese lexítimo no tratamento da súa consulta).", "section_3_retention": "Os datos transmitidos no curso do contacto eliminaranse tan pronto como a súa consulta fose tratada de forma concluínte e non se apliquen obrigacións de conservación legais.", "section_4_title": "4. Envío de correo electrónico", "section_4_text": "Para o envío de correos electrónicos a través do noso formulario de contacto, utilizamos un servidor de correo SMTP. Os datos que introduce (nome, enderezo de correo electrónico, asunto, mensaxe) transmítense ao noso provedor de correo electrónico, que entrega o correo electrónico no noso nome.", "section_5_title": "5. Os seus dereitos", "section_5_text_1": "Vostede ten os seguintes dereitos respecto aos seus datos persoais:", "section_5_rights_0": "Dereito de acceso (Art. 15 DSGVO)", "section_5_rights_1": "Dereito de rectificación (Art. 16 DSGVO)", "section_5_rights_2": "Dereito de supresión (Art. 17 DSGVO)", "section_5_rights_3": "Dereito á limitación do tratamento (Art. 18 DSGVO)", "section_5_rights_4": "Dereito á portabilidade dos datos (Art. 20 DSGVO)", "section_5_rights_5": "Dereito de oposición ao tratamento (Art. 21 DSGVO)", "section_5_text_2": "Tamén ten dereito a presentar unha reclamación ante unha autoridade de supervisión de protección de datos sobre o tratamento dos seus datos persoais por parte nosa.", "section_6_title": "6. Cookies", "section_6_text": "O noso sitio web utiliza unha cookie funcional (NEXT_LOCALE) para almacenar a súa preferencia de idioma. Esta cookie é tecnicamente necesaria e non require consentimento segundo § 25 par. 2 TDDDG. Non se utilizan cookies de seguimento nin de análise.", "section_7_title": "7. Cambios nesta política de privacidade", "section_7_text": "Esta política de privacidade é válida actualmente. Debido ao desenvolvemento continuo do noso sitio web ou debido a requisitos legais ou regulatorios modificados, pode ser necesario modificar esta política de privacidade.", "email_label": "Correo electrónico", "contact_label": "Contacto" }
+  "hero": {
+    "tagline": "Fiegler Consulting",
+    "headline": "O seu negocio. Asesorado internacionalmente.",
+    "subtitle": "Dereito societario e constitución internacional de empresas — asesoramento persoal en Hamburgo, Belgrado e Texas.",
+    "cta_primary": "Os nosos servizos",
+    "cta_secondary": "Contacte connosco"
+  },
+  "about": {
+    "badge": "Sobre nós",
+    "headline": "Visión e dilixencia",
+    "text_1": "FIECON representa asesoría internacional con compromiso persoal. A nosa competencia principal reside no dereito societario e na constitución internacional de empresas — ámbitos onde a experiencia, a precisión e a comprensión cultural fan a diferenza.",
+    "text_2": "Dende Hamburgo, Belgrado e Texas, guiamos empresas alén das fronteiras. Tamén asesoramos en administración financeira, financiamento da construción e financiamento da construción de iates — sempre coa ambición de representar os seus intereses coma se fosen os nosos.",
+    "quote": "Asesoramos coma se fose a nosa propia empresa.",
+    "stat_1_label": "Localizacións no mundo",
+    "stat_2_label": "Áreas de práctica",
+    "stat_3_label": "Países",
+    "quote_attribution": "Peter Fiegler, Fundador"
+  },
+  "services": {
+    "badge": "Servizos",
+    "headline": "A nosa experiencia",
+    "subtitle": "Catro áreas de competencia — un compromiso: facer ben os seus proxectos internacionais.",
+    "consulting": {
+      "title": "Dereito Societario e Constitución de Empresas",
+      "description": "A nosa práctica principal: asesoramos na constitución, estruturación e gobernanza de empresas en xurisdicións internacionais. Dende o concepto inicial ata a implementación xurídicamente sólida, estamos ao seu lado.",
+      "items": {
+        "0": "Dereito Societario",
+        "1": "Constitución Internacional de Empresas"
+      }
+    },
+    "finance": {
+      "title": "Administración Financeira",
+      "description": "A claridade xera confianza: encargámonos da súa administración financeira corporativa e creamos as estruturas transparentes que permiten un crecemento sustentable.",
+      "items": {
+        "0": "Contabilidade e informes",
+        "1": "Planificación financeira estratéxica"
+      }
+    },
+    "construction": {
+      "title": "Financiamento da Construción",
+      "description": "Os proxectos de construción esixen fiabilidade financeira. Estruturamos e supervisamos o financiamento dos seus proxectos de construción — dende o cálculo inicial ata a finalización.",
+      "items": {
+        "0": "Financiamento de proxectos",
+        "1": "Seguridade de investimento"
+      }
+    },
+    "yacht": {
+      "title": "Financiamento de Construción de Iates",
+      "description": "Un segmento distintivo merece unha atención distintiva. Asesoramos no financiamento de proxectos de construción de iates — con discreción, persoalmente e cunha comprensión xenuína dos estándares do sector.",
+      "items": {
+        "0": "Financiamento de iates",
+        "1": "Asesoramento persoal"
+      }
+    }
+  },
+  "approach": {
+    "badge": "O noso enfoque",
+    "headline": "Que nos diferencia",
+    "values": {
+      "expertise": {
+        "title": "Experiencia internacional",
+        "description": "Comprensión profunda dos sistemas xurídicos, culturas empresariais e matices regulatorios en Europa, os EUA e o sueste de Europa."
+      },
+      "personal": {
+        "title": "Proximidade persoal",
+        "description": "Connosco, vostede nunca é só un número de expediente. Tomamos o tempo para entender os seus obxectivos e desenvolver estratexias que realmente se axusten á súa situación."
+      },
+      "trust": {
+        "title": "Colaboración en igualdade de condicións",
+        "description": "Pensamos a longo prazo. A transparencia, a integridade e os resultados medibles non son só valores para nós — son compromisos."
+      }
+    }
+  },
+  "offices": {
+    "badge": "Oficinas",
+    "headline": "Preto dos seus mercados",
+    "subtitle": "Tres localizacións, unha promesa — asesoramento persoal con alcance internacional.",
+    "hamburg": {
+      "city": "Hamburgo",
+      "country": "Alemaña",
+      "label": "Sede central"
+    },
+    "belgrade": {
+      "city": "Belgrado",
+      "country": "Serbia",
+      "label": "Sueste de Europa"
+    },
+    "texas": {
+      "city": "Texas",
+      "country": "EUA",
+      "label": "América do Norte"
+    }
+  },
+  "contact": {
+    "badge": "Contacto",
+    "headline": "Falemos",
+    "subtitle": "Sexa unha primeira consulta ou un proxecto concreto — dedicamos o tempo necesario para vostede.",
+    "phone": "Teléfono",
+    "mobile": "Móbil",
+    "email": "Correo electrónico",
+    "address": "Enderezo",
+    "cta": "Enviar correo electrónico",
+    "dialog": {
+      "title": "Enviar mensaxe",
+      "panel_subtitle": "Agardamos a súa consulta e responderémoslle axiña.",
+      "name": "Nome",
+      "name_placeholder": "O seu nome completo",
+      "email": "Enderezo de correo electrónico",
+      "email_placeholder": "o-seu@correo.com",
+      "subject": "Asunto",
+      "subject_placeholder": "De que se trata?",
+      "message": "Mensaxe",
+      "message_placeholder": "A súa mensaxe para nós...",
+      "submit": "Enviar mensaxe",
+      "sending": "Enviando...",
+      "success_title": "Mensaxe enviada",
+      "success_text": "Grazas! Responderémoslle en breve.",
+      "error_title": "Erro",
+      "error_text": "Non se puido enviar a mensaxe. Por favor, inténteo de novo.",
+      "retry": "Intentar de novo",
+      "close": "Pechar",
+      "required": "Campo obrigatorio",
+      "invalid_email": "Enderezo de correo electrónico non válido",
+      "error_network_text": "Please check your internet connection and try again.",
+      "error_timeout_text": "The server is not responding. Please try again later.",
+      "error_rate_limit_text": "Too many requests. Please wait a moment and try again."
+    }
+  },
+  "footer": {
+    "description": "FIECON Germany Co. KG — Asesoría internacional en dereito societario, constitución de empresas e moito máis. Persoal. Preciso. Colaborativo.",
+    "services_title": "Servizos",
+    "offices_title": "Oficinas",
+    "legal_title": "Legal",
+    "impressum": "Aviso legal",
+    "datenschutz": "Política de privacidade",
+    "copyright": "© {year} FIECON Germany Co. KG. Todos os dereitos reservados."
+  },
+  "error": {
+    "title": "Produciuse un erro",
+    "description": "Por favor, inténteo de novo ou volva á páxina de inicio.",
+    "retry": "Intentar de novo"
+  },
+  "notFound": {
+    "title": "Páxina non atopada",
+    "description": "A páxina solicitada non existe ou foi trasladada.",
+    "back": "Volver á páxina de inicio"
+  },
+  "impressum": {
+    "title": "Aviso Legal",
+    "info_title": "Información segundo § 5 TMG",
+    "contact_title": "Contacto",
+    "phone_label": "Teléfono",
+    "mobile_label": "Móbil",
+    "email_label": "Correo electrónico",
+    "homepage_label": "Páxina web",
+    "responsible_title": "Responsable do contido segundo § 55 par. 2 RStV",
+    "responsible_name": "Peter Fiegler",
+    "disclaimer_title": "Aviso legal",
+    "disclaimer_content_title": "Responsabilidade polo contido",
+    "disclaimer_content_text": "Os contidos das nosas páxinas foron creados co maior coidado. Non obstante, non podemos garantir a exactitude, integridade ou actualidade dos contidos. Como provedores de servizos, somos responsables dos nosos propios contidos nestas páxinas de acordo co § 7 par. 1 TMG segundo a lexislación xeral. Segundo §§ 8 a 10 TMG, non obstante, como provedores de servizos non estamos obrigados a supervisar a información transmitida ou almacenada de terceiros nin a investigar circunstancias que indiquen actividade ilegal.",
+    "disclaimer_links_title": "Responsabilidade polas ligazóns",
+    "disclaimer_links_text": "O noso sitio web contén ligazóns a sitios web externos de terceiros sobre cuxo contido non temos influencia. Polo tanto, non podemos asumir ningunha responsabilidade por este contido de terceiros. O provedor ou operador respectivo das páxinas é sempre responsable do contido das páxinas enlazadas. As páxinas enlazadas foron verificadas para posibles infraccións legais no momento da vinculación. Non se recoñeceu contido ilegal no momento da vinculación.",
+    "copyright_title": "Dereitos de autor",
+    "copyright_text": "O contido e as obras creadas polos operadores do sitio nestas páxinas están suxeitos á lei alemá de dereitos de autor. A reprodución, edición, distribución e calquera tipo de explotación fóra dos límites da lei de dereitos de autor requiren o consentimento por escrito do respectivo autor ou creador."
+  },
+  "datenschutz": {
+    "title": "Política de Privacidade",
+    "intro": "Tomamos moi en serio a protección dos seus datos persoais. Tratamos os seus datos persoais de forma confidencial e de acordo coas disposicións legais de protección de datos e esta política de privacidade.",
+    "section_1_title": "1. Entidade responsable",
+    "section_1_text": "A entidade responsable do tratamento de datos neste sitio web é:",
+    "section_2_title": "2. Recollida e tratamento de datos persoais",
+    "section_2_text": "Ao visitar o noso sitio web, recóllese automaticamente información de carácter xeral. Esta información (ficheiros de rexistro do servidor) inclúe o tipo de navegador web, o sistema operativo utilizado, o nome de dominio do seu provedor de Internet, o seu enderezo IP e detalles similares. Esta é exclusivamente información que non permite ningunha conclusión sobre a súa persoa.",
+    "section_2_legal_basis": "A base legal para o tratamento de datos é o Art. 6 par. 1 lit. f DSGVO. O noso interese lexítimo reside en garantir o funcionamento sen problemas do noso sitio web.",
+    "section_2_retention": "Os ficheiros de rexistro do servidor elimínanse automaticamente despois de 14 días.",
+    "section_3_title": "3. Contacto",
+    "section_3_text": "Se contacta connosco por correo electrónico ou a través do formulario de contacto, os seus datos, incluídos os datos de contacto proporcionados, almacenaranse co propósito de procesar a consulta e en caso de preguntas posteriores. Non compartiremos estes datos sen o seu consentimento.",
+    "section_3_legal_basis": "A base legal para o tratamento dos datos é o Art. 6 par. 1 lit. b DSGVO (medidas precontractuais) ou o Art. 6 par. 1 lit. f DSGVO (interese lexítimo no tratamento da súa consulta).",
+    "section_3_retention": "Os datos transmitidos no curso do contacto eliminaranse tan pronto como a súa consulta fose tratada de forma concluínte e non se apliquen obrigacións de conservación legais.",
+    "section_4_title": "4. Envío de correo electrónico",
+    "section_4_text": "Para o envío de correos electrónicos a través do noso formulario de contacto, utilizamos un servidor de correo SMTP. Os datos que introduce (nome, enderezo de correo electrónico, asunto, mensaxe) transmítense ao noso provedor de correo electrónico, que entrega o correo electrónico no noso nome.",
+    "section_5_title": "5. Os seus dereitos",
+    "section_5_text_1": "Vostede ten os seguintes dereitos respecto aos seus datos persoais:",
+    "section_5_rights_0": "Dereito de acceso (Art. 15 DSGVO)",
+    "section_5_rights_1": "Dereito de rectificación (Art. 16 DSGVO)",
+    "section_5_rights_2": "Dereito de supresión (Art. 17 DSGVO)",
+    "section_5_rights_3": "Dereito á limitación do tratamento (Art. 18 DSGVO)",
+    "section_5_rights_4": "Dereito á portabilidade dos datos (Art. 20 DSGVO)",
+    "section_5_rights_5": "Dereito de oposición ao tratamento (Art. 21 DSGVO)",
+    "section_5_text_2": "Tamén ten dereito a presentar unha reclamación ante unha autoridade de supervisión de protección de datos sobre o tratamento dos seus datos persoais por parte nosa.",
+    "section_6_title": "6. Cookies",
+    "section_6_text": "O noso sitio web utiliza unha cookie funcional (NEXT_LOCALE) para almacenar a súa preferencia de idioma. Esta cookie é tecnicamente necesaria e non require consentimento segundo § 25 par. 2 TDDDG. Non se utilizan cookies de seguimento nin de análise.",
+    "section_7_title": "7. Cambios nesta política de privacidade",
+    "section_7_text": "Esta política de privacidade é válida actualmente. Debido ao desenvolvemento continuo do noso sitio web ou debido a requisitos legais ou regulatorios modificados, pode ser necesario modificar esta política de privacidade.",
+    "email_label": "Correo electrónico",
+    "contact_label": "Contacto"
+  }
 }

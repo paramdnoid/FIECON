@@ -1,25 +1,217 @@
 {
-  "language": { "title": "Zgjidhni gjuhën", "close": "Mbyll" },
+  "language": {
+    "title": "Zgjidhni gjuhën",
+    "close": "Mbyll"
+  },
   "metadata": {
     "title": "FIECON — Këshillim ndërkombëtar për të drejtën tregtare dhe themelimin e kompanive",
     "description": "FIECON Germany Co. KG — Këshillim ndërkombëtar për të drejtën tregtare, themelimin e kompanive, administrimin financiar dhe financimin e ndërtimit. Zyra në Hamburg, Beograd dhe Teksas."
   },
-  "nav": { "home": "Shko në faqen kryesore", "menu": "Hap menynë", "about": "Rreth nesh", "services": "Shërbimet", "approach": "Qasja", "offices": "Zyrat", "contact": "Kontakti", "navigation": "Navigimi", "close_menu": "Mbyll menynë" },
-  "hero": { "tagline": "Fiegler Consulting", "headline": "Biznesi juaj. I këshilluar ndërkombëtarisht.", "subtitle": "E drejta tregtare dhe themelimi ndërkombëtar i kompanive — udhëzim personal në Hamburg, Beograd dhe Teksas.", "cta_primary": "Shërbimet tona", "cta_secondary": "Na kontaktoni" },
-  "about": { "badge": "Rreth nesh", "headline": "Vizioni takon kujdesin", "text_1": "FIECON përfaqëson këshillim ndërkombëtar me përkushtim personal. Ekspertiza jonë kryesore qëndron në të drejtën tregtare dhe themelimin ndërkombëtar të kompanive — fusha ku përvoja, saktësia dhe kuptimi kulturor bëjnë të gjithë ndryshimin.", "text_2": "Nga Hamburgu, Beogradi dhe Teksasi, ne udhëheqim bizneset përtej kufijve. Gjithashtu këshillojmë për administrimin financiar, financimin e ndërtimit dhe financimin e ndërtimit të jahteve — gjithmonë me ambicjen për të përfaqësuar interesat tuaja sikur të ishin tonat.", "quote": "Ne këshillojmë sikur të ishte kompania jonë në rrezik.", "stat_1_label": "Vendndodhje në botë", "stat_2_label": "Fusha praktike", "stat_3_label": "Vende", "quote_attribution": "Peter Fiegler, Themelues" },
-  "services": {
-    "badge": "Shërbimet", "headline": "Ekspertiza jonë", "subtitle": "Katër fusha kompetence — një angazhim: realizimi i saktë i sipërmarrjeve tuaja ndërkombëtare.",
-    "consulting": { "title": "E drejta tregtare dhe themelimi i kompanive", "description": "Praktika jonë kryesore: këshillojmë për themelimin, strukturimin dhe qeverisjen e kompanive në juridiksione të ndryshme ndërkombëtare. Nga koncepti fillestar deri te zbatimi ligjërisht i shëndoshë, ne qëndrojmë pranë jush.", "items": { "0": "E drejta tregtare", "1": "Themelimi ndërkombëtar i kompanive" } },
-    "finance": { "title": "Administrimi financiar", "description": "Qartësia ndërton besimin: ne marrim përsipër administrimin financiar të korporatës suaj dhe krijojmë struktura transparente që mundësojnë rritje të qëndrueshme.", "items": { "0": "Kontabilitet dhe raportim", "1": "Planifikim financiar strategjik" } },
-    "construction": { "title": "Financimi i ndërtimit", "description": "Projektet e ndërtimit kërkojnë besueshmëri financiare. Ne strukturojmë dhe mbikëqyrim financimin e sipërmarrjeve tuaja të ndërtimit — nga llogaritja fillestare deri te përfundimi.", "items": { "0": "Financimi i projekteve", "1": "Siguria e investimeve" } },
-    "yacht": { "title": "Financimi i ndërtimit të jahteve", "description": "Një segment i veçantë meriton kujdes të veçantë. Ne këshillojmë për financimin e projekteve të ndërtimit të jahteve — me diskrecion, personalisht dhe me një kuptim të vërtetë të standardeve të industrisë.", "items": { "0": "Financimi i jahteve", "1": "Këshillim personal" } }
+  "nav": {
+    "home": "Shko në faqen kryesore",
+    "menu": "Hap menynë",
+    "about": "Rreth nesh",
+    "services": "Shërbimet",
+    "approach": "Qasja",
+    "offices": "Zyrat",
+    "contact": "Kontakti",
+    "navigation": "Navigimi",
+    "close_menu": "Mbyll menynë"
   },
-  "approach": { "badge": "Qasja jonë", "headline": "Çfarë na dallon", "values": { "expertise": { "title": "Ekspertizë ndërkombëtare", "description": "Kuptim i thellë i sistemeve ligjore, kulturave të biznesit dhe nuancave rregullatore në Evropë, SHBA dhe Evropën Juglindore." }, "personal": { "title": "Afërsi personale", "description": "Me ne, ju nuk jeni kurrë thjesht një numër dosje. Ne marrim kohë për të kuptuar qëllimet tuaja dhe për të zhvilluar strategji që vërtet përshtaten me situatën tuaj." }, "trust": { "title": "Partneritet në kushte të barabarta", "description": "Ne mendojmë afatgjatë. Transparenca, integriteti dhe rezultatet e matshme nuk janë thjesht vlera për ne — janë angazhime." } } },
-  "offices": { "badge": "Zyrat", "headline": "Pranë tregjeve tuaja", "subtitle": "Tre vendndodhje, një premtim — këshillim personal me shtrirje ndërkombëtare.", "hamburg": { "city": "Hamburg", "country": "Gjermani", "label": "Selia qendrore" }, "belgrade": { "city": "Beograd", "country": "Serbi", "label": "Evropa Juglindore" }, "texas": { "city": "Teksas", "country": "SHBA", "label": "Amerika e Veriut" } },
-  "contact": { "badge": "Kontakti", "headline": "Le të bisedojmë", "subtitle": "Qoftë një pyetje fillestare apo një projekt konkret — ne marrim kohë për ju.", "phone": "Telefoni", "mobile": "Celulari", "email": "Email", "address": "Adresa", "cta": "Dërgo email", "dialog": { "title": "Dërgo mesazh", "panel_subtitle": "Presim me padurim pyetjen tuaj dhe do t'ju përgjigjemi menjëherë.", "name": "Emri", "name_placeholder": "Emri juaj i plotë", "email": "Adresa e emailit", "email_placeholder": "juaj@email.al", "subject": "Subjekti", "subject_placeholder": "Për çfarë bëhet fjalë?", "message": "Mesazhi", "message_placeholder": "Mesazhi juaj për ne...", "submit": "Dërgo mesazhin", "sending": "Duke dërguar...", "success_title": "Mesazhi u dërgua", "success_text": "Faleminderit! Do t'ju kontaktojmë së shpejti.", "error_title": "Gabim", "error_text": "Mesazhi nuk mund të dërgohej. Ju lutemi provoni përsëri.", "retry": "Provo përsëri", "close": "Mbyll", "required": "Fushë e detyrueshme", "invalid_email": "Adresë emaili e pavlefshme" } },
-  "footer": { "description": "FIECON Germany Co. KG — Këshillim ndërkombëtar për të drejtën tregtare, themelimin e kompanive dhe më gjerë. Personal. I saktë. Partnerisht.", "services_title": "Shërbimet", "offices_title": "Zyrat", "legal_title": "Ligjore", "impressum": "Njoftim ligjor", "datenschutz": "Politika e privatësisë", "copyright": "© {year} FIECON Germany Co. KG. Të gjitha të drejtat e rezervuara." },
-  "error": { "title": "Ndodhi një gabim", "description": "Ju lutemi provoni përsëri ose kthehuni në faqen kryesore.", "retry": "Provo përsëri" },
-  "notFound": { "title": "Faqja nuk u gjet", "description": "Faqja e kërkuar nuk ekziston ose është zhvendosur.", "back": "Kthehu në faqen kryesore" },
-  "impressum": { "title": "Njoftim ligjor", "info_title": "Informacion sipas § 5 TMG", "contact_title": "Kontakti", "phone_label": "Telefoni", "mobile_label": "Celulari", "email_label": "Email", "homepage_label": "Faqja e internetit", "responsible_title": "Përgjegjës për përmbajtjen sipas § 55 par. 2 RStV", "responsible_name": "Peter Fiegler", "disclaimer_title": "Mohim përgjegjësie", "disclaimer_content_title": "Përgjegjësia për përmbajtjen", "disclaimer_content_text": "Përmbajtjet e faqeve tona janë krijuar me kujdesin më të madh. Megjithatë, ne nuk mund të garantojmë saktësinë, plotësinë ose aktualitetin e përmbajtjes. Si ofrues shërbimi, ne jemi përgjegjës për përmbajtjen tonë në këto faqe në përputhje me § 7 par. 1 TMG sipas ligjit të përgjithshëm. Sipas §§ 8 deri 10 TMG, megjithatë, ne si ofrues shërbimi nuk jemi të detyruar të monitorojmë informacionin e transmetuar ose të ruajtur të palëve të treta ose të hetojmë rrethanat që tregojnë aktivitet të paligjshëm.", "disclaimer_links_title": "Përgjegjësia për lidhjet", "disclaimer_links_text": "Faqja jonë e internetit përmban lidhje me faqe të jashtme të palëve të treta mbi përmbajtjen e të cilave ne nuk kemi ndikim. Prandaj, ne nuk mund të pranojmë asnjë përgjegjësi për këtë përmbajtje të palëve të treta. Ofruesi ose operatori përkatës i faqeve është gjithmonë përgjegjës për përmbajtjen e faqeve të lidhura. Faqet e lidhura u kontrolluan për shkelje të mundshme ligjore në kohën e lidhjes. Përmbajtje e paligjshme nuk ishte e dallueshme në kohën e lidhjes.", "copyright_title": "Të drejtat e autorit", "copyright_text": "Përmbajtja dhe veprat e krijuara nga operatorët e faqes në këto faqe janë subjekt i ligjit gjerman të të drejtave të autorit. Riprodhimi, redaktimi, shpërndarja dhe çdo lloj shfrytëzimi jashtë kufijve të ligjit të të drejtave të autorit kërkojnë pëlqimin me shkrim të autorit ose krijuesit përkatës." },
-  "datenschutz": { "title": "Politika e privatësisë", "intro": "Ne e marrim shumë seriozisht mbrojtjen e të dhënave tuaja personale. Ne i trajtojmë të dhënat tuaja personale në mënyrë konfidenciale dhe në përputhje me rregulloret ligjore të mbrojtjes së të dhënave dhe këtë politikë privatësie.", "section_1_title": "1. Subjekti përgjegjës", "section_1_text": "Subjekti përgjegjës për përpunimin e të dhënave në këtë faqe interneti është:", "section_2_title": "2. Mbledhja dhe përpunimi i të dhënave personale", "section_2_text": "Kur vizitoni faqen tonë të internetit, informacioni i natyrës së përgjithshme mblidhet automatikisht. Ky informacion (skedarët e regjistrave të serverit) përfshin llojin e shfletuesit të uebit, sistemin operativ të përdorur, emrin e domenit të ofruesit tuaj të shërbimit të internetit, adresën tuaj IP dhe detaje të ngjashme. Ky është ekskluzivisht informacion që nuk lejon asnjë përfundim rreth personit tuaj.", "section_2_legal_basis": "Baza ligjore për përpunimin e të dhënave është Art. 6 par. 1 shkronja f DSGVO. Interesi ynë legjitim qëndron në sigurimin e funksionimit pa probleme të faqes sonë të internetit.", "section_2_retention": "Skedarët e regjistrave të serverit fshihen automatikisht pas 14 ditësh.", "section_3_title": "3. Kontakti", "section_3_text": "Nëse na kontaktoni me email ose përmes formularit të kontaktit, të dhënat tuaja përfshirë të dhënat e kontaktit që jepni do të ruhen për qëllimin e përpunimit të pyetjes dhe në rast pyetjesh pasuese. Ne nuk do t'i ndajmë këto të dhëna pa pëlqimin tuaj.", "section_3_legal_basis": "Baza ligjore për përpunimin e të dhënave është Art. 6 par. 1 shkronja b DSGVO (masa para-kontraktore) ose Art. 6 par. 1 shkronja f DSGVO (interes legjitim në përpunimin e pyetjes suaj).", "section_3_retention": "Të dhënat e transmetuara gjatë kontaktit me ne do të fshihen sapo pyetja juaj të jetë përpunuar përfundimisht dhe të mos zbatohen detyrime ligjore ruajtjeje.", "section_4_title": "4. Dërgimi i emailit", "section_4_text": "Për dërgimin e emaileve përmes formularit tonë të kontaktit, ne përdorim një server poste SMTP. Të dhënat që futni (emri, adresa e emailit, subjekti, mesazhi) transmetohen te ofruesi ynë i emailit, i cili dërgon emailin në emrin tonë.", "section_5_title": "5. Të drejtat tuaja", "section_5_text_1": "Ju keni të drejtat e mëposhtme në lidhje me të dhënat tuaja personale:", "section_5_rights_0": "E drejta e aksesit (Art. 15 DSGVO)", "section_5_rights_1": "E drejta e korrigjimit (Art. 16 DSGVO)", "section_5_rights_2": "E drejta e fshirjes (Art. 17 DSGVO)", "section_5_rights_3": "E drejta e kufizimit të përpunimit (Art. 18 DSGVO)", "section_5_rights_4": "E drejta e transportueshmërisë së të dhënave (Art. 20 DSGVO)", "section_5_rights_5": "E drejta e kundërshtimit të përpunimit (Art. 21 DSGVO)", "section_5_text_2": "Ju gjithashtu keni të drejtën të paraqisni një ankesë pranë një autoriteti mbikëqyrës të mbrojtjes së të dhënave rreth përpunimit të të dhënave tuaja personale nga ana jonë.", "section_6_title": "6. Cookies", "section_6_text": "Faqja jonë e internetit përdor një cookie funksional (NEXT_LOCALE) për të ruajtur preferencën tuaj të gjuhës. Ky cookie është teknikisht i nevojshëm dhe nuk kërkon pëlqim sipas § 25 par. 2 TDDDG. Nuk përdoren cookies gjurmimi ose analitike.", "section_7_title": "7. Ndryshimet në këtë politikë privatësie", "section_7_text": "Kjo politikë privatësie është aktualisht e vlefshme. Për shkak të zhvillimit të mëtejshëm të faqes sonë të internetit ose për shkak të kërkesave të ndryshuara ligjore ose rregullatore, mund të bëhet e nevojshme ndryshimi i kësaj politike të privatësisë.", "email_label": "Email", "contact_label": "Kontakti" }
+  "hero": {
+    "tagline": "Fiegler Consulting",
+    "headline": "Biznesi juaj. I këshilluar ndërkombëtarisht.",
+    "subtitle": "E drejta tregtare dhe themelimi ndërkombëtar i kompanive — udhëzim personal në Hamburg, Beograd dhe Teksas.",
+    "cta_primary": "Shërbimet tona",
+    "cta_secondary": "Na kontaktoni"
+  },
+  "about": {
+    "badge": "Rreth nesh",
+    "headline": "Vizioni takon kujdesin",
+    "text_1": "FIECON përfaqëson këshillim ndërkombëtar me përkushtim personal. Ekspertiza jonë kryesore qëndron në të drejtën tregtare dhe themelimin ndërkombëtar të kompanive — fusha ku përvoja, saktësia dhe kuptimi kulturor bëjnë të gjithë ndryshimin.",
+    "text_2": "Nga Hamburgu, Beogradi dhe Teksasi, ne udhëheqim bizneset përtej kufijve. Gjithashtu këshillojmë për administrimin financiar, financimin e ndërtimit dhe financimin e ndërtimit të jahteve — gjithmonë me ambicjen për të përfaqësuar interesat tuaja sikur të ishin tonat.",
+    "quote": "Ne këshillojmë sikur të ishte kompania jonë në rrezik.",
+    "stat_1_label": "Vendndodhje në botë",
+    "stat_2_label": "Fusha praktike",
+    "stat_3_label": "Vende",
+    "quote_attribution": "Peter Fiegler, Themelues"
+  },
+  "services": {
+    "badge": "Shërbimet",
+    "headline": "Ekspertiza jonë",
+    "subtitle": "Katër fusha kompetence — një angazhim: realizimi i saktë i sipërmarrjeve tuaja ndërkombëtare.",
+    "consulting": {
+      "title": "E drejta tregtare dhe themelimi i kompanive",
+      "description": "Praktika jonë kryesore: këshillojmë për themelimin, strukturimin dhe qeverisjen e kompanive në juridiksione të ndryshme ndërkombëtare. Nga koncepti fillestar deri te zbatimi ligjërisht i shëndoshë, ne qëndrojmë pranë jush.",
+      "items": {
+        "0": "E drejta tregtare",
+        "1": "Themelimi ndërkombëtar i kompanive"
+      }
+    },
+    "finance": {
+      "title": "Administrimi financiar",
+      "description": "Qartësia ndërton besimin: ne marrim përsipër administrimin financiar të korporatës suaj dhe krijojmë struktura transparente që mundësojnë rritje të qëndrueshme.",
+      "items": {
+        "0": "Kontabilitet dhe raportim",
+        "1": "Planifikim financiar strategjik"
+      }
+    },
+    "construction": {
+      "title": "Financimi i ndërtimit",
+      "description": "Projektet e ndërtimit kërkojnë besueshmëri financiare. Ne strukturojmë dhe mbikëqyrim financimin e sipërmarrjeve tuaja të ndërtimit — nga llogaritja fillestare deri te përfundimi.",
+      "items": {
+        "0": "Financimi i projekteve",
+        "1": "Siguria e investimeve"
+      }
+    },
+    "yacht": {
+      "title": "Financimi i ndërtimit të jahteve",
+      "description": "Një segment i veçantë meriton kujdes të veçantë. Ne këshillojmë për financimin e projekteve të ndërtimit të jahteve — me diskrecion, personalisht dhe me një kuptim të vërtetë të standardeve të industrisë.",
+      "items": {
+        "0": "Financimi i jahteve",
+        "1": "Këshillim personal"
+      }
+    }
+  },
+  "approach": {
+    "badge": "Qasja jonë",
+    "headline": "Çfarë na dallon",
+    "values": {
+      "expertise": {
+        "title": "Ekspertizë ndërkombëtare",
+        "description": "Kuptim i thellë i sistemeve ligjore, kulturave të biznesit dhe nuancave rregullatore në Evropë, SHBA dhe Evropën Juglindore."
+      },
+      "personal": {
+        "title": "Afërsi personale",
+        "description": "Me ne, ju nuk jeni kurrë thjesht një numër dosje. Ne marrim kohë për të kuptuar qëllimet tuaja dhe për të zhvilluar strategji që vërtet përshtaten me situatën tuaj."
+      },
+      "trust": {
+        "title": "Partneritet në kushte të barabarta",
+        "description": "Ne mendojmë afatgjatë. Transparenca, integriteti dhe rezultatet e matshme nuk janë thjesht vlera për ne — janë angazhime."
+      }
+    }
+  },
+  "offices": {
+    "badge": "Zyrat",
+    "headline": "Pranë tregjeve tuaja",
+    "subtitle": "Tre vendndodhje, një premtim — këshillim personal me shtrirje ndërkombëtare.",
+    "hamburg": {
+      "city": "Hamburg",
+      "country": "Gjermani",
+      "label": "Selia qendrore"
+    },
+    "belgrade": {
+      "city": "Beograd",
+      "country": "Serbi",
+      "label": "Evropa Juglindore"
+    },
+    "texas": {
+      "city": "Teksas",
+      "country": "SHBA",
+      "label": "Amerika e Veriut"
+    }
+  },
+  "contact": {
+    "badge": "Kontakti",
+    "headline": "Le të bisedojmë",
+    "subtitle": "Qoftë një pyetje fillestare apo një projekt konkret — ne marrim kohë për ju.",
+    "phone": "Telefoni",
+    "mobile": "Celulari",
+    "email": "Email",
+    "address": "Adresa",
+    "cta": "Dërgo email",
+    "dialog": {
+      "title": "Dërgo mesazh",
+      "panel_subtitle": "Presim me padurim pyetjen tuaj dhe do t'ju përgjigjemi menjëherë.",
+      "name": "Emri",
+      "name_placeholder": "Emri juaj i plotë",
+      "email": "Adresa e emailit",
+      "email_placeholder": "juaj@email.al",
+      "subject": "Subjekti",
+      "subject_placeholder": "Për çfarë bëhet fjalë?",
+      "message": "Mesazhi",
+      "message_placeholder": "Mesazhi juaj për ne...",
+      "submit": "Dërgo mesazhin",
+      "sending": "Duke dërguar...",
+      "success_title": "Mesazhi u dërgua",
+      "success_text": "Faleminderit! Do t'ju kontaktojmë së shpejti.",
+      "error_title": "Gabim",
+      "error_text": "Mesazhi nuk mund të dërgohej. Ju lutemi provoni përsëri.",
+      "retry": "Provo përsëri",
+      "close": "Mbyll",
+      "required": "Fushë e detyrueshme",
+      "invalid_email": "Adresë emaili e pavlefshme",
+      "error_network_text": "Please check your internet connection and try again.",
+      "error_timeout_text": "The server is not responding. Please try again later.",
+      "error_rate_limit_text": "Too many requests. Please wait a moment and try again."
+    }
+  },
+  "footer": {
+    "description": "FIECON Germany Co. KG — Këshillim ndërkombëtar për të drejtën tregtare, themelimin e kompanive dhe më gjerë. Personal. I saktë. Partnerisht.",
+    "services_title": "Shërbimet",
+    "offices_title": "Zyrat",
+    "legal_title": "Ligjore",
+    "impressum": "Njoftim ligjor",
+    "datenschutz": "Politika e privatësisë",
+    "copyright": "© {year} FIECON Germany Co. KG. Të gjitha të drejtat e rezervuara."
+  },
+  "error": {
+    "title": "Ndodhi një gabim",
+    "description": "Ju lutemi provoni përsëri ose kthehuni në faqen kryesore.",
+    "retry": "Provo përsëri"
+  },
+  "notFound": {
+    "title": "Faqja nuk u gjet",
+    "description": "Faqja e kërkuar nuk ekziston ose është zhvendosur.",
+    "back": "Kthehu në faqen kryesore"
+  },
+  "impressum": {
+    "title": "Njoftim ligjor",
+    "info_title": "Informacion sipas § 5 TMG",
+    "contact_title": "Kontakti",
+    "phone_label": "Telefoni",
+    "mobile_label": "Celulari",
+    "email_label": "Email",
+    "homepage_label": "Faqja e internetit",
+    "responsible_title": "Përgjegjës për përmbajtjen sipas § 55 par. 2 RStV",
+    "responsible_name": "Peter Fiegler",
+    "disclaimer_title": "Mohim përgjegjësie",
+    "disclaimer_content_title": "Përgjegjësia për përmbajtjen",
+    "disclaimer_content_text": "Përmbajtjet e faqeve tona janë krijuar me kujdesin më të madh. Megjithatë, ne nuk mund të garantojmë saktësinë, plotësinë ose aktualitetin e përmbajtjes. Si ofrues shërbimi, ne jemi përgjegjës për përmbajtjen tonë në këto faqe në përputhje me § 7 par. 1 TMG sipas ligjit të përgjithshëm. Sipas §§ 8 deri 10 TMG, megjithatë, ne si ofrues shërbimi nuk jemi të detyruar të monitorojmë informacionin e transmetuar ose të ruajtur të palëve të treta ose të hetojmë rrethanat që tregojnë aktivitet të paligjshëm.",
+    "disclaimer_links_title": "Përgjegjësia për lidhjet",
+    "disclaimer_links_text": "Faqja jonë e internetit përmban lidhje me faqe të jashtme të palëve të treta mbi përmbajtjen e të cilave ne nuk kemi ndikim. Prandaj, ne nuk mund të pranojmë asnjë përgjegjësi për këtë përmbajtje të palëve të treta. Ofruesi ose operatori përkatës i faqeve është gjithmonë përgjegjës për përmbajtjen e faqeve të lidhura. Faqet e lidhura u kontrolluan për shkelje të mundshme ligjore në kohën e lidhjes. Përmbajtje e paligjshme nuk ishte e dallueshme në kohën e lidhjes.",
+    "copyright_title": "Të drejtat e autorit",
+    "copyright_text": "Përmbajtja dhe veprat e krijuara nga operatorët e faqes në këto faqe janë subjekt i ligjit gjerman të të drejtave të autorit. Riprodhimi, redaktimi, shpërndarja dhe çdo lloj shfrytëzimi jashtë kufijve të ligjit të të drejtave të autorit kërkojnë pëlqimin me shkrim të autorit ose krijuesit përkatës."
+  },
+  "datenschutz": {
+    "title": "Politika e privatësisë",
+    "intro": "Ne e marrim shumë seriozisht mbrojtjen e të dhënave tuaja personale. Ne i trajtojmë të dhënat tuaja personale në mënyrë konfidenciale dhe në përputhje me rregulloret ligjore të mbrojtjes së të dhënave dhe këtë politikë privatësie.",
+    "section_1_title": "1. Subjekti përgjegjës",
+    "section_1_text": "Subjekti përgjegjës për përpunimin e të dhënave në këtë faqe interneti është:",
+    "section_2_title": "2. Mbledhja dhe përpunimi i të dhënave personale",
+    "section_2_text": "Kur vizitoni faqen tonë të internetit, informacioni i natyrës së përgjithshme mblidhet automatikisht. Ky informacion (skedarët e regjistrave të serverit) përfshin llojin e shfletuesit të uebit, sistemin operativ të përdorur, emrin e domenit të ofruesit tuaj të shërbimit të internetit, adresën tuaj IP dhe detaje të ngjashme. Ky është ekskluzivisht informacion që nuk lejon asnjë përfundim rreth personit tuaj.",
+    "section_2_legal_basis": "Baza ligjore për përpunimin e të dhënave është Art. 6 par. 1 shkronja f DSGVO. Interesi ynë legjitim qëndron në sigurimin e funksionimit pa probleme të faqes sonë të internetit.",
+    "section_2_retention": "Skedarët e regjistrave të serverit fshihen automatikisht pas 14 ditësh.",
+    "section_3_title": "3. Kontakti",
+    "section_3_text": "Nëse na kontaktoni me email ose përmes formularit të kontaktit, të dhënat tuaja përfshirë të dhënat e kontaktit që jepni do të ruhen për qëllimin e përpunimit të pyetjes dhe në rast pyetjesh pasuese. Ne nuk do t'i ndajmë këto të dhëna pa pëlqimin tuaj.",
+    "section_3_legal_basis": "Baza ligjore për përpunimin e të dhënave është Art. 6 par. 1 shkronja b DSGVO (masa para-kontraktore) ose Art. 6 par. 1 shkronja f DSGVO (interes legjitim në përpunimin e pyetjes suaj).",
+    "section_3_retention": "Të dhënat e transmetuara gjatë kontaktit me ne do të fshihen sapo pyetja juaj të jetë përpunuar përfundimisht dhe të mos zbatohen detyrime ligjore ruajtjeje.",
+    "section_4_title": "4. Dërgimi i emailit",
+    "section_4_text": "Për dërgimin e emaileve përmes formularit tonë të kontaktit, ne përdorim një server poste SMTP. Të dhënat që futni (emri, adresa e emailit, subjekti, mesazhi) transmetohen te ofruesi ynë i emailit, i cili dërgon emailin në emrin tonë.",
+    "section_5_title": "5. Të drejtat tuaja",
+    "section_5_text_1": "Ju keni të drejtat e mëposhtme në lidhje me të dhënat tuaja personale:",
+    "section_5_rights_0": "E drejta e aksesit (Art. 15 DSGVO)",
+    "section_5_rights_1": "E drejta e korrigjimit (Art. 16 DSGVO)",
+    "section_5_rights_2": "E drejta e fshirjes (Art. 17 DSGVO)",
+    "section_5_rights_3": "E drejta e kufizimit të përpunimit (Art. 18 DSGVO)",
+    "section_5_rights_4": "E drejta e transportueshmërisë së të dhënave (Art. 20 DSGVO)",
+    "section_5_rights_5": "E drejta e kundërshtimit të përpunimit (Art. 21 DSGVO)",
+    "section_5_text_2": "Ju gjithashtu keni të drejtën të paraqisni një ankesë pranë një autoriteti mbikëqyrës të mbrojtjes së të dhënave rreth përpunimit të të dhënave tuaja personale nga ana jonë.",
+    "section_6_title": "6. Cookies",
+    "section_6_text": "Faqja jonë e internetit përdor një cookie funksional (NEXT_LOCALE) për të ruajtur preferencën tuaj të gjuhës. Ky cookie është teknikisht i nevojshëm dhe nuk kërkon pëlqim sipas § 25 par. 2 TDDDG. Nuk përdoren cookies gjurmimi ose analitike.",
+    "section_7_title": "7. Ndryshimet në këtë politikë privatësie",
+    "section_7_text": "Kjo politikë privatësie është aktualisht e vlefshme. Për shkak të zhvillimit të mëtejshëm të faqes sonë të internetit ose për shkak të kërkesave të ndryshuara ligjore ose rregullatore, mund të bëhet e nevojshme ndryshimi i kësaj politike të privatësisë.",
+    "email_label": "Email",
+    "contact_label": "Kontakti"
+  }
 }

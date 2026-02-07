@@ -1,13 +1,20 @@
 "use client";
 
+import { useEffect } from "react";
+
 // Intentionally hardcoded German: at this error boundary level the entire React tree
 // (including next-intl providers) has failed, so translations are unavailable.
 export default function GlobalError({
+  error,
   reset,
 }: {
   error: Error & { digest?: string };
   reset: () => void;
 }) {
+  useEffect(() => {
+    console.error("Global error:", error);
+  }, [error]);
+
   return (
     <html lang="de">
       <body style={{ margin: 0, fontFamily: "system-ui, sans-serif", background: "#FAF7F4", color: "#1A1A1A" }}>

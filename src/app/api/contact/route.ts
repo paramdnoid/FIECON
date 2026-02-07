@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
-import { escapeHtml, sanitizeHeaderValue } from "@/lib/utils";
+import { escapeHtml, sanitizeHeaderValue, EMAIL_REGEX } from "@/lib/utils";
 
 type ContactBody = {
   name: string;
@@ -112,8 +112,7 @@ export async function POST(request: Request) {
     );
   }
 
-  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  if (!emailRegex.test(email)) {
+  if (!EMAIL_REGEX.test(email)) {
     return NextResponse.json(
       { error: "Invalid email address" },
       { status: 400 },

@@ -1,25 +1,217 @@
 {
-  "language": { "title": "Veldu tungumál", "close": "Loka" },
+  "language": {
+    "title": "Veldu tungumál",
+    "close": "Loka"
+  },
   "metadata": {
     "title": "FIECON — Alþjóðleg ráðgjöf um félagarétt og stofnun fyrirtækja",
     "description": "FIECON Germany Co. KG — Alþjóðleg ráðgjöf um félagarétt, stofnun fyrirtækja, fjármálastjórnun og byggingarfjármögnun. Skrifstofur í Hamborg, Belgrad og Texas."
   },
-  "nav": { "home": "Fara á forsíðu", "menu": "Opna valmynd", "about": "Um okkur", "services": "Þjónusta", "approach": "Nálgun", "offices": "Skrifstofur", "contact": "Hafa samband", "navigation": "Leiðsögn", "close_menu": "Loka valmynd" },
-  "hero": { "tagline": "Fiegler Consulting", "headline": "Fyrirtækið þitt. Ráðlagt á alþjóðavettvangi.", "subtitle": "Félagaréttur og alþjóðleg stofnun fyrirtækja — persónuleg leiðsögn í Hamborg, Belgrad og Texas.", "cta_primary": "Þjónusta okkar", "cta_secondary": "Hafðu samband" },
-  "about": { "badge": "Um okkur", "headline": "Sýn mætir kostgæfni", "text_1": "FIECON stendur fyrir alþjóðlegri ráðgjöf með persónulegri skuldbindingu. Kjarnaþekking okkar liggur í félagarétti og alþjóðlegri stofnun fyrirtækja — sviðum þar sem reynsla, nákvæmni og menningarlegur skilningur skipta öllu máli.", "text_2": "Frá Hamborg, Belgrad og Texas leiðum við fyrirtæki yfir landamæri. Við ráðleggjum einnig um fjármálastjórnun, byggingarfjármögnun og snekkjubyggingarfjármögnun — alltaf með metnaðinn að verja hagsmuni þína eins og þeir væru okkar eigin.", "quote": "Við ráðleggjum eins og um okkar eigið fyrirtæki væri að ræða.", "stat_1_label": "Staðsetningar um heim allan", "stat_2_label": "Starfsvið", "stat_3_label": "Lönd", "quote_attribution": "Peter Fiegler, stofnandi" },
-  "services": {
-    "badge": "Þjónusta", "headline": "Sérfræðiþekking okkar", "subtitle": "Fjögur hæfnissvið — ein skuldbinding: að gera alþjóðleg verkefni þín rétt.",
-    "consulting": { "title": "Félagaréttur og stofnun fyrirtækja", "description": "Kjarnastarfsemi okkar: við ráðleggjum um stofnun, skipulagningu og stjórnun fyrirtækja í mismunandi alþjóðlegum lögsögum. Frá upphaflegri hugmynd til lagalega trausts framkvæmdar stöndum við við hlið þína.", "items": { "0": "Félagaréttur", "1": "Alþjóðleg stofnun fyrirtækja" } },
-    "finance": { "title": "Fjármálastjórnun", "description": "Skýrleiki byggir traust: við tökum á okkur fjármálastjórnun fyrirtækis þíns og búum til gagnsæjar skipulagsheildir sem gera sjálfbæran vöxt mögulegan.", "items": { "0": "Bókhald og skýrslugerð", "1": "Stefnumótandi fjárhagsáætlun" } },
-    "construction": { "title": "Byggingarfjármögnun", "description": "Byggingarverkefni krefjast fjárhagslegrar áreiðanleika. Við skipuleggjum og umsjónum fjármögnun byggingarverkefna þinna — frá upphaflegum útreikningi til verkloka.", "items": { "0": "Verkefnafjármögnun", "1": "Fjárfestingaöryggi" } },
-    "yacht": { "title": "Snekkjubyggingarfjármögnun", "description": "Sérstakt svið á skilið sérstaka umhyggju. Við ráðleggjum um fjármögnun snekkjubyggingarverkefna — af trúnaði, persónulega og með raunverulegum skilningi á stöðlum greinarinnar.", "items": { "0": "Snekkjufjármögnun", "1": "Persónuleg ráðgjöf" } }
+  "nav": {
+    "home": "Fara á forsíðu",
+    "menu": "Opna valmynd",
+    "about": "Um okkur",
+    "services": "Þjónusta",
+    "approach": "Nálgun",
+    "offices": "Skrifstofur",
+    "contact": "Hafa samband",
+    "navigation": "Leiðsögn",
+    "close_menu": "Loka valmynd"
   },
-  "approach": { "badge": "Nálgun okkar", "headline": "Hvað aðgreinir okkur", "values": { "expertise": { "title": "Alþjóðleg sérfræðiþekking", "description": "Djúpur skilningur á réttarkerfum, viðskiptamenningu og regluverksblæbrigðum um Evrópu, Bandaríkin og Suðaustur-Evrópu." }, "personal": { "title": "Persónuleg nálægð", "description": "Hjá okkur ertu aldrei bara skráarnúmer. Við tökum okkur tíma til að skilja markmið þín og þróa stefnur sem henta raunverulega aðstæðum þínum." }, "trust": { "title": "Samstarf á jafnréttisgrundvelli", "description": "Við hugsum til langs tíma. Gagnsæi, heiðarleiki og mælanlegur árangur eru ekki aðeins gildi okkar — þau eru skuldbindingar." } } },
-  "offices": { "badge": "Skrifstofur", "headline": "Nálægt mörkuðum þínum", "subtitle": "Þrjár staðsetningar, eitt loforð — persónuleg ráðgjöf með alþjóðlegt umfang.", "hamburg": { "city": "Hamborg", "country": "Þýskaland", "label": "Höfuðstöðvar" }, "belgrade": { "city": "Belgrad", "country": "Serbía", "label": "Suðaustur-Evrópa" }, "texas": { "city": "Texas", "country": "Bandaríkin", "label": "Norður-Ameríka" } },
-  "contact": { "badge": "Hafa samband", "headline": "Tölum saman", "subtitle": "Hvort sem um er að ræða upphaflega spurningu eða tiltekið verkefni — við tökum okkur tíma fyrir þig.", "phone": "Sími", "mobile": "Farsími", "email": "Netfang", "address": "Heimilisfang", "cta": "Senda tölvupóst", "dialog": { "title": "Senda skilaboð", "panel_subtitle": "Við hlökkum til að fá fyrirspurn þína og munum svara þér fljótt.", "name": "Nafn", "name_placeholder": "Fullt nafn þitt", "email": "Netfang", "email_placeholder": "thitt@netfang.is", "subject": "Efni", "subject_placeholder": "Hvað snýst þetta um?", "message": "Skilaboð", "message_placeholder": "Skilaboð þín til okkar...", "submit": "Senda skilaboð", "sending": "Sendir...", "success_title": "Skilaboð send", "success_text": "Takk! Við munum hafa samband fljótlega.", "error_title": "Villa", "error_text": "Ekki var hægt að senda skilaboðin. Vinsamlegast reyndu aftur.", "retry": "Reyna aftur", "close": "Loka", "required": "Nauðsynlegur reitur", "invalid_email": "Ógilt netfang" } },
-  "footer": { "description": "FIECON Germany Co. KG — Alþjóðleg ráðgjöf um félagarétt, stofnun fyrirtækja og fleira. Persónulega. Nákvæmlega. Í samstarfi.", "services_title": "Þjónusta", "offices_title": "Skrifstofur", "legal_title": "Lagalegt", "impressum": "Lagaleg tilkynning", "datenschutz": "Persónuverndarstefna", "copyright": "© {year} FIECON Germany Co. KG. Allur réttur áskilinn." },
-  "error": { "title": "Villa kom upp", "description": "Vinsamlegast reyndu aftur eða farðu til baka á forsíðu.", "retry": "Reyna aftur" },
-  "notFound": { "title": "Síða fannst ekki", "description": "Umbeðin síða er ekki til eða hefur verið færð.", "back": "Til baka á forsíðu" },
-  "impressum": { "title": "Lagaleg tilkynning", "info_title": "Upplýsingar samkvæmt § 5 TMG", "contact_title": "Hafa samband", "phone_label": "Sími", "mobile_label": "Farsími", "email_label": "Netfang", "homepage_label": "Heimasíða", "responsible_title": "Ábyrgð á efni samkvæmt § 55 mgr. 2 RStV", "responsible_name": "Peter Fiegler", "disclaimer_title": "Fyrirvari", "disclaimer_content_title": "Ábyrgð á efni", "disclaimer_content_text": "Efni síðna okkar var búið til af mestu kostgæfni. Hins vegar getum við ekki ábyrgst nákvæmni, heilleika eða tímanlegt efni. Sem þjónustuaðili berum við ábyrgð á okkar eigin efni á þessum síðum í samræmi við § 7 mgr. 1 TMG samkvæmt almennum lögum. Samkvæmt §§ 8 til 10 TMG erum við sem þjónustuaðili hins vegar ekki skuldbundin til að fylgjast með sendar eða geymdar upplýsingar þriðja aðila eða rannsaka aðstæður sem benda til ólöglegrar starfsemi.", "disclaimer_links_title": "Ábyrgð á tenglum", "disclaimer_links_text": "Vefsíða okkar inniheldur tengla á ytri vefsíður þriðja aðila sem við höfum engin áhrif á efni þeirra. Þess vegna getum við ekki borið neina ábyrgð á efni þriðja aðila. Viðkomandi veitandi eða rekstraraðili síðnanna ber alltaf ábyrgð á efni tengdra síðna. Tengdar síður voru athugaðar með tilliti til mögulegra lagabrota við tengingu. Ólöglegt efni var ekki greinanlegt við tengingu.", "copyright_title": "Höfundarréttur", "copyright_text": "Efni og verk sem höfundar síðnanna hafa búið til á þessum síðum lúta þýskum höfundalögum. Fjölföldun, vinnsla, dreifing og hvers konar nýting utan marka höfundalaga krefst skriflegs samþykkis viðkomandi höfundar eða skapara." },
-  "datenschutz": { "title": "Persónuverndarstefna", "intro": "Við tökum vernd persónuupplýsinga þinna mjög alvarlega. Við meðhöndlum persónuupplýsingar þínar sem trúnaðarmál og í samræmi við lögbundin persónuverndarákvæði og þessa persónuverndarstefnu.", "section_1_title": "1. Ábyrgðaraðili", "section_1_text": "Ábyrgðaraðili gagnameðferðar á þessari vefsíðu er:", "section_2_title": "2. Söfnun og vinnsla persónuupplýsinga", "section_2_text": "Þegar þú heimsækir vefsíðu okkar er almennra upplýsinga sjálfkrafa safnað. Þessar upplýsingar (annálaskrár netþjóns) innihalda gerð vafrans, stýrikerfið sem notað er, lénheiti netþjónustuaðilans, IP-töluna þína og svipaðar upplýsingar. Þetta eru eingöngu upplýsingar sem gefa enga ályktun um persónu þína.", "section_2_legal_basis": "Lagagrundvöllur gagnavinnslu er Art. 6 mgr. 1 stafliður f DSGVO. Lögmætir hagsmunir okkar felast í því að tryggja truflanalausa starfsemi vefsíðu okkar.", "section_2_retention": "Annálaskrám netþjóns er sjálfkrafa eytt eftir 14 daga.", "section_3_title": "3. Hafa samband", "section_3_text": "Ef þú hefur samband við okkur með tölvupósti eða í gegnum tengiliðaeyðublað verða upplýsingar þínar, þar á meðal samskiptaupplýsingar sem þú gefur upp, geymdar í þeim tilgangi að afgreiða fyrirspurnina og ef til framhaldsspurninga. Við munum ekki deila þessum gögnum án þíns samþykkis.", "section_3_legal_basis": "Lagagrundvöllur gagnavinnslu er Art. 6 mgr. 1 stafliður b DSGVO (forsamningsaðgerðir) eða Art. 6 mgr. 1 stafliður f DSGVO (lögmætir hagsmunir við afgreiðslu fyrirspurnar þinnar).", "section_3_retention": "Gögnum sem send eru við samskipti við okkur verður eytt um leið og fyrirspurn þín hefur verið afgreidd að fullu og engar lögbundnar varðveisluskyldur eiga við.", "section_4_title": "4. Afhending tölvupósts", "section_4_text": "Til að senda tölvupóst í gegnum tengiliðaeyðublað okkar notum við SMTP póstþjón. Gögnin sem þú slærð inn (nafn, netfang, efni, skilaboð) eru send til tölvupóstveitu okkar sem afhendir tölvupóstinn fyrir okkar hönd.", "section_5_title": "5. Réttindi þín", "section_5_text_1": "Þú hefur eftirfarandi réttindi varðandi persónuupplýsingar þínar:", "section_5_rights_0": "Réttur til aðgangs (Art. 15 DSGVO)", "section_5_rights_1": "Réttur til leiðréttingar (Art. 16 DSGVO)", "section_5_rights_2": "Réttur til eyðingar (Art. 17 DSGVO)", "section_5_rights_3": "Réttur til takmörkunar á vinnslu (Art. 18 DSGVO)", "section_5_rights_4": "Réttur til gagnaflutnings (Art. 20 DSGVO)", "section_5_rights_5": "Réttur til andmæla gegn vinnslu (Art. 21 DSGVO)", "section_5_text_2": "Þú hefur einnig rétt til að leggja fram kvörtun hjá persónuverndareftirliti vegna vinnslu okkar á persónuupplýsingum þínum.", "section_6_title": "6. Vafrakökur", "section_6_text": "Vefsíða okkar notar hagnýta vafraköku (NEXT_LOCALE) til að geyma tungumálaval þitt. Þessi vafrakaka er tæknilega nauðsynleg og krefst ekki samþykkis samkvæmt § 25 mgr. 2 TDDDG. Engar rekjanlegar eða greiningarvafrakökur eru notaðar.", "section_7_title": "7. Breytingar á þessari persónuverndarstefnu", "section_7_text": "Þessi persónuverndarstefna gildir eins og hún er. Vegna frekari þróunar vefsíðu okkar eða vegna breyttra lagalegra eða reglugerðarkrafna gæti orðið nauðsynlegt að breyta þessari persónuverndarstefnu.", "email_label": "Netfang", "contact_label": "Hafa samband" }
+  "hero": {
+    "tagline": "Fiegler Consulting",
+    "headline": "Fyrirtækið þitt. Ráðlagt á alþjóðavettvangi.",
+    "subtitle": "Félagaréttur og alþjóðleg stofnun fyrirtækja — persónuleg leiðsögn í Hamborg, Belgrad og Texas.",
+    "cta_primary": "Þjónusta okkar",
+    "cta_secondary": "Hafðu samband"
+  },
+  "about": {
+    "badge": "Um okkur",
+    "headline": "Sýn mætir kostgæfni",
+    "text_1": "FIECON stendur fyrir alþjóðlegri ráðgjöf með persónulegri skuldbindingu. Kjarnaþekking okkar liggur í félagarétti og alþjóðlegri stofnun fyrirtækja — sviðum þar sem reynsla, nákvæmni og menningarlegur skilningur skipta öllu máli.",
+    "text_2": "Frá Hamborg, Belgrad og Texas leiðum við fyrirtæki yfir landamæri. Við ráðleggjum einnig um fjármálastjórnun, byggingarfjármögnun og snekkjubyggingarfjármögnun — alltaf með metnaðinn að verja hagsmuni þína eins og þeir væru okkar eigin.",
+    "quote": "Við ráðleggjum eins og um okkar eigið fyrirtæki væri að ræða.",
+    "stat_1_label": "Staðsetningar um heim allan",
+    "stat_2_label": "Starfsvið",
+    "stat_3_label": "Lönd",
+    "quote_attribution": "Peter Fiegler, stofnandi"
+  },
+  "services": {
+    "badge": "Þjónusta",
+    "headline": "Sérfræðiþekking okkar",
+    "subtitle": "Fjögur hæfnissvið — ein skuldbinding: að gera alþjóðleg verkefni þín rétt.",
+    "consulting": {
+      "title": "Félagaréttur og stofnun fyrirtækja",
+      "description": "Kjarnastarfsemi okkar: við ráðleggjum um stofnun, skipulagningu og stjórnun fyrirtækja í mismunandi alþjóðlegum lögsögum. Frá upphaflegri hugmynd til lagalega trausts framkvæmdar stöndum við við hlið þína.",
+      "items": {
+        "0": "Félagaréttur",
+        "1": "Alþjóðleg stofnun fyrirtækja"
+      }
+    },
+    "finance": {
+      "title": "Fjármálastjórnun",
+      "description": "Skýrleiki byggir traust: við tökum á okkur fjármálastjórnun fyrirtækis þíns og búum til gagnsæjar skipulagsheildir sem gera sjálfbæran vöxt mögulegan.",
+      "items": {
+        "0": "Bókhald og skýrslugerð",
+        "1": "Stefnumótandi fjárhagsáætlun"
+      }
+    },
+    "construction": {
+      "title": "Byggingarfjármögnun",
+      "description": "Byggingarverkefni krefjast fjárhagslegrar áreiðanleika. Við skipuleggjum og umsjónum fjármögnun byggingarverkefna þinna — frá upphaflegum útreikningi til verkloka.",
+      "items": {
+        "0": "Verkefnafjármögnun",
+        "1": "Fjárfestingaöryggi"
+      }
+    },
+    "yacht": {
+      "title": "Snekkjubyggingarfjármögnun",
+      "description": "Sérstakt svið á skilið sérstaka umhyggju. Við ráðleggjum um fjármögnun snekkjubyggingarverkefna — af trúnaði, persónulega og með raunverulegum skilningi á stöðlum greinarinnar.",
+      "items": {
+        "0": "Snekkjufjármögnun",
+        "1": "Persónuleg ráðgjöf"
+      }
+    }
+  },
+  "approach": {
+    "badge": "Nálgun okkar",
+    "headline": "Hvað aðgreinir okkur",
+    "values": {
+      "expertise": {
+        "title": "Alþjóðleg sérfræðiþekking",
+        "description": "Djúpur skilningur á réttarkerfum, viðskiptamenningu og regluverksblæbrigðum um Evrópu, Bandaríkin og Suðaustur-Evrópu."
+      },
+      "personal": {
+        "title": "Persónuleg nálægð",
+        "description": "Hjá okkur ertu aldrei bara skráarnúmer. Við tökum okkur tíma til að skilja markmið þín og þróa stefnur sem henta raunverulega aðstæðum þínum."
+      },
+      "trust": {
+        "title": "Samstarf á jafnréttisgrundvelli",
+        "description": "Við hugsum til langs tíma. Gagnsæi, heiðarleiki og mælanlegur árangur eru ekki aðeins gildi okkar — þau eru skuldbindingar."
+      }
+    }
+  },
+  "offices": {
+    "badge": "Skrifstofur",
+    "headline": "Nálægt mörkuðum þínum",
+    "subtitle": "Þrjár staðsetningar, eitt loforð — persónuleg ráðgjöf með alþjóðlegt umfang.",
+    "hamburg": {
+      "city": "Hamborg",
+      "country": "Þýskaland",
+      "label": "Höfuðstöðvar"
+    },
+    "belgrade": {
+      "city": "Belgrad",
+      "country": "Serbía",
+      "label": "Suðaustur-Evrópa"
+    },
+    "texas": {
+      "city": "Texas",
+      "country": "Bandaríkin",
+      "label": "Norður-Ameríka"
+    }
+  },
+  "contact": {
+    "badge": "Hafa samband",
+    "headline": "Tölum saman",
+    "subtitle": "Hvort sem um er að ræða upphaflega spurningu eða tiltekið verkefni — við tökum okkur tíma fyrir þig.",
+    "phone": "Sími",
+    "mobile": "Farsími",
+    "email": "Netfang",
+    "address": "Heimilisfang",
+    "cta": "Senda tölvupóst",
+    "dialog": {
+      "title": "Senda skilaboð",
+      "panel_subtitle": "Við hlökkum til að fá fyrirspurn þína og munum svara þér fljótt.",
+      "name": "Nafn",
+      "name_placeholder": "Fullt nafn þitt",
+      "email": "Netfang",
+      "email_placeholder": "thitt@netfang.is",
+      "subject": "Efni",
+      "subject_placeholder": "Hvað snýst þetta um?",
+      "message": "Skilaboð",
+      "message_placeholder": "Skilaboð þín til okkar...",
+      "submit": "Senda skilaboð",
+      "sending": "Sendir...",
+      "success_title": "Skilaboð send",
+      "success_text": "Takk! Við munum hafa samband fljótlega.",
+      "error_title": "Villa",
+      "error_text": "Ekki var hægt að senda skilaboðin. Vinsamlegast reyndu aftur.",
+      "retry": "Reyna aftur",
+      "close": "Loka",
+      "required": "Nauðsynlegur reitur",
+      "invalid_email": "Ógilt netfang",
+      "error_network_text": "Please check your internet connection and try again.",
+      "error_timeout_text": "The server is not responding. Please try again later.",
+      "error_rate_limit_text": "Too many requests. Please wait a moment and try again."
+    }
+  },
+  "footer": {
+    "description": "FIECON Germany Co. KG — Alþjóðleg ráðgjöf um félagarétt, stofnun fyrirtækja og fleira. Persónulega. Nákvæmlega. Í samstarfi.",
+    "services_title": "Þjónusta",
+    "offices_title": "Skrifstofur",
+    "legal_title": "Lagalegt",
+    "impressum": "Lagaleg tilkynning",
+    "datenschutz": "Persónuverndarstefna",
+    "copyright": "© {year} FIECON Germany Co. KG. Allur réttur áskilinn."
+  },
+  "error": {
+    "title": "Villa kom upp",
+    "description": "Vinsamlegast reyndu aftur eða farðu til baka á forsíðu.",
+    "retry": "Reyna aftur"
+  },
+  "notFound": {
+    "title": "Síða fannst ekki",
+    "description": "Umbeðin síða er ekki til eða hefur verið færð.",
+    "back": "Til baka á forsíðu"
+  },
+  "impressum": {
+    "title": "Lagaleg tilkynning",
+    "info_title": "Upplýsingar samkvæmt § 5 TMG",
+    "contact_title": "Hafa samband",
+    "phone_label": "Sími",
+    "mobile_label": "Farsími",
+    "email_label": "Netfang",
+    "homepage_label": "Heimasíða",
+    "responsible_title": "Ábyrgð á efni samkvæmt § 55 mgr. 2 RStV",
+    "responsible_name": "Peter Fiegler",
+    "disclaimer_title": "Fyrirvari",
+    "disclaimer_content_title": "Ábyrgð á efni",
+    "disclaimer_content_text": "Efni síðna okkar var búið til af mestu kostgæfni. Hins vegar getum við ekki ábyrgst nákvæmni, heilleika eða tímanlegt efni. Sem þjónustuaðili berum við ábyrgð á okkar eigin efni á þessum síðum í samræmi við § 7 mgr. 1 TMG samkvæmt almennum lögum. Samkvæmt §§ 8 til 10 TMG erum við sem þjónustuaðili hins vegar ekki skuldbundin til að fylgjast með sendar eða geymdar upplýsingar þriðja aðila eða rannsaka aðstæður sem benda til ólöglegrar starfsemi.",
+    "disclaimer_links_title": "Ábyrgð á tenglum",
+    "disclaimer_links_text": "Vefsíða okkar inniheldur tengla á ytri vefsíður þriðja aðila sem við höfum engin áhrif á efni þeirra. Þess vegna getum við ekki borið neina ábyrgð á efni þriðja aðila. Viðkomandi veitandi eða rekstraraðili síðnanna ber alltaf ábyrgð á efni tengdra síðna. Tengdar síður voru athugaðar með tilliti til mögulegra lagabrota við tengingu. Ólöglegt efni var ekki greinanlegt við tengingu.",
+    "copyright_title": "Höfundarréttur",
+    "copyright_text": "Efni og verk sem höfundar síðnanna hafa búið til á þessum síðum lúta þýskum höfundalögum. Fjölföldun, vinnsla, dreifing og hvers konar nýting utan marka höfundalaga krefst skriflegs samþykkis viðkomandi höfundar eða skapara."
+  },
+  "datenschutz": {
+    "title": "Persónuverndarstefna",
+    "intro": "Við tökum vernd persónuupplýsinga þinna mjög alvarlega. Við meðhöndlum persónuupplýsingar þínar sem trúnaðarmál og í samræmi við lögbundin persónuverndarákvæði og þessa persónuverndarstefnu.",
+    "section_1_title": "1. Ábyrgðaraðili",
+    "section_1_text": "Ábyrgðaraðili gagnameðferðar á þessari vefsíðu er:",
+    "section_2_title": "2. Söfnun og vinnsla persónuupplýsinga",
+    "section_2_text": "Þegar þú heimsækir vefsíðu okkar er almennra upplýsinga sjálfkrafa safnað. Þessar upplýsingar (annálaskrár netþjóns) innihalda gerð vafrans, stýrikerfið sem notað er, lénheiti netþjónustuaðilans, IP-töluna þína og svipaðar upplýsingar. Þetta eru eingöngu upplýsingar sem gefa enga ályktun um persónu þína.",
+    "section_2_legal_basis": "Lagagrundvöllur gagnavinnslu er Art. 6 mgr. 1 stafliður f DSGVO. Lögmætir hagsmunir okkar felast í því að tryggja truflanalausa starfsemi vefsíðu okkar.",
+    "section_2_retention": "Annálaskrám netþjóns er sjálfkrafa eytt eftir 14 daga.",
+    "section_3_title": "3. Hafa samband",
+    "section_3_text": "Ef þú hefur samband við okkur með tölvupósti eða í gegnum tengiliðaeyðublað verða upplýsingar þínar, þar á meðal samskiptaupplýsingar sem þú gefur upp, geymdar í þeim tilgangi að afgreiða fyrirspurnina og ef til framhaldsspurninga. Við munum ekki deila þessum gögnum án þíns samþykkis.",
+    "section_3_legal_basis": "Lagagrundvöllur gagnavinnslu er Art. 6 mgr. 1 stafliður b DSGVO (forsamningsaðgerðir) eða Art. 6 mgr. 1 stafliður f DSGVO (lögmætir hagsmunir við afgreiðslu fyrirspurnar þinnar).",
+    "section_3_retention": "Gögnum sem send eru við samskipti við okkur verður eytt um leið og fyrirspurn þín hefur verið afgreidd að fullu og engar lögbundnar varðveisluskyldur eiga við.",
+    "section_4_title": "4. Afhending tölvupósts",
+    "section_4_text": "Til að senda tölvupóst í gegnum tengiliðaeyðublað okkar notum við SMTP póstþjón. Gögnin sem þú slærð inn (nafn, netfang, efni, skilaboð) eru send til tölvupóstveitu okkar sem afhendir tölvupóstinn fyrir okkar hönd.",
+    "section_5_title": "5. Réttindi þín",
+    "section_5_text_1": "Þú hefur eftirfarandi réttindi varðandi persónuupplýsingar þínar:",
+    "section_5_rights_0": "Réttur til aðgangs (Art. 15 DSGVO)",
+    "section_5_rights_1": "Réttur til leiðréttingar (Art. 16 DSGVO)",
+    "section_5_rights_2": "Réttur til eyðingar (Art. 17 DSGVO)",
+    "section_5_rights_3": "Réttur til takmörkunar á vinnslu (Art. 18 DSGVO)",
+    "section_5_rights_4": "Réttur til gagnaflutnings (Art. 20 DSGVO)",
+    "section_5_rights_5": "Réttur til andmæla gegn vinnslu (Art. 21 DSGVO)",
+    "section_5_text_2": "Þú hefur einnig rétt til að leggja fram kvörtun hjá persónuverndareftirliti vegna vinnslu okkar á persónuupplýsingum þínum.",
+    "section_6_title": "6. Vafrakökur",
+    "section_6_text": "Vefsíða okkar notar hagnýta vafraköku (NEXT_LOCALE) til að geyma tungumálaval þitt. Þessi vafrakaka er tæknilega nauðsynleg og krefst ekki samþykkis samkvæmt § 25 mgr. 2 TDDDG. Engar rekjanlegar eða greiningarvafrakökur eru notaðar.",
+    "section_7_title": "7. Breytingar á þessari persónuverndarstefnu",
+    "section_7_text": "Þessi persónuverndarstefna gildir eins og hún er. Vegna frekari þróunar vefsíðu okkar eða vegna breyttra lagalegra eða reglugerðarkrafna gæti orðið nauðsynlegt að breyta þessari persónuverndarstefnu.",
+    "email_label": "Netfang",
+    "contact_label": "Hafa samband"
+  }
 }

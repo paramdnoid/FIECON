@@ -1,25 +1,217 @@
 {
-  "language": { "title": "Agħżel il-lingwa", "close": "Agħlaq" },
+  "language": {
+    "title": "Agħżel il-lingwa",
+    "close": "Agħlaq"
+  },
   "metadata": {
     "title": "FIECON — Konsulenza Internazzjonali dwar id-Dritt Korporattiv u t-Twaqqif ta' Kumpaniji",
     "description": "FIECON Germany Co. KG — Konsulenza internazzjonali dwar id-dritt korporattiv, it-twaqqif ta' kumpaniji, l-amministrazzjoni finanzjarja u l-finanzjament tal-kostruzzjoni. Uffiċċji f'Hamburg, Belgrad u Texas."
   },
-  "nav": { "home": "Mur fuq il-paġna ewlenija", "menu": "Iftaħ il-menu", "about": "Dwarna", "services": "Servizzi", "approach": "Approċċ", "offices": "Uffiċċji", "contact": "Kuntatt", "navigation": "Navigazzjoni", "close_menu": "Agħlaq il-menu" },
-  "hero": { "tagline": "Fiegler Consulting", "headline": "In-negozju tiegħek. Konsultat internazzjonalment.", "subtitle": "Dritt korporattiv u twaqqif internazzjonali ta' kumpaniji — gwida personali f'Hamburg, Belgrad u Texas.", "cta_primary": "Is-servizzi tagħna", "cta_secondary": "Ikkuntattjana" },
-  "about": { "badge": "Dwarna", "headline": "Il-viżjoni tiltaqa' mad-diliġenza", "text_1": "FIECON tirrappreżenta konsulenza internazzjonali b'impenn personali. L-għarfien ewlieni tagħna jinsab fid-dritt korporattiv u fit-twaqqif internazzjonali ta' kumpaniji — oqsma fejn l-esperjenza, il-preċiżjoni u l-fehim kulturali jagħmlu d-differenza kollha.", "text_2": "Minn Hamburg, Belgrad u Texas, aħna niggwidaw negozji lil hinn mill-fruntieri. Nagħtu wkoll konsulenza dwar l-amministrazzjoni finanzjarja, il-finanzjament tal-kostruzzjoni u l-finanzjament tal-kostruzzjoni tal-jottijiet — dejjem bl-ambizzjoni li nirrappreżentaw l-interessi tiegħek bħallikieku kienu tagħna stess.", "quote": "Aħna nagħtu konsulenza bħallikieku kienet il-kumpanija tagħna stess involuta.", "stat_1_label": "Postijiet madwar id-dinja", "stat_2_label": "Oqsma ta' prattika", "stat_3_label": "Pajjiżi", "quote_attribution": "Peter Fiegler, Fundatur" },
-  "services": {
-    "badge": "Servizzi", "headline": "L-għarfien tagħna", "subtitle": "Erba' oqsma ta' kompetenza — impenn wieħed: li l-impriżi internazzjonali tiegħek isiru sewwa.",
-    "consulting": { "title": "Dritt korporattiv u twaqqif ta' kumpaniji", "description": "Il-prattika ewlenija tagħna: nagħtu konsulenza dwar it-twaqqif, l-istrutturar u l-governanza ta' kumpaniji f'ġurisdizzjonijiet internazzjonali differenti. Mill-kunċett inizjali sal-implimentazzjoni legalment soda, aħna nieqfu miegħek.", "items": { "0": "Dritt korporattiv", "1": "Twaqqif internazzjonali ta' kumpaniji" } },
-    "finance": { "title": "Amministrazzjoni finanzjarja", "description": "Iċ-ċarezza tibni l-fiduċja: aħna nieħdu f'idejna l-amministrazzjoni finanzjarja korporattiva tiegħek u noħolqu strutturi trasparenti li jippermettu tkabbir sostenibbli.", "items": { "0": "Kontabbiltà u rapportar", "1": "Ippjanar finanzjarju strateġiku" } },
-    "construction": { "title": "Finanzjament tal-kostruzzjoni", "description": "Proġetti tal-kostruzzjoni jeħtieġu affidabbiltà finanzjarja. Aħna nistrutturaw u nissorveljaw il-finanzjament tal-impriżi tal-bini tiegħek — mill-kalkolu inizjali sat-tlestija.", "items": { "0": "Finanzjament ta' proġetti", "1": "Sigurtà tal-investiment" } },
-    "yacht": { "title": "Finanzjament tal-kostruzzjoni tal-jottijiet", "description": "Segment distint jistħoqqlu kura distinta. Aħna nagħtu konsulenza dwar il-finanzjament ta' proġetti tal-kostruzzjoni tal-jottijiet — b'diskrezzjoni, personalment u b'fehim ġenwin tal-istandards tal-industrija.", "items": { "0": "Finanzjament tal-jottijiet", "1": "Konsulenza personali" } }
+  "nav": {
+    "home": "Mur fuq il-paġna ewlenija",
+    "menu": "Iftaħ il-menu",
+    "about": "Dwarna",
+    "services": "Servizzi",
+    "approach": "Approċċ",
+    "offices": "Uffiċċji",
+    "contact": "Kuntatt",
+    "navigation": "Navigazzjoni",
+    "close_menu": "Agħlaq il-menu"
   },
-  "approach": { "badge": "L-approċċ tagħna", "headline": "X'jagħmilna differenti", "values": { "expertise": { "title": "Għarfien internazzjonali", "description": "Fehim profond ta' sistemi legali, kulturi ta' negozju u sfumaturi regolatorji madwar l-Ewropa, l-Istati Uniti u x-Xlokk tal-Ewropa." }, "personal": { "title": "Qrubija personali", "description": "Magħna, int qatt ma tkun biss numru ta' fajl. Aħna nieħdu l-ħin biex nifhmu l-għanijiet tiegħek u niżviluppaw strateġiji li tassew jaqblu mas-sitwazzjoni tiegħek." }, "trust": { "title": "Sħubija fuq termini ugwali", "description": "Aħna naħsbu fit-tul. Trasparenza, integrità u riżultati li jistgħu jitkejlu mhumiex biss valuri għalina — huma impenji." } } },
-  "offices": { "badge": "Uffiċċji", "headline": "Qrib is-swieq tiegħek", "subtitle": "Tliet postijiet, wegħda waħda — konsulenza personali b'firxa internazzjonali.", "hamburg": { "city": "Hamburg", "country": "Il-Ġermanja", "label": "Kwartieri Ġenerali" }, "belgrade": { "city": "Belgrad", "country": "Is-Serbja", "label": "Xlokk tal-Ewropa" }, "texas": { "city": "Texas", "country": "L-Istati Uniti", "label": "L-Amerika ta' Fuq" } },
-  "contact": { "badge": "Kuntatt", "headline": "Ejja nitkellmu", "subtitle": "Kemm jekk hija mistoqsija inizjali jew proġett konkret — aħna nieħdu l-ħin għalik.", "phone": "Telefon", "mobile": "Mowbajl", "email": "Email", "address": "Indirizz", "cta": "Ibgħat email", "dialog": { "title": "Ibgħat messaġġ", "panel_subtitle": "Nistennew bil-ħerqa l-mistoqsija tiegħek u nirrisponduk minnufih.", "name": "Isem", "name_placeholder": "Ismek sħiħ", "email": "Indirizz tal-email", "email_placeholder": "tieghek@email.mt", "subject": "Suġġett", "subject_placeholder": "Dwar xiex tirrigwarda?", "message": "Messaġġ", "message_placeholder": "Il-messaġġ tiegħek lilna...", "submit": "Ibgħat il-messaġġ", "sending": "Qed jintbagħat...", "success_title": "Messaġġ mibgħut", "success_text": "Grazzi! Nirritornaw lura lejk dalwaqt.", "error_title": "Żball", "error_text": "Il-messaġġ ma setax jintbagħat. Jekk jogħġbok erġa' pprova.", "retry": "Erġa' pprova", "close": "Agħlaq", "required": "Qasam obbligatorju", "invalid_email": "Indirizz tal-email invalidu" } },
-  "footer": { "description": "FIECON Germany Co. KG — Konsulenza internazzjonali dwar id-dritt korporattiv, it-twaqqif ta' kumpaniji u lil hinn. Personali. Preċiż. Fi sħubija.", "services_title": "Servizzi", "offices_title": "Uffiċċji", "legal_title": "Legali", "impressum": "Avviż legali", "datenschutz": "Politika tal-privatezza", "copyright": "© {year} FIECON Germany Co. KG. Id-drittijiet kollha riżervati." },
-  "error": { "title": "Seħħ żball", "description": "Jekk jogħġbok erġa' pprova jew irritorna fuq il-paġna ewlenija.", "retry": "Erġa' pprova" },
-  "notFound": { "title": "Il-paġna ma nstabitx", "description": "Il-paġna mitluba ma teżistix jew ġiet imċaqalqa.", "back": "Lura lejn il-paġna ewlenija" },
-  "impressum": { "title": "Avviż legali", "info_title": "Informazzjoni skont § 5 TMG", "contact_title": "Kuntatt", "phone_label": "Telefon", "mobile_label": "Mowbajl", "email_label": "Email", "homepage_label": "Paġna ewlenija", "responsible_title": "Responsabbli għall-kontenut skont § 55 par. 2 RStV", "responsible_name": "Peter Fiegler", "disclaimer_title": "Dikjarazzjoni ta' ċaħda", "disclaimer_content_title": "Responsabbiltà għall-kontenut", "disclaimer_content_text": "Il-kontenuti tal-paġni tagħna nħolqu bl-akbar kura. Madankollu, ma nistgħux niggarantixxu l-eżattezza, il-kompletezza jew l-attwalità tal-kontenut. Bħala fornitur ta' servizz, aħna responsabbli għall-kontenut tagħna stess fuq dawn il-paġni skont § 7 par. 1 TMG taħt il-liġi ġenerali. Skont §§ 8 sa 10 TMG, madankollu, aħna bħala fornitur ta' servizz m'aħniex obbligati li nimmonitorjaw informazzjoni ta' terzi trażmessa jew maħżuna jew li ninvestigaw ċirkostanzi li jindikaw attività illegali.", "disclaimer_links_title": "Responsabbiltà għal-links", "disclaimer_links_text": "Il-websajt tagħna fiha links għal-websajts esterni ta' terzi li fuq il-kontenut tagħhom m'għandniex influwenza. Għalhekk, ma nistgħux naċċettaw responsabbiltà għal-kontenut ta' terzi. Il-fornitur jew l-operatur rispettiv tal-paġni huwa dejjem responsabbli għall-kontenut tal-paġni linkjati. Il-paġni linkjati ġew iċċekkjati għal-ksur legali possibbli fil-ħin tal-linking. Kontenut illegali ma kienx rikonoxxibbli fil-ħin tal-linking.", "copyright_title": "Drittijiet tal-awtur", "copyright_text": "Il-kontenut u x-xogħlijiet maħluqa mill-operaturi tas-sit fuq dawn il-paġni huma soġġetti għal-liġi Ġermaniża dwar id-drittijiet tal-awtur. Ir-riproduzzjoni, l-editjar, id-distribuzzjoni u kwalunkwe tip ta' sfruttament lil hinn mill-limiti tal-liġi tad-drittijiet tal-awtur jeħtieġu l-kunsens bil-miktub tal-awtur jew il-ħallieq rispettiv." },
-  "datenschutz": { "title": "Politika tal-privatezza", "intro": "Aħna nieħdu l-protezzjoni tad-data personali tiegħek b'serjetà kbira. Nittrattaw id-data personali tiegħek b'mod kunfidenzjali u skont ir-regolamenti statutorji dwar il-protezzjoni tad-data u din il-politika tal-privatezza.", "section_1_title": "1. Entità responsabbli", "section_1_text": "L-entità responsabbli għall-ipproċessar tad-data fuq din il-websajt hija:", "section_2_title": "2. Ġbir u pproċessar ta' data personali", "section_2_text": "Meta żżur il-websajt tagħna, informazzjoni ta' natura ġenerali tinġabar awtomatikament. Din l-informazzjoni (fajls tal-log tas-server) tinkludi t-tip ta' web browser, is-sistema operattiva użata, l-isem tad-dominju tal-fornitur tas-servizz tal-internet tiegħek, l-indirizz IP tiegħek u dettalji simili. Din hija esklussivament informazzjoni li ma tippermettix konklużjonijiet dwar il-persuna tiegħek.", "section_2_legal_basis": "Il-bażi legali għall-ipproċessar tad-data hija Art. 6 par. 1 lit. f DSGVO. L-interess leġittimu tagħna jinsab fl-iżgurar tal-operat mingħajr problemi tal-websajt tagħna.", "section_2_retention": "Il-fajls tal-log tas-server jitħassru awtomatikament wara 14-il jum.", "section_3_title": "3. Kuntatt", "section_3_text": "Jekk tikkuntattjana b'email jew permezz tal-formola ta' kuntatt, id-dettalji tiegħek inkluż id-data ta' kuntatt li tipprovdi jinħażnu għall-iskop tal-ipproċessar tal-mistoqsija u f'każ ta' mistoqsijiet ta' segwitu. Aħna ma naqsmux din id-data mingħajr il-kunsens tiegħek.", "section_3_legal_basis": "Il-bażi legali għall-ipproċessar tad-data hija Art. 6 par. 1 lit. b DSGVO (miżuri pre-kuntrattwali) jew Art. 6 par. 1 lit. f DSGVO (interess leġittimu fl-ipproċessar tal-mistoqsija tiegħek).", "section_3_retention": "Data trażmessa matul-kuntatt magħna titħassar hekk kif il-mistoqsija tiegħek tkun ġiet ipproċessata b'mod konklużiv u ma japplikawx obbligi statutorji ta' ritenzjoni.", "section_4_title": "4. Twassil tal-email", "section_4_text": "Biex nibagħtu emails permezz tal-formola ta' kuntatt tagħna, nużaw server tal-posta SMTP. Id-data li ddaħħal (isem, indirizz tal-email, suġġett, messaġġ) tiġi trażmessa lill-fornitur tal-email tagħna, li jwassal l-email f'isimna.", "section_5_title": "5. Id-drittijiet tiegħek", "section_5_text_1": "Inti għandek id-drittijiet li ġejjin fir-rigward tad-data personali tiegħek:", "section_5_rights_0": "Dritt ta' aċċess (Art. 15 DSGVO)", "section_5_rights_1": "Dritt ta' rettifika (Art. 16 DSGVO)", "section_5_rights_2": "Dritt ta' tħassir (Art. 17 DSGVO)", "section_5_rights_3": "Dritt ta' restrizzjoni tal-ipproċessar (Art. 18 DSGVO)", "section_5_rights_4": "Dritt ta' portabbiltà tad-data (Art. 20 DSGVO)", "section_5_rights_5": "Dritt ta' oġġezzjoni għall-ipproċessar (Art. 21 DSGVO)", "section_5_text_2": "Għandek ukoll id-dritt li tressaq ilment quddiem awtorità superviżorja għall-protezzjoni tad-data dwar l-ipproċessar tad-data personali tiegħek minna.", "section_6_title": "6. Cookies", "section_6_text": "Il-websajt tagħna tuża cookie funzjonali (NEXT_LOCALE) biex taħżen il-preferenza tal-lingwa tiegħek. Din il-cookie hija teknikament meħtieġa u ma teħtieġx kunsens taħt § 25 par. 2 TDDDG. L-ebda cookies ta' tracking jew analitika ma jintużaw.", "section_7_title": "7. Bidliet f'din il-politika tal-privatezza", "section_7_text": "Din il-politika tal-privatezza hija valida bħalissa. Minħabba l-iżvilupp ulterjuri tal-websajt tagħna jew minħabba rekwiżiti legali jew regolatorji mibdula, jista' jkun meħtieġ li tiġi emendata din il-politika tal-privatezza.", "email_label": "Email", "contact_label": "Kuntatt" }
+  "hero": {
+    "tagline": "Fiegler Consulting",
+    "headline": "In-negozju tiegħek. Konsultat internazzjonalment.",
+    "subtitle": "Dritt korporattiv u twaqqif internazzjonali ta' kumpaniji — gwida personali f'Hamburg, Belgrad u Texas.",
+    "cta_primary": "Is-servizzi tagħna",
+    "cta_secondary": "Ikkuntattjana"
+  },
+  "about": {
+    "badge": "Dwarna",
+    "headline": "Il-viżjoni tiltaqa' mad-diliġenza",
+    "text_1": "FIECON tirrappreżenta konsulenza internazzjonali b'impenn personali. L-għarfien ewlieni tagħna jinsab fid-dritt korporattiv u fit-twaqqif internazzjonali ta' kumpaniji — oqsma fejn l-esperjenza, il-preċiżjoni u l-fehim kulturali jagħmlu d-differenza kollha.",
+    "text_2": "Minn Hamburg, Belgrad u Texas, aħna niggwidaw negozji lil hinn mill-fruntieri. Nagħtu wkoll konsulenza dwar l-amministrazzjoni finanzjarja, il-finanzjament tal-kostruzzjoni u l-finanzjament tal-kostruzzjoni tal-jottijiet — dejjem bl-ambizzjoni li nirrappreżentaw l-interessi tiegħek bħallikieku kienu tagħna stess.",
+    "quote": "Aħna nagħtu konsulenza bħallikieku kienet il-kumpanija tagħna stess involuta.",
+    "stat_1_label": "Postijiet madwar id-dinja",
+    "stat_2_label": "Oqsma ta' prattika",
+    "stat_3_label": "Pajjiżi",
+    "quote_attribution": "Peter Fiegler, Fundatur"
+  },
+  "services": {
+    "badge": "Servizzi",
+    "headline": "L-għarfien tagħna",
+    "subtitle": "Erba' oqsma ta' kompetenza — impenn wieħed: li l-impriżi internazzjonali tiegħek isiru sewwa.",
+    "consulting": {
+      "title": "Dritt korporattiv u twaqqif ta' kumpaniji",
+      "description": "Il-prattika ewlenija tagħna: nagħtu konsulenza dwar it-twaqqif, l-istrutturar u l-governanza ta' kumpaniji f'ġurisdizzjonijiet internazzjonali differenti. Mill-kunċett inizjali sal-implimentazzjoni legalment soda, aħna nieqfu miegħek.",
+      "items": {
+        "0": "Dritt korporattiv",
+        "1": "Twaqqif internazzjonali ta' kumpaniji"
+      }
+    },
+    "finance": {
+      "title": "Amministrazzjoni finanzjarja",
+      "description": "Iċ-ċarezza tibni l-fiduċja: aħna nieħdu f'idejna l-amministrazzjoni finanzjarja korporattiva tiegħek u noħolqu strutturi trasparenti li jippermettu tkabbir sostenibbli.",
+      "items": {
+        "0": "Kontabbiltà u rapportar",
+        "1": "Ippjanar finanzjarju strateġiku"
+      }
+    },
+    "construction": {
+      "title": "Finanzjament tal-kostruzzjoni",
+      "description": "Proġetti tal-kostruzzjoni jeħtieġu affidabbiltà finanzjarja. Aħna nistrutturaw u nissorveljaw il-finanzjament tal-impriżi tal-bini tiegħek — mill-kalkolu inizjali sat-tlestija.",
+      "items": {
+        "0": "Finanzjament ta' proġetti",
+        "1": "Sigurtà tal-investiment"
+      }
+    },
+    "yacht": {
+      "title": "Finanzjament tal-kostruzzjoni tal-jottijiet",
+      "description": "Segment distint jistħoqqlu kura distinta. Aħna nagħtu konsulenza dwar il-finanzjament ta' proġetti tal-kostruzzjoni tal-jottijiet — b'diskrezzjoni, personalment u b'fehim ġenwin tal-istandards tal-industrija.",
+      "items": {
+        "0": "Finanzjament tal-jottijiet",
+        "1": "Konsulenza personali"
+      }
+    }
+  },
+  "approach": {
+    "badge": "L-approċċ tagħna",
+    "headline": "X'jagħmilna differenti",
+    "values": {
+      "expertise": {
+        "title": "Għarfien internazzjonali",
+        "description": "Fehim profond ta' sistemi legali, kulturi ta' negozju u sfumaturi regolatorji madwar l-Ewropa, l-Istati Uniti u x-Xlokk tal-Ewropa."
+      },
+      "personal": {
+        "title": "Qrubija personali",
+        "description": "Magħna, int qatt ma tkun biss numru ta' fajl. Aħna nieħdu l-ħin biex nifhmu l-għanijiet tiegħek u niżviluppaw strateġiji li tassew jaqblu mas-sitwazzjoni tiegħek."
+      },
+      "trust": {
+        "title": "Sħubija fuq termini ugwali",
+        "description": "Aħna naħsbu fit-tul. Trasparenza, integrità u riżultati li jistgħu jitkejlu mhumiex biss valuri għalina — huma impenji."
+      }
+    }
+  },
+  "offices": {
+    "badge": "Uffiċċji",
+    "headline": "Qrib is-swieq tiegħek",
+    "subtitle": "Tliet postijiet, wegħda waħda — konsulenza personali b'firxa internazzjonali.",
+    "hamburg": {
+      "city": "Hamburg",
+      "country": "Il-Ġermanja",
+      "label": "Kwartieri Ġenerali"
+    },
+    "belgrade": {
+      "city": "Belgrad",
+      "country": "Is-Serbja",
+      "label": "Xlokk tal-Ewropa"
+    },
+    "texas": {
+      "city": "Texas",
+      "country": "L-Istati Uniti",
+      "label": "L-Amerika ta' Fuq"
+    }
+  },
+  "contact": {
+    "badge": "Kuntatt",
+    "headline": "Ejja nitkellmu",
+    "subtitle": "Kemm jekk hija mistoqsija inizjali jew proġett konkret — aħna nieħdu l-ħin għalik.",
+    "phone": "Telefon",
+    "mobile": "Mowbajl",
+    "email": "Email",
+    "address": "Indirizz",
+    "cta": "Ibgħat email",
+    "dialog": {
+      "title": "Ibgħat messaġġ",
+      "panel_subtitle": "Nistennew bil-ħerqa l-mistoqsija tiegħek u nirrisponduk minnufih.",
+      "name": "Isem",
+      "name_placeholder": "Ismek sħiħ",
+      "email": "Indirizz tal-email",
+      "email_placeholder": "tieghek@email.mt",
+      "subject": "Suġġett",
+      "subject_placeholder": "Dwar xiex tirrigwarda?",
+      "message": "Messaġġ",
+      "message_placeholder": "Il-messaġġ tiegħek lilna...",
+      "submit": "Ibgħat il-messaġġ",
+      "sending": "Qed jintbagħat...",
+      "success_title": "Messaġġ mibgħut",
+      "success_text": "Grazzi! Nirritornaw lura lejk dalwaqt.",
+      "error_title": "Żball",
+      "error_text": "Il-messaġġ ma setax jintbagħat. Jekk jogħġbok erġa' pprova.",
+      "retry": "Erġa' pprova",
+      "close": "Agħlaq",
+      "required": "Qasam obbligatorju",
+      "invalid_email": "Indirizz tal-email invalidu",
+      "error_network_text": "Please check your internet connection and try again.",
+      "error_timeout_text": "The server is not responding. Please try again later.",
+      "error_rate_limit_text": "Too many requests. Please wait a moment and try again."
+    }
+  },
+  "footer": {
+    "description": "FIECON Germany Co. KG — Konsulenza internazzjonali dwar id-dritt korporattiv, it-twaqqif ta' kumpaniji u lil hinn. Personali. Preċiż. Fi sħubija.",
+    "services_title": "Servizzi",
+    "offices_title": "Uffiċċji",
+    "legal_title": "Legali",
+    "impressum": "Avviż legali",
+    "datenschutz": "Politika tal-privatezza",
+    "copyright": "© {year} FIECON Germany Co. KG. Id-drittijiet kollha riżervati."
+  },
+  "error": {
+    "title": "Seħħ żball",
+    "description": "Jekk jogħġbok erġa' pprova jew irritorna fuq il-paġna ewlenija.",
+    "retry": "Erġa' pprova"
+  },
+  "notFound": {
+    "title": "Il-paġna ma nstabitx",
+    "description": "Il-paġna mitluba ma teżistix jew ġiet imċaqalqa.",
+    "back": "Lura lejn il-paġna ewlenija"
+  },
+  "impressum": {
+    "title": "Avviż legali",
+    "info_title": "Informazzjoni skont § 5 TMG",
+    "contact_title": "Kuntatt",
+    "phone_label": "Telefon",
+    "mobile_label": "Mowbajl",
+    "email_label": "Email",
+    "homepage_label": "Paġna ewlenija",
+    "responsible_title": "Responsabbli għall-kontenut skont § 55 par. 2 RStV",
+    "responsible_name": "Peter Fiegler",
+    "disclaimer_title": "Dikjarazzjoni ta' ċaħda",
+    "disclaimer_content_title": "Responsabbiltà għall-kontenut",
+    "disclaimer_content_text": "Il-kontenuti tal-paġni tagħna nħolqu bl-akbar kura. Madankollu, ma nistgħux niggarantixxu l-eżattezza, il-kompletezza jew l-attwalità tal-kontenut. Bħala fornitur ta' servizz, aħna responsabbli għall-kontenut tagħna stess fuq dawn il-paġni skont § 7 par. 1 TMG taħt il-liġi ġenerali. Skont §§ 8 sa 10 TMG, madankollu, aħna bħala fornitur ta' servizz m'aħniex obbligati li nimmonitorjaw informazzjoni ta' terzi trażmessa jew maħżuna jew li ninvestigaw ċirkostanzi li jindikaw attività illegali.",
+    "disclaimer_links_title": "Responsabbiltà għal-links",
+    "disclaimer_links_text": "Il-websajt tagħna fiha links għal-websajts esterni ta' terzi li fuq il-kontenut tagħhom m'għandniex influwenza. Għalhekk, ma nistgħux naċċettaw responsabbiltà għal-kontenut ta' terzi. Il-fornitur jew l-operatur rispettiv tal-paġni huwa dejjem responsabbli għall-kontenut tal-paġni linkjati. Il-paġni linkjati ġew iċċekkjati għal-ksur legali possibbli fil-ħin tal-linking. Kontenut illegali ma kienx rikonoxxibbli fil-ħin tal-linking.",
+    "copyright_title": "Drittijiet tal-awtur",
+    "copyright_text": "Il-kontenut u x-xogħlijiet maħluqa mill-operaturi tas-sit fuq dawn il-paġni huma soġġetti għal-liġi Ġermaniża dwar id-drittijiet tal-awtur. Ir-riproduzzjoni, l-editjar, id-distribuzzjoni u kwalunkwe tip ta' sfruttament lil hinn mill-limiti tal-liġi tad-drittijiet tal-awtur jeħtieġu l-kunsens bil-miktub tal-awtur jew il-ħallieq rispettiv."
+  },
+  "datenschutz": {
+    "title": "Politika tal-privatezza",
+    "intro": "Aħna nieħdu l-protezzjoni tad-data personali tiegħek b'serjetà kbira. Nittrattaw id-data personali tiegħek b'mod kunfidenzjali u skont ir-regolamenti statutorji dwar il-protezzjoni tad-data u din il-politika tal-privatezza.",
+    "section_1_title": "1. Entità responsabbli",
+    "section_1_text": "L-entità responsabbli għall-ipproċessar tad-data fuq din il-websajt hija:",
+    "section_2_title": "2. Ġbir u pproċessar ta' data personali",
+    "section_2_text": "Meta żżur il-websajt tagħna, informazzjoni ta' natura ġenerali tinġabar awtomatikament. Din l-informazzjoni (fajls tal-log tas-server) tinkludi t-tip ta' web browser, is-sistema operattiva użata, l-isem tad-dominju tal-fornitur tas-servizz tal-internet tiegħek, l-indirizz IP tiegħek u dettalji simili. Din hija esklussivament informazzjoni li ma tippermettix konklużjonijiet dwar il-persuna tiegħek.",
+    "section_2_legal_basis": "Il-bażi legali għall-ipproċessar tad-data hija Art. 6 par. 1 lit. f DSGVO. L-interess leġittimu tagħna jinsab fl-iżgurar tal-operat mingħajr problemi tal-websajt tagħna.",
+    "section_2_retention": "Il-fajls tal-log tas-server jitħassru awtomatikament wara 14-il jum.",
+    "section_3_title": "3. Kuntatt",
+    "section_3_text": "Jekk tikkuntattjana b'email jew permezz tal-formola ta' kuntatt, id-dettalji tiegħek inkluż id-data ta' kuntatt li tipprovdi jinħażnu għall-iskop tal-ipproċessar tal-mistoqsija u f'każ ta' mistoqsijiet ta' segwitu. Aħna ma naqsmux din id-data mingħajr il-kunsens tiegħek.",
+    "section_3_legal_basis": "Il-bażi legali għall-ipproċessar tad-data hija Art. 6 par. 1 lit. b DSGVO (miżuri pre-kuntrattwali) jew Art. 6 par. 1 lit. f DSGVO (interess leġittimu fl-ipproċessar tal-mistoqsija tiegħek).",
+    "section_3_retention": "Data trażmessa matul-kuntatt magħna titħassar hekk kif il-mistoqsija tiegħek tkun ġiet ipproċessata b'mod konklużiv u ma japplikawx obbligi statutorji ta' ritenzjoni.",
+    "section_4_title": "4. Twassil tal-email",
+    "section_4_text": "Biex nibagħtu emails permezz tal-formola ta' kuntatt tagħna, nużaw server tal-posta SMTP. Id-data li ddaħħal (isem, indirizz tal-email, suġġett, messaġġ) tiġi trażmessa lill-fornitur tal-email tagħna, li jwassal l-email f'isimna.",
+    "section_5_title": "5. Id-drittijiet tiegħek",
+    "section_5_text_1": "Inti għandek id-drittijiet li ġejjin fir-rigward tad-data personali tiegħek:",
+    "section_5_rights_0": "Dritt ta' aċċess (Art. 15 DSGVO)",
+    "section_5_rights_1": "Dritt ta' rettifika (Art. 16 DSGVO)",
+    "section_5_rights_2": "Dritt ta' tħassir (Art. 17 DSGVO)",
+    "section_5_rights_3": "Dritt ta' restrizzjoni tal-ipproċessar (Art. 18 DSGVO)",
+    "section_5_rights_4": "Dritt ta' portabbiltà tad-data (Art. 20 DSGVO)",
+    "section_5_rights_5": "Dritt ta' oġġezzjoni għall-ipproċessar (Art. 21 DSGVO)",
+    "section_5_text_2": "Għandek ukoll id-dritt li tressaq ilment quddiem awtorità superviżorja għall-protezzjoni tad-data dwar l-ipproċessar tad-data personali tiegħek minna.",
+    "section_6_title": "6. Cookies",
+    "section_6_text": "Il-websajt tagħna tuża cookie funzjonali (NEXT_LOCALE) biex taħżen il-preferenza tal-lingwa tiegħek. Din il-cookie hija teknikament meħtieġa u ma teħtieġx kunsens taħt § 25 par. 2 TDDDG. L-ebda cookies ta' tracking jew analitika ma jintużaw.",
+    "section_7_title": "7. Bidliet f'din il-politika tal-privatezza",
+    "section_7_text": "Din il-politika tal-privatezza hija valida bħalissa. Minħabba l-iżvilupp ulterjuri tal-websajt tagħna jew minħabba rekwiżiti legali jew regolatorji mibdula, jista' jkun meħtieġ li tiġi emendata din il-politika tal-privatezza.",
+    "email_label": "Email",
+    "contact_label": "Kuntatt"
+  }
 }
