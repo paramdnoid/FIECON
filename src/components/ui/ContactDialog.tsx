@@ -4,13 +4,15 @@ import {
   useState,
   useEffect,
   useRef,
-  forwardRef,
   type FormEvent,
 } from "react";
 import { motion, AnimatePresence, useReducedMotion } from "motion/react";
 import { useTranslations } from "next-intl";
 import { CONTACT, COMPANY, LOGO_PATHS, EASE_OUT_EXPO } from "@/lib/constants";
 import { useFocusTrap } from "@/hooks/useFocusTrap";
+import { FormField } from "./FormField";
+import { CloseButton } from "./CloseButton";
+import { Spinner } from "./Spinner";
 
 type Props = {
   open: boolean;
@@ -249,7 +251,7 @@ export function ContactDialog({ open, onClose }: Props) {
                   <form onSubmit={handleSubmit} noValidate className="space-y-5">
                     {/* Name + Email row */}
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-                      <Field
+                      <FormField
                         id="contact-name"
                         label={t("name")}
                         placeholder={t("name_placeholder")}
@@ -260,7 +262,7 @@ export function ContactDialog({ open, onClose }: Props) {
                           setForm((f) => ({ ...f, name: v }))
                         }
                       />
-                      <Field
+                      <FormField
                         id="contact-email"
                         label={t("email")}
                         type="email"
@@ -273,7 +275,7 @@ export function ContactDialog({ open, onClose }: Props) {
                       />
                     </div>
 
-                    <Field
+                    <FormField
                       id="contact-subject"
                       label={t("subject")}
                       placeholder={t("subject_placeholder")}
@@ -284,12 +286,13 @@ export function ContactDialog({ open, onClose }: Props) {
                       }
                     />
 
-                    <TextareaField
+                    <FormField
                       id="contact-message"
                       label={t("message")}
                       placeholder={t("message_placeholder")}
                       value={form.message}
                       error={errors.message}
+                      multiline
                       onChange={(v) =>
                         setForm((f) => ({ ...f, message: v }))
                       }
@@ -335,80 +338,7 @@ export function ContactDialog({ open, onClose }: Props) {
   );
 }
 
-/* ---------- Sub-components ---------- */
-
-type FieldProps = {
-  label: string;
-  placeholder: string;
-  value: string;
-  error?: string;
-  type?: string;
-  id: string;
-  onChange: (value: string) => void;
-};
-
-const Field = forwardRef<HTMLInputElement, FieldProps>(
-  ({ label, placeholder, value, error, type = "text", id, onChange }, ref) => {
-    const errorId = `${id}-error`;
-    return (
-      <div>
-        <label htmlFor={id} className="block text-xs font-semibold tracking-[0.15em] uppercase text-text-muted mb-2">
-          {label}
-        </label>
-        <input
-          ref={ref}
-          id={id}
-          type={type}
-          value={value}
-          placeholder={placeholder}
-          onChange={(e) => onChange(e.target.value)}
-          aria-invalid={!!error}
-          aria-describedby={error ? errorId : undefined}
-          className={`w-full px-4 py-3 rounded-lg bg-beige-50 border text-text-primary placeholder:text-text-muted/40 outline-none transition-all duration-200 focus:bg-white focus:border-bordeaux-700 focus:ring-2 focus:ring-bordeaux-700/10 ${
-            error ? "border-red-300 bg-red-50/30" : "border-beige-200"
-          }`}
-        />
-        {error && (
-          <p id={errorId} className="mt-1.5 text-xs text-red-500 font-medium">{error}</p>
-        )}
-      </div>
-    );
-  },
-);
-Field.displayName = "Field";
-
-function TextareaField({
-  label,
-  placeholder,
-  value,
-  error,
-  id,
-  onChange,
-}: FieldProps) {
-  const errorId = `${id}-error`;
-  return (
-    <div>
-      <label htmlFor={id} className="block text-xs font-semibold tracking-[0.15em] uppercase text-text-muted mb-2">
-        {label}
-      </label>
-      <textarea
-        id={id}
-        value={value}
-        placeholder={placeholder}
-        rows={5}
-        onChange={(e) => onChange(e.target.value)}
-        aria-invalid={!!error}
-        aria-describedby={error ? errorId : undefined}
-        className={`w-full px-4 py-3 rounded-lg bg-beige-50 border text-text-primary placeholder:text-text-muted/40 outline-none transition-all duration-200 resize-none focus:bg-white focus:border-bordeaux-700 focus:ring-2 focus:ring-bordeaux-700/10 ${
-          error ? "border-red-300 bg-red-50/30" : "border-beige-200"
-        }`}
-      />
-      {error && (
-        <p id={errorId} className="mt-1.5 text-xs text-red-500 font-medium">{error}</p>
-      )}
-    </div>
-  );
-}
+/* ---------- Dialog-specific sub-views ---------- */
 
 function SuccessView({
   t,
@@ -494,48 +424,5 @@ function ErrorView({
         {t("retry")}
       </button>
     </div>
-  );
-}
-
-function CloseButton({ onClick, label }: { onClick: () => void; label: string }) {
-  return (
-    <button
-      type="button"
-      onClick={onClick}
-      className="flex items-center justify-center w-10 h-10 rounded-full text-text-muted hover:text-text-primary hover:bg-beige-100 transition-colors cursor-pointer"
-      aria-label={label}
-    >
-      <svg
-        width="18"
-        height="18"
-        viewBox="0 0 18 18"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-      >
-        <path d="M4 4l10 10M14 4L4 14" />
-      </svg>
-    </button>
-  );
-}
-
-function Spinner() {
-  return (
-    <svg className="animate-spin h-5 w-5" viewBox="0 0 24 24" fill="none">
-      <circle
-        className="opacity-25"
-        cx="12"
-        cy="12"
-        r="10"
-        stroke="currentColor"
-        strokeWidth="3"
-      />
-      <path
-        className="opacity-75"
-        fill="currentColor"
-        d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"
-      />
-    </svg>
   );
 }

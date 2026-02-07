@@ -1,7 +1,12 @@
 import type { ReactNode } from "react";
 import { DM_Sans, Playfair_Display, Noto_Sans_Arabic } from "next/font/google";
 import { getLocale } from "next-intl/server";
+import { LOCALES } from "@/lib/constants";
 import "@/app/globals.css";
+
+const RTL_LOCALES: Set<string> = new Set(
+  LOCALES.filter((l) => l.dir === "rtl").map((l) => l.code),
+);
 
 const playfair = Playfair_Display({
   subsets: ["latin", "latin-ext", "cyrillic"],
@@ -31,7 +36,7 @@ export default async function RootLayout({
   children: ReactNode;
 }) {
   const locale = await getLocale();
-  const dir = locale === "ar" ? "rtl" : "ltr";
+  const dir = RTL_LOCALES.has(locale) ? "rtl" : "ltr";
 
   return (
     <html
