@@ -92,7 +92,7 @@ export function About() {
             {/* Gradient frame */}
             <div className="mx-auto max-w-4xl rounded-2xl p-px bg-linear-to-r from-beige-400/30 via-bordeaux-500/40 to-beige-400/30 shadow-[0_4px_24px_-8px_rgba(98,25,28,0.06)]">
               <blockquote
-                className="relative flex flex-col items-center gap-8 rounded-2xl bg-beige-50/80 px-8 py-12 sm:flex-row sm:items-center sm:gap-10 sm:px-12 sm:py-14 lg:gap-12 lg:px-16 lg:py-16"
+                className="relative flex flex-col items-center gap-8 overflow-hidden rounded-2xl bg-beige-50/80 px-8 py-12 sm:flex-row sm:items-center sm:gap-10 sm:px-12 sm:py-14 lg:gap-12 lg:px-16 lg:py-16"
                 role="article"
                 aria-label={t("quote")}
               >

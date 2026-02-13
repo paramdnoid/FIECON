@@ -1,5 +1,3 @@
-import { TEXAS_COUNTIES_PATH } from "./texas-counties-path";
-
 type Props = { className?: string; dotClassName?: string };
 
 export function MapUS({
@@ -17,7 +15,7 @@ export function MapUS({
     <defs>
       <style>
         {
-          ".us-map_svg__state{fill:currentColor}.us-map_svg__borders{stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;opacity:0.85}.us-map_svg__tx-counties{opacity:0.75}"
+          ".us-map_svg__state{fill:currentColor}.us-map_svg__borders{stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;opacity:0.85}"
         }
       </style>
     </defs>
@@ -529,12 +527,6 @@ export function MapUS({
       <path
         d="m722.7 296.9.7.6-.8 1.2 1.5.7.1 1.5 4.4 2.3 2.3-.1 1.9-1.8.8-1.7 3 1.8 5.5-2.4.5-.9-.8-.5.6-1.4 1.5 1 4.3-3.1.7 1.1 2.3-2-.1-1.4 1.5-1.9-1.5-1.2 1-3.3 3.7-6.3-.4-1.9 2.1-2.2-.4-1.5 1.4-1.7.1-4.7 2.3.7 1.3 1.9 2.8.5 1.3-1.6 2.3-8.5 2.4 1.1 1-2.5.9-.8 1.4-1.8.9-.8.5-2.1 1.2-.8-.1-2.9.8-2.3-.9-1.6.2-.9 10 5.2.5-2.3.4-1.6.4-.7"
         className="us-map_svg__va-wv"
-      />
-      {/* Texas county borders — internal subdivisions like Germany/Serbia */}
-      <path
-        fill="none"
-        d={TEXAS_COUNTIES_PATH}
-        className="us-map_svg__borders us-map_svg__tx-counties"
       />
     </g>
     <circle

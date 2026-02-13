@@ -43,7 +43,7 @@ const ITEMS_PER_SERVICE = 2;
 
 const FOCUS_AREAS = [
   { key: "corporate_law", itemCount: 3 },
-  { key: "transparency", itemCount: 2 },
+  { key: "transparency", itemCount: 3 },
 ] as const;
 
 const FOCUS_ICONS: Record<string, React.ReactNode> = {
@@ -133,10 +133,10 @@ export function Services() {
           </p>
         </FadeIn>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 items-stretch">
           {FOCUS_AREAS.map((area, i) => (
-            <FadeIn key={area.key} delay={0.4 + i * 0.1}>
-              <div className="relative pl-6 border-l border-beige-400/50">
+            <FadeIn key={area.key} delay={0.4 + i * 0.1} className="h-full min-h-0">
+              <div className="relative pl-6 border-l border-beige-400/50 h-full flex flex-col">
                 {/* Icon + Title */}
                 <div className="flex items-center gap-3 mb-3">
                   <span className="text-accent shrink-0">

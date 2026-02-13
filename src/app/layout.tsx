@@ -44,7 +44,10 @@ export default async function RootLayout({
       dir={dir}
       className={`${playfair.variable} ${dmSans.variable} ${notoArabic.variable}`}
     >
-      <body className="bg-surface text-text-primary font-body antialiased">
+      <body
+        className="bg-surface text-text-primary font-body antialiased"
+        suppressHydrationWarning
+      >
         {children}
       </body>
     </html>
