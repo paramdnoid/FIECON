@@ -1,9 +1,9 @@
 {
   "name": "fiecon-consulting",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
-    "dev": "./kill-port.sh && next dev --turbopack",
+    "dev": "./scripts/kill-port.sh && next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
@@ -11,9 +11,11 @@
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
     "check:i18n": "node scripts/check-translations.js",
+    "sbom": "cyclonedx-npm --output-file sbom.json --output-reproducible",
     "deploy": "./deploy.sh"
   },
   "dependencies": {
+    "@sentry/nextjs": "^10.38.0",
     "motion": "^12.33.0",
     "next": "^16.1.6",
     "next-intl": "^4.8.2",
@@ -22,6 +24,7 @@
     "react-dom": "^19.2.4"
   },
   "devDependencies": {
+    "@cyclonedx/cyclonedx-npm": "^4.1.2",
     "@tailwindcss/postcss": "^4.1.18",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",

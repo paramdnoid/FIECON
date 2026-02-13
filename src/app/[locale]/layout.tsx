@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import { Suspense } from "react";
 import type { Metadata } from "next";
+import { headers } from "next/headers";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { Header } from "@/components/layout/Header";
@@ -134,6 +135,10 @@ export default async function LocaleLayout({
   const messages = await getMessages();
   const tNav = await getTranslations({ locale, namespace: "nav" });
 
+  // Read nonce from middleware for strict CSP
+  const headerStore = await headers();
+  const nonce = headerStore.get("x-nonce") ?? undefined;
+
   return (
     <>
       <a
@@ -145,6 +150,7 @@ export default async function LocaleLayout({
       {/* Organization Schema */}
       <script
         type="application/ld+json"
+        nonce={nonce}
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
@@ -174,6 +180,7 @@ export default async function LocaleLayout({
       {/* LocalBusiness / ProfessionalService Schema for local SEO */}
       <script
         type="application/ld+json"
+        nonce={nonce}
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",

@@ -21,7 +21,7 @@ const eslintConfig = [
     },
   },
   {
-    ignores: [".next/", "node_modules/", "vitest.config.ts"],
+    ignores: [".next/", "node_modules/", "vitest.config.ts", "coverage/", "scripts/"],
   },
 ];
 

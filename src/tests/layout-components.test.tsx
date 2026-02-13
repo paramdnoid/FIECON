@@ -45,9 +45,8 @@ vi.mock("motion/react", () => {
 });
 
 vi.mock("next/image", () => ({
-  default: (props: Record<string, unknown>) => {
-    // Filter out Next.js specific props not valid on <img>
-    const { priority, fill, ...rest } = props;
+  default: ({ priority: _priority, fill: _fill, ...rest }: Record<string, unknown>) => {
+    // eslint-disable-next-line jsx-a11y/alt-text, @next/next/no-img-element
     return <img {...rest} />;
   },
 }));
@@ -64,7 +63,7 @@ vi.mock("@/i18n/navigation", () => ({
     ...rest
   }: React.PropsWithChildren<{ href: string } & Record<string, unknown>>) => {
     // Filter non-DOM props
-    const { locale, prefetch, ...domProps } = rest as Record<string, unknown>;
+    const { locale: _locale, prefetch: _prefetch, ...domProps } = rest as Record<string, unknown>;
     return (
       <a href={href} {...domProps}>
         {children}

@@ -20,7 +20,7 @@ Corporate website for FIECON (Fiegler Consulting KG), an international consultin
 - `pnpm lint` — ESLint
 - `pnpm test` — Vitest (run once)
 - `pnpm test:watch` — Vitest (watch mode)
-- `pnpm deploy` — Deploy to production (root@217.154.23.84); see DEPLOYMENT.md
+- `pnpm deploy` — Deploy to production (root@217.154.23.84); see docs/DEPLOYMENT.md
 
 ## Architecture
 

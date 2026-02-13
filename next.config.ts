@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+import { withSentryConfig } from "@sentry/nextjs";
 import createNextIntlPlugin from "next-intl/plugin";
 
 const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
@@ -10,19 +11,9 @@ const nextConfig: NextConfig = {
   /**
    * Security headers applied to every response.
    *
-   * CSP NOTE — why 'unsafe-inline' is required:
-   *   - script-src: Next.js injects inline <script> tags for route data,
-   *     hydration, and the page bootstrap. A nonce-based approach is possible
-   *     (see next.config.js `experimental.cspNonce`) but requires middleware
-   *     changes and is not yet stable in Next.js 16 with App Router.
-   *   - style-src: Tailwind CSS v4 injects styles via <style> tags at build
-   *     time and at runtime during development. Removing 'unsafe-inline'
-   *     would break all styling.
-   *
-   * Both directives should be revisited when Next.js stabilises nonce-based
-   * CSP support. Until then, the remaining directives are kept as strict as
-   * possible (default-src 'self', frame-ancestors 'none', no external
-   * connect-src) to limit the attack surface.
+   * Note: The Content-Security-Policy header is set dynamically in
+   * middleware.ts with a unique nonce per request. This allows strict
+   * CSP without 'unsafe-inline' (nonce-based approach).
    */
   async headers() {
     return [
@@ -47,22 +38,21 @@ const nextConfig: NextConfig = {
             key: "Permissions-Policy",
             value: "camera=(), microphone=(), geolocation=()",
           },
-          {
-            key: "Content-Security-Policy",
-            value: [
-              "default-src 'self'",
-              "script-src 'self' 'unsafe-inline'",   // see note above
-              "style-src 'self' 'unsafe-inline'",    // see note above
-              "img-src 'self' data:",                 // data: for inline SVG/Base64
-              "font-src 'self'",
-              "connect-src 'self'",                   // API calls only to own origin
-              "frame-ancestors 'none'",               // CSP-level framing protection
-            ].join("; "),
-          },
         ],
       },
     ];
   },
 };
 
-export default withNextIntl(nextConfig);
+export default withSentryConfig(withNextIntl(nextConfig), {
+  // Suppress source map upload logs during build
+  silent: true,
+
+  // Upload source maps for better stack traces (requires SENTRY_AUTH_TOKEN)
+  widenClientFileUpload: true,
+
+  // Configure source maps: upload to Sentry but don't expose to users
+  sourcemaps: {
+    deleteSourcemapsAfterUpload: true,
+  },
+});

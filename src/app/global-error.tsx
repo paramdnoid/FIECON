@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
+import * as Sentry from "@sentry/nextjs";
 
 // Intentionally hardcoded German: at this error boundary level the entire React tree
 // (including next-intl providers) has failed, so translations are unavailable.
@@ -12,6 +13,7 @@ export default function GlobalError({
   reset: () => void;
 }) {
   useEffect(() => {
+    Sentry.captureException(error);
     console.error("Global error:", error);
   }, [error]);
 

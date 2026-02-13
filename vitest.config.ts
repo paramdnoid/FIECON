@@ -17,6 +17,12 @@ export default defineConfig({
         "src/messages/**",
         "src/components/flags/**",
       ],
+      thresholds: {
+        lines: 80,
+        functions: 80,
+        branches: 75,
+        statements: 80,
+      },
     },
   },
   resolve: {
