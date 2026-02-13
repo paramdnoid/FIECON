@@ -49,7 +49,7 @@ export function Offices() {
                     return (
                       <div className="absolute inset-y-6 right-6 flex items-center select-none pointer-events-none max-w-[50%]">
                         <MapComponent
-                          className="w-auto h-full max-h-full text-white/30"
+                          className="w-auto h-full max-h-full text-white/30 transition-colors duration-500 group-hover:text-white/50"
                           dotClassName="fill-beige-400"
                         />
                       </div>

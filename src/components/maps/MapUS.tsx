@@ -17,7 +17,7 @@ export function MapUS({
     <defs>
       <style>
         {
-          ".us-map_svg__state{fill:currentColor}.us-map_svg__borders{stroke:currentColor;stroke-width:0.5;opacity:0.3}.us-map_svg__tx-counties{opacity:0.65}"
+          ".us-map_svg__state{fill:currentColor}.us-map_svg__borders{stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;opacity:0.85}.us-map_svg__tx-counties{opacity:0.75}"
         }
       </style>
     </defs>
