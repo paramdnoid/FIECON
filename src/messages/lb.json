@@ -73,22 +73,22 @@
         "1": "Perséinlech Berodung"
       }
     },
-    "focus_headline": "Key Areas of Focus",
+    "focus_headline": "Zentral Handlungsfelder",
     "corporate_law": {
-      "title": "Corporate Law Expertise",
-      "lead": "Corporate law expert Peter Fiegler and his team",
+      "title": "Gesellschaftsrechtlech Expertise",
+      "lead": "De Gesellschaftsrechtsexpert Peter Fiegler an säin Team",
       "items": {
-        "0": "International corporate and holding structures",
-        "1": "Design and safeguarding of management, liability and compliance",
-        "2": "Support with structural changes and cross-border matters"
+        "0": "International Gesellschafts- a Beteilegungsstrukturen",
+        "1": "Gestaltung an Ofsécherung vu Geschäftsfierung, Haftung a Compliance",
+        "2": "Begleedung bei Strukturännerungen a grenziwwerschreidenden Themen"
       }
     },
     "transparency": {
-      "title": "Transparency Register",
-      "lead": "Review of all reporting obligations for beneficial owners",
+      "title": "Transparenzregëster",
+      "lead": "Iwwerpréiwung vun alle Meldepflichten zu wirtschaftlech Berechtigten",
       "items": {
-        "0": "Alignment of German requirements with foreign corporate structures",
-        "1": "Ensuring consistent, timely and audit-proof filings"
+        "0": "Ofgläich vun däitschen Virgaben mat auslänneschen Gesellschaftsstrukturen",
+        "1": "Sécherstellung vu konsequenten, fristgerechten a préifungssëchere Meldungen"
       }
     }
   },

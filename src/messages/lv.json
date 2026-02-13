@@ -73,22 +73,22 @@
         "1": "Personīga konsultācija"
       }
     },
-    "focus_headline": "Key Areas of Focus",
+    "focus_headline": "Galvenās darbības jomas",
     "corporate_law": {
-      "title": "Corporate Law Expertise",
-      "lead": "Corporate law expert Peter Fiegler and his team",
+      "title": "Ekspertīze komerctiesībās",
+      "lead": "Komerctiesību eksperts Peter Fiegler un viņa komanda",
       "items": {
-        "0": "International corporate and holding structures",
-        "1": "Design and safeguarding of management, liability and compliance",
-        "2": "Support with structural changes and cross-border matters"
+        "0": "Starptautiskas korporatīvās un holdinga struktūras",
+        "1": "Vadības, atbildības un atbilstības izstrāde un nodrošināšana",
+        "2": "Atbalsts strukturālās izmaiņās un pārrobežu jautājumos"
       }
     },
     "transparency": {
-      "title": "Transparency Register",
-      "lead": "Review of all reporting obligations for beneficial owners",
+      "title": "Pārredzamības reģistrs",
+      "lead": "Visu patieso labuma guvēju ziņošanas pienākumu pārskatīšana",
       "items": {
-        "0": "Alignment of German requirements with foreign corporate structures",
-        "1": "Ensuring consistent, timely and audit-proof filings"
+        "0": "Vācijas prasību saskaņošana ar ārvalstu korporatīvajām struktūrām",
+        "1": "Konsekventu, savlaicīgu un pārbaudāmu paziņojumu nodrošināšana"
       }
     }
   },

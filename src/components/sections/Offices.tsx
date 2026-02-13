@@ -97,11 +97,10 @@ export function Offices() {
               role="tab"
               aria-selected={activeIndex === i}
               aria-label={`${i + 1} / ${OFFICES.length}`}
-              className={`h-2 rounded-full transition-all duration-300 ${
-                activeIndex === i
+              className={`h-2 rounded-full transition-all duration-300 ${activeIndex === i
                   ? "bg-bordeaux-900 w-6"
                   : "bg-beige-400/60 w-2 hover:bg-beige-400"
-              }`}
+                }`}
               onClick={() => {
                 const container = carouselRef.current;
                 if (!container) return;

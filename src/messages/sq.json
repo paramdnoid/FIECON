@@ -73,22 +73,22 @@
         "1": "Këshillim personal"
       }
     },
-    "focus_headline": "Key Areas of Focus",
+    "focus_headline": "Fushat kryesore të veprimit",
     "corporate_law": {
-      "title": "Corporate Law Expertise",
-      "lead": "Corporate law expert Peter Fiegler and his team",
+      "title": "Ekspertizë në të drejtën e shoqërive tregtare",
+      "lead": "Eksperti i të drejtës së shoqërive Peter Fiegler dhe ekipi i tij",
       "items": {
-        "0": "International corporate and holding structures",
-        "1": "Design and safeguarding of management, liability and compliance",
-        "2": "Support with structural changes and cross-border matters"
+        "0": "Strukturat ndërkombëtare të shoqërive dhe pjesëmarrjes",
+        "1": "Hartimi dhe sigurimi i menaxhimit, përgjegjësisë dhe përputhshmërisë",
+        "2": "Mbështetje gjatë ndryshimeve strukturore dhe çështjeve ndërkufitare"
       }
     },
     "transparency": {
-      "title": "Transparency Register",
-      "lead": "Review of all reporting obligations for beneficial owners",
+      "title": "Regjistri i transparencës",
+      "lead": "Rishikimi i të gjitha detyrimeve të raportimit për përfituesit e vërtetë",
       "items": {
-        "0": "Alignment of German requirements with foreign corporate structures",
-        "1": "Ensuring consistent, timely and audit-proof filings"
+        "0": "Harmonizimi i kërkesave gjermane me strukturat e shoqërive të huaja",
+        "1": "Sigurimi i raportimeve të qëndrueshme, në kohë dhe të verifikueshme"
       }
     }
   },

@@ -73,22 +73,22 @@
         "1": "Consultanță personalizată"
       }
     },
-    "focus_headline": "Key Areas of Focus",
+    "focus_headline": "Domenii cheie de activitate",
     "corporate_law": {
-      "title": "Corporate Law Expertise",
-      "lead": "Corporate law expert Peter Fiegler and his team",
+      "title": "Expertiză în dreptul societar",
+      "lead": "Expertul în drept societar Peter Fiegler și echipa sa",
       "items": {
-        "0": "International corporate and holding structures",
-        "1": "Design and safeguarding of management, liability and compliance",
-        "2": "Support with structural changes and cross-border matters"
+        "0": "Structuri societare și de participare internaționale",
+        "1": "Conceperea și asigurarea conducerii, responsabilității și conformității",
+        "2": "Asistență la modificări structurale și chestiuni transfrontaliere"
       }
     },
     "transparency": {
-      "title": "Transparency Register",
-      "lead": "Review of all reporting obligations for beneficial owners",
+      "title": "Registrul transparenței",
+      "lead": "Verificarea tuturor obligațiilor de raportare privind beneficiarii reali",
       "items": {
-        "0": "Alignment of German requirements with foreign corporate structures",
-        "1": "Ensuring consistent, timely and audit-proof filings"
+        "0": "Alinierea cerințelor germane cu structurile societare străine",
+        "1": "Asigurarea raportărilor consecvente, la timp și verificabile"
       }
     }
   },

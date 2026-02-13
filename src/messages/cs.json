@@ -73,22 +73,22 @@
         "1": "Osobní poradenství"
       }
     },
-    "focus_headline": "Key Areas of Focus",
+    "focus_headline": "Klíčové oblasti činnosti",
     "corporate_law": {
-      "title": "Corporate Law Expertise",
-      "lead": "Corporate law expert Peter Fiegler and his team",
+      "title": "Odbornost v korporátním právu",
+      "lead": "Expert na korporátní právo Peter Fiegler a jeho tým",
       "items": {
-        "0": "International corporate and holding structures",
-        "1": "Design and safeguarding of management, liability and compliance",
-        "2": "Support with structural changes and cross-border matters"
+        "0": "Mezinárodní korporátní a holdingové struktury",
+        "1": "Navrhování a zajištění řízení, odpovědnosti a compliance",
+        "2": "Podpora při strukturálních změnách a přeshraničních záležitostech"
       }
     },
     "transparency": {
-      "title": "Transparency Register",
-      "lead": "Review of all reporting obligations for beneficial owners",
+      "title": "Registr skutečných vlastníků",
+      "lead": "Přezkoumání všech oznamovacích povinností týkajících se skutečných vlastníků",
       "items": {
-        "0": "Alignment of German requirements with foreign corporate structures",
-        "1": "Ensuring consistent, timely and audit-proof filings"
+        "0": "Sladění německých požadavků se zahraničními korporátními strukturami",
+        "1": "Zajištění konzistentních, včasných a auditovatelných hlášení"
       }
     }
   },

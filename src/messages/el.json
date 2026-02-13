@@ -73,22 +73,22 @@
         "1": "Προσωπική Συμβουλευτική"
       }
     },
-    "focus_headline": "Key Areas of Focus",
+    "focus_headline": "Βασικοί τομείς δράσης",
     "corporate_law": {
-      "title": "Corporate Law Expertise",
-      "lead": "Corporate law expert Peter Fiegler and his team",
+      "title": "Εμπειρογνωμοσύνη στο εταιρικό δίκαιο",
+      "lead": "Ο ειδικός στο εταιρικό δίκαιο Peter Fiegler και η ομάδα του",
       "items": {
-        "0": "International corporate and holding structures",
-        "1": "Design and safeguarding of management, liability and compliance",
-        "2": "Support with structural changes and cross-border matters"
+        "0": "Διεθνείς εταιρικές δομές και δομές συμμετοχών",
+        "1": "Σχεδιασμός και διασφάλιση της διοίκησης, ευθύνης και συμμόρφωσης",
+        "2": "Υποστήριξη σε διαρθρωτικές αλλαγές και διασυνοριακά ζητήματα"
       }
     },
     "transparency": {
-      "title": "Transparency Register",
-      "lead": "Review of all reporting obligations for beneficial owners",
+      "title": "Μητρώο διαφάνειας",
+      "lead": "Έλεγχος όλων των υποχρεώσεων αναφοράς για τους πραγματικούς δικαιούχους",
       "items": {
-        "0": "Alignment of German requirements with foreign corporate structures",
-        "1": "Ensuring consistent, timely and audit-proof filings"
+        "0": "Εναρμόνιση των γερμανικών απαιτήσεων με ξένες εταιρικές δομές",
+        "1": "Διασφάλιση συνεπών, έγκαιρων και ελέγξιμων δηλώσεων"
       }
     }
   },

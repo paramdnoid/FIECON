@@ -73,22 +73,22 @@
         "1": "Лично советување"
       }
     },
-    "focus_headline": "Key Areas of Focus",
+    "focus_headline": "Клучни области на дејствување",
     "corporate_law": {
-      "title": "Corporate Law Expertise",
-      "lead": "Corporate law expert Peter Fiegler and his team",
+      "title": "Експертиза во корпоративно право",
+      "lead": "Експертот за корпоративно право Петер Фиглер и неговиот тим",
       "items": {
-        "0": "International corporate and holding structures",
-        "1": "Design and safeguarding of management, liability and compliance",
-        "2": "Support with structural changes and cross-border matters"
+        "0": "Меѓународни корпоративни и холдинг структури",
+        "1": "Дизајнирање и обезбедување на управување, одговорност и усогласеност",
+        "2": "Поддршка при структурни промени и прекугранични прашања"
       }
     },
     "transparency": {
-      "title": "Transparency Register",
-      "lead": "Review of all reporting obligations for beneficial owners",
+      "title": "Регистар на транспарентност",
+      "lead": "Проверка на сите обврски за известување за вистинските сопственици",
       "items": {
-        "0": "Alignment of German requirements with foreign corporate structures",
-        "1": "Ensuring consistent, timely and audit-proof filings"
+        "0": "Усогласување на германските барања со странските корпоративни структури",
+        "1": "Обезбедување на конзистентни, навремени и проверливи пријави"
       }
     }
   },

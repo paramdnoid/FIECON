@@ -73,22 +73,22 @@
         "1": "Asmeninis konsultavimas"
       }
     },
-    "focus_headline": "Key Areas of Focus",
+    "focus_headline": "Pagrindinės veiklos sritys",
     "corporate_law": {
-      "title": "Corporate Law Expertise",
-      "lead": "Corporate law expert Peter Fiegler and his team",
+      "title": "Bendrovių teisės ekspertizė",
+      "lead": "Bendrovių teisės ekspertas Peter Fiegler ir jo komanda",
       "items": {
-        "0": "International corporate and holding structures",
-        "1": "Design and safeguarding of management, liability and compliance",
-        "2": "Support with structural changes and cross-border matters"
+        "0": "Tarptautinės įmonių ir holdingo struktūros",
+        "1": "Valdymo, atsakomybės ir atitikties projektavimas ir užtikrinimas",
+        "2": "Parama struktūrinių pokyčių ir tarpvalstybinių klausimų srityje"
       }
     },
     "transparency": {
-      "title": "Transparency Register",
-      "lead": "Review of all reporting obligations for beneficial owners",
+      "title": "Skaidrumo registras",
+      "lead": "Visų tikrųjų naudos gavėjų ataskaitų teikimo prievolių peržiūra",
       "items": {
-        "0": "Alignment of German requirements with foreign corporate structures",
-        "1": "Ensuring consistent, timely and audit-proof filings"
+        "0": "Vokietijos reikalavimų suderinimas su užsienio įmonių struktūromis",
+        "1": "Nuoseklių, savalaikių ir audituojamų pranešimų užtikrinimas"
       }
     }
   },

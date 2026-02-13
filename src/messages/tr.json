@@ -73,22 +73,22 @@
         "1": "Kişisel danışmanlık"
       }
     },
-    "focus_headline": "Key Areas of Focus",
+    "focus_headline": "Temel faaliyet alanları",
     "corporate_law": {
-      "title": "Corporate Law Expertise",
-      "lead": "Corporate law expert Peter Fiegler and his team",
+      "title": "Şirketler hukuku uzmanlığı",
+      "lead": "Şirketler hukuku uzmanı Peter Fiegler ve ekibi",
       "items": {
-        "0": "International corporate and holding structures",
-        "1": "Design and safeguarding of management, liability and compliance",
-        "2": "Support with structural changes and cross-border matters"
+        "0": "Uluslararası şirket ve iştirak yapıları",
+        "1": "Yönetim, sorumluluk ve uyumluluğun tasarımı ve güvence altına alınması",
+        "2": "Yapısal değişiklikler ve sınır ötesi konularda destek"
       }
     },
     "transparency": {
-      "title": "Transparency Register",
-      "lead": "Review of all reporting obligations for beneficial owners",
+      "title": "Şeffaflık sicili",
+      "lead": "Gerçek faydalanıcılara ilişkin tüm bildirim yükümlülüklerinin incelenmesi",
       "items": {
-        "0": "Alignment of German requirements with foreign corporate structures",
-        "1": "Ensuring consistent, timely and audit-proof filings"
+        "0": "Alman gereksinimlerin yabancı şirket yapılarıyla uyumlaştırılması",
+        "1": "Tutarlı, zamanında ve denetlenebilir bildirimlerin sağlanması"
       }
     }
   },

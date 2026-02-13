@@ -73,22 +73,22 @@
         "1": "Conseil personnalisé"
       }
     },
-    "focus_headline": "Key Areas of Focus",
+    "focus_headline": "Domaines d'intervention clés",
     "corporate_law": {
-      "title": "Corporate Law Expertise",
-      "lead": "Corporate law expert Peter Fiegler and his team",
+      "title": "Expertise en droit des sociétés",
+      "lead": "L'expert en droit des sociétés Peter Fiegler et son équipe",
       "items": {
-        "0": "International corporate and holding structures",
-        "1": "Design and safeguarding of management, liability and compliance",
-        "2": "Support with structural changes and cross-border matters"
+        "0": "Structures sociétaires et de participation internationales",
+        "1": "Conception et sécurisation de la direction, de la responsabilité et de la conformité",
+        "2": "Accompagnement lors de restructurations et d'opérations transfrontalières"
       }
     },
     "transparency": {
-      "title": "Transparency Register",
-      "lead": "Review of all reporting obligations for beneficial owners",
+      "title": "Registre de transparence",
+      "lead": "Vérification de toutes les obligations déclaratives relatives aux bénéficiaires effectifs",
       "items": {
-        "0": "Alignment of German requirements with foreign corporate structures",
-        "1": "Ensuring consistent, timely and audit-proof filings"
+        "0": "Alignement des exigences allemandes avec les structures sociétaires étrangères",
+        "1": "Garantie de déclarations cohérentes, ponctuelles et vérifiables"
       }
     }
   },

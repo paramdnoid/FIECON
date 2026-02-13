@@ -73,22 +73,22 @@
         "1": "Personlig rådgivning"
       }
     },
-    "focus_headline": "Key Areas of Focus",
+    "focus_headline": "Centrale indsatsområder",
     "corporate_law": {
-      "title": "Corporate Law Expertise",
-      "lead": "Corporate law expert Peter Fiegler and his team",
+      "title": "Ekspertise inden for selskabsret",
+      "lead": "Selskabsretsekspert Peter Fiegler og hans team",
       "items": {
-        "0": "International corporate and holding structures",
-        "1": "Design and safeguarding of management, liability and compliance",
-        "2": "Support with structural changes and cross-border matters"
+        "0": "Internationale selskabs- og holdingstrukturer",
+        "1": "Udformning og sikring af ledelse, ansvar og compliance",
+        "2": "Støtte ved strukturelle ændringer og grænseoverskridende forhold"
       }
     },
     "transparency": {
-      "title": "Transparency Register",
-      "lead": "Review of all reporting obligations for beneficial owners",
+      "title": "Transparensregister",
+      "lead": "Gennemgang af alle indberetningsforpligtelser vedrørende reelle ejere",
       "items": {
-        "0": "Alignment of German requirements with foreign corporate structures",
-        "1": "Ensuring consistent, timely and audit-proof filings"
+        "0": "Afstemning af tyske krav med udenlandske selskabsstrukturer",
+        "1": "Sikring af konsekvente, rettidige og revisionssikre indberetninger"
       }
     }
   },

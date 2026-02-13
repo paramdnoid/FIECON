@@ -73,22 +73,22 @@
         "1": "استشارات شخصية"
       }
     },
-    "focus_headline": "Key Areas of Focus",
+    "focus_headline": "مجالات العمل الرئيسية",
     "corporate_law": {
-      "title": "Corporate Law Expertise",
-      "lead": "Corporate law expert Peter Fiegler and his team",
+      "title": "الخبرة في قانون الشركات",
+      "lead": "خبير قانون الشركات بيتر فيغلر وفريقه",
       "items": {
-        "0": "International corporate and holding structures",
-        "1": "Design and safeguarding of management, liability and compliance",
-        "2": "Support with structural changes and cross-border matters"
+        "0": "هياكل الشركات والمساهمات الدولية",
+        "1": "تصميم وتأمين الإدارة والمسؤولية والامتثال",
+        "2": "المرافقة في التغييرات الهيكلية والمسائل العابرة للحدود"
       }
     },
     "transparency": {
-      "title": "Transparency Register",
-      "lead": "Review of all reporting obligations for beneficial owners",
+      "title": "سجل الشفافية",
+      "lead": "مراجعة جميع التزامات الإبلاغ المتعلقة بالمستفيدين الحقيقيين",
       "items": {
-        "0": "Alignment of German requirements with foreign corporate structures",
-        "1": "Ensuring consistent, timely and audit-proof filings"
+        "0": "مطابقة المتطلبات الألمانية مع هياكل الشركات الأجنبية",
+        "1": "ضمان إخطارات متسقة وفي الوقت المناسب وقابلة للتدقيق"
       }
     }
   },

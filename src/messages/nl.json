@@ -73,22 +73,22 @@
         "1": "Persoonlijk advies"
       }
     },
-    "focus_headline": "Key Areas of Focus",
+    "focus_headline": "Centrale aandachtsgebieden",
     "corporate_law": {
-      "title": "Corporate Law Expertise",
-      "lead": "Corporate law expert Peter Fiegler and his team",
+      "title": "Expertise in vennootschapsrecht",
+      "lead": "Vennootschapsrechtexpert Peter Fiegler en zijn team",
       "items": {
-        "0": "International corporate and holding structures",
-        "1": "Design and safeguarding of management, liability and compliance",
-        "2": "Support with structural changes and cross-border matters"
+        "0": "Internationale vennootschaps- en deelnemingsstructuren",
+        "1": "Vormgeving en borging van bestuur, aansprakelijkheid en compliance",
+        "2": "Begeleiding bij structuurwijzigingen en grensoverschrijdende zaken"
       }
     },
     "transparency": {
-      "title": "Transparency Register",
-      "lead": "Review of all reporting obligations for beneficial owners",
+      "title": "Transparantieregister",
+      "lead": "Controle van alle meldingsverplichtingen voor uiteindelijk belanghebbenden",
       "items": {
-        "0": "Alignment of German requirements with foreign corporate structures",
-        "1": "Ensuring consistent, timely and audit-proof filings"
+        "0": "Afstemming van Duitse vereisten met buitenlandse vennootschapsstructuren",
+        "1": "Waarborging van consistente, tijdige en controleerbare meldingen"
       }
     }
   },

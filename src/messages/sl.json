@@ -73,22 +73,22 @@
         "1": "Osebno svetovanje"
       }
     },
-    "focus_headline": "Key Areas of Focus",
+    "focus_headline": "Ključna področja delovanja",
     "corporate_law": {
-      "title": "Corporate Law Expertise",
-      "lead": "Corporate law expert Peter Fiegler and his team",
+      "title": "Strokovno znanje s področja korporacijskega prava",
+      "lead": "Strokovnjak za korporacijsko pravo Peter Fiegler in njegova ekipa",
       "items": {
-        "0": "International corporate and holding structures",
-        "1": "Design and safeguarding of management, liability and compliance",
-        "2": "Support with structural changes and cross-border matters"
+        "0": "Mednarodne korporacijske in udeležbene strukture",
+        "1": "Oblikovanje in zagotavljanje vodenja, odgovornosti in skladnosti",
+        "2": "Podpora pri strukturnih spremembah in čezmejnih zadevah"
       }
     },
     "transparency": {
-      "title": "Transparency Register",
-      "lead": "Review of all reporting obligations for beneficial owners",
+      "title": "Register dejanskih lastnikov",
+      "lead": "Preverjanje vseh obveznosti poročanja za dejanske lastnike",
       "items": {
-        "0": "Alignment of German requirements with foreign corporate structures",
-        "1": "Ensuring consistent, timely and audit-proof filings"
+        "0": "Usklajevanje nemških zahtev s tujimi korporacijskimi strukturami",
+        "1": "Zagotavljanje doslednih, pravočasnih in preverljivih prijav"
       }
     }
   },

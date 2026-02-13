@@ -148,20 +148,20 @@ export function ContactDialog({ open, onClose }: Props) {
   const motionProps = prefersReduced
     ? {}
     : {
-        initial: { opacity: 0, scale: 0.96, y: 24 },
-        animate: { opacity: 1, scale: 1, y: 0 },
-        exit: { opacity: 0, scale: 0.96, y: 24 },
-        transition: { duration: 0.4, ease: EASE_OUT_EXPO },
-      };
+      initial: { opacity: 0, scale: 0.96, y: 24 },
+      animate: { opacity: 1, scale: 1, y: 0 },
+      exit: { opacity: 0, scale: 0.96, y: 24 },
+      transition: { duration: 0.4, ease: EASE_OUT_EXPO },
+    };
 
   const backdropMotion = prefersReduced
     ? {}
     : {
-        initial: { opacity: 0 },
-        animate: { opacity: 1 },
-        exit: { opacity: 0 },
-        transition: { duration: 0.3 },
-      };
+      initial: { opacity: 0 },
+      animate: { opacity: 1 },
+      exit: { opacity: 0 },
+      transition: { duration: 0.3 },
+    };
 
   return (
     <AnimatePresence>
