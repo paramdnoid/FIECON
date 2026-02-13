@@ -41,6 +41,30 @@ const SERVICE_ICONS: Record<string, React.ReactNode> = {
 const SERVICE_KEYS = ["consulting", "finance", "construction", "yacht"] as const;
 const ITEMS_PER_SERVICE = 2;
 
+const FOCUS_AREAS = [
+  { key: "corporate_law", itemCount: 3 },
+  { key: "transparency", itemCount: 2 },
+] as const;
+
+const FOCUS_ICONS: Record<string, React.ReactNode> = {
+  corporate_law: (
+    <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M12 2L2 7l10 5 10-5-10-5z" />
+      <path d="M2 17l10 5 10-5" />
+      <path d="M2 12l10 5 10-5" />
+    </svg>
+  ),
+  transparency: (
+    <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+      <polyline points="14 2 14 8 20 8" />
+      <line x1="16" y1="13" x2="8" y2="13" />
+      <line x1="16" y1="17" x2="8" y2="17" />
+      <polyline points="10 9 9 9 8 9" />
+    </svg>
+  ),
+};
+
 export function Services() {
   const t = useTranslations("services");
 
@@ -93,6 +117,56 @@ export function Services() {
                     ))}
                   </div>
                 </div>
+              </div>
+            </FadeIn>
+          ))}
+        </div>
+
+        {/* === Focus Areas — subtle detail zone === */}
+        <FadeIn delay={0.3}>
+          <div aria-hidden="true" className="h-px bg-linear-to-r from-transparent via-beige-400/30 to-transparent mt-16 mb-14" />
+        </FadeIn>
+
+        <FadeIn delay={0.35}>
+          <p className="text-center text-sm font-medium tracking-[0.4em] uppercase text-accent mb-10">
+            {t("focus_headline")}
+          </p>
+        </FadeIn>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+          {FOCUS_AREAS.map((area, i) => (
+            <FadeIn key={area.key} delay={0.4 + i * 0.1}>
+              <div className="relative pl-6 border-l border-beige-400/50">
+                {/* Icon + Title */}
+                <div className="flex items-center gap-3 mb-3">
+                  <span className="text-accent shrink-0">
+                    {FOCUS_ICONS[area.key]}
+                  </span>
+                  <h4 className="font-display text-lg font-normal text-text-primary tracking-tight">
+                    {t(`${area.key}.title`)}
+                  </h4>
+                </div>
+
+                {/* Lead text */}
+                <p className="text-sm text-text-muted leading-relaxed mb-4">
+                  {t(`${area.key}.lead`)}
+                </p>
+
+                {/* Items list */}
+                <ul className="space-y-2">
+                  {Array.from({ length: area.itemCount }, (_, j) => (
+                    <li
+                      key={j}
+                      className="flex items-start gap-2.5 text-sm text-text-muted leading-relaxed"
+                    >
+                      <span
+                        aria-hidden="true"
+                        className="mt-2 w-1 h-1 rounded-full bg-bordeaux-900/30 shrink-0"
+                      />
+                      {t(`${area.key}.items.${j}`)}
+                    </li>
+                  ))}
+                </ul>
               </div>
             </FadeIn>
           ))}

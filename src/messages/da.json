@@ -44,22 +44,52 @@
     "consulting": {
       "title": "Selskabsret & selskabsstiftelse",
       "description": "Vores kernepraksis: vi rådgiver om stiftelse, strukturering og ledelse af selskaber på tværs af internationale jurisdiktioner. Fra det første koncept til den juridisk forsvarlige gennemførelse står vi ved din side.",
-      "items": { "0": "Selskabsret", "1": "International selskabsstiftelse" }
+      "items": {
+        "0": "Selskabsret",
+        "1": "International selskabsstiftelse"
+      }
     },
     "finance": {
       "title": "Økonomisk forvaltning",
       "description": "Klarhed skaber tillid: vi overtager din virksomheds økonomiske forvaltning og skaber de gennemsigtige strukturer, der muliggør bæredygtig vækst.",
-      "items": { "0": "Bogføring og rapportering", "1": "Strategisk økonomisk planlægning" }
+      "items": {
+        "0": "Bogføring og rapportering",
+        "1": "Strategisk økonomisk planlægning"
+      }
     },
     "construction": {
       "title": "Byggefinansiering",
       "description": "Byggeprojekter kræver økonomisk pålidelighed. Vi strukturerer og overvåger finansieringen af dine byggeprojekter — fra den første beregning til færdiggørelsen.",
-      "items": { "0": "Projektfinansiering", "1": "Investeringssikkerhed" }
+      "items": {
+        "0": "Projektfinansiering",
+        "1": "Investeringssikkerhed"
+      }
     },
     "yacht": {
       "title": "Yachtbyggefinansiering",
       "description": "Et særligt segment fortjener særlig omsorg. Vi rådgiver om finansiering af yachtbyggeprojekter — diskret, personligt og med ægte forståelse for branchens standarder.",
-      "items": { "0": "Yachtfinansiering", "1": "Personlig rådgivning" }
+      "items": {
+        "0": "Yachtfinansiering",
+        "1": "Personlig rådgivning"
+      }
+    },
+    "focus_headline": "Key Areas of Focus",
+    "corporate_law": {
+      "title": "Corporate Law Expertise",
+      "lead": "Corporate law expert Peter Fiegler and his team",
+      "items": {
+        "0": "International corporate and holding structures",
+        "1": "Design and safeguarding of management, liability and compliance",
+        "2": "Support with structural changes and cross-border matters"
+      }
+    },
+    "transparency": {
+      "title": "Transparency Register",
+      "lead": "Review of all reporting obligations for beneficial owners",
+      "items": {
+        "0": "Alignment of German requirements with foreign corporate structures",
+        "1": "Ensuring consistent, timely and audit-proof filings"
+      }
     }
   },
   "approach": {
@@ -84,9 +114,21 @@
     "badge": "Kontorer",
     "headline": "Tæt på dine markeder",
     "subtitle": "Tre lokationer, ét løfte — personlig rådgivning med international rækkevidde.",
-    "hamburg": { "city": "Hamborg", "country": "Tyskland", "label": "Hovedkontor" },
-    "belgrade": { "city": "Beograd", "country": "Serbien", "label": "Sydøsteuropa" },
-    "texas": { "city": "Texas", "country": "USA", "label": "Nordamerika" }
+    "hamburg": {
+      "city": "Hamborg",
+      "country": "Tyskland",
+      "label": "Hovedkontor"
+    },
+    "belgrade": {
+      "city": "Beograd",
+      "country": "Serbien",
+      "label": "Sydøsteuropa"
+    },
+    "texas": {
+      "city": "Texas",
+      "country": "USA",
+      "label": "Nordamerika"
+    }
   },
   "contact": {
     "badge": "Kontakt",

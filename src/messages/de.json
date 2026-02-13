@@ -72,6 +72,24 @@
         "0": "Yachtfinanzierung",
         "1": "Persönliche Beratung"
       }
+    },
+    "focus_headline": "Zentrale Handlungsfelder",
+    "corporate_law": {
+      "title": "Gesellschaftsrechtliche Expertise",
+      "lead": "Gesellschaftsrechtsexperte Peter Fiegler und sein Team",
+      "items": {
+        "0": "Internationale Gesellschafts- und Beteiligungsstrukturen",
+        "1": "Gestaltung und Absicherung von Geschäftsführung, Haftung und Compliance",
+        "2": "Begleitung bei Strukturänderungen und grenzüberschreitenden Sachverhalten"
+      }
+    },
+    "transparency": {
+      "title": "Transparenzregister",
+      "lead": "Prüfung sämtlicher Meldepflichten zu wirtschaftlich Berechtigten",
+      "items": {
+        "0": "Abgleich deutscher Vorgaben mit ausländischen Gesellschaftsstrukturen",
+        "1": "Sicherstellung konsistenter, fristgerechter und prüfungssicherer Meldungen"
+      }
     }
   },
   "approach": {

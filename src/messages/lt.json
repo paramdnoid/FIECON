@@ -44,22 +44,52 @@
     "consulting": {
       "title": "Bendrovių teisė ir įmonių steigimas",
       "description": "Mūsų pagrindinė praktika: konsultuojame dėl įmonių steigimo, struktūrizavimo ir valdymo tarptautinėse jurisdikcijose. Nuo pradinės koncepcijos iki teisiškai pagrįsto įgyvendinimo — mes esame šalia jūsų.",
-      "items": { "0": "Bendrovių teisė", "1": "Tarptautinis įmonių steigimas" }
+      "items": {
+        "0": "Bendrovių teisė",
+        "1": "Tarptautinis įmonių steigimas"
+      }
     },
     "finance": {
       "title": "Finansų administravimas",
       "description": "Aiškumas kuria pasitikėjimą: perimame jūsų įmonės finansų administravimą ir kuriame skaidrias struktūras, kurios leidžia tvarų augimą.",
-      "items": { "0": "Apskaita ir ataskaitų teikimas", "1": "Strateginis finansų planavimas" }
+      "items": {
+        "0": "Apskaita ir ataskaitų teikimas",
+        "1": "Strateginis finansų planavimas"
+      }
     },
     "construction": {
       "title": "Statybų finansavimas",
       "description": "Statybų projektams reikia finansinio patikimumo. Struktūrizuojame ir prižiūrime jūsų statybų projektų finansavimą — nuo pradinio skaičiavimo iki užbaigimo.",
-      "items": { "0": "Projektų finansavimas", "1": "Investicijų saugumas" }
+      "items": {
+        "0": "Projektų finansavimas",
+        "1": "Investicijų saugumas"
+      }
     },
     "yacht": {
       "title": "Jachtų statybos finansavimas",
       "description": "Ypatingas segmentas nusipelno ypatingos priežiūros. Konsultuojame dėl jachtų statybos projektų finansavimo — diskretiškai, asmeniškai ir su tikru pramonės standartų supratimu.",
-      "items": { "0": "Jachtų finansavimas", "1": "Asmeninis konsultavimas" }
+      "items": {
+        "0": "Jachtų finansavimas",
+        "1": "Asmeninis konsultavimas"
+      }
+    },
+    "focus_headline": "Key Areas of Focus",
+    "corporate_law": {
+      "title": "Corporate Law Expertise",
+      "lead": "Corporate law expert Peter Fiegler and his team",
+      "items": {
+        "0": "International corporate and holding structures",
+        "1": "Design and safeguarding of management, liability and compliance",
+        "2": "Support with structural changes and cross-border matters"
+      }
+    },
+    "transparency": {
+      "title": "Transparency Register",
+      "lead": "Review of all reporting obligations for beneficial owners",
+      "items": {
+        "0": "Alignment of German requirements with foreign corporate structures",
+        "1": "Ensuring consistent, timely and audit-proof filings"
+      }
     }
   },
   "approach": {
@@ -84,9 +114,21 @@
     "badge": "Biurai",
     "headline": "Arti jūsų rinkų",
     "subtitle": "Trys vietos, vienas pažadas — asmeninis konsultavimas su tarptautiniu pasiekiamumu.",
-    "hamburg": { "city": "Hamburgas", "country": "Vokietija", "label": "Pagrindinė būstinė" },
-    "belgrade": { "city": "Belgradas", "country": "Serbija", "label": "Pietryčių Europa" },
-    "texas": { "city": "Teksasas", "country": "JAV", "label": "Šiaurės Amerika" }
+    "hamburg": {
+      "city": "Hamburgas",
+      "country": "Vokietija",
+      "label": "Pagrindinė būstinė"
+    },
+    "belgrade": {
+      "city": "Belgradas",
+      "country": "Serbija",
+      "label": "Pietryčių Europa"
+    },
+    "texas": {
+      "city": "Teksasas",
+      "country": "JAV",
+      "label": "Šiaurės Amerika"
+    }
   },
   "contact": {
     "badge": "Kontaktai",

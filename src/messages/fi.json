@@ -44,22 +44,52 @@
     "consulting": {
       "title": "Yhtiöoikeus & yritysten perustaminen",
       "description": "Ydinosaamisemme: neuvomme yritysten perustamisessa, rakenteissa ja hallinnossa kansainvälisissä oikeudenkäyttöalueissa. Alkuideasta oikeudellisesti moitteettomaan toteutukseen — olemme rinnallasi.",
-      "items": { "0": "Yhtiöoikeus", "1": "Kansainvälinen yritysten perustaminen" }
+      "items": {
+        "0": "Yhtiöoikeus",
+        "1": "Kansainvälinen yritysten perustaminen"
+      }
     },
     "finance": {
       "title": "Taloushallinto",
       "description": "Selkeys rakentaa luottamusta: hoidamme yrityksesi taloushallinnon ja luomme läpinäkyvät rakenteet, jotka mahdollistavat kestävän kasvun.",
-      "items": { "0": "Kirjanpito ja raportointi", "1": "Strateginen taloussuunnittelu" }
+      "items": {
+        "0": "Kirjanpito ja raportointi",
+        "1": "Strateginen taloussuunnittelu"
+      }
     },
     "construction": {
       "title": "Rakennusrahoitus",
       "description": "Rakennushankkeet vaativat taloudellista luotettavuutta. Rakenteistamme ja valvomme rakennushankkeidesi rahoitusta — alkuperäisestä laskelmasta valmistumiseen.",
-      "items": { "0": "Hankkeenrahoitus", "1": "Sijoitusturva" }
+      "items": {
+        "0": "Hankkeenrahoitus",
+        "1": "Sijoitusturva"
+      }
     },
     "yacht": {
       "title": "Huvijahtirakentamisen rahoitus",
       "description": "Erityinen segmentti ansaitsee erityistä huolenpitoa. Neuvomme huvijahtirakentamisen rahoituksessa — hienotunteisesti, henkilökohtaisesti ja aidolla alan standardien ymmärryksellä.",
-      "items": { "0": "Jahtirahoitus", "1": "Henkilökohtainen neuvonta" }
+      "items": {
+        "0": "Jahtirahoitus",
+        "1": "Henkilökohtainen neuvonta"
+      }
+    },
+    "focus_headline": "Key Areas of Focus",
+    "corporate_law": {
+      "title": "Corporate Law Expertise",
+      "lead": "Corporate law expert Peter Fiegler and his team",
+      "items": {
+        "0": "International corporate and holding structures",
+        "1": "Design and safeguarding of management, liability and compliance",
+        "2": "Support with structural changes and cross-border matters"
+      }
+    },
+    "transparency": {
+      "title": "Transparency Register",
+      "lead": "Review of all reporting obligations for beneficial owners",
+      "items": {
+        "0": "Alignment of German requirements with foreign corporate structures",
+        "1": "Ensuring consistent, timely and audit-proof filings"
+      }
     }
   },
   "approach": {
@@ -84,9 +114,21 @@
     "badge": "Toimistot",
     "headline": "Lähellä markkinoitasi",
     "subtitle": "Kolme toimipistettä, yksi lupaus — henkilökohtainen neuvonta kansainvälisellä ulottuvuudella.",
-    "hamburg": { "city": "Hampuri", "country": "Saksa", "label": "Pääkonttori" },
-    "belgrade": { "city": "Belgrad", "country": "Serbia", "label": "Kaakkois-Eurooppa" },
-    "texas": { "city": "Texas", "country": "Yhdysvallat", "label": "Pohjois-Amerikka" }
+    "hamburg": {
+      "city": "Hampuri",
+      "country": "Saksa",
+      "label": "Pääkonttori"
+    },
+    "belgrade": {
+      "city": "Belgrad",
+      "country": "Serbia",
+      "label": "Kaakkois-Eurooppa"
+    },
+    "texas": {
+      "city": "Texas",
+      "country": "Yhdysvallat",
+      "label": "Pohjois-Amerikka"
+    }
   },
   "contact": {
     "badge": "Yhteystiedot",
