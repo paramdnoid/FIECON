@@ -15,6 +15,11 @@ export async function generateMetadata({
     title: `${t("title")} — ${COMPANY.name}`,
     description: t("intro"),
     alternates: { canonical: `/${locale}/datenschutz` },
+    openGraph: {
+      title: `${t("title")} — ${COMPANY.name}`,
+      description: t("intro"),
+      url: `/${locale}/datenschutz`,
+    },
   };
 }
 

@@ -10,13 +10,13 @@ const pages = [
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const launchDate = new Date("2026-02-07");
+  const now = new Date();
   const legalDate = new Date("2026-02-06");
 
   return pages.flatMap(({ path, changeFrequency, priority }) =>
     routing.locales.map((locale) => ({
       url: `${BASE_URL}/${locale}${path}`,
-      lastModified: path ? legalDate : launchDate,
+      lastModified: path ? legalDate : now,
       changeFrequency,
       priority,
     })),

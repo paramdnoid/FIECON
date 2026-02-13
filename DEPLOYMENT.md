@@ -72,3 +72,8 @@ Die `.env` auf dem Server muss mindestens enthalten:
 
 - `SMTP_HOST`, `SMTP_USER`, `SMTP_PASS` – für das Kontaktformular
 - `CONTACT_TO` – E-Mail-Adresse für eingehende Anfragen
+
+Optional (SEO):
+
+- `SITE_URL` – Basis-URL für robots.txt / Sitemap (Standard: `https://www.fiecon-consulting.eu`)
+- `GOOGLE_SITE_VERIFICATION` – Google Search Console Verifizierungscode (Meta-Tag wird nur bei gesetztem Wert ausgegeben)

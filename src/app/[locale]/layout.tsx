@@ -72,35 +72,38 @@ export async function generateMetadata({
     languages[l.code] = `/${l.code}`;
   }
 
-  return {
+  const metadata: Metadata = {
     title: t("title"),
     description: t("description"),
+    keywords: t("keywords"),
     metadataBase: new URL("https://www.fiecon-consulting.eu"),
     alternates: {
       canonical: `/${locale}`,
       languages,
     },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-image-preview": "large",
+        "max-snippet": -1,
+        "max-video-preview": -1,
+      },
+    },
     openGraph: {
       title: t("title"),
       description: t("description"),
-      url: "https://www.fiecon-consulting.eu",
+      url: `/${locale}`,
       siteName: "FIECON",
       locale: OG_LOCALE_MAP[locale] || "de_DE",
       type: "website",
-      images: [
-        {
-          url: "/og-image.png",
-          width: 1200,
-          height: 630,
-          alt: "FIECON — Internationale Beratung",
-        },
-      ],
     },
     twitter: {
       card: "summary_large_image",
       title: t("title"),
       description: t("description"),
-      images: ["/og-image.png"],
     },
     icons: {
       icon: [
@@ -111,6 +114,12 @@ export async function generateMetadata({
       apple: "/apple-touch-icon.png",
     },
   };
+
+  if (process.env.GOOGLE_SITE_VERIFICATION) {
+    metadata.verification = { google: process.env.GOOGLE_SITE_VERIFICATION };
+  }
+
+  return metadata;
 }
 
 export default async function LocaleLayout({
@@ -133,6 +142,7 @@ export default async function LocaleLayout({
       >
         {tNav("skip_to_content")}
       </a>
+      {/* Organization Schema */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -157,6 +167,91 @@ export default async function LocaleLayout({
               email: CONTACT.email,
               contactType: "customer service",
               availableLanguage: ["de", "en", "sr"],
+            },
+          }),
+        }}
+      />
+      {/* LocalBusiness / ProfessionalService Schema for local SEO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ProfessionalService",
+            name: COMPANY.fullName,
+            alternateName: COMPANY.name,
+            description:
+              "Internationale Beratung für Gesellschaftsrecht, Firmengründungen, Finanzverwaltung, Baufinanzierung und Yachtbaufinanzierung.",
+            url: `https://${COMPANY.website}`,
+            telephone: CONTACT.phone,
+            email: CONTACT.email,
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: CONTACT.address.street,
+              postalCode: CONTACT.address.zip,
+              addressLocality: CONTACT.address.city,
+              addressRegion: "Hamburg",
+              addressCountry: "DE",
+            },
+            geo: {
+              "@type": "GeoCoordinates",
+              latitude: 53.6132,
+              longitude: 10.0087,
+            },
+            openingHoursSpecification: [
+              {
+                "@type": "OpeningHoursSpecification",
+                dayOfWeek: [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                ],
+                opens: "09:00",
+                closes: "17:00",
+              },
+            ],
+            priceRange: "$$",
+            areaServed: [
+              { "@type": "Country", name: "Germany" },
+              { "@type": "Country", name: "Serbia" },
+              { "@type": "Country", name: "United States" },
+            ],
+            knowsLanguage: ["de", "en", "sr"],
+            hasOfferCatalog: {
+              "@type": "OfferCatalog",
+              name: "Beratungsleistungen",
+              itemListElement: [
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Gesellschaftsrecht & Firmengründungen",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Finanzverwaltung",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Baufinanzierung",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Yachtbaufinanzierung",
+                  },
+                },
+              ],
             },
           }),
         }}
