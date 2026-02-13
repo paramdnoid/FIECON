@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FIECON Visitenkarte</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+    rel="stylesheet">
+  <style>
+    /* ============================================
+       FIECON VISITENKARTE — DESIGN SYSTEM
+       Farben, Fonts und Muster aus der Webseite
+       ============================================ */
+    :root {
+      --bordeaux-900: #62191C;
+      --bordeaux-700: #873632;
+      --bordeaux-500: #9E7161;
+      --beige-400: #CAAE9F;
+      --beige-200: #E0CFC2;
+      --beige-100: #F5EDE7;
+      --beige-50: #FAF7F4;
+      --white: #FFFFFF;
+      --text: #1A1A1A;
+      --text-muted: #595959;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'DM Sans', system-ui, sans-serif;
+      background: var(--beige-200);
+      padding: 40px 20px;
+      color: var(--text);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    /* ===  Seiten-Titel (nur Vorschau) === */
+    .page-title {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .page-title h1 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 24px;
+      font-weight: 400;
+      color: var(--bordeaux-900);
+      letter-spacing: -0.02em;
+      margin-bottom: 6px;
+    }
+
+    .page-title p {
+      font-size: 13px;
+      color: var(--text-muted);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-weight: 500;
+    }
+
+    /* === Vorschau-Layout === */
+    .preview-mode {
+      max-width: 780px;
+      margin: 0 auto;
+    }
+
+    .preview-pair {
+      display: flex;
+      gap: 40px;
+      justify-content: center;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+    }
+
+    .preview-item {
+      text-align: center;
+    }
+
+    .preview-label {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 12px;
+    }
+
+    /* ============================================
+       VORDERSEITE — „Hero"-Seite (Marken-Identität)
+       Spiegelt: Hero-Section mit Logo-Watermark,
+       monumentalem FIECON-Lettering, Tagline,
+       kalligrafischem Strich, Editorial Rules
+       ============================================ */
+    .card-front {
+      width: 85mm;
+      height: 55mm;
+      background: var(--beige-50);
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Noise-Texture (wie body::before der Website) */
+    .card-front::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      opacity: 0.025;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+      background-size: 128px 128px;
+      z-index: 1;
+    }
+
+    /* Gradient-Linie oben (Hero: Editorial Rule) */
+    .card-front::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 35%;
+      height: 1px;
+      background: linear-gradient(90deg, var(--bordeaux-900), var(--beige-400), transparent);
+      opacity: 0.5;
+      z-index: 2;
+    }
+
+    /* Logo-Watermark im Hintergrund (wie Hero-Section) */
+    .front-watermark {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 46mm;
+      height: 46mm;
+      opacity: 0.035;
+      z-index: 0;
+    }
+
+    /* Kalligrafischer Strich (Hero: CALLIGRAPHIC_STROKE) */
+    .front-flourish {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 60mm;
+      height: auto;
+      opacity: 0.04;
+      z-index: 0;
+    }
+
+    /* Logo oben */
+    .front-logo {
+      width: 10mm;
+      height: 10mm;
+      margin-bottom: 2.5mm;
+      position: relative;
+      z-index: 3;
+    }
+
+    /* FIECON — Monumentales Lettering mit Buchstabenfarben */
+    .front-name {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 22pt;
+      font-weight: 400;
+      letter-spacing: -0.04em;
+      line-height: 1;
+      margin-bottom: 1.8mm;
+      position: relative;
+      z-index: 3;
+    }
+
+    .front-name .l-F {
+      color: #62191C;
+    }
+
+    .front-name .l-I {
+      color: rgba(98, 25, 28, 0.85);
+    }
+
+    .front-name .l-E {
+      color: #873632;
+    }
+
+    .front-name .l-C {
+      color: #9E7161;
+    }
+
+    .front-name .l-O {
+      color: #CAAE9F;
+    }
+
+    .front-name .l-N {
+      color: #E0CFC2;
+    }
+
+    /* Tagline (Hero: tracking-[0.4em] uppercase text-accent) */
+    .front-tagline {
+      font-family: 'DM Sans', system-ui, sans-serif;
+      font-size: 5pt;
+      font-weight: 500;
+      letter-spacing: 0.35em;
+      text-transform: uppercase;
+      color: var(--bordeaux-500);
+      margin-bottom: 2.5mm;
+      position: relative;
+      z-index: 3;
+    }
+
+    /* Persönlicher Name */
+    .front-person {
+      font-family: 'DM Sans', system-ui, sans-serif;
+      font-size: 6.5pt;
+      font-weight: 600;
+      color: var(--bordeaux-900);
+      letter-spacing: 0.22em;
+      margin-bottom: 2.5mm;
+      position: relative;
+      z-index: 3;
+    }
+
+    /* Diamond-Divider (SectionDivider: diamond) */
+    .front-divider {
+      display: flex;
+      align-items: center;
+      gap: 2mm;
+      margin-bottom: 3mm;
+      position: relative;
+      z-index: 3;
+    }
+
+    .front-divider-line {
+      width: 8mm;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--beige-400));
+    }
+
+    .front-divider-line:last-child {
+      background: linear-gradient(90deg, var(--beige-400), transparent);
+    }
+
+    .front-divider-diamond {
+      width: 1.5mm;
+      height: 1.5mm;
+      border: 0.5px solid var(--beige-400);
+      transform: rotate(45deg);
+    }
+
+    /* Standorte */
+    .front-offices {
+      font-family: 'DM Sans', system-ui, sans-serif;
+      font-size: 5pt;
+      font-weight: 500;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      position: relative;
+      z-index: 3;
+    }
+
+    .front-offices .dot {
+      display: inline-block;
+      width: 2px;
+      height: 2px;
+      border-radius: 50%;
+      background: var(--beige-400);
+      vertical-align: middle;
+      margin: 0 1.5mm;
+    }
+
+    /* Editorial Rule unten rechts (Hero: bottom-right rule) */
+    .front-rule-bottom {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 20%;
+      height: 1px;
+      background: linear-gradient(270deg, var(--bordeaux-900), transparent);
+      opacity: 0.08;
+      z-index: 2;
+    }
+
+    /* Filigree Dots (Hero: Corner filigree) */
+    .front-dots {
+      position: absolute;
+      bottom: 4mm;
+      right: 5mm;
+      display: flex;
+      align-items: center;
+      gap: 1mm;
+      z-index: 3;
+    }
+
+    .front-dots span:nth-child(1) {
+      width: 1.2px;
+      height: 1.2px;
+      border-radius: 50%;
+      background: var(--bordeaux-500);
+      opacity: 0.15;
+    }
+
+    .front-dots span:nth-child(2) {
+      width: 1.8px;
+      height: 1.8px;
+      border-radius: 50%;
+      background: var(--bordeaux-500);
+      opacity: 0.2;
+    }
+
+    .front-dots span:nth-child(3) {
+      width: 1.2px;
+      height: 1.2px;
+      border-radius: 50%;
+      background: var(--bordeaux-500);
+      opacity: 0.1;
+    }
+
+    /* Website unten links */
+    .front-website {
+      position: absolute;
+      bottom: 4mm;
+      left: 0;
+      right: 0;
+      text-align: center;
+      font-size: 4.5pt;
+      font-weight: 500;
+      color: var(--bordeaux-700);
+      letter-spacing: 0.02em;
+      z-index: 3;
+    }
+
+
+    /* ============================================
+       RÜCKSEITE — „Footer"-Seite (Kontaktdaten)
+       Spiegelt: Footer + Contact-Section
+       Bordeaux-900 Hintergrund, Beige Typografie
+       ============================================ */
+    .card-back {
+      width: 85mm;
+      height: 55mm;
+      background: var(--bordeaux-900);
+      position: relative;
+      overflow: hidden;
+      padding: 5mm 6mm;
+    }
+
+    /* Noise-Texture */
+    .card-back::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      opacity: 0.03;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+      background-size: 128px 128px;
+      z-index: 1;
+    }
+
+    /* Gradient-Linie oben (Contact-Section: dekorative Linie) */
+    .card-back::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 1px;
+      height: 4mm;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.15), transparent);
+      z-index: 2;
+    }
+
+    /* Logo-Watermark (wie Contact-Section Kreise) */
+    .back-watermark {
+      position: absolute;
+      bottom: -8mm;
+      right: -5mm;
+      width: 32mm;
+      height: 32mm;
+      opacity: 0.04;
+      z-index: 0;
+    }
+
+    /* Header-Bereich: Logo + Name */
+    .back-header {
+      display: flex;
+      align-items: center;
+      gap: 2mm;
+      margin-bottom: 1mm;
+      position: relative;
+      z-index: 3;
+    }
+
+    .back-logo {
+      width: 6mm;
+      height: 6mm;
+    }
+
+    .back-name {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 10pt;
+      font-weight: 400;
+      color: var(--white);
+      letter-spacing: -0.02em;
+    }
+
+    /* Persönlicher Name (Rückseite) */
+    .back-person {
+      font-family: 'DM Sans', system-ui, sans-serif;
+      font-size: 6pt;
+      font-weight: 600;
+      color: var(--beige-200);
+      letter-spacing: 0.2em;
+      margin-bottom: 0.8mm;
+      position: relative;
+      z-index: 3;
+    }
+
+    /* Tagline */
+    .back-tagline {
+      font-size: 5pt;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--beige-400);
+      margin-bottom: 3.5mm;
+      position: relative;
+      z-index: 3;
+    }
+
+    /* Trennlinie (Footer: border-white/10) */
+    .back-divider {
+      width: 100%;
+      height: 1px;
+      background: linear-gradient(90deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.04), transparent);
+      margin-bottom: 3mm;
+      position: relative;
+      z-index: 3;
+    }
+
+    /* Kontaktdaten — 2-Spalten-Layout (About: asymmetric grid) */
+    .back-content {
+      display: flex;
+      gap: 5mm;
+      position: relative;
+      z-index: 3;
+    }
+
+    /* Linke Spalte: Adresse */
+    .back-col-left {
+      flex: 1;
+    }
+
+    /* Rechte Spalte: Telefon & E-Mail */
+    .back-col-right {
+      flex: 1;
+    }
+
+    .back-label {
+      font-size: 4.5pt;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--beige-400);
+      opacity: 0.7;
+      margin-bottom: 1.2mm;
+      position: relative;
+      z-index: 3;
+    }
+
+    .back-text {
+      font-size: 6pt;
+      line-height: 1.65;
+      color: var(--beige-200);
+      position: relative;
+      z-index: 3;
+    }
+
+    .back-text a {
+      color: var(--white);
+      text-decoration: none;
+    }
+
+    /* Footer-Bereich */
+    .back-footer {
+      position: absolute;
+      bottom: 4.5mm;
+      left: 6mm;
+      right: 6mm;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      z-index: 3;
+    }
+
+    .back-website {
+      font-size: 5pt;
+      font-weight: 600;
+      color: var(--white);
+      letter-spacing: 0.03em;
+    }
+
+    .back-offices {
+      font-size: 4.5pt;
+      color: var(--beige-400);
+      letter-spacing: 0.08em;
+      opacity: 0.7;
+    }
+
+    /* Horizontale Linie über Footer (Footer: border-top border-white/10) */
+    .back-footer-line {
+      position: absolute;
+      bottom: 9mm;
+      left: 6mm;
+      right: 6mm;
+      height: 1px;
+      background: rgba(255, 255, 255, 0.06);
+      z-index: 3;
+    }
+
+
+    /* ============================================
+       DRUCK-LAYOUT
+       ============================================ */
+    @media print {
+      body {
+        background: white;
+        padding: 0;
+      }
+
+      .preview-mode {
+        display: none !important;
+      }
+
+      .print-sheet {
+        display: block !important;
+        width: 210mm;
+        padding: 10mm;
+        page-break-after: always;
+      }
+
+      .print-grid {
+        display: grid;
+        grid-template-columns: 85mm 85mm;
+        grid-template-rows: repeat(5, 55mm);
+        gap: 2mm;
+        width: 172mm;
+        margin: 0 auto;
+      }
+
+      .print-grid .card-front,
+      .print-grid .card-back {
+        break-inside: avoid;
+        box-shadow: none;
+        border: 0.25pt solid rgba(98, 25, 28, 0.08);
+      }
+    }
+
+    .print-sheet {
+      display: none;
+    }
+
+    /* Vorschau-Schatten */
+    .card-front,
+    .card-back {
+      box-shadow:
+        0 1px 3px rgba(98, 25, 28, 0.08),
+        0 8px 32px rgba(98, 25, 28, 0.12),
+        0 20px 60px rgba(98, 25, 28, 0.06);
+    }
+
+    /* === Druckanleitung === */
+    .instructions {
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 28px 32px;
+      background: var(--white);
+      border-radius: 2px;
+      font-size: 14px;
+      line-height: 1.7;
+      color: var(--text-muted);
+      border: 1px solid var(--beige-200);
+    }
+
+    .instructions h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 18px;
+      font-weight: 400;
+      color: var(--bordeaux-900);
+      margin-bottom: 16px;
+    }
+
+    .instructions ul {
+      margin-left: 20px;
+      margin-top: 8px;
+    }
+
+    .instructions .note {
+      margin-top: 20px;
+      padding: 14px 16px;
+      background: var(--beige-50);
+      border-left: 2px solid var(--beige-400);
+      font-size: 13px;
+      line-height: 1.6;
+    }
+
+    .instructions strong {
+      color: var(--text);
+      font-weight: 600;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- ==================== VORSCHAU ==================== -->
+  <div class="preview-mode">
+    <div class="page-title">
+      <h1>FIECON Visitenkarte</h1>
+      <p>Druckvorlage</p>
+    </div>
+
+    <div class="preview-pair">
+      <!-- === VORDERSEITE === -->
+      <div class="preview-item">
+        <div class="preview-label">Vorderseite</div>
+        <div class="card-front">
+          <!-- Noise + editorial rules via ::before / ::after -->
+
+          <!-- Logo-Watermark (Hero-Section Stil) -->
+          <svg class="front-watermark" viewBox="0 0 1536 1536" xmlns="http://www.w3.org/2000/svg">
+            <g fill="#62191C">
+              <path
+                d="m1085 758-6-2-16-1-1-1h-12l-1-1h-53l-1 1h-10l-1 1-17 1-1 1-17 2-40 9-41 13-3 2-18 6-12 6-5 1-80 39-2 2-75 38h-2l-31 15-33 13-48 15h-4l-13 4-25 5h-6l-1 1-20 2-1 1h-8l-1 1h-10l-1 1-41 1-1 1h-9l-1 1 4 2 10 1 6 2 30 3 1 1h15l1 1 53-1 1-1 30-3 11-3h5l9-3h4l26-7 30-11 2 2-2 71-1 1v11l-1 1-1 15-6 21-7 9-8 4-18 2-1 1h-16l-3 1-3 3v6l2 2 5 2h54l1-1h31l1-1h45l1 1h36l1 1h69l4-1 4-4v-5l-3-3-34-2-1-1h-9l-1-1-10-1-6-2-6-4-4-4-5-9-5-24-1-27-1-1v-20l-1-1v-88l101-52h2l39-18 32-11 3-2 33-10 33-8h5l5-2 30-4 1-1 45-4Z" />
+              <path
+                d="m1264 687-2-4-9-1-6-2h-7l-1 1 3 26 1 1v8l1 1 1 23 1 1v53l-1 1-1 23-1 1v8l-1 1-2 20-12 52-12 36-12 29-27 51-20 30-34 42-35 35-26 22-43 30-24 14-28 14-26 11-45 15-44 10-25 3-1 1-34 2-1 1-62-1-1-1h-11l-1-1h-7l-1-1-26-3-5-2-10-1-28-7-37-12-36-15-50-27-44-31-25-21-34-34-22-26-31-44-15-26-12-24-12-28-7-22-2-3-12-45-12-2-9-3h-3l-1 4 12 47 18 49 20 41 22 37 27 37 25 29 26 26 18 16 35 27 48 30 41 20 51 19 46 12h5l30 6 28 2 1 1h13l1 1h51l1-1 34-2 1-1h7l1-1 18-2 45-10 46-15 31-13 28-14 34-20 38-27 35-30 32-33 32-40 26-40 22-42 21-53v-3l4-10 5-21 2-4 10-53 2-28 1-1v-16l1-1v-43l-1-1v-16l-1-1v-10l-1-1Z" />
+              <path
+                d="m1454 726-46-28-47-24-30-13-29-10-3-2-43-13h-4l-27-7h-5l-11-3h-6l-14-3h-7l-1-1-36-2-1-1h-55l-1 1-26 1-1 1h-7l-1 1h-7l-1 1h-7l-1 1-24 3-46 10-4 2-32 8-64 22-64 26-46 21-2-2V519l4-4h39l1 1 89 1 1 1h8l9 2 16 7 12 11 5 13 1 23 2 7 2 2h7l3-2 2-5 1-20 1-1v-15l1-1 1-34 6-27v-9l-3-3h-6l-7 4-8 2-25 1-1 1H677l-1-1h-41l-1-1h-50l-6 2-3 4v3l3 4 3 1 30 1 18 4 8 4 7 6 5 8 3 10 1 16 1 1v53l1 1v171l-2 2-12 4-15 7-5 1-5 3-44 15-3 2h-3l-36 12h-4l-7 3h-4l-8 3h-4l-14 4-26 4-1 1-12 1-1 1-36 3-1 1-57 1-1-1h-18l-1-1h-11l-1-1-25-2-35-7h-5l-26-7h-4l-7-3-21-5-6-3h-3l-35-12-28-12-5-1-42-19-2 2 35 23 42 24h2l18 10h2l27 13 46 17h3l10 4 18 4 8 3 53 10 30 2 1 1h13l1 1h44l1-1h16l1-1 29-2 1-1 31-4 25-6h4l9-3h4l4-2 35-9 39-13 55-21 5-3 12-4 7-4 30-12 43-20 9-3 18-9 16-6 9-5 89-36 68-22 32-8 9-1 10-3h5l5-2 12-1 6-2 32-3 1-1h11l1-1h17l1-1h47l1 1 38 2 1 1 35 4 31 6 9 3h4l48 13 53 18 45 18 5 3h2Z" />
+              <path
+                d="m1247 616-16-44-20-42-20-34-27-38-30-35-34-33-39-31-30-20-26-15-26-13-28-12-51-17h-4l-16-5-25-5-18-2-1-1h-7l-1-1-34-2-1-1h-52l-1 1-33 2-1 1h-7l-7 2-12 1-25 5-5 2h-4l-7 3h-4l-38 12-39 16-46 24-34 22-35 27-18 16-26 26-25 29-27 37-22 37-20 41-18 49-12 46v5l-5 23-1 14-1 1-2 34-1 1v51l1 1v9l4 2 10 2h6l1 1 3-1-1-63 1-1v-13l1-1v-12l1-1 1-15 10-51 9-28v-3l2-3 7-22 11-26 13-26 15-26 21-31 18-23 14-16 34-34 30-25 39-27 28-16 45-21 43-15 40-10h5l25-5h6l1-1 18-1 1-1h15l1-1h46l1 1h14l1 1h11l1 1 22 2 41 8 29 9h3l3 2h3l39 15 37 18 32 19 31 22 20 16 33 31 20 22 17 21 29 42 27 51v2l7 14 1 5 3 5 6 18 22 5h3Z" />
+            </g>
+          </svg>
+
+          <!-- Kalligrafischer Strich (wie Hero-Section) -->
+          <svg class="front-flourish" viewBox="0 0 1300 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M 80,500 C 200,150 350,650 550,250 S 850,550 1050,200 Q 1150,100 1200,180" stroke="#62191C"
+              stroke-width="1.5" stroke-linecap="round" fill="none" />
+          </svg>
+
+          <!-- Logo -->
+          <div class="front-logo">
+            <svg viewBox="0 0 1536 1536" xmlns="http://www.w3.org/2000/svg">
+              <g fill="#62191c">
+                <path
+                  d="m1085 758-6-2-16-1-1-1h-12l-1-1h-53l-1 1h-10l-1 1-17 1-1 1-17 2-40 9-41 13-3 2-18 6-12 6-5 1-80 39-2 2-75 38h-2l-31 15-33 13-48 15h-4l-13 4-25 5h-6l-1 1-20 2-1 1h-8l-1 1h-10l-1 1-41 1-1 1h-9l-1 1 4 2 10 1 6 2 30 3 1 1h15l1 1 53-1 1-1 30-3 11-3h5l9-3h4l26-7 30-11 2 2-2 71-1 1v11l-1 1-1 15-6 21-7 9-8 4-18 2-1 1h-16l-3 1-3 3v6l2 2 5 2h54l1-1h31l1-1h45l1 1h36l1 1h69l4-1 4-4v-5l-3-3-34-2-1-1h-9l-1-1-10-1-6-2-6-4-4-4-5-9-5-24-1-27-1-1v-20l-1-1v-88l101-52h2l39-18 32-11 3-2 33-10 33-8h5l5-2 30-4 1-1 45-4Z" />
+                <path
+                  d="m1264 687-2-4-9-1-6-2h-7l-1 1 3 26 1 1v8l1 1 1 23 1 1v53l-1 1-1 23-1 1v8l-1 1-2 20-12 52-12 36-12 29-27 51-20 30-34 42-35 35-26 22-43 30-24 14-28 14-26 11-45 15-44 10-25 3-1 1-34 2-1 1-62-1-1-1h-11l-1-1h-7l-1-1-26-3-5-2-10-1-28-7-37-12-36-15-50-27-44-31-25-21-34-34-22-26-31-44-15-26-12-24-12-28-7-22-2-3-12-45-12-2-9-3h-3l-1 4 12 47 18 49 20 41 22 37 27 37 25 29 26 26 18 16 35 27 48 30 41 20 51 19 46 12h5l30 6 28 2 1 1h13l1 1h51l1-1 34-2 1-1h7l1-1 18-2 45-10 46-15 31-13 28-14 34-20 38-27 35-30 32-33 32-40 26-40 22-42 21-53v-3l4-10 5-21 2-4 10-53 2-28 1-1v-16l1-1v-43l-1-1v-16l-1-1v-10l-1-1Z" />
+                <path
+                  d="m1454 726-46-28-47-24-30-13-29-10-3-2-43-13h-4l-27-7h-5l-11-3h-6l-14-3h-7l-1-1-36-2-1-1h-55l-1 1-26 1-1 1h-7l-1 1h-7l-1 1h-7l-1 1-24 3-46 10-4 2-32 8-64 22-64 26-46 21-2-2V519l4-4h39l1 1 89 1 1 1h8l9 2 16 7 12 11 5 13 1 23 2 7 2 2h7l3-2 2-5 1-20 1-1v-15l1-1 1-34 6-27v-9l-3-3h-6l-7 4-8 2-25 1-1 1H677l-1-1h-41l-1-1h-50l-6 2-3 4v3l3 4 3 1 30 1 18 4 8 4 7 6 5 8 3 10 1 16 1 1v53l1 1v171l-2 2-12 4-15 7-5 1-5 3-44 15-3 2h-3l-36 12h-4l-7 3h-4l-8 3h-4l-14 4-26 4-1 1-12 1-1 1-36 3-1 1-57 1-1-1h-18l-1-1h-11l-1-1-25-2-35-7h-5l-26-7h-4l-7-3-21-5-6-3h-3l-35-12-28-12-5-1-42-19-2 2 35 23 42 24h2l18 10h2l27 13 46 17h3l10 4 18 4 8 3 53 10 30 2 1 1h13l1 1h44l1-1h16l1-1 29-2 1-1 31-4 25-6h4l9-3h4l4-2 35-9 39-13 55-21 5-3 12-4 7-4 30-12 43-20 9-3 18-9 16-6 9-5 89-36 68-22 32-8 9-1 10-3h5l5-2 12-1 6-2 32-3 1-1h11l1-1h17l1-1h47l1 1 38 2 1 1 35 4 31 6 9 3h4l48 13 53 18 45 18 5 3h2Z" />
+                <path
+                  d="m1247 616-16-44-20-42-20-34-27-38-30-35-34-33-39-31-30-20-26-15-26-13-28-12-51-17h-4l-16-5-25-5-18-2-1-1h-7l-1-1-34-2-1-1h-52l-1 1-33 2-1 1h-7l-7 2-12 1-25 5-5 2h-4l-7 3h-4l-38 12-39 16-46 24-34 22-35 27-18 16-26 26-25 29-27 37-22 37-20 41-18 49-12 46v5l-5 23-1 14-1 1-2 34-1 1v51l1 1v9l4 2 10 2h6l1 1 3-1-1-63 1-1v-13l1-1v-12l1-1 1-15 10-51 9-28v-3l2-3 7-22 11-26 13-26 15-26 21-31 18-23 14-16 34-34 30-25 39-27 28-16 45-21 43-15 40-10h5l25-5h6l1-1 18-1 1-1h15l1-1h46l1 1h14l1 1h11l1 1 22 2 41 8 29 9h3l3 2h3l39 15 37 18 32 19 31 22 20 16 33 31 20 22 17 21 29 42 27 51v2l7 14 1 5 3 5 6 18 22 5h3Z" />
+              </g>
+            </svg>
+          </div>
+
+          <!-- FIECON — Monumentales Lettering -->
+          <div class="front-name">
+            <span class="l-F">F</span><span class="l-I">I</span><span class="l-E">E</span><span
+              class="l-C">C</span><span class="l-O">O</span><span class="l-N">N</span>
+          </div>
+
+          <!-- Tagline -->
+          <div class="front-tagline">International Consulting Industries</div>
+
+          <!-- Persönlicher Name -->
+          <div class="front-person">JULIA FIEGLER</div>
+
+          <!-- Diamond-Divider -->
+          <div class="front-divider">
+            <div class="front-divider-line"></div>
+            <div class="front-divider-diamond"></div>
+            <div class="front-divider-line"></div>
+          </div>
+
+          <!-- Standorte -->
+          <div class="front-offices">
+            Hamburg <span class="dot"></span> Belgrad <span class="dot"></span> Texas
+          </div>
+
+          <!-- Website unten links -->
+          <div class="front-website">www.fiecon-consulting.eu</div>
+
+          <!-- Editorial Rule unten rechts -->
+          <div class="front-rule-bottom"></div>
+
+          <!-- Filigree Dots -->
+          <div class="front-dots"><span></span><span></span><span></span></div>
+        </div>
+      </div>
+
+      <!-- === RÜCKSEITE === -->
+      <div class="preview-item">
+        <div class="preview-label">Rückseite</div>
+        <div class="card-back">
+          <!-- Logo-Watermark unten rechts -->
+          <svg class="back-watermark" viewBox="0 0 1536 1536" xmlns="http://www.w3.org/2000/svg">
+            <g fill="#ffffff">
+              <path
+                d="m1085 758-6-2-16-1-1-1h-12l-1-1h-53l-1 1h-10l-1 1-17 1-1 1-17 2-40 9-41 13-3 2-18 6-12 6-5 1-80 39-2 2-75 38h-2l-31 15-33 13-48 15h-4l-13 4-25 5h-6l-1 1-20 2-1 1h-8l-1 1h-10l-1 1-41 1-1 1h-9l-1 1 4 2 10 1 6 2 30 3 1 1h15l1 1 53-1 1-1 30-3 11-3h5l9-3h4l26-7 30-11 2 2-2 71-1 1v11l-1 1-1 15-6 21-7 9-8 4-18 2-1 1h-16l-3 1-3 3v6l2 2 5 2h54l1-1h31l1-1h45l1 1h36l1 1h69l4-1 4-4v-5l-3-3-34-2-1-1h-9l-1-1-10-1-6-2-6-4-4-4-5-9-5-24-1-27-1-1v-20l-1-1v-88l101-52h2l39-18 32-11 3-2 33-10 33-8h5l5-2 30-4 1-1 45-4Z" />
+              <path
+                d="m1264 687-2-4-9-1-6-2h-7l-1 1 3 26 1 1v8l1 1 1 23 1 1v53l-1 1-1 23-1 1v8l-1 1-2 20-12 52-12 36-12 29-27 51-20 30-34 42-35 35-26 22-43 30-24 14-28 14-26 11-45 15-44 10-25 3-1 1-34 2-1 1-62-1-1-1h-11l-1-1h-7l-1-1-26-3-5-2-10-1-28-7-37-12-36-15-50-27-44-31-25-21-34-34-22-26-31-44-15-26-12-24-12-28-7-22-2-3-12-45-12-2-9-3h-3l-1 4 12 47 18 49 20 41 22 37 27 37 25 29 26 26 18 16 35 27 48 30 41 20 51 19 46 12h5l30 6 28 2 1 1h13l1 1h51l1-1 34-2 1-1h7l1-1 18-2 45-10 46-15 31-13 28-14 34-20 38-27 35-30 32-33 32-40 26-40 22-42 21-53v-3l4-10 5-21 2-4 10-53 2-28 1-1v-16l1-1v-43l-1-1v-16l-1-1v-10l-1-1Z" />
+              <path
+                d="m1454 726-46-28-47-24-30-13-29-10-3-2-43-13h-4l-27-7h-5l-11-3h-6l-14-3h-7l-1-1-36-2-1-1h-55l-1 1-26 1-1 1h-7l-1 1h-7l-1 1h-7l-1 1-24 3-46 10-4 2-32 8-64 22-64 26-46 21-2-2V519l4-4h39l1 1 89 1 1 1h8l9 2 16 7 12 11 5 13 1 23 2 7 2 2h7l3-2 2-5 1-20 1-1v-15l1-1 1-34 6-27v-9l-3-3h-6l-7 4-8 2-25 1-1 1H677l-1-1h-41l-1-1h-50l-6 2-3 4v3l3 4 3 1 30 1 18 4 8 4 7 6 5 8 3 10 1 16 1 1v53l1 1v171l-2 2-12 4-15 7-5 1-5 3-44 15-3 2h-3l-36 12h-4l-7 3h-4l-8 3h-4l-14 4-26 4-1 1-12 1-1 1-36 3-1 1-57 1-1-1h-18l-1-1h-11l-1-1-25-2-35-7h-5l-26-7h-4l-7-3-21-5-6-3h-3l-35-12-28-12-5-1-42-19-2 2 35 23 42 24h2l18 10h2l27 13 46 17h3l10 4 18 4 8 3 53 10 30 2 1 1h13l1 1h44l1-1h16l1-1 29-2 1-1 31-4 25-6h4l9-3h4l4-2 35-9 39-13 55-21 5-3 12-4 7-4 30-12 43-20 9-3 18-9 16-6 9-5 89-36 68-22 32-8 9-1 10-3h5l5-2 12-1 6-2 32-3 1-1h11l1-1h17l1-1h47l1 1 38 2 1 1 35 4 31 6 9 3h4l48 13 53 18 45 18 5 3h2Z" />
+              <path
+                d="m1247 616-16-44-20-42-20-34-27-38-30-35-34-33-39-31-30-20-26-15-26-13-28-12-51-17h-4l-16-5-25-5-18-2-1-1h-7l-1-1-34-2-1-1h-52l-1 1-33 2-1 1h-7l-7 2-12 1-25 5-5 2h-4l-7 3h-4l-38 12-39 16-46 24-34 22-35 27-18 16-26 26-25 29-27 37-22 37-20 41-18 49-12 46v5l-5 23-1 14-1 1-2 34-1 1v51l1 1v9l4 2 10 2h6l1 1 3-1-1-63 1-1v-13l1-1v-12l1-1 1-15 10-51 9-28v-3l2-3 7-22 11-26 13-26 15-26 21-31 18-23 14-16 34-34 30-25 39-27 28-16 45-21 43-15 40-10h5l25-5h6l1-1 18-1 1-1h15l1-1h46l1 1h14l1 1h11l1 1 22 2 41 8 29 9h3l3 2h3l39 15 37 18 32 19 31 22 20 16 33 31 20 22 17 21 29 42 27 51v2l7 14 1 5 3 5 6 18 22 5h3Z" />
+            </g>
+          </svg>
+
+          <!-- Header: Logo + Name (wie Header der Website) -->
+          <div class="back-header">
+            <div class="back-logo">
+              <svg viewBox="0 0 1536 1536" xmlns="http://www.w3.org/2000/svg">
+                <g fill="#ffffff">
+                  <path
+                    d="m1085 758-6-2-16-1-1-1h-12l-1-1h-53l-1 1h-10l-1 1-17 1-1 1-17 2-40 9-41 13-3 2-18 6-12 6-5 1-80 39-2 2-75 38h-2l-31 15-33 13-48 15h-4l-13 4-25 5h-6l-1 1-20 2-1 1h-8l-1 1h-10l-1 1-41 1-1 1h-9l-1 1 4 2 10 1 6 2 30 3 1 1h15l1 1 53-1 1-1 30-3 11-3h5l9-3h4l26-7 30-11 2 2-2 71-1 1v11l-1 1-1 15-6 21-7 9-8 4-18 2-1 1h-16l-3 1-3 3v6l2 2 5 2h54l1-1h31l1-1h45l1 1h36l1 1h69l4-1 4-4v-5l-3-3-34-2-1-1h-9l-1-1-10-1-6-2-6-4-4-4-5-9-5-24-1-27-1-1v-20l-1-1v-88l101-52h2l39-18 32-11 3-2 33-10 33-8h5l5-2 30-4 1-1 45-4Z" />
+                  <path
+                    d="m1264 687-2-4-9-1-6-2h-7l-1 1 3 26 1 1v8l1 1 1 23 1 1v53l-1 1-1 23-1 1v8l-1 1-2 20-12 52-12 36-12 29-27 51-20 30-34 42-35 35-26 22-43 30-24 14-28 14-26 11-45 15-44 10-25 3-1 1-34 2-1 1-62-1-1-1h-11l-1-1h-7l-1-1-26-3-5-2-10-1-28-7-37-12-36-15-50-27-44-31-25-21-34-34-22-26-31-44-15-26-12-24-12-28-7-22-2-3-12-45-12-2-9-3h-3l-1 4 12 47 18 49 20 41 22 37 27 37 25 29 26 26 18 16 35 27 48 30 41 20 51 19 46 12h5l30 6 28 2 1 1h13l1 1h51l1-1 34-2 1-1h7l1-1 18-2 45-10 46-15 31-13 28-14 34-20 38-27 35-30 32-33 32-40 26-40 22-42 21-53v-3l4-10 5-21 2-4 10-53 2-28 1-1v-16l1-1v-43l-1-1v-16l-1-1v-10l-1-1Z" />
+                  <path
+                    d="m1454 726-46-28-47-24-30-13-29-10-3-2-43-13h-4l-27-7h-5l-11-3h-6l-14-3h-7l-1-1-36-2-1-1h-55l-1 1-26 1-1 1h-7l-1 1h-7l-1 1h-7l-1 1-24 3-46 10-4 2-32 8-64 22-64 26-46 21-2-2V519l4-4h39l1 1 89 1 1 1h8l9 2 16 7 12 11 5 13 1 23 2 7 2 2h7l3-2 2-5 1-20 1-1v-15l1-1 1-34 6-27v-9l-3-3h-6l-7 4-8 2-25 1-1 1H677l-1-1h-41l-1-1h-50l-6 2-3 4v3l3 4 3 1 30 1 18 4 8 4 7 6 5 8 3 10 1 16 1 1v53l1 1v171l-2 2-12 4-15 7-5 1-5 3-44 15-3 2h-3l-36 12h-4l-7 3h-4l-8 3h-4l-14 4-26 4-1 1-12 1-1 1-36 3-1 1-57 1-1-1h-18l-1-1h-11l-1-1-25-2-35-7h-5l-26-7h-4l-7-3-21-5-6-3h-3l-35-12-28-12-5-1-42-19-2 2 35 23 42 24h2l18 10h2l27 13 46 17h3l10 4 18 4 8 3 53 10 30 2 1 1h13l1 1h44l1-1h16l1-1 29-2 1-1 31-4 25-6h4l9-3h4l4-2 35-9 39-13 55-21 5-3 12-4 7-4 30-12 43-20 9-3 18-9 16-6 9-5 89-36 68-22 32-8 9-1 10-3h5l5-2 12-1 6-2 32-3 1-1h11l1-1h17l1-1h47l1 1 38 2 1 1 35 4 31 6 9 3h4l48 13 53 18 45 18 5 3h2Z" />
+                  <path
+                    d="m1247 616-16-44-20-42-20-34-27-38-30-35-34-33-39-31-30-20-26-15-26-13-28-12-51-17h-4l-16-5-25-5-18-2-1-1h-7l-1-1-34-2-1-1h-52l-1 1-33 2-1 1h-7l-7 2-12 1-25 5-5 2h-4l-7 3h-4l-38 12-39 16-46 24-34 22-35 27-18 16-26 26-25 29-27 37-22 37-20 41-18 49-12 46v5l-5 23-1 14-1 1-2 34-1 1v51l1 1v9l4 2 10 2h6l1 1 3-1-1-63 1-1v-13l1-1v-12l1-1 1-15 10-51 9-28v-3l2-3 7-22 11-26 13-26 15-26 21-31 18-23 14-16 34-34 30-25 39-27 28-16 45-21 43-15 40-10h5l25-5h6l1-1 18-1 1-1h15l1-1h46l1 1h14l1 1h11l1 1 22 2 41 8 29 9h3l3 2h3l39 15 37 18 32 19 31 22 20 16 33 31 20 22 17 21 29 42 27 51v2l7 14 1 5 3 5 6 18 22 5h3Z" />
+                </g>
+              </svg>
+            </div>
+            <div class="back-name">FIECON</div>
+          </div>
+          <div class="back-person">JULIA FIEGLER</div>
+          <div class="back-tagline">Fiegler Consulting KG</div>
+
+          <!-- Trennlinie -->
+          <div class="back-divider"></div>
+
+          <!-- Kontaktdaten: 2-Spalten -->
+          <div class="back-content">
+            <div class="back-col-left">
+              <div class="back-label">Adresse</div>
+              <div class="back-text">
+                Borsteler Chaussee 179<br>
+                22453 Hamburg<br>
+                Deutschland
+              </div>
+            </div>
+            <div class="back-col-right">
+              <div class="back-label">Kontakt</div>
+              <div class="back-text">
+                <a href="tel:+494063644422">+49 (0) 40 636 44 422</a><br>
+                <a href="tel:+491714563492">+49 (0) 171 456 34 92</a><br>
+                <a href="mailto:fiegler-fiecon-consulting@e.mail.de"
+                  style="font-size: 5.5pt;">fiegler-fiecon-consulting@e.mail.de</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Footer-Linie -->
+          <div class="back-footer-line"></div>
+
+          <!-- Footer -->
+          <div class="back-footer">
+            <div class="back-website">www.fiecon-consulting.eu</div>
+            <div class="back-offices">Hamburg &middot; Belgrad &middot; Texas</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="instructions">
+      <h2>Druckanleitung</h2>
+      <p>Öffnen Sie diese Datei im Browser und drucken Sie mit <strong>Strg+P</strong> / <strong>Cmd+P</strong>.</p>
+      <ul>
+        <li>Format: A4, Hochformat</li>
+        <li>Ränder: Standard oder minimal</li>
+        <li>Hintergrundgrafiken: <strong>aktivieren</strong></li>
+        <li>Beidseitig: Manuell wenden</li>
+      </ul>
+      <div class="note">
+        <strong>Seite 1:</strong> 10 Vorderseiten (Beige, Marken-Identität)<br>
+        <strong>Seite 2:</strong> 10 Rückseiten (Bordeaux, Kontaktdaten)<br><br>
+        Drucken Sie zuerst die Vorderseiten, wenden Sie das Blatt, dann die Rückseiten. Format: 85 &times; 55 mm
+        (Standard).
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== DRUCK ==================== -->
+  <div class="print-sheet">
+    <div class="print-grid" id="print-front"></div>
+  </div>
+  <div class="print-sheet">
+    <div class="print-grid" id="print-back"></div>
+  </div>
+
+  <script>
+    // Druck-Grid befüllen
+    const frontEl = document.querySelector('.preview-pair .card-front');
+    const backEl = document.querySelector('.preview-pair .card-back');
+    if (frontEl && backEl) {
+      document.getElementById('print-front').innerHTML = frontEl.outerHTML.repeat(10);
+      document.getElementById('print-back').innerHTML = backEl.outerHTML.repeat(10);
+    }
+  </script>
+</body>
+
+</html>

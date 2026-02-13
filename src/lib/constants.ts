@@ -1,7 +1,7 @@
 export const COMPANY = {
   name: "FIECON",
   fullName: "FIECON Germany Co. KG",
-  subtitle: "for International Consulting Industries",
+  subtitle: "International Consulting Industries",
   legalName: "Fiegler Consulting KG",
   website: "www.fiecon-consulting.eu",
 } as const;
