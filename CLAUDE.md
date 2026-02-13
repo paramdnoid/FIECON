@@ -8,7 +8,7 @@ Corporate website for FIECON (Fiegler Consulting KG), an international consultin
 - **Language:** TypeScript 5.9 (strict mode)
 - **Styling:** Tailwind CSS v4 (@tailwindcss/postcss plugin)
 - **Animations:** Motion (Framer Motion) v12
-- **i18n:** next-intl v4 (49 locales, `localePrefix: "always"`)
+- **i18n:** next-intl v4 (44 locales, `localePrefix: "always"`)
 - **Email:** Nodemailer 8
 - **Testing:** Vitest + Testing Library
 - **Package Manager:** pnpm
@@ -20,6 +20,7 @@ Corporate website for FIECON (Fiegler Consulting KG), an international consultin
 - `pnpm lint` — ESLint
 - `pnpm test` — Vitest (run once)
 - `pnpm test:watch` — Vitest (watch mode)
+- `pnpm deploy` — Deploy to production (root@217.154.23.84); see DEPLOYMENT.md
 
 ## Architecture
 
@@ -27,8 +28,8 @@ Corporate website for FIECON (Fiegler Consulting KG), an international consultin
 - Locale prefix always in URLs (`localePrefix: "always"`) — e.g. `/de/impressum`, `/en/impressum`
 - Middleware at `middleware.ts` handles locale routing (redirects `/` to `/de`)
 - Navigation helpers: `src/i18n/navigation.ts` exports locale-aware `Link`, `redirect`, `usePathname`, `useRouter` — always use these instead of `next/link`
-- i18n config: `src/i18n/routing.ts` (49 locale definitions) + `src/i18n/request.ts` (request config with cookie/header fallback)
-- Translation files: `src/messages/{locale}.json` (49 locales including de, en, fr, it, es, pt, nl, pl, ru, tr, ar, and more)
+- i18n config: `src/i18n/routing.ts` (44 locale definitions) + `src/i18n/request.ts` (request config with cookie/header fallback)
+- Translation files: `src/messages/{locale}.json` (44 locales including de, en, fr, it, es, pt, nl, pl, ru, tr, ar, and more)
 - RTL support: Arabic (`ar`) gets `dir="rtl"` on `<html>` and uses Noto Sans Arabic font
 
 ### Directory Structure

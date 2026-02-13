@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import { Suspense } from "react";
 import type { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
@@ -162,7 +163,9 @@ export default async function LocaleLayout({
       />
       <NextIntlClientProvider locale={locale} messages={messages}>
         <Header />
-        <main id="main">{children}</main>
+        <main id="main">
+          <Suspense fallback={null}>{children}</Suspense>
+        </main>
         <Footer />
       </NextIntlClientProvider>
     </>

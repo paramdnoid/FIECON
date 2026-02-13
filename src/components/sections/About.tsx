@@ -58,7 +58,12 @@ export function About() {
       </div>
 
       {/* === Zone 2: Statistics Band === */}
-      <div className="py-16 sm:py-20 bg-beige-50">
+      <div className="relative py-16 sm:py-20 bg-beige-50">
+        {/* Gradient border top */}
+        <div
+          aria-hidden="true"
+          className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-beige-400/40 to-transparent"
+        />
         <Container size="md">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 sm:gap-0">
             {STATS.map((stat, i) => (
@@ -83,6 +88,11 @@ export function About() {
             ))}
           </div>
         </Container>
+        {/* Gradient border bottom */}
+        <div
+          aria-hidden="true"
+          className="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-beige-400/40 to-transparent"
+        />
       </div>
 
       {/* === Zone 3: Quote === */}

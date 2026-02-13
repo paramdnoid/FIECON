@@ -9,7 +9,9 @@
     "lint": "eslint .",
     "test": "vitest run",
     "test:watch": "vitest",
-    "test:coverage": "vitest run --coverage"
+    "test:coverage": "vitest run --coverage",
+    "check:i18n": "node scripts/check-translations.js",
+    "deploy": "./deploy.sh"
   },
   "dependencies": {
     "motion": "^12.33.0",
