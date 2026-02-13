@@ -56,11 +56,13 @@ ufw default allow outgoing
 ufw allow 22/tcp   comment 'SSH'
 ufw allow 80/tcp   comment 'HTTP'
 ufw allow 443/tcp  comment 'HTTPS'
+# Docker→Host: Nginx-Container muss Next.js auf Port 3000 erreichen
+ufw allow from 172.18.0.0/16 to any port 3000 comment 'Docker to Next.js'
 
 # Enable UFW (--force skips the interactive prompt)
 ufw --force enable
 ufw status verbose
-echo "✅ UFW configured: only ports 22, 80, 443 open."
+echo "✅ UFW configured: ports 22, 80, 443 open; Docker→3000 allowed."
 
 # ─── SSH Hardening ────────────────────────────────────────────────────
 echo ""

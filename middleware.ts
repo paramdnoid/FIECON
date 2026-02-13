@@ -25,9 +25,10 @@ export default function middleware(request: NextRequest) {
     // 'unsafe-inline' is ignored by browsers that support nonces but acts as fallback for older ones.
     // 'unsafe-eval' is needed in development for React Fast Refresh / HMR.
     `script-src 'self' 'nonce-${nonce}' 'strict-dynamic'${isDev ? " 'unsafe-eval'" : ""}`,
-    // In production, Tailwind CSS is in external files ('self' covers it).
-    // In development, Tailwind injects <style> tags requiring 'unsafe-inline'.
-    `style-src 'self'${isDev ? " 'unsafe-inline'" : ` 'nonce-${nonce}'`}`,
+    // Tailwind CSS is in external files ('self'). Motion/React use inline style
+    // attributes for animations – nonces don't apply to style="..." attributes,
+    // only to <style> tags. 'unsafe-inline' for styles has limited security impact.
+    `style-src 'self' 'unsafe-inline'`,
     "img-src 'self' data:",
     "font-src 'self'",
     "connect-src 'self' https://*.ingest.sentry.io",

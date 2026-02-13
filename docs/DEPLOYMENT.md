@@ -98,6 +98,7 @@ Das Server-Setup-Script konfiguriert automatisch eine UFW-Firewall mit folgenden
 | 22   | TCP       | SSH    | Eingehend erlaubt |
 | 80   | TCP       | HTTP   | Eingehend erlaubt |
 | 443  | TCP       | HTTPS  | Eingehend erlaubt |
+| 3000 | TCP       | Next.js | Nur von 172.18.0.0/16 (Docker-Netzwerk) für Nginx-Proxy |
 | *    | *         | *      | Eingehend blockiert (default deny) |
 | *    | *         | *      | Ausgehend erlaubt (default allow) |
 
@@ -105,6 +106,12 @@ Das Server-Setup-Script konfiguriert automatisch eine UFW-Firewall mit folgenden
 
 ```bash
 ssh root@217.154.23.84 'ufw status verbose'
+```
+
+**Bei Docker-Nginx:** Falls die Website nicht erreichbar ist, prüfen ob der Nginx-Container den Host (Next.js auf Port 3000) erreichen kann. UFW-Regel:
+
+```bash
+ufw allow from 172.18.0.0/16 to any port 3000 comment "Docker to Next.js"
 ```
 
 **Regel hinzufügen/entfernen (Beispiel):**
