@@ -6,7 +6,7 @@
   "metadata": {
     "title": "FIECON — Internacionalno konsultipe ande societarno zakono thaj formipe le firmengo",
     "description": "FIECON Germany Co. KG — Internacionalno konsultipe ande societarno zakono, formipe le firmengo, finansialno administracia thaj konstrukciako finansipe. Ofisurea ando Hamburg, Belgrad thaj Texas.",
-    "keywords": "Gesellschaftsrecht, internationale Firmengründung, Beratung Hamburg, Finanzverwaltung, Baufinanzierung, FIECON Consulting"
+    "keywords": "Gesellschaftsrecht, internationale Firmengründung, Beratung Hamburg, Finanzverwaltung, Bau Finanzverwaltung, FIECON Consulting"
   },
   "nav": {
     "home": "Dza ki sherutni pajina",
@@ -36,7 +36,8 @@
     "stat_1_label": "Ofisurea ando sveto",
     "stat_2_label": "Specialitetake thana",
     "stat_3_label": "Phuvja",
-    "quote_attribution": "Peter Fiegler, Fondatoro"
+    "quote_attribution": "Peter Fiegler, Fondatoro",
+    "profile_link": "Mehr über Peter Fiegler erfahren"
   },
   "services": {
     "badge": "Sevaurea",
@@ -186,6 +187,48 @@
     "description": "E rodli pajina chi ekzistil vai sas premukli.",
     "back": "Ki sherutni pajina"
   },
+  "team_rene_marquard": {
+    "meta_title": "René Marquard — Wealth Management & Edelmetall-Finanzanlagen",
+    "meta_description": "René Marquard, Spezialist für Wealth Management und Finanzanlagen in Edelmetall bei FIECON. Persönliche Vermögensberatung mit Weitblick und Diskretion.",
+    "hero_name": "René Marquard",
+    "hero_role": "Spezialist für Wealth Management",
+    "hero_tagline": "Wealth Management und Finanzanlagen in Edelmetall — mit Erfahrung, Diskretion und persönlichem Engagement.",
+    "bio_badge": "Über René Marquard",
+    "bio_1": "René Marquard bringt langjährige Expertise im Wealth Management und in der Personalberatung mit. Als Spezialist für Finanzanlagen in Edelmetall verbindet er fundiertes Marktwissen mit einem ausgeprägten Gespür für die individuellen Bedürfnisse seiner Mandanten.",
+    "bio_2": "Von Hamburg aus berät er Privatpersonen und Unternehmen, die ihr Vermögen nachhaltig sichern und strategisch weiterentwickeln möchten. Sein Ansatz verbindet klassische Vermögensverwaltung mit spezialisierten Anlagestrategien im Edelmetallsektor.",
+    "bio_3": "Diskretion, persönliche Nähe und eine langfristige Perspektive sind für ihn keine Schlagworte, sondern die Grundlage jeder Beratung. Jedes Mandat wird mit derselben Sorgfalt betreut — unabhängig von seiner Größe.",
+    "quote": "Vermögen bewahren heißt, vorausschauend handeln — mit Vertrauen und Weitblick.",
+    "quote_attribution": "René Marquard",
+    "competency_1_title": "Wealth Management",
+    "competency_1_description": "Ganzheitliche Vermögensverwaltung für Privatpersonen und Unternehmen — von der Analyse über die Strategie bis zur laufenden Betreuung.",
+    "competency_2_title": "Edelmetall-Finanzanlagen",
+    "competency_2_description": "Spezialisierte Beratung zu Finanzanlagen in Gold, Silber und weiteren Edelmetallen — als Instrument der Vermögenssicherung und Diversifikation.",
+    "competency_3_title": "Personalberatung",
+    "competency_3_description": "Erfahrung in Human Resources und Personalberatung — für die Besetzung von Schlüsselpositionen und den Aufbau leistungsstarker Teams.",
+    "competency_4_title": "Vermögensstrategie",
+    "competency_4_description": "Entwicklung individueller Anlagestrategien, die Sicherheit und Wachstum in Einklang bringen — persönlich, langfristig und transparent."
+  },
+  "team_andre_zimmermann": {
+    "meta_title": "Andre Zimmermann — Teknologijako thaj Web-razvojako",
+    "meta_description": "Andre Zimmermann, teknologijako thaj web-razvojako ande FIECON. Preko 20 berša iskustva ande softver-razvoj, AI-thaj programiranje thaj digitalno infrastruktura.",
+    "hero_name": "Andre Zimmermann",
+    "hero_role": "Teknologijako thaj Web-razvojako",
+    "hero_tagline": "Teknologija thaj web-razvoj — preko 20 berša iskustva thaj strategijako upotreba AI-te za isporuku projekta ande najbaro profesionalno standardo.",
+    "bio_badge": "Palal Andre Zimmermann",
+    "bio_1": "Andre Zimmermann je odgovoran za FIECON-o teknološki pravac thaj web-razvoj. Sar certificirani aplikacijski razvijač, jekhel peske therne tehničke kompetencija thaj ciljano upotreba uměle inteligenca — ambiciozne projekte kerdel ande realnost ande najbaro profesionalno standardo.",
+    "bio_2": "Preko 20 berša profesionalno iskustvo ande softver-razvoj thaj therno razumeva AI-thaj programiranje — anel unikálno profil: uprebljel najnovije AI tehnologija sar strategijako orudje te ubrzatel razvoj thaj isporukel rezultate ande maksimalno profesionalno kvaliteta.",
+    "bio_3": "Lesko načelo: teknologija na trubuj te avel cilj per se, numa orudje — precizno, pouzdano thaj prilagođeno potrebama biznisa. Sar AI sar partner, svako vizia avel rezultat kaj vakerel ćaće.",
+    "quote": "Lacho teknologija je nevidljiva — vakerel ferdi.",
+    "quote_attribution": "Andre Zimmermann",
+    "competency_1_title": "Web-razvoj thaj Full-Stack",
+    "competency_1_description": "Koncepcija thaj razvoj modernih web-aplikacija — katar korisnički interfejs thaj server arhitektura. Performantno, sigurno thaj skalabilno.",
+    "competency_2_title": "Softver-arhitektura",
+    "competency_2_description": "Dizajn robustnih sistemskih arhitektura kaj rastu sa biznisom. Katar teknologija izbor thaj dugoročno održavanje.",
+    "competency_3_title": "IT-projekt upravljenje",
+    "competency_3_description": "Vodenje thaj koordinacija razvojnih timova thaj tehničkih projekata — sa čitkimi procesima, agilnim metodama thaj mjerljivim rezultatima.",
+    "competency_4_title": "Digitalna infrastruktura",
+    "competency_4_description": "Gradnja thaj optimizacija digitalne infrastrukture za biznise — katar server administracija thaj integracija modernih cloud rešenja."
+  },
   "impressum": {
     "title": "Zakonsko info",
     "info_title": "Informacia koring o § 5 TMG",
@@ -234,5 +277,35 @@
     "section_7_text": "Kadaja politika le datenge arakhipeske si aktualno valabilni. Koring o dureder kerdipe amare pajinako vai koring paruvdle zakonske vai oficijalne truburimata, shaj te trubul te paruvav kadaja politika le datenge arakhipeske.",
     "email_label": "E-Mail",
     "contact_label": "Kontakto"
+  },
+  "team": {
+    "nav_label": "Team",
+    "competencies_headline": "Kompetenzfelder",
+    "cta_headline": "Lassen Sie uns ins Gespräch kommen",
+    "cta_subline": "Ob eine erste Frage oder ein konkretes Vorhaben — wir nehmen uns Zeit für Sie.",
+    "cta_button": "Kontakt aufnehmen",
+    "back_to_home": "Zur Startseite",
+    "breadcrumb_home": "Startseite"
+  },
+  "team_peter_fiegler": {
+    "meta_title": "Peter Fiegler — Gründer & Gesellschaftsrechtsexperte",
+    "meta_description": "Peter Fiegler, Gründer von FIECON. Langjährige Expertise im Gesellschaftsrecht, internationale Firmengründungen und persönliche Beratung auf höchstem Niveau.",
+    "hero_name": "Peter Fiegler",
+    "hero_role": "Gründer & Geschäftsführer",
+    "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
+    "bio_badge": "Über Peter Fiegler",
+    "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
+    "bio_2": "Mit Standorten in Hamburg, Belgrad und Texas hat er ein internationales Netzwerk aufgebaut, das Mandanten dort begleitet, wo ihre geschäftlichen Vorhaben sie hinführen — ob bei der Gründung einer Gesellschaft in Südosteuropa, der Strukturierung einer Holding oder der Erschließung des US-Marktes.",
+    "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
+    "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
+    "quote_attribution": "Peter Fiegler, Gründer",
+    "competency_1_title": "Gesellschaftsrecht",
+    "competency_1_description": "Beratung bei der Gründung, Strukturierung und Führung von Gesellschaften — national und international. Von der GmbH bis zur grenzüberschreitenden Holding.",
+    "competency_2_title": "Internationale Firmengründungen",
+    "competency_2_description": "Umfassende Begleitung bei Firmengründungen in Deutschland, Serbien, den USA und weiteren Jurisdiktionen. Rechtssicher und effizient.",
+    "competency_3_title": "Finanzverwaltung & Compliance",
+    "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
+    "competency_4_title": "Strategische Beratung",
+    "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
   }
 }

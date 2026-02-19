@@ -36,7 +36,8 @@
     "stat_1_label": "Helyszín világszerte",
     "stat_2_label": "Szakterület",
     "stat_3_label": "Ország",
-    "quote_attribution": "Peter Fiegler, alapító"
+    "quote_attribution": "Peter Fiegler, alapító",
+    "profile_link": "Mehr über Peter Fiegler erfahren"
   },
   "services": {
     "badge": "Szolgáltatások",
@@ -186,6 +187,48 @@
     "description": "A kért oldal nem létezik, vagy áthelyezésre került.",
     "back": "Vissza a főoldalra"
   },
+  "team_rene_marquard": {
+    "meta_title": "René Marquard — Vagyonkezelés és nemesfém-befektetések",
+    "meta_description": "René Marquard, vagyonkezelési és nemesfém-befektetési szakértő a FIECON-nál. Személyes vagyonkezelési tanácsadás előrelátással és diszkrécióval.",
+    "hero_name": "René Marquard",
+    "hero_role": "Vagyonkezelési szakértő",
+    "hero_tagline": "Vagyonkezelés és nemesfém-befektetések — tapasztalattal, diszkrécióval és személyes elkötelezettséggel.",
+    "bio_badge": "René Marquardról",
+    "bio_1": "René Marquard kiterjedt szakértelmet hoz a vagyonkezelés és az emberi erőforrások tanácsadása területén. Nemesfém-befektetési szakértőként mély piaci ismereteket párosít minden ügyfél egyedi igényeinek megértésével.",
+    "bio_2": "Hamburgból magánszemélyeket és vállalatokat tanácsol, akik fenntarthatóan szeretnék megőrizni vagyonukat és stratégiailag fejleszteni. Megközelítése a klasszikus vagyonkezelést a nemesfém szektor specializált befektetési stratégiáival ötvözi.",
+    "bio_3": "A diszkréció, a személyes közelség és a hosszú távú perspektíva nem üres frázisok számára — minden tanácsadói megbízás alapja. Minden megbízás ugyanolyan gondosságot kap, méretétől függetlenül.",
+    "quote": "Vagyon megőrizése előrelátó cselekvést jelent — bizalomra és látóköre építve.",
+    "quote_attribution": "René Marquard",
+    "competency_1_title": "Vagyonkezelés",
+    "competency_1_description": "Átfogó vagyonkezelés magánszemélyeknek és vállalatoknak — az elemzéstől és stratégiától a folyamatos portfóliókezelésig.",
+    "competency_2_title": "Nemesfém-befektetések",
+    "competency_2_description": "Specializált tanácsadás arany-, ezüst- és egyéb nemesfém-befektetésekről — vagyonmegőrzési és diverzifikációs eszközként.",
+    "competency_3_title": "HR-tanácsadás",
+    "competency_3_description": "Szakértelem az emberi erőforrások és vezetési tanácsadás területén — kulcsfontosságú pozíciók betöltésére és nagy teljesítményű csapatok építésére.",
+    "competency_4_title": "Vagyonstratégia",
+    "competency_4_description": "Egyedi befektetési stratégiák kidolgozása, amelyek biztonságot és növekedést egyensúlyoznak — személyes, hosszú távú és átlátható módon."
+  },
+  "team_andre_zimmermann": {
+    "meta_title": "Andre Zimmermann — Technológia és webfejlesztés vezetője",
+    "meta_description": "Andre Zimmermann, a FIECON technológia és webfejlesztés vezetője. Több mint 20 év tapasztalat a szoftverfejlesztésben, az AI-alapú programozásban és a digitális infrastruktúrában.",
+    "hero_name": "Andre Zimmermann",
+    "hero_role": "Technológia és webfejlesztés vezetője",
+    "hero_tagline": "Technológia és webfejlesztés — több mint 20 év tapasztalattal és az AI stratégiai alkalmazásával a projektek legmagasabb szakmai színvonalon történő megvalósításához.",
+    "bio_badge": "Andre Zimmermannról",
+    "bio_1": "Andre Zimmermann a FIECON technológiai irányításáért és webfejlesztéséért felelős. Certifikált alkalmazásfejlesztőként mély technikai szakértelmet párosít a mesterséges intelligencia célzott alkalmazásával — és így a legnagyobb szakmai színvonalon valósítja meg a nagyratörő projekteket.",
+    "bio_2": "Több mint 20 év szakmai tapasztalattal a szoftverfejlesztésben és mély megértéssel az AI-alapú programozás iránt egyedülálló profilt hoz: a legmodernebb AI-technológiákat stratégiai eszközként használja a fejlesztés gyorsítására és a maximális szakmai minőségű eredmények szállítására.",
+    "bio_3": "Az ő elve: a technológia soha ne legyen öncél, hanem eszköz — precíz, megbízható és az üzlet igényeire szabott. Az AI-t partnerként használva minden vízió olyan eredménnyé válik, amely valóban meggyőző.",
+    "quote": "A jó technológia láthatatlan — egyszerűen működik.",
+    "quote_attribution": "Andre Zimmermann",
+    "competency_1_title": "Webfejlesztés és full-stack",
+    "competency_1_description": "Modern webalkalmazások koncepciója és fejlesztése — a felhasználói felülettől a szerverarchitektúráig. Teljesítményes, biztonságos és skálázható.",
+    "competency_2_title": "Szoftverarchitektúra",
+    "competency_2_description": "Robusztus rendszerarchitektúrák tervezése, amelyek a vállalattal együtt nőnek. A technológiaválasztástól a hosszú távú karbantarthatóságig.",
+    "competency_3_title": "IT projektmenedzsment",
+    "competency_3_description": "Fejlesztői csapatok és technikai projektek vezetése és koordinálása — világos folyamatokkal, agilis módszerekkel és mérhető eredményekkel.",
+    "competency_4_title": "Digitális infrastruktúra",
+    "competency_4_description": "Digitális infrastruktúra felépítése és optimalizálása vállalatok számára — a szerveradminisztrációtól a modern felhőalapú megoldások integrálásáig."
+  },
   "impressum": {
     "title": "Impresszum",
     "info_title": "Adatok a § 5 TMG szerint",
@@ -234,5 +277,35 @@
     "section_7_text": "Jelen adatvédelmi nyilatkozat jelenleg érvényes. Weboldalunk továbbfejlesztése, illetve megváltozott jogszabályi vagy hatósági előírások miatt szükségessé válhat ezen adatvédelmi nyilatkozat módosítása.",
     "email_label": "E-mail",
     "contact_label": "Kapcsolat"
+  },
+  "team": {
+    "nav_label": "Team",
+    "competencies_headline": "Kompetenzfelder",
+    "cta_headline": "Lassen Sie uns ins Gespräch kommen",
+    "cta_subline": "Ob eine erste Frage oder ein konkretes Vorhaben — wir nehmen uns Zeit für Sie.",
+    "cta_button": "Kontakt aufnehmen",
+    "back_to_home": "Zur Startseite",
+    "breadcrumb_home": "Startseite"
+  },
+  "team_peter_fiegler": {
+    "meta_title": "Peter Fiegler — Gründer & Gesellschaftsrechtsexperte",
+    "meta_description": "Peter Fiegler, Gründer von FIECON. Langjährige Expertise im Gesellschaftsrecht, internationale Firmengründungen und persönliche Beratung auf höchstem Niveau.",
+    "hero_name": "Peter Fiegler",
+    "hero_role": "Gründer & Geschäftsführer",
+    "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
+    "bio_badge": "Über Peter Fiegler",
+    "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
+    "bio_2": "Mit Standorten in Hamburg, Belgrad und Texas hat er ein internationales Netzwerk aufgebaut, das Mandanten dort begleitet, wo ihre geschäftlichen Vorhaben sie hinführen — ob bei der Gründung einer Gesellschaft in Südosteuropa, der Strukturierung einer Holding oder der Erschließung des US-Marktes.",
+    "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
+    "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
+    "quote_attribution": "Peter Fiegler, Gründer",
+    "competency_1_title": "Gesellschaftsrecht",
+    "competency_1_description": "Beratung bei der Gründung, Strukturierung und Führung von Gesellschaften — national und international. Von der GmbH bis zur grenzüberschreitenden Holding.",
+    "competency_2_title": "Internationale Firmengründungen",
+    "competency_2_description": "Umfassende Begleitung bei Firmengründungen in Deutschland, Serbien, den USA und weiteren Jurisdiktionen. Rechtssicher und effizient.",
+    "competency_3_title": "Finanzverwaltung & Compliance",
+    "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
+    "competency_4_title": "Strategische Beratung",
+    "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
   }
 }

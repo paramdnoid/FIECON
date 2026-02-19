@@ -36,7 +36,8 @@
     "stat_1_label": "Lokacije po svetu",
     "stat_2_label": "Strokovna področja",
     "stat_3_label": "Držav",
-    "quote_attribution": "Peter Fiegler, ustanovitelj"
+    "quote_attribution": "Peter Fiegler, ustanovitelj",
+    "profile_link": "Mehr über Peter Fiegler erfahren"
   },
   "services": {
     "badge": "Storitve",
@@ -186,6 +187,48 @@
     "description": "Zahtevana stran ne obstaja ali je bila premaknjena.",
     "back": "Nazaj na domačo stran"
   },
+  "team_rene_marquard": {
+    "meta_title": "René Marquard — Upravljanje premoženja in naložbe v plemenite kovine",
+    "meta_description": "René Marquard, strokovnjak za upravljanje premoženja in naložbe v plemenite kovine pri FIECON. Osebno svetovanje o premoženju z predvidevanjem in diskrecijo.",
+    "hero_name": "René Marquard",
+    "hero_role": "Strokovnjak za upravljanje premoženja",
+    "hero_tagline": "Upravljanje premoženja in naložbe v plemenite kovine — z izkušnjami, diskrecijo in osebno predanostjo.",
+    "bio_badge": "O René Marquardu",
+    "bio_1": "René Marquard prinaša obsežno strokovno znanje na področju upravljanja premoženja in svetovanja o človeških virih. Kot strokovnjak za naložbe v plemenite kovine združuje globoko poznavanje trga z razumevanjem individualnih potreb vsakega stranke.",
+    "bio_2": "Iz Hamburga svetuje zasebnikom in podjetjem, ki želijo trajnostno ohraniti svoje premoženje in ga strateško razvijati. Njegov pristop združuje klasično upravljanje premoženja s specializiranimi naložbenimi strategijami v sektorju plemenitih kovin.",
+    "bio_3": "Diskrecija, osebna bližina in dolgoročna perspektiva zanj niso prazne besede — so temelj vsakega svetovalnega odnosa. Vsak mandat prejme enako raven pozornosti, ne glede na velikost.",
+    "quote": "Ohraniti premoženje pomeni delovati s predvidevanjem — zgrajeno na zaupanju in viziji.",
+    "quote_attribution": "René Marquard",
+    "competency_1_title": "Upravljanje premoženja",
+    "competency_1_description": "Celovito upravljanje premoženja za zasebnike in podjetja — od analize in strategije do nenehne skrbi za portfelj.",
+    "competency_2_title": "Naložbe v plemenite kovine",
+    "competency_2_description": "Specializirano svetovanje o naložbah v zlato, srebro in druge plemenite kovine — kot orodja za ohranjanje in diverzifikacijo premoženja.",
+    "competency_3_title": "Svetovanje o kadri",
+    "competency_3_description": "Strokovno znanje na področju človeških virov in svetovanja vodstvu — za zapolnitev ključnih položajev in gradnjo visoko uspešnih timov.",
+    "competency_4_title": "Strategija premoženja",
+    "competency_4_description": "Razvoj individualnih naložbenih strategij, ki uravnotežijo varnost in rast — osebno, dolgoročno in pregledno."
+  },
+  "team_andre_zimmermann": {
+    "meta_title": "Andre Zimmermann — Vodja tehnologije in spletnega razvoja",
+    "meta_description": "Andre Zimmermann, vodja tehnologije in spletnega razvoja pri FIECON. Več kot 20 let izkušenj v razvoju programske opreme, vodenju IT projektov in digitalni infrastrukturi.",
+    "hero_name": "Andre Zimmermann",
+    "hero_role": "Vodja tehnologije in spletnega razvoja",
+    "hero_tagline": "Tehnologija in spletni razvoj — z več kot 20 leti izkušenj v programski arhitekturi, vodenju projektov in digitalni inovaciji.",
+    "bio_badge": "O Andre Zimmermannu",
+    "bio_1": "Andre Zimmermann je pri FIECON odgovoren za tehnološko usmeritev in spletni razvoj. Kot certificirani razvijalec aplikacij združuje poglobljeno tehnično znanje s pragmatičnim pogledom na rešitve, ki res delujejo.",
+    "bio_2": "Z več kot 20 leti strokovnih izkušenj v razvoju programske opreme — od razvoja aplikacij prek vodenja projektov do vodenja celotnih razvojnih oddelkov — prinaša širok spekter tehničnih in organizacijskih kompetenc.",
+    "bio_3": "Njegovo načelo: tehnologija ne sme biti sam namen, temveč orodje — natančno, zanesljivo in prilagojeno potrebam podjetja. To prepričanje oblikuje vsak projekt, ki ga izvede.",
+    "quote": "Dobra tehnologija je nevidna — preprosto deluje.",
+    "quote_attribution": "Andre Zimmermann",
+    "competency_1_title": "Spletni razvoj in full-stack",
+    "competency_1_description": "Koncepcija in razvoj sodobnih spletnih aplikacij — od uporabniškega vmesnika do strežniške arhitekture. Zmogljivo, varno in razširljivo.",
+    "competency_2_title": "Programska arhitektura",
+    "competency_2_description": "Oblikovanje robustnih sistemskih arhitektur, ki rastejo z podjetjem. Od izbire tehnologij do dolgoročne vzdrževalnosti.",
+    "competency_3_title": "Vodenje IT projektov",
+    "competency_3_description": "Vodenje in koordinacija razvojnih timov in tehničnih projektov — z jasnimi procesi, agilnimi metodami in merljivimi rezultati.",
+    "competency_4_title": "Digitalna infrastruktura",
+    "competency_4_description": "Gradnja in optimizacija digitalne infrastrukture za podjetja — od administracije strežnikov do integracije sodobnih oblačnih rešitev."
+  },
   "impressum": {
     "title": "Pravno obvestilo",
     "info_title": "Podatki v skladu s § 5 TMG",
@@ -234,5 +277,35 @@
     "section_7_text": "Ta politika zasebnosti trenutno velja. Zaradi nadaljnjega razvoja naše spletne strani ali spremenjenih pravnih ali regulativnih zahtev bo morda treba to politiko zasebnosti spremeniti.",
     "email_label": "E-pošta",
     "contact_label": "Kontakt"
+  },
+  "team": {
+    "nav_label": "Team",
+    "competencies_headline": "Kompetenzfelder",
+    "cta_headline": "Lassen Sie uns ins Gespräch kommen",
+    "cta_subline": "Ob eine erste Frage oder ein konkretes Vorhaben — wir nehmen uns Zeit für Sie.",
+    "cta_button": "Kontakt aufnehmen",
+    "back_to_home": "Zur Startseite",
+    "breadcrumb_home": "Startseite"
+  },
+  "team_peter_fiegler": {
+    "meta_title": "Peter Fiegler — Gründer & Gesellschaftsrechtsexperte",
+    "meta_description": "Peter Fiegler, Gründer von FIECON. Langjährige Expertise im Gesellschaftsrecht, internationale Firmengründungen und persönliche Beratung auf höchstem Niveau.",
+    "hero_name": "Peter Fiegler",
+    "hero_role": "Gründer & Geschäftsführer",
+    "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
+    "bio_badge": "Über Peter Fiegler",
+    "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
+    "bio_2": "Mit Standorten in Hamburg, Belgrad und Texas hat er ein internationales Netzwerk aufgebaut, das Mandanten dort begleitet, wo ihre geschäftlichen Vorhaben sie hinführen — ob bei der Gründung einer Gesellschaft in Südosteuropa, der Strukturierung einer Holding oder der Erschließung des US-Marktes.",
+    "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
+    "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
+    "quote_attribution": "Peter Fiegler, Gründer",
+    "competency_1_title": "Gesellschaftsrecht",
+    "competency_1_description": "Beratung bei der Gründung, Strukturierung und Führung von Gesellschaften — national und international. Von der GmbH bis zur grenzüberschreitenden Holding.",
+    "competency_2_title": "Internationale Firmengründungen",
+    "competency_2_description": "Umfassende Begleitung bei Firmengründungen in Deutschland, Serbien, den USA und weiteren Jurisdiktionen. Rechtssicher und effizient.",
+    "competency_3_title": "Finanzverwaltung & Compliance",
+    "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
+    "competency_4_title": "Strategische Beratung",
+    "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
   }
 }

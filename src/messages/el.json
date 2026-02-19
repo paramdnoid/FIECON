@@ -36,7 +36,8 @@
     "stat_1_label": "Τοποθεσίες παγκοσμίως",
     "stat_2_label": "Τομείς πρακτικής",
     "stat_3_label": "Χώρες",
-    "quote_attribution": "Peter Fiegler, Ιδρυτής"
+    "quote_attribution": "Peter Fiegler, Ιδρυτής",
+    "profile_link": "Mehr über Peter Fiegler erfahren"
   },
   "services": {
     "badge": "Υπηρεσίες",
@@ -186,6 +187,48 @@
     "description": "Η ζητούμενη σελίδα δεν υπάρχει ή έχει μετακινηθεί.",
     "back": "Επιστροφή στην αρχική σελίδα"
   },
+  "team_rene_marquard": {
+    "meta_title": "René Marquard — Διαχείριση περιουσίας και επενδύσεις σε πολύτιμα μέταλλα",
+    "meta_description": "René Marquard, ειδικός στη διαχείριση περιουσίας και τις επενδύσεις σε πολύτιμα μέταλλα στην FIECON. Προσωπική συμβουλευτική περιουσίας με προνοητικότητα και διακριτικότητα.",
+    "hero_name": "René Marquard",
+    "hero_role": "Ειδικός Διαχείρισης Περιουσίας",
+    "hero_tagline": "Διαχείριση περιουσίας και επενδύσεις σε πολύτιμα μέταλλα — με εμπειρία, διακριτικότητα και προσωπική δέσμευση.",
+    "bio_badge": "Σχετικά με τον René Marquard",
+    "bio_1": "Ο René Marquard φέρνει εκτενή εμπειρία στη διαχείριση περιουσίας και τη συμβουλευτική ανθρώπινου δυναμικού. Ως ειδικός σε επενδύσεις σε πολύτιμα μέταλλα, συνδυάζει βαθιά γνώση της αγοράς με οξυδερκή κατανόηση των ατομικών αναγκών κάθε πελάτη.",
+    "bio_2": "Από το Αμβούργο συμβουλεύει ιδιώτες και επιχειρήσεις που επιθυμούν να διατηρήσουν βιώσιμα την περιουσία τους και να την αναπτύξουν στρατηγικά. Η προσέγγισή του συνδυάζει την κλασική διαχείριση περιουσίας με εξειδικευμένες στρατηγικές επένδυσης στον τομέα των πολύτιμων μετάλλων.",
+    "bio_3": "Η διακριτικότητα, η προσωπική εγγύτητα και η μακροπρόθεσμη προοπτική δεν είναι κενά σλόγκαν για αυτόν — είναι η βάση κάθε συμβουλευτικής σχέσης. Κάθε εντολή λαμβάνει την ίδια προσοχή, ανεξάρτητα από το μέγεθός της.",
+    "quote": "Η διατήρηση της περιουσίας σημαίνει δράση με προνοητικότητα — χτισμένη σε εμπιστοσύνη και όραμα.",
+    "quote_attribution": "René Marquard",
+    "competency_1_title": "Διαχείριση Περιουσίας",
+    "competency_1_description": "Ολιστική διαχείριση περιουσίας για ιδιώτες και επιχειρήσεις — από ανάλυση και στρατηγική έως συνεχή φύλαξη χαρτοφυλακίου.",
+    "competency_2_title": "Επενδύσεις σε Πολύτιμα Μέταλλα",
+    "competency_2_description": "Εξειδικευμένη συμβουλή για επενδύσεις σε χρυσό, ασήμι και άλλα πολύτιμα μέταλλα — ως μέσα διατήρησης και διαφοροποίησης περιουσίας.",
+    "competency_3_title": "Συμβουλευτική Ανθρώπινου Δυναμικού",
+    "competency_3_description": "Εμπειρία σε ανθρώπινο δυναμικό και συμβουλευτική διοίκησης — για την κάλυψη βασικών θέσεων και την οικοδόμηση ομάδων υψηλής απόδοσης.",
+    "competency_4_title": "Στρατηγική Περιουσίας",
+    "competency_4_description": "Ανάπτυξη ατομικών επενδυτικών στρατηγικών που ισορροπούν ασφάλεια και ανάπτυξη — προσωπικά, μακροπρόθεσμα και διαφανώς."
+  },
+  "team_andre_zimmermann": {
+    "meta_title": "Andre Zimmermann — Τεχνολογία και Ανάπτυξη Web",
+    "meta_description": "Andre Zimmermann, Τεχνολογία και Ανάπτυξη Web στην FIECON. Πάνω από 20 χρόνια εμπειρίας στην ανάπτυξη λογισμικού, προγραμματισμό με τεχνητή νοημοσύνη και ψηφιακή υποδομή.",
+    "hero_name": "Andre Zimmermann",
+    "hero_role": "Τεχνολογία και Ανάπτυξη Web",
+    "hero_tagline": "Τεχνολογία και ανάπτυξη web — με πάνω από 20 χρόνια εμπειρίας και τη στρατηγική χρήση της τεχνητής νοημοσύνης για παράδοση έργων στο υψηλότερο επαγγελματικό επίπεδο.",
+    "bio_badge": "Σχετικά με τον Andre Zimmermann",
+    "bio_1": "Ο Andre Zimmermann είναι υπεύθυνος για την τεχνολογική κατεύθυνση και την ανάπτυξη web της FIECON. Ως πιστοποιημένος προγραμματιστής εφαρμογών, συνδυάζει βαθιά τεχνική εμπειρογνωμοσύνη με τη στοχευμένη χρήση της τεχνητής νοημοσύνης — μετατρέποντας φιλόδοξα έργα σε πραγματικότητα στο υψηλότερο επαγγελματικό επίπεδο.",
+    "bio_2": "Με πάνω από 20 χρόνια επαγγελματικής εμπειρίας στην ανάπτυξη λογισμικού και βαθιά κατανόηση του προγραμματισμού με τεχνητή νοημοσύνη, φέρνει ένα μοναδικό προφίλ: αξιοποιεί τις πιο προηγμένες τεχνολογίες ΤΝ ως στρατηγικό εργαλείο για επιτάχυνση της ανάπτυξης και παράδοση αποτελεσμάτων μέγιστης επαγγελματικής ποιότητας.",
+    "bio_3": "Η αρχή του: η τεχνολογία δεν πρέπει ποτέ να είναι σκοπός από μόνη της, αλλά εργαλείο — ακριβές, αξιόπιστο και προσαρμοσμένο στις ανάγκες της επιχείρησης. Με την ΤΝ ως συνεργάτη, κάθε όραμα γίνεται αποτέλεσμα που πραγματικά πείθει.",
+    "quote": "Great technology is invisible — it simply works.",
+    "quote_attribution": "Andre Zimmermann",
+    "competency_1_title": "Web Development & Full-Stack",
+    "competency_1_description": "Conception and development of modern web applications — from user interface to server architecture. Performant, secure and scalable.",
+    "competency_2_title": "Software Architecture",
+    "competency_2_description": "Design of robust system architectures that grow with the business. From technology selection to long-term maintainability.",
+    "competency_3_title": "IT Project Management",
+    "competency_3_description": "Leadership and coordination of development teams and technical projects — with clear processes, agile methodologies and measurable outcomes.",
+    "competency_4_title": "Digital Infrastructure",
+    "competency_4_description": "Building and optimising digital infrastructure for businesses — from server administration to the integration of modern cloud solutions."
+  },
   "impressum": {
     "title": "Νομική Γνωστοποίηση",
     "info_title": "Πληροφορίες σύμφωνα με § 5 TMG",
@@ -234,5 +277,35 @@
     "section_7_text": "Αυτή η πολιτική απορρήτου είναι επί του παρόντος σε ισχύ. Λόγω της περαιτέρω ανάπτυξης της ιστοσελίδας μας ή λόγω αλλαγμένων νομικών ή κανονιστικών απαιτήσεων, ενδέχεται να καταστεί αναγκαία η τροποποίηση αυτής της πολιτικής απορρήτου.",
     "email_label": "Email",
     "contact_label": "Επικοινωνία"
+  },
+  "team": {
+    "nav_label": "Team",
+    "competencies_headline": "Kompetenzfelder",
+    "cta_headline": "Lassen Sie uns ins Gespräch kommen",
+    "cta_subline": "Ob eine erste Frage oder ein konkretes Vorhaben — wir nehmen uns Zeit für Sie.",
+    "cta_button": "Kontakt aufnehmen",
+    "back_to_home": "Zur Startseite",
+    "breadcrumb_home": "Startseite"
+  },
+  "team_peter_fiegler": {
+    "meta_title": "Peter Fiegler — Gründer & Gesellschaftsrechtsexperte",
+    "meta_description": "Peter Fiegler, Gründer von FIECON. Langjährige Expertise im Gesellschaftsrecht, internationale Firmengründungen und persönliche Beratung auf höchstem Niveau.",
+    "hero_name": "Peter Fiegler",
+    "hero_role": "Gründer & Geschäftsführer",
+    "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
+    "bio_badge": "Über Peter Fiegler",
+    "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
+    "bio_2": "Mit Standorten in Hamburg, Belgrad und Texas hat er ein internationales Netzwerk aufgebaut, das Mandanten dort begleitet, wo ihre geschäftlichen Vorhaben sie hinführen — ob bei der Gründung einer Gesellschaft in Südosteuropa, der Strukturierung einer Holding oder der Erschließung des US-Marktes.",
+    "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
+    "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
+    "quote_attribution": "Peter Fiegler, Gründer",
+    "competency_1_title": "Gesellschaftsrecht",
+    "competency_1_description": "Beratung bei der Gründung, Strukturierung und Führung von Gesellschaften — national und international. Von der GmbH bis zur grenzüberschreitenden Holding.",
+    "competency_2_title": "Internationale Firmengründungen",
+    "competency_2_description": "Umfassende Begleitung bei Firmengründungen in Deutschland, Serbien, den USA und weiteren Jurisdiktionen. Rechtssicher und effizient.",
+    "competency_3_title": "Finanzverwaltung & Compliance",
+    "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
+    "competency_4_title": "Strategische Beratung",
+    "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
   }
 }

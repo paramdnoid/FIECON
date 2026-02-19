@@ -143,7 +143,7 @@ export default async function LocaleLayout({
     <>
       <a
         href="#main"
-        className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:px-4 focus:py-2 focus:bg-bordeaux-900 focus:text-white focus:rounded-lg focus:text-sm focus:font-medium"
+        className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-100 focus:px-4 focus:py-2 focus:bg-bordeaux-900 focus:text-white focus:rounded-lg focus:text-sm focus:font-medium"
       >
         {tNav("skip_to_content")}
       </a>
@@ -188,7 +188,7 @@ export default async function LocaleLayout({
             name: COMPANY.fullName,
             alternateName: COMPANY.name,
             description:
-              "Internationale Beratung für Gesellschaftsrecht, Firmengründungen, Finanzverwaltung, Baufinanzierung und Yachtbaufinanzierung.",
+              "Internationale Beratung für Gesellschaftsrecht, Firmengründungen, Finanzverwaltung, Bau Finanzverwaltung und Yachtbau Finanzverwaltung.",
             url: `https://${COMPANY.website}`,
             telephone: CONTACT.phone,
             email: CONTACT.email,
@@ -248,14 +248,14 @@ export default async function LocaleLayout({
                   "@type": "Offer",
                   itemOffered: {
                     "@type": "Service",
-                    name: "Baufinanzierung",
+                    name: "Bau Finanzverwaltung",
                   },
                 },
                 {
                   "@type": "Offer",
                   itemOffered: {
                     "@type": "Service",
-                    name: "Yachtbaufinanzierung",
+                    name: "Yachtbau Finanzverwaltung",
                   },
                 },
               ],

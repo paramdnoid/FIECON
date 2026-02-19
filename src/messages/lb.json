@@ -36,7 +36,8 @@
     "stat_1_label": "Standuerter weltwäit",
     "stat_2_label": "Berodungsberäicher",
     "stat_3_label": "Länner",
-    "quote_attribution": "Peter Fiegler, Grënner"
+    "quote_attribution": "Peter Fiegler, Grënner",
+    "profile_link": "Mehr über Peter Fiegler erfahren"
   },
   "services": {
     "badge": "Servicer",
@@ -186,6 +187,48 @@
     "description": "Déi ugefrote Säit existéiert net oder gouf geréckelt.",
     "back": "Zréck op d'Startsäit"
   },
+  "team_rene_marquard": {
+    "meta_title": "René Marquard — Vermégensverwaltung & Edelmetall-Investitiounen",
+    "meta_description": "René Marquard, Spezialist fir Vermégensverwaltung an Edelmetall-Investitiounen bei FIECON. Perséinlech Vermégensberodung mat Weitbléck an Diskretioun.",
+    "hero_name": "René Marquard",
+    "hero_role": "Spezialist fir Vermégensverwaltung",
+    "hero_tagline": "Vermégensverwaltung an Edelmetall-Investitiounen — mat Erfarung, Diskretioun a perséinlechem Engagement.",
+    "bio_badge": "Iwwer René Marquard",
+    "bio_1": "René Marquard bréngt laangjäreg Expertis an der Vermégensverwaltung an an der Personalberodung mat. Als Spezialist fir Edelmetall-Investitiounen verbënnt hien déif Maartwëssen mat engem auspréigenden Gespéier fir déi individuell Bedierfnesse vun sengen Mandanten.",
+    "bio_2": "Vu Hamburg aus beréit hien Privatpersounen an Ënnernehmen, déi hir Vermégen nohalteg séchere wëllen an strategesch weiderentwéckelen. Säi Ansaz verbënnt klassesch Vermégensverwaltung mat spezialiséierten Investitiounsstrategien am Edelmetall-Sektor.",
+    "bio_3": "Diskretioun, perséinlech Noenheet an eng laangfristeg Perspektiv sinn fir hien keng Schlagwierder, mä d'Grondlag vun all Berodung. All Mandat gëtt mat derselwechter Suergfalt betreit — onofhängeg vun senger Gréisst.",
+    "quote": "Vermégen bewieren heescht, virusschauend handelen — mat Vertrauen a Weitbléck.",
+    "quote_attribution": "René Marquard",
+    "competency_1_title": "Vermégensverwaltung",
+    "competency_1_description": "Ganzheetlech Vermégensverwaltung fir Privatpersounen an Ënnernehmen — vun der Analys iwwer d'Strategie bis zur laufender Betreiung.",
+    "competency_2_title": "Edelmetall-Investitiounen",
+    "competency_2_description": "Spezialiséiert Berodung zu Investitiounen a Gold, Sëlwer an aneren Edelmetaller — als Instrument vun der Vermégenssécherung an Diversifikatioun.",
+    "competency_3_title": "Personalberodung",
+    "competency_3_description": "Erfarung an Human Resources an Personalberodung — fir d'Besetzung vu Schlüsselpositiounen an den Opbau vun leeschtungsstarke Teams.",
+    "competency_4_title": "Vermégensstrategie",
+    "competency_4_description": "Entwécklung individueller Investitiounsstrategien, déi Sécherheet a Wuesstem an Ee klang bréngen — perséinlech, laangfristeg an transparent."
+  },
+  "team_andre_zimmermann": {
+    "meta_title": "Andre Zimmermann — Chef Technologie & Webentwécklung",
+    "meta_description": "Andre Zimmermann, Chef Technologie an Webentwécklung bei FIECON. Iwwer 20 Joer Erfarung an Softwareentwécklung, KI-ënnerstëtzter Programméierung an digitaler Infrastruktur.",
+    "hero_name": "Andre Zimmermann",
+    "hero_role": "Chef Technologie & Webentwécklung",
+    "hero_tagline": "Technologie an Webentwécklung — mat iwwer 20 Joer Erfarung an dem strategesche Asaz vu KI fir maximal professioneell digital Léisungen.",
+    "bio_badge": "Iwwer Andre Zimmermann",
+    "bio_1": "Andre Zimmermann ass bei FIECON fir d'technologesch Orientéierung an d'Webentwécklung zoustänneg. Als Fachinformatiker fir Applikatiounsentwécklung verbënnt hien fundéiert technescht Know-how mat dem gezielten Asaz vu kënschtlecher Intelligenz — an verwandelt sou uspruuchsvol Projeten an maximal professioneell Realitéit.",
+    "bio_2": "Mat iwwer 20 Joer Berufferfarung an der Softwareentwécklung an engem déiwen Verständnis fir KI-ënnerstëtzter Programméierung bréngt hien e eenzegaartege Profil mat: Hien benotzt modernst KI-Technologien als strategescht Wierkzeug, fir Entwécklungsprozesser ze beschleunegen an Resultater op héchstem professioneellem Niveau ze realiséieren.",
+    "bio_3": "Säi Usproch: Technologie soll keng Eeweckziel sinn, mä Wierkzeug — prezis, verlässlech an op d'Bedierfnesse vum Ënnernee zugeschnidden. Mat KI als Partner gëtt aus all Visioun e Resultat, deen iwwerzeegt.",
+    "quote": "Gutt Technologie ass onsichtbar — se funktionéiert einfach.",
+    "quote_attribution": "Andre Zimmermann",
+    "competency_1_title": "Webentwécklung & Full-Stack",
+    "competency_1_description": "Konzeptioun an Entwécklung vu moderne Webanwendungen — vun der Benotzeroberfläch bis zur Serverarchitektur. Performant, sécher a skaléierbar.",
+    "competency_2_title": "Software-Architektur",
+    "competency_2_description": "Entworf vu robuste Systemarchitekturen, déi mam Ënnernee wuessen. Vun der Technologieauswiel bis zur laangfristeger Wartbarkeet.",
+    "competency_3_title": "IT-Projetleitung",
+    "competency_3_description": "Féierung a Koordinatioun vu Entwécklungsteams an technesche Projeten — mat klore Prozesser, agilen Methoden an messbare Resultater.",
+    "competency_4_title": "Digital Infrastruktur",
+    "competency_4_description": "Opbau an Optiméierung vu digitaler Infrastrukture fir Ënnerneen — vun der Serveradministratioun bis zur Integratioun moderner Cloud-Léisungen."
+  },
   "impressum": {
     "title": "Impressum",
     "info_title": "Informatiounen no § 5 TMG",
@@ -234,5 +277,35 @@
     "section_7_text": "Dës Dateschutzerkläerung ass aktuell gülteg. Duerch d'Weiderentwécklung vun eiser Websäit oder opgrond vun geännerten gesetzleche respektiv regulatoresche Viraussetzunge kann et néideg ginn, dës Dateschutzerkläerung unzepassen.",
     "email_label": "E-Mail",
     "contact_label": "Kontakt"
+  },
+  "team": {
+    "nav_label": "Team",
+    "competencies_headline": "Kompetenzfelder",
+    "cta_headline": "Lassen Sie uns ins Gespräch kommen",
+    "cta_subline": "Ob eine erste Frage oder ein konkretes Vorhaben — wir nehmen uns Zeit für Sie.",
+    "cta_button": "Kontakt aufnehmen",
+    "back_to_home": "Zur Startseite",
+    "breadcrumb_home": "Startseite"
+  },
+  "team_peter_fiegler": {
+    "meta_title": "Peter Fiegler — Gründer & Gesellschaftsrechtsexperte",
+    "meta_description": "Peter Fiegler, Gründer von FIECON. Langjährige Expertise im Gesellschaftsrecht, internationale Firmengründungen und persönliche Beratung auf höchstem Niveau.",
+    "hero_name": "Peter Fiegler",
+    "hero_role": "Gründer & Geschäftsführer",
+    "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
+    "bio_badge": "Über Peter Fiegler",
+    "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
+    "bio_2": "Mit Standorten in Hamburg, Belgrad und Texas hat er ein internationales Netzwerk aufgebaut, das Mandanten dort begleitet, wo ihre geschäftlichen Vorhaben sie hinführen — ob bei der Gründung einer Gesellschaft in Südosteuropa, der Strukturierung einer Holding oder der Erschließung des US-Marktes.",
+    "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
+    "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
+    "quote_attribution": "Peter Fiegler, Gründer",
+    "competency_1_title": "Gesellschaftsrecht",
+    "competency_1_description": "Beratung bei der Gründung, Strukturierung und Führung von Gesellschaften — national und international. Von der GmbH bis zur grenzüberschreitenden Holding.",
+    "competency_2_title": "Internationale Firmengründungen",
+    "competency_2_description": "Umfassende Begleitung bei Firmengründungen in Deutschland, Serbien, den USA und weiteren Jurisdiktionen. Rechtssicher und effizient.",
+    "competency_3_title": "Finanzverwaltung & Compliance",
+    "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
+    "competency_4_title": "Strategische Beratung",
+    "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
   }
 }

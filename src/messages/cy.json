@@ -36,7 +36,8 @@
     "stat_1_label": "Lleoliadau ledled y byd",
     "stat_2_label": "Meysydd ymarfer",
     "stat_3_label": "Gwledydd",
-    "quote_attribution": "Peter Fiegler, Sylfaenydd"
+    "quote_attribution": "Peter Fiegler, Sylfaenydd",
+    "profile_link": "Mehr über Peter Fiegler erfahren"
   },
   "services": {
     "badge": "Gwasanaethau",
@@ -186,6 +187,48 @@
     "description": "Nid yw'r dudalen y gofynnwyd amdani yn bodoli neu mae wedi'i symud.",
     "back": "Yn ol i'r hafan"
   },
+  "team_rene_marquard": {
+    "meta_title": "René Marquard — Rheoli Cyfoeth a Buddsoddiadau mewn Metelau Gwerthfawr",
+    "meta_description": "René Marquard, arbenigwr rheoli cyfoeth a buddsoddiadau mewn metelau gwerthfawr yn FIECON. Cynghori asedau personol gyda rhagweledigaeth a discret.",
+    "hero_name": "René Marquard",
+    "hero_role": "Arbenigwr Rheoli Cyfoeth",
+    "hero_tagline": "Rheoli cyfoeth a buddsoddiadau mewn metelau gwerthfawr — gyda phrofiad, discret a chymrwymiad personol.",
+    "bio_badge": "Am René Marquard",
+    "bio_1": "Mae René Marquard yn dod â arbenigedd eang mewn rheoli cyfoeth a chynghori adnoddau dynol. Fel arbenigwr mewn buddsoddiadau metelau gwerthfawr, mae'n cyfuno gwybodaeth farchnad ddofn â dealltwriaeth o anghenion unigol pob cleient.",
+    "bio_2": "O Hamburg, mae'n cynghori unigolion preifat a busnesau sy'n ceisio cadw eu cyfoeth yn gynaliadwy a'i ddatblygu'n strategol. Mae ei ddull yn cyfuno rheolaeth asedau clasurol gyda strategaethau buddsoddi arbenigol yn y sector metelau gwerthfawr.",
+    "bio_3": "Nid yw discret, agosrwydd personol a phersbectif hirdymor yn eiriau gwag iddo — maent yn sail pob ymrwymiad cynghori. Mae pob mandad yn cael yr un lefel o ofal, waeth beth yw ei faint.",
+    "quote": "Cadw cyfoeth yn golygu gweithredu gyda rhagweledigaeth — wedi'i adeiladu ar ymddiriedaeth a gweledigaeth.",
+    "quote_attribution": "René Marquard",
+    "competency_1_title": "Rheoli Cyfoeth",
+    "competency_1_description": "Rheolaeth asedau cyfannol i unigolion preifat a busnesau — o ddadansoddiad a strategaeth i warchod portfolio parhaus.",
+    "competency_2_title": "Buddsoddiadau Metelau Gwerthfawr",
+    "competency_2_description": "Cynghori arbenigol ar fuddsoddiadau mewn aur, arian a metelau gwerthfawr eraill — fel offer cadw a amrywio cyfoeth.",
+    "competency_3_title": "Cynghori Adnoddau Dynol",
+    "competency_3_description": "Arbenigedd mewn adnoddau dynol a chynghori gweithredol — ar gyfer llenwi swyddi allweddol ac adeiladu timau o berfformiad uchel.",
+    "competency_4_title": "Strategaeth Asedau",
+    "competency_4_description": "Datblygu strategaethau buddsoddi unigol sy'n cydbwyso diogelwch a thwf — personol, hirdymor a thrawsgyweladwy."
+  },
+  "team_andre_zimmermann": {
+    "meta_title": "Andre Zimmermann — Pennaeth Technoleg a Datblygu Gwe",
+    "meta_description": "Andre Zimmermann, pennaeth Technoleg a Datblygu Gwe yn FIECON. Dros 20 mlynedd o brofiad mewn datblygu meddalwedd, rhaglennu gyda chymorth AI a seilwaith digidol.",
+    "hero_name": "Andre Zimmermann",
+    "hero_role": "Pennaeth Technoleg a Datblygu Gwe",
+    "hero_tagline": "Technoleg a datblygu gwe — gyda dros 20 mlynedd o brofiad a defnydd strategol o AI ar gyfer datrysiadau digidol proffesiynol i'r eithaf.",
+    "bio_badge": "Am Andre Zimmermann",
+    "bio_1": "Mae Andre Zimmermann yn gyfrifol am gyfeiriad technolegol a datblygu gwe yn FIECON. Fel technegydd cyfrifiadura wedi'i arbenigo mewn datblygu cymhwysiadau, mae'n cyfuno arbenigedd technegol cadarn â defnydd targededig o deallusrwydd artiffisial — gan droi prosiectau gofynnol yn realiti proffesiynol i'r eithaf.",
+    "bio_2": "Gyda dros 20 mlynedd o brofiad proffesiynol mewn datblygu meddalwedd a dealltwriaeth ddofn o raglennu gyda chymorth AI, mae'n dod â phroffil unigryw: mae'n defnyddio technolegau AI mwyaf modern fel arf strategol i gyflymu prosesau datblygu a chyflawni canlyniadau ar y lefel broffesiynol uchaf.",
+    "bio_3": "Ei egwyddor: ni ddylai technoleg fod yn ddiben ynddi ei hun, ond yn offeryn — manwl gywir, dibynadwy ac wedi'i dylino i anghenion y busnes. Gyda AI fel partner, mae pob gweledigaeth yn dod yn ganlyniad sy'n argyhoeddi.",
+    "quote": "Mae technoleg dda yn anweladwy — mae'n gweithio'n syml.",
+    "quote_attribution": "Andre Zimmermann",
+    "competency_1_title": "Datblygu Gwe a Full-Stack",
+    "competency_1_description": "Cynllunio a datblygu cymwysiadau gwe modern — o'r rhyngwyneb defnyddiwr i bensaernïaeth y gweinydd. Perfformiad da, diogel ac ystodol.",
+    "competency_2_title": "Pensaernïaeth Meddalwedd",
+    "competency_2_description": "Dylunio pensaernïaethau system cadarn sy'n tyfu gyda'r busnes. O ddewis technoleg hyd at gynnaladwyedd hirdymor.",
+    "competency_3_title": "Rheoli Prosiectau IT",
+    "competency_3_description": "Arweinyddiaeth a chydlynu timau datblygu a phrosiectau technegol — gyda phrosesau clir, methodolegau ystwyth a chanlyniadau mesuradwy.",
+    "competency_4_title": "Seilwaith Digidol",
+    "competency_4_description": "Adeiladu ac optimeiddio seilwaith digidol i fusnesau — o weinyddu gweinyddion i integreiddio atebion cwmwl modern."
+  },
   "impressum": {
     "title": "Hysbysiad Cyfreithiol",
     "info_title": "Gwybodaeth yn ol § 5 TMG",
@@ -234,5 +277,35 @@
     "section_7_text": "Mae'r polisi preifatrwydd hwn yn ddilys ar hyn o bryd. Oherwydd datblygiad pellach ein gwefan neu oherwydd gofynion cyfreithiol neu reoliadol newydd, gall fod yn angenrheidiol diwygio'r polisi preifatrwydd hwn.",
     "email_label": "E-bost",
     "contact_label": "Cysylltu"
+  },
+  "team": {
+    "nav_label": "Team",
+    "competencies_headline": "Kompetenzfelder",
+    "cta_headline": "Lassen Sie uns ins Gespräch kommen",
+    "cta_subline": "Ob eine erste Frage oder ein konkretes Vorhaben — wir nehmen uns Zeit für Sie.",
+    "cta_button": "Kontakt aufnehmen",
+    "back_to_home": "Zur Startseite",
+    "breadcrumb_home": "Startseite"
+  },
+  "team_peter_fiegler": {
+    "meta_title": "Peter Fiegler — Gründer & Gesellschaftsrechtsexperte",
+    "meta_description": "Peter Fiegler, Gründer von FIECON. Langjährige Expertise im Gesellschaftsrecht, internationale Firmengründungen und persönliche Beratung auf höchstem Niveau.",
+    "hero_name": "Peter Fiegler",
+    "hero_role": "Gründer & Geschäftsführer",
+    "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
+    "bio_badge": "Über Peter Fiegler",
+    "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
+    "bio_2": "Mit Standorten in Hamburg, Belgrad und Texas hat er ein internationales Netzwerk aufgebaut, das Mandanten dort begleitet, wo ihre geschäftlichen Vorhaben sie hinführen — ob bei der Gründung einer Gesellschaft in Südosteuropa, der Strukturierung einer Holding oder der Erschließung des US-Marktes.",
+    "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
+    "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
+    "quote_attribution": "Peter Fiegler, Gründer",
+    "competency_1_title": "Gesellschaftsrecht",
+    "competency_1_description": "Beratung bei der Gründung, Strukturierung und Führung von Gesellschaften — national und international. Von der GmbH bis zur grenzüberschreitenden Holding.",
+    "competency_2_title": "Internationale Firmengründungen",
+    "competency_2_description": "Umfassende Begleitung bei Firmengründungen in Deutschland, Serbien, den USA und weiteren Jurisdiktionen. Rechtssicher und effizient.",
+    "competency_3_title": "Finanzverwaltung & Compliance",
+    "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
+    "competency_4_title": "Strategische Beratung",
+    "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
   }
 }

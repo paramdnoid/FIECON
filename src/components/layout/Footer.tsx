@@ -4,12 +4,13 @@ import { Link } from "@/i18n/navigation";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Container } from "@/components/ui/Container";
-import { COMPANY, CONTACT, SERVICES } from "@/lib/constants";
+import { COMPANY, CONTACT, SERVICES, TEAM_MEMBERS } from "@/lib/constants";
 
 export function Footer() {
   const t = useTranslations("footer");
   const tServices = useTranslations("services");
   const tOffices = useTranslations("offices");
+  const tTeam = useTranslations("team");
 
   const currentYear = new Date().getFullYear();
 
@@ -73,7 +74,7 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Legal */}
+          {/* Legal & Team */}
           <div>
             <h3 className="text-white font-medium text-sm uppercase tracking-[0.3em] mb-4">
               {t("legal_title")}
@@ -90,6 +91,23 @@ export function Footer() {
                 </Link>
               </li>
             </ul>
+
+            <h3 className="text-white font-medium text-sm uppercase tracking-[0.3em] mt-8 mb-4">
+              {tTeam("nav_label")}
+            </h3>
+            <ul className="space-y-3">
+              {TEAM_MEMBERS.map((member) => (
+                <li key={member.slug}>
+                  <Link
+                    href={`/team/${member.slug}`}
+                    className="text-sm text-beige-400 hover:text-white transition-colors"
+                  >
+                    {member.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+
             <div className="mt-6 text-sm text-beige-400">
               <p>{CONTACT.email}</p>
               <p className="mt-1">{CONTACT.phone}</p>

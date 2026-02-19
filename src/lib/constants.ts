@@ -43,6 +43,29 @@ export const SERVICES = [
   { id: "yacht" },
 ] as const;
 
+export const TEAM_MEMBERS = [
+  {
+    slug: "peter-fiegler",
+    translationKey: "team_peter_fiegler",
+    name: "Peter Fiegler",
+    imageSrc: "/team/peter-fiegler.png",
+  },
+  {
+    slug: "rene-marquard",
+    translationKey: "team_rene_marquard",
+    name: "René Marquard",
+    imageSrc: "/team/rene-marquard.png",
+  },
+  {
+    slug: "andre-zimmermann",
+    translationKey: "team_andre_zimmermann",
+    name: "Andre Zimmermann",
+    imageSrc: "/team/andre-zimmermann.png",
+  },
+] as const;
+
+export type TeamMemberSlug = (typeof TEAM_MEMBERS)[number]["slug"];
+
 export const NAV_LINKS = [
   { id: "about", href: "about" },
   { id: "services", href: "services" },

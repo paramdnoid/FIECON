@@ -36,7 +36,8 @@
     "stat_1_label": "Toimipistettä maailmalla",
     "stat_2_label": "Osaamisaluetta",
     "stat_3_label": "Maata",
-    "quote_attribution": "Peter Fiegler, Perustaja"
+    "quote_attribution": "Peter Fiegler, Perustaja",
+    "profile_link": "Mehr über Peter Fiegler erfahren"
   },
   "services": {
     "badge": "Palvelut",
@@ -186,6 +187,48 @@
     "description": "Pyydettyä sivua ei ole olemassa tai se on siirretty.",
     "back": "Takaisin etusivulle"
   },
+  "team_rene_marquard": {
+    "meta_title": "René Marquard — Varainhoito ja jalometallisijoitukset",
+    "meta_description": "René Marquard, asiantuntija varainhoidossa ja jalometallisijoituksissa FIECONilla. Henkilökohtainen varallisuuden neuvonta näkemyksellisesti ja hienovaraisesti.",
+    "hero_name": "René Marquard",
+    "hero_role": "Varainhoidon asiantuntija",
+    "hero_tagline": "Varainhoito ja jalometallisijoitukset — kokemuksella, hienovaraisuudella ja henkilökohtaisella sitoutumisella.",
+    "bio_badge": "Tietoa René Marquardista",
+    "bio_1": "René Marquard tuo laajan asiantuntemuksen varainhoidosta ja henkilöstöneuvonnasta. Jalometallisijoitusten asiantuntijana hän yhdistää syvän markkinatiedon jokaisen asiakkaan yksilöllisten tarpeiden ymmärtämiseen.",
+    "bio_2": "Hampurista käsin hän neuvoo yksityishenkilöitä ja yrityksiä, jotka haluavat säilyttää varallisuutensa kestävästi ja kehittää sitä strategisesti. Hänen lähestymistapansa yhdistää klassisen varainhoidon erikoistuneisiin sijoitusstrategioihin jalometallisektorilla.",
+    "bio_3": "Hienovaraisuus, henkilökohtainen läheisyys ja pitkäaikainen näkökulma eivät ole hänelle tyhjiä fraaseja — ne ovat jokaisen neuvontasuhteen perusta. Jokainen toimeksianto saa saman tason huomiota koosta riippumatta.",
+    "quote": "Varallisuuden säilyttäminen tarkoittaa toimimista näkemyksellä — luottamuksen ja visioon perustuen.",
+    "quote_attribution": "René Marquard",
+    "competency_1_title": "Varainhoito",
+    "competency_1_description": "Kokonaisvaltainen varainhoito yksityishenkilöille ja yrityksille — analyysistä ja strategiasta salkun jatkuvaan hoitoon.",
+    "competency_2_title": "Jalometallisijoitukset",
+    "competency_2_description": "Erikoistunut neuvonta kullan, hopean ja muiden jalometallien sijoituksiin — varallisuuden säilyttämisen ja hajauttamisen välineinä.",
+    "competency_3_title": "Henkilöstöneuvonta",
+    "competency_3_description": "Asiantuntemus henkilöstöasioissa ja johtamisneuvonnassa — avainasemojen täyttämiseen ja suorituskykyisten tiimien rakentamiseen.",
+    "competency_4_title": "Varallisuusstrategia",
+    "competency_4_description": "Yksilöllisten sijoitusstrategioiden kehittäminen, jotka tasapainottavat turvallisuuden ja kasvun — henkilökohtaisesti, pitkäaikaisesti ja läpinäkyvästi."
+  },
+  "team_andre_zimmermann": {
+    "meta_title": "Andre Zimmermann — Teknologia & Verkkokehitys",
+    "meta_description": "Andre Zimmermann, Teknologia ja verkkokehitys FIECONilla. Yli 20 vuoden kokemus ohjelmistokehityksestä, tekoälyavusteisesta ohjelmoinnista ja digitaalisesta infrastruktuurista.",
+    "hero_name": "Andre Zimmermann",
+    "hero_role": "Teknologia & Verkkokehitys",
+    "hero_tagline": "Teknologia ja verkkokehitys — yli 20 vuoden kokemuksella ja tekoälyn strategisella käytöllä maksimaalisen ammattimaisten digitaalisten ratkaisujen toteuttamiseen.",
+    "bio_badge": "Tietoa Andre Zimmermannista",
+    "bio_1": "Andre Zimmermann vastaa FIECONin teknologisesta suunnasta ja verkkokehityksestä. Koulutettu sovelluskehittäjä yhdistää syvän teknisen osaamisen tekoälyn kohdennettuun käyttöön — ja muuttaa vaativat projektit maksimaalisesti ammattimaiseksi todellisuudeksi.",
+    "bio_2": "Yli 20 vuoden ammattikokemuksella ohjelmistokehityksestä ja syvällä ymmärryksellä tekoälyavusteisesta ohjelmoinnista hän tuo ainutlaatuisen profiilin: hän hyödyntää uusimpia tekoälyteknologioita strategisena työkaluna kehityksen nopeuttamiseksi ja tulosten toimittamiseksi korkeimmalla ammattimaisella tasolla.",
+    "bio_3": "Hänen periaatteensa: teknologian ei tulisi koskaan olla itsetarkoitus, vaan työkalu — tarkka, luotettava ja yrityksen tarpeisiin räätälöity. Tekoälyn kumppanina jokaisesta visiosta tulee vakuuttava tulos.",
+    "quote": "Hyvä teknologia on näkymätöntä — se vain toimii.",
+    "quote_attribution": "Andre Zimmermann",
+    "competency_1_title": "Verkkokehitys & Full-Stack",
+    "competency_1_description": "Modernien verkkosovellusten suunnittelu ja kehitys — käyttöliittymästä palvelinarkkitehtuuriin. Suorituskykyinen, turvallinen ja skaalautuva.",
+    "competency_2_title": "Ohjelmistoarkkitehtuuri",
+    "competency_2_description": "Kestävien järjestelmäarkkitehtuurien suunnittelu, jotka kasvavat yrityksen mukana. Teknologiavalinnoista pitkäaikaiseen ylläpidettävyyteen.",
+    "competency_3_title": "IT-projektinhallinta",
+    "competency_3_description": "Kehitystiimien ja teknisten projektien johtaminen ja koordinointi — selkeillä prosesseilla, ketterillä menetelmillä ja mitattavilla tuloksilla.",
+    "competency_4_title": "Digitaalinen infrastruktuuri",
+    "competency_4_description": "Yritysten digitaalisen infrastruktuurin rakentaminen ja optimointi — palvelinhallinnoinnista modernien pilviratkaisujen integrointiin."
+  },
   "impressum": {
     "title": "Impressum",
     "info_title": "Tiedot § 5 TMG:n mukaisesti",
@@ -234,5 +277,35 @@
     "section_7_text": "Tämä tietosuojakäytäntö on tällä hetkellä voimassa. Verkkosivustomme jatkokehityksen tai muuttuneiden oikeudellisten tai sääntelyvaatimusten vuoksi tämän tietosuojakäytännön muuttaminen saattaa olla tarpeen.",
     "email_label": "Sähköposti",
     "contact_label": "Yhteystiedot"
+  },
+  "team": {
+    "nav_label": "Team",
+    "competencies_headline": "Kompetenzfelder",
+    "cta_headline": "Lassen Sie uns ins Gespräch kommen",
+    "cta_subline": "Ob eine erste Frage oder ein konkretes Vorhaben — wir nehmen uns Zeit für Sie.",
+    "cta_button": "Kontakt aufnehmen",
+    "back_to_home": "Zur Startseite",
+    "breadcrumb_home": "Startseite"
+  },
+  "team_peter_fiegler": {
+    "meta_title": "Peter Fiegler — Gründer & Gesellschaftsrechtsexperte",
+    "meta_description": "Peter Fiegler, Gründer von FIECON. Langjährige Expertise im Gesellschaftsrecht, internationale Firmengründungen und persönliche Beratung auf höchstem Niveau.",
+    "hero_name": "Peter Fiegler",
+    "hero_role": "Gründer & Geschäftsführer",
+    "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
+    "bio_badge": "Über Peter Fiegler",
+    "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
+    "bio_2": "Mit Standorten in Hamburg, Belgrad und Texas hat er ein internationales Netzwerk aufgebaut, das Mandanten dort begleitet, wo ihre geschäftlichen Vorhaben sie hinführen — ob bei der Gründung einer Gesellschaft in Südosteuropa, der Strukturierung einer Holding oder der Erschließung des US-Marktes.",
+    "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
+    "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
+    "quote_attribution": "Peter Fiegler, Gründer",
+    "competency_1_title": "Gesellschaftsrecht",
+    "competency_1_description": "Beratung bei der Gründung, Strukturierung und Führung von Gesellschaften — national und international. Von der GmbH bis zur grenzüberschreitenden Holding.",
+    "competency_2_title": "Internationale Firmengründungen",
+    "competency_2_description": "Umfassende Begleitung bei Firmengründungen in Deutschland, Serbien, den USA und weiteren Jurisdiktionen. Rechtssicher und effizient.",
+    "competency_3_title": "Finanzverwaltung & Compliance",
+    "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
+    "competency_4_title": "Strategische Beratung",
+    "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
   }
 }

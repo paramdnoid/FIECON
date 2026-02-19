@@ -36,7 +36,8 @@
     "stat_1_label": "Lokasjoner verden over",
     "stat_2_label": "Fagområder",
     "stat_3_label": "Land",
-    "quote_attribution": "Peter Fiegler, Grunnlegger"
+    "quote_attribution": "Peter Fiegler, Grunnlegger",
+    "profile_link": "Mehr über Peter Fiegler erfahren"
   },
   "services": {
     "badge": "Tjenester",
@@ -186,6 +187,48 @@
     "description": "Den forespurte siden finnes ikke eller har blitt flyttet.",
     "back": "Tilbake til forsiden"
   },
+  "team_rene_marquard": {
+    "meta_title": "René Marquard — Formueforvaltning og investeringer i edle metaller",
+    "meta_description": "René Marquard, spesialist i formueforvaltning og investeringer i edle metaller hos FIECON. Personlig formuerådgivning med fremsyn og diskresjon.",
+    "hero_name": "René Marquard",
+    "hero_role": "Spesialist i formueforvaltning",
+    "hero_tagline": "Formueforvaltning og investeringer i edle metaller — med erfaring, diskresjon og personlig engasjement.",
+    "bio_badge": "Om René Marquard",
+    "bio_1": "René Marquard bringer omfattende ekspertise innen formueforvaltning og HR-rådgivning. Som spesialist i investeringer i edle metaller kombinerer han dyp markedsinnsikt med en skarp forståelse av hver kundes individuelle behov.",
+    "bio_2": "Fra Hamburg rådgiver han privatpersoner og virksomheter som ønsker å bevare formuen sin bærekraftig og utvikle den strategisk. Hans tilnærming kombinerer klassisk formueforvaltning med spesialiserte investeringsstrategier i edelmetallsektoren.",
+    "bio_3": "Diskresjon, personlig nærhet og et langtidsperspektiv er ikke tomme ord for ham — de er grunnlaget for hvert rådgivningsforhold. Hvert mandat mottar samme nivå av omtanke uansett størrelse.",
+    "quote": "Å bevare formue betyr å handle med fremsyn — bygget på tillit og visjon.",
+    "quote_attribution": "René Marquard",
+    "competency_1_title": "Formueforvaltning",
+    "competency_1_description": "Helhetlig formueforvaltning for privatpersoner og virksomheter — fra analyse og strategi til løpende porteføljestyring.",
+    "competency_2_title": "Investeringer i edle metaller",
+    "competency_2_description": "Spesialisert rådgivning om investeringer i gull, sølv og andre edle metaller — som verktøy for formuebevaring og diversifisering.",
+    "competency_3_title": "HR-rådgivning",
+    "competency_3_description": "Ekspertise innen menneskelige ressurser og ledelsesrådgivning — for å besette nøkkelstillinger og bygge høyt presterende team.",
+    "competency_4_title": "Formuestrategi",
+    "competency_4_description": "Utvikling av individuelle investeringsstrategier som balanserer sikkerhet og vekst — personlig, langsiktig og transparent."
+  },
+  "team_andre_zimmermann": {
+    "meta_title": "Andre Zimmermann — Teknologi og webutvikling",
+    "meta_description": "Andre Zimmermann, teknologi og webutvikling hos FIECON. Over 20 års erfaring med programvareutvikling, AI-assistert programmering og digital infrastruktur.",
+    "hero_name": "Andre Zimmermann",
+    "hero_role": "Teknologi og webutvikling",
+    "hero_tagline": "Teknologi og webutvikling — med over 20 års erfaring og strategisk bruk av AI for maksimalt profesjonelle digitale løsninger.",
+    "bio_badge": "Om Andre Zimmermann",
+    "bio_1": "Andre Zimmermann har ansvar for den teknologiske retningen og webutviklingen hos FIECON. Som faginformatiker for applikasjonsutvikling kombinerer han solid teknisk kunnskap med målrettet bruk av kunstig intelligens — og forvandler krevende prosjekter til maksimalt profesjonell virkelighet.",
+    "bio_2": "Med over 20 års yrkeserfaring innen programvareutvikling og en dyp forståelse av AI-assistert programmering bidrar han med en unik profil: han bruker de mest avanserte AI-teknologiene som strategisk verktøy for å akselerere utviklingsprosesser og realisere resultater på høyst profesjonelt nivå.",
+    "bio_3": "Hans krav: teknologi skal ikke være et mål i seg selv, men et verktøy — presist, pålitelig og tilpasset bedriftens behov. Med AI som partner blir hver visjon et overbevisende resultat.",
+    "quote": "God teknologi er usynlig — den fungerer bare.",
+    "quote_attribution": "Andre Zimmermann",
+    "competency_1_title": "Webutvikling og full-stack",
+    "competency_1_description": "Konsept og utvikling av moderne webapplikasjoner — fra brukergrensesnitt til serverarkitektur. Ytelse, sikkerhet og skalerbarhet.",
+    "competency_2_title": "Programvarearkitektur",
+    "competency_2_description": "Design av robuste systemarkitekturer som vokser med bedriften. Fra teknologivalg til langsiktig vedlikeholdbarhet.",
+    "competency_3_title": "IT-prosjektledelse",
+    "competency_3_description": "Ledelse og koordinering av utviklingsteam og tekniske prosjekter — med tydelige prosesser, agile metoder og målbare resultater.",
+    "competency_4_title": "Digital infrastruktur",
+    "competency_4_description": "Oppbygging og optimalisering av digital infrastruktur for bedrifter — fra serveradministrasjon til integrasjon av moderne skyløsninger."
+  },
   "impressum": {
     "title": "Impressum",
     "info_title": "Informasjon i henhold til § 5 TMG",
@@ -234,5 +277,35 @@
     "section_7_text": "Denne personvernerklæringen er gjeldende. På grunn av videreutviklingen av vårt nettsted eller endrede juridiske eller regulatoriske krav kan det bli nødvendig å endre denne personvernerklæringen.",
     "email_label": "E-post",
     "contact_label": "Kontakt"
+  },
+  "team": {
+    "nav_label": "Team",
+    "competencies_headline": "Kompetenzfelder",
+    "cta_headline": "Lassen Sie uns ins Gespräch kommen",
+    "cta_subline": "Ob eine erste Frage oder ein konkretes Vorhaben — wir nehmen uns Zeit für Sie.",
+    "cta_button": "Kontakt aufnehmen",
+    "back_to_home": "Zur Startseite",
+    "breadcrumb_home": "Startseite"
+  },
+  "team_peter_fiegler": {
+    "meta_title": "Peter Fiegler — Gründer & Gesellschaftsrechtsexperte",
+    "meta_description": "Peter Fiegler, Gründer von FIECON. Langjährige Expertise im Gesellschaftsrecht, internationale Firmengründungen und persönliche Beratung auf höchstem Niveau.",
+    "hero_name": "Peter Fiegler",
+    "hero_role": "Gründer & Geschäftsführer",
+    "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
+    "bio_badge": "Über Peter Fiegler",
+    "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
+    "bio_2": "Mit Standorten in Hamburg, Belgrad und Texas hat er ein internationales Netzwerk aufgebaut, das Mandanten dort begleitet, wo ihre geschäftlichen Vorhaben sie hinführen — ob bei der Gründung einer Gesellschaft in Südosteuropa, der Strukturierung einer Holding oder der Erschließung des US-Marktes.",
+    "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
+    "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
+    "quote_attribution": "Peter Fiegler, Gründer",
+    "competency_1_title": "Gesellschaftsrecht",
+    "competency_1_description": "Beratung bei der Gründung, Strukturierung und Führung von Gesellschaften — national und international. Von der GmbH bis zur grenzüberschreitenden Holding.",
+    "competency_2_title": "Internationale Firmengründungen",
+    "competency_2_description": "Umfassende Begleitung bei Firmengründungen in Deutschland, Serbien, den USA und weiteren Jurisdiktionen. Rechtssicher und effizient.",
+    "competency_3_title": "Finanzverwaltung & Compliance",
+    "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
+    "competency_4_title": "Strategische Beratung",
+    "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
   }
 }

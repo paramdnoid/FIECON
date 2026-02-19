@@ -2,10 +2,12 @@
 
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import { useLocale } from "next-intl";
 import { Container } from "@/components/ui/Container";
 import { SlideReveal } from "@/components/animations/SlideReveal";
 import { FadeIn } from "@/components/animations/FadeIn";
 import { CountUp } from "@/components/animations/CountUp";
+import { Link } from "@/i18n/navigation";
 
 const STATS = [
   { key: "stat_1_label", value: 3 },
@@ -23,7 +25,7 @@ export function About() {
         <Container size="lg">
           {/* Top decorative line */}
           <FadeIn>
-            <div className="w-full h-px bg-gradient-to-r from-transparent via-beige-400/40 to-transparent mb-20 sm:mb-24" />
+            <div className="w-full h-px bg-linear-to-r from-transparent via-beige-400/40 to-transparent mb-20 sm:mb-24" />
           </FadeIn>
 
           {/* Asymmetric two-column layout */}
@@ -62,7 +64,7 @@ export function About() {
         {/* Gradient border top */}
         <div
           aria-hidden="true"
-          className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-beige-400/40 to-transparent"
+          className="absolute inset-x-0 top-0 h-px bg-linear-to-r from-transparent via-beige-400/40 to-transparent"
         />
         <Container size="md">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 sm:gap-0">
@@ -91,7 +93,7 @@ export function About() {
         {/* Gradient border bottom */}
         <div
           aria-hidden="true"
-          className="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-beige-400/40 to-transparent"
+          className="absolute inset-x-0 bottom-0 h-px bg-linear-to-r from-transparent via-beige-400/40 to-transparent"
         />
       </div>
 
@@ -143,6 +145,31 @@ export function About() {
                 </div>
               </blockquote>
             </div>
+
+            {/* Profile link */}
+            <div className="mt-8 text-center">
+              <Link
+                href="/team/peter-fiegler"
+                className="inline-flex items-center gap-2 text-sm font-medium tracking-wide text-bordeaux-900 hover:text-bordeaux-700 transition-colors duration-300 group"
+              >
+                <span>{t("profile_link")}</span>
+                <svg
+                  aria-hidden="true"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="transition-transform duration-300 group-hover:translate-x-1"
+                >
+                  <path d="M5 12h14" />
+                  <path d="m12 5 7 7-7 7" />
+                </svg>
+              </Link>
+            </div>
           </FadeIn>
         </Container>
       </div>
@@ -150,7 +177,7 @@ export function About() {
       {/* Bottom decorative line */}
       <Container size="lg">
         <FadeIn delay={0.3}>
-          <div className="w-full h-px bg-gradient-to-r from-transparent via-beige-400/40 to-transparent" />
+          <div className="w-full h-px bg-linear-to-r from-transparent via-beige-400/40 to-transparent" />
         </FadeIn>
       </Container>
     </section>

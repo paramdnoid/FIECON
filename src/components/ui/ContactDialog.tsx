@@ -185,7 +185,7 @@ export function ContactDialog({ open, onClose }: Props) {
             className="relative w-full max-w-4xl max-h-[90vh] overflow-hidden bg-white rounded-2xl shadow-2xl shadow-bordeaux-900/25 flex flex-col lg:flex-row"
           >
             {/* Left panel — branding & contact info */}
-            <div className="hidden lg:flex lg:w-[380px] flex-col justify-between text-white p-10 relative overflow-hidden bg-bordeaux-900">
+            <div className="hidden lg:flex lg:w-95 flex-col justify-between text-white p-10 relative overflow-hidden bg-bordeaux-900">
               {/* Decorative circles with logo watermark */}
               <div className="absolute -bottom-20 -left-20 w-64 h-64 rounded-full bg-bordeaux-700/20 flex items-center justify-center">
                 <svg
@@ -203,7 +203,7 @@ export function ContactDialog({ open, onClose }: Props) {
               <div className="relative z-10 space-y-6">
                 <div className="w-10 h-1 bg-beige-400 rounded-full" />
                 <div>
-                  <h2 className="font-display text-4xl font-light leading-tight mb-3">
+                  <h2 className="font-display text-4xl font-light leading-snug mb-3">
                     {t("title")}
                   </h2>
                   <p className="text-beige-200 text-sm leading-relaxed">

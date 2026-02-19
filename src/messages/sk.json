@@ -36,7 +36,8 @@
     "stat_1_label": "Lokalít po celom svete",
     "stat_2_label": "Oblastí činnosti",
     "stat_3_label": "Krajín",
-    "quote_attribution": "Peter Fiegler, zakladateľ"
+    "quote_attribution": "Peter Fiegler, zakladateľ",
+    "profile_link": "Mehr über Peter Fiegler erfahren"
   },
   "services": {
     "badge": "Služby",
@@ -186,6 +187,48 @@
     "description": "Požadovaná stránka neexistuje alebo bola presunutá.",
     "back": "Späť na úvodnú stránku"
   },
+  "team_rene_marquard": {
+    "meta_title": "René Marquard — Správa majetku a investície do drahých kovov",
+    "meta_description": "René Marquard, špecialista na správu majetku a investície do drahých kovov vo FIECON. Osobné poradenstvo v oblasti aktiv s rozhľadom a diskrétnosťou.",
+    "hero_name": "René Marquard",
+    "hero_role": "Špecialista na správu majetku",
+    "hero_tagline": "Správa majetku a investície do drahých kovov — so skúsenosťami, diskrétnosťou a osobným nasadením.",
+    "bio_badge": "O René Marquardovi",
+    "bio_1": "René Marquard prináša rozsiahlu odbornosť v oblasti správy majetku a poradenstva v ľudských zdrojoch. Ako špecialista na investície do drahých kovov spája hlboké znalosti trhu s citom pre individuálne potreby každého klienta.",
+    "bio_2": "Z Hamburku radí súkromným osobám aj firmám, ktoré chcú svoje majetky udržateľne uchovať a strategicky rozvíjať. Jeho prístup spája klasickú správu aktiv so špecializovanými investičnými stratégiami v sektore drahých kovov.",
+    "bio_3": "Diskrétnosť, osobná blízkosť a dlhodobá perspektíva pre neho nie sú prázdne frázy — sú základom každého poradenského vzťahu. Každý mandát dostane rovnakú mieru starostlivosti bez ohľadu na veľkosť.",
+    "quote": "Uchovať majetok znamená konať s predvídavosťou — na základe dôvery a vízie.",
+    "quote_attribution": "René Marquard",
+    "competency_1_title": "Správa majetku",
+    "competency_1_description": "Komplexná správa aktiv pre súkromné osoby aj firmy — od analýzy a stratégie po prieběžnú starostlivosť o portfólio.",
+    "competency_2_title": "Investície do drahých kovov",
+    "competency_2_description": "Špecializované poradenstvo k investíciám do zlata, striebra a ďalších drahých kovov — ako nástroje uchovania a diverzifikácie majetku.",
+    "competency_3_title": "Personálne poradenstvo",
+    "competency_3_description": "Odbornosť v oblasti ľudských zdrojov a poradenstva pre vedenie — pre obsadenie kľúčových pozícií a budovanie výkonných tímov.",
+    "competency_4_title": "Majetková stratégia",
+    "competency_4_description": "Vývoj individuálnych investičných stratégií vyvažujúcich bezpečnosť a rast — osobný, dlhodobý a transparentný."
+  },
+  "team_andre_zimmermann": {
+    "meta_title": "Andre Zimmermann — Vedúci technológie a webového vývoja",
+    "meta_description": "Andre Zimmermann, vedúci technológie a webového vývoja vo FIECON. Viac ako 20 rokov skúseností v softvérovom vývoji, riadení IT projektov a digitálnej infraštruktúre.",
+    "hero_name": "Andre Zimmermann",
+    "hero_role": "Vedúci technológie a webového vývoja",
+    "hero_tagline": "Technológia a webový vývoj — s viac ako 20 rokmi skúseností v softvérovej architektúre, riadení projektov a digitálnej inovácii.",
+    "bio_badge": "O Andre Zimmermannovi",
+    "bio_1": "Andre Zimmermann má vo FIECON na starosti technologické smerovanie a webový vývoj. Ako certifikovaný vývojár aplikácií spája hlboké technické znalosti s pragmatickým pohľadom na riešenia, ktoré skutočne fungujú.",
+    "bio_2": "S viac ako 20 rokmi profesionálnych skúseností v softvérovom vývoji — od vývoja aplikácií cez riadenie projektov až po vedenie celých vývojových oddelení — prináša široké spektrum technických a organizačných kompetencií.",
+    "bio_3": "Jeho zásada: technológia by nemala byť samoúčelom, ale nástrojom — presná, spoľahlivá a prispôsobená potrebám podniku. Toto presvedčenie formuje každý projekt, ktorý realizuje.",
+    "quote": "Dobrá technológia je neviditeľná — jednoducho funguje.",
+    "quote_attribution": "Andre Zimmermann",
+    "competency_1_title": "Webový vývoj a full-stack",
+    "competency_1_description": "Koncepcia a vývoj moderných webových aplikácií — od používateľského rozhrania po serverovú architektúru. Výkonné, bezpečné a škálovateľné.",
+    "competency_2_title": "Softvérová architektúra",
+    "competency_2_description": "Návrh robustných systémových architektúr, ktoré rastú s podnikom. Od výberu technológií po dlhodobú udržiavateľnosť.",
+    "competency_3_title": "Riadenie IT projektov",
+    "competency_3_description": "Vedenie a koordinácia vývojových tímov a technických projektov — s jasnými procesmi, agilnými metódami a merateľnými výsledkami.",
+    "competency_4_title": "Digitálna infraštruktúra",
+    "competency_4_description": "Budovanie a optimalizácia digitálnej infraštruktúry pre podniky — od serverovej administrácie po integráciu moderných cloudových riešení."
+  },
   "impressum": {
     "title": "Impressum",
     "info_title": "Informácie podľa § 5 TMG",
@@ -234,5 +277,35 @@
     "section_7_text": "Tieto zásady ochrany osobných údajov sú v súčasnosti platné. V dôsledku ďalšieho vývoja našich webových stránok alebo zmien právnych či regulačných požiadaviek môže byť potrebné tieto zásady ochrany osobných údajov upraviť.",
     "email_label": "E-mail",
     "contact_label": "Kontakt"
+  },
+  "team": {
+    "nav_label": "Team",
+    "competencies_headline": "Kompetenzfelder",
+    "cta_headline": "Lassen Sie uns ins Gespräch kommen",
+    "cta_subline": "Ob eine erste Frage oder ein konkretes Vorhaben — wir nehmen uns Zeit für Sie.",
+    "cta_button": "Kontakt aufnehmen",
+    "back_to_home": "Zur Startseite",
+    "breadcrumb_home": "Startseite"
+  },
+  "team_peter_fiegler": {
+    "meta_title": "Peter Fiegler — Gründer & Gesellschaftsrechtsexperte",
+    "meta_description": "Peter Fiegler, Gründer von FIECON. Langjährige Expertise im Gesellschaftsrecht, internationale Firmengründungen und persönliche Beratung auf höchstem Niveau.",
+    "hero_name": "Peter Fiegler",
+    "hero_role": "Gründer & Geschäftsführer",
+    "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
+    "bio_badge": "Über Peter Fiegler",
+    "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
+    "bio_2": "Mit Standorten in Hamburg, Belgrad und Texas hat er ein internationales Netzwerk aufgebaut, das Mandanten dort begleitet, wo ihre geschäftlichen Vorhaben sie hinführen — ob bei der Gründung einer Gesellschaft in Südosteuropa, der Strukturierung einer Holding oder der Erschließung des US-Marktes.",
+    "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
+    "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
+    "quote_attribution": "Peter Fiegler, Gründer",
+    "competency_1_title": "Gesellschaftsrecht",
+    "competency_1_description": "Beratung bei der Gründung, Strukturierung und Führung von Gesellschaften — national und international. Von der GmbH bis zur grenzüberschreitenden Holding.",
+    "competency_2_title": "Internationale Firmengründungen",
+    "competency_2_description": "Umfassende Begleitung bei Firmengründungen in Deutschland, Serbien, den USA und weiteren Jurisdiktionen. Rechtssicher und effizient.",
+    "competency_3_title": "Finanzverwaltung & Compliance",
+    "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
+    "competency_4_title": "Strategische Beratung",
+    "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
   }
 }

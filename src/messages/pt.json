@@ -36,7 +36,8 @@
     "stat_1_label": "Localizações no mundo",
     "stat_2_label": "Áreas de atuação",
     "stat_3_label": "Países",
-    "quote_attribution": "Peter Fiegler, fundador"
+    "quote_attribution": "Peter Fiegler, fundador",
+    "profile_link": "Mehr über Peter Fiegler erfahren"
   },
   "services": {
     "badge": "Serviços",
@@ -186,6 +187,48 @@
     "description": "A página solicitada não existe ou foi movida.",
     "back": "Voltar à página inicial"
   },
+  "team_rene_marquard": {
+    "meta_title": "René Marquard — Gestão patrimonial e investimentos em metais preciosos",
+    "meta_description": "René Marquard, especialista em gestão patrimonial e investimentos em metais preciosos na FIECON. Aconselhamento patrimonial pessoal com visão e discrição.",
+    "hero_name": "René Marquard",
+    "hero_role": "Especialista em Gestão Patrimonial",
+    "hero_tagline": "Gestão patrimonial e investimentos em metais preciosos — com experiência, discrição e compromisso pessoal.",
+    "bio_badge": "Sobre René Marquard",
+    "bio_1": "René Marquard traz ampla experiência em gestão patrimonial e consultoria de recursos humanos. Como especialista em investimentos em metais preciosos, combina profundo conhecimento de mercado com uma compreensão atenta das necessidades individuais de cada cliente.",
+    "bio_2": "A partir de Hamburgo, aconselha particulares e empresas que procuram preservar o seu património de forma sustentável e desenvolvê-lo estrategicamente. A sua abordagem combina a gestão clássica de ativos com estratégias de investimento especializadas no sector dos metais preciosos.",
+    "bio_3": "A discrição, a proximidade pessoal e uma perspetiva de longo prazo não são palavras vazias para ele — são a base de cada relação de aconselhamento. Cada mandato recebe o mesmo nível de atenção, independentemente do seu tamanho.",
+    "quote": "Preservar o património significa agir com visão — construído sobre confiança e perspectiva.",
+    "quote_attribution": "René Marquard",
+    "competency_1_title": "Gestão Patrimonial",
+    "competency_1_description": "Gestão patrimonial integral para particulares e empresas — da análise e estratégia à custódia contínua da carteira.",
+    "competency_2_title": "Investimentos em Metais Preciosos",
+    "competency_2_description": "Aconselhamento especializado sobre investimentos em ouro, prata e outros metais preciosos — como instrumentos de preservação e diversificação patrimonial.",
+    "competency_3_title": "Consultoria de Recursos Humanos",
+    "competency_3_description": "Experiência em recursos humanos e consultoria executiva — para preenchimento de posições-chave e construção de equipas de alto desempenho.",
+    "competency_4_title": "Estratégia Patrimonial",
+    "competency_4_description": "Desenvolvimento de estratégias de investimento individuais que equilibram segurança e crescimento — pessoal, a longo prazo e transparente."
+  },
+  "team_andre_zimmermann": {
+    "meta_title": "Andre Zimmermann — Responsável de Tecnologia e Desenvolvimento Web",
+    "meta_description": "Andre Zimmermann, responsável de Tecnologia e Desenvolvimento Web na FIECON. Mais de 20 anos de experiência em desenvolvimento de software, programação assistida por IA e infraestrutura digital.",
+    "hero_name": "Andre Zimmermann",
+    "hero_role": "Responsável de Tecnologia e Desenvolvimento Web",
+    "hero_tagline": "Tecnologia e desenvolvimento web — com mais de 20 anos de experiência e o uso estratégico da IA para soluções digitais de máxima profissionalidade.",
+    "bio_badge": "Sobre Andre Zimmermann",
+    "bio_1": "Andre Zimmermann é responsável pela orientação tecnológica e pelo desenvolvimento web na FIECON. Como técnico de informática especializado em desenvolvimento de aplicações, combina competência técnica sólida com o uso dirigido da inteligência artificial — transformando assim projetos exigentes em realidade de máxima profissionalidade.",
+    "bio_2": "Com mais de 20 anos de experiência profissional em desenvolvimento de software e um profundo conhecimento da programação assistida por IA, traz um perfil único: utiliza as tecnologias de IA mais avançadas como ferramenta estratégica para acelerar os processos de desenvolvimento e concretizar resultados ao mais alto nível profissional.",
+    "bio_3": "O seu princípio: a tecnologia não deve ser um fim em si mesma, mas uma ferramenta — precisa, fiável e adaptada às necessidades da empresa. Com a IA como parceira, cada visão torna-se um resultado que convence.",
+    "quote": "A boa tecnologia é invisível — simplesmente funciona.",
+    "quote_attribution": "Andre Zimmermann",
+    "competency_1_title": "Desenvolvimento Web e Full-Stack",
+    "competency_1_description": "Conceção e desenvolvimento de aplicações web modernas — da interface do utilizador à arquitetura do servidor. Performante, seguro e escalável.",
+    "competency_2_title": "Arquitetura de Software",
+    "competency_2_description": "Conceção de arquiteturas de sistema robustas que crescem com a empresa. Da seleção tecnológica à manutenibilidade a longo prazo.",
+    "competency_3_title": "Gestão de Projetos IT",
+    "competency_3_description": "Liderança e coordenação de equipas de desenvolvimento e projetos técnicos — com processos claros, metodologias ágeis e resultados mensuráveis.",
+    "competency_4_title": "Infraestrutura Digital",
+    "competency_4_description": "Construção e otimização de infraestruturas digitais para empresas — da administração de servidores à integração de soluções cloud modernas."
+  },
   "impressum": {
     "title": "Aviso legal",
     "info_title": "Informações nos termos do § 5 TMG",
@@ -234,5 +277,35 @@
     "section_7_text": "Esta política de privacidade é atualmente válida. Devido ao desenvolvimento contínuo do nosso website ou a alterações dos requisitos legais ou regulamentares, poderá ser necessário alterar esta política de privacidade.",
     "email_label": "E-mail",
     "contact_label": "Contacto"
+  },
+  "team": {
+    "nav_label": "Team",
+    "competencies_headline": "Kompetenzfelder",
+    "cta_headline": "Lassen Sie uns ins Gespräch kommen",
+    "cta_subline": "Ob eine erste Frage oder ein konkretes Vorhaben — wir nehmen uns Zeit für Sie.",
+    "cta_button": "Kontakt aufnehmen",
+    "back_to_home": "Zur Startseite",
+    "breadcrumb_home": "Startseite"
+  },
+  "team_peter_fiegler": {
+    "meta_title": "Peter Fiegler — Gründer & Gesellschaftsrechtsexperte",
+    "meta_description": "Peter Fiegler, Gründer von FIECON. Langjährige Expertise im Gesellschaftsrecht, internationale Firmengründungen und persönliche Beratung auf höchstem Niveau.",
+    "hero_name": "Peter Fiegler",
+    "hero_role": "Gründer & Geschäftsführer",
+    "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
+    "bio_badge": "Über Peter Fiegler",
+    "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
+    "bio_2": "Mit Standorten in Hamburg, Belgrad und Texas hat er ein internationales Netzwerk aufgebaut, das Mandanten dort begleitet, wo ihre geschäftlichen Vorhaben sie hinführen — ob bei der Gründung einer Gesellschaft in Südosteuropa, der Strukturierung einer Holding oder der Erschließung des US-Marktes.",
+    "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
+    "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
+    "quote_attribution": "Peter Fiegler, Gründer",
+    "competency_1_title": "Gesellschaftsrecht",
+    "competency_1_description": "Beratung bei der Gründung, Strukturierung und Führung von Gesellschaften — national und international. Von der GmbH bis zur grenzüberschreitenden Holding.",
+    "competency_2_title": "Internationale Firmengründungen",
+    "competency_2_description": "Umfassende Begleitung bei Firmengründungen in Deutschland, Serbien, den USA und weiteren Jurisdiktionen. Rechtssicher und effizient.",
+    "competency_3_title": "Finanzverwaltung & Compliance",
+    "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
+    "competency_4_title": "Strategische Beratung",
+    "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
   }
 }

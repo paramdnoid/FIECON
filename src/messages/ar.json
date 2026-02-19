@@ -36,7 +36,8 @@
     "stat_1_label": "مكاتب حول العالم",
     "stat_2_label": "مجالات تخصص",
     "stat_3_label": "دول",
-    "quote_attribution": "Peter Fiegler، المؤسس"
+    "quote_attribution": "Peter Fiegler، المؤسس",
+    "profile_link": "Mehr über Peter Fiegler erfahren"
   },
   "services": {
     "badge": "الخدمات",
@@ -186,6 +187,48 @@
     "description": "الصفحة المطلوبة غير موجودة أو تم نقلها.",
     "back": "إلى الصفحة الرئيسية"
   },
+  "team_rene_marquard": {
+    "meta_title": "رينيه ماركارد — إدارة الثروات واستثمارات المعادن النفيسة",
+    "meta_description": "رينيه ماركارد، متخصص في إدارة الثروات واستثمارات المعادن النفيسة في FIECON. استشارات أصول شخصية مع بُعد نظر وحياد.",
+    "hero_name": "René Marquard",
+    "hero_role": "متخصص إدارة الثروات",
+    "hero_tagline": "إدارة الثروات واستثمارات المعادن النفيسة — بخبرة وحياد والتزام شخصي.",
+    "bio_badge": "عن رينيه ماركارد",
+    "bio_1": "يجمع رينيه ماركارد خبرة واسعة في إدارة الثروات واستشارات الموارد البشرية. بصفته متخصصاً في استثمارات المعادن النفيسة، يدمج معرفة عميقة بالسوق مع فهم دقيق لاحتياجات كل عميل.",
+    "bio_2": "من هامبورغ يقدم الاستشارة للأفراد والشركات الراغبين في الحفاظ على ثرواتهم بشكل مستدام وتنميتها استراتيجياً. يجمع منهجه بين إدارة الأصول الكلاسيكية واستراتيجيات الاستثمار المتخصصة في قطاع المعادن النفيسة.",
+    "bio_3": "الحياد والقرب الشخصي والنظرة طويلة الأمد ليست مجرد شعارات بالنسبة له — بل أساس كل علاقة استشارية. كل تكليف ينال نفس العناية بغض النظر عن حجمه.",
+    "quote": "الحفاظ على الثروة يعني التصرف ببُعد نظر — قائم على الثقة والرؤية.",
+    "quote_attribution": "René Marquard",
+    "competency_1_title": "إدارة الثروات",
+    "competency_1_description": "إدارة أصول شاملة للأفراد والشركات — من التحليل والاستراتيجية إلى الرعاية المستمرة للمحفظة.",
+    "competency_2_title": "استثمارات المعادن النفيسة",
+    "competency_2_description": "استشارات متخصصة للاستثمار في الذهب والفضة ومعادن نفيسة أخرى — كأدوات للحفاظ على الثروة وتنويعها.",
+    "competency_3_title": "استشارات الموارد البشرية",
+    "competency_3_description": "خبرة في الموارد البشرية واستشارات الإدارة العليا — لشغل المناصب الرئيسية وبناء فرق عالية الأداء.",
+    "competency_4_title": "استراتيجية الأصول",
+    "competency_4_description": "وضع استراتيجيات استثمار فردية توازن بين الأمان والنمو — شخصية وطويلة الأمد وشفافة."
+  },
+  "team_andre_zimmermann": {
+    "meta_title": "Andre Zimmermann — التكنولوجيا وتطوير الويب",
+    "meta_description": "Andre Zimmermann، التكنولوجيا وتطوير الويب في FIECON. أكثر من 20 عامًا من الخبرة في تطوير البرمجيات والبرمجة المدعومة بالذكاء الاصطناعي والبنية التحتية الرقمية.",
+    "hero_name": "Andre Zimmermann",
+    "hero_role": "التكنولوجيا وتطوير الويب",
+    "hero_tagline": "التكنولوجيا وتطوير الويب — مع أكثر من 20 عامًا من الخبرة والاستخدام الاستراتيجي للذكاء الاصطناعي لتسليم المشاريع بأعلى معايير الاحترافية.",
+    "bio_badge": "عن Andre Zimmermann",
+    "bio_1": "يتولى Andre Zimmermann التوجّه التقني وتطوير الويب في FIECON. كمطوّر تطبيقات معتمد يجمع بين الخبرة التقنية العميقة والاستخدام الموجّه للذكاء الاصطناعي — لتحويل المشاريع الطموحة إلى واقع بأعلى معايير الاحترافية.",
+    "bio_2": "بأكثر من 20 عامًا من الخبرة المهنية في تطوير البرمجيات وفهم عميق للبرمجة المدعومة بالذكاء الاصطناعي، يجلب ملفًا فريدًا: يستغل أحدث تقنيات الذكاء الاصطناعي كأداة استراتيجية لتسريع التطوير وتقديم نتائج بأعلى جودة احترافية.",
+    "bio_3": "مبدؤه: التكنولوجيا يجب ألا تكون غاية بحد ذاتها بل أداة — دقيقة وموثوقة ومُصمَّمة وفق احتياجات الشركة. مع الذكاء الاصطناعي شريكًا، يصبح كل رؤية نتيجة تقنع حقًا.",
+    "quote": "التكنولوجيا الجيدة غير مرئية — تعمل ببساطة.",
+    "quote_attribution": "Andre Zimmermann",
+    "competency_1_title": "تطوير الويب وFull-Stack",
+    "competency_1_description": "تصور وتطوير تطبيقات ويب حديثة — من واجهة المستخدم إلى بنية الخادم. أداء عالٍ وآمنة وقابلة للتوسع.",
+    "competency_2_title": "هندسة البرمجيات",
+    "competency_2_description": "تصميم بنى أنظمة قوية تنمو مع الشركة. من اختيار التكنولوجيا إلى القابلية للصيانة على المدى الطويل.",
+    "competency_3_title": "إدارة مشاريع تقنية المعلومات",
+    "competency_3_description": "قيادة وتنسيق فرق التطوير والمشاريع التقنية — بعمليات واضحة ومنهجيات رشيقة ونتائج قابلة للقياس.",
+    "competency_4_title": "البنية التحتية الرقمية",
+    "competency_4_description": "بناء وتحسين البنية التحتية الرقمية للشركات — من إدارة الخوادم إلى دمج حلول السحابة الحديثة."
+  },
   "impressum": {
     "title": "البيانات القانونية",
     "info_title": "معلومات وفقًا لـ § 5 TMG",
@@ -234,5 +277,35 @@
     "section_7_text": "سياسة الخصوصية هذه سارية المفعول حاليًا. نتيجة لتطوير موقعنا الإلكتروني أو بسبب تغيير المتطلبات القانونية أو الرسمية، قد يصبح من الضروري تعديل سياسة الخصوصية هذه.",
     "email_label": "البريد الإلكتروني",
     "contact_label": "اتصل بنا"
+  },
+  "team": {
+    "nav_label": "Team",
+    "competencies_headline": "Kompetenzfelder",
+    "cta_headline": "Lassen Sie uns ins Gespräch kommen",
+    "cta_subline": "Ob eine erste Frage oder ein konkretes Vorhaben — wir nehmen uns Zeit für Sie.",
+    "cta_button": "Kontakt aufnehmen",
+    "back_to_home": "Zur Startseite",
+    "breadcrumb_home": "Startseite"
+  },
+  "team_peter_fiegler": {
+    "meta_title": "Peter Fiegler — Gründer & Gesellschaftsrechtsexperte",
+    "meta_description": "Peter Fiegler, Gründer von FIECON. Langjährige Expertise im Gesellschaftsrecht, internationale Firmengründungen und persönliche Beratung auf höchstem Niveau.",
+    "hero_name": "Peter Fiegler",
+    "hero_role": "Gründer & Geschäftsführer",
+    "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
+    "bio_badge": "Über Peter Fiegler",
+    "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
+    "bio_2": "Mit Standorten in Hamburg, Belgrad und Texas hat er ein internationales Netzwerk aufgebaut, das Mandanten dort begleitet, wo ihre geschäftlichen Vorhaben sie hinführen — ob bei der Gründung einer Gesellschaft in Südosteuropa, der Strukturierung einer Holding oder der Erschließung des US-Marktes.",
+    "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
+    "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
+    "quote_attribution": "Peter Fiegler, Gründer",
+    "competency_1_title": "Gesellschaftsrecht",
+    "competency_1_description": "Beratung bei der Gründung, Strukturierung und Führung von Gesellschaften — national und international. Von der GmbH bis zur grenzüberschreitenden Holding.",
+    "competency_2_title": "Internationale Firmengründungen",
+    "competency_2_description": "Umfassende Begleitung bei Firmengründungen in Deutschland, Serbien, den USA und weiteren Jurisdiktionen. Rechtssicher und effizient.",
+    "competency_3_title": "Finanzverwaltung & Compliance",
+    "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
+    "competency_4_title": "Strategische Beratung",
+    "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
   }
 }

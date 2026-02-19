@@ -36,7 +36,8 @@
     "stat_1_label": "Канцеларије широм света",
     "stat_2_label": "Области стручности",
     "stat_3_label": "Земље",
-    "quote_attribution": "Peter Fiegler, оснивач"
+    "quote_attribution": "Peter Fiegler, оснивач",
+    "profile_link": "Mehr über Peter Fiegler erfahren"
   },
   "services": {
     "badge": "Услуге",
@@ -186,6 +187,48 @@
     "description": "Тражена страница не постоји или је премештена.",
     "back": "На почетну страницу"
   },
+  "team_rene_marquard": {
+    "meta_title": "Рене Марквард — Управљање имовином и инвестиције у племените метале",
+    "meta_description": "Рене Марквард, стручњак за управљање имовином и инвестиције у племените метале у FIECON-у. Лично саветовање о имовини са предвиђањем и дискрецијом.",
+    "hero_name": "René Marquard",
+    "hero_role": "Стручњак за управљање имовином",
+    "hero_tagline": "Управљање имовином и инвестиције у племените метале — са искуством, дискрецијом и личном посвећеношћу.",
+    "bio_badge": "О Рене Маркварду",
+    "bio_1": "Рене Марквард доноси опсежну стручност у управљању имовином и саветовању о људским ресурсима. Као стручњак за инвестиције у племените метале спаја дубинско познавање тржишта са разумевањем појединачних потреба сваког клијента.",
+    "bio_2": "Из Хамбурга саветује приватна лица и фирме које желе одрживо да очувају своју имовину и стратешки је развијају. Његов приступ спаја класично управљање имовином са специјализованим инвестицијским стратегијама у сектору племенитих метала.",
+    "bio_3": "Дискреција, лична близина и дугорочна перспектива за њега нису празне речи — оне су темељ сваког саветодавног ангажмана. Сваки мандат добија исту разину пажње, без обзира на величину.",
+    "quote": "Очувати имовину значи деловати с предвиђањем — на основу поверења и визије.",
+    "quote_attribution": "René Marquard",
+    "competency_1_title": "Управљање имовином",
+    "competency_1_description": "Целовито управљање имовином за приватна лица и фирме — од анализе и стратегије до континуиране бриге за портфељ.",
+    "competency_2_title": "Инвестиције у племените метале",
+    "competency_2_description": "Специјализовано саветовање о инвестицијама у злато, сребро и друге племените метале — као инструменти очувања и диверзификације имовине.",
+    "competency_3_title": "Саветовање о кадровима",
+    "competency_3_description": "Стручност у људским ресурсима и саветовању руководства — за попуњавање кључних позиција и изградњу високоучинаковних тимова.",
+    "competency_4_title": "Стратегија имовине",
+    "competency_4_description": "Развој појединачних инвестицијских стратегија које балансирају сигурност и раст — лично, дугорочно и транспарентно."
+  },
+  "team_andre_zimmermann": {
+    "meta_title": "Андре Цимерман — Технологија и веб развој",
+    "meta_description": "Андре Цимерман, технологија и веб развој у FIECON-у. Преко 20 година искуства у развоју софтвера, програмирању потпомогнутом вештачком интелигенцијом и дигиталној инфраструктури.",
+    "hero_name": "Andre Zimmermann",
+    "hero_role": "Шеф технологије и веб развоја",
+    "hero_tagline": "Технологија и веб развој — са преко 20 година искуства у софтверској архитектури, вођењу пројеката и дигиталној иновацији.",
+    "bio_badge": "О Андре Цимерману",
+    "bio_1": "Андре Цимерман у FIECON-у је одговоран за технолошки смер и веб развој. Као сертификовани програмер апликација спаја темељно техничко знање са прагматичним погледом на решења која заиста функционишу.",
+    "bio_2": "Са преко 20 година професионалног искуства у развоју софтвера и дубоким разумевањем програмирања потпомогнутог вештачком интелигенцијом, уноси јединствен профил: користи најсавременије технологије вештачке интелигенције као стратешки алат за убрзање развоја и испоруку резултата максималне професионалне квалитета.",
+    "bio_3": "Његов принцип: технологија не сме бити сама себи сврха, већ алат — прецизна, поуздана и прилагођена потребама предузећа. Са вештачком интелигенцијом као партнером, свака визија постаје резултат који заиста убеђује.",
+    "quote": "Добра технологија је невидљива — једноставно ради.",
+    "quote_attribution": "Andre Zimmermann",
+    "competency_1_title": "Веб развој и full-stack",
+    "competency_1_description": "Концепција и развој модерних веб апликација — од корисничког интерфејса до сервер архитектуре. Перформантно, сигурно и скалабилно.",
+    "competency_2_title": "Софтверска архитектура",
+    "competency_2_description": "Дизајн робусних системских архитектура које расту с предузећем. Од избора технологије до дугорочне одрживости.",
+    "competency_3_title": "Вођење ИТ пројеката",
+    "competency_3_description": "Вођење и координација развојних тимова и техничких пројеката — са јасним процесима, агилним методама и мерљивим резултатима.",
+    "competency_4_title": "Дигитална инфраструктура",
+    "competency_4_description": "Изградња и оптимизација дигиталне инфраструктуре за предузећа — од администрације сервера до интеграције модерних cloud решења."
+  },
   "impressum": {
     "title": "Импресум",
     "info_title": "Подаци у складу са § 5 TMG",
@@ -234,5 +277,35 @@
     "section_7_text": "Ова политика заштите података је тренутно важећа. Услед даљег развоја наше веб-странице или услед измењених законских односно регулаторних захтева, може бити неопходно изменити ову политику заштите података.",
     "email_label": "Е-пошта",
     "contact_label": "Контакт"
+  },
+  "team": {
+    "nav_label": "Team",
+    "competencies_headline": "Kompetenzfelder",
+    "cta_headline": "Lassen Sie uns ins Gespräch kommen",
+    "cta_subline": "Ob eine erste Frage oder ein konkretes Vorhaben — wir nehmen uns Zeit für Sie.",
+    "cta_button": "Kontakt aufnehmen",
+    "back_to_home": "Zur Startseite",
+    "breadcrumb_home": "Startseite"
+  },
+  "team_peter_fiegler": {
+    "meta_title": "Peter Fiegler — Gründer & Gesellschaftsrechtsexperte",
+    "meta_description": "Peter Fiegler, Gründer von FIECON. Langjährige Expertise im Gesellschaftsrecht, internationale Firmengründungen und persönliche Beratung auf höchstem Niveau.",
+    "hero_name": "Peter Fiegler",
+    "hero_role": "Gründer & Geschäftsführer",
+    "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
+    "bio_badge": "Über Peter Fiegler",
+    "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
+    "bio_2": "Mit Standorten in Hamburg, Belgrad und Texas hat er ein internationales Netzwerk aufgebaut, das Mandanten dort begleitet, wo ihre geschäftlichen Vorhaben sie hinführen — ob bei der Gründung einer Gesellschaft in Südosteuropa, der Strukturierung einer Holding oder der Erschließung des US-Marktes.",
+    "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
+    "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
+    "quote_attribution": "Peter Fiegler, Gründer",
+    "competency_1_title": "Gesellschaftsrecht",
+    "competency_1_description": "Beratung bei der Gründung, Strukturierung und Führung von Gesellschaften — national und international. Von der GmbH bis zur grenzüberschreitenden Holding.",
+    "competency_2_title": "Internationale Firmengründungen",
+    "competency_2_description": "Umfassende Begleitung bei Firmengründungen in Deutschland, Serbien, den USA und weiteren Jurisdiktionen. Rechtssicher und effizient.",
+    "competency_3_title": "Finanzverwaltung & Compliance",
+    "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
+    "competency_4_title": "Strategische Beratung",
+    "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
   }
 }

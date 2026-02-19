@@ -36,7 +36,8 @@
     "stat_1_label": "Postijiet madwar id-dinja",
     "stat_2_label": "Oqsma ta' prattika",
     "stat_3_label": "Pajjiżi",
-    "quote_attribution": "Peter Fiegler, Fundatur"
+    "quote_attribution": "Peter Fiegler, Fundatur",
+    "profile_link": "Mehr über Peter Fiegler erfahren"
   },
   "services": {
     "badge": "Servizzi",
@@ -186,6 +187,48 @@
     "description": "Il-paġna mitluba ma teżistix jew ġiet imċaqalqa.",
     "back": "Lura lejn il-paġna ewlenija"
   },
+  "team_rene_marquard": {
+    "meta_title": "René Marquard — Ġestjoni tal-ġid u investimenti fil-metalli prezzjużi",
+    "meta_description": "René Marquard, speċjalista fil-ġestjoni tal-ġid u l-investimenti fil-metalli prezzjużi fi FIECON. Parir dwar l-assi personali b'viżjoni u diskrezzjoni.",
+    "hero_name": "René Marquard",
+    "hero_role": "Speċjalista fil-Ġestjoni tal-Ġid",
+    "hero_tagline": "Ġestjoni tal-ġid u investimenti fil-metalli prezzjużi — b'esperjenza, diskrezzjoni u impenn personali.",
+    "bio_badge": "Dwarna René Marquard",
+    "bio_1": "René Marquard iġibb esperjenza wiesgħa fil-ġestjoni tal-ġid u l-konsulenza tar-riżorsi umani. Bħala speċjalista fl-investimenti fil-metalli prezzjużi, jgħaqqad għarfien fond tas-suq ma' fehmiet qawwija tal-ħtiġijiet indiviżwali ta' kull klijent.",
+    "bio_2": "Minn Hamburg jikkonsulta lil individwi u negozji li jfittxu jżommu l-ġid tagħhom b'mod sostenibbli u jżviluppawh strateġikament. L-approċċ tiegħu jgħaqqad il-ġestjoni klassika tal-assi ma' strateġiji ta' investiment speċjalizzati fis-settur tal-metalli prezzjużi.",
+    "bio_3": "Diskrezzjoni, qurbija personali u perspettiva fit-tul mhumiex kliem vojt għalih — huma l-bażi ta' kull impenn ta' konsulenza. Kull mandat jirċievi l-istess livell ta' kura, irrispettivament mid-daqs.",
+    "quote": "Żżomm il-ġid ifisser taġixxi b'viżjoni — mibni fuq fiduċja u viżjoni.",
+    "quote_attribution": "René Marquard",
+    "competency_1_title": "Ġestjoni tal-Ġid",
+    "competency_1_description": "Ġestjoni integrali tal-assi għal individwi u negozji — mill-analiżi u l-strateġija sal-kustodja kontinwa tal-portafoll.",
+    "competency_2_title": "Investimenti fil-Metalli Prezzjużi",
+    "competency_2_description": "Parir speċjalizzat dwar investimenti fid-deheb, l-fidda u metalli prezzjużi oħra — bħala strumenti ta' preservazzjoni u diversifikazzjoni tal-ġid.",
+    "competency_3_title": "Konsulenza tar-Riżorsi Umani",
+    "competency_3_description": "Esperjenza fir-riżorsi umani u konsulenza eżekuttiva — għal pożizzjonijiet ewlenin u bini ta' timijiet ta' prestazzjoni għolja.",
+    "competency_4_title": "Strateġija tal-Assi",
+    "competency_4_description": "Żvilupp ta' strateġiji ta' investiment indiviżwali li jbilanċjaw sigurtà u tkabbir — personali, fit-tul u trasparenti."
+  },
+  "team_andre_zimmermann": {
+    "meta_title": "Andre Zimmermann — Teknoloġija u Żvilupp tal-Web",
+    "meta_description": "Andre Zimmermann, Teknoloġija u Żvilupp tal-Web fi FIECON. Aktar minn 20 sena ta' esperjenza fl-iżvilupp tas-softwer, programmar b'saħħet l-IA u l-infrastruttura diġitali.",
+    "hero_name": "Andre Zimmermann",
+    "hero_role": "Teknoloġija u Żvilupp tal-Web",
+    "hero_tagline": "Teknoloġija u żvilupp tal-web — b'aktar minn 20 sena esperjenza fl-arkitettura tas-softwer, il-ġestjoni ta' proġetti u l-innovazzjoni diġitali.",
+    "bio_badge": "Dwarna Andre Zimmermann",
+    "bio_1": "Andre Zimmermann jirresponsabbli għad-direzzjoni teknoloġika u l-iżvilupp tal-web ta' FIECON. Bħala informatiku applikat għall-iżvilupp ta' applikazzjonijiet, jgħaqqad għarfien tekniku solidu ma' perspettiva pragmatika għal soluzzjonijiet li verament jaħdmu.",
+    "bio_2": "B'aktar minn 20 sena esperjenza professjonali fl-iżvilupp tas-softwer — mill-iżvilupp ta' applikazzjonijiet sal-ġestjoni ta' proġetti sal-konduża ta' dipartimenti sħaħ ta' żvilupp — iġorr spettru wiesgħa ta' kompetenza tekniku u organizzattiva.",
+    "bio_3": "L-aspirazzjoni tiegħu: it-teknoloġija m'għandhiex tkun skop waħda, iżda għodda — preċiża, affidabbli u mwaħħla mal-ħtieġijiet tal-intrapriża. Dan il-prinċipju jiffurmà kull proġett li jwettaq.",
+    "quote": "It-teknoloġija tajba hija inviżibbli — sempliċement taħdem.",
+    "quote_attribution": "Andre Zimmermann",
+    "competency_1_title": "Iżvilupp tal-Web u Full-Stack",
+    "competency_1_description": "Kunċett u żvilupp ta' applikazzjonijiet web moderni — mill-interface tal-utent sal-arkitettura tas-server. Performanti, siguri u skalarji.",
+    "competency_2_title": "Arkitettura tas-Softwer",
+    "competency_2_description": "Disinn ta' arkitetturi ta' sistemi robusti li jikbru mal-intrapriża. Mill-għażla tat-teknoloġija sal-manutenibbiltà fit-tul.",
+    "competency_3_title": "Ġestjoni ta' Proġetti IT",
+    "competency_3_description": "Konduzza u koordinazzjoni ta' timijiet ta' żvilupp u proġetti tekniċi — b'proċessi ċari, metodi aġili u riżultati mkejla.",
+    "competency_4_title": "Infrastruttura Diġitali",
+    "competency_4_description": "Kostruzzjoni u ottimizzazzjoni ta' infrastrutturi diġitali għal intrapriżi — mill-amministrazzjoni tas-server sal-integrazzjoni ta' soluzzjonijiet cloud moderni."
+  },
   "impressum": {
     "title": "Avviż legali",
     "info_title": "Informazzjoni skont § 5 TMG",
@@ -234,5 +277,35 @@
     "section_7_text": "Din il-politika tal-privatezza hija valida bħalissa. Minħabba l-iżvilupp ulterjuri tal-websajt tagħna jew minħabba rekwiżiti legali jew regolatorji mibdula, jista' jkun meħtieġ li tiġi emendata din il-politika tal-privatezza.",
     "email_label": "Email",
     "contact_label": "Kuntatt"
+  },
+  "team": {
+    "nav_label": "Team",
+    "competencies_headline": "Kompetenzfelder",
+    "cta_headline": "Lassen Sie uns ins Gespräch kommen",
+    "cta_subline": "Ob eine erste Frage oder ein konkretes Vorhaben — wir nehmen uns Zeit für Sie.",
+    "cta_button": "Kontakt aufnehmen",
+    "back_to_home": "Zur Startseite",
+    "breadcrumb_home": "Startseite"
+  },
+  "team_peter_fiegler": {
+    "meta_title": "Peter Fiegler — Gründer & Gesellschaftsrechtsexperte",
+    "meta_description": "Peter Fiegler, Gründer von FIECON. Langjährige Expertise im Gesellschaftsrecht, internationale Firmengründungen und persönliche Beratung auf höchstem Niveau.",
+    "hero_name": "Peter Fiegler",
+    "hero_role": "Gründer & Geschäftsführer",
+    "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
+    "bio_badge": "Über Peter Fiegler",
+    "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
+    "bio_2": "Mit Standorten in Hamburg, Belgrad und Texas hat er ein internationales Netzwerk aufgebaut, das Mandanten dort begleitet, wo ihre geschäftlichen Vorhaben sie hinführen — ob bei der Gründung einer Gesellschaft in Südosteuropa, der Strukturierung einer Holding oder der Erschließung des US-Marktes.",
+    "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
+    "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
+    "quote_attribution": "Peter Fiegler, Gründer",
+    "competency_1_title": "Gesellschaftsrecht",
+    "competency_1_description": "Beratung bei der Gründung, Strukturierung und Führung von Gesellschaften — national und international. Von der GmbH bis zur grenzüberschreitenden Holding.",
+    "competency_2_title": "Internationale Firmengründungen",
+    "competency_2_description": "Umfassende Begleitung bei Firmengründungen in Deutschland, Serbien, den USA und weiteren Jurisdiktionen. Rechtssicher und effizient.",
+    "competency_3_title": "Finanzverwaltung & Compliance",
+    "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
+    "competency_4_title": "Strategische Beratung",
+    "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
   }
 }

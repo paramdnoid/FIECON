@@ -36,7 +36,8 @@
     "stat_1_label": "Kokapena munduan",
     "stat_2_label": "Jarduera arloak",
     "stat_3_label": "Herrialdeak",
-    "quote_attribution": "Peter Fiegler, Sortzailea"
+    "quote_attribution": "Peter Fiegler, Sortzailea",
+    "profile_link": "Mehr über Peter Fiegler erfahren"
   },
   "services": {
     "badge": "Zerbitzuak",
@@ -186,6 +187,48 @@
     "description": "Eskatutako orria ez da existitzen edo mugitu egin da.",
     "back": "Hasiera orrira itzuli"
   },
+  "team_rene_marquard": {
+    "meta_title": "René Marquard — Ondare kudeaketa eta metal preziatuen inbertsioak",
+    "meta_description": "René Marquard, ondare kudeaketa eta metal preziatuen inbertsioen espezialista FIECONen. Ondare aholkularitza pertsonala ikuspegi eta diskrezioarekin.",
+    "hero_name": "René Marquard",
+    "hero_role": "Ondare Kudeaketa Espezialista",
+    "hero_tagline": "Ondare kudeaketa eta metal preziatuen inbertsioak — esperientzia, diskrezio eta konpromiso pertsonalarekin.",
+    "bio_badge": "René Marquardi buruz",
+    "bio_1": "René Marquardek ondare kudeaketa eta giza baliabideen aholkularitzan esperientzia zabala dakar. Metal preziatuen inbertsioen espezialista gisa, merkatu-ezagutza sakona eta bezero bakoitzaren behar indibidualen ulermen zorrotza uztartzen ditu.",
+    "bio_2": "Hamburgotik partikularrak eta enpresentzak aholkatzen ditu beren ondarea iraunkorki babestu eta estrategikoki garatu nahi dutenak. Bere ikuspegian ondare kudeaketa klasikoa eta metal preziatuen sektoreko inbertsio-estrategia espezializatuak uztartzen dira.",
+    "bio_3": "Diskrezioa, hurbiltasun pertsonala eta ikuspegi luzera ez dira hitz hutsak harentzat — aholkularitza-harreman bakoitzaren oinarria dira. Mandatu guztiek arreta maila bera jasotzen dute, tamainaren arabera gabe.",
+    "quote": "Ondarea babestea ikuspegiarekin jokatzea da — konfiantza eta bistaren gainean eraikia.",
+    "quote_attribution": "René Marquard",
+    "competency_1_title": "Ondare Kudeaketa",
+    "competency_1_description": "Ondare kudeaketa integrala partikularrentzat eta enpresentzat — analisitik eta estrategiatik portfolioaren zaintza jarraituraino.",
+    "competency_2_title": "Metal Preziatuen Inbertsioak",
+    "competency_2_description": "Aholkularitza espezializatua urre, zilar eta beste metal preziaturen inbertsioei buruz — ondare babesteko eta dibertsifikatzeko tresna gisa.",
+    "competency_3_title": "Giza Baliabideen Aholkularitza",
+    "competency_3_description": "Esperientzia giza baliabideetan eta zuzendaritzako aholkularitzan — postu gakoak betetzeko eta errendimendu handiko taldeak eraikitzeko.",
+    "competency_4_title": "Ondare Estrategia",
+    "competency_4_description": "Segurtasuna eta hazkundea orekatu egiten duten inbertsio-estrategia indibidualen garapena — pertsonala, luzera eta gardena."
+  },
+  "team_andre_zimmermann": {
+    "meta_title": "Andre Zimmermann — Teknologia eta Web Garapena",
+    "meta_description": "Andre Zimmermann, FIECONeko Teknologia eta Web Garapena. 20 urte baino gehiagoko esperientzia software garapenean, IA lagundutako programazioan eta azpiegitura digitalean.",
+    "hero_name": "Andre Zimmermann",
+    "hero_role": "Teknologia eta Web Garapena",
+    "hero_tagline": "Teknologia eta web garapena — 20 urte baino gehiagoko esperientziarekin eta IAren erabilera estrategikoarekin irtenbide digital profesional maximoei.",
+    "bio_badge": "Andre Zimmermanni buruz",
+    "bio_1": "Andre Zimmermann FIECONeko orientazio teknologiko eta web garapenaz arduratzen da. Aplikazioen garapenean espezializatutako informatika teknikari gisa, ezagutza tekniko sendoa adimen artifizialaren erabilera helburudunarekin uztartzen du — eta horrela eskaera handiko proiektuak errealitate profesional maximora bihurtzen ditu.",
+    "bio_2": "Software garapenean 20 urte baino gehiagoko esperientzia profesionalarekin eta IA lagundutako programazioaren ulermen sakonarekin, profil berezi bat ekartzen du: IA teknologia modernoenak erabiltzen ditu tresna estrategiko gisa garapen prozesuak azkartzeko eta maila profesional gorenean emaitzak lortzeko.",
+    "bio_3": "Bere printzipioa: teknologia ez da helburu izan behar, tresna baizik — zehatza, fidagarria eta enpresaaren beharretara egokitua. IA lagun gisa, ikuspegi bakoitza konbentitzen duen emaitza bihurtzen da.",
+    "quote": "Teknologia ona ikusezina da — besterik gabe funtzionatzen du.",
+    "quote_attribution": "Andre Zimmermann",
+    "competency_1_title": "Web Garapena eta Full-Stack",
+    "competency_1_description": "Web aplikazio modernoen kontzepzioa eta garapena — erabiltzaile-interfazetik zerbitzari-arkitekturaraino. Errendimendu ona, segurua eta eskala daiteke.",
+    "competency_2_title": "Software Arkitektura",
+    "competency_2_description": "Enpresarekin batera hazten diren sistema-arkitektura sendoak diseinatzea. Teknologia hautaketatik mantentze luzerainoko.",
+    "competency_3_title": "IT Proiektu Kudeaketa",
+    "competency_3_description": "Garapen taldeen eta proiektu teknikoen lidergoa eta koordinazioa — prozesu argiekin, metodologia agilekin eta emaitza neurgarriekin.",
+    "competency_4_title": "Azpiegitura Digitala",
+    "competency_4_description": "Enpresentzat azpiegitura digitalen eraikuntza eta optimizazioa — zerbitzari administraziotik cloud irtenbide modernoen integrazioraino."
+  },
   "impressum": {
     "title": "Lege Oharra",
     "info_title": "§ 5 TMG-ren araberako informazioa",
@@ -234,5 +277,35 @@
     "section_7_text": "Pribatutasun politika hau gaur egun baliozkoa da. Gure webgunearen garapenaren ondorioz edo legezko edo arauketa baldintza aldatuen ondorioz, pribatutasun politika hau aldatzea beharrezkoa izan daiteke.",
     "email_label": "Posta elektronikoa",
     "contact_label": "Kontaktua"
+  },
+  "team": {
+    "nav_label": "Team",
+    "competencies_headline": "Kompetenzfelder",
+    "cta_headline": "Lassen Sie uns ins Gespräch kommen",
+    "cta_subline": "Ob eine erste Frage oder ein konkretes Vorhaben — wir nehmen uns Zeit für Sie.",
+    "cta_button": "Kontakt aufnehmen",
+    "back_to_home": "Zur Startseite",
+    "breadcrumb_home": "Startseite"
+  },
+  "team_peter_fiegler": {
+    "meta_title": "Peter Fiegler — Gründer & Gesellschaftsrechtsexperte",
+    "meta_description": "Peter Fiegler, Gründer von FIECON. Langjährige Expertise im Gesellschaftsrecht, internationale Firmengründungen und persönliche Beratung auf höchstem Niveau.",
+    "hero_name": "Peter Fiegler",
+    "hero_role": "Gründer & Geschäftsführer",
+    "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
+    "bio_badge": "Über Peter Fiegler",
+    "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
+    "bio_2": "Mit Standorten in Hamburg, Belgrad und Texas hat er ein internationales Netzwerk aufgebaut, das Mandanten dort begleitet, wo ihre geschäftlichen Vorhaben sie hinführen — ob bei der Gründung einer Gesellschaft in Südosteuropa, der Strukturierung einer Holding oder der Erschließung des US-Marktes.",
+    "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
+    "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
+    "quote_attribution": "Peter Fiegler, Gründer",
+    "competency_1_title": "Gesellschaftsrecht",
+    "competency_1_description": "Beratung bei der Gründung, Strukturierung und Führung von Gesellschaften — national und international. Von der GmbH bis zur grenzüberschreitenden Holding.",
+    "competency_2_title": "Internationale Firmengründungen",
+    "competency_2_description": "Umfassende Begleitung bei Firmengründungen in Deutschland, Serbien, den USA und weiteren Jurisdiktionen. Rechtssicher und effizient.",
+    "competency_3_title": "Finanzverwaltung & Compliance",
+    "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
+    "competency_4_title": "Strategische Beratung",
+    "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
   }
 }

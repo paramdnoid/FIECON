@@ -36,7 +36,8 @@
     "stat_1_label": "Staðsetningar um heim allan",
     "stat_2_label": "Starfsvið",
     "stat_3_label": "Lönd",
-    "quote_attribution": "Peter Fiegler, stofnandi"
+    "quote_attribution": "Peter Fiegler, stofnandi",
+    "profile_link": "Mehr über Peter Fiegler erfahren"
   },
   "services": {
     "badge": "Þjónusta",
@@ -186,6 +187,48 @@
     "description": "Umbeðin síða er ekki til eða hefur verið færð.",
     "back": "Til baka á forsíðu"
   },
+  "team_rene_marquard": {
+    "meta_title": "René Marquard — Auðstjórn og fjárfestingar í góðmálmum",
+    "meta_description": "René Marquard, sérfræðingur í auðstjórn og fjárfestingum í góðmálmum hjá FIECON. Persónuleg eignaráðgjöf með framsýni og þagnarskyldu.",
+    "hero_name": "René Marquard",
+    "hero_role": "Sérfræðingur í auðstjórn",
+    "hero_tagline": "Auðstjórn og fjárfestingar í góðmálmum — með reynslu, þagnarskyldu og persónulegri skuldbindingu.",
+    "bio_badge": "Um René Marquard",
+    "bio_1": "René Marquard flytur inn víðtæka sérfræðiþekkingu í auðstjórn og mannauðsráðgjöf. Sem sérfræðingur í fjárfestingum í góðmálmum sameinar hann dýptarmikla markaðsþekkingu með skarpri skilningi á einstaka þörfum hvers viðskiptavinar.",
+    "bio_2": "Úr Hamborg ráðleggur hann einstaklingum og fyrirtækjum sem vilja varðveita auð sinn á sjálfbæran hátt og þróa hann stefnumótandi. Nálgun hans sameinar hefðbundna eignastjórn með sérhæfðum fjárfestingarstefnum í góðmálmageiranum.",
+    "bio_3": "Þagnarskylda, persónuleg nálægð og langtímasýn eru ekki tóm orð fyrir hann — þau eru grundvöllur hvers ráðgjafarviðskipta. Sérhver umboð fær sömu umhyggju, óháð stærð.",
+    "quote": "Að varðveita auð þýðir að hafa framsýni — byggt á trausti og sýn.",
+    "quote_attribution": "René Marquard",
+    "competency_1_title": "Auðstjórn",
+    "competency_1_description": "Heildræn eignastjórn fyrir einstaklinga og fyrirtæki — frá greiningu og stefnu til áframhaldandi eignaverndar.",
+    "competency_2_title": "Fjárfestingar í góðmálmum",
+    "competency_2_description": "Sérhæfð ráðgjöf um fjárfestingar í gulli, silfri og öðrum góðmálmum — sem tæki til auðvarðveitingar og fjölbreytni.",
+    "competency_3_title": "Mannauðsráðgjöf",
+    "competency_3_description": "Sérfræði í mannauði og ráðgjöf til stjórnenda — til að fylla lykilstöður og byggja upp háárangurslið.",
+    "competency_4_title": "Eignastefna",
+    "competency_4_description": "Þróun einstaklingsbundinna fjárfestingarstefna sem jafna öryggi og vöxt — persónulega, til lengri tíma og gagnsæja."
+  },
+  "team_andre_zimmermann": {
+    "meta_title": "Andre Zimmermann — Tækni og vefþróun",
+    "meta_description": "Andre Zimmermann, tækni og vefþróun hjá FIECON. Yfir 20 ára reynsla í hugbúnaðarþróun, forritun með gervigreind og stafrænni innviðum.",
+    "hero_name": "Andre Zimmermann",
+    "hero_role": "Tækni og vefþróun",
+    "hero_tagline": "Tækni og vefþróun — með yfir 20 ára reynslu og stefnumótandi notkun gervigreindar til að skila verkefnum á hæsta faglegu staðli.",
+    "bio_badge": "Um Andre Zimmermann",
+    "bio_1": "Andre Zimmermann ber ábyrgð á tæknilegri stefnu og vefþróun FIECON. Sem fullgildur forritunaraðili sameinar hann dýptar tæknilegar þekkingar með markvissri notkun gervigreindar — og breytir metnaðarfullum verkefnum í veruleika á hæsta faglegu staðli.",
+    "bio_2": "Með yfir 20 ára faglega reynslu í hugbúnaðarþróun og dýpa skilning á forritun með gervigreind, býr hann einstakt prófíl: hann nýtir nútíma gervigreindartækni sem stefnumótandi tól til að flýta þróun og skila niðurstöðum af hámarks faglega gæðum.",
+    "bio_3": "Meginregla hans: tækni ætti aldrei að vera tilgangur í sjálfu sér, heldur tól — nákvæmt, áreiðanlegt og aðlagað þörfum fyrirtækisins. Með gervigreind sem samstarfsaðila verður hver framtíðarsýn að niðurstöðu sem sannarlega sannfærir.",
+    "quote": "Great technology is invisible — it simply works.",
+    "quote_attribution": "Andre Zimmermann",
+    "competency_1_title": "Web Development & Full-Stack",
+    "competency_1_description": "Conception and development of modern web applications — from user interface to server architecture. Performant, secure and scalable.",
+    "competency_2_title": "Software Architecture",
+    "competency_2_description": "Design of robust system architectures that grow with the business. From technology selection to long-term maintainability.",
+    "competency_3_title": "IT Project Management",
+    "competency_3_description": "Leadership and coordination of development teams and technical projects — with clear processes, agile methodologies and measurable outcomes.",
+    "competency_4_title": "Digital Infrastructure",
+    "competency_4_description": "Building and optimising digital infrastructure for businesses — from server administration to the integration of modern cloud solutions."
+  },
   "impressum": {
     "title": "Lagaleg tilkynning",
     "info_title": "Upplýsingar samkvæmt § 5 TMG",
@@ -234,5 +277,35 @@
     "section_7_text": "Þessi persónuverndarstefna gildir eins og hún er. Vegna frekari þróunar vefsíðu okkar eða vegna breyttra lagalegra eða reglugerðarkrafna gæti orðið nauðsynlegt að breyta þessari persónuverndarstefnu.",
     "email_label": "Netfang",
     "contact_label": "Hafa samband"
+  },
+  "team": {
+    "nav_label": "Team",
+    "competencies_headline": "Kompetenzfelder",
+    "cta_headline": "Lassen Sie uns ins Gespräch kommen",
+    "cta_subline": "Ob eine erste Frage oder ein konkretes Vorhaben — wir nehmen uns Zeit für Sie.",
+    "cta_button": "Kontakt aufnehmen",
+    "back_to_home": "Zur Startseite",
+    "breadcrumb_home": "Startseite"
+  },
+  "team_peter_fiegler": {
+    "meta_title": "Peter Fiegler — Gründer & Gesellschaftsrechtsexperte",
+    "meta_description": "Peter Fiegler, Gründer von FIECON. Langjährige Expertise im Gesellschaftsrecht, internationale Firmengründungen und persönliche Beratung auf höchstem Niveau.",
+    "hero_name": "Peter Fiegler",
+    "hero_role": "Gründer & Geschäftsführer",
+    "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
+    "bio_badge": "Über Peter Fiegler",
+    "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
+    "bio_2": "Mit Standorten in Hamburg, Belgrad und Texas hat er ein internationales Netzwerk aufgebaut, das Mandanten dort begleitet, wo ihre geschäftlichen Vorhaben sie hinführen — ob bei der Gründung einer Gesellschaft in Südosteuropa, der Strukturierung einer Holding oder der Erschließung des US-Marktes.",
+    "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
+    "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
+    "quote_attribution": "Peter Fiegler, Gründer",
+    "competency_1_title": "Gesellschaftsrecht",
+    "competency_1_description": "Beratung bei der Gründung, Strukturierung und Führung von Gesellschaften — national und international. Von der GmbH bis zur grenzüberschreitenden Holding.",
+    "competency_2_title": "Internationale Firmengründungen",
+    "competency_2_description": "Umfassende Begleitung bei Firmengründungen in Deutschland, Serbien, den USA und weiteren Jurisdiktionen. Rechtssicher und effizient.",
+    "competency_3_title": "Finanzverwaltung & Compliance",
+    "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
+    "competency_4_title": "Strategische Beratung",
+    "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
   }
 }

@@ -5,8 +5,8 @@
   },
   "metadata": {
     "title": "FIECON — Internationale Beratung für Gesellschaftsrecht & Firmengründungen",
-    "description": "FIECON Germany Co. KG — Internationale Beratung für Gesellschaftsrecht, Firmengründungen, Finanzverwaltung und Baufinanzierung. Standorte in Hamburg, Belgrad und Texas.",
-    "keywords": "Gesellschaftsrecht, Firmengründung international, Beratung Gesellschaftsrecht Hamburg, internationale Firmengründung, Finanzverwaltung, Baufinanzierung, Yachtbaufinanzierung, Unternehmensberatung Hamburg, Firmengründung Serbien, Firmengründung USA Texas, FIECON Consulting"
+    "description": "FIECON Germany Co. KG — Internationale Beratung für Gesellschaftsrecht, Firmengründungen, Finanzverwaltung und Bau Finanzverwaltung. Standorte in Hamburg, Belgrad und Texas.",
+    "keywords": "Gesellschaftsrecht, Firmengründung international, Beratung Gesellschaftsrecht Hamburg, internationale Firmengründung, Finanzverwaltung, Bau Finanzverwaltung, Yachtbau Finanzverwaltung, Unternehmensberatung Hamburg, Firmengründung Serbien, Firmengründung USA Texas, FIECON Consulting"
   },
   "nav": {
     "home": "Zur Startseite",
@@ -31,12 +31,13 @@
     "badge": "Über uns",
     "headline": "Weitblick trifft Sorgfalt",
     "text_1": "FIECON steht für internationale Beratung mit persönlicher Haltung. Unser Schwerpunkt liegt im Gesellschaftsrecht und bei internationalen Firmengründungen — Bereiche, in denen Erfahrung, Präzision und kulturelles Verständnis den Unterschied machen.",
-    "text_2": "Von Hamburg, Belgrad und Texas aus begleiten wir Unternehmen über Ländergrenzen hinweg. Ergänzend beraten wir in der Finanzverwaltung, der Baufinanzierung und der Yachtbaufinanzierung — immer mit dem Anspruch, Ihre Interessen so zu vertreten, als wären es unsere eigenen.",
+    "text_2": "Von Hamburg, Belgrad und Texas aus begleiten wir Unternehmen über Ländergrenzen hinweg. Ergänzend beraten wir in der Finanzverwaltung, der Bau Finanzverwaltung und der Yachtbau Finanzverwaltung — immer mit dem Anspruch, Ihre Interessen so zu vertreten, als wären es unsere eigenen.",
     "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
     "stat_1_label": "Standorte weltweit",
     "stat_2_label": "Fachbereiche",
     "stat_3_label": "Länder",
-    "quote_attribution": "Peter Fiegler, Gründer"
+    "quote_attribution": "Peter Fiegler, Gründer",
+    "profile_link": "Mehr über Peter Fiegler erfahren"
   },
   "services": {
     "badge": "Leistungen",
@@ -59,7 +60,7 @@
       }
     },
     "construction": {
-      "title": "Baufinanzierung",
+      "title": "Bau Finanzverwaltung",
       "description": "Bauprojekte brauchen finanzielle Verlässlichkeit. Wir strukturieren und begleiten die Finanzierung Ihrer Bauvorhaben — von der ersten Kalkulation bis zur Fertigstellung.",
       "items": {
         "0": "Projektfinanzierung",
@@ -67,10 +68,10 @@
       }
     },
     "yacht": {
-      "title": "Yachtbaufinanzierung",
+      "title": "Yachtbau Finanzverwaltung",
       "description": "Ein besonderes Segment verdient besondere Sorgfalt. Wir beraten bei der Finanzierung von Yachtbauprojekten — diskret, persönlich und mit Verständnis für die Ansprüche dieser Branche.",
       "items": {
-        "0": "Yachtfinanzierung",
+        "0": "Yachtbau Finanzierung",
         "1": "Persönliche Beratung"
       }
     },
@@ -185,6 +186,78 @@
     "title": "Seite nicht gefunden",
     "description": "Die angeforderte Seite existiert nicht oder wurde verschoben.",
     "back": "Zur Startseite"
+  },
+  "team": {
+    "nav_label": "Team",
+    "competencies_headline": "Kompetenzfelder",
+    "cta_headline": "Lassen Sie uns ins Gespräch kommen",
+    "cta_subline": "Ob eine erste Frage oder ein konkretes Vorhaben — wir nehmen uns Zeit für Sie.",
+    "cta_button": "Kontakt aufnehmen",
+    "back_to_home": "Zur Startseite",
+    "breadcrumb_home": "Startseite"
+  },
+  "team_peter_fiegler": {
+    "meta_title": "Peter Fiegler — Gründer & Gesellschaftsrechtsexperte",
+    "meta_description": "Peter Fiegler, Gründer von FIECON. Langjährige Expertise im Gesellschaftsrecht, internationale Firmengründungen und persönliche Beratung auf höchstem Niveau.",
+    "hero_name": "Peter Fiegler",
+    "hero_role": "Gründer & Geschäftsführer",
+    "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
+    "bio_badge": "Über Peter Fiegler",
+    "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
+    "bio_2": "Mit Standorten in Hamburg, Belgrad und Texas hat er ein internationales Netzwerk aufgebaut, das Mandanten dort begleitet, wo ihre geschäftlichen Vorhaben sie hinführen — ob bei der Gründung einer Gesellschaft in Südosteuropa, der Strukturierung einer Holding oder der Erschließung des US-Marktes.",
+    "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
+    "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
+    "quote_attribution": "Peter Fiegler, Gründer",
+    "competency_1_title": "Gesellschaftsrecht",
+    "competency_1_description": "Beratung bei der Gründung, Strukturierung und Führung von Gesellschaften — national und international. Von der GmbH bis zur grenzüberschreitenden Holding.",
+    "competency_2_title": "Internationale Firmengründungen",
+    "competency_2_description": "Umfassende Begleitung bei Firmengründungen in Deutschland, Serbien, den USA und weiteren Jurisdiktionen. Rechtssicher und effizient.",
+    "competency_3_title": "Finanzverwaltung & Compliance",
+    "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
+    "competency_4_title": "Strategische Beratung",
+    "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
+  },
+  "team_rene_marquard": {
+    "meta_title": "René Marquard — Wealth Management & Edelmetall-Finanzanlagen",
+    "meta_description": "René Marquard, Spezialist für Wealth Management und Finanzanlagen in Edelmetall bei FIECON. Persönliche Vermögensberatung mit Weitblick und Diskretion.",
+    "hero_name": "René Marquard",
+    "hero_role": "Spezialist für Wealth Management",
+    "hero_tagline": "Wealth Management und Finanzanlagen in Edelmetall — mit Erfahrung, Diskretion und persönlichem Engagement.",
+    "bio_badge": "Über René Marquard",
+    "bio_1": "René Marquard bringt langjährige Expertise im Wealth Management und in der Personalberatung mit. Als Spezialist für Finanzanlagen in Edelmetall verbindet er fundiertes Marktwissen mit einem ausgeprägten Gespür für die individuellen Bedürfnisse seiner Mandanten.",
+    "bio_2": "Von Hamburg aus berät er Privatpersonen und Unternehmen, die ihr Vermögen nachhaltig sichern und strategisch weiterentwickeln möchten. Sein Ansatz verbindet klassische Vermögensverwaltung mit spezialisierten Anlagestrategien im Edelmetallsektor.",
+    "bio_3": "Diskretion, persönliche Nähe und eine langfristige Perspektive sind für ihn keine Schlagworte, sondern die Grundlage jeder Beratung. Jedes Mandat wird mit derselben Sorgfalt betreut — unabhängig von seiner Größe.",
+    "quote": "Vermögen bewahren heißt, vorausschauend handeln — mit Vertrauen und Weitblick.",
+    "quote_attribution": "René Marquard",
+    "competency_1_title": "Wealth Management",
+    "competency_1_description": "Ganzheitliche Vermögensverwaltung für Privatpersonen und Unternehmen — von der Analyse über die Strategie bis zur laufenden Betreuung.",
+    "competency_2_title": "Edelmetall-Finanzanlagen",
+    "competency_2_description": "Spezialisierte Beratung zu Finanzanlagen in Gold, Silber und weiteren Edelmetallen — als Instrument der Vermögenssicherung und Diversifikation.",
+    "competency_3_title": "Personalberatung",
+    "competency_3_description": "Erfahrung in Human Resources und Personalberatung — für die Besetzung von Schlüsselpositionen und den Aufbau leistungsstarker Teams.",
+    "competency_4_title": "Vermögensstrategie",
+    "competency_4_description": "Entwicklung individueller Anlagestrategien, die Sicherheit und Wachstum in Einklang bringen — persönlich, langfristig und transparent."
+  },
+  "team_andre_zimmermann": {
+    "meta_title": "Andre Zimmermann — Technologie & Webentwicklung",
+    "meta_description": "Andre Zimmermann, Technologie und Webentwicklung bei FIECON. Über 20 Jahre Erfahrung in Softwareentwicklung, KI-gestützter Programmierung und digitaler Infrastruktur.",
+    "hero_name": "Andre Zimmermann",
+    "hero_role": "Technologie & Webentwicklung",
+    "hero_tagline": "Technologie und Webentwicklung — mit über 20 Jahren Erfahrung und dem strategischen Einsatz von KI für maximal professionelle digitale Lösungen.",
+    "bio_badge": "Über Andre Zimmermann",
+    "bio_1": "Andre Zimmermann verantwortet bei FIECON die technologische Ausrichtung und die Webentwicklung. Als Fachinformatiker für Anwendungsentwicklung verbindet er fundiertes technisches Know-how mit dem gezielten Einsatz künstlicher Intelligenz — und verwandelt so anspruchsvolle Projekte in maximal professionelle Realität.",
+    "bio_2": "Mit über 20 Jahren Berufserfahrung in der Softwareentwicklung und einem tiefen Verständnis für KI-gestützte Programmierung bringt er ein einzigartiges Profil mit: Er nutzt modernste KI-Technologien als strategisches Werkzeug, um Entwicklungsprozesse zu beschleunigen und Ergebnisse auf höchstem professionellem Niveau zu realisieren.",
+    "bio_3": "Sein Anspruch: Technologie soll nicht Selbstzweck sein, sondern Werkzeug — präzise, verlässlich und auf die Bedürfnisse des Unternehmens zugeschnitten. Mit KI als Partner wird aus jeder Vision ein Ergebnis, das überzeugt.",
+    "quote": "Gute Technologie ist unsichtbar — sie funktioniert einfach.",
+    "quote_attribution": "Andre Zimmermann",
+    "competency_1_title": "Webentwicklung & Full-Stack",
+    "competency_1_description": "Konzeption und Entwicklung moderner Webanwendungen — von der Benutzeroberfläche bis zur Serverarchitektur. Performant, sicher und skalierbar.",
+    "competency_2_title": "Software-Architektur",
+    "competency_2_description": "Entwurf robuster Systemarchitekturen, die mit dem Unternehmen wachsen. Von der Technologieauswahl bis zur langfristigen Wartbarkeit.",
+    "competency_3_title": "IT-Projektleitung",
+    "competency_3_description": "Führung und Koordination von Entwicklungsteams und technischen Projekten — mit klaren Prozessen, agilen Methoden und messbaren Ergebnissen.",
+    "competency_4_title": "Digitale Infrastruktur",
+    "competency_4_description": "Aufbau und Optimierung digitaler Infrastrukturen für Unternehmen — von der Serveradministration bis zur Integration moderner Cloud-Lösungen."
   },
   "impressum": {
     "title": "Impressum",

@@ -36,7 +36,8 @@
     "stat_1_label": "Dünya genelinde ofis",
     "stat_2_label": "Uzmanlık alanı",
     "stat_3_label": "Ülke",
-    "quote_attribution": "Peter Fiegler, Kurucu"
+    "quote_attribution": "Peter Fiegler, Kurucu",
+    "profile_link": "Mehr über Peter Fiegler erfahren"
   },
   "services": {
     "badge": "Hizmetler",
@@ -186,6 +187,48 @@
     "description": "İstenen sayfa mevcut değil veya taşınmış.",
     "back": "Ana sayfaya git"
   },
+  "team_rene_marquard": {
+    "meta_title": "René Marquard — Varlık Yönetimi ve Kıymetli Maden Yatırımları",
+    "meta_description": "René Marquard, FIECON'da varlık yönetimi ve kıymetli maden yatırımları uzmanı. Öngörü ve ketumiyetle kişisel varlık danışmanlığı.",
+    "hero_name": "René Marquard",
+    "hero_role": "Varlık Yönetimi Uzmanı",
+    "hero_tagline": "Varlık yönetimi ve kıymetli maden yatırımları — deneyim, ketumiyet ve kişisel bağlılıkla.",
+    "bio_badge": "René Marquard Hakkında",
+    "bio_1": "René Marquard, varlık yönetimi ve insan kaynakları danışmanlığında kapsamlı uzmanlık sunar. Kıymetli maden yatırımları uzmanı olarak derin piyasa bilgisini her müşterinin bireysel ihtiyaçlarını anlama becerisiyle birleştirir.",
+    "bio_2": "Hamburg'dan özel bireylere ve işletmelere, varlıklarını sürdürülebilir biçimde korumak ve stratejik olarak geliştirmek isteyenlere danışmanlık yapar. Yaklaşımı, klasik varlık yönetimini kıymetli maden sektöründe uzmanlaşmış yatırım stratejileriyle harmanlar.",
+    "bio_3": "Ketumiyet, kişisel yakınlık ve uzun vadeli perspektif onun için boş laflar değil — her danışmanlık ilişkisinin temelidir. Her vekalet, büyüklüğü ne olursa olsun aynı düzeyde özen görür.",
+    "quote": "Varlığı korumak, öngörüyle hareket etmektir — güven ve vizyon üzerine kurulu.",
+    "quote_attribution": "René Marquard",
+    "competency_1_title": "Varlık Yönetimi",
+    "competency_1_description": "Özel bireyler ve işletmeler için bütüncül varlık yönetimi — analiz ve stratejiden portföyün sürekli gözetimine.",
+    "competency_2_title": "Kıymetli Maden Yatırımları",
+    "competency_2_description": "Altın, gümüş ve diğer kıymetli madenlere yatırımlar konusunda uzman danışmanlık — varlık koruma ve çeşitlendirme aracı olarak.",
+    "competency_3_title": "İnsan Kaynakları Danışmanlığı",
+    "competency_3_description": "İnsan kaynakları ve yönetici danışmanlığında uzmanlık — kilit pozisyonların doldurulması ve yüksek performanslı ekiplerin kurulması için.",
+    "competency_4_title": "Varlık Stratejisi",
+    "competency_4_description": "Güvenlik ve büyümeyi dengeleyen bireysel yatırım stratejileri geliştirme — kişisel, uzun vadeli ve şeffaf."
+  },
+  "team_andre_zimmermann": {
+    "meta_title": "Andre Zimmermann — Teknoloji ve Web Geliştirme",
+    "meta_description": "Andre Zimmermann, FIECON'da Teknoloji ve Web Geliştirme. Yazılım geliştirme, yapay zeka destekli programlama ve dijital altyapıda 20 yılı aşkın deneyim.",
+    "hero_name": "Andre Zimmermann",
+    "hero_role": "Teknoloji ve Web Geliştirme",
+    "hero_tagline": "Teknoloji ve web geliştirme — 20 yılı aşkın deneyim ve projeleri en yüksek profesyonel standartta teslim etmek için yapay zekanın stratejik kullanımı.",
+    "bio_badge": "Andre Zimmermann Hakkında",
+    "bio_1": "Andre Zimmermann FIECON'da teknolojik yönelim ve web geliştirmeden sorumludur. Sertifikalı uygulama geliştirici olarak derin teknik uzmanlığı yapay zekanın hedefli kullanımıyla birleştirir — iddialı projeleri en yüksek profesyonel standartta gerçeğe dönüştürür.",
+    "bio_2": "Yazılım geliştirmede 20 yılı aşkın profesyonel deneyim ve yapay zeka destekli programlamaya derin bir anlayışla, benzersiz bir profil sunar: geliştirmeyi hızlandırmak ve azami profesyonel kalitede sonuçlar elde etmek için en ileri yapay zeka teknolojilerini stratejik bir araç olarak kullanır.",
+    "bio_3": "İlkesi: teknoloji kendi başına amaç değil, araç olmalıdır — hassas, güvenilir ve işletmenin ihtiyaçlarına uyarlanmış. Yapay zeka ile ortaklıkta her vizyon, gerçekten ikna eden bir sonuca dönüşür.",
+    "quote": "İyi teknoloji görünmezdir — sadece çalışır.",
+    "quote_attribution": "Andre Zimmermann",
+    "competency_1_title": "Web Geliştirme ve Full-Stack",
+    "competency_1_description": "Modern web uygulamalarının kavramsallaştırılması ve geliştirilmesi — kullanıcı arayüzünden sunucu mimarisine. Performanslı, güvenli ve ölçeklenebilir.",
+    "competency_2_title": "Yazılım Mimarisi",
+    "competency_2_description": "İşletmeyle birlikte büyüyen sağlam sistem mimarilerinin tasarımı. Teknoloji seçiminden uzun vadeli bakım kolaylığına kadar.",
+    "competency_3_title": "IT Proje Yönetimi",
+    "competency_3_description": "Geliştirme ekiplerinin ve teknik projelerin yönetimi ve koordinasyonu — net süreçler, çevik yöntemler ve ölçülebilir sonuçlarla.",
+    "competency_4_title": "Dijital Altyapı",
+    "competency_4_description": "İşletmeler için dijital altyapının kurulması ve optimize edilmesi — sunucu yönetiminden modern bulut çözümlerinin entegrasyonuna kadar."
+  },
   "impressum": {
     "title": "Künye",
     "info_title": "§ 5 TMG uyarınca bilgiler",
@@ -234,5 +277,35 @@
     "section_7_text": "Bu gizlilik politikası şu anda geçerlidir. Web sitemizin geliştirilmesi veya değişen yasal ya da resmi gereklilikler nedeniyle bu gizlilik politikasının değiştirilmesi gerekebilir.",
     "email_label": "E-posta",
     "contact_label": "İletişim"
+  },
+  "team": {
+    "nav_label": "Team",
+    "competencies_headline": "Kompetenzfelder",
+    "cta_headline": "Lassen Sie uns ins Gespräch kommen",
+    "cta_subline": "Ob eine erste Frage oder ein konkretes Vorhaben — wir nehmen uns Zeit für Sie.",
+    "cta_button": "Kontakt aufnehmen",
+    "back_to_home": "Zur Startseite",
+    "breadcrumb_home": "Startseite"
+  },
+  "team_peter_fiegler": {
+    "meta_title": "Peter Fiegler — Gründer & Gesellschaftsrechtsexperte",
+    "meta_description": "Peter Fiegler, Gründer von FIECON. Langjährige Expertise im Gesellschaftsrecht, internationale Firmengründungen und persönliche Beratung auf höchstem Niveau.",
+    "hero_name": "Peter Fiegler",
+    "hero_role": "Gründer & Geschäftsführer",
+    "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
+    "bio_badge": "Über Peter Fiegler",
+    "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
+    "bio_2": "Mit Standorten in Hamburg, Belgrad und Texas hat er ein internationales Netzwerk aufgebaut, das Mandanten dort begleitet, wo ihre geschäftlichen Vorhaben sie hinführen — ob bei der Gründung einer Gesellschaft in Südosteuropa, der Strukturierung einer Holding oder der Erschließung des US-Marktes.",
+    "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
+    "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
+    "quote_attribution": "Peter Fiegler, Gründer",
+    "competency_1_title": "Gesellschaftsrecht",
+    "competency_1_description": "Beratung bei der Gründung, Strukturierung und Führung von Gesellschaften — national und international. Von der GmbH bis zur grenzüberschreitenden Holding.",
+    "competency_2_title": "Internationale Firmengründungen",
+    "competency_2_description": "Umfassende Begleitung bei Firmengründungen in Deutschland, Serbien, den USA und weiteren Jurisdiktionen. Rechtssicher und effizient.",
+    "competency_3_title": "Finanzverwaltung & Compliance",
+    "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
+    "competency_4_title": "Strategische Beratung",
+    "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
   }
 }

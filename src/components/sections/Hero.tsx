@@ -72,7 +72,7 @@ export function Hero() {
         {/* Logo watermark with parallax */}
         <motion.svg
           viewBox="0 0 1536 1536"
-          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[85vw] h-[85vw] sm:w-[80vw] sm:h-[80vw] lg:w-[70vw] lg:h-[70vw] max-w-[1400px] max-h-[1400px]"
+          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[85vw] h-[85vw] sm:w-[80vw] sm:h-[80vw] lg:w-[70vw] lg:h-[70vw] max-w-350 max-h-350"
           style={!prefersReduced ? { y: logoY, scale: logoScale } : undefined}
           {...(!prefersReduced && {
             initial: { opacity: 0, scale: 0.95 },
@@ -150,7 +150,7 @@ export function Hero() {
         {/* FIECON — monumental lettering */}
         <div className="mb-8 sm:mb-10">
           <h1
-            className="font-hero font-normal leading-none select-none text-center"
+            className="font-hero font-normal leading-[0.95] select-none text-center"
             style={{
               fontSize: "clamp(2.5rem, 8vw, 8rem)",
               letterSpacing: "-0.04em",

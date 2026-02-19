@@ -36,7 +36,8 @@
     "stat_1_label": "Suíomhanna ar fud an domhain",
     "stat_2_label": "Réimsí cleachtais",
     "stat_3_label": "Tíortha",
-    "quote_attribution": "Peter Fiegler, Bunaitheoir"
+    "quote_attribution": "Peter Fiegler, Bunaitheoir",
+    "profile_link": "Mehr über Peter Fiegler erfahren"
   },
   "services": {
     "badge": "Seirbhísí",
@@ -186,6 +187,48 @@
     "description": "Níl an leathanach a iarradh ann nó bogadh é.",
     "back": "Ar ais go dtí an leathanach baile"
   },
+  "team_rene_marquard": {
+    "meta_title": "René Marquard — Bainistíocht saibhris agus infheistíochtaí i miotail luachmhara",
+    "meta_description": "René Marquard, saineolaí ar bhainistíocht saibhris agus infheistíochtaí i miotail luachmhara ag FIECON. Comhairliúchán sócmhainní pearsanta le fadbhreathnú agus discréid.",
+    "hero_name": "René Marquard",
+    "hero_role": "Saineolaí Bainistíochta Saibhris",
+    "hero_tagline": "Bainistíocht saibhris agus infheistíochtaí i miotail luachmhara — le taithí, discréid agus tiomantas pearsanta.",
+    "bio_badge": "Faoi René Marquard",
+    "bio_1": "Tugann René Marquard saineolas fairsing i mbainistíocht saibhris agus comhairliúchán acmhainní daonna. Mar shaineolaí ar infheistíochtaí i miotail luachmhara, combinaíonn sé eolas domhain ar an margadh le tuiscint ghéar ar riachtanais aonair gach cliant.",
+    "bio_2": "Ó Hamburg, comhairlíonn sé daoine aonair agus gnólachtaí atá ag iarraidh a saibhreas a chaomhnú go inbhuanaithe agus a fhorbairt go straitéiseach. Cumaann a chur chuige bainistíocht sócmhainní clasaiceach le straitéisí infheistíochta speisialaithe sa earnáil miotail luachmhara.",
+    "bio_3": "Ní focal folamh iad discréid, gaire pearsanta agus peirspictíocht fhadtéarmach dó — is iad bunús gach rannpháirtíochta comhairliúcháin. Faigheann gach sainordú an leibhéal cúraim chéanna, beag beann ar a mhéid.",
+    "quote": "Ciallaíonn saibhreas a chaomhnú gníomhú le fadbhreathnú — tógtha ar mhuinín agus fís.",
+    "quote_attribution": "René Marquard",
+    "competency_1_title": "Bainistíocht Saibhris",
+    "competency_1_description": "Bainistíocht sócmhainní iomlánaíoch do dhaoine aonair agus gnólachtaí — ó anailís agus straitéis go caomhnóireacht portfolio leanúnach.",
+    "competency_2_title": "Infheistíochtaí i Miotail Luachmhara",
+    "competency_2_description": "Comhairliúchán speisialaithe ar infheistíochtaí in ór, airgead agus miotail luachmhara eile — mar uirlisí caomhnaithe agus éagsúlaithe saibhris.",
+    "competency_3_title": "Comhairliúchán AD",
+    "competency_3_description": "Saineolas in acmhainní daonna agus comhairliúchán feidhmeannach — chun poist lárnacha a líonadh agus foirne ardfheidhmíochta a thógáil.",
+    "competency_4_title": "Straitéis Sócmhainní",
+    "competency_4_description": "Forbairt straitéisí infheistíochta aonair a chothromaíonn slándáil agus fás — pearsanta, fadtéarmach agus trédhearcach."
+  },
+  "team_andre_zimmermann": {
+    "meta_title": "Andre Zimmermann — Ceannasaí Teicneolaíochta & Forbairt Gréasáin",
+    "meta_description": "Andre Zimmermann, Ceannasaí Teicneolaíochta agus Forbairt Gréasáin ag FIECON. Níos mó ná 20 bliain taithí i bhforbairt bogearraí, ríomhchlárú le cabhair AI agus bonneagar digiteach.",
+    "hero_name": "Andre Zimmermann",
+    "hero_role": "Ceannasaí Teicneolaíochta & Forbairt Gréasáin",
+    "hero_tagline": "Teicneolaíocht agus forbairt gréasáin — le níos mó ná 20 bliain taithí agus úsáid straitéiseach AI le haghaidh réitigh dhigiteacha ar an gcaighdeán proifisiúnta is airde.",
+    "bio_badge": "Faoi Andre Zimmermann",
+    "bio_1": "Andre Zimmermann freagraíonn as an treo teicneolaíochta agus forbairt gréasáin ag FIECON. Mar fheighlí faisnéise d’fhorbairt feidhmchlár, tá eolas teicniúil dhaingean aige le húsáid spriocdhírithe na hintleachta saorga — agus cruthaíonn sé réaltacht ar an gcaighdeán proifisiúnta is airde as tionscadail dhéineacha.",
+    "bio_2": "Le níos mó ná 20 bliain taithí gairmiúil i bhforbairt bogearraí agus tuiscint dhomhain ar ríomhchlárú le cabhair AI, tugann sé próifíl uathúil: úsáideann sé na teicneolaíochtaí AI is nua-aimseartha mar uirlis straitéiseach chun próisis forbartha a luathú agus torthaí ar an leibhéal proifisiúnta is airde a thabhairt i gcrích.",
+    "bio_3": "Is é a sprioc: ní ceann cuspóra féin a bheith sa teicneolaíocht, ach uirlis — beacht, iontaofa agus oiriúnach do riachtanais an ghnó. Le AI mar chomhpháirtí, cruthaítear toradh a thugann cinnteacht as gach fís.",
+    "quote": "Bíonn teicneolaíocht mhaith dofheicthe — ní oibríonn sí ach amháin.",
+    "quote_attribution": "Andre Zimmermann",
+    "competency_1_title": "Forbairt Gréasáin & Lán-staca",
+    "competency_1_description": "Concepció agus forbairt feidhmchlár gréasáin nua-aimseartha — ón gcomhéadan úsáideora go dtí ailtireacht an freastalaí. Feidhmíocht, slándáil agus scaláilte.",
+    "competency_2_title": "Ailtireacht Bogearraí",
+    "competency_2_description": "Dearadh ailtireachtaí córas láidre a fhásann leis an ngnó. Ó roghnú teicneolaíochta go hinbhuanaitheacht fadtéarmach.",
+    "competency_3_title": "Ceannaireacht Tionscadail IT",
+    "competency_3_description": "Ceannas agus comhordú foirne forbartha agus tionscadal teicniúla — le próisis shoiléire, modhanna agile agus torthaí inbhraite.",
+    "competency_4_title": "Bonneagar Digiteach",
+    "competency_4_description": "Tógáil agus optamú bonneagair dhigitigh do ghnólachtaí — ó riarachán freastalaí go comhtháthú réitigh scamall nua-aimseartha."
+  },
   "impressum": {
     "title": "Fógra dlíthiúil",
     "info_title": "Faisnéis de réir § 5 TMG",
@@ -234,5 +277,35 @@
     "section_7_text": "Tá an polasaí príobháideachais seo bailí faoi láthair. Mar gheall ar fhorbairt bhreise ár suíomh gréasáin nó mar gheall ar cheanglais athraithe dlíthiúla nó rialála, b'fhéidir go mbeidh gá an polasaí príobháideachais seo a leasú.",
     "email_label": "Ríomhphost",
     "contact_label": "Teagmháil"
+  },
+  "team": {
+    "nav_label": "Team",
+    "competencies_headline": "Kompetenzfelder",
+    "cta_headline": "Lassen Sie uns ins Gespräch kommen",
+    "cta_subline": "Ob eine erste Frage oder ein konkretes Vorhaben — wir nehmen uns Zeit für Sie.",
+    "cta_button": "Kontakt aufnehmen",
+    "back_to_home": "Zur Startseite",
+    "breadcrumb_home": "Startseite"
+  },
+  "team_peter_fiegler": {
+    "meta_title": "Peter Fiegler — Gründer & Gesellschaftsrechtsexperte",
+    "meta_description": "Peter Fiegler, Gründer von FIECON. Langjährige Expertise im Gesellschaftsrecht, internationale Firmengründungen und persönliche Beratung auf höchstem Niveau.",
+    "hero_name": "Peter Fiegler",
+    "hero_role": "Gründer & Geschäftsführer",
+    "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
+    "bio_badge": "Über Peter Fiegler",
+    "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
+    "bio_2": "Mit Standorten in Hamburg, Belgrad und Texas hat er ein internationales Netzwerk aufgebaut, das Mandanten dort begleitet, wo ihre geschäftlichen Vorhaben sie hinführen — ob bei der Gründung einer Gesellschaft in Südosteuropa, der Strukturierung einer Holding oder der Erschließung des US-Marktes.",
+    "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
+    "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
+    "quote_attribution": "Peter Fiegler, Gründer",
+    "competency_1_title": "Gesellschaftsrecht",
+    "competency_1_description": "Beratung bei der Gründung, Strukturierung und Führung von Gesellschaften — national und international. Von der GmbH bis zur grenzüberschreitenden Holding.",
+    "competency_2_title": "Internationale Firmengründungen",
+    "competency_2_description": "Umfassende Begleitung bei Firmengründungen in Deutschland, Serbien, den USA und weiteren Jurisdiktionen. Rechtssicher und effizient.",
+    "competency_3_title": "Finanzverwaltung & Compliance",
+    "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
+    "competency_4_title": "Strategische Beratung",
+    "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
   }
 }

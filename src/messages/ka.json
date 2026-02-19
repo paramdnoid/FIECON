@@ -36,7 +36,8 @@
     "stat_1_label": "ადგილმდებარეობა მსოფლიოში",
     "stat_2_label": "საქმიანობის მიმართულება",
     "stat_3_label": "ქვეყანა",
-    "quote_attribution": "Peter Fiegler, დამფუძნებელი"
+    "quote_attribution": "Peter Fiegler, დამფუძნებელი",
+    "profile_link": "Mehr über Peter Fiegler erfahren"
   },
   "services": {
     "badge": "სერვისები",
@@ -186,6 +187,48 @@
     "description": "მოთხოვნილი გვერდი არ არსებობს ან გადატანილია.",
     "back": "მთავარ გვერდზე დაბრუნება"
   },
+  "team_rene_marquard": {
+    "meta_title": "René Marquard — ქონების მართვა და ძვირფასი მეტალების ინვესტიციები",
+    "meta_description": "René Marquard, ქონების მართვისა და ძვირფასი მეტალების ინვესტიციების სპეციალისტი FIECON-ში. პერსონალური აქტივების კონსულტაცია შორსმჭვრეტელი და დისკრეციით.",
+    "hero_name": "René Marquard",
+    "hero_role": "ქონების მართვის სპეციალისტი",
+    "hero_tagline": "ქონების მართვა და ძვირფასი მეტალების ინვესტიციები — გამოცდილებით, დისკრეციით და პერსონალური ვალდებულებით.",
+    "bio_badge": "René Marquard-ის შესახებ",
+    "bio_1": "René Marquard ფლობს ფართო ექსპერტიზას ქონების მართვასა და ადამიანური რესურსების კონსულტაციაში. ძვირფასი მეტალების ინვესტიციების სპეციალისტად იგი აერთიანებს ღრმა საბაზრო ცოდნას ყოველი კლიენტის ინდივიდუალური საჭიროებების გაგებასთან.",
+    "bio_2": "ჰამბურგიდან იგი რჩევას აძლევს ფიზიკურ პირებსა და კომპანიებს, რომლებიც სურთ მდგრადად შეინარჩუნონ თავიანთი ქონება და სტრატეგიულად განავითარონ იგი. მისი მიდგომა აერთიანებს კლასიკურ აქტივების მართვას ძვირფასი მეტალების სექტორში სპეციალიზირებულ საინვესტიციო სტრატეგიებთან.",
+    "bio_3": "დისკრეცია, პერსონალური სიახლოვე და გრძელვადიანი პერსპექტივა მისთვის არ არის ცარიელი ფრაზები — ისინი ყოველი საკონსულტაციო ვალდებულების საფუძველია. ყოველი მანდატი იღებს იგივე დონის ზრუნვას, მისი ზომის მიუხედავად.",
+    "quote": "ქონების შენარჩუნება ნიშნავს შორსმჭვრეტელი მოქმედებას — ნდობასა და ხედვაზე დაფუძნებულს.",
+    "quote_attribution": "René Marquard",
+    "competency_1_title": "ქონების მართვა",
+    "competency_1_description": "ინტეგრალური აქტივების მართვა ფიზიკური პირებისთვის და კომპანიებისთვის — ანალიზიდან და სტრატეგიიდან პორტფელის მუდმივ მოვლამდე.",
+    "competency_2_title": "ძვირფასი მეტალების ინვესტიციები",
+    "competency_2_description": "სპეციალიზირებული კონსულტაცია ოქროს, ვერცხლისა და სხვა ძვირფასი მეტალების ინვესტიციებზე — ქონების შენარჩუნებისა და დივერსიფიკაციის ინსტრუმენტებად.",
+    "competency_3_title": "ადამიანური რესურსების კონსულტაცია",
+    "competency_3_description": "ექსპერტიზა ადამიანურ რესურსებსა და მენეჯმენტის კონსულტაციაში — საკვანძო პოზიციების შევსებისა და მაღალი ეფექტურობის გუნდების აგებისთვის.",
+    "competency_4_title": "აქტივების სტრატეგია",
+    "competency_4_description": "ინდივიდუალური საინვესტიციო სტრატეგიების შემუშავება, რომლებიც აბალანსებენ უსაფრთხოებასა და ზრდას — პერსონალურად, გრძელვადიანად და გამჭვირვალედ."
+  },
+  "team_andre_zimmermann": {
+    "meta_title": "Andre Zimmermann — ტექნოლოგიები და ვებ-შემუშავება",
+    "meta_description": "Andre Zimmermann, FIECON-ის ტექნოლოგიები და ვებ-შემუშავება. 20 წელზე მეტი გამოცდილება პროგრამული უზრუნველყოფის შემუშავებაში, AI-ით ორიენტირებულ პროგრამირებასა და ციფრულ ინფრასტრუქტურაში.",
+    "hero_name": "Andre Zimmermann",
+    "hero_role": "ტექნოლოგიები და ვებ-შემუშავება",
+    "hero_tagline": "ტექნოლოგია და ვებ-შემუშავება — 20 წელზე მეტი გამოცდილებით და AI-ის სტრატეგიული გამოყენებით პროექტების რეალიზაცია უმაღლეს პროფესიულ სტანდარტზე.",
+    "bio_badge": "Andre Zimmermann-ის შესახებ",
+    "bio_1": "Andre Zimmermann პასუხისმგებელია FIECON-ის ტექნოლოგიურ მიმართულებასა და ვებ-შემუშავებაზე. როგორც სერტიფიცირებული აპლიკაციების დეველოპერი, იგი აერთიანებს ღრმა ტექნიკურ კომპეტენციას ხელოვნური ინტელექტის მიზნობრივ გამოყენებასთან — ამბიციურ პროექტებს უმაღლესი პროფესიული სტანდარტის რეალობაში ქცევით.",
+    "bio_2": "20 წელზე მეტი პროფესიული გამოცდილება პროგრამული უზრუნველყოფის შემუშავებაში და ღრმა გაგება AI-ით ორიენტირებული პროგრამირების — მას მოაქვს უნიკალური პროფილი: იყენებს AI-ის უახლეს ტექნოლოგიებს სტრატეგიულ ინსტრუმენტად განვითარების დაჩქარებისა და მაქსიმალური პროფესიული ხარისხის შედეგების მისაღწევად.",
+    "bio_3": "მისი პრინციპი: ტექნოლოგია არ უნდა იყოს თავისთავად მიზანი, არამედ ინსტრუმენტი — ზუსტი, სანდო და საწარმოს საჭიროებებზე მორგებული. AI-ის პარტნიორობით, ყოველი ხედვა ხდება შედეგი, რომელიც ნამდვილად არწმუნებს.",
+    "quote": "კარგი ტექნოლოგია უხილავია — ის უბრალოდ მუშაობს.",
+    "quote_attribution": "Andre Zimmermann",
+    "competency_1_title": "ვებ-შემუშავება და Full-Stack",
+    "competency_1_description": "თანამედროვე ვებ-აპლიკაციების კონცეფცია და შემუშავება — მომხმარებლის ინტერფეისიდან სერვერის არქიტექტურამდე. პროდუქტიული, უსაფრთხო და მასშტაბირებადი.",
+    "competency_2_title": "პროგრამული არქიტექტურა",
+    "competency_2_description": "მტკიცე სისტემური არქიტექტურების დაპროექტება, რომლებიც იზრდება საწარმოსთან ერთად. ტექნოლოგიის არჩევიდან გრძელვადიან მოვლა-პატრონობამდე.",
+    "competency_3_title": "IT პროექტების მართვა",
+    "competency_3_description": "შემუშავების გუნდებისა და ტექნიკური პროექტების ხელმძღვანელობა და კოორდინაცია — ნათელი პროცესებით, მოქნილი მეთოდებით და გაზომვადი შედეგებით.",
+    "competency_4_title": "ციფრული ინფრასტრუქტურა",
+    "competency_4_description": "ციფრული ინფრასტრუქტურის აგება და ოპტიმიზაცია ბიზნესისთვის — სერვერის ადმინისტრირებიდან თანამედროვე ღრუბლოვანი გადაწყვეტილებების ინტეგრაციამდე."
+  },
   "impressum": {
     "title": "იურიდიული შენიშვნა",
     "info_title": "ინფორმაცია § 5 TMG-ის მიხედვით",
@@ -234,5 +277,35 @@
     "section_7_text": "ეს კონფიდენციალურობის პოლიტიკა ამჟამად მოქმედია. ჩვენი ვებგვერდის შემდგომი განვითარების ან შეცვლილი სამართლებრივი თუ მარეგულირებელი მოთხოვნების გამო, შეიძლება საჭირო გახდეს ამ კონფიდენციალურობის პოლიტიკის შეცვლა.",
     "email_label": "ელ. ფოსტა",
     "contact_label": "კონტაქტი"
+  },
+  "team": {
+    "nav_label": "Team",
+    "competencies_headline": "Kompetenzfelder",
+    "cta_headline": "Lassen Sie uns ins Gespräch kommen",
+    "cta_subline": "Ob eine erste Frage oder ein konkretes Vorhaben — wir nehmen uns Zeit für Sie.",
+    "cta_button": "Kontakt aufnehmen",
+    "back_to_home": "Zur Startseite",
+    "breadcrumb_home": "Startseite"
+  },
+  "team_peter_fiegler": {
+    "meta_title": "Peter Fiegler — Gründer & Gesellschaftsrechtsexperte",
+    "meta_description": "Peter Fiegler, Gründer von FIECON. Langjährige Expertise im Gesellschaftsrecht, internationale Firmengründungen und persönliche Beratung auf höchstem Niveau.",
+    "hero_name": "Peter Fiegler",
+    "hero_role": "Gründer & Geschäftsführer",
+    "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
+    "bio_badge": "Über Peter Fiegler",
+    "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
+    "bio_2": "Mit Standorten in Hamburg, Belgrad und Texas hat er ein internationales Netzwerk aufgebaut, das Mandanten dort begleitet, wo ihre geschäftlichen Vorhaben sie hinführen — ob bei der Gründung einer Gesellschaft in Südosteuropa, der Strukturierung einer Holding oder der Erschließung des US-Marktes.",
+    "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
+    "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
+    "quote_attribution": "Peter Fiegler, Gründer",
+    "competency_1_title": "Gesellschaftsrecht",
+    "competency_1_description": "Beratung bei der Gründung, Strukturierung und Führung von Gesellschaften — national und international. Von der GmbH bis zur grenzüberschreitenden Holding.",
+    "competency_2_title": "Internationale Firmengründungen",
+    "competency_2_description": "Umfassende Begleitung bei Firmengründungen in Deutschland, Serbien, den USA und weiteren Jurisdiktionen. Rechtssicher und effizient.",
+    "competency_3_title": "Finanzverwaltung & Compliance",
+    "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
+    "competency_4_title": "Strategische Beratung",
+    "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
   }
 }
