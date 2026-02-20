@@ -115,7 +115,7 @@ export function About() {
                 <div className="flex shrink-0 items-center sm:self-stretch">
                   <div className="relative size-24 overflow-hidden rounded-full ring-1 ring-bordeaux-900/15 ring-offset-2 ring-offset-beige-50 sm:size-28 lg:size-32">
                     <Image
-                      src="/team/peter-fiegler.png"
+                      src="/team/peter-fiegler.webp"
                       alt=""
                       width={128}
                       height={128}
@@ -172,13 +172,13 @@ export function About() {
                   slug: "rene-marquard" as const,
                   translationKey: "team_rene_marquard",
                   name: "René Marquard",
-                  imageSrc: "/team/rene-marquard.png",
+                  imageSrc: "/team/rene-marquard.webp",
                 },
                 {
                   slug: "andre-zimmermann" as const,
                   translationKey: "team_andre_zimmermann",
                   name: "Andre Zimmermann",
-                  imageSrc: "/team/andre-zimmermann.png",
+                  imageSrc: "/team/andre-zimmermann.webp",
                 },
               ].map((member) => (
                 <Link

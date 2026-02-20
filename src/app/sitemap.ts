@@ -1,7 +1,6 @@
 import type { MetadataRoute } from "next";
+import { BASE_URL } from "@/lib/constants";
 import { routing } from "@/i18n/routing";
-
-const BASE_URL = "https://www.fiecon-consulting.eu";
 
 const pages = [
   { path: "", changeFrequency: "monthly" as const, priority: 1 },

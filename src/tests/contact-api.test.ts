@@ -1,7 +1,22 @@
 import { describe, it, expect, vi, beforeEach } from "vitest";
 import { escapeHtml } from "@/lib/utils";
 
-// Mock nodemailer before importing the route handler
+const mockEnv = {
+  NODE_ENV: "test",
+  SMTP_HOST: "smtp.test.com",
+  SMTP_PORT: 587,
+  SMTP_USER: "user@test.com",
+  SMTP_PASS: "password123",
+  SMTP_FROM: undefined as string | undefined,
+  CONTACT_TO: "test@example.com",
+  SITE_URL: "https://www.fiecon-consulting.eu",
+  GOOGLE_SITE_VERIFICATION: undefined as string | undefined,
+  NEXT_PUBLIC_SENTRY_DSN: undefined as string | undefined,
+  SENTRY_AUTH_TOKEN: undefined as string | undefined,
+  ANALYZE: undefined as string | undefined,
+  DEV_HOST: undefined as string | undefined,
+};
+
 vi.mock("nodemailer", () => ({
   default: {
     createTransport: vi.fn(() => ({
@@ -10,7 +25,8 @@ vi.mock("nodemailer", () => ({
   },
 }));
 
-// Must import after mocking
+vi.mock("@/lib/env", () => ({ env: mockEnv }));
+
 const { POST } = await import("@/app/api/contact/route");
 
 function makeRequest(body: Record<string, unknown>, ip = "127.0.0.1") {
@@ -63,12 +79,11 @@ describe("escapeHtml", () => {
 
 describe("POST /api/contact", () => {
   beforeEach(() => {
-    // Reset env vars
-    process.env.SMTP_HOST = "smtp.test.com";
-    process.env.SMTP_PORT = "587";
-    process.env.SMTP_USER = "user@test.com";
-    process.env.SMTP_PASS = "password123";
-    process.env.CONTACT_TO = "test@example.com";
+    mockEnv.SMTP_HOST = "smtp.test.com";
+    mockEnv.SMTP_PORT = 587;
+    mockEnv.SMTP_USER = "user@test.com";
+    mockEnv.SMTP_PASS = "password123";
+    mockEnv.CONTACT_TO = "test@example.com";
   });
 
   it("returns 415 for missing Content-Type header", async () => {
@@ -147,7 +162,7 @@ describe("POST /api/contact", () => {
   });
 
   it("returns 503 when SMTP is not configured", async () => {
-    delete process.env.SMTP_HOST;
+    mockEnv.SMTP_HOST = undefined;
     const res = await POST(makeRequest(validBody, "10.0.0.7"));
     expect(res.status).toBe(503);
     const json = await res.json();
