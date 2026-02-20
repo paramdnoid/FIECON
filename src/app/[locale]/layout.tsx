@@ -100,11 +100,21 @@ export async function generateMetadata({
       siteName: "FIECON",
       locale: OG_LOCALE_MAP[locale] || "de_DE",
       type: "website",
+      images: [
+        {
+          url: `/${locale}/opengraph-image`,
+          width: 1200,
+          height: 630,
+          type: "image/png",
+          alt: "FIECON — Internationale Beratung",
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
       title: t("title"),
       description: t("description"),
+      images: [`/${locale}/opengraph-image`],
     },
     icons: {
       icon: [
@@ -134,6 +144,7 @@ export default async function LocaleLayout({
   setRequestLocale(locale);
   const messages = await getMessages();
   const tNav = await getTranslations({ locale, namespace: "nav" });
+  const tSchema = await getTranslations({ locale, namespace: "schema" });
 
   // Read nonce from middleware for strict CSP
   const headerStore = await headers();
@@ -194,8 +205,7 @@ export default async function LocaleLayout({
             "@type": "ProfessionalService",
             name: COMPANY.fullName,
             alternateName: COMPANY.name,
-            description:
-              "Internationale Beratung für Gesellschaftsrecht, Firmengründungen, Finanzverwaltung, Bau Finanzverwaltung und Yachtbau Finanzverwaltung.",
+            description: tSchema("description"),
             url: `https://${COMPANY.website}`,
             telephone: CONTACT.phone,
             email: CONTACT.email,
@@ -235,37 +245,19 @@ export default async function LocaleLayout({
             knowsLanguage: ["de", "en", "sr"],
             hasOfferCatalog: {
               "@type": "OfferCatalog",
-              name: "Beratungsleistungen",
+              name: tSchema("offer_catalog"),
               itemListElement: [
-                {
-                  "@type": "Offer",
-                  itemOffered: {
-                    "@type": "Service",
-                    name: "Gesellschaftsrecht & Firmengründungen",
-                  },
+                "service_consulting",
+                "service_finance",
+                "service_construction",
+                "service_yacht",
+              ].map((key) => ({
+                "@type": "Offer",
+                itemOffered: {
+                  "@type": "Service",
+                  name: tSchema(key),
                 },
-                {
-                  "@type": "Offer",
-                  itemOffered: {
-                    "@type": "Service",
-                    name: "Finanzverwaltung",
-                  },
-                },
-                {
-                  "@type": "Offer",
-                  itemOffered: {
-                    "@type": "Service",
-                    name: "Bau Finanzverwaltung",
-                  },
-                },
-                {
-                  "@type": "Offer",
-                  itemOffered: {
-                    "@type": "Service",
-                    name: "Yachtbau Finanzverwaltung",
-                  },
-                },
-              ],
+              })),
             },
           }),
         }}

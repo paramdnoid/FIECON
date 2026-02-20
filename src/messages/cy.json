@@ -317,5 +317,13 @@
     "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
     "competency_4_title": "Strategische Beratung",
     "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
+  },
+  "schema": {
+    "description": "FIECON Germany Co. KG — Ymgynghoriaeth ryngwladol mewn cyfraith gorfforaethol, sefydlu cwmniau, gweinyddiaeth ariannol a chyllid adeiladu. Swyddfeydd yn Hamburg, Belgrade, Texas, Montenegro a Vanuatu.",
+    "offer_catalog": "Gwasanaethau",
+    "service_consulting": "Cyfraith Gorfforaethol a Sefydlu Cwmniau",
+    "service_finance": "Gweinyddiaeth Ariannol",
+    "service_construction": "Cyllid Adeiladu",
+    "service_yacht": "Cyllid Adeiladu Iotiau"
   }
 }

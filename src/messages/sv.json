@@ -317,5 +317,13 @@
     "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
     "competency_4_title": "Strategische Beratung",
     "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
+  },
+  "schema": {
+    "description": "FIECON Germany Co. KG — Internationell rådgivning inom bolagsrätt, bolagsbildning, ekonomisk förvaltning och byggfinansiering. Kontor i Hamburg, Belgrad, Texas, Montenegro och Vanuatu.",
+    "offer_catalog": "Tjänster",
+    "service_consulting": "Bolagsrätt & bolagsbildning",
+    "service_finance": "Ekonomisk förvaltning",
+    "service_construction": "Byggfinansiering",
+    "service_yacht": "Yachtbyggnadsfinansiering"
   }
 }

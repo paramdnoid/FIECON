@@ -317,5 +317,13 @@
     "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
     "competency_4_title": "Strategische Beratung",
     "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
+  },
+  "schema": {
+    "description": "FIECON Germany Co. KG — Διεθνής συμβουλευτική για εταιρικό δίκαιο, ίδρυση εταιρειών, χρηματοοικονομική διοίκηση και χρηματοδότηση κατασκευών. Γραφεία σε Αμβούργο, Βελιγράδι, Τέξας, Montenegro και Vanuatu.",
+    "offer_catalog": "Υπηρεσίες",
+    "service_consulting": "Εταιρικό Δίκαιο & Ίδρυση Εταιρειών",
+    "service_finance": "Χρηματοοικονομική Διοίκηση",
+    "service_construction": "Χρηματοδότηση Κατασκευών",
+    "service_yacht": "Χρηματοδότηση Ναυπήγησης Σκαφών"
   }
 }

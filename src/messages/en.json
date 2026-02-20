@@ -317,5 +317,13 @@
     "section_7_text": "This privacy policy is currently valid. Due to the further development of our website or due to changed legal or regulatory requirements, it may become necessary to amend this privacy policy.",
     "email_label": "Email",
     "contact_label": "Contact"
+  },
+  "schema": {
+    "description": "FIECON Germany Co. KG — International advisory for corporate law, company formations, financial administration and construction finance. Offices in Hamburg, Belgrade, Texas, Montenegro and Vanuatu.",
+    "offer_catalog": "Services",
+    "service_consulting": "Corporate Law & Company Formations",
+    "service_finance": "Financial Administration",
+    "service_construction": "Construction Finance",
+    "service_yacht": "Yacht Construction Finance"
   }
 }

@@ -317,5 +317,13 @@
     "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
     "competency_4_title": "Strategische Beratung",
     "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
+  },
+  "schema": {
+    "description": "FIECON Germany Co. KG — Międzynarodowe doradztwo w zakresie prawa spółek, zakładania firm, zarządzania finansami i finansowania budownictwa. Biura w Hamburgu, Belgradzie, Teksasie, Montenegro i Vanuatu.",
+    "offer_catalog": "Usługi",
+    "service_consulting": "Prawo spółek i zakładanie firm",
+    "service_finance": "Zarządzanie finansami",
+    "service_construction": "Finansowanie budownictwa",
+    "service_yacht": "Finansowanie budowy jachtów"
   }
 }

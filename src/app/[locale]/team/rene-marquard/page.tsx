@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { headers } from "next/headers";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { COMPANY, CONTACT, TEAM_MEMBERS } from "@/lib/constants";
+import { BASE_URL, COMPANY, CONTACT, TEAM_MEMBERS } from "@/lib/constants";
 import { TeamProfileHero } from "@/components/sections/team/TeamProfileHero";
 import { TeamProfileBio } from "@/components/sections/team/TeamProfileBio";
 import { TeamProfileCompetencies } from "@/components/sections/team/TeamProfileCompetencies";
@@ -113,6 +113,32 @@ export default async function ReneMarquardPage({
               addressCountry: "DE",
             },
             knowsLanguage: ["de", "en"],
+          }),
+        }}
+      />
+
+      {/* BreadcrumbList structured data */}
+      <script
+        type="application/ld+json"
+        nonce={nonce}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: tTeam("breadcrumb_home"),
+                item: `${BASE_URL}/${locale}`,
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: MEMBER.name,
+                item: `${BASE_URL}/${locale}/team/${MEMBER.slug}`,
+              },
+            ],
           }),
         }}
       />

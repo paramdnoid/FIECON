@@ -318,5 +318,13 @@
     "section_7_text": "Diese Datenschutzerklärung ist aktuell gültig. Durch die Weiterentwicklung unserer Website oder aufgrund geänderter gesetzlicher bzw. behördlicher Vorgaben kann es notwendig werden, diese Datenschutzerklärung zu ändern.",
     "email_label": "E-Mail",
     "contact_label": "Kontakt"
+  },
+  "schema": {
+    "description": "FIECON Germany Co. KG — Internationale Beratung für Gesellschaftsrecht, Firmengründungen, Finanzverwaltung und Bau Finanzverwaltung. Standorte in Hamburg, Belgrad, Texas, Montenegro und Vanuatu.",
+    "offer_catalog": "Leistungen",
+    "service_consulting": "Gesellschaftsrecht & Firmengründungen",
+    "service_finance": "Finanzverwaltung",
+    "service_construction": "Bau Finanzverwaltung",
+    "service_yacht": "Yachtbau Finanzverwaltung"
   }
 }

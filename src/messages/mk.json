@@ -317,5 +317,13 @@
     "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
     "competency_4_title": "Strategische Beratung",
     "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
+  },
+  "schema": {
+    "description": "FIECON Germany Co. KG — Меѓународно советување за трговско право, основање компании, финансиска администрација и градежно финансирање. Канцеларии во Хамбург, Белград, Тексас, Montenegro и Vanuatu.",
+    "offer_catalog": "Услуги",
+    "service_consulting": "Трговско право и основање компании",
+    "service_finance": "Финансиска администрација",
+    "service_construction": "Градежно финансирање",
+    "service_yacht": "Финансирање на градба на јахти"
   }
 }
