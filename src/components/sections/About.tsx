@@ -17,6 +17,7 @@ const STATS = [
 
 export function About() {
   const t = useTranslations("about");
+  const tMember = useTranslations();
 
   return (
     <section id="about" className="bg-white">
@@ -143,32 +144,89 @@ export function About() {
                     </cite>
                   </footer>
                 </div>
+
+                <Link
+                  href="/team/peter-fiegler"
+                  className="absolute bottom-4 left-1/2 -translate-x-1/2 sm:left-auto sm:translate-x-0 sm:right-6 sm:bottom-5 lg:bottom-6 lg:right-8 inline-flex items-center gap-1.5 text-xs font-medium tracking-wide text-bordeaux-900/70 hover:text-bordeaux-900 transition-colors duration-300 group"
+                >
+                  <span>{t("profile_link")}</span>
+                  <svg
+                    aria-hidden="true"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="transition-transform duration-300 group-hover:translate-x-0.5"
+                  >
+                    <path d="M5 12h14" />
+                    <path d="m12 5 7 7-7 7" />
+                  </svg>
+                </Link>
               </blockquote>
             </div>
 
-            {/* Profile link */}
-            <div className="mt-8 text-center">
-              <Link
-                href="/team/peter-fiegler"
-                className="inline-flex items-center gap-2 text-sm font-medium tracking-wide text-bordeaux-900 hover:text-bordeaux-700 transition-colors duration-300 group"
-              >
-                <span>{t("profile_link")}</span>
-                <svg
-                  aria-hidden="true"
-                  width="16"
-                  height="16"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="transition-transform duration-300 group-hover:translate-x-1"
+            {/* Team member cards */}
+            <div className="mx-auto max-w-4xl mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
+              {[
+                {
+                  slug: "rene-marquard" as const,
+                  translationKey: "team_rene_marquard",
+                  name: "René Marquard",
+                  imageSrc: "/team/rene-marquard.png",
+                },
+                {
+                  slug: "andre-zimmermann" as const,
+                  translationKey: "team_andre_zimmermann",
+                  name: "Andre Zimmermann",
+                  imageSrc: "/team/andre-zimmermann.png",
+                },
+              ].map((member) => (
+                <Link
+                  key={member.slug}
+                  href={`/team/${member.slug}`}
+                  className="group relative flex items-center gap-4 rounded-xl p-px bg-linear-to-r from-beige-400/20 via-bordeaux-500/25 to-beige-400/20 shadow-[0_2px_12px_-4px_rgba(98,25,28,0.04)] transition-shadow duration-300 hover:shadow-[0_4px_20px_-6px_rgba(98,25,28,0.10)]"
                 >
-                  <path d="M5 12h14" />
-                  <path d="m12 5 7 7-7 7" />
-                </svg>
-              </Link>
+                  <div className="flex w-full items-center gap-4 rounded-xl bg-beige-50/80 px-5 py-4 sm:px-6 sm:py-5">
+                    <div className="relative size-14 shrink-0 overflow-hidden rounded-full ring-1 ring-bordeaux-900/10 ring-offset-1 ring-offset-beige-50 sm:size-16">
+                      <Image
+                        src={member.imageSrc}
+                        alt=""
+                        width={64}
+                        height={64}
+                        className="size-full object-cover"
+                        sizes="64px"
+                      />
+                    </div>
+                    <div className="min-w-0 flex-1">
+                      <p className="font-display text-sm font-medium text-text-primary sm:text-base">
+                        {member.name}
+                      </p>
+                      <p className="text-xs text-text-muted sm:text-sm">
+                        {tMember(`${member.translationKey}.hero_role`)}
+                      </p>
+                    </div>
+                    <svg
+                      aria-hidden="true"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="shrink-0 text-bordeaux-900/40 transition-all duration-300 group-hover:text-bordeaux-900 group-hover:translate-x-0.5"
+                    >
+                      <path d="M5 12h14" />
+                      <path d="m12 5 7 7-7 7" />
+                    </svg>
+                  </div>
+                </Link>
+              ))}
             </div>
           </FadeIn>
         </Container>

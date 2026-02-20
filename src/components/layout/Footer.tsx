@@ -74,25 +74,9 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Legal & Team */}
+          {/* Team & Legal */}
           <div>
             <h3 className="text-white font-medium text-sm uppercase tracking-[0.3em] mb-4">
-              {t("legal_title")}
-            </h3>
-            <ul className="space-y-3">
-              <li>
-                <Link href="/impressum" className="text-sm text-beige-400 hover:text-white transition-colors">
-                  {t("impressum")}
-                </Link>
-              </li>
-              <li>
-                <Link href="/datenschutz" className="text-sm text-beige-400 hover:text-white transition-colors">
-                  {t("datenschutz")}
-                </Link>
-              </li>
-            </ul>
-
-            <h3 className="text-white font-medium text-sm uppercase tracking-[0.3em] mt-8 mb-4">
               {tTeam("nav_label")}
             </h3>
             <ul className="space-y-3">
@@ -106,6 +90,22 @@ export function Footer() {
                   </Link>
                 </li>
               ))}
+            </ul>
+
+            <h3 className="text-white font-medium text-sm uppercase tracking-[0.3em] mt-8 mb-4">
+              {t("legal_title")}
+            </h3>
+            <ul className="space-y-3">
+              <li>
+                <Link href="/impressum" className="text-sm text-beige-400 hover:text-white transition-colors">
+                  {t("impressum")}
+                </Link>
+              </li>
+              <li>
+                <Link href="/datenschutz" className="text-sm text-beige-400 hover:text-white transition-colors">
+                  {t("datenschutz")}
+                </Link>
+              </li>
             </ul>
 
             <div className="mt-6 text-sm text-beige-400">
