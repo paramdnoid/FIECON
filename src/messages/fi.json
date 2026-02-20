@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — Kansainvälinen yhtiöoikeus & yrityksen perustamisneuvonta",
-    "description": "FIECON Germany Co. KG — Kansainvälinen neuvonta yhtiöoikeudessa, yritysten perustamisessa, taloushallinnossa ja rakennusrahoituksessa. Toimistot Hampurissa, Belgradissa ja Texasissa.",
+    "description": "FIECON Germany Co. KG — Kansainvälinen neuvonta yhtiöoikeudessa, yritysten perustamisessa, taloushallinnossa ja rakennusrahoituksessa. Toimistot Hampurissa, Belgradissa, Texasissa, Montenegrossa ja Vanuatulla.",
     "keywords": "yhtiöoikeus, kansainvälinen yrityksen perustaminen, neuvonta Hamburg, taloushallinto, rakennusrahoitus, venerahoitus, FIECON Consulting"
   },
   "nav": {
@@ -23,7 +23,7 @@
   "hero": {
     "tagline": "Fiegler Consulting",
     "headline": "Yrityksesi. Kansainvälisesti neuvottuna.",
-    "subtitle": "Yhtiöoikeus ja kansainvälinen yritysten perustaminen — henkilökohtainen ohjaus Hampurissa, Belgradissa ja Texasissa.",
+    "subtitle": "Yhtiöoikeus ja kansainvälinen yritysten perustaminen — henkilökohtainen ohjaus Hampurissa, Belgradissa, Texasissa, Montenegrossa ja Vanuatulla.",
     "cta_primary": "Palvelumme",
     "cta_secondary": "Ota yhteyttä"
   },
@@ -31,7 +31,7 @@
     "badge": "Tietoa meistä",
     "headline": "Visio kohtaa huolellisuuden",
     "text_1": "FIECON tarkoittaa kansainvälistä neuvontaa henkilökohtaisella sitoutumisella. Ydinosaamisemme on yhtiöoikeudessa ja kansainvälisessä yritysten perustamisessa — aloilla, joilla kokemus, tarkkuus ja kulttuurinen ymmärrys tekevät kaiken eron.",
-    "text_2": "Hampurista, Belgradista ja Texasista ohjaamme yrityksiä yli rajojen. Neuvomme myös taloushallinnossa, rakennusrahoituksessa ja huvijahtirakentamisen rahoituksessa — aina pyrkien edustamaan etujasi kuin ne olisivat omiamme.",
+    "text_2": "Hampurista, Belgradista, Texasista, Montenegro ja Vanuatu ohjaamme yrityksiä yli rajojen. Neuvomme myös taloushallinnossa, rakennusrahoituksessa ja huvijahtirakentamisen rahoituksessa — aina pyrkien edustamaan etujasi kuin ne olisivat omiamme.",
     "quote": "Neuvomme kuin kyseessä olisi oma yrityksemme.",
     "stat_1_label": "Toimipistettä maailmalla",
     "stat_2_label": "Osaamisaluetta",
@@ -116,7 +116,7 @@
   "offices": {
     "badge": "Toimistot",
     "headline": "Lähellä markkinoitasi",
-    "subtitle": "Kolme toimipistettä, yksi lupaus — henkilökohtainen neuvonta kansainvälisellä ulottuvuudella.",
+    "subtitle": "Viisi toimipistettä, yksi lupaus — henkilökohtainen neuvonta kansainvälisellä ulottuvuudella.",
     "hamburg": {
       "city": "Hampuri",
       "country": "Saksa",
@@ -131,6 +131,16 @@
       "city": "Texas",
       "country": "Yhdysvallat",
       "label": "Pohjois-Amerikka"
+    },
+    "montenegro": {
+      "city": "Montenegro",
+      "country": "Montenegro",
+      "label": "Kaakkois-Eurooppa"
+    },
+    "vanuatu": {
+      "city": "Vanuatu",
+      "country": "Vanuatu",
+      "label": "Etelä-Tyynimeri"
     }
   },
   "contact": {
@@ -295,7 +305,7 @@
     "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
     "bio_badge": "Über Peter Fiegler",
     "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
-    "bio_2": "Mit Standorten in Hamburg, Belgrad und Texas hat er ein internationales Netzwerk aufgebaut, das Mandanten dort begleitet, wo ihre geschäftlichen Vorhaben sie hinführen — ob bei der Gründung einer Gesellschaft in Südosteuropa, der Strukturierung einer Holding oder der Erschließung des US-Marktes.",
+    "bio_2": "Toimistoilla Hampurissa, Belgradissa, Texasissa, Montenegrossa ja Vanuatulla hän on rakentanut kansainvälisen verkoston, joka tukee asiakkaita minne tahansa heidän liiketoimintansa vie — olipa kyse yrityksen perustamisesta Kaakkois-Eurooppaan, holdingyhtiön rakenteistamisesta tai uusille markkinoille pääsystä.",
     "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
     "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
     "quote_attribution": "Peter Fiegler, Gründer",

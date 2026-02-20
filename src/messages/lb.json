@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — International Gesellschaftsrecht & Firmengrënnung Berodung",
-    "description": "FIECON Germany Co. KG — International Berodung fir Gesellschaftsrecht, Firmengrënnungen, Finanzverwaltung a Baufinanzéierung. Büroen an Hamburg, Belgrad an Texas.",
+    "description": "FIECON Germany Co. KG — International Berodung fir Gesellschaftsrecht, Firmengrënnungen, Finanzverwaltung a Baufinanzéierung. Büroen an Hamburg, Belgrad, Texas, Montenegro an Vanuatu.",
     "keywords": "Gesellschaftsrecht, international Firmegrënnung, Berodung Hambourg, Finanzverwaltung, Baufinanzéierung, Jachtfinanzéierung, FIECON Consulting"
   },
   "nav": {
@@ -23,7 +23,7 @@
   "hero": {
     "tagline": "Fiegler Consulting",
     "headline": "Äert Geschäft. International Beroden.",
-    "subtitle": "Gesellschaftsrecht an international Firmengrënnungen — perséinlech Begleedung an Hamburg, Belgrad an Texas.",
+    "subtitle": "Gesellschaftsrecht an international Firmengrënnungen — perséinlech Begleedung an Hamburg, Belgrad, Texas, Montenegro an Vanuatu.",
     "cta_primary": "Eis Servicer",
     "cta_secondary": "Kontaktéiert eis"
   },
@@ -31,7 +31,7 @@
     "badge": "Iwwer eis",
     "headline": "Visioun trëfft Suergfalt",
     "text_1": "FIECON steet fir international Berodung mat perséinlechem Asaz. Eis Kärkompetenz läit am Gesellschaftsrecht an an internationale Firmengrënnungen — Beräicher, wou Erfarung, Präzisioun a kulturellt Versteesdemech den Ënnerscheed maachen.",
-    "text_2": "Vun Hamburg, Belgrad an Texas aus begleede mir Betriber iwwer Grenzen. Mir beroden och bei der Finanzverwaltung, Baufinanzéierung a Yachtbaufinanzéierung — ëmmer mat dem Ambitioun, Är Interessen ze vertrieden, wéi wann et eis eegen wieren.",
+    "text_2": "Vun Hamburg, Belgrad, Texas, Montenegro an Vanuatu aus begleede mir Betriber iwwer Grenzen. Mir beroden och bei der Finanzverwaltung, Baufinanzéierung a Yachtbaufinanzéierung — ëmmer mat dem Ambitioun, Är Interessen ze vertrieden, wéi wann et eis eegen wieren.",
     "quote": "Mir beroden, wéi wann et eis eege Firma wier.",
     "stat_1_label": "Standuerter weltwäit",
     "stat_2_label": "Berodungsberäicher",
@@ -116,7 +116,7 @@
   "offices": {
     "badge": "Büroen",
     "headline": "No bei Äre Mäert",
-    "subtitle": "Dräi Standuerter, ee Verspriechen — perséinlech Berodung mat internationaler Räichwäit.",
+    "subtitle": "Fënnef Standuerter, ee Verspriechen — perséinlech Berodung mat internationaler Räichwäit.",
     "hamburg": {
       "city": "Hamburg",
       "country": "Däitschland",
@@ -131,6 +131,16 @@
       "city": "Texas",
       "country": "USA",
       "label": "Nordamerika"
+    },
+    "montenegro": {
+      "city": "Montenegro",
+      "country": "Montenegro",
+      "label": "Südosteuropa"
+    },
+    "vanuatu": {
+      "city": "Vanuatu",
+      "country": "Vanuatu",
+      "label": "Südpazifik"
     }
   },
   "contact": {
@@ -295,7 +305,7 @@
     "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
     "bio_badge": "Über Peter Fiegler",
     "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
-    "bio_2": "Mit Standorten in Hamburg, Belgrad und Texas hat er ein internationales Netzwerk aufgebaut, das Mandanten dort begleitet, wo ihre geschäftlichen Vorhaben sie hinführen — ob bei der Gründung einer Gesellschaft in Südosteuropa, der Strukturierung einer Holding oder der Erschließung des US-Marktes.",
+    "bio_2": "Mat Standuerter an Hamburg, Belgrad, Texas, Montenegro an Vanuatu huet hien en internationaalt Netzwierk opgebaut, dat Mandante begleet, wou hir Geschäftsvirhuelen se hiféieren — ob bei der Grënnung vun enger Gesellschaft a Südosteuropa, der Strukturéierung vun engem Holding oder der Erschléissung vun neie Mäerkten.",
     "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
     "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
     "quote_attribution": "Peter Fiegler, Gründer",

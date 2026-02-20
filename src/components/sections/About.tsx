@@ -10,7 +10,7 @@ import { CountUp } from "@/components/animations/CountUp";
 import { Link } from "@/i18n/navigation";
 
 const STATS = [
-  { key: "stat_1_label", value: 3 },
+  { key: "stat_1_label", value: 5 },
   { key: "stat_2_label", value: 4 },
   { key: "stat_3_label", value: 3 },
 ] as const;
@@ -103,11 +103,13 @@ export function About() {
         <Container size="md">
           <FadeIn>
             {/* Gradient frame */}
-            <div className="mx-auto max-w-4xl rounded-2xl p-px bg-linear-to-r from-beige-400/30 via-bordeaux-500/40 to-beige-400/30 shadow-[0_4px_24px_-8px_rgba(98,25,28,0.06)]">
+            <Link
+              href="/team/peter-fiegler"
+              aria-label={t("profile_link")}
+              className="group mx-auto block max-w-4xl rounded-2xl p-px bg-linear-to-r from-beige-400/30 via-bordeaux-500/40 to-beige-400/30 shadow-[0_4px_24px_-8px_rgba(98,25,28,0.06)] transition-shadow duration-300 hover:shadow-[0_4px_20px_-6px_rgba(98,25,28,0.10)]"
+            >
               <blockquote
                 className="relative flex flex-col items-center gap-8 overflow-hidden rounded-2xl bg-beige-50/80 px-8 py-12 sm:flex-row sm:items-center sm:gap-10 sm:px-12 sm:py-14 lg:gap-12 lg:px-16 lg:py-16"
-                role="article"
-                aria-label={t("quote")}
               >
                 {/* Portrait — links, vertikal zentriert */}
                 <div className="flex shrink-0 items-center sm:self-stretch">
@@ -145,29 +147,23 @@ export function About() {
                   </footer>
                 </div>
 
-                <Link
-                  href="/team/peter-fiegler"
-                  className="absolute bottom-4 left-1/2 -translate-x-1/2 sm:left-auto sm:translate-x-0 sm:right-6 sm:bottom-5 lg:bottom-6 lg:right-8 inline-flex items-center gap-1.5 text-xs font-medium tracking-wide text-bordeaux-900/70 hover:text-bordeaux-900 transition-colors duration-300 group"
+                <svg
+                  aria-hidden="true"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="absolute top-1/2 right-5 -translate-y-1/2 sm:right-5 lg:right-6 text-bordeaux-900/40 transition-all duration-300 group-hover:text-bordeaux-900 group-hover:translate-x-0.5"
                 >
-                  <span>{t("profile_link")}</span>
-                  <svg
-                    aria-hidden="true"
-                    width="14"
-                    height="14"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="transition-transform duration-300 group-hover:translate-x-0.5"
-                  >
-                    <path d="M5 12h14" />
-                    <path d="m12 5 7 7-7 7" />
-                  </svg>
-                </Link>
+                  <path d="M5 12h14" />
+                  <path d="m12 5 7 7-7 7" />
+                </svg>
               </blockquote>
-            </div>
+            </Link>
 
             {/* Team member cards */}
             <div className="mx-auto max-w-4xl mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">

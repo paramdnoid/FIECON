@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — Міжнародне корпоративне право та консультації з реєстрації компаній",
-    "description": "FIECON Germany Co. KG — Міжнародні консультації з корпоративного права, реєстрації компаній, фінансового адміністрування та будівельного фінансування. Офіси в Гамбурзі, Белграді та Техасі.",
+    "description": "FIECON Germany Co. KG — Міжнародні консультації з корпоративного права, реєстрації компаній, фінансового адміністрування та будівельного фінансування. Офіси в Гамбурзі, Белграді, Техасі, Montenegro та Vanuatu.",
     "keywords": "корпоративне право, міжнародна реєстрація компаній, консалтинг Гамбург, фінансове управління, будівельне фінансування, FIECON Consulting"
   },
   "nav": {
@@ -23,7 +23,7 @@
   "hero": {
     "tagline": "Fiegler Consulting",
     "headline": "Ваш бізнес. Міжнародна експертиза.",
-    "subtitle": "Корпоративне право та міжнародна реєстрація компаній — персональний супровід у Гамбурзі, Белграді та Техасі.",
+    "subtitle": "Корпоративне право та міжнародна реєстрація компаній — персональний супровід у Гамбурзі, Белграді, Техасі, Montenegro та Vanuatu.",
     "cta_primary": "Наші послуги",
     "cta_secondary": "Зв'язатися з нами"
   },
@@ -31,7 +31,7 @@
     "badge": "Про нас",
     "headline": "Візія та ретельність",
     "text_1": "FIECON — це міжнародне консультування з особистою відданістю. Наша основна компетенція — корпоративне право та міжнародна реєстрація компаній, сфери, де досвід, точність та культурне розуміння мають вирішальне значення.",
-    "text_2": "З Гамбурга, Белграда та Техасу ми супроводжуємо бізнес через кордони. Ми також консультуємо з фінансового адміністрування, будівельного фінансування та фінансування будівництва яхт — завжди з прагненням представляти ваші інтереси як власні.",
+    "text_2": "З Гамбурга, Белграда, Техасу, Чорногорії та Вануату ми супроводжуємо бізнес через кордони. Ми також консультуємо з фінансового адміністрування, будівельного фінансування та фінансування будівництва яхт — завжди з прагненням представляти ваші інтереси як власні.",
     "quote": "Ми консультуємо так, ніби на кону стоїть наша власна компанія.",
     "stat_1_label": "Локації по всьому світу",
     "stat_2_label": "Напрямки діяльності",
@@ -116,7 +116,7 @@
   "offices": {
     "badge": "Офіси",
     "headline": "Ближче до ваших ринків",
-    "subtitle": "Три локації, одна обіцянка — персональне консультування з міжнародним охопленням.",
+    "subtitle": "П'ять локацій, одна обіцянка — персональне консультування з міжнародним охопленням.",
     "hamburg": {
       "city": "Гамбург",
       "country": "Німеччина",
@@ -131,6 +131,16 @@
       "city": "Техас",
       "country": "США",
       "label": "Північна Америка"
+    },
+    "montenegro": {
+      "city": "Montenegro",
+      "country": "Montenegro",
+      "label": "Південно-Східна Європа"
+    },
+    "vanuatu": {
+      "city": "Vanuatu",
+      "country": "Vanuatu",
+      "label": "Південна частина Тихого океану"
     }
   },
   "contact": {
@@ -295,7 +305,7 @@
     "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
     "bio_badge": "Über Peter Fiegler",
     "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
-    "bio_2": "Mit Standorten in Hamburg, Belgrad und Texas hat er ein internationales Netzwerk aufgebaut, das Mandanten dort begleitet, wo ihre geschäftlichen Vorhaben sie hinführen — ob bei der Gründung einer Gesellschaft in Südosteuropa, der Strukturierung einer Holding oder der Erschließung des US-Marktes.",
+    "bio_2": "З офісами в Гамбурзі, Белграді, Техасі, Чорногорії та Вануату він побудував міжнародну мережу, яка супроводжує клієнтів туди, куди ведуть їх бізнес-плани — чи то заснування компанії в Південно-Східній Європі, структурування холдингу чи вихід на нові ринки.",
     "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
     "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
     "quote_attribution": "Peter Fiegler, Gründer",

@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — استشارات دولية في قانون الشركات وتأسيس الشركات",
-    "description": "FIECON Germany Co. KG — استشارات دولية في قانون الشركات، تأسيس الشركات، الإدارة المالية وتمويل البناء. مكاتب في هامبورغ وبلغراد وتكساس.",
+    "description": "FIECON Germany Co. KG — استشارات دولية في قانون الشركات، تأسيس الشركات، الإدارة المالية وتمويل البناء. مكاتب في هامبورغ وبلغراد وتكساس وMontenegro وVanuatu.",
     "keywords": "قانون الشركات, تأسيس شركات دولية, استشارات هامبورغ, إدارة مالية, تمويل البناء, تمويل اليخوت, FIECON Consulting"
   },
   "nav": {
@@ -23,7 +23,7 @@
   "hero": {
     "tagline": "Fiegler Consulting",
     "headline": "حقوقكم. برؤية دولية.",
-    "subtitle": "قانون الشركات وتأسيس الشركات الدولية — رعاية شخصية في هامبورغ وبلغراد وتكساس.",
+    "subtitle": "قانون الشركات وتأسيس الشركات الدولية — رعاية شخصية في هامبورغ وبلغراد وتكساس وMontenegro وVanuatu.",
     "cta_primary": "خدماتنا",
     "cta_secondary": "تواصل معنا"
   },
@@ -31,7 +31,7 @@
     "badge": "من نحن",
     "headline": "الرؤية تلتقي بالعناية",
     "text_1": "تمثل FIECON الاستشارات الدولية بموقف شخصي. ينصبّ تركيزنا على قانون الشركات وتأسيس الشركات الدولية — مجالات تصنع فيها الخبرة والدقة والفهم الثقافي الفارق.",
-    "text_2": "من هامبورغ وبلغراد وتكساس نرافق الشركات عبر الحدود. بالإضافة إلى ذلك، نقدم الاستشارات في الإدارة المالية وتمويل البناء وتمويل بناء اليخوت — دائمًا بالتزامنا بتمثيل مصالحكم وكأنها مصالحنا الخاصة.",
+    "text_2": "من هامبورغ وبلغراد وتكساس وMontenegro وVanuatu نرافق الشركات عبر الحدود. بالإضافة إلى ذلك، نقدم الاستشارات في الإدارة المالية وتمويل البناء وتمويل بناء اليخوت — دائمًا بالتزامنا بتمثيل مصالحكم وكأنها مصالحنا الخاصة.",
     "quote": "نقدّم الاستشارة وكأن الأمر يتعلق بشركتنا نحن.",
     "stat_1_label": "مكاتب حول العالم",
     "stat_2_label": "مجالات تخصص",
@@ -116,7 +116,7 @@
   "offices": {
     "badge": "المكاتب",
     "headline": "قريبون من أسواقكم",
-    "subtitle": "ثلاثة مكاتب، وعد واحد — استشارات شخصية بامتداد دولي.",
+    "subtitle": "خمسة مكاتب، وعد واحد — استشارات شخصية بامتداد دولي.",
     "hamburg": {
       "city": "هامبورغ",
       "country": "ألمانيا",
@@ -131,6 +131,16 @@
       "city": "تكساس",
       "country": "الولايات المتحدة الأمريكية",
       "label": "أمريكا الشمالية"
+    },
+    "montenegro": {
+      "city": "Montenegro",
+      "country": "Montenegro",
+      "label": "جنوب شرق أوروبا"
+    },
+    "vanuatu": {
+      "city": "Vanuatu",
+      "country": "Vanuatu",
+      "label": "جنوب المحيط الهادئ"
     }
   },
   "contact": {
@@ -295,7 +305,7 @@
     "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
     "bio_badge": "Über Peter Fiegler",
     "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
-    "bio_2": "Mit Standorten in Hamburg, Belgrad und Texas hat er ein internationales Netzwerk aufgebaut, das Mandanten dort begleitet, wo ihre geschäftlichen Vorhaben sie hinführen — ob bei der Gründung einer Gesellschaft in Südosteuropa, der Strukturierung einer Holding oder der Erschließung des US-Marktes.",
+    "bio_2": "بمكاتب في هامبورغ وبلغراد وتكساس وMontenegro وVanuatu، بنى شبكة دولية ترافق العملاء أينما قادتهم مشاريعهم — سواء في تأسيس شركة في جنوب شرق أوروبا أو هيكلة شركة قابضة أو دخول أسواق جديدة.",
     "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
     "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
     "quote_attribution": "Peter Fiegler, Gründer",

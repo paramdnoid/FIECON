@@ -39,7 +39,7 @@ const SERVICE_ICONS: Record<string, React.ReactNode> = {
 };
 
 const SERVICE_KEYS = ["consulting", "finance", "construction", "yacht"] as const;
-const ITEMS_PER_SERVICE = 2;
+const ITEMS_PER_SERVICE: Record<string, number> = { consulting: 2, finance: 2, construction: 3, yacht: 2 };
 
 const FOCUS_AREAS = [
   { key: "corporate_law", itemCount: 3 },
@@ -107,7 +107,7 @@ export function Services() {
 
                   {/* Badges — pushed to bottom */}
                   <div className="flex flex-wrap gap-2 mt-auto pt-4">
-                    {Array.from({ length: ITEMS_PER_SERVICE }, (_, i) => (
+                    {Array.from({ length: ITEMS_PER_SERVICE[key] }, (_, i) => (
                       <span
                         key={i}
                         className="px-3 py-1 text-[11px] font-medium tracking-wide uppercase bg-beige-50 text-bordeaux-900 rounded-full"

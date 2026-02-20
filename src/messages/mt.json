@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — Konsulenza Internazzjonali dwar id-Dritt Korporattiv u t-Twaqqif ta' Kumpaniji",
-    "description": "FIECON Germany Co. KG — Konsulenza internazzjonali dwar id-dritt korporattiv, it-twaqqif ta' kumpaniji, l-amministrazzjoni finanzjarja u l-finanzjament tal-kostruzzjoni. Uffiċċji f'Hamburg, Belgrad u Texas.",
+    "description": "FIECON Germany Co. KG — Konsulenza internazzjonali dwar id-dritt korporattiv, it-twaqqif ta' kumpaniji, l-amministrazzjoni finanzjarja u l-finanzjament tal-kostruzzjoni. Uffiċċji f'Hamburg, Belgrad, Texas, Montenegro u Vanuatu.",
     "keywords": "liġi tas-soċjetajiet, formazzjoni ta' kumpaniji internazzjonali, konsulenza Hamburg, amministrazzjoni finanzjarja, finanzjament tal-kostruzzjoni, FIECON Consulting"
   },
   "nav": {
@@ -23,7 +23,7 @@
   "hero": {
     "tagline": "Fiegler Consulting",
     "headline": "In-negozju tiegħek. Konsultat internazzjonalment.",
-    "subtitle": "Dritt korporattiv u twaqqif internazzjonali ta' kumpaniji — gwida personali f'Hamburg, Belgrad u Texas.",
+    "subtitle": "Dritt korporattiv u twaqqif internazzjonali ta' kumpaniji — gwida personali f'Hamburg, Belgrad, Texas, Montenegro u Vanuatu.",
     "cta_primary": "Is-servizzi tagħna",
     "cta_secondary": "Ikkuntattjana"
   },
@@ -31,7 +31,7 @@
     "badge": "Dwarna",
     "headline": "Il-viżjoni tiltaqa' mad-diliġenza",
     "text_1": "FIECON tirrappreżenta konsulenza internazzjonali b'impenn personali. L-għarfien ewlieni tagħna jinsab fid-dritt korporattiv u fit-twaqqif internazzjonali ta' kumpaniji — oqsma fejn l-esperjenza, il-preċiżjoni u l-fehim kulturali jagħmlu d-differenza kollha.",
-    "text_2": "Minn Hamburg, Belgrad u Texas, aħna niggwidaw negozji lil hinn mill-fruntieri. Nagħtu wkoll konsulenza dwar l-amministrazzjoni finanzjarja, il-finanzjament tal-kostruzzjoni u l-finanzjament tal-kostruzzjoni tal-jottijiet — dejjem bl-ambizzjoni li nirrappreżentaw l-interessi tiegħek bħallikieku kienu tagħna stess.",
+    "text_2": "Minn Hamburg, Belgrad, Texas, Montenegro u Vanuatu, aħna niggwidaw negozji lil hinn mill-fruntieri. Nagħtu wkoll konsulenza dwar l-amministrazzjoni finanzjarja, il-finanzjament tal-kostruzzjoni u l-finanzjament tal-kostruzzjoni tal-jottijiet — dejjem bl-ambizzjoni li nirrappreżentaw l-interessi tiegħek bħallikieku kienu tagħna stess.",
     "quote": "Aħna nagħtu konsulenza bħallikieku kienet il-kumpanija tagħna stess involuta.",
     "stat_1_label": "Postijiet madwar id-dinja",
     "stat_2_label": "Oqsma ta' prattika",
@@ -116,7 +116,7 @@
   "offices": {
     "badge": "Uffiċċji",
     "headline": "Qrib is-swieq tiegħek",
-    "subtitle": "Tliet postijiet, wegħda waħda — konsulenza personali b'firxa internazzjonali.",
+    "subtitle": "Ħames postijiet, wegħda waħda — konsulenza personali b'firxa internazzjonali.",
     "hamburg": {
       "city": "Hamburg",
       "country": "Il-Ġermanja",
@@ -131,6 +131,16 @@
       "city": "Texas",
       "country": "L-Istati Uniti",
       "label": "L-Amerika ta' Fuq"
+    },
+    "montenegro": {
+      "city": "Montenegro",
+      "country": "Montenegro",
+      "label": "Xlokk tal-Ewropa"
+    },
+    "vanuatu": {
+      "city": "Vanuatu",
+      "country": "Vanuatu",
+      "label": "Il-Paċifiku t'Isfel"
     }
   },
   "contact": {
@@ -295,7 +305,7 @@
     "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
     "bio_badge": "Über Peter Fiegler",
     "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
-    "bio_2": "Mit Standorten in Hamburg, Belgrad und Texas hat er ein internationales Netzwerk aufgebaut, das Mandanten dort begleitet, wo ihre geschäftlichen Vorhaben sie hinführen — ob bei der Gründung einer Gesellschaft in Südosteuropa, der Strukturierung einer Holding oder der Erschließung des US-Marktes.",
+    "bio_2": "B'uffiċċji f'Hamburg, Belgrad, Texas, Montenegro u Vanuatu, bena netwerk internazzjonali li jakkumpanja l-klijenti kulfejn jeħodhom il-pjanijiet tan-negozju tagħhom — kemm jekk huwa t-twaqqif ta' kumpanija fil-Lvant tal-Ewropa, l-istrutturar ta' holding, jew id-dħul f'swieq ġodda.",
     "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
     "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
     "quote_attribution": "Peter Fiegler, Gründer",

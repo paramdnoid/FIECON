@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — Mezinárodní korporátní právo a poradenství při zakládání společností",
-    "description": "FIECON Germany Co. KG — Mezinárodní poradenství v oblasti korporátního práva, zakládání společností, finanční správy a stavebního financování. Kanceláře v Hamburku, Bělehradě a Texasu.",
+    "description": "FIECON Germany Co. KG — Mezinárodní poradenství v oblasti korporátního práva, zakládání společností, finanční správy a stavebního financování. Kanceláře v Hamburku, Bělehradě, Texasu, Černé Hoře a Vanuatu.",
     "keywords": "obchodní právo, mezinárodní zakládání firem, poradenství Hamburk, finanční správa, stavební financování, FIECON Consulting"
   },
   "nav": {
@@ -23,7 +23,7 @@
   "hero": {
     "tagline": "Fiegler Consulting",
     "headline": "Vaše firma. Mezinárodně poradená.",
-    "subtitle": "Korporátní právo a mezinárodní zakládání společností — osobní doprovod v Hamburku, Bělehradě a Texasu.",
+    "subtitle": "Korporátní právo a mezinárodní zakládání společností — osobní doprovod v Hamburku, Bělehradě, Texasu, Černé Hoře a Vanuatu.",
     "cta_primary": "Naše služby",
     "cta_secondary": "Kontaktujte nás"
   },
@@ -31,7 +31,7 @@
     "badge": "O nás",
     "headline": "Vize a pečlivost",
     "text_1": "FIECON představuje mezinárodní poradenství s osobním nasazením. Naše hlavní odbornost spočívá v korporátním právu a mezinárodním zakládání společností — oblastech, kde zkušenosti, přesnost a kulturní porozumění dělají zásadní rozdíl.",
-    "text_2": "Z Hamburku, Bělehradu a Texasu provázíme firmy přes hranice. Poradíme také v oblasti finanční správy, stavebního financování a financování stavby jachet — vždy s ambicí zastupovat vaše zájmy, jako by byly naše vlastní.",
+    "text_2": "Z Hamburku, Bělehradu, Texasu, Montenegro a Vanuatu provázíme firmy přes hranice. Poradíme také v oblasti finanční správy, stavebního financování a financování stavby jachet — vždy s ambicí zastupovat vaše zájmy, jako by byly naše vlastní.",
     "quote": "Radíme tak, jako by šlo o naši vlastní firmu.",
     "stat_1_label": "Lokalit po celém světě",
     "stat_2_label": "Oblastí činnosti",
@@ -116,7 +116,7 @@
   "offices": {
     "badge": "Kanceláře",
     "headline": "Blízko vašim trhům",
-    "subtitle": "Tři lokality, jeden slib — osobní poradenství s mezinárodním dosahem.",
+    "subtitle": "Pět lokalit, jeden slib — osobní poradenství s mezinárodním dosahem.",
     "hamburg": {
       "city": "Hamburk",
       "country": "Německo",
@@ -131,6 +131,16 @@
       "city": "Texas",
       "country": "USA",
       "label": "Severní Amerika"
+    },
+    "montenegro": {
+      "city": "Montenegro",
+      "country": "Montenegro",
+      "label": "Jihovýchodní Evropa"
+    },
+    "vanuatu": {
+      "city": "Vanuatu",
+      "country": "Vanuatu",
+      "label": "Jižní Pacifik"
     }
   },
   "contact": {
@@ -295,7 +305,7 @@
     "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
     "bio_badge": "Über Peter Fiegler",
     "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
-    "bio_2": "Mit Standorten in Hamburg, Belgrad und Texas hat er ein internationales Netzwerk aufgebaut, das Mandanten dort begleitet, wo ihre geschäftlichen Vorhaben sie hinführen — ob bei der Gründung einer Gesellschaft in Südosteuropa, der Strukturierung einer Holding oder der Erschließung des US-Marktes.",
+    "bio_2": "S kancelářemi v Hamburku, Bělehradě, Texasu, Černé Hoře a Vanuatu vybudoval mezinárodní síť, která klienty provází všude tam, kam je vedou jejich obchodní záměry — ať už jde o založení společnosti v jihovýchodní Evropě, strukturování holdingu nebo vstup na nové trhy.",
     "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
     "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
     "quote_attribution": "Peter Fiegler, Gründer",

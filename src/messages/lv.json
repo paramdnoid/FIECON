@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — Starptautiskā komerctiesību un uzņēmumu dibināšanas konsultācija",
-    "description": "FIECON Germany Co. KG — Starptautiska konsultācija komerctiesību, uzņēmumu dibināšanas, finanšu administrācijas un būvniecības finansēšanas jomā. Biroji Hamburgā, Belgradā un Teksasā.",
+    "description": "FIECON Germany Co. KG — Starptautiska konsultācija komerctiesību, uzņēmumu dibināšanas, finanšu administrācijas un būvniecības finansēšanas jomā. Biroji Hamburgā, Belgradā, Teksasā, Montenegro un Vanuatu.",
     "keywords": "komerctiesības, starptautiska uzņēmuma dibināšana, konsultācijas Hamburga, finanšu pārvaldība, būvniecības finansēšana, FIECON Consulting"
   },
   "nav": {
@@ -23,7 +23,7 @@
   "hero": {
     "tagline": "Fiegler Consulting",
     "headline": "Jūsu bizness. Starptautiski konsultēts.",
-    "subtitle": "Komerctiesības un starptautiska uzņēmumu dibināšana — personīga vadība Hamburgā, Belgradā un Teksasā.",
+    "subtitle": "Komerctiesības un starptautiska uzņēmumu dibināšana — personīga vadība Hamburgā, Belgradā, Teksasā, Montenegro un Vanuatu.",
     "cta_primary": "Mūsu pakalpojumi",
     "cta_secondary": "Sazināties"
   },
@@ -31,7 +31,7 @@
     "badge": "Par mums",
     "headline": "Vīzija satiek rūpību",
     "text_1": "FIECON nozīmē starptautisku konsultāciju ar personisku apņemšanos. Mūsu galvenā kompetence ir komerctiesības un starptautiska uzņēmumu dibināšana — jomas, kurās pieredze, precizitāte un kultūras izpratne ir izšķiroša.",
-    "text_2": "No Hamburgas, Belgradas un Teksasas mēs vadām uzņēmumus pāri robežām. Mēs arī konsultējam par finanšu administrāciju, būvniecības finansēšanu un jahtu būvniecības finansēšanu — vienmēr ar ambīciju pārstāvēt jūsu intereses tā, it kā tās būtu mūsu pašu.",
+    "text_2": "No Hamburgas, Belgradas, Teksasas, Montenegro un Vanuatu mēs vadām uzņēmumus pāri robežām. Mēs arī konsultējam par finanšu administrāciju, būvniecības finansēšanu un jahtu būvniecības finansēšanu — vienmēr ar ambīciju pārstāvēt jūsu intereses tā, it kā tās būtu mūsu pašu.",
     "quote": "Mēs konsultējam tā, it kā runa būtu par mūsu pašu uzņēmumu.",
     "stat_1_label": "Atrašanās vietas pasaulē",
     "stat_2_label": "Prakses jomas",
@@ -116,7 +116,7 @@
   "offices": {
     "badge": "Biroji",
     "headline": "Tuvu jūsu tirgiem",
-    "subtitle": "Trīs atrašanās vietas, viens solījums — personīga konsultācija ar starptautisku sasniedzamību.",
+    "subtitle": "Piecas atrašanās vietas, viens solījums — personīga konsultācija ar starptautisku sasniedzamību.",
     "hamburg": {
       "city": "Hamburga",
       "country": "Vācija",
@@ -131,6 +131,16 @@
       "city": "Teksasa",
       "country": "ASV",
       "label": "Ziemeļamerika"
+    },
+    "montenegro": {
+      "city": "Montenegro",
+      "country": "Montenegro",
+      "label": "Dienvidaustrumeiropa"
+    },
+    "vanuatu": {
+      "city": "Vanuatu",
+      "country": "Vanuatu",
+      "label": "Dienvidklusais okeāns"
     }
   },
   "contact": {
@@ -295,7 +305,7 @@
     "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
     "bio_badge": "Über Peter Fiegler",
     "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
-    "bio_2": "Mit Standorten in Hamburg, Belgrad und Texas hat er ein internationales Netzwerk aufgebaut, das Mandanten dort begleitet, wo ihre geschäftlichen Vorhaben sie hinführen — ob bei der Gründung einer Gesellschaft in Südosteuropa, der Strukturierung einer Holding oder der Erschließung des US-Marktes.",
+    "bio_2": "Ar birojiem Hamburgā, Belgradā, Teksasā, Montenegro un Vanuatu viņš ir izveidojis starptautisku tīklu, kas pavada klientus visur, kur viņu biznesa plāni tos ved — vai nu dibinot uzņēmumu Dienvidaustrumeiropā, strukturējot holdingu vai ienākot jaunos tirgos.",
     "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
     "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
     "quote_attribution": "Peter Fiegler, Gründer",

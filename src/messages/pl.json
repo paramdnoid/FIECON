@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — Międzynarodowe doradztwo w zakresie prawa spółek i zakładania firm",
-    "description": "FIECON Germany Co. KG — Międzynarodowe doradztwo w zakresie prawa spółek, zakładania firm, zarządzania finansami i finansowania budownictwa. Biura w Hamburgu, Belgradzie i Teksasie.",
+    "description": "FIECON Germany Co. KG — Międzynarodowe doradztwo w zakresie prawa spółek, zakładania firm, zarządzania finansami i finansowania budownictwa. Biura w Hamburgu, Belgradzie, Teksasie, Montenegro i Vanuatu.",
     "keywords": "prawo spółek, międzynarodowe zakładanie firm, doradztwo Hamburg, zakładanie firmy Serbia, zakładanie firmy USA Teksas, zarządzanie finansami, finansowanie budownictwa, finansowanie jachtów, FIECON Consulting"
   },
   "nav": {
@@ -23,7 +23,7 @@
   "hero": {
     "tagline": "Fiegler Consulting",
     "headline": "Twoje prawo. W wymiarze międzynarodowym.",
-    "subtitle": "Prawo spółek i międzynarodowe zakładanie firm — indywidualna obsługa w Hamburgu, Belgradzie i Teksasie.",
+    "subtitle": "Prawo spółek i międzynarodowe zakładanie firm — indywidualna obsługa w Hamburgu, Belgradzie, Teksasie, Montenegro i Vanuatu.",
     "cta_primary": "Nasze usługi",
     "cta_secondary": "Skontaktuj się z nami"
   },
@@ -31,7 +31,7 @@
     "badge": "O nas",
     "headline": "Wizja spotyka staranność",
     "text_1": "FIECON to międzynarodowe doradztwo z osobistym zaangażowaniem. Naszą główną specjalizacją jest prawo spółek i międzynarodowe zakładanie firm — dziedziny, w których doświadczenie, precyzja i zrozumienie kulturowe mają kluczowe znaczenie.",
-    "text_2": "Z Hamburga, Belgradu i Teksasu wspieramy przedsiębiorstwa ponad granicami państw. Dodatkowo doradzamy w zakresie zarządzania finansami, finansowania budownictwa i finansowania budowy jachtów — zawsze z ambicją reprezentowania Twoich interesów tak, jakby były naszymi własnymi.",
+    "text_2": "Z Hamburga, Belgradu, Teksasu, Czarnogóry i Vanuatu wspieramy przedsiębiorstwa ponad granicami państw. Dodatkowo doradzamy w zakresie zarządzania finansami, finansowania budownictwa i finansowania budowy jachtów — zawsze z ambicją reprezentowania Twoich interesów tak, jakby były naszymi własnymi.",
     "quote": "Doradzamy tak, jakby chodziło o naszą własną firmę.",
     "stat_1_label": "Lokalizacje na świecie",
     "stat_2_label": "Obszary specjalizacji",
@@ -116,7 +116,7 @@
   "offices": {
     "badge": "Lokalizacje",
     "headline": "Blisko Twoich rynków",
-    "subtitle": "Trzy lokalizacje, jedna obietnica — indywidualne doradztwo o międzynarodowym zasięgu.",
+    "subtitle": "Pięć lokalizacji, jedna obietnica — indywidualne doradztwo o międzynarodowym zasięgu.",
     "hamburg": {
       "city": "Hamburg",
       "country": "Niemcy",
@@ -131,6 +131,16 @@
       "city": "Teksas",
       "country": "USA",
       "label": "Ameryka Północna"
+    },
+    "montenegro": {
+      "city": "Montenegro",
+      "country": "Montenegro",
+      "label": "Europa Południowo-Wschodnia"
+    },
+    "vanuatu": {
+      "city": "Vanuatu",
+      "country": "Vanuatu",
+      "label": "Południowy Pacyfik"
     }
   },
   "contact": {
@@ -295,7 +305,7 @@
     "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
     "bio_badge": "Über Peter Fiegler",
     "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
-    "bio_2": "Mit Standorten in Hamburg, Belgrad und Texas hat er ein internationales Netzwerk aufgebaut, das Mandanten dort begleitet, wo ihre geschäftlichen Vorhaben sie hinführen — ob bei der Gründung einer Gesellschaft in Südosteuropa, der Strukturierung einer Holding oder der Erschließung des US-Marktes.",
+    "bio_2": "Z biurami w Hamburgu, Belgradzie, Teksasie, Czarnogórze i Vanuatu zbudował międzynarodową sieć, która towarzyszy klientom tam, gdzie prowadzą ich przedsięwzięcia biznesowe — czy to przy zakładaniu spółki w Europie Południowo-Wschodniej, strukturyzacji holdingu czy wchodzeniu na nowe rynki.",
     "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
     "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
     "quote_attribution": "Peter Fiegler, Gründer",

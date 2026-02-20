@@ -33,6 +33,7 @@
 
 /* === Base Styles === */
 html {
+  position: relative;
   scroll-behavior: smooth;
   scroll-padding-top: 6rem;
 }

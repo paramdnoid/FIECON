@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — Nazioarteko Sozietate Zuzenbidea eta Enpresa Eraketa Aholkularitza",
-    "description": "FIECON Germany Co. KG — Nazioarteko aholkularitza sozietate zuzenbidean, enpresa eraketetan, finantza administrazioan eta eraikuntza finantzaketan. Bulegoak Hamburgen, Belgraden eta Texasen.",
+    "description": "FIECON Germany Co. KG — Nazioarteko aholkularitza sozietate zuzenbidean, enpresa eraketetan, finantza administrazioan eta eraikuntza finantzaketan. Bulegoak Hamburgen, Belgraden, Texasen, Montenegron eta Vanuatun.",
     "keywords": "sozietate zuzenbidea, nazioarteko enpresa sortzea, aholkularitza Hamburg, finantza kudeaketa, eraikuntza finantzaketa, FIECON Consulting"
   },
   "nav": {
@@ -23,7 +23,7 @@
   "hero": {
     "tagline": "Fiegler Consulting",
     "headline": "Zure negozioa. Nazioartean aholkatua.",
-    "subtitle": "Sozietate zuzenbidea eta nazioarteko enpresa eraketa — laguntza pertsonala Hamburgen, Belgraden eta Texasen.",
+    "subtitle": "Sozietate zuzenbidea eta nazioarteko enpresa eraketa — laguntza pertsonala Hamburgen, Belgraden, Texasen, Montenegron eta Vanuatun.",
     "cta_primary": "Gure zerbitzuak",
     "cta_secondary": "Jarri harremanetan"
   },
@@ -31,7 +31,7 @@
     "badge": "Guri buruz",
     "headline": "Ikusmena eta arduratasuna",
     "text_1": "FIECONek nazioarteko aholkularitza adierazten du konpromiso pertsonalarekin. Gure oinarrizko gaitasuna sozietate zuzenbidean eta nazioarteko enpresa eraketetan datza — esperientziak, zehaztasunak eta kultur ulermena ezberdintasuna egiten duten arloetan.",
-    "text_2": "Hamburgetik, Belgradetik eta Texasetik, enpresak mugen gainetik gidatzen ditugu. Finantza administrazioan, eraikuntza finantzaketan eta yate eraikuntza finantzaketan ere aholkatzen dugu — beti zure interesak gureak balira bezala ordezkatzen.",
+    "text_2": "Hamburgetik, Belgradetik, Texasetik, Montenegro eta Vanuatu, enpresak mugen gainetik gidatzen ditugu. Finantza administrazioan, eraikuntza finantzaketan eta yate eraikuntza finantzaketan ere aholkatzen dugu — beti zure interesak gureak balira bezala ordezkatzen.",
     "quote": "Gure enpresa propioa balitz bezala aholkatzen dugu.",
     "stat_1_label": "Kokapena munduan",
     "stat_2_label": "Jarduera arloak",
@@ -116,7 +116,7 @@
   "offices": {
     "badge": "Bulegoak",
     "headline": "Zure merkatuetatik gertu",
-    "subtitle": "Hiru kokapen, promesa bat — aholkularitza pertsonala nazioarteko irismen arekin.",
+    "subtitle": "Bost kokapen, promesa bat — aholkularitza pertsonala nazioarteko irismen arekin.",
     "hamburg": {
       "city": "Hanburgo",
       "country": "Alemania",
@@ -131,6 +131,16 @@
       "city": "Texas",
       "country": "AEB",
       "label": "Ipar Amerika"
+    },
+    "montenegro": {
+      "city": "Montenegro",
+      "country": "Montenegro",
+      "label": "Hego-ekialdeko Europa"
+    },
+    "vanuatu": {
+      "city": "Vanuatu",
+      "country": "Vanuatu",
+      "label": "Hego Pazifikoa"
     }
   },
   "contact": {
@@ -295,7 +305,7 @@
     "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
     "bio_badge": "Über Peter Fiegler",
     "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
-    "bio_2": "Mit Standorten in Hamburg, Belgrad und Texas hat er ein internationales Netzwerk aufgebaut, das Mandanten dort begleitet, wo ihre geschäftlichen Vorhaben sie hinführen — ob bei der Gründung einer Gesellschaft in Südosteuropa, der Strukturierung einer Holding oder der Erschließung des US-Marktes.",
+    "bio_2": "Hamburgen, Belgraden, Texasen, Montenegron eta Vanuatun bulegoekin, nazioarteko sare bat eraiki du, bezeroei beren negozio-planak eramaten dituzten lekuetan laguntzen diena — Hego-ekialdeko Europan enpresa bat sortuz, holding bat egituratuz edo merkatu berrietara sartuz.",
     "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
     "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
     "quote_attribution": "Peter Fiegler, Gründer",
