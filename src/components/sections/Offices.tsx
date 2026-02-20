@@ -284,7 +284,7 @@ export function Offices() {
   const prefersReduced = useReducedMotion();
 
   return (
-    <section id="offices" className="py-32 sm:py-40">
+    <section id="offices" className="py-32 sm:py-20">
       <Container size="lg">
         <FadeIn>
           <SectionHeading

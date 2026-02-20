@@ -115,6 +115,7 @@ export function EllipseCard({
 
   return (
     <motion.div
+      suppressHydrationWarning
       style={{
         x,
         y,
