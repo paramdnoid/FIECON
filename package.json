@@ -22,7 +22,8 @@
     "next-intl": "^4.8.2",
     "nodemailer": "^8.0.0",
     "react": "^19.2.4",
-    "react-dom": "^19.2.4"
+    "react-dom": "^19.2.4",
+    "zod": "^4.3.6"
   },
   "devDependencies": {
     "@cyclonedx/cyclonedx-npm": "^4.1.2",

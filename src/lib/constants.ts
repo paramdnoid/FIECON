@@ -6,6 +6,9 @@ export const COMPANY = {
   website: "www.fiecon-consulting.eu",
 } as const;
 
+export const BASE_URL =
+  process.env.SITE_URL || `https://${COMPANY.website}`;
+
 export const CONTACT = {
   address: {
     street: "Borsteler Chaussee 179",

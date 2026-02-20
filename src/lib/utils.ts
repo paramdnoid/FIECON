@@ -1,3 +1,5 @@
+import { HEADER_HEIGHT, SERVICES_SCROLL_OFFSET } from "./constants";
+
 export function cn(...inputs: (string | undefined | null | false)[]) {
   return inputs.filter(Boolean).join(" ");
 }
@@ -21,8 +23,6 @@ export function escapeHtml(str: string): string {
 export function sanitizeHeaderValue(str: string): string {
   return str.replace(/[\r\n\t]/g, "").trim();
 }
-
-import { HEADER_HEIGHT, SERVICES_SCROLL_OFFSET } from "./constants";
 
 /** Scroll to a page section by its id, accounting for the fixed header. */
 export function scrollToSection(

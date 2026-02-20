@@ -1,52 +1,34 @@
-# Contributing
+# Contributing to FIECON
 
-Thanks for contributing to the ClaudeSmith marketplace. The goal is to keep plugin authors focused on their tools while the catalog stays auto-generated.
+## Getting Started
 
-## Prerequisites
+1. Clone the repository
+2. Copy `.env.example` to `.env.local` and fill in the required values
+3. Install dependencies: `pnpm install`
+4. Start the dev server: `pnpm dev`
 
-- Node.js 18+ (for `scripts/generate-marketplace.js`)
-- Claude Code CLI if you want to validate (`claude plugin validate .`)
+## Development
 
-## Adding or updating a plugin
+- **Dev server:** `pnpm dev` (port 3000)
+- **Lint:** `pnpm lint`
+- **Test:** `pnpm test`
+- **Test with coverage:** `pnpm test:coverage`
+- **Check translations:** `pnpm check:i18n`
+- **Build:** `pnpm build`
 
-1. Pick the category under `plugins/` (`commands/`, `hooks/`, `agents/`, `skills/`, `mcp/`, `bundles/`).
-2. Create the plugin folder `plugins/<category>/<name>/`.
-3. Add `.claude-plugin/plugin.json` (required). Include:
-   - `name` (kebab-case), `version`, `description`, `author`, `license`
-   - `keywords` to influence marketplace tags
-   - Optional: `hooks`, `commands`, `agents`, `skills`, `mcpServers` paths
-4. Place components at plugin root (not inside `.claude-plugin/`):
-   - Hooks: `hooks/hooks.json`, scripts under `scripts/` (chmod +x)
-   - Commands: `commands/*.md`
-   - Agents: `agents/*.md`
-   - Skills: `skills/<skill>/SKILL.md`
-   - MCP: `.mcp.json` (or inline `mcpServers`)
-5. Run the generator to refresh the catalog:
+## Code Conventions
 
-```bash
-node scripts/generate-marketplace.js
-```
+- TypeScript strict mode — no `any` types
+- All UI text goes through next-intl translations (no hardcoded strings)
+- Use `@/*` path alias for imports from `src/`
+- Use locale-aware `Link`, `redirect`, `usePathname`, `useRouter` from `@/i18n/navigation`
+- Buttons must have explicit `type="button"` unless they are submit buttons
+- Interactive elements must have visible `:focus-visible` indicators
 
-6. (Optional) Validate manifests:
+## Translations
 
-```bash
-claude plugin validate .
-```
+Translation files live in `src/messages/{locale}.json`. German (`de.json`) is the reference locale. Run `pnpm check:i18n` to verify all locales have matching keys.
 
-7. Commit your changes.
+## Deployment
 
-## Style and naming
-
-- Use kebab-case for plugin names.
-- Keep manifests minimal but include `keywords` for discoverability.
-- Use `${CLAUDE_PLUGIN_ROOT}` in hooks/scripts for portable paths.
-- Keep scripts executable where applicable.
-
-## PR checklist
-
-- [ ] New/updated plugin has `.claude-plugin/plugin.json` with `name`, `version`, `description`, `author`, `license`.
-- [ ] Components are in the correct root directories (commands/, hooks/, agents/, skills/, scripts/, .mcp.json).
-- [ ] `node scripts/generate-marketplace.js` has been run (and staged output).
-- [ ] Any scripts meant to run are executable (`chmod +x`).
-- [ ] Optional: `claude plugin validate .` passes locally.
-
+See [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) for deployment instructions.

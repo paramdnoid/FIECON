@@ -19,15 +19,9 @@ export default function middleware(request: NextRequest) {
 
   // Build the CSP directives
   const isDev = process.env.NODE_ENV === "development";
-  const cspDirectives = [
+  const directives = [
     "default-src 'self'",
-    // 'strict-dynamic' trusts scripts loaded by nonced scripts.
-    // 'unsafe-inline' is ignored by browsers that support nonces but acts as fallback for older ones.
-    // 'unsafe-eval' is needed in development for React Fast Refresh / HMR.
     `script-src 'self' 'nonce-${nonce}' 'strict-dynamic'${isDev ? " 'unsafe-eval'" : ""}`,
-    // Tailwind CSS is in external files ('self'). Motion/React use inline style
-    // attributes for animations – nonces don't apply to style="..." attributes,
-    // only to <style> tags. 'unsafe-inline' for styles has limited security impact.
     `style-src 'self' 'unsafe-inline'`,
     "img-src 'self' data:",
     "font-src 'self'",
@@ -36,7 +30,11 @@ export default function middleware(request: NextRequest) {
     "object-src 'none'",
     "base-uri 'self'",
     "form-action 'self'",
-  ].join("; ");
+  ];
+  if (!isDev) {
+    directives.push("upgrade-insecure-requests");
+  }
+  const cspDirectives = directives.join("; ");
 
   // Pass nonce to Next.js so it can inject it into <script> tags
   const requestHeaders = new Headers(request.headers);

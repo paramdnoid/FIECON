@@ -1,6 +1,5 @@
 import type { MetadataRoute } from "next";
-
-const BASE_URL = process.env.SITE_URL || "https://www.fiecon-consulting.eu";
+import { BASE_URL } from "@/lib/constants";
 
 export default function robots(): MetadataRoute.Robots {
   return {

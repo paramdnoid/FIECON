@@ -2,16 +2,15 @@ import type { NextConfig } from "next";
 import { withSentryConfig } from "@sentry/nextjs";
 import createNextIntlPlugin from "next-intl/plugin";
 import withBundleAnalyzer from "@next/bundle-analyzer";
+import { env } from "@/lib/env";
 
 const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 const withAnalyzer = withBundleAnalyzer({
-  enabled: process.env.ANALYZE === "true",
+  enabled: env.ANALYZE === "true",
 });
 
 const nextConfig: NextConfig = {
-  allowedDevOrigins: process.env.DEV_HOST
-    ? [`${process.env.DEV_HOST}:3000`]
-    : [],
+  allowedDevOrigins: env.DEV_HOST ? [`${env.DEV_HOST}:3000`] : [],
 
   // Prefer AVIF (smaller) with WebP fallback for image optimization
   images: {
@@ -41,6 +40,7 @@ const nextConfig: NextConfig = {
         key: "Permissions-Policy",
         value: "camera=(), microphone=(), geolocation=()",
       },
+      { key: "X-Permitted-Cross-Domain-Policies", value: "none" },
     ];
 
     return [

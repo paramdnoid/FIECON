@@ -1,5 +1,7 @@
 import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
+import { env } from "@/lib/env";
+import { logger } from "@/lib/logger";
 import { escapeHtml, sanitizeHeaderValue, EMAIL_REGEX } from "@/lib/utils";
 
 type ContactBody = {
@@ -41,19 +43,18 @@ function isRateLimited(ip: string): boolean {
   return false;
 }
 
-// Lazy singleton SMTP transporter
 let _transporter: nodemailer.Transporter | null = null;
 
 function getTransporter(): nodemailer.Transporter | null {
   if (_transporter) return _transporter;
 
-  const { SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS } = process.env;
-  if (!SMTP_HOST || !SMTP_USER || !SMTP_PASS) return null;
+  const { SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS } = env;
+  if (!SMTP_HOST?.trim() || !SMTP_USER?.trim() || !SMTP_PASS) return null;
 
   _transporter = nodemailer.createTransport({
     host: SMTP_HOST,
-    port: Number(SMTP_PORT) || 587,
-    secure: Number(SMTP_PORT) === 465,
+    port: SMTP_PORT,
+    secure: SMTP_PORT === 465,
     auth: { user: SMTP_USER, pass: SMTP_PASS },
   });
 
@@ -74,15 +75,17 @@ const ALLOWED_ORIGINS = [
 ];
 
 export async function POST(request: Request) {
-  // CSRF protection: reject cross-origin requests
+  const requestId = crypto.randomUUID();
+  const headers: HeadersInit = { "X-Request-Id": requestId };
+
   const origin = request.headers.get("origin");
   const allowed =
-    process.env.NODE_ENV !== "production"
+    env.NODE_ENV !== "production"
       ? !origin || origin.startsWith("http://localhost:")
       : origin != null && ALLOWED_ORIGINS.includes(origin);
 
   if (!allowed) {
-    return NextResponse.json({ error: "Forbidden" }, { status: 403 });
+    return NextResponse.json({ error: "Forbidden" }, { status: 403, headers });
   }
 
   // Rate limiting — prefer x-real-ip (set by trusted reverse proxy)
@@ -94,7 +97,7 @@ export async function POST(request: Request) {
   if (isRateLimited(ip)) {
     return NextResponse.json(
       { error: "Too many requests" },
-      { status: 429, headers: { "Retry-After": "60" } },
+      { status: 429, headers: { ...headers, "Retry-After": "60" } },
     );
   }
 
@@ -102,7 +105,7 @@ export async function POST(request: Request) {
   if (!contentType?.includes("application/json")) {
     return NextResponse.json(
       { error: "Content-Type must be application/json" },
-      { status: 415 },
+      { status: 415, headers },
     );
   }
 
@@ -113,7 +116,7 @@ export async function POST(request: Request) {
   } catch {
     return NextResponse.json(
       { error: "Invalid request body" },
-      { status: 400 },
+      { status: 400, headers },
     );
   }
 
@@ -123,7 +126,7 @@ export async function POST(request: Request) {
   if (!name?.trim() || !email?.trim() || !subject?.trim() || !message?.trim()) {
     return NextResponse.json(
       { error: "All fields are required" },
-      { status: 400 },
+      { status: 400, headers },
     );
   }
 
@@ -136,39 +139,38 @@ export async function POST(request: Request) {
   ) {
     return NextResponse.json(
       { error: "Input exceeds maximum length" },
-      { status: 400 },
+      { status: 400, headers },
     );
   }
 
   if (!EMAIL_REGEX.test(email)) {
     return NextResponse.json(
       { error: "Invalid email address" },
-      { status: 400 },
+      { status: 400, headers },
     );
   }
 
-  // SMTP configuration
   const transporter = getTransporter();
   if (!transporter) {
-    console.error("Missing SMTP environment variables");
+    logger.error("Missing SMTP environment variables", { requestId, ip });
     return NextResponse.json(
       { error: "Email service not configured" },
-      { status: 503 },
+      { status: 503, headers },
     );
   }
 
-  const recipient = process.env.CONTACT_TO;
+  const recipient = env.CONTACT_TO?.trim();
   if (!recipient) {
-    console.error("Missing CONTACT_TO environment variable");
+    logger.error("Missing CONTACT_TO environment variable", { requestId, ip });
     return NextResponse.json(
       { error: "Email service not configured" },
-      { status: 503 },
+      { status: 503, headers },
     );
   }
 
   try {
     await transporter.sendMail({
-      from: process.env.SMTP_FROM || process.env.SMTP_USER,
+      from: env.SMTP_FROM || env.SMTP_USER || "",
       to: recipient,
       replyTo: `${sanitizeHeaderValue(name)} <${sanitizeHeaderValue(email)}>`,
       subject: `[FIECON Kontakt] ${sanitizeHeaderValue(subject)}`,
@@ -209,12 +211,16 @@ export async function POST(request: Request) {
       `,
     });
 
-    return NextResponse.json({ success: true });
+    return NextResponse.json({ success: true }, { headers });
   } catch (error) {
-    console.error("Failed to send email:", error);
+    logger.error("Failed to send email", {
+      requestId,
+      ip,
+      error: error instanceof Error ? error : new Error(String(error)),
+    });
     return NextResponse.json(
       { error: "Failed to send email" },
-      { status: 500 },
+      { status: 500, headers },
     );
   }
 }

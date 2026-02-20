@@ -26,7 +26,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: pnpm
 
       - name: Install dependencies
@@ -42,11 +42,19 @@ jobs:
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
 
+      - name: TypeScript type-check
+        run: pnpm exec tsc --noEmit
+
       - name: Lint
         run: pnpm lint
 
+      - name: Check i18n
+        run: pnpm check:i18n
+
       - name: Run tests with coverage
         run: pnpm test:coverage
+        env:
+          SKIP_ENV_VALIDATION: true
 
       - name: Build
         run: pnpm build

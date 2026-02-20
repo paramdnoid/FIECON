@@ -13,6 +13,9 @@ export default function Error({
   const t = useTranslations("error");
 
   useEffect(() => {
+    import("@sentry/nextjs").then((Sentry) => {
+      Sentry.captureException(error);
+    });
     console.error(error);
   }, [error]);
 
