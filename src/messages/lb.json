@@ -64,7 +64,8 @@
       "description": "Bauprojete verlaangen finanziell Zouverlässegkeet. Mir strukturéieren an iwwerwaachen d'Finanzéierung vun Äre Bauvirhuelen — vun der éischter Kalkulatioun bis zur Fäerdegstellung.",
       "items": {
         "0": "Projetfinanzéierung",
-        "1": "Investitiounssécherheet"
+        "1": "Investitiounssécherheet",
+        "2": "Hypothéikesécherung"
       }
     },
     "yacht": {

@@ -64,7 +64,8 @@
       "description": "Le konstrukciake proiekturea trubun finansialno siguripe. Strukturisaras thaj phirasas o finansipe tumare konstrukciake proiekturenge — andar o angluno kalkulipe dzi ko agoripe.",
       "items": {
         "0": "Proiektako finansipe",
-        "1": "Investiciako arakhipe"
+        "1": "Investiciako arakhipe",
+        "2": "Hypothekenabsicherung"
       }
     },
     "yacht": {

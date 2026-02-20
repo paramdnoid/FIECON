@@ -64,7 +64,8 @@
       "description": "Mae prosiectau adeiladu yn gofyn am ddibynadwyedd ariannol. Rydym yn strwythuro ac yn goruchwylio cyllid eich mentrau adeiladu — o'r cyfrifiad cychwynnol i'r cwblhad.",
       "items": {
         "0": "Cyllid prosiectau",
-        "1": "Diogelwch buddsoddi"
+        "1": "Diogelwch buddsoddi",
+        "2": "Sicrwydd morgais"
       }
     },
     "yacht": {

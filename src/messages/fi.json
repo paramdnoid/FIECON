@@ -64,7 +64,8 @@
       "description": "Rakennushankkeet vaativat taloudellista luotettavuutta. Rakenteistamme ja valvomme rakennushankkeidesi rahoitusta — alkuperäisestä laskelmasta valmistumiseen.",
       "items": {
         "0": "Hankkeenrahoitus",
-        "1": "Sijoitusturva"
+        "1": "Sijoitusturva",
+        "2": "Asuntolainan turvaaminen"
       }
     },
     "yacht": {

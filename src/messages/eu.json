@@ -64,7 +64,8 @@
       "description": "Eraikuntza proiektuek finantza fidagarritasuna eskatzen dute. Zure eraikuntza proiektuen finantzaketa egituratzen eta gainbegiratzen dugu — hasierako kalkulutik bukaerara.",
       "items": {
         "0": "Proiektu finantzaketa",
-        "1": "Inbertsio segurtasuna"
+        "1": "Inbertsio segurtasuna",
+        "2": "Hipoteka bermea"
       }
     },
     "yacht": {

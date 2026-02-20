@@ -64,7 +64,8 @@
       "description": "İnşaat projeleri finansal güvenilirlik gerektirir. İnşaat projelerinizin finansmanını yapılandırıyor ve ilk hesaplamadan tamamlanmasına kadar eşlik ediyoruz.",
       "items": {
         "0": "Proje finansmanı",
-        "1": "Yatırım güvencesi"
+        "1": "Yatırım güvencesi",
+        "2": "İpotek güvencesi"
       }
     },
     "yacht": {

@@ -64,7 +64,8 @@
       "description": "Byggingarverkefni krefjast fjárhagslegrar áreiðanleika. Við skipuleggjum og umsjónum fjármögnun byggingarverkefna þinna — frá upphaflegum útreikningi til verkloka.",
       "items": {
         "0": "Verkefnafjármögnun",
-        "1": "Fjárfestingaöryggi"
+        "1": "Fjárfestingaöryggi",
+        "2": "Veðtryggingarvernd"
       }
     },
     "yacht": {

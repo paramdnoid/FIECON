@@ -64,7 +64,8 @@
       "description": "Az építési projektek pénzügyi megbízhatóságot igényelnek. Strukturáljuk és kísérjük az Ön építési beruházásainak finanszírozását — az első kalkulációtól a befejezésig.",
       "items": {
         "0": "Projektfinanszírozás",
-        "1": "Beruházásbiztonság"
+        "1": "Beruházásbiztonság",
+        "2": "Jelzálogbiztosítás"
       }
     },
     "yacht": {

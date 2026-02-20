@@ -29,8 +29,8 @@ describe("sitemap()", () => {
   const result = sitemap();
   const localeCount = routing.locales.length;
 
-  it("returns entries for all locales × 3 pages", () => {
-    expect(result).toHaveLength(localeCount * 3);
+  it("returns entries for all locales × 6 pages", () => {
+    expect(result).toHaveLength(localeCount * 6);
   });
 
   it("includes homepage for every locale with priority 1", () => {
@@ -57,6 +57,16 @@ describe("sitemap()", () => {
     expect(datenschutzEntries).toHaveLength(localeCount);
     expect(datenschutzEntries[0].priority).toBe(0.3);
     expect(datenschutzEntries[0].changeFrequency).toBe("yearly");
+  });
+
+  it("includes team pages for every locale with medium priority", () => {
+    const teamSlugs = ["peter-fiegler", "rene-marquard", "andre-zimmermann"];
+    for (const slug of teamSlugs) {
+      const entries = result.filter((e) => e.url.includes(`/team/${slug}`));
+      expect(entries).toHaveLength(localeCount);
+      expect(entries[0].priority).toBe(0.7);
+      expect(entries[0].changeFrequency).toBe("monthly");
+    }
   });
 
   it("includes lastModified as Date on all entries", () => {

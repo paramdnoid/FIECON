@@ -64,7 +64,8 @@
       "description": "Bouwprojecten vragen om financiële betrouwbaarheid. Wij structureren en begeleiden de financiering van uw bouwprojecten — van de eerste berekening tot de oplevering.",
       "items": {
         "0": "Projectfinanciering",
-        "1": "Investeringszekerheid"
+        "1": "Investeringszekerheid",
+        "2": "Hypothecaire zekerheid"
       }
     },
     "yacht": {

@@ -64,7 +64,8 @@
       "description": "Éilíonn tionscadail tógála iontaofacht airgeadais. Struchtúraimid agus maoirsímid maoiniú d'fhiontar tógála — ón ríomh tosaigh go dtí an chríochnú.",
       "items": {
         "0": "Maoiniú tionscadail",
-        "1": "Slándáil infheistíochta"
+        "1": "Slándáil infheistíochta",
+        "2": "Cosaint morgáiste"
       }
     },
     "yacht": {

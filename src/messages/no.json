@@ -64,7 +64,8 @@
       "description": "Byggeprosjekter krever økonomisk pålitelighet. Vi strukturerer og overvåker finansieringen av dine byggeprosjekter — fra første beregning til ferdigstillelse.",
       "items": {
         "0": "Prosjektfinansiering",
-        "1": "Investeringssikkerhet"
+        "1": "Investeringssikkerhet",
+        "2": "Boliglånssikring"
       }
     },
     "yacht": {

@@ -64,7 +64,8 @@
       "description": "Byggprojekt kräver ekonomisk tillförlitlighet. Vi strukturerar och övervakar finansieringen av dina byggprojekt — från första beräkningen till färdigställande.",
       "items": {
         "0": "Projektfinansiering",
-        "1": "Investeringssäkerhet"
+        "1": "Investeringssäkerhet",
+        "2": "Bolånesäkerhet"
       }
     },
     "yacht": {

@@ -64,7 +64,8 @@
       "description": "Gradbeni projekti zahtevajo finančno zanesljivost. Strukturiramo in nadziramo financiranje vaših gradbenih projektov — od prvega izračuna do zaključka.",
       "items": {
         "0": "Projektno financiranje",
-        "1": "Varnost naložb"
+        "1": "Varnost naložb",
+        "2": "Hipotekarna zavarovalnica"
       }
     },
     "yacht": {

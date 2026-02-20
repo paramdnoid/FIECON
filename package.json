@@ -26,6 +26,9 @@
     "sharp": "^0.34.5",
     "zod": "^4.3.6"
   },
+  "pnpm": {
+    "onlyBuiltDependencies": ["sharp", "esbuild", "@swc/core"]
+  },
   "devDependencies": {
     "@cyclonedx/cyclonedx-npm": "^4.1.2",
     "@next/bundle-analyzer": "^16.1.6",

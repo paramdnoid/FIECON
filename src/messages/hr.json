@@ -64,7 +64,8 @@
       "description": "Građevinski projekti zahtijevaju financijsku pouzdanost. Strukturiramo i pratimo financiranje vaših građevinskih pothvata — od prve kalkulacije do završetka.",
       "items": {
         "0": "Projektno financiranje",
-        "1": "Osiguranje investicija"
+        "1": "Osiguranje investicija",
+        "2": "Hipotekarno osiguranje"
       }
     },
     "yacht": {

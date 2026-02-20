@@ -64,7 +64,8 @@
       "description": "Būvniecības projekti prasa finansiālu uzticamību. Mēs strukturējam un pārraugām jūsu būvniecības projektu finansēšanu — no sākotnējā aprēķina līdz pabeigšanai.",
       "items": {
         "0": "Projektu finansēšana",
-        "1": "Investīciju drošība"
+        "1": "Investīciju drošība",
+        "2": "Hipotēkas nodrošinājums"
       }
     },
     "yacht": {

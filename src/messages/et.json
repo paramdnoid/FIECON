@@ -64,7 +64,8 @@
       "description": "Ehitusprojektid nõuavad rahalist usaldusväärsust. Struktureerime ja jälgime teie ehitusprojektide finantseerimist — algsest arvutusest kuni valmimiseni.",
       "items": {
         "0": "Projektide finantseerimine",
-        "1": "Investeeringute turvalisus"
+        "1": "Investeeringute turvalisus",
+        "2": "Hüpoteegi tagamine"
       }
     },
     "yacht": {

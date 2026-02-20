@@ -116,7 +116,7 @@ export function About() {
                   <div className="relative size-24 overflow-hidden rounded-full ring-1 ring-bordeaux-900/15 ring-offset-2 ring-offset-beige-50 sm:size-28 lg:size-32">
                     <Image
                       src="/team/peter-fiegler.webp"
-                      alt=""
+                      alt="Peter Fiegler"
                       width={128}
                       height={128}
                       className="size-full object-cover"
@@ -190,7 +190,7 @@ export function About() {
                     <div className="relative size-14 shrink-0 overflow-hidden rounded-full ring-1 ring-bordeaux-900/10 ring-offset-1 ring-offset-beige-50 sm:size-16">
                       <Image
                         src={member.imageSrc}
-                        alt=""
+                        alt={member.name}
                         width={64}
                         height={64}
                         className="size-full object-cover"

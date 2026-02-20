@@ -64,7 +64,8 @@
       "description": "Proġetti tal-kostruzzjoni jeħtieġu affidabbiltà finanzjarja. Aħna nistrutturaw u nissorveljaw il-finanzjament tal-impriżi tal-bini tiegħek — mill-kalkolu inizjali sat-tlestija.",
       "items": {
         "0": "Finanzjament ta' proġetti",
-        "1": "Sigurtà tal-investiment"
+        "1": "Sigurtà tal-investiment",
+        "2": "Protezzjoni tal-ipoteka"
       }
     },
     "yacht": {
