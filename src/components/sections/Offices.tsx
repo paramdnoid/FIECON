@@ -191,7 +191,7 @@ function CountryPhotoMap({ countryCode }: { countryCode: string }) {
             opacity: config.opacity,
             filter: `saturate(${config.saturate}) sepia(${config.sepia})`,
           }}
-          sizes="100vw"
+          sizes="(max-width: 768px) 100vw, 50vw"
           priority={false}
         />
       </div>
@@ -240,8 +240,8 @@ function BackgroundMap({ activeIndex }: { activeIndex: number }) {
             <CountryPhotoMap countryCode={office.countryCode} />
           ) : (
             <MapComponent
-              className="w-[65%] sm:w-[60%] md:w-[55%] lg:w-[50%] h-auto max-h-[90%] text-bordeaux-900/[0.12]"
-              dotClassName="fill-bordeaux-500/[0.15]"
+              className="w-[65%] sm:w-[60%] md:w-[55%] lg:w-[50%] h-auto max-h-[90%] text-bordeaux-900/12"
+              dotClassName="fill-bordeaux-500/15"
             />
           )}
         </motion.div>

@@ -141,6 +141,13 @@ export default async function LocaleLayout({
 
   return (
     <>
+      {/* Preconnect to Sentry for faster error reporting initialization */}
+      {process.env.NEXT_PUBLIC_SENTRY_DSN && (
+        <link
+          rel="preconnect"
+          href={`https://${new URL(process.env.NEXT_PUBLIC_SENTRY_DSN).hostname}`}
+        />
+      )}
       <a
         href="#main"
         className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-100 focus:px-4 focus:py-2 focus:bg-bordeaux-900 focus:text-white focus:rounded-lg focus:text-sm focus:font-medium"

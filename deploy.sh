@@ -13,6 +13,7 @@ SERVER="root@217.154.23.84"
 REMOTE_DIR="/var/www/fiecon"
 RSYNC_EXCLUDES=(
   --exclude "node_modules"
+  --exclude ".playwright-mcp"
   --exclude ".next"
   --exclude ".git"
   --exclude ".env"
@@ -21,6 +22,15 @@ RSYNC_EXCLUDES=(
   --exclude "*.tsbuildinfo"
   --exclude ".DS_Store"
   --exclude "plugins"
+  --exclude "docs"
+  --exclude "scripts"
+  --exclude "src/tests"
+  --exclude ".github"
+  --exclude "vitest.config.ts"
+  --exclude "eslint.config.mjs"
+  --exclude "CONTRIBUTING.md"
+  --exclude "README.md"
+  --exclude "CLAUDE.md"
 )
 
 echo "🚀 FIECON Deployment"
@@ -39,12 +49,11 @@ echo "📤 Syncing to ${SERVER}:${REMOTE_DIR}..."
 rsync -avz --delete \
   --filter 'protect .env' \
   "${RSYNC_EXCLUDES[@]}" \
-  --exclude ".next" \
   ./ "${SERVER}:${REMOTE_DIR}/"
 
 echo ""
 echo "🔄 Installing dependencies and restarting on server..."
-ssh "${SERVER}" "cd ${REMOTE_DIR} && pnpm install --frozen-lockfile && pnpm build && pm2 restart fiecon --update-env || pm2 start ecosystem.config.cjs"
+ssh "${SERVER}" "cd ${REMOTE_DIR} && rm -rf .next node_modules && pnpm install --frozen-lockfile && pnpm build && pm2 restart fiecon --update-env || pm2 start ecosystem.config.cjs"
 
 echo ""
 echo "✅ Deployment complete!"

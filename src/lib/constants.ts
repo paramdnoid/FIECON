@@ -58,19 +58,19 @@ export const TEAM_MEMBERS = [
     slug: "peter-fiegler",
     translationKey: "team_peter_fiegler",
     name: "Peter Fiegler",
-    imageSrc: "/team/peter-fiegler.png",
+    imageSrc: "/team/peter-fiegler.webp",
   },
   {
     slug: "rene-marquard",
     translationKey: "team_rene_marquard",
     name: "René Marquard",
-    imageSrc: "/team/rene-marquard.png",
+    imageSrc: "/team/rene-marquard.webp",
   },
   {
     slug: "andre-zimmermann",
     translationKey: "team_andre_zimmermann",
     name: "Andre Zimmermann",
-    imageSrc: "/team/andre-zimmermann.png",
+    imageSrc: "/team/andre-zimmermann.webp",
   },
 ] as const;
 
