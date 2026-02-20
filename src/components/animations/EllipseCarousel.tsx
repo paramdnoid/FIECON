@@ -24,6 +24,24 @@ export function EllipseCarousel({
   );
 }
 
+export type DepthConfig = {
+  scaleRange: [number, number];
+  blurMax: number;
+  brightnessRange: [number, number];
+  opacityRange: [number, number];
+  shadowSpreadMax: number;
+  shadowAlphaMax: number;
+};
+
+const DEFAULT_DEPTH: DepthConfig = {
+  scaleRange: [0.6, 1.0],
+  blurMax: 2.5,
+  brightnessRange: [0.6, 1.0],
+  opacityRange: [0.55, 1.0],
+  shadowSpreadMax: 30,
+  shadowAlphaMax: 0.25,
+};
+
 type EllipseCardProps = {
   index: number;
   totalCount: number;
@@ -34,6 +52,7 @@ type EllipseCardProps = {
   children: ReactNode;
   cardWidth: number;
   cardHeight: number;
+  depth?: DepthConfig;
 };
 
 export function EllipseCard({
@@ -46,6 +65,7 @@ export function EllipseCard({
   children,
   cardWidth,
   cardHeight,
+  depth: d = DEFAULT_DEPTH,
 }: EllipseCardProps) {
   const angleStep = TWO_PI / totalCount;
 
@@ -61,35 +81,35 @@ export function EllipseCard({
 
   const scale = useTransform(rotation, (r) => {
     const angle = angleStep * index + r;
-    const depth = (1 + Math.cos(angle)) / 2;
-    return 0.6 + depth * 0.4;
+    const t = (1 + Math.cos(angle)) / 2;
+    return d.scaleRange[0] + t * (d.scaleRange[1] - d.scaleRange[0]);
   });
 
   const zIndex = useTransform(rotation, (r) => {
     const angle = angleStep * index + r;
-    const depth = (1 + Math.cos(angle)) / 2;
-    return Math.round(depth * 100);
+    const t = (1 + Math.cos(angle)) / 2;
+    return Math.round(t * 100);
   });
 
   const filter = useTransform(rotation, (r) => {
     const angle = angleStep * index + r;
-    const depth = (1 + Math.cos(angle)) / 2;
-    const brightness = 0.6 + depth * 0.4;
-    const blur = (1 - depth) * 2.5;
+    const t = (1 + Math.cos(angle)) / 2;
+    const brightness = d.brightnessRange[0] + t * (d.brightnessRange[1] - d.brightnessRange[0]);
+    const blur = (1 - t) * d.blurMax;
     return `brightness(${brightness}) blur(${blur}px)`;
   });
 
   const opacity = useTransform(rotation, (r) => {
     const angle = angleStep * index + r;
-    const depth = (1 + Math.cos(angle)) / 2;
-    return 0.55 + depth * 0.45;
+    const t = (1 + Math.cos(angle)) / 2;
+    return d.opacityRange[0] + t * (d.opacityRange[1] - d.opacityRange[0]);
   });
 
   const boxShadow = useTransform(rotation, (r) => {
     const angle = angleStep * index + r;
-    const depth = (1 + Math.cos(angle)) / 2;
-    const spread = Math.round(depth * 30);
-    const alpha = (depth * 0.25).toFixed(2);
+    const t = (1 + Math.cos(angle)) / 2;
+    const spread = Math.round(t * d.shadowSpreadMax);
+    const alpha = (t * d.shadowAlphaMax).toFixed(2);
     return `0 ${spread}px ${spread * 2}px rgba(98, 25, 28, ${alpha})`;
   });
 
