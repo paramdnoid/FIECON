@@ -26,21 +26,7 @@ const serverSchema = z
     ANALYZE: z.string().optional(),
     DEV_HOST: z.string().optional(),
   })
-  .refine(
-    (data) => {
-      if (data.NODE_ENV !== "production") return true;
-      return !!(
-        data.SMTP_HOST?.trim() &&
-        data.SMTP_USER?.trim() &&
-        data.SMTP_PASS &&
-        data.CONTACT_TO?.trim()
-      );
-    },
-    {
-      message:
-        "In production, SMTP_HOST, SMTP_USER, SMTP_PASS and CONTACT_TO are required",
-    },
-  );
+;
 
 export type ServerEnv = z.infer<typeof serverSchema>;
 
@@ -116,3 +102,13 @@ function getClientEnv(): ClientEnv {
 
 export const env = getServerEnv();
 export const clientEnv = getClientEnv();
+
+if (
+  env.NODE_ENV === "production" &&
+  !(env.SMTP_HOST?.trim() && env.SMTP_USER?.trim() && env.SMTP_PASS && env.CONTACT_TO?.trim())
+) {
+  // eslint-disable-next-line no-console
+  console.warn(
+    "[env] SMTP_HOST, SMTP_USER, SMTP_PASS or CONTACT_TO missing — contact form will be unavailable",
+  );
+}
