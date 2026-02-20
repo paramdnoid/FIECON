@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — Ymgynghoriaeth Ryngwladol mewn Cyfraith Corfforaethol a Sefydlu Cwmniau",
-    "description": "FIECON Germany Co. KG — Ymgynghoriaeth ryngwladol mewn cyfraith gorfforaethol, sefydlu cwmniau, gweinyddiaeth ariannol a chyllid adeiladu. Swyddfeydd yn Hamburg, Belgrade a Texas.",
+    "description": "FIECON Germany Co. KG — Ymgynghoriaeth ryngwladol mewn cyfraith gorfforaethol, sefydlu cwmniau, gweinyddiaeth ariannol a chyllid adeiladu. Swyddfeydd yn Hamburg, Belgrade, Texas, Montenegro a Vanuatu.",
     "keywords": "cyfraith cwmnïau, sefydlu cwmni rhyngwladol, ymgynghoriaeth Hamburg, gweinyddiaeth ariannol, cyllid adeiladu, FIECON Consulting"
   },
   "nav": {
@@ -23,7 +23,7 @@
   "hero": {
     "tagline": "Fiegler Consulting",
     "headline": "Eich Busnes. Wedi'i Gynghori'n Rhyngwladol.",
-    "subtitle": "Cyfraith gorfforaethol a sefydlu cwmniau rhyngwladol — arweiniad personol yn Hamburg, Belgrade a Texas.",
+    "subtitle": "Cyfraith gorfforaethol a sefydlu cwmniau rhyngwladol — arweiniad personol yn Hamburg, Belgrade, Texas, Montenegro a Vanuatu.",
     "cta_primary": "Ein Gwasanaethau",
     "cta_secondary": "Cysylltwch a Ni"
   },
@@ -31,7 +31,7 @@
     "badge": "Amdanom ni",
     "headline": "Gweledigaeth a Diwydrwydd",
     "text_1": "Mae FIECON yn sefyll dros ymgynghoriaeth ryngwladol gydag ymrwymiad personol. Mae ein harbenigedd craidd mewn cyfraith gorfforaethol a sefydlu cwmniau rhyngwladol — meysydd lle mae profiad, manwl gywirdeb a dealltwriaeth ddiwylliannol yn gwneud yr holl wahaniaeth.",
-    "text_2": "O Hamburg, Belgrade a Texas, rydym yn arwain busnesau ar draws ffiniau. Rydym hefyd yn cynghori ar weinyddiaeth ariannol, cyllid adeiladu a chyllid adeiladu iotiau — bob amser gyda'r uchelgais o gynrychioli eich buddiannau fel pe baent yn eiddo i ni.",
+    "text_2": "O Hamburg, Belgrade, Texas, Montenegro a Vanuatu, rydym yn arwain busnesau ar draws ffiniau. Rydym hefyd yn cynghori ar weinyddiaeth ariannol, cyllid adeiladu a chyllid adeiladu iotiau — bob amser gyda'r uchelgais o gynrychioli eich buddiannau fel pe baent yn eiddo i ni.",
     "quote": "Rydym yn cynghori fel pe bai'n gwmni ein hunain.",
     "stat_1_label": "Lleoliadau ledled y byd",
     "stat_2_label": "Meysydd ymarfer",
@@ -116,7 +116,7 @@
   "offices": {
     "badge": "Swyddfeydd",
     "headline": "Yn Agos at Eich Marchnadoedd",
-    "subtitle": "Tri lleoliad, un addewid — ymgynghoriaeth bersonol gyda chyrhaeddiad rhyngwladol.",
+    "subtitle": "Pump lleoliad, un addewid — ymgynghoriaeth bersonol gyda chyrhaeddiad rhyngwladol.",
     "hamburg": {
       "city": "Hamburg",
       "country": "Yr Almaen",
@@ -131,6 +131,16 @@
       "city": "Texas",
       "country": "UDA",
       "label": "Gogledd America"
+    },
+    "montenegro": {
+      "city": "Montenegro",
+      "country": "Montenegro",
+      "label": "De-ddwyrain Ewrop"
+    },
+    "vanuatu": {
+      "city": "Vanuatu",
+      "country": "Vanuatu",
+      "label": "De Môr Tawel"
     }
   },
   "contact": {
@@ -295,7 +305,7 @@
     "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
     "bio_badge": "Über Peter Fiegler",
     "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
-    "bio_2": "Mit Standorten in Hamburg, Belgrad und Texas hat er ein internationales Netzwerk aufgebaut, das Mandanten dort begleitet, wo ihre geschäftlichen Vorhaben sie hinführen — ob bei der Gründung einer Gesellschaft in Südosteuropa, der Strukturierung einer Holding oder der Erschließung des US-Marktes.",
+    "bio_2": "Gyda swyddfeydd yn Hamburg, Belgrade, Texas, Montenegro a Vanuatu, mae wedi adeiladu rhwydwaith rhyngwladol sy'n cefnogi cleientiaid ble bynnag y mae eu cynlluniau busnes yn eu harwain — boed yn sefydlu cwmni yn Ne-ddwyrain Ewrop, strwythuro daliad, neu gael mynediad i farchnadoedd newydd.",
     "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
     "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
     "quote_attribution": "Peter Fiegler, Gründer",

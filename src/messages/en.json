@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — International Corporate Law & Company Formation Advisory",
-    "description": "FIECON Germany Co. KG — International advisory for corporate law, company formations, financial administration and construction finance. Offices in Hamburg, Belgrade and Texas.",
+    "description": "FIECON Germany Co. KG — International advisory for corporate law, company formations, financial administration and construction finance. Offices in Hamburg, Belgrade, Texas, Montenegro and Vanuatu.",
     "keywords": "corporate law, international company formation, business consulting Hamburg, company formation Serbia, company formation USA Texas, financial administration, construction finance, yacht finance, FIECON Consulting, international advisory"
   },
   "nav": {
@@ -23,7 +23,7 @@
   "hero": {
     "tagline": "Fiegler Consulting",
     "headline": "Your Business. Internationally Advised.",
-    "subtitle": "Corporate law and international company formations — personal guidance in Hamburg, Belgrade and Texas.",
+    "subtitle": "Corporate law and international company formations — personal guidance in Hamburg, Belgrade, Texas, Montenegro and Vanuatu.",
     "cta_primary": "Our Services",
     "cta_secondary": "Get in Touch"
   },
@@ -31,7 +31,7 @@
     "badge": "About Us",
     "headline": "Vision Meets Diligence",
     "text_1": "FIECON stands for international advisory with a personal commitment. Our core expertise lies in corporate law and international company formations — fields where experience, precision and cultural understanding make all the difference.",
-    "text_2": "From Hamburg, Belgrade and Texas, we guide businesses across borders. We also advise on financial administration, construction finance and yacht construction finance — always with the ambition to represent your interests as if they were our own.",
+    "text_2": "From Hamburg, Belgrade, Texas, Montenegro and Vanuatu, we guide businesses across borders. We also advise on financial administration, construction finance and yacht construction finance — always with the ambition to represent your interests as if they were our own.",
     "quote": "We advise as if it were our own company at stake.",
     "stat_1_label": "Locations worldwide",
     "stat_2_label": "Practice areas",
@@ -116,7 +116,7 @@
   "offices": {
     "badge": "Offices",
     "headline": "Close to Your Markets",
-    "subtitle": "Three locations, one promise — personal advisory with international reach.",
+    "subtitle": "Five locations, one promise — personal advisory with international reach.",
     "hamburg": {
       "city": "Hamburg",
       "country": "Germany",
@@ -131,6 +131,16 @@
       "city": "Texas",
       "country": "USA",
       "label": "North America"
+    },
+    "montenegro": {
+      "city": "Montenegro",
+      "country": "Montenegro",
+      "label": "Southeast Europe"
+    },
+    "vanuatu": {
+      "city": "Vanuatu",
+      "country": "Vanuatu",
+      "label": "South Pacific"
     }
   },
   "contact": {
@@ -204,7 +214,7 @@
     "hero_tagline": "Corporate law and international company formations — with vision, precision and personal commitment.",
     "bio_badge": "About Peter Fiegler",
     "bio_1": "Peter Fiegler founded FIECON with the conviction that excellent corporate law advisory only succeeds when you fully adopt the client's perspective. His approach combines deep expertise with entrepreneurial acumen that extends far beyond the purely legal dimension.",
-    "bio_2": "With offices in Hamburg, Belgrade and Texas, he has built an international network that supports clients wherever their business ventures take them — whether founding a company in Southeast Europe, structuring a holding, or entering the US market.",
+    "bio_2": "With offices in Hamburg, Belgrade, Texas, Montenegro and Vanuatu, he has built an international network that supports clients wherever their business ventures take them — whether founding a company in Southeast Europe, structuring a holding, or entering new markets.",
     "bio_3": "His philosophy is straightforward: every mandate deserves the same care he would devote to his own company. This commitment shapes every consultation, every structure and every recommendation.",
     "quote": "We advise as if it were our own company at stake.",
     "quote_attribution": "Peter Fiegler, Founder",

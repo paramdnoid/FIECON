@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — Internacionalno konsultipe ande societarno zakono thaj formipe le firmengo",
-    "description": "FIECON Germany Co. KG — Internacionalno konsultipe ande societarno zakono, formipe le firmengo, finansialno administracia thaj konstrukciako finansipe. Ofisurea ando Hamburg, Belgrad thaj Texas.",
+    "description": "FIECON Germany Co. KG — Internacionalno konsultipe ande societarno zakono, formipe le firmengo, finansialno administracia thaj konstrukciako finansipe. Ofisurea ando Hamburg, Belgrad, Texas, Montenegro hai Vanuatu.",
     "keywords": "Gesellschaftsrecht, internationale Firmengründung, Beratung Hamburg, Finanzverwaltung, Bau Finanzverwaltung, FIECON Consulting"
   },
   "nav": {
@@ -23,7 +23,7 @@
   "hero": {
     "tagline": "Fiegler Consulting",
     "headline": "Tumaro zakono. Internacionalno gondolime.",
-    "subtitle": "Societarno zakono thaj internacionalno formipe le firmengo — personalno arakhipe ando Hamburg, Belgrad thaj Texas.",
+    "subtitle": "Societarno zakono thaj internacionalno formipe le firmengo — personalno arakhipe ando Hamburg, Belgrad, Texas, Montenegro hai Vanuatu.",
     "cta_primary": "Amare sevaurea",
     "cta_secondary": "Le kontakto"
   },
@@ -31,7 +31,7 @@
     "badge": "Pal amende",
     "headline": "Dural dikhipe arakhel griza",
     "text_1": "FIECON sikavel internacionalno konsultipe personalna poziciasa. Amaro fokuso si ando societarno zakono thaj ande internacionalne formimata le firmengo — thana kaj e eksperiencia, e preciznost thaj o kulturalno hakharipe keren o phiravipe.",
-    "text_2": "Andar o Hamburg, o Belgrad thaj o Texas, phirasas le biznisuren pestar e granitse. Dopolnitelno, das konsultipe ande finansialno administracia, konstrukciako finansipe thaj jachtako konstrukciako finansipe — sakda le ambiciasa te reprezentisaras tumare interesura sar te avenas amare peske.",
+    "text_2": "Andar o Hamburg, o Belgrad, o Texas, o Montenegro hai o Vanuatu, phirasas le biznisuren pestar e granitse. Dopolnitelno, das konsultipe ande finansialno administracia, konstrukciako finansipe thaj jachtako konstrukciako finansipe — sakda le ambiciasa te reprezentisaras tumare interesura sar te avenas amare peske.",
     "quote": "Das konsultipe sar te avelas amari peske firma.",
     "stat_1_label": "Ofisurea ando sveto",
     "stat_2_label": "Specialitetake thana",
@@ -116,7 +116,7 @@
   "offices": {
     "badge": "Ofisurea",
     "headline": "Pashol tumare pazarenge",
-    "subtitle": "Trin ofisurea, jekh obeshtime — personalno konsultipe internacionalno doshiperesa.",
+    "subtitle": "Pandsch ofisurea, jekh obeshtime — personalno konsultipe internacionalno doshiperesa.",
     "hamburg": {
       "city": "Hamburg",
       "country": "Germania",
@@ -131,6 +131,16 @@
       "city": "Texas",
       "country": "USA",
       "label": "Nordni Amerika"
+    },
+    "montenegro": {
+      "city": "Montenegro",
+      "country": "Montenegro",
+      "label": "Sudoistni Europa"
+    },
+    "vanuatu": {
+      "city": "Vanuatu",
+      "country": "Vanuatu",
+      "label": "Südpazifik"
     }
   },
   "contact": {
@@ -295,7 +305,7 @@
     "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
     "bio_badge": "Über Peter Fiegler",
     "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
-    "bio_2": "Mit Standorten in Hamburg, Belgrad und Texas hat er ein internationales Netzwerk aufgebaut, das Mandanten dort begleitet, wo ihre geschäftlichen Vorhaben sie hinführen — ob bei der Gründung einer Gesellschaft in Südosteuropa, der Strukturierung einer Holding oder der Erschließung des US-Marktes.",
+    "bio_2": "Le ofisurea ando Hamburg, Belgrad, Texas, Montenegro hai Vanuatu, ov vazdija jekh internacionalno retiako so phirel le klienturen korik kaj lengo biznisurengo planuri ljen anel — te avel formipe jekhe firmako ando Sudoostno Europa, strukturipe jekhe holdingako vaj putaripe neve bazarengo.",
     "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
     "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
     "quote_attribution": "Peter Fiegler, Gründer",

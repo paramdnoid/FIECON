@@ -23,10 +23,10 @@ export function Offices() {
           />
         </FadeIn>
 
-        {/* Cards: horizontal scroll-snap on mobile, 3-column grid on desktop */}
+        {/* Cards: horizontal scroll-snap on mobile, responsive grid on desktop */}
         <div
           ref={carouselRef}
-          className="flex snap-x snap-mandatory overflow-x-auto scrollbar-hide gap-4 pb-2 md:grid md:grid-cols-3 md:gap-6 lg:gap-8 md:overflow-visible md:pb-0"
+          className="flex snap-x snap-mandatory overflow-x-auto scrollbar-hide gap-4 pb-2 md:grid md:grid-cols-6 md:gap-6 lg:gap-8 md:overflow-visible md:pb-0"
         >
           {/* Spacer for centering first card on mobile */}
           <div className="min-w-[7.5%] flex-shrink-0 md:hidden" aria-hidden="true" />
@@ -34,7 +34,9 @@ export function Offices() {
             <FadeIn
               key={office.id}
               delay={0.1 + i * 0.12}
-              className="min-w-[85%] snap-center flex-shrink-0 md:min-w-0 md:flex-shrink"
+              className={`min-w-[85%] snap-center flex-shrink-0 md:min-w-0 md:flex-shrink md:col-span-2 ${
+                i === 3 ? "md:col-start-2" : ""
+              }`}
             >
               <div
                 data-carousel-item

@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — საერთაშორისო კორპორატიული სამართლისა და კომპანიების დაფუძნების კონსულტაცია",
-    "description": "FIECON Germany Co. KG — საერთაშორისო კონსულტაცია კორპორატიულ სამართალში, კომპანიების დაფუძნებაში, ფინანსურ ადმინისტრირებასა და სამშენებლო დაფინანსებაში. ოფისები ჰამბურგში, ბელგრადსა და ტეხასში.",
+    "description": "FIECON Germany Co. KG — საერთაშორისო კონსულტაცია კორპორატიულ სამართალში, კომპანიების დაფუძნებაში, ფინანსურ ადმინისტრირებასა და სამშენებლო დაფინანსებაში. ოფისები ჰამბურგში, ბელგრადში, ტეხასში, მონტენეგროსა და ვანუატუში.",
     "keywords": "კორპორაციული სამართალი, საერთაშორისო კომპანიის რეგისტრაცია, კონსულტაცია ჰამბურგი, ფინანსური მართვა, სამშენებლო დაფინანსება, FIECON Consulting"
   },
   "nav": {
@@ -23,7 +23,7 @@
   "hero": {
     "tagline": "Fiegler Consulting",
     "headline": "თქვენი ბიზნესი. საერთაშორისოდ კონსულტირებული.",
-    "subtitle": "კორპორატიული სამართალი და საერთაშორისო კომპანიების დაფუძნება — პირადი თანხლება ჰამბურგში, ბელგრადსა და ტეხასში.",
+    "subtitle": "კორპორატიული სამართალი და საერთაშორისო კომპანიების დაფუძნება — პირადი თანხლება ჰამბურგში, ბელგრადში, ტეხასში, მონტენეგროსა და ვანუატუში.",
     "cta_primary": "ჩვენი სერვისები",
     "cta_secondary": "დაგვიკავშირდით"
   },
@@ -31,7 +31,7 @@
     "badge": "ჩვენს შესახებ",
     "headline": "ხედვა და გულმოდგინება",
     "text_1": "FIECON წარმოადგენს საერთაშორისო კონსულტაციას პირადი ერთგულებით. ჩვენი ძირითადი კომპეტენცია მოიცავს კორპორატიულ სამართალს და საერთაშორისო კომპანიების დაფუძნებას — სფეროებს, სადაც გამოცდილება, სიზუსტე და კულტურული გაგება გადამწყვეტ მნიშვნელობას ატარებს.",
-    "text_2": "ჰამბურგიდან, ბელგრადიდან და ტეხასიდან ჩვენ საზღვრებს მიღმა ვხელმძღვანელობთ ბიზნესებს. ჩვენ ასევე ვკონსულტირებთ ფინანსურ ადმინისტრირებაში, სამშენებლო დაფინანსებასა და იახტების მშენებლობის დაფინანსებაში — ყოველთვის იმ ამბიციით, რომ თქვენი ინტერესები წარმოვადგინოთ ისე, თითქოს ისინი ჩვენი საკუთარი იყოს.",
+    "text_2": "ჰამბურგიდან, ბელგრადიდან, ტეხასიდან, Montenegro-დან და Vanuatu-დან ჩვენ საზღვრებს მიღმა ვხელმძღვანელობთ ბიზნესებს. ჩვენ ასევე ვკონსულტირებთ ფინანსურ ადმინისტრირებაში, სამშენებლო დაფინანსებასა და იახტების მშენებლობის დაფინანსებაში — ყოველთვის იმ ამბიციით, რომ თქვენი ინტერესები წარმოვადგინოთ ისე, თითქოს ისინი ჩვენი საკუთარი იყოს.",
     "quote": "ჩვენ ვკონსულტირებთ ისე, თითქოს ეს ჩვენი საკუთარი კომპანია იყოს.",
     "stat_1_label": "ადგილმდებარეობა მსოფლიოში",
     "stat_2_label": "საქმიანობის მიმართულება",
@@ -116,7 +116,7 @@
   "offices": {
     "badge": "ოფისები",
     "headline": "თქვენი ბაზრების ახლოს",
-    "subtitle": "სამი ადგილმდებარეობა, ერთი დაპირება — პირადი კონსულტაცია საერთაშორისო მასშტაბით.",
+    "subtitle": "ხუთი ადგილმდებარეობა, ერთი დაპირება — პირადი კონსულტაცია საერთაშორისო მასშტაბით.",
     "hamburg": {
       "city": "ჰამბურგი",
       "country": "გერმანია",
@@ -131,6 +131,16 @@
       "city": "ტეხასი",
       "country": "აშშ",
       "label": "ჩრდილოეთ ამერიკა"
+    },
+    "montenegro": {
+      "city": "Montenegro",
+      "country": "Montenegro",
+      "label": "სამხრეთ-აღმოსავლეთ ევროპა"
+    },
+    "vanuatu": {
+      "city": "Vanuatu",
+      "country": "Vanuatu",
+      "label": "სამხრეთ წყნარი ოკეანე"
     }
   },
   "contact": {
@@ -295,7 +305,7 @@
     "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
     "bio_badge": "Über Peter Fiegler",
     "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
-    "bio_2": "Mit Standorten in Hamburg, Belgrad und Texas hat er ein internationales Netzwerk aufgebaut, das Mandanten dort begleitet, wo ihre geschäftlichen Vorhaben sie hinführen — ob bei der Gründung einer Gesellschaft in Südosteuropa, der Strukturierung einer Holding oder der Erschließung des US-Marktes.",
+    "bio_2": "ჰამბურგში, ბელგრადში, ტეხასში, მონტენეგროსა და ვანუატუში ოფისებით მან შექმნა საერთაშორისო ქსელი, რომელიც კლიენტებს ახლავს სადაც არ უნდა მიიყვანოს მათი ბიზნეს-გეგმები — იქნება ეს კომპანიის დაფუძნება სამხრეთ-აღმოსავლეთ ევროპაში, ჰოლდინგის სტრუქტურირება თუ ახალ ბაზრებზე გასვლა.",
     "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
     "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
     "quote_attribution": "Peter Fiegler, Gründer",

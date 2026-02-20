@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — Міжнароднае кансультаванне па карпаратыўным праве і стварэнні кампаній",
-    "description": "FIECON Germany Co. KG — Міжнароднае кансультаванне па карпаратыўным праве, стварэнні кампаній, фінансавым адміністраванні і фінансаванні будаўніцтва. Офісы ў Гамбургу, Бялградзе і Тэхасе.",
+    "description": "FIECON Germany Co. KG — Міжнароднае кансультаванне па карпаратыўным праве, стварэнні кампаній, фінансавым адміністраванні і фінансаванні будаўніцтва. Офісы ў Гамбургу, Бялградзе, Тэхасе, Montenegro і Vanuatu.",
     "keywords": "карпаратыўнае права, міжнародная рэгістрацыя кампаній, кансалтынг Гамбург, фінансавае кіраванне, будаўнічае фінансаванне, FIECON Consulting"
   },
   "nav": {
@@ -23,7 +23,7 @@
   "hero": {
     "tagline": "Fiegler Consulting",
     "headline": "Ваш бізнес. Міжнародна кансультаваны.",
-    "subtitle": "Карпаратыўнае права і міжнароднае стварэнне кампаній — асабістае суправаджэнне ў Гамбургу, Бялградзе і Тэхасе.",
+    "subtitle": "Карпаратыўнае права і міжнароднае стварэнне кампаній — асабістае суправаджэнне ў Гамбургу, Бялградзе, Тэхасе, Montenegro і Vanuatu.",
     "cta_primary": "Нашы паслугі",
     "cta_secondary": "Звяжыцеся з намі"
   },
@@ -31,7 +31,7 @@
     "badge": "Пра нас",
     "headline": "Візія і старанлівасць",
     "text_1": "FIECON — гэта міжнароднае кансультаванне з асабістай адданасцю. Наша асноўная кампетэнцыя — карпаратыўнае права і міжнароднае стварэнне кампаній — вобласці, дзе вопыт, дакладнасць і культурнае разуменне маюць вырашальнае значэнне.",
-    "text_2": "З Гамбурга, Бялграда і Тэхаса мы суправаджаем бізнесы праз межы. Мы таксама кансультуем па фінансавым адміністраванні, фінансаванні будаўніцтва і фінансаванні яхтабудаўніцтва — заўсёды з амбіцыяй прадстаўляць вашы інтарэсы так, быццам яны нашы ўласныя.",
+    "text_2": "З Гамбурга, Бялграда, Тэхаса, Чарнагорыі і Вануату мы суправаджаем бізнесы праз межы. Мы таксама кансультуем па фінансавым адміністраванні, фінансаванні будаўніцтва і фінансаванні яхтабудаўніцтва — заўсёды з амбіцыяй прадстаўляць вашы інтарэсы так, быццам яны нашы ўласныя.",
     "quote": "Мы кансультуем так, быццам гэта наша ўласная кампанія.",
     "stat_1_label": "Лакацый па свеце",
     "stat_2_label": "Напрамкаў дзейнасці",
@@ -116,7 +116,7 @@
   "offices": {
     "badge": "Офісы",
     "headline": "Блізка да вашых рынкаў",
-    "subtitle": "Тры лакацыі, адна абяцанка — асабістае кансультаванне з міжнародным ахопам.",
+    "subtitle": "Пяць лакацый, адна абяцанка — асабістае кансультаванне з міжнародным ахопам.",
     "hamburg": {
       "city": "Гамбург",
       "country": "Германія",
@@ -131,6 +131,16 @@
       "city": "Тэхас",
       "country": "ЗША",
       "label": "Паўночная Амерыка"
+    },
+    "montenegro": {
+      "city": "Montenegro",
+      "country": "Montenegro",
+      "label": "Паўднёва-Усходняя Еўропа"
+    },
+    "vanuatu": {
+      "city": "Vanuatu",
+      "country": "Vanuatu",
+      "label": "Паўднёвы Ціхі акіян"
     }
   },
   "contact": {
@@ -295,7 +305,7 @@
     "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
     "bio_badge": "Über Peter Fiegler",
     "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
-    "bio_2": "Mit Standorten in Hamburg, Belgrad und Texas hat er ein internationales Netzwerk aufgebaut, das Mandanten dort begleitet, wo ihre geschäftlichen Vorhaben sie hinführen — ob bei der Gründung einer Gesellschaft in Südosteuropa, der Strukturierung einer Holding oder der Erschließung des US-Marktes.",
+    "bio_2": "З офісамі ў Гамбургу, Бялградзе, Тэхасе, Чарнагорыі і Вануату ён стварыў міжнародную сетку, якая суправаджае кліентаў туды, куды вядуць іх бізнес-планы — ці гэта заснаванне кампаніі ў Паўднёва-Усходняй Еўропе, структураванне холдынга ці выхад на новыя рынкі.",
     "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
     "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
     "quote_attribution": "Peter Fiegler, Gründer",

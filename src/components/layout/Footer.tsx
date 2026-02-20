@@ -4,7 +4,7 @@ import { Link } from "@/i18n/navigation";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Container } from "@/components/ui/Container";
-import { COMPANY, CONTACT, SERVICES, TEAM_MEMBERS } from "@/lib/constants";
+import { COMPANY, CONTACT, OFFICES, SERVICES, TEAM_MEMBERS } from "@/lib/constants";
 
 export function Footer() {
   const t = useTranslations("footer");
@@ -62,15 +62,11 @@ export function Footer() {
               {t("offices_title")}
             </h3>
             <ul className="space-y-3">
-              <li className="text-sm text-beige-400">
-                {tOffices("hamburg.city")}, {tOffices("hamburg.country")}
-              </li>
-              <li className="text-sm text-beige-400">
-                {tOffices("belgrade.city")}, {tOffices("belgrade.country")}
-              </li>
-              <li className="text-sm text-beige-400">
-                {tOffices("texas.city")}, {tOffices("texas.country")}
-              </li>
+              {OFFICES.map((office) => (
+                <li key={office.id} className="text-sm text-beige-400">
+                  {tOffices(`${office.id}.city`)}, {tOffices(`${office.id}.country`)}
+                </li>
+              ))}
             </ul>
           </div>
 

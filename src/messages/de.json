@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — Internationale Beratung für Gesellschaftsrecht & Firmengründungen",
-    "description": "FIECON Germany Co. KG — Internationale Beratung für Gesellschaftsrecht, Firmengründungen, Finanzverwaltung und Bau Finanzverwaltung. Standorte in Hamburg, Belgrad und Texas.",
+    "description": "FIECON Germany Co. KG — Internationale Beratung für Gesellschaftsrecht, Firmengründungen, Finanzverwaltung und Bau Finanzverwaltung. Standorte in Hamburg, Belgrad, Texas, Montenegro und Vanuatu.",
     "keywords": "Gesellschaftsrecht, Firmengründung international, Beratung Gesellschaftsrecht Hamburg, internationale Firmengründung, Finanzverwaltung, Bau Finanzverwaltung, Yachtbau Finanzverwaltung, Unternehmensberatung Hamburg, Firmengründung Serbien, Firmengründung USA Texas, FIECON Consulting"
   },
   "nav": {
@@ -23,7 +23,7 @@
   "hero": {
     "tagline": "Fiegler Consulting",
     "headline": "Ihr Recht. International gedacht.",
-    "subtitle": "Gesellschaftsrecht und internationale Firmengründungen — persönliche Betreuung in Hamburg, Belgrad und Texas.",
+    "subtitle": "Gesellschaftsrecht und internationale Firmengründungen — persönliche Betreuung in Hamburg, Belgrad, Texas, Montenegro und Vanuatu.",
     "cta_primary": "Unsere Leistungen",
     "cta_secondary": "Kontakt aufnehmen"
   },
@@ -31,7 +31,7 @@
     "badge": "Über uns",
     "headline": "Weitblick trifft Sorgfalt",
     "text_1": "FIECON steht für internationale Beratung mit persönlicher Haltung. Unser Schwerpunkt liegt im Gesellschaftsrecht und bei internationalen Firmengründungen — Bereiche, in denen Erfahrung, Präzision und kulturelles Verständnis den Unterschied machen.",
-    "text_2": "Von Hamburg, Belgrad und Texas aus begleiten wir Unternehmen über Ländergrenzen hinweg. Ergänzend beraten wir in der Finanzverwaltung, der Bau Finanzverwaltung und der Yachtbau Finanzverwaltung — immer mit dem Anspruch, Ihre Interessen so zu vertreten, als wären es unsere eigenen.",
+    "text_2": "Von Hamburg, Belgrad, Texas, Montenegro und Vanuatu aus begleiten wir Unternehmen über Ländergrenzen hinweg. Ergänzend beraten wir in der Finanzverwaltung, der Bau Finanzverwaltung und der Yachtbau Finanzverwaltung — immer mit dem Anspruch, Ihre Interessen so zu vertreten, als wären es unsere eigenen.",
     "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
     "stat_1_label": "Standorte weltweit",
     "stat_2_label": "Fachbereiche",
@@ -64,7 +64,8 @@
       "description": "Bauprojekte brauchen finanzielle Verlässlichkeit. Wir strukturieren und begleiten die Finanzierung Ihrer Bauvorhaben — von der ersten Kalkulation bis zur Fertigstellung.",
       "items": {
         "0": "Projektfinanzierung",
-        "1": "Investitionssicherung"
+        "1": "Immobilienfinanzierung",
+        "2": "Hypothekenabsicherung"
       }
     },
     "yacht": {
@@ -116,7 +117,7 @@
   "offices": {
     "badge": "Standorte",
     "headline": "Nah an Ihren Märkten",
-    "subtitle": "Drei Standorte, ein Versprechen — persönliche Beratung mit internationaler Reichweite.",
+    "subtitle": "Fünf Standorte, ein Versprechen — persönliche Beratung mit internationaler Reichweite.",
     "hamburg": {
       "city": "Hamburg",
       "country": "Deutschland",
@@ -131,6 +132,16 @@
       "city": "Texas",
       "country": "USA",
       "label": "Nordamerika"
+    },
+    "montenegro": {
+      "city": "Montenegro",
+      "country": "Montenegro",
+      "label": "Südosteuropa"
+    },
+    "vanuatu": {
+      "city": "Vanuatu",
+      "country": "Vanuatu",
+      "label": "Südpazifik"
     }
   },
   "contact": {
@@ -204,7 +215,7 @@
     "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
     "bio_badge": "Über Peter Fiegler",
     "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
-    "bio_2": "Mit Standorten in Hamburg, Belgrad und Texas hat er ein internationales Netzwerk aufgebaut, das Mandanten dort begleitet, wo ihre geschäftlichen Vorhaben sie hinführen — ob bei der Gründung einer Gesellschaft in Südosteuropa, der Strukturierung einer Holding oder der Erschließung des US-Marktes.",
+    "bio_2": "Mit Standorten in Hamburg, Belgrad, Texas, Montenegro und Vanuatu hat er ein internationales Netzwerk aufgebaut, das Mandanten dort begleitet, wo ihre geschäftlichen Vorhaben sie hinführen — ob bei der Gründung einer Gesellschaft in Südosteuropa, der Strukturierung einer Holding oder der Erschließung neuer Märkte.",
     "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
     "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
     "quote_attribution": "Peter Fiegler, Gründer",

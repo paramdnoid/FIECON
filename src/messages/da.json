@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — International selskabsret & rådgivning om selskabsstiftelse",
-    "description": "FIECON Germany Co. KG — International rådgivning inden for selskabsret, selskabsstiftelse, økonomisk forvaltning og byggelinansiering. Kontorer i Hamborg, Beograd og Texas.",
+    "description": "FIECON Germany Co. KG — International rådgivning inden for selskabsret, selskabsstiftelse, økonomisk forvaltning og byggelinansiering. Kontorer i Hamborg, Beograd, Texas, Montenegro og Vanuatu.",
     "keywords": "selskabsret, international virksomhedsstiftelse, rådgivning Hamburg, finansforvaltning, bygningsfinansiering, yachtfinansiering, FIECON Consulting"
   },
   "nav": {
@@ -23,7 +23,7 @@
   "hero": {
     "tagline": "Fiegler Consulting",
     "headline": "Din virksomhed. Internationalt rådgivet.",
-    "subtitle": "Selskabsret og international selskabsstiftelse — personlig vejledning i Hamborg, Beograd og Texas.",
+    "subtitle": "Selskabsret og international selskabsstiftelse — personlig vejledning i Hamborg, Beograd, Texas, Montenegro og Vanuatu.",
     "cta_primary": "Vores ydelser",
     "cta_secondary": "Kontakt os"
   },
@@ -31,7 +31,7 @@
     "badge": "Om os",
     "headline": "Vision møder grundighed",
     "text_1": "FIECON står for international rådgivning med personligt engagement. Vores kernekompetence ligger inden for selskabsret og international selskabsstiftelse — områder, hvor erfaring, præcision og kulturel forståelse gør hele forskellen.",
-    "text_2": "Fra Hamborg, Beograd og Texas vejleder vi virksomheder på tværs af grænser. Vi rådgiver også inden for økonomisk forvaltning, byggefinansiering og yachtbyggefinansiering — altid med ambitionen om at repræsentere dine interesser, som var de vores egne.",
+    "text_2": "Fra Hamborg, Beograd, Texas, Montenegro og Vanuatu vejleder vi virksomheder på tværs af grænser. Vi rådgiver også inden for økonomisk forvaltning, byggefinansiering og yachtbyggefinansiering — altid med ambitionen om at repræsentere dine interesser, som var de vores egne.",
     "quote": "Vi rådgiver, som om det var vores eget selskab.",
     "stat_1_label": "Lokationer verden over",
     "stat_2_label": "Fagområder",
@@ -116,7 +116,7 @@
   "offices": {
     "badge": "Kontorer",
     "headline": "Tæt på dine markeder",
-    "subtitle": "Tre lokationer, ét løfte — personlig rådgivning med international rækkevidde.",
+    "subtitle": "Fem lokationer, ét løfte — personlig rådgivning med international rækkevidde.",
     "hamburg": {
       "city": "Hamborg",
       "country": "Tyskland",
@@ -131,6 +131,16 @@
       "city": "Texas",
       "country": "USA",
       "label": "Nordamerika"
+    },
+    "montenegro": {
+      "city": "Montenegro",
+      "country": "Montenegro",
+      "label": "Sydøsteuropa"
+    },
+    "vanuatu": {
+      "city": "Vanuatu",
+      "country": "Vanuatu",
+      "label": "Sydhavet"
     }
   },
   "contact": {
@@ -295,7 +305,7 @@
     "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
     "bio_badge": "Über Peter Fiegler",
     "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
-    "bio_2": "Mit Standorten in Hamburg, Belgrad und Texas hat er ein internationales Netzwerk aufgebaut, das Mandanten dort begleitet, wo ihre geschäftlichen Vorhaben sie hinführen — ob bei der Gründung einer Gesellschaft in Südosteuropa, der Strukturierung einer Holding oder der Erschließung des US-Marktes.",
+    "bio_2": "Med kontorer i Hamburg, Beograd, Texas, Montenegro og Vanuatu har han opbygget et internationalt netværk, der ledsager klienter, uanset hvor deres forretningsplaner fører dem — hvad enten det drejer sig om at grundlægge et selskab i Sydøsteuropa, strukturere et holdingselskab eller at betræde nye markeder.",
     "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
     "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
     "quote_attribution": "Peter Fiegler, Gründer",

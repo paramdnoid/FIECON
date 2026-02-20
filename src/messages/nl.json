@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — Internationaal Advies voor Ondernemingsrecht & Bedrijfsoprichtingen",
-    "description": "FIECON Germany Co. KG — Internationaal advies voor ondernemingsrecht, bedrijfsoprichtingen, financieel beheer en bouwfinanciering. Vestigingen in Hamburg, Belgrado en Texas.",
+    "description": "FIECON Germany Co. KG — Internationaal advies voor ondernemingsrecht, bedrijfsoprichtingen, financieel beheer en bouwfinanciering. Vestigingen in Hamburg, Belgrado, Texas, Montenegro en Vanuatu.",
     "keywords": "ondernemingsrecht, internationale bedrijfsoprichting, advies Hamburg, bedrijfsoprichting Servië, bedrijfsoprichting VS Texas, financieel beheer, bouwfinanciering, jachtfinanciering, FIECON Consulting"
   },
   "nav": {
@@ -23,7 +23,7 @@
   "hero": {
     "tagline": "Fiegler Consulting",
     "headline": "Uw recht. Internationaal gedacht.",
-    "subtitle": "Ondernemingsrecht en internationale bedrijfsoprichtingen — persoonlijke begeleiding in Hamburg, Belgrado en Texas.",
+    "subtitle": "Ondernemingsrecht en internationale bedrijfsoprichtingen — persoonlijke begeleiding in Hamburg, Belgrado, Texas, Montenegro en Vanuatu.",
     "cta_primary": "Onze diensten",
     "cta_secondary": "Neem contact op"
   },
@@ -31,7 +31,7 @@
     "badge": "Over ons",
     "headline": "Visie ontmoet zorgvuldigheid",
     "text_1": "FIECON staat voor internationaal advies met een persoonlijke inzet. Onze kernexpertise ligt in het ondernemingsrecht en bij internationale bedrijfsoprichtingen — gebieden waar ervaring, precisie en cultureel begrip het verschil maken.",
-    "text_2": "Vanuit Hamburg, Belgrado en Texas begeleiden wij bedrijven over landsgrenzen heen. Daarnaast adviseren wij op het gebied van financieel beheer, bouwfinanciering en jachtbouwfinanciering — altijd met de ambitie uw belangen te behartigen alsof het onze eigen zijn.",
+    "text_2": "Vanuit Hamburg, Belgrado, Texas, Montenegro en Vanuatu begeleiden wij bedrijven over landsgrenzen heen. Daarnaast adviseren wij op het gebied van financieel beheer, bouwfinanciering en jachtbouwfinanciering — altijd met de ambitie uw belangen te behartigen alsof het onze eigen zijn.",
     "quote": "Wij adviseren alsof het ons eigen bedrijf betreft.",
     "stat_1_label": "Vestigingen wereldwijd",
     "stat_2_label": "Vakgebieden",
@@ -116,7 +116,7 @@
   "offices": {
     "badge": "Vestigingen",
     "headline": "Dicht bij uw markten",
-    "subtitle": "Drie vestigingen, één belofte — persoonlijk advies met internationaal bereik.",
+    "subtitle": "Vijf vestigingen, één belofte — persoonlijk advies met internationaal bereik.",
     "hamburg": {
       "city": "Hamburg",
       "country": "Duitsland",
@@ -131,6 +131,16 @@
       "city": "Texas",
       "country": "VS",
       "label": "Noord-Amerika"
+    },
+    "montenegro": {
+      "city": "Montenegro",
+      "country": "Montenegro",
+      "label": "Zuidoost-Europa"
+    },
+    "vanuatu": {
+      "city": "Vanuatu",
+      "country": "Vanuatu",
+      "label": "Stille Zuidzee"
     }
   },
   "contact": {
@@ -295,7 +305,7 @@
     "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
     "bio_badge": "Über Peter Fiegler",
     "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
-    "bio_2": "Mit Standorten in Hamburg, Belgrad und Texas hat er ein internationales Netzwerk aufgebaut, das Mandanten dort begleitet, wo ihre geschäftlichen Vorhaben sie hinführen — ob bei der Gründung einer Gesellschaft in Südosteuropa, der Strukturierung einer Holding oder der Erschließung des US-Marktes.",
+    "bio_2": "Met kantoren in Hamburg, Belgrado, Texas, Montenegro en Vanuatu heeft hij een internationaal netwerk opgebouwd dat cliënten begeleidt waar hun zakelijke plannen hen ook brengen — of het nu gaat om de oprichting van een onderneming in Zuidoost-Europa, de structurering van een holding of de ontsluiting van nieuwe markten.",
     "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
     "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
     "quote_attribution": "Peter Fiegler, Gründer",

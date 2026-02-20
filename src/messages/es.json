@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — Asesoría internacional en derecho societario y constitución de empresas",
-    "description": "FIECON Germany Co. KG — Asesoría internacional en derecho societario, constitución de empresas, administración financiera y financiación de la construcción. Oficinas en Hamburgo, Belgrado y Texas.",
+    "description": "FIECON Germany Co. KG — Asesoría internacional en derecho societario, constitución de empresas, administración financiera y financiación de la construcción. Oficinas en Hamburgo, Belgrado, Texas, Montenegro y Vanuatu.",
     "keywords": "derecho societario, constitución de empresas internacional, asesoría Hamburgo, constitución empresa Serbia, constitución empresa USA Texas, administración financiera, financiación construcción, financiación yates, FIECON Consulting"
   },
   "nav": {
@@ -23,7 +23,7 @@
   "hero": {
     "tagline": "Fiegler Consulting",
     "headline": "Su derecho. Con visión internacional.",
-    "subtitle": "Derecho societario y constitución internacional de empresas — asesoramiento personalizado en Hamburgo, Belgrado y Texas.",
+    "subtitle": "Derecho societario y constitución internacional de empresas — asesoramiento personalizado en Hamburgo, Belgrado, Texas, Montenegro y Vanuatu.",
     "cta_primary": "Nuestros servicios",
     "cta_secondary": "Contactar"
   },
@@ -31,7 +31,7 @@
     "badge": "Sobre nosotros",
     "headline": "Visión y rigor",
     "text_1": "FIECON representa la asesoría internacional con un compromiso personal. Nuestra especialidad se centra en el derecho societario y la constitución internacional de empresas — ámbitos en los que la experiencia, la precisión y la comprensión cultural marcan la diferencia.",
-    "text_2": "Desde Hamburgo, Belgrado y Texas, acompañamos a empresas más allá de las fronteras. Además, asesoramos en administración financiera, financiación de la construcción y financiación de la construcción naval de yates — siempre con el compromiso de representar sus intereses como si fuesen los nuestros.",
+    "text_2": "Desde Hamburgo, Belgrado, Texas, Montenegro y Vanuatu, acompañamos a empresas más allá de las fronteras. Además, asesoramos en administración financiera, financiación de la construcción y financiación de la construcción naval de yates — siempre con el compromiso de representar sus intereses como si fuesen los nuestros.",
     "quote": "Asesoramos como si se tratase de nuestra propia empresa.",
     "stat_1_label": "Sedes en el mundo",
     "stat_2_label": "Áreas de especialización",
@@ -116,7 +116,7 @@
   "offices": {
     "badge": "Oficinas",
     "headline": "Cerca de sus mercados",
-    "subtitle": "Tres sedes, una promesa — asesoramiento personalizado con alcance internacional.",
+    "subtitle": "Cinco sedes, una promesa — asesoramiento personalizado con alcance internacional.",
     "hamburg": {
       "city": "Hamburgo",
       "country": "Alemania",
@@ -131,6 +131,16 @@
       "city": "Texas",
       "country": "EE. UU.",
       "label": "Norteamérica"
+    },
+    "montenegro": {
+      "city": "Montenegro",
+      "country": "Montenegro",
+      "label": "Sureste de Europa"
+    },
+    "vanuatu": {
+      "city": "Vanuatu",
+      "country": "Vanuatu",
+      "label": "Pacífico Sur"
     }
   },
   "contact": {
@@ -295,7 +305,7 @@
     "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
     "bio_badge": "Über Peter Fiegler",
     "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
-    "bio_2": "Mit Standorten in Hamburg, Belgrad und Texas hat er ein internationales Netzwerk aufgebaut, das Mandanten dort begleitet, wo ihre geschäftlichen Vorhaben sie hinführen — ob bei der Gründung einer Gesellschaft in Südosteuropa, der Strukturierung einer Holding oder der Erschließung des US-Marktes.",
+    "bio_2": "Con oficinas en Hamburgo, Belgrado, Texas, Montenegro y Vanuatu, ha construido una red internacional que acompaña a los clientes dondequiera que sus proyectos los lleven — ya sea fundando una empresa en el sureste de Europa, estructurando un holding o accediendo a nuevos mercados.",
     "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
     "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
     "quote_attribution": "Peter Fiegler, Gründer",

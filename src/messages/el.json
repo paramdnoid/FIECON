@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — Διεθνές Εταιρικό Δίκαιο & Συμβουλευτική Ίδρυσης Εταιρειών",
-    "description": "FIECON Germany Co. KG — Διεθνής συμβουλευτική για εταιρικό δίκαιο, ίδρυση εταιρειών, χρηματοοικονομική διοίκηση και χρηματοδότηση κατασκευών. Γραφεία σε Αμβούργο, Βελιγράδι και Τέξας.",
+    "description": "FIECON Germany Co. KG — Διεθνής συμβουλευτική για εταιρικό δίκαιο, ίδρυση εταιρειών, χρηματοοικονομική διοίκηση και χρηματοδότηση κατασκευών. Γραφεία σε Αμβούργο, Βελιγράδι, Τέξας, Montenegro και Vanuatu.",
     "keywords": "εταιρικό δίκαιο, διεθνής ίδρυση εταιρειών, συμβουλευτική Αμβούργο, οικονομική διαχείριση, χρηματοδότηση κατασκευών, FIECON Consulting"
   },
   "nav": {
@@ -23,7 +23,7 @@
   "hero": {
     "tagline": "Fiegler Consulting",
     "headline": "Η επιχείρησή σας. Διεθνώς καθοδηγημένη.",
-    "subtitle": "Εταιρικό δίκαιο και διεθνής ίδρυση εταιρειών — προσωπική καθοδήγηση σε Αμβούργο, Βελιγράδι και Τέξας.",
+    "subtitle": "Εταιρικό δίκαιο και διεθνής ίδρυση εταιρειών — προσωπική καθοδήγηση σε Αμβούργο, Βελιγράδι, Τέξας, Montenegro και Vanuatu.",
     "cta_primary": "Οι υπηρεσίες μας",
     "cta_secondary": "Επικοινωνήστε μαζί μας"
   },
@@ -31,7 +31,7 @@
     "badge": "Σχετικά με εμάς",
     "headline": "Το όραμα συναντά την επιμέλεια",
     "text_1": "Η FIECON σημαίνει διεθνή συμβουλευτική με προσωπική δέσμευση. Η βασική μας εξειδίκευση βρίσκεται στο εταιρικό δίκαιο και τη διεθνή ίδρυση εταιρειών — τομείς όπου η εμπειρία, η ακρίβεια και η πολιτισμική κατανόηση κάνουν τη διαφορά.",
-    "text_2": "Από το Αμβούργο, το Βελιγράδι και το Τέξας, καθοδηγούμε επιχειρήσεις πέρα από σύνορα. Παρέχουμε επίσης συμβουλές για χρηματοοικονομική διοίκηση, χρηματοδότηση κατασκευών και χρηματοδότηση ναυπήγησης σκαφών — πάντα με τη φιλοδοξία να εκπροσωπούμε τα συμφέροντά σας σαν να ήταν δικά μας.",
+    "text_2": "Από το Αμβούργο, το Βελιγράδι, το Τέξας, το Montenegro και το Vanuatu, καθοδηγούμε επιχειρήσεις πέρα από σύνορα. Παρέχουμε επίσης συμβουλές για χρηματοοικονομική διοίκηση, χρηματοδότηση κατασκευών και χρηματοδότηση ναυπήγησης σκαφών — πάντα με τη φιλοδοξία να εκπροσωπούμε τα συμφέροντά σας σαν να ήταν δικά μας.",
     "quote": "Συμβουλεύουμε σαν να ήταν δική μας η εταιρεία.",
     "stat_1_label": "Τοποθεσίες παγκοσμίως",
     "stat_2_label": "Τομείς πρακτικής",
@@ -116,7 +116,7 @@
   "offices": {
     "badge": "Γραφεία",
     "headline": "Κοντά στις αγορές σας",
-    "subtitle": "Τρεις τοποθεσίες, μία υπόσχεση — προσωπική συμβουλευτική με διεθνή εμβέλεια.",
+    "subtitle": "Πέντε τοποθεσίες, μία υπόσχεση — προσωπική συμβουλευτική με διεθνή εμβέλεια.",
     "hamburg": {
       "city": "Αμβούργο",
       "country": "Γερμανία",
@@ -131,6 +131,16 @@
       "city": "Τέξας",
       "country": "ΗΠΑ",
       "label": "Βόρεια Αμερική"
+    },
+    "montenegro": {
+      "city": "Montenegro",
+      "country": "Montenegro",
+      "label": "Νοτιοανατολική Ευρώπη"
+    },
+    "vanuatu": {
+      "city": "Vanuatu",
+      "country": "Vanuatu",
+      "label": "Νότιος Ειρηνικός"
     }
   },
   "contact": {
@@ -295,7 +305,7 @@
     "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
     "bio_badge": "Über Peter Fiegler",
     "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
-    "bio_2": "Mit Standorten in Hamburg, Belgrad und Texas hat er ein internationales Netzwerk aufgebaut, das Mandanten dort begleitet, wo ihre geschäftlichen Vorhaben sie hinführen — ob bei der Gründung einer Gesellschaft in Südosteuropa, der Strukturierung einer Holding oder der Erschließung des US-Marktes.",
+    "bio_2": "Με γραφεία στο Αμβούργο, το Βελιγράδι, το Τέξας, το Montenegro και το Vanuatu, έχει δημιουργήσει ένα διεθνές δίκτυο που συνοδεύει τους πελάτες όπου κι αν τους οδηγούν τα επιχειρηματικά τους σχέδια — είτε πρόκειται για ίδρυση εταιρείας στη Νοτιοανατολική Ευρώπη, δομή holding, είτε για πρόσβαση σε νέες αγορές.",
     "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
     "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
     "quote_attribution": "Peter Fiegler, Gründer",

@@ -34,6 +34,16 @@ export const OFFICES = [
     isHQ: false,
     countryCode: "US",
   },
+  {
+    id: "montenegro",
+    isHQ: false,
+    countryCode: "ME",
+  },
+  {
+    id: "vanuatu",
+    isHQ: false,
+    countryCode: "VU",
+  },
 ] as const;
 
 export const SERVICES = [

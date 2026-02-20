@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — Këshillim ndërkombëtar për të drejtën tregtare dhe themelimin e kompanive",
-    "description": "FIECON Germany Co. KG — Këshillim ndërkombëtar për të drejtën tregtare, themelimin e kompanive, administrimin financiar dhe financimin e ndërtimit. Zyra në Hamburg, Beograd dhe Teksas.",
+    "description": "FIECON Germany Co. KG — Këshillim ndërkombëtar për të drejtën tregtare, themelimin e kompanive, administrimin financiar dhe financimin e ndërtimit. Zyra në Hamburg, Beograd, Teksas, Montenegro dhe Vanuatu.",
     "keywords": "e drejtë shoqërish, themelim ndërkombëtar i kompanive, këshillim Hamburg, administrim financiar, financim ndërtimi, FIECON Consulting"
   },
   "nav": {
@@ -23,7 +23,7 @@
   "hero": {
     "tagline": "Fiegler Consulting",
     "headline": "Biznesi juaj. I këshilluar ndërkombëtarisht.",
-    "subtitle": "E drejta tregtare dhe themelimi ndërkombëtar i kompanive — udhëzim personal në Hamburg, Beograd dhe Teksas.",
+    "subtitle": "E drejta tregtare dhe themelimi ndërkombëtar i kompanive — udhëzim personal në Hamburg, Beograd, Teksas, Montenegro dhe Vanuatu.",
     "cta_primary": "Shërbimet tona",
     "cta_secondary": "Na kontaktoni"
   },
@@ -31,7 +31,7 @@
     "badge": "Rreth nesh",
     "headline": "Vizioni takon kujdesin",
     "text_1": "FIECON përfaqëson këshillim ndërkombëtar me përkushtim personal. Ekspertiza jonë kryesore qëndron në të drejtën tregtare dhe themelimin ndërkombëtar të kompanive — fusha ku përvoja, saktësia dhe kuptimi kulturor bëjnë të gjithë ndryshimin.",
-    "text_2": "Nga Hamburgu, Beogradi dhe Teksasi, ne udhëheqim bizneset përtej kufijve. Gjithashtu këshillojmë për administrimin financiar, financimin e ndërtimit dhe financimin e ndërtimit të jahteve — gjithmonë me ambicjen për të përfaqësuar interesat tuaja sikur të ishin tonat.",
+    "text_2": "Nga Hamburgu, Beogradi, Teksas, Montenegro dhe Vanuatui, ne udhëheqim bizneset përtej kufijve. Gjithashtu këshillojmë për administrimin financiar, financimin e ndërtimit dhe financimin e ndërtimit të jahteve — gjithmonë me ambicjen për të përfaqësuar interesat tuaja sikur të ishin tonat.",
     "quote": "Ne këshillojmë sikur të ishte kompania jonë në rrezik.",
     "stat_1_label": "Vendndodhje në botë",
     "stat_2_label": "Fusha praktike",
@@ -116,7 +116,7 @@
   "offices": {
     "badge": "Zyrat",
     "headline": "Pranë tregjeve tuaja",
-    "subtitle": "Tre vendndodhje, një premtim — këshillim personal me shtrirje ndërkombëtare.",
+    "subtitle": "Pesë vendndodhje, një premtim — këshillim personal me shtrirje ndërkombëtare.",
     "hamburg": {
       "city": "Hamburg",
       "country": "Gjermani",
@@ -131,6 +131,16 @@
       "city": "Teksas",
       "country": "SHBA",
       "label": "Amerika e Veriut"
+    },
+    "montenegro": {
+      "city": "Montenegro",
+      "country": "Montenegro",
+      "label": "Evropa Juglindore"
+    },
+    "vanuatu": {
+      "city": "Vanuatu",
+      "country": "Vanuatu",
+      "label": "Paqësori i Jugut"
     }
   },
   "contact": {
@@ -295,7 +305,7 @@
     "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
     "bio_badge": "Über Peter Fiegler",
     "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
-    "bio_2": "Mit Standorten in Hamburg, Belgrad und Texas hat er ein internationales Netzwerk aufgebaut, das Mandanten dort begleitet, wo ihre geschäftlichen Vorhaben sie hinführen — ob bei der Gründung einer Gesellschaft in Südosteuropa, der Strukturierung einer Holding oder der Erschließung des US-Marktes.",
+    "bio_2": "Me zyra në Hamburg, Beograd, Teksas, Malin e Zi dhe Vanuatu, ai ka ndërtuar një rrjet ndërkombëtar që shoqëron klientët kudo që planet e tyre të biznesit i çojnë — qoftë themelimi i një shoqërie në Evropën Juglindore, strukturimi i një holdingi, apo hyrja në tregje të reja.",
     "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
     "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
     "quote_attribution": "Peter Fiegler, Gründer",

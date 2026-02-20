@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — Comhairle Idirnáisiúnta ar Dhlí Corparáideach agus Bunú Cuideachtaí",
-    "description": "FIECON Germany Co. KG — Comhairle idirnáisiúnta ar dhlí corparáideach, bunú cuideachtaí, riarachán airgeadais agus maoiniú tógála. Oifigí i Hamburg, Béalgrád agus Texas.",
+    "description": "FIECON Germany Co. KG — Comhairle idirnáisiúnta ar dhlí corparáideach, bunú cuideachtaí, riarachán airgeadais agus maoiniú tógála. Oifigí i Hamburg, Béalgrád, Texas, Montenegro agus Vanuatu.",
     "keywords": "dlí corparáideach, bunú cuideachta idirnáisiúnta, comhairliúchán Hamburg, riarachán airgeadais, maoiniú tógála, FIECON Consulting"
   },
   "nav": {
@@ -23,7 +23,7 @@
   "hero": {
     "tagline": "Fiegler Consulting",
     "headline": "Do ghnó. Comhairle idirnáisiúnta.",
-    "subtitle": "Dlí corparáideach agus bunú cuideachtaí idirnáisiúnta — treoir phearsanta i Hamburg, Béalgrád agus Texas.",
+    "subtitle": "Dlí corparáideach agus bunú cuideachtaí idirnáisiúnta — treoir phearsanta i Hamburg, Béalgrád, Texas, Montenegro agus Vanuatu.",
     "cta_primary": "Ár seirbhísí",
     "cta_secondary": "Déan teagmháil"
   },
@@ -31,7 +31,7 @@
     "badge": "Fúinn",
     "headline": "Fís ag casadh le dúthracht",
     "text_1": "Seasann FIECON do chomhairle idirnáisiúnta le tiomantas pearsanta. Tá ár bpríomhshaineolas i ndlí corparáideach agus bunú cuideachtaí idirnáisiúnta — réimsí ina ndéanann taithí, cruinneas agus tuiscint chultúrtha an difríocht ar fad.",
-    "text_2": "Ó Hamburg, Béalgrád agus Texas, treoraimid gnólachtaí thar theorainneacha. Tugaimid comhairle freisin ar riarachán airgeadais, maoiniú tógála agus maoiniú tógála luamh — i gcónaí leis an uaillmhian do leasanna a ionadú amhail is gur leasanna linn féin iad.",
+    "text_2": "Ó Hamburg, Béalgrád, Texas, Montenegro agus Vanuatu, treoraimid gnólachtaí thar theorainneacha. Tugaimid comhairle freisin ar riarachán airgeadais, maoiniú tógála agus maoiniú tógála luamh — i gcónaí leis an uaillmhian do leasanna a ionadú amhail is gur leasanna linn féin iad.",
     "quote": "Tugaimid comhairle amhail is go mba é ár gcuideachta féin a bheadh i gceist.",
     "stat_1_label": "Suíomhanna ar fud an domhain",
     "stat_2_label": "Réimsí cleachtais",
@@ -116,7 +116,7 @@
   "offices": {
     "badge": "Oifigí",
     "headline": "Gar do do mhargaí",
-    "subtitle": "Trí shuíomh, gealltanas amháin — comhairle phearsanta le raon idirnáisiúnta.",
+    "subtitle": "Cúig shuíomh, gealltanas amháin — comhairle phearsanta le raon idirnáisiúnta.",
     "hamburg": {
       "city": "Hamburg",
       "country": "An Ghearmáin",
@@ -131,6 +131,16 @@
       "city": "Texas",
       "country": "SAM",
       "label": "Meiriceá Thuaidh"
+    },
+    "montenegro": {
+      "city": "Montenegro",
+      "country": "Montenegro",
+      "label": "Oirdheisceart na hEorpa"
+    },
+    "vanuatu": {
+      "city": "Vanuatu",
+      "country": "Vanuatu",
+      "label": "An Aigéan Ciúin Theas"
     }
   },
   "contact": {
@@ -295,7 +305,7 @@
     "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
     "bio_badge": "Über Peter Fiegler",
     "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
-    "bio_2": "Mit Standorten in Hamburg, Belgrad und Texas hat er ein internationales Netzwerk aufgebaut, das Mandanten dort begleitet, wo ihre geschäftlichen Vorhaben sie hinführen — ob bei der Gründung einer Gesellschaft in Südosteuropa, der Strukturierung einer Holding oder der Erschließung des US-Marktes.",
+    "bio_2": "Le hoifigí i Hamburg, Béalgrád, Texas, Montenegro agus Vanuatu, tá líonra idirnáisiúnta tógtha aige a thacaíonn le cliaint cibé áit a dtugann a bpleananna gnó iad — bíodh sé ag bunú cuideachta in Oirdheisceart na hEorpa, ag struchtúrú sealbhaíochta, nó ag dul isteach i margaí nua.",
     "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
     "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
     "quote_attribution": "Peter Fiegler, Gründer",

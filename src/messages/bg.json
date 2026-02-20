@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — Международно търговско право и консултации за учредяване на фирми",
-    "description": "FIECON Germany Co. KG — Международни консултации в областта на търговското право, учредяване на фирми, финансова администрация и строително финансиране. Офиси в Хамбург, Белград и Тексас.",
+    "description": "FIECON Germany Co. KG — Международни консултации в областта на търговското право, учредяване на фирми, финансова администрация и строително финансиране. Офиси в Хамбург, Белград, Тексас, Montenegro и Vanuatu.",
     "keywords": "дружествено право, международно учредяване на фирми, консултации Хамбург, финансово управление, строително финансиране, FIECON Consulting"
   },
   "nav": {
@@ -23,7 +23,7 @@
   "hero": {
     "tagline": "Fiegler Consulting",
     "headline": "Вашият бизнес. С международни консултации.",
-    "subtitle": "Търговско право и международно учредяване на фирми — лично консултиране в Хамбург, Белград и Тексас.",
+    "subtitle": "Търговско право и международно учредяване на фирми — лично консултиране в Хамбург, Белград, Тексас, Montenegro и Vanuatu.",
     "cta_primary": "Нашите услуги",
     "cta_secondary": "Свържете се с нас"
   },
@@ -31,7 +31,7 @@
     "badge": "За нас",
     "headline": "Визията среща прецизността",
     "text_1": "FIECON означава международни консултации с лична ангажираност. Нашата основна експертиза е в областта на търговското право и международното учредяване на фирми — области, в които опитът, прецизността и културното разбиране правят цялата разлика.",
-    "text_2": "От Хамбург, Белград и Тексас ние насочваме бизнеса отвъд границите. Също така консултираме в областта на финансовата администрация, строителното финансиране и финансирането на яхтено строителство — винаги с амбицията да представляваме вашите интереси, сякаш са наши собствени.",
+    "text_2": "От Хамбург, Белград, Тексас, Montenegro и Vanuatu ние насочваме бизнеса отвъд границите. Също така консултираме в областта на финансовата администрация, строителното финансиране и финансирането на яхтено строителство — винаги с амбицията да представляваме вашите интереси, сякаш са наши собствени.",
     "quote": "Ние консултираме, сякаш е нашата собствена фирма.",
     "stat_1_label": "Локации по света",
     "stat_2_label": "Области на практика",
@@ -116,7 +116,7 @@
   "offices": {
     "badge": "Офиси",
     "headline": "Близо до вашите пазари",
-    "subtitle": "Три локации, едно обещание — лично консултиране с международен обхват.",
+    "subtitle": "Пет локации, едно обещание — лично консултиране с международен обхват.",
     "hamburg": {
       "city": "Хамбург",
       "country": "Германия",
@@ -131,6 +131,16 @@
       "city": "Тексас",
       "country": "САЩ",
       "label": "Северна Америка"
+    },
+    "montenegro": {
+      "city": "Montenegro",
+      "country": "Montenegro",
+      "label": "Югоизточна Европа"
+    },
+    "vanuatu": {
+      "city": "Vanuatu",
+      "country": "Vanuatu",
+      "label": "Южен Тихи океан"
     }
   },
   "contact": {
@@ -295,7 +305,7 @@
     "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
     "bio_badge": "Über Peter Fiegler",
     "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
-    "bio_2": "Mit Standorten in Hamburg, Belgrad und Texas hat er ein internationales Netzwerk aufgebaut, das Mandanten dort begleitet, wo ihre geschäftlichen Vorhaben sie hinführen — ob bei der Gründung einer Gesellschaft in Südosteuropa, der Strukturierung einer Holding oder der Erschließung des US-Marktes.",
+    "bio_2": "С офиси в Хамбург, Белград, Тексас, Черна гора и Вануату той е изградил международна мрежа, която придружава клиентите навсякъде, където ги водят техните бизнес планове — независимо дали става дума за учредяване на фирма в Югоизточна Европа, структуриране на холдинг или навлизане на нови пазари.",
     "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
     "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
     "quote_attribution": "Peter Fiegler, Gründer",
