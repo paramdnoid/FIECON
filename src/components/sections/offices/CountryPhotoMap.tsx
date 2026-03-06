@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { COUNTRY_MAPS } from "@/components/maps";
 import { PHOTO_MAP_CONFIG } from "./offices-config";
 import { useCountryMask } from "./useCountryMask";
 
@@ -11,13 +12,14 @@ import { useCountryMask } from "./useCountryMask";
  */
 export function CountryPhotoMap({ countryCode }: { countryCode: string }) {
   const config = PHOTO_MAP_CONFIG[countryCode];
+  const MapSvg = COUNTRY_MAPS[countryCode];
   const { maskUrl, ref } = useCountryMask(countryCode);
-  if (!config) return null;
-  const { src, MapSvg } = config;
+  if (!config || !MapSvg) return null;
+  const { src } = config;
 
   return (
     <>
-      <div ref={ref} className="absolute w-0 h-0 overflow-hidden" aria-hidden>
+      <div ref={ref} className="absolute w-0 h-0 overflow-hidden" aria-hidden="true">
         <MapSvg className="w-full h-full text-black" dotClassName="fill-black" />
       </div>
 

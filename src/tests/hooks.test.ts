@@ -384,6 +384,52 @@ describe("useDialogBehavior", () => {
 
     expect(onClose).not.toHaveBeenCalled();
   });
+
+  it("restores body scroll when unmounting while open", async () => {
+    const { useDialogBehavior } = await import("@/hooks/useDialogBehavior");
+    const onClose = vi.fn();
+    const focusRef = { current: null };
+
+    const { unmount } = renderHook(() => useDialogBehavior(true, onClose, focusRef));
+    expect(document.body.style.overflow).toBe("hidden");
+
+    unmount();
+    expect(document.body.style.overflow).toBe("");
+  });
+
+  it("ignores non-Escape keys when open", async () => {
+    const { useDialogBehavior } = await import("@/hooks/useDialogBehavior");
+    const onClose = vi.fn();
+    const focusRef = { current: null };
+
+    renderHook(() => useDialogBehavior(true, onClose, focusRef));
+
+    act(() => {
+      window.dispatchEvent(new KeyboardEvent("keydown", { key: "Enter" }));
+      window.dispatchEvent(new KeyboardEvent("keydown", { key: "Tab" }));
+    });
+
+    expect(onClose).not.toHaveBeenCalled();
+  });
+
+  it("clears focus timer on early unmount", async () => {
+    vi.useFakeTimers();
+    const { useDialogBehavior } = await import("@/hooks/useDialogBehavior");
+    const onClose = vi.fn();
+    const btn = document.createElement("button");
+    document.body.appendChild(btn);
+    const focusSpy = vi.spyOn(btn, "focus");
+    const focusRef = { current: btn };
+
+    const { unmount } = renderHook(() => useDialogBehavior(true, onClose, focusRef));
+    unmount();
+
+    act(() => { vi.advanceTimersByTime(200); });
+    expect(focusSpy).not.toHaveBeenCalled();
+
+    document.body.removeChild(btn);
+    vi.useRealTimers();
+  });
 });
 
 // ---------------------------------------------------------------------------
@@ -437,6 +483,21 @@ describe("useMediaQuery", () => {
 
     unmount();
     expect(listeners.get("(min-width: 768px)")?.size).toBe(0);
+  });
+
+  it("updates value reactively when media query changes", async () => {
+    const { useMediaQuery } = await import("@/hooks/useMediaQuery");
+    matchResults.set("(min-width: 768px)", false);
+
+    const { result } = renderHook(() => useMediaQuery("(min-width: 768px)"));
+    expect(result.current).toBe(false);
+
+    matchResults.set("(min-width: 768px)", true);
+    act(() => {
+      listeners.get("(min-width: 768px)")?.forEach((cb) => cb());
+    });
+
+    expect(result.current).toBe(true);
   });
 });
 
@@ -524,6 +585,35 @@ describe("useEllipseCarousel", () => {
     act(() => { result.current.resumeAutoPlay(); });
     act(() => { vi.advanceTimersByTime(1000); });
     expect(result.current.activeIndex).toBe(1);
+  });
+
+  it("auto-play wraps from last to first index", async () => {
+    const { useEllipseCarousel } = await import("@/hooks/useEllipseCarousel");
+    const { result } = renderHook(() =>
+      useEllipseCarousel({ count: 3, autoPlayMs: 1000 }),
+    );
+
+    // Advance to last index
+    act(() => { vi.advanceTimersByTime(2000); });
+    expect(result.current.activeIndex).toBe(2);
+
+    // Wraps to 0
+    act(() => { vi.advanceTimersByTime(1000); });
+    expect(result.current.activeIndex).toBe(0);
+  });
+
+  it("stops auto-play on unmount", async () => {
+    const { useEllipseCarousel } = await import("@/hooks/useEllipseCarousel");
+    const { result, unmount } = renderHook(() =>
+      useEllipseCarousel({ count: 4, autoPlayMs: 1000 }),
+    );
+
+    act(() => { vi.advanceTimersByTime(1000); });
+    expect(result.current.activeIndex).toBe(1);
+
+    unmount();
+    // Should not throw or advance after unmount
+    act(() => { vi.advanceTimersByTime(5000); });
   });
 });
 

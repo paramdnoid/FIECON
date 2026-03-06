@@ -1,10 +1,5 @@
-import type React from "react";
 import type { DepthConfig } from "@/components/animations/EllipseCarousel";
 import { EASE_OUT_EXPO } from "@/lib/constants";
-import { MapDE } from "@/components/maps/MapDE";
-import { MapUS } from "@/components/maps/MapUS";
-import { MapRS } from "@/components/maps/MapRS";
-import { MapME } from "@/components/maps/MapME";
 
 /* ── Layout constants ──────────────────────────────────────────────── */
 
@@ -56,15 +51,14 @@ const PHOTO_MAP_DEFAULTS = {
 
 export const PHOTO_MAP_CONFIG: Record<string, {
   src: string;
-  MapSvg: React.ComponentType<{ className?: string; dotClassName?: string }>;
   maskSize: string;
   webkitMaskSize: string;
   opacity: string;
   saturate: string;
   sepia: string;
 }> = {
-  DE: { ...PHOTO_MAP_DEFAULTS, src: "/offices/hamburg.webp", MapSvg: MapDE, webkitMaskSize: "auto 90%" },
-  US: { ...PHOTO_MAP_DEFAULTS, src: "/offices/austin.webp", MapSvg: MapUS },
-  RS: { ...PHOTO_MAP_DEFAULTS, src: "/offices/belgrad.webp", MapSvg: MapRS },
-  ME: { ...PHOTO_MAP_DEFAULTS, src: "/offices/montenegro.webp", MapSvg: MapME },
+  DE: { ...PHOTO_MAP_DEFAULTS, src: "/offices/hamburg.webp", webkitMaskSize: "auto 90%" },
+  US: { ...PHOTO_MAP_DEFAULTS, src: "/offices/austin.webp" },
+  RS: { ...PHOTO_MAP_DEFAULTS, src: "/offices/belgrad.webp" },
+  ME: { ...PHOTO_MAP_DEFAULTS, src: "/offices/montenegro.webp" },
 };

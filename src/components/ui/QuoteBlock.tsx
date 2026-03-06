@@ -38,10 +38,10 @@ export function QuoteBlock({
       </div>
 
       {/* Quote + Attribution */}
-      <div className="relative flex min-w-0 flex-1 flex-col items-center justify-center text-center sm:items-start sm:text-left">
+      <div className="relative flex min-w-0 flex-1 flex-col items-center justify-center text-center sm:items-start sm:text-start">
         <span
           aria-hidden="true"
-          className="pointer-events-none absolute -top-6 left-1/2 -translate-x-1/2 font-display text-[4rem] leading-none text-beige-400/50 select-none sm:left-0 sm:-top-8 sm:translate-x-0 sm:text-[5rem]"
+          className="pointer-events-none absolute -top-6 start-1/2 -translate-x-1/2 font-display text-[4rem] leading-none text-beige-400/50 select-none sm:start-0 sm:-top-8 sm:translate-x-0 sm:text-[5rem]"
         >
           &ldquo;
         </span>

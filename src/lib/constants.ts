@@ -53,6 +53,7 @@ export const OFFICE_CITY_OVERRIDES: Partial<
   Record<(typeof OFFICES)[number]["id"], string>
 > = {
   montenegro: "Podgorica",
+  vanuatu: "Port Vila",
 } as const;
 
 export const SERVICES = [

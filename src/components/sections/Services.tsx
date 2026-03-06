@@ -100,6 +100,7 @@ export function Services() {
             badge={t("badge")}
             headline={t("headline")}
             subtitle={t("subtitle")}
+            gradient
           />
         </FadeIn>
 

@@ -106,7 +106,7 @@ export function About() {
             <Link
               href="/team/peter-fiegler"
               aria-label={t("profile_link")}
-              className="group mx-auto block max-w-4xl rounded-2xl p-px bg-linear-to-r from-beige-400/30 via-bordeaux-500/40 to-beige-400/30 shadow-[0_4px_24px_-8px_rgba(98,25,28,0.06)] transition-shadow duration-300 hover:shadow-[0_4px_20px_-6px_rgba(98,25,28,0.10)]"
+              className="group mx-auto block max-w-4xl rounded-2xl p-px bg-linear-to-r from-beige-400/30 via-bordeaux-500/40 to-beige-400/30 shadow-[0_4px_24px_-8px_rgba(98,25,28,0.06)] transition-shadow duration-300 hover:shadow-[0_4px_20px_-6px_rgba(98,25,28,0.10)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-bordeaux-900 focus-visible:ring-offset-2"
             >
               <div className="relative">
                 <QuoteBlock
@@ -125,7 +125,7 @@ export function About() {
                   strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  className="absolute top-1/2 right-5 -translate-y-1/2 sm:right-5 lg:right-6 text-bordeaux-900/40 transition-all duration-300 group-hover:text-bordeaux-900 group-hover:translate-x-0.5"
+                  className="absolute top-1/2 end-5 -translate-y-1/2 sm:end-5 lg:end-6 text-bordeaux-900/40 transition-all duration-300 group-hover:text-bordeaux-900 group-hover:translate-x-0.5 rtl:rotate-180"
                 >
                   <path d="M5 12h14" />
                   <path d="m12 5 7 7-7 7" />
@@ -152,7 +152,7 @@ export function About() {
                 <Link
                   key={member.slug}
                   href={`/team/${member.slug}`}
-                  className="group relative flex items-center gap-4 rounded-xl p-px bg-linear-to-r from-beige-400/20 via-bordeaux-500/25 to-beige-400/20 shadow-[0_2px_12px_-4px_rgba(98,25,28,0.04)] transition-shadow duration-300 hover:shadow-[0_4px_20px_-6px_rgba(98,25,28,0.10)]"
+                  className="group relative flex items-center gap-4 rounded-xl p-px bg-linear-to-r from-beige-400/20 via-bordeaux-500/25 to-beige-400/20 shadow-[0_2px_12px_-4px_rgba(98,25,28,0.04)] transition-shadow duration-300 hover:shadow-[0_4px_20px_-6px_rgba(98,25,28,0.10)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-bordeaux-900 focus-visible:ring-offset-2"
                 >
                   <div className="flex w-full items-center gap-4 rounded-xl bg-beige-50/80 px-5 py-4 sm:px-6 sm:py-5">
                     <div className="relative size-14 shrink-0 overflow-hidden rounded-full ring-1 ring-bordeaux-900/10 ring-offset-1 ring-offset-beige-50 sm:size-16">
@@ -183,7 +183,7 @@ export function About() {
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      className="shrink-0 text-bordeaux-900/40 transition-all duration-300 group-hover:text-bordeaux-900 group-hover:translate-x-0.5"
+                      className="shrink-0 text-bordeaux-900/40 transition-all duration-300 group-hover:text-bordeaux-900 group-hover:translate-x-0.5 rtl:rotate-180"
                     >
                       <path d="M5 12h14" />
                       <path d="m12 5 7 7-7 7" />
