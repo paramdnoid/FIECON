@@ -12,18 +12,15 @@ import {
   SERVICES,
   TEAM_MEMBERS,
 } from "@/lib/constants";
+import { hasTranslation } from "@/lib/utils";
 
 export function Footer() {
   const t = useTranslations("footer");
   const tServices = useTranslations("services");
   const tOffices = useTranslations("offices");
   const tTeam = useTranslations("team");
-  const hasServiceTranslation = (key: string) =>
-    typeof (tServices as unknown as { has?: (k: string) => boolean }).has === "function"
-      ? (tServices as unknown as { has: (k: string) => boolean }).has(key)
-      : true;
   const visibleServices = SERVICES.filter((service) =>
-    hasServiceTranslation(`${service.id}.title`),
+    hasTranslation(tServices, `${service.id}.title`),
   );
 
   const currentYear = new Date().getFullYear();

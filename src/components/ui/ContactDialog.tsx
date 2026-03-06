@@ -6,9 +6,10 @@ import {
   useRef,
   type FormEvent,
 } from "react";
+import { useDialogBehavior } from "@/hooks/useDialogBehavior";
 import { motion, AnimatePresence, useReducedMotion } from "motion/react";
 import { useTranslations } from "next-intl";
-import { CONTACT, COMPANY, LOGO_PATHS, EASE_OUT_EXPO } from "@/lib/constants";
+import { CONTACT, COMPANY, LOGO_PATHS, BACKDROP_MOTION, MODAL_MOTION } from "@/lib/constants";
 import { EMAIL_REGEX } from "@/lib/utils";
 import { useFocusTrap } from "@/hooks/useFocusTrap";
 import { FormField } from "./FormField";
@@ -52,35 +53,15 @@ export function ContactDialog({ open, onClose }: Props) {
   // Capture the element that triggered the dialog for focus restoration
   const triggerRef = useRef<Element | null>(null);
 
-  // Focus first input on open; restore focus on close
+  useDialogBehavior(open, onClose, firstInputRef);
+
+  // Capture trigger on open; restore focus on close
   useEffect(() => {
     if (open) {
       triggerRef.current = document.activeElement;
-      const timer = setTimeout(() => firstInputRef.current?.focus(), 150);
-      return () => clearTimeout(timer);
     } else if (triggerRef.current instanceof HTMLElement) {
       triggerRef.current.focus();
       triggerRef.current = null;
-    }
-  }, [open]);
-
-  // Escape to close
-  useEffect(() => {
-    if (!open) return;
-    const handler = (e: KeyboardEvent) => {
-      if (e.key === "Escape") onClose();
-    };
-    window.addEventListener("keydown", handler);
-    return () => window.removeEventListener("keydown", handler);
-  }, [open, onClose]);
-
-  // Lock body scroll
-  useEffect(() => {
-    if (open) {
-      document.body.style.overflow = "hidden";
-      return () => {
-        document.body.style.overflow = "";
-      };
     }
   }, [open]);
 
@@ -145,23 +126,8 @@ export function ContactDialog({ open, onClose }: Props) {
     }, 300);
   }
 
-  const motionProps = prefersReduced
-    ? {}
-    : {
-      initial: { opacity: 0, scale: 0.96, y: 24 },
-      animate: { opacity: 1, scale: 1, y: 0 },
-      exit: { opacity: 0, scale: 0.96, y: 24 },
-      transition: { duration: 0.4, ease: EASE_OUT_EXPO },
-    };
-
-  const backdropMotion = prefersReduced
-    ? {}
-    : {
-      initial: { opacity: 0 },
-      animate: { opacity: 1 },
-      exit: { opacity: 0 },
-      transition: { duration: 0.3 },
-    };
+  const motionProps = prefersReduced ? {} : MODAL_MOTION;
+  const backdropMotion = prefersReduced ? {} : BACKDROP_MOTION;
 
   return (
     <AnimatePresence>

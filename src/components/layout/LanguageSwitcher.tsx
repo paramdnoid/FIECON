@@ -1,13 +1,14 @@
 "use client";
 
-import { useState, useEffect, useRef, useCallback } from "react";
+import { useState, useRef, useCallback } from "react";
 import { createPortal } from "react-dom";
 import { useLocale, useTranslations } from "next-intl";
 import { useRouter } from "next/navigation";
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
-import { LOCALES, EASE_OUT_EXPO } from "@/lib/constants";
+import { LOCALES, BACKDROP_MOTION, MODAL_MOTION } from "@/lib/constants";
 import { FLAGS } from "@/components/flags";
 import { useFocusTrap } from "@/hooks/useFocusTrap";
+import { useDialogBehavior } from "@/hooks/useDialogBehavior";
 
 export function LanguageSwitcher() {
   const locale = useLocale();
@@ -20,34 +21,9 @@ export function LanguageSwitcher() {
 
   const currentLocale = LOCALES.find((l) => l.code === locale) ?? LOCALES[0];
   const CurrentFlag = FLAGS[currentLocale.flag];
+  const closeCallback = useCallback(() => setOpen(false), []);
 
-  // Focus first button on open
-  useEffect(() => {
-    if (open) {
-      const timer = setTimeout(() => firstButtonRef.current?.focus(), 150);
-      return () => clearTimeout(timer);
-    }
-  }, [open]);
-
-  // Escape to close
-  useEffect(() => {
-    if (!open) return;
-    const handler = (e: KeyboardEvent) => {
-      if (e.key === "Escape") setOpen(false);
-    };
-    window.addEventListener("keydown", handler);
-    return () => window.removeEventListener("keydown", handler);
-  }, [open]);
-
-  // Lock body scroll
-  useEffect(() => {
-    if (open) {
-      document.body.style.overflow = "hidden";
-      return () => {
-        document.body.style.overflow = "";
-      };
-    }
-  }, [open]);
+  useDialogBehavior(open, closeCallback, firstButtonRef);
 
   const switchLocale = useCallback(
     (code: string) => {
@@ -59,23 +35,8 @@ export function LanguageSwitcher() {
     [router],
   );
 
-  const backdropMotion = prefersReduced
-    ? {}
-    : {
-        initial: { opacity: 0 },
-        animate: { opacity: 1 },
-        exit: { opacity: 0 },
-        transition: { duration: 0.3 },
-      };
-
-  const modalMotion = prefersReduced
-    ? {}
-    : {
-        initial: { opacity: 0, scale: 0.96, y: 24 },
-        animate: { opacity: 1, scale: 1, y: 0 },
-        exit: { opacity: 0, scale: 0.96, y: 24 },
-        transition: { duration: 0.4, ease: EASE_OUT_EXPO },
-      };
+  const backdropMotion = prefersReduced ? {} : BACKDROP_MOTION;
+  const modalMotion = prefersReduced ? {} : MODAL_MOTION;
 
   return (
     <>

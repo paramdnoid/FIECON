@@ -101,6 +101,14 @@ function useCountryMask(countryCode: string) {
 }
 
 /** Photo config per country code */
+const PHOTO_MAP_DEFAULTS = {
+  maskSize: "auto 100%",
+  webkitMaskSize: "auto 100%",
+  opacity: "0.55",
+  saturate: "0.4",
+  sepia: "0.12",
+};
+
 const PHOTO_MAP_CONFIG: Record<string, {
   src: string;
   MapSvg: React.ComponentType<{ className?: string; dotClassName?: string }>;
@@ -110,42 +118,10 @@ const PHOTO_MAP_CONFIG: Record<string, {
   saturate: string;
   sepia: string;
 }> = {
-  DE: {
-    src: "/offices/hamburg.webp",
-    MapSvg: MapDE,
-    maskSize: "auto 100%",
-    webkitMaskSize: "auto 90%",
-    opacity: "0.55",
-    saturate: "0.4",
-    sepia: "0.12",
-  },
-  US: {
-    src: "/offices/austin.webp",
-    MapSvg: MapUS,
-    maskSize: "auto 100%",
-    webkitMaskSize: "auto 100%",
-    opacity: "0.55",
-    saturate: "0.4",
-    sepia: "0.12",
-  },
-  RS: {
-    src: "/offices/belgrad.webp",
-    MapSvg: MapRS,
-    maskSize: "auto 100%",
-    webkitMaskSize: "auto 100%",
-    opacity: "0.55",
-    saturate: "0.4",
-    sepia: "0.12",
-  },
-  ME: {
-    src: "/offices/montenegro.webp",
-    MapSvg: MapME,
-    maskSize: "auto 100%",
-    webkitMaskSize: "auto 100%",
-    opacity: "0.55",
-    saturate: "0.4",
-    sepia: "0.12",
-  },
+  DE: { ...PHOTO_MAP_DEFAULTS, src: "/offices/hamburg.webp", MapSvg: MapDE, webkitMaskSize: "auto 90%" },
+  US: { ...PHOTO_MAP_DEFAULTS, src: "/offices/austin.webp", MapSvg: MapUS },
+  RS: { ...PHOTO_MAP_DEFAULTS, src: "/offices/belgrad.webp", MapSvg: MapRS },
+  ME: { ...PHOTO_MAP_DEFAULTS, src: "/offices/montenegro.webp", MapSvg: MapME },
 };
 
 /**

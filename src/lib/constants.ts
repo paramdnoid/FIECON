@@ -102,6 +102,20 @@ export const HEADER_HEIGHT = 96;
 /** Custom scroll offset for the services section (tighter spacing). */
 export const SERVICES_SCROLL_OFFSET = 20;
 
+export const BACKDROP_MOTION = {
+  initial: { opacity: 0 },
+  animate: { opacity: 1 },
+  exit: { opacity: 0 },
+  transition: { duration: 0.3 },
+} as const;
+
+export const MODAL_MOTION = {
+  initial: { opacity: 0, scale: 0.96, y: 24 },
+  animate: { opacity: 1, scale: 1, y: 0 },
+  exit: { opacity: 0, scale: 0.96, y: 24 },
+  transition: { duration: 0.4, ease: EASE_OUT_EXPO },
+} as const;
+
 export const HERO_LETTERS = ["F", "I", "E", "C", "O", "N"] as const;
 
 export const HERO_LETTER_COLORS = [

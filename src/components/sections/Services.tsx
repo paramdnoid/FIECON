@@ -6,6 +6,7 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 import { FadeIn } from "@/components/animations/FadeIn";
 
 import React from "react";
+import { hasTranslation } from "@/lib/utils";
 
 const SERVICE_ICONS: Record<string, React.ReactNode> = {
   consulting: (
@@ -86,12 +87,8 @@ const FOCUS_ICONS: Record<string, React.ReactNode> = {
 
 export function Services() {
   const t = useTranslations("services");
-  const hasTranslation = (key: string) =>
-    typeof (t as unknown as { has?: (k: string) => boolean }).has === "function"
-      ? (t as unknown as { has: (k: string) => boolean }).has(key)
-      : true;
   const visibleServiceKeys = SERVICE_KEYS.filter((key) =>
-    hasTranslation(`${key}.title`),
+    hasTranslation(t, `${key}.title`),
   );
 
   return (

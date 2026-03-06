@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { AnimatePresence, motion } from "motion/react";
@@ -8,6 +8,7 @@ import { NAV_LINKS, EASE_OUT_EXPO, COMPANY } from "@/lib/constants";
 import { scrollToSection } from "@/lib/utils";
 import { useActiveSection } from "@/hooks/useActiveSection";
 import { useFocusTrap } from "@/hooks/useFocusTrap";
+import { useDialogBehavior } from "@/hooks/useDialogBehavior";
 import { Link } from "@/i18n/navigation";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 
@@ -22,35 +23,7 @@ export function MobileMenu({ isOpen, onClose }: Props) {
   const trapRef = useFocusTrap(isOpen);
   const closeButtonRef = useRef<HTMLButtonElement>(null);
 
-  // Lock body scroll when open
-  useEffect(() => {
-    if (isOpen) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "";
-    }
-    return () => {
-      document.body.style.overflow = "";
-    };
-  }, [isOpen]);
-
-  // Focus close button when menu opens
-  useEffect(() => {
-    if (isOpen) {
-      const timer = setTimeout(() => closeButtonRef.current?.focus(), 150);
-      return () => clearTimeout(timer);
-    }
-  }, [isOpen]);
-
-  // Close on Escape key
-  useEffect(() => {
-    if (!isOpen) return;
-    const handler = (e: KeyboardEvent) => {
-      if (e.key === "Escape") onClose();
-    };
-    window.addEventListener("keydown", handler);
-    return () => window.removeEventListener("keydown", handler);
-  }, [isOpen, onClose]);
+  useDialogBehavior(isOpen, onClose, closeButtonRef);
 
   return (
     <AnimatePresence>

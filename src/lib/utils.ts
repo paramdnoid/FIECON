@@ -24,6 +24,16 @@ export function sanitizeHeaderValue(str: string): string {
   return str.replace(/[\r\n\t]/g, "").trim();
 }
 
+/** Check if a translation key exists (works around next-intl's typed API). */
+export function hasTranslation(
+  t: { (key: string): string },
+  key: string,
+): boolean {
+  return typeof (t as unknown as { has?: (k: string) => boolean }).has === "function"
+    ? (t as unknown as { has: (k: string) => boolean }).has(key)
+    : true;
+}
+
 /** Scroll to a page section by its id, accounting for the fixed header. */
 export function scrollToSection(
   sectionId: string,

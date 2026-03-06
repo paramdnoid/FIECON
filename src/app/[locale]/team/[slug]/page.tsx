@@ -1,3 +1,4 @@
+import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { headers } from "next/headers";
 import { getTranslations, setRequestLocale } from "next-intl/server";
@@ -8,20 +9,24 @@ import { TeamProfileCompetencies } from "@/components/sections/team/TeamProfileC
 import { TeamProfileQuote } from "@/components/sections/team/TeamProfileQuote";
 import { TeamProfileCta } from "@/components/sections/team/TeamProfileCta";
 import { SectionDivider } from "@/components/ui/SectionDivider";
-import { CompetencyIcons } from "./competency-icons";
+import { TEAM_PAGE_CONFIG } from "../team-config";
+import { COMPETENCY_ICONS } from "../competency-icons";
 
-const MEMBER = TEAM_MEMBERS[2];
+export function generateStaticParams() {
+  return Object.keys(TEAM_PAGE_CONFIG).map((slug) => ({ slug }));
+}
 
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ locale: string }>;
+  params: Promise<{ locale: string; slug: string }>;
 }): Promise<Metadata> {
-  const { locale } = await params;
-  const t = await getTranslations({
-    locale,
-    namespace: MEMBER.translationKey,
-  });
+  const { locale, slug } = await params;
+  const config = TEAM_PAGE_CONFIG[slug];
+  if (!config) return {};
+
+  const member = TEAM_MEMBERS[config.memberIndex];
+  const t = await getTranslations({ locale, namespace: member.translationKey });
 
   const title = `${t("meta_title")} — ${COMPANY.name}`;
   const description = t("meta_description");
@@ -29,11 +34,11 @@ export async function generateMetadata({
   return {
     title,
     description,
-    alternates: { canonical: `/${locale}/team/${MEMBER.slug}` },
+    alternates: { canonical: `/${locale}/team/${member.slug}` },
     openGraph: {
       title,
       description,
-      url: `/${locale}/team/${MEMBER.slug}`,
+      url: `/${locale}/team/${member.slug}`,
       type: "profile",
       siteName: COMPANY.name,
     },
@@ -45,46 +50,31 @@ export async function generateMetadata({
   };
 }
 
-export default async function AndreZimmermannPage({
+export default async function TeamMemberPage({
   params,
 }: {
-  params: Promise<{ locale: string }>;
+  params: Promise<{ locale: string; slug: string }>;
 }) {
-  const { locale } = await params;
+  const { locale, slug } = await params;
+  const config = TEAM_PAGE_CONFIG[slug];
+  if (!config) notFound();
+
   setRequestLocale(locale);
 
-  const t = await getTranslations({ locale, namespace: MEMBER.translationKey });
+  const member = TEAM_MEMBERS[config.memberIndex];
+  const icons = COMPETENCY_ICONS[slug];
+  const t = await getTranslations({ locale, namespace: member.translationKey });
   const tTeam = await getTranslations({ locale, namespace: "team" });
 
   const headerStore = await headers();
   const nonce = headerStore.get("x-nonce") ?? undefined;
 
-  const competencies = [
-    {
-      id: "web-development",
-      title: t("competency_1_title"),
-      description: t("competency_1_description"),
-      icon: CompetencyIcons.webDevelopment,
-    },
-    {
-      id: "software-architecture",
-      title: t("competency_2_title"),
-      description: t("competency_2_description"),
-      icon: CompetencyIcons.softwareArchitecture,
-    },
-    {
-      id: "project-management",
-      title: t("competency_3_title"),
-      description: t("competency_3_description"),
-      icon: CompetencyIcons.projectManagement,
-    },
-    {
-      id: "digital-infrastructure",
-      title: t("competency_4_title"),
-      description: t("competency_4_description"),
-      icon: CompetencyIcons.digitalInfrastructure,
-    },
-  ];
+  const competencies = config.competencies.map((c, i) => ({
+    id: c.id,
+    title: t(`competency_${i + 1}_title`),
+    description: t(`competency_${i + 1}_description`),
+    icon: icons[c.iconKey],
+  }));
 
   return (
     <>
@@ -95,11 +85,11 @@ export default async function AndreZimmermannPage({
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Person",
-            name: MEMBER.name,
+            name: member.name,
             jobTitle: t("hero_role"),
             description: t("meta_description"),
-            image: `https://${COMPANY.website}${MEMBER.imageSrc}`,
-            url: `https://${COMPANY.website}/${locale}/team/${MEMBER.slug}`,
+            image: `https://${COMPANY.website}${member.imageSrc}`,
+            url: `https://${COMPANY.website}/${locale}/team/${member.slug}`,
             worksFor: {
               "@type": "Organization",
               name: COMPANY.fullName,
@@ -112,12 +102,11 @@ export default async function AndreZimmermannPage({
               addressLocality: CONTACT.address.city,
               addressCountry: "DE",
             },
-            knowsLanguage: ["de", "en", "es"],
+            knowsLanguage: config.languages,
           }),
         }}
       />
 
-      {/* BreadcrumbList structured data */}
       <script
         type="application/ld+json"
         nonce={nonce}
@@ -135,8 +124,8 @@ export default async function AndreZimmermannPage({
               {
                 "@type": "ListItem",
                 position: 2,
-                name: MEMBER.name,
-                item: `${BASE_URL}/${locale}/team/${MEMBER.slug}`,
+                name: member.name,
+                item: `${BASE_URL}/${locale}/team/${member.slug}`,
               },
             ],
           }),
@@ -147,19 +136,19 @@ export default async function AndreZimmermannPage({
         name={t("hero_name")}
         role={t("hero_role")}
         tagline={t("hero_tagline")}
-        imageSrc={MEMBER.imageSrc}
-        imageAlt={MEMBER.name}
+        imageSrc={member.imageSrc}
+        imageAlt={member.name}
         breadcrumbs={[
           { label: tTeam("breadcrumb_home"), href: `/${locale}` },
-          { label: MEMBER.name },
+          { label: member.name },
         ]}
       />
 
       <TeamProfileBio
         badge={t("bio_badge")}
         paragraphs={[t("bio_1"), t("bio_2"), t("bio_3")]}
-        imageSrc={MEMBER.imageSrc}
-        imageAlt={MEMBER.name}
+        imageSrc={member.imageSrc}
+        imageAlt={member.name}
         imagePosition="left"
       />
 
@@ -175,8 +164,8 @@ export default async function AndreZimmermannPage({
       <TeamProfileQuote
         quote={t("quote")}
         attribution={t("quote_attribution")}
-        imageSrc={MEMBER.imageSrc}
-        imageAlt={MEMBER.name}
+        imageSrc={member.imageSrc}
+        imageAlt={member.name}
       />
 
       <TeamProfileCta

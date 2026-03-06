@@ -5,6 +5,22 @@ import userEvent from "@testing-library/user-event";
 // ---------------------------------------------------------------------------
 // Mocks
 // ---------------------------------------------------------------------------
+
+// Mock matchMedia for useMediaQuery hook used by Offices carousel
+Object.defineProperty(window, "matchMedia", {
+  writable: true,
+  value: (query: string) => ({
+    matches: false,
+    media: query,
+    onchange: null,
+    addListener: () => {},
+    removeListener: () => {},
+    addEventListener: () => {},
+    removeEventListener: () => {},
+    dispatchEvent: () => false,
+  }),
+});
+
 vi.mock("next-intl", () => ({
   useTranslations: () => (key: string) => key,
   useLocale: () => "de",
@@ -212,7 +228,7 @@ describe("Offices", () => {
     const { Offices } = await import("@/components/sections/Offices");
     render(<Offices />);
     const tabs = screen.getAllByRole("tab");
-    expect(tabs.length).toBe(3);
+    expect(tabs.length).toBe(5);
   });
 });
 
