@@ -170,11 +170,12 @@ describe("Services", () => {
     expect(container.querySelector("#services")).toBeDefined();
   });
 
-  it("renders all four service cards", async () => {
+  it("renders service cards with combined finance switcher", async () => {
     const { Services } = await import("@/components/sections/Services");
     render(<Services />);
     expect(screen.getByText("consulting.title")).toBeDefined();
-    expect(screen.getByText("finance.title")).toBeDefined();
+    // Finance group: tab button + active h3 both show finance.title
+    expect(screen.getAllByText("finance.title")).toHaveLength(2);
     expect(screen.getByText("construction.title")).toBeDefined();
     expect(screen.getByText("yacht.title")).toBeDefined();
   });

@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
@@ -47,13 +48,13 @@ const SERVICE_ICONS: Record<string, React.ReactNode> = {
   ),
 };
 
-const SERVICE_KEYS = [
+const STANDALONE_KEYS = [
   "consulting",
-  "finance",
-  "construction",
-  "yacht",
   "private_health_insurance",
 ] as const;
+
+const FINANCE_KEYS = ["finance", "construction", "yacht"] as const;
+
 const ITEMS_PER_SERVICE: Record<string, number> = {
   consulting: 2,
   finance: 2,
@@ -86,11 +87,145 @@ const FOCUS_ICONS: Record<string, React.ReactNode> = {
   ),
 };
 
-export function Services() {
-  const t = useTranslations("services");
-  const visibleServiceKeys = SERVICE_KEYS.filter((key) =>
+function ServiceCardContent({
+  serviceKey,
+  t,
+  tabs,
+}: {
+  serviceKey: string;
+  t: ReturnType<typeof useTranslations<"services">>;
+  tabs?: React.ReactNode;
+}) {
+  return (
+    <>
+      {/* Title row with icon */}
+      <div className="flex items-start justify-between gap-3 mb-2">
+        <h3 className="font-display text-xl font-normal text-text-primary tracking-tight">
+          {t(`${serviceKey}.title`)}
+        </h3>
+        <div className="w-9 h-9 shrink-0 rounded-full bg-bordeaux-900 text-beige-100 flex items-center justify-center group-hover:bg-bordeaux-700 transition-colors duration-500">
+          {SERVICE_ICONS[serviceKey]}
+        </div>
+      </div>
+
+      {/* Sub-service tabs (finance card) */}
+      {tabs}
+
+      {/* Divider */}
+      <div className="w-8 h-px bg-beige-400 mb-3" />
+
+      {/* Description */}
+      <p className="text-sm text-text-muted leading-relaxed">
+        {t(`${serviceKey}.description`)}
+      </p>
+
+      {/* Badges — pushed to bottom */}
+      <div className="flex flex-wrap gap-2 mt-auto pt-4">
+        {Array.from(
+          { length: ITEMS_PER_SERVICE[serviceKey] },
+          (_, i) => (
+            <span
+              key={i}
+              className="px-3 py-1 text-[11px] font-medium tracking-wide uppercase bg-beige-50 text-bordeaux-900 rounded-full"
+            >
+              {t(`${serviceKey}.items.${i}`)}
+            </span>
+          ),
+        )}
+      </div>
+    </>
+  );
+}
+
+function FinanceCard({
+  t,
+}: {
+  t: ReturnType<typeof useTranslations<"services">>;
+}) {
+  const visibleKeys = FINANCE_KEYS.filter((key) =>
     hasTranslation(t, `${key}.title`),
   );
+  const [activeIdx, setActiveIdx] = useState(0);
+  const activeKey = visibleKeys[activeIdx] ?? visibleKeys[0];
+
+  if (visibleKeys.length === 0) return null;
+
+  return (
+    <HoverCard>
+      <ServiceCardContent
+        serviceKey={activeKey}
+        t={t}
+        tabs={
+          visibleKeys.length > 1 ? (
+            <div className="flex flex-wrap gap-1.5 mb-3">
+              {visibleKeys.map((key, i) => (
+                <button
+                  key={key}
+                  type="button"
+                  onClick={() => setActiveIdx(i)}
+                  className={`px-3 py-1.5 text-[11px] font-medium tracking-wide uppercase rounded-full transition-colors duration-200 ${
+                    i === activeIdx
+                      ? "bg-bordeaux-900 text-beige-100"
+                      : "bg-beige-100 text-text-muted hover:bg-beige-200 hover:text-text-primary"
+                  }`}
+                >
+                  {t(`${key}.title`)}
+                </button>
+              ))}
+            </div>
+          ) : undefined
+        }
+      />
+    </HoverCard>
+  );
+}
+
+export function Services() {
+  const t = useTranslations("services");
+  const visibleStandaloneKeys = STANDALONE_KEYS.filter((key) =>
+    hasTranslation(t, `${key}.title`),
+  );
+  const hasFinance = FINANCE_KEYS.some((key) =>
+    hasTranslation(t, `${key}.title`),
+  );
+
+  const allCards: React.ReactNode[] = [];
+  let delayIdx = 0;
+
+  // First standalone card (consulting)
+  if (visibleStandaloneKeys.includes("consulting")) {
+    allCards.push(
+      <FadeIn key="consulting" delay={0.1 + delayIdx * 0.08} className="h-full">
+        <HoverCard>
+          <ServiceCardContent serviceKey="consulting" t={t} />
+        </HoverCard>
+      </FadeIn>,
+    );
+    delayIdx++;
+  }
+
+  // Combined finance card
+  if (hasFinance) {
+    allCards.push(
+      <FadeIn key="finance-group" delay={0.1 + delayIdx * 0.08} className="h-full">
+        <FinanceCard t={t} />
+      </FadeIn>,
+    );
+    delayIdx++;
+  }
+
+  // Remaining standalone cards (private_health_insurance)
+  for (const key of visibleStandaloneKeys) {
+    if (key === "consulting") continue;
+    allCards.push(
+      <FadeIn key={key} delay={0.1 + delayIdx * 0.08} className="h-full">
+        <HoverCard>
+          <ServiceCardContent serviceKey={key} t={t} />
+        </HoverCard>
+      </FadeIn>,
+    );
+    delayIdx++;
+  }
 
   return (
     <section id="services" className="py-32 sm:py-40 bg-beige-50">
@@ -104,42 +239,8 @@ export function Services() {
           />
         </FadeIn>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 lg:gap-6">
-          {visibleServiceKeys.map((key, i) => (
-            <FadeIn key={key} delay={0.1 + i * 0.08} className="h-full">
-              <HoverCard>
-                {/* Icon — top right */}
-                <div className="absolute top-6 right-6 w-9 h-9 rounded-full bg-bordeaux-900 text-beige-100 flex items-center justify-center group-hover:bg-bordeaux-700 transition-colors duration-500">
-                  {SERVICE_ICONS[key]}
-                </div>
-
-                {/* Title */}
-                <h3 className="font-display text-xl font-normal text-text-primary mb-2 tracking-tight pr-16">
-                  {t(`${key}.title`)}
-                </h3>
-
-                {/* Divider */}
-                <div className="w-8 h-px bg-beige-400 mb-3" />
-
-                {/* Description */}
-                <p className="text-sm text-text-muted leading-relaxed">
-                  {t(`${key}.description`)}
-                </p>
-
-                {/* Badges — pushed to bottom */}
-                <div className="flex flex-wrap gap-2 mt-auto pt-4">
-                  {Array.from({ length: ITEMS_PER_SERVICE[key] }, (_, i) => (
-                    <span
-                      key={i}
-                      className="px-3 py-1 text-[11px] font-medium tracking-wide uppercase bg-beige-50 text-bordeaux-900 rounded-full"
-                    >
-                      {t(`${key}.items.${i}`)}
-                    </span>
-                  ))}
-                </div>
-              </HoverCard>
-            </FadeIn>
-          ))}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5 lg:gap-6">
+          {allCards}
         </div>
 
         {/* === Focus Areas — subtle detail zone === */}
