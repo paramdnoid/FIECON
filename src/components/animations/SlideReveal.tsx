@@ -1,8 +1,9 @@
 "use client";
 
-import { type ReactNode, useEffect, useRef, useState } from "react";
+import { type ReactNode } from "react";
 import { motion, useReducedMotion } from "motion/react";
 import { EASE_OUT_EXPO } from "@/lib/constants";
+import { useAnimationComplete } from "@/hooks/useAnimationComplete";
 
 type Props = {
   children: ReactNode;
@@ -29,16 +30,7 @@ export function SlideReveal({
   animateOnMount = false,
 }: Props) {
   const prefersReduced = useReducedMotion();
-  const [hasAnimated, setHasAnimated] = useState(false);
-  const timeoutRef = useRef<ReturnType<typeof setTimeout>>(null);
-
-  useEffect(() => {
-    if (animateOnMount && !hasAnimated) {
-      const totalDuration = (delay + duration) * 1000;
-      timeoutRef.current = setTimeout(() => setHasAnimated(true), totalDuration);
-      return () => { if (timeoutRef.current) clearTimeout(timeoutRef.current); };
-    }
-  }, [animateOnMount, hasAnimated, delay, duration]);
+  const hasAnimated = useAnimationComplete(animateOnMount, (delay + duration) * 1000);
 
   if (prefersReduced) {
     return <div className={className}>{children}</div>;

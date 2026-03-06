@@ -292,6 +292,242 @@ describe("useCarouselIndex", () => {
 });
 
 // ---------------------------------------------------------------------------
+// useDialogBehavior
+// ---------------------------------------------------------------------------
+describe("useDialogBehavior", () => {
+  afterEach(() => {
+    document.body.style.overflow = "";
+  });
+
+  it("locks body scroll when open", async () => {
+    const { useDialogBehavior } = await import("@/hooks/useDialogBehavior");
+    const onClose = vi.fn();
+    const focusRef = { current: null };
+
+    renderHook(() => useDialogBehavior(true, onClose, focusRef));
+    expect(document.body.style.overflow).toBe("hidden");
+  });
+
+  it("restores body scroll when closed", async () => {
+    const { useDialogBehavior } = await import("@/hooks/useDialogBehavior");
+    const onClose = vi.fn();
+    const focusRef = { current: null };
+
+    const { rerender } = renderHook(
+      ({ open }) => useDialogBehavior(open, onClose, focusRef),
+      { initialProps: { open: true } },
+    );
+
+    expect(document.body.style.overflow).toBe("hidden");
+    rerender({ open: false });
+    expect(document.body.style.overflow).toBe("");
+  });
+
+  it("calls onClose on Escape keypress", async () => {
+    const { useDialogBehavior } = await import("@/hooks/useDialogBehavior");
+    const onClose = vi.fn();
+    const focusRef = { current: null };
+
+    renderHook(() => useDialogBehavior(true, onClose, focusRef));
+
+    act(() => {
+      window.dispatchEvent(new KeyboardEvent("keydown", { key: "Escape" }));
+    });
+
+    expect(onClose).toHaveBeenCalledTimes(1);
+  });
+
+  it("does not call onClose on Escape when closed", async () => {
+    const { useDialogBehavior } = await import("@/hooks/useDialogBehavior");
+    const onClose = vi.fn();
+    const focusRef = { current: null };
+
+    renderHook(() => useDialogBehavior(false, onClose, focusRef));
+
+    act(() => {
+      window.dispatchEvent(new KeyboardEvent("keydown", { key: "Escape" }));
+    });
+
+    expect(onClose).not.toHaveBeenCalled();
+  });
+
+  it("focuses ref element after 150ms on open", async () => {
+    vi.useFakeTimers();
+    const { useDialogBehavior } = await import("@/hooks/useDialogBehavior");
+    const onClose = vi.fn();
+    const btn = document.createElement("button");
+    document.body.appendChild(btn);
+    const focusSpy = vi.spyOn(btn, "focus");
+    const focusRef = { current: btn };
+
+    renderHook(() => useDialogBehavior(true, onClose, focusRef));
+
+    expect(focusSpy).not.toHaveBeenCalled();
+    act(() => { vi.advanceTimersByTime(150); });
+    expect(focusSpy).toHaveBeenCalledTimes(1);
+
+    document.body.removeChild(btn);
+    vi.useRealTimers();
+  });
+
+  it("cleans up event listeners on unmount", async () => {
+    const { useDialogBehavior } = await import("@/hooks/useDialogBehavior");
+    const onClose = vi.fn();
+    const focusRef = { current: null };
+
+    const { unmount } = renderHook(() => useDialogBehavior(true, onClose, focusRef));
+    unmount();
+
+    act(() => {
+      window.dispatchEvent(new KeyboardEvent("keydown", { key: "Escape" }));
+    });
+
+    expect(onClose).not.toHaveBeenCalled();
+  });
+});
+
+// ---------------------------------------------------------------------------
+// useMediaQuery
+// ---------------------------------------------------------------------------
+describe("useMediaQuery", () => {
+  let listeners: Map<string, Set<() => void>>;
+  let matchResults: Map<string, boolean>;
+
+  beforeEach(() => {
+    listeners = new Map();
+    matchResults = new Map();
+
+    vi.stubGlobal("matchMedia", (query: string) => ({
+      matches: matchResults.get(query) ?? false,
+      media: query,
+      addEventListener: (_: string, cb: () => void) => {
+        if (!listeners.has(query)) listeners.set(query, new Set());
+        listeners.get(query)!.add(cb);
+      },
+      removeEventListener: (_: string, cb: () => void) => {
+        listeners.get(query)?.delete(cb);
+      },
+    }));
+  });
+
+  afterEach(() => {
+    vi.unstubAllGlobals();
+  });
+
+  it("returns false when matchMedia returns matches: false", async () => {
+    const { useMediaQuery } = await import("@/hooks/useMediaQuery");
+    matchResults.set("(min-width: 768px)", false);
+    const { result } = renderHook(() => useMediaQuery("(min-width: 768px)"));
+    expect(result.current).toBe(false);
+  });
+
+  it("returns true when matchMedia returns matches: true", async () => {
+    const { useMediaQuery } = await import("@/hooks/useMediaQuery");
+    matchResults.set("(min-width: 768px)", true);
+    const { result } = renderHook(() => useMediaQuery("(min-width: 768px)"));
+    expect(result.current).toBe(true);
+  });
+
+  it("subscribes to change events and unsubscribes on unmount", async () => {
+    const { useMediaQuery } = await import("@/hooks/useMediaQuery");
+    matchResults.set("(min-width: 768px)", false);
+
+    const { unmount } = renderHook(() => useMediaQuery("(min-width: 768px)"));
+    expect(listeners.get("(min-width: 768px)")?.size).toBeGreaterThan(0);
+
+    unmount();
+    expect(listeners.get("(min-width: 768px)")?.size).toBe(0);
+  });
+});
+
+// ---------------------------------------------------------------------------
+// useEllipseCarousel
+// ---------------------------------------------------------------------------
+describe("useEllipseCarousel", () => {
+  beforeEach(() => {
+    vi.useFakeTimers();
+    // Mock matchMedia for useReducedMotion
+    vi.stubGlobal("matchMedia", (query: string) => ({
+      matches: false,
+      media: query,
+      addEventListener: vi.fn(),
+      removeEventListener: vi.fn(),
+    }));
+  });
+
+  afterEach(() => {
+    vi.useRealTimers();
+    vi.unstubAllGlobals();
+  });
+
+  it("returns correct activeIndex after goTo(n)", async () => {
+    const { useEllipseCarousel } = await import("@/hooks/useEllipseCarousel");
+    const { result } = renderHook(() =>
+      useEllipseCarousel({ count: 4, autoPlayMs: 0 }),
+    );
+
+    expect(result.current.activeIndex).toBe(0);
+
+    act(() => { result.current.goTo(2); });
+    expect(result.current.activeIndex).toBe(2);
+
+    act(() => { result.current.goTo(0); });
+    expect(result.current.activeIndex).toBe(0);
+  });
+
+  it("next() and prev() cycle correctly", async () => {
+    const { useEllipseCarousel } = await import("@/hooks/useEllipseCarousel");
+    const { result } = renderHook(() =>
+      useEllipseCarousel({ count: 3, autoPlayMs: 0 }),
+    );
+
+    act(() => { result.current.next(); });
+    expect(result.current.activeIndex).toBe(1);
+
+    act(() => { result.current.next(); });
+    expect(result.current.activeIndex).toBe(2);
+
+    // Wraps around
+    act(() => { result.current.next(); });
+    expect(result.current.activeIndex).toBe(0);
+
+    // prev wraps around backwards
+    act(() => { result.current.prev(); });
+    expect(result.current.activeIndex).toBe(2);
+  });
+
+  it("auto-play advances index", async () => {
+    const { useEllipseCarousel } = await import("@/hooks/useEllipseCarousel");
+    const { result } = renderHook(() =>
+      useEllipseCarousel({ count: 4, autoPlayMs: 1000 }),
+    );
+
+    expect(result.current.activeIndex).toBe(0);
+
+    act(() => { vi.advanceTimersByTime(1000); });
+    expect(result.current.activeIndex).toBe(1);
+
+    act(() => { vi.advanceTimersByTime(1000); });
+    expect(result.current.activeIndex).toBe(2);
+  });
+
+  it("auto-play pauses and resumes", async () => {
+    const { useEllipseCarousel } = await import("@/hooks/useEllipseCarousel");
+    const { result } = renderHook(() =>
+      useEllipseCarousel({ count: 4, autoPlayMs: 1000 }),
+    );
+
+    act(() => { result.current.pauseAutoPlay(); });
+    act(() => { vi.advanceTimersByTime(3000); });
+    expect(result.current.activeIndex).toBe(0);
+
+    act(() => { result.current.resumeAutoPlay(); });
+    act(() => { vi.advanceTimersByTime(1000); });
+    expect(result.current.activeIndex).toBe(1);
+  });
+});
+
+// ---------------------------------------------------------------------------
 // useActiveSection
 // ---------------------------------------------------------------------------
 describe("useActiveSection", () => {

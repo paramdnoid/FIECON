@@ -1,8 +1,8 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
 import { motion, useReducedMotion } from "motion/react";
 import { EASE_OUT_EXPO } from "@/lib/constants";
+import { useAnimationComplete } from "@/hooks/useAnimationComplete";
 
 type Props = {
   children: string;
@@ -23,18 +23,10 @@ export function TextReveal({
 }: Props) {
   const prefersReduced = useReducedMotion();
   const words = children.split(" ");
-  const [hasAnimated, setHasAnimated] = useState(false);
-  const timeoutRef = useRef<ReturnType<typeof setTimeout>>(null);
-
-  // Track when the entrance animation has completed so re-renders
-  // (e.g. hash navigation) never flash the hidden initial state.
-  useEffect(() => {
-    if (animateOnMount && !hasAnimated) {
-      const totalDuration = (delay + (words.length - 1) * staggerDelay + 0.7) * 1000;
-      timeoutRef.current = setTimeout(() => setHasAnimated(true), totalDuration);
-      return () => { if (timeoutRef.current) clearTimeout(timeoutRef.current); };
-    }
-  }, [animateOnMount, hasAnimated, delay, staggerDelay, words.length]);
+  const hasAnimated = useAnimationComplete(
+    animateOnMount,
+    (delay + (words.length - 1) * staggerDelay + 0.7) * 1000,
+  );
 
   if (prefersReduced) {
     return <Tag className={className}>{children}</Tag>;

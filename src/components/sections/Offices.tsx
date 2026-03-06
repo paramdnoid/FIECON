@@ -2,229 +2,26 @@
 
 import { useCallback, useEffect, useRef, useState, type KeyboardEvent } from "react";
 import { useTranslations } from "next-intl";
-import { motion, AnimatePresence, useReducedMotion } from "motion/react";
-import Image from "next/image";
+import { motion, useReducedMotion } from "motion/react";
 import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { FadeIn } from "@/components/animations/FadeIn";
 import {
   EllipseCarousel,
   EllipseCard,
-  type DepthConfig,
 } from "@/components/animations/EllipseCarousel";
-import { OFFICES, EASE_OUT_EXPO, OFFICE_CITY_OVERRIDES } from "@/lib/constants";
+import { OFFICES, OFFICE_CITY_OVERRIDES } from "@/lib/constants";
 import { useEllipseCarousel } from "@/hooks/useEllipseCarousel";
 import { useMediaQuery } from "@/hooks/useMediaQuery";
 import { COUNTRY_MAPS } from "@/components/maps";
-import { MapDE } from "@/components/maps/MapDE";
-import { MapUS } from "@/components/maps/MapUS";
-import { MapRS } from "@/components/maps/MapRS";
-import { MapME } from "@/components/maps/MapME";
-
-/* ── Layout constants ──────────────────────────────────────────────── */
-
-const RADII = {
-  xs: { x: 165, y: 22 },
-  sm: { x: 210, y: 28 },
-  md: { x: 320, y: 45 },
-  lg: { x: 420, y: 55 },
-  xl: { x: 480, y: 65 },
-};
-
-const CARD = {
-  xs: { w: 270, h: 195 },
-  sm: { w: 290, h: 200 },
-  md: { w: 290, h: 200 },
-  lg: { w: 340, h: 210 },
-  xl: { w: 380, h: 220 },
-};
-
-const HEIGHT = { xs: 305, sm: 320, md: 340, lg: 380, xl: 420 };
-
-const DRAG_SENSITIVITY = 0.004;
-
-const MOBILE_DEPTH: DepthConfig = {
-  scaleRange: [0.5, 1.0],
-  blurMax: 4,
-  brightnessRange: [0.45, 1.0],
-  opacityRange: [0.25, 1.0],
-  shadowSpreadMax: 24,
-  shadowAlphaMax: 0.3,
-};
-
-/* ── Background map cross-fade animation ───────────────────────────── */
-
-const BG_MAP_TRANSITION = {
-  duration: 1.0,
-  ease: EASE_OUT_EXPO,
-};
-
-/**
- * Generates a data-URL mask from an SVG map component (filled regions only).
- * Cached per country code so each mask is only computed once.
- */
-const _maskCache: Record<string, string> = {};
-
-function useCountryMask(countryCode: string) {
-  const [maskUrl, setMaskUrl] = useState(_maskCache[countryCode] ?? null);
-  const ref = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    if (_maskCache[countryCode]) {
-      setMaskUrl(_maskCache[countryCode]);
-      return;
-    }
-    if (!ref.current) return;
-    const svg = ref.current.querySelector("svg");
-    if (!svg) return;
-
-    const clone = svg.cloneNode(true) as SVGElement;
-    clone.removeAttribute("class");
-    clone.setAttribute("xmlns", "http://www.w3.org/2000/svg");
-    clone.querySelectorAll("path").forEach((p) => {
-      if (p.getAttribute("fill") === "none") p.remove();
-    });
-    clone.querySelectorAll("circle").forEach((c) => c.remove());
-    clone.querySelectorAll("g").forEach((g) => {
-      g.removeAttribute("class");
-      g.setAttribute("fill", "white");
-    });
-
-    const url = `data:image/svg+xml;charset=utf-8,${encodeURIComponent(
-      new XMLSerializer().serializeToString(clone),
-    )}`;
-    _maskCache[countryCode] = url;
-    setMaskUrl(url);
-  }, [countryCode]);
-
-  return { maskUrl, ref };
-}
-
-/** Photo config per country code */
-const PHOTO_MAP_DEFAULTS = {
-  maskSize: "auto 100%",
-  webkitMaskSize: "auto 100%",
-  opacity: "0.55",
-  saturate: "0.4",
-  sepia: "0.12",
-};
-
-const PHOTO_MAP_CONFIG: Record<string, {
-  src: string;
-  MapSvg: React.ComponentType<{ className?: string; dotClassName?: string }>;
-  maskSize: string;
-  webkitMaskSize: string;
-  opacity: string;
-  saturate: string;
-  sepia: string;
-}> = {
-  DE: { ...PHOTO_MAP_DEFAULTS, src: "/offices/hamburg.webp", MapSvg: MapDE, webkitMaskSize: "auto 90%" },
-  US: { ...PHOTO_MAP_DEFAULTS, src: "/offices/austin.webp", MapSvg: MapUS },
-  RS: { ...PHOTO_MAP_DEFAULTS, src: "/offices/belgrad.webp", MapSvg: MapRS },
-  ME: { ...PHOTO_MAP_DEFAULTS, src: "/offices/montenegro.webp", MapSvg: MapME },
-};
-
-/**
- * Office photo revealed through the country map silhouette.
- * Uses the SVG outline as a CSS mask — the photo is only visible
- * within the country shape.
- */
-function CountryPhotoMap({ countryCode }: { countryCode: string }) {
-  const config = PHOTO_MAP_CONFIG[countryCode];
-  const { maskUrl, ref } = useCountryMask(countryCode);
-  if (!config) return null;
-  const { src, MapSvg } = config;
-
-  return (
-    <>
-      <div ref={ref} className="absolute w-0 h-0 overflow-hidden" aria-hidden>
-        <MapSvg className="w-full h-full text-black" dotClassName="fill-black" />
-      </div>
-
-      <div
-        className="absolute inset-0"
-        style={
-          maskUrl
-            ? {
-                maskImage: `url("${maskUrl}")`,
-                WebkitMaskImage: `url("${maskUrl}")`,
-                maskSize: config.maskSize,
-                WebkitMaskSize: config.webkitMaskSize,
-                maskPosition: "center",
-                WebkitMaskPosition: "center",
-                maskRepeat: "no-repeat",
-                WebkitMaskRepeat: "no-repeat",
-              }
-            : { display: "none" }
-        }
-      >
-        <Image
-          src={src}
-          alt=""
-          fill
-          className="object-cover"
-          style={{
-            opacity: config.opacity,
-            filter: `saturate(${config.saturate}) sepia(${config.sepia})`,
-          }}
-          sizes="(max-width: 768px) 100vw, 50vw"
-          priority={false}
-        />
-      </div>
-    </>
-  );
-}
-
-/**
- * Large ambient background map for the active office location.
- * Uses radial-gradient mask for soft vignette edges and cross-fades
- * between country maps via AnimatePresence.
- *
- * For countries with photos (DE, US): The office photo is shown inside the
- * country silhouette using a CSS mask generated from the SVG map.
- */
-function BackgroundMap({ activeIndex }: { activeIndex: number }) {
-  const office = OFFICES[activeIndex];
-  const MapComponent = COUNTRY_MAPS[office.countryCode];
-  const hasPhoto = office.countryCode in PHOTO_MAP_CONFIG;
-
-  if (!MapComponent) return null;
-
-  return (
-    <div
-      aria-hidden="true"
-      className="absolute inset-0 pointer-events-none select-none overflow-hidden"
-    >
-      <AnimatePresence mode="wait">
-        <motion.div
-          key={office.countryCode}
-          initial={{ opacity: 0, scale: 0.92 }}
-          animate={{ opacity: 1, scale: 1 }}
-          exit={{ opacity: 0, scale: 1.06 }}
-          transition={BG_MAP_TRANSITION}
-          className="absolute inset-0 flex items-center justify-center"
-          style={{
-            maskImage: hasPhoto
-              ? "radial-gradient(ellipse 80% 85% at 50% 50%, black 0%, transparent 75%)"
-              : "radial-gradient(ellipse 65% 75% at 50% 50%, black 0%, transparent 70%)",
-            WebkitMaskImage: hasPhoto
-              ? "radial-gradient(ellipse 80% 85% at 50% 50%, black 0%, transparent 75%)"
-              : "radial-gradient(ellipse 65% 75% at 50% 50%, black 0%, transparent 70%)",
-          }}
-        >
-          {hasPhoto ? (
-            <CountryPhotoMap countryCode={office.countryCode} />
-          ) : (
-            <MapComponent
-              className="w-[65%] sm:w-[60%] md:w-[55%] lg:w-[50%] h-auto max-h-[90%] text-bordeaux-900/12"
-              dotClassName="fill-bordeaux-500/15"
-            />
-          )}
-        </motion.div>
-      </AnimatePresence>
-    </div>
-  );
-}
+import { BackgroundMap } from "./offices/BackgroundMap";
+import {
+  RADII,
+  CARD,
+  HEIGHT,
+  DRAG_SENSITIVITY,
+  MOBILE_DEPTH,
+} from "./offices/offices-config";
 
 /* ── Office card ───────────────────────────────────────────────────── */
 
