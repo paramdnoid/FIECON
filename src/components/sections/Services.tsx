@@ -36,10 +36,29 @@ const SERVICE_ICONS: Record<string, React.ReactNode> = {
       <path d="M12 4l8 12H4z" />
     </svg>
   ),
+  private_health_insurance: (
+    <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M12 21s-7-4.35-7-10V5l7-3 7 3v6c0 5.65-7 10-7 10z" />
+      <path d="M12 8v6" />
+      <path d="M9 11h6" />
+    </svg>
+  ),
 };
 
-const SERVICE_KEYS = ["consulting", "finance", "construction", "yacht"] as const;
-const ITEMS_PER_SERVICE: Record<string, number> = { consulting: 2, finance: 2, construction: 3, yacht: 2 };
+const SERVICE_KEYS = [
+  "consulting",
+  "finance",
+  "construction",
+  "yacht",
+  "private_health_insurance",
+] as const;
+const ITEMS_PER_SERVICE: Record<string, number> = {
+  consulting: 2,
+  finance: 2,
+  construction: 3,
+  yacht: 2,
+  private_health_insurance: 3,
+};
 
 const FOCUS_AREAS = [
   { key: "corporate_law", itemCount: 3 },
@@ -67,6 +86,13 @@ const FOCUS_ICONS: Record<string, React.ReactNode> = {
 
 export function Services() {
   const t = useTranslations("services");
+  const hasTranslation = (key: string) =>
+    typeof (t as unknown as { has?: (k: string) => boolean }).has === "function"
+      ? (t as unknown as { has: (k: string) => boolean }).has(key)
+      : true;
+  const visibleServiceKeys = SERVICE_KEYS.filter((key) =>
+    hasTranslation(`${key}.title`),
+  );
 
   return (
     <section id="services" className="py-32 sm:py-40 bg-beige-50">
@@ -80,7 +106,7 @@ export function Services() {
         </FadeIn>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 lg:gap-6">
-          {SERVICE_KEYS.map((key, i) => (
+          {visibleServiceKeys.map((key, i) => (
             <FadeIn key={key} delay={0.1 + i * 0.08} className="h-full">
               <div className="group relative bg-white rounded-2xl border border-beige-200/60 h-full overflow-hidden transition-all duration-500 hover:shadow-lg hover:shadow-bordeaux-900/8 hover:border-beige-400/50">
                 {/* Bordeaux accent bar */}

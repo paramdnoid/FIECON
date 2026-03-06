@@ -76,6 +76,16 @@
         "1": "Osebno svetovanje"
       }
     },
+    "private_health_insurance": {
+      "title": "Private health insurance for self-employed entrepreneurs",
+      "description": "We support self-employed entrepreneurs in selecting, structuring and optimizing private health insurance — tailored to income profile, coverage requirements and long-term planning.",
+      "items": {
+        "0": "Plan comparison & selection",
+        "1": "Coverage and premium optimization",
+        "2": "Long-term protection strategy"
+      }
+    },
+
     "focus_headline": "Ključna področja delovanja",
     "corporate_law": {
       "title": "Strokovno znanje s področja korporacijskega prava",

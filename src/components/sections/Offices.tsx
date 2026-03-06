@@ -12,7 +12,7 @@ import {
   EllipseCard,
   type DepthConfig,
 } from "@/components/animations/EllipseCarousel";
-import { OFFICES, EASE_OUT_EXPO } from "@/lib/constants";
+import { OFFICES, EASE_OUT_EXPO, OFFICE_CITY_OVERRIDES } from "@/lib/constants";
 import { useEllipseCarousel } from "@/hooks/useEllipseCarousel";
 import { useMediaQuery } from "@/hooks/useMediaQuery";
 import { COUNTRY_MAPS } from "@/components/maps";
@@ -260,6 +260,7 @@ function OfficeCardContent({
   t: ReturnType<typeof useTranslations<"offices">>;
 }) {
   const MapComponent = COUNTRY_MAPS[office.countryCode];
+  const city = OFFICE_CITY_OVERRIDES[office.id] ?? t(`${office.id}.city`);
 
   return (
     <div className="h-full group relative overflow-hidden rounded-2xl bg-bordeaux-900 text-white">
@@ -278,7 +279,7 @@ function OfficeCardContent({
         </p>
 
         <h3 className="font-display text-2xl sm:text-3xl lg:text-4xl font-normal mb-1.5 sm:mb-2 text-white">
-          {t(`${office.id}.city`)}
+          {city}
         </h3>
 
         <p className="text-xs sm:text-sm text-beige-200">
@@ -446,7 +447,9 @@ function Carousel3D({
 
         {/* Active slide announcement for screen readers */}
         <div className="sr-only" aria-live="polite" aria-atomic="true">
-          {t(`${OFFICES[activeIndex].id}.city`)} — {t(`${OFFICES[activeIndex].id}.country`)}
+          {OFFICE_CITY_OVERRIDES[OFFICES[activeIndex].id] ??
+            t(`${OFFICES[activeIndex].id}.city`)}{" "}
+          — {t(`${OFFICES[activeIndex].id}.country`)}
         </div>
 
         {/* Dots */}
@@ -461,7 +464,7 @@ function Carousel3D({
               type="button"
               role="tab"
               aria-selected={activeIndex === i}
-              aria-label={`${t(`${office.id}.city`)} (${i + 1} / ${OFFICES.length})`}
+              aria-label={`${OFFICE_CITY_OVERRIDES[office.id] ?? t(`${office.id}.city`)} (${i + 1} / ${OFFICES.length})`}
               className={`h-2 rounded-full transition-all duration-300 ${
                 activeIndex === i
                   ? "bg-bordeaux-900 w-6 sm:w-7"

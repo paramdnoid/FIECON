@@ -49,11 +49,18 @@ export const OFFICES = [
   },
 ] as const;
 
+export const OFFICE_CITY_OVERRIDES: Partial<
+  Record<(typeof OFFICES)[number]["id"], string>
+> = {
+  montenegro: "Podgorica",
+} as const;
+
 export const SERVICES = [
   { id: "consulting" },
   { id: "finance" },
   { id: "construction" },
   { id: "yacht" },
+  { id: "private_health_insurance" },
 ] as const;
 
 export const TEAM_MEMBERS = [

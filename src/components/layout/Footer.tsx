@@ -4,13 +4,27 @@ import { Link } from "@/i18n/navigation";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Container } from "@/components/ui/Container";
-import { COMPANY, CONTACT, OFFICES, SERVICES, TEAM_MEMBERS } from "@/lib/constants";
+import {
+  COMPANY,
+  CONTACT,
+  OFFICES,
+  OFFICE_CITY_OVERRIDES,
+  SERVICES,
+  TEAM_MEMBERS,
+} from "@/lib/constants";
 
 export function Footer() {
   const t = useTranslations("footer");
   const tServices = useTranslations("services");
   const tOffices = useTranslations("offices");
   const tTeam = useTranslations("team");
+  const hasServiceTranslation = (key: string) =>
+    typeof (tServices as unknown as { has?: (k: string) => boolean }).has === "function"
+      ? (tServices as unknown as { has: (k: string) => boolean }).has(key)
+      : true;
+  const visibleServices = SERVICES.filter((service) =>
+    hasServiceTranslation(`${service.id}.title`),
+  );
 
   const currentYear = new Date().getFullYear();
 
@@ -43,7 +57,7 @@ export function Footer() {
               {t("services_title")}
             </h3>
             <ul className="space-y-3">
-              {SERVICES.map((service) => (
+              {visibleServices.map((service) => (
                 <li key={service.id}>
                   <a
                     href="#services"
@@ -64,7 +78,8 @@ export function Footer() {
             <ul className="space-y-3">
               {OFFICES.map((office) => (
                 <li key={office.id} className="text-sm text-beige-400">
-                  {tOffices(`${office.id}.city`)}, {tOffices(`${office.id}.country`)}
+                  {OFFICE_CITY_OVERRIDES[office.id] ?? tOffices(`${office.id}.city`)},{" "}
+                  {tOffices(`${office.id}.country`)}
                 </li>
               ))}
             </ul>

@@ -76,6 +76,16 @@
         "1": "Persöönliche Beradung"
       }
     },
+    "private_health_insurance": {
+      "title": "Private health insurance for self-employed entrepreneurs",
+      "description": "We support self-employed entrepreneurs in selecting, structuring and optimizing private health insurance — tailored to income profile, coverage requirements and long-term planning.",
+      "items": {
+        "0": "Plan comparison & selection",
+        "1": "Coverage and premium optimization",
+        "2": "Long-term protection strategy"
+      }
+    },
+
     "focus_headline": "Zentrale Handlungsfelder",
     "corporate_law": {
       "title": "Sellschupsrechtliche Expertise",

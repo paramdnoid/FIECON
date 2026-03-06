@@ -76,6 +76,15 @@
         "1": "Persönliche Beratung"
       }
     },
+    "private_health_insurance": {
+      "title": "Private Krankenversicherung für selbstständige Unternehmer",
+      "description": "Wir begleiten Selbstständige bei der Auswahl, Strukturierung und Optimierung einer privaten Krankenversicherung — individuell auf Einkommenssituation, Leistungsbedarf und langfristige Planung abgestimmt.",
+      "items": {
+        "0": "Tarifvergleich & Auswahl",
+        "1": "Leistungs- und Beitragsoptimierung",
+        "2": "Langfristige Absicherungsstrategie"
+      }
+    },
     "focus_headline": "Zentrale Handlungsfelder",
     "corporate_law": {
       "title": "Gesellschaftsrechtliche Expertise",

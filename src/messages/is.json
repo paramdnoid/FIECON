@@ -76,6 +76,16 @@
         "1": "Persónuleg ráðgjöf"
       }
     },
+    "private_health_insurance": {
+      "title": "Private health insurance for self-employed entrepreneurs",
+      "description": "We support self-employed entrepreneurs in selecting, structuring and optimizing private health insurance — tailored to income profile, coverage requirements and long-term planning.",
+      "items": {
+        "0": "Plan comparison & selection",
+        "1": "Coverage and premium optimization",
+        "2": "Long-term protection strategy"
+      }
+    },
+
     "focus_headline": "Helstu starfssvið",
     "corporate_law": {
       "title": "Sérfræðiþekking í félagarétti",
