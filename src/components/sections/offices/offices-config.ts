@@ -12,14 +12,14 @@ export const RADII = {
 };
 
 export const CARD = {
-  xs: { w: 240, h: 185 },
-  sm: { w: 290, h: 200 },
-  md: { w: 290, h: 200 },
-  lg: { w: 340, h: 210 },
-  xl: { w: 380, h: 220 },
+  xs: { w: 240, h: 175 },
+  sm: { w: 270, h: 180 },
+  md: { w: 270, h: 180 },
+  lg: { w: 310, h: 190 },
+  xl: { w: 340, h: 195 },
 };
 
-export const HEIGHT = { xs: 305, sm: 320, md: 340, lg: 380, xl: 420 };
+export const HEIGHT = { xs: 280, sm: 290, md: 300, lg: 330, xl: 350 };
 
 export const DRAG_SENSITIVITY = 0.004;
 

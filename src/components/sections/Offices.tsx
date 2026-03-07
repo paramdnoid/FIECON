@@ -272,7 +272,7 @@ function Carousel3D({
 
         {/* Dots */}
         <div
-          className="flex justify-center gap-2 sm:gap-2.5 mt-6 sm:mt-10"
+          className="flex justify-center gap-2 sm:gap-2.5 mt-4 sm:mt-6"
           role="tablist"
           aria-label={t("badge")}
         >
@@ -326,7 +326,7 @@ export function Offices() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <section id="offices" className="py-20 sm:py-32 relative overflow-hidden">
+    <section id="offices" className="py-12 sm:py-16 lg:py-20 relative overflow-hidden">
       {/* Ambient background map — only when animations are enabled */}
       {!prefersReduced && <BackgroundMap activeIndex={activeIndex} />}
 
