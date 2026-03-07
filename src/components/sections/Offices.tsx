@@ -103,6 +103,48 @@ function Carousel3D({
   }, [activeIndex, onActiveIndexChange]);
 
   const dragStartRotation = useRef(0);
+  const touchStartX = useRef(0);
+  const touchStartTime = useRef(0);
+
+  const handleTouchStart = useCallback(
+    (e: React.TouchEvent) => {
+      pauseAutoPlay();
+      touchStartX.current = e.touches[0].clientX;
+      touchStartTime.current = Date.now();
+      dragStartRotation.current = rotation.get();
+    },
+    [pauseAutoPlay, rotation],
+  );
+
+  const handleTouchMove = useCallback(
+    (e: React.TouchEvent) => {
+      const dx = e.touches[0].clientX - touchStartX.current;
+      rotation.set(dragStartRotation.current + dx * DRAG_SENSITIVITY);
+    },
+    [rotation],
+  );
+
+  const handleTouchEnd = useCallback(
+    (e: React.TouchEvent) => {
+      const dx = e.changedTouches[0].clientX - touchStartX.current;
+      const dt = Date.now() - touchStartTime.current;
+      const velocity = Math.abs(dx / dt);
+      const angleStep = (Math.PI * 2) / OFFICES.length;
+
+      // Quick flick → just go next/prev
+      if (velocity > 0.3 && Math.abs(dx) > 20) {
+        if (dx > 0) prev();
+        else next();
+      } else {
+        // Slow drag → snap to nearest
+        const newRotation = dragStartRotation.current + dx * DRAG_SENSITIVITY;
+        const nearestIndex = Math.round(-newRotation / angleStep) % OFFICES.length;
+        goTo(((nearestIndex % OFFICES.length) + OFFICES.length) % OFFICES.length);
+      }
+      resumeAutoPlay();
+    },
+    [prev, next, goTo, resumeAutoPlay],
+  );
 
   const handleKeyDown = useCallback(
     (e: KeyboardEvent<HTMLDivElement>) => {
@@ -145,6 +187,9 @@ function Carousel3D({
 
         {/* Single carousel: responsive layout (mobile breakout + mask, desktop normal) */}
         <div
+          onTouchStart={handleTouchStart}
+          onTouchMove={handleTouchMove}
+          onTouchEnd={handleTouchEnd}
           className="-mx-2 sm:-mx-4 overflow-hidden md:mx-0 md:overflow-visible"
           style={
             !isMd
