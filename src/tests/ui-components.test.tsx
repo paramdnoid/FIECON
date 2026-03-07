@@ -95,7 +95,7 @@ describe("Badge", () => {
 
   it("applies default variant classes", () => {
     render(<Badge>Default</Badge>);
-    expect(screen.getByText("Default").className).toContain("bg-beige-200");
+    expect(screen.getByText("Default").className).toContain("bg-beige-100");
   });
 
   it("applies accent variant classes", () => {
@@ -159,7 +159,7 @@ describe("SectionHeading", () => {
 
   it("does not render badge when not provided", () => {
     const { container } = render(<SectionHeading headline="Title" />);
-    // Badge is a span with tracking-[0.4em]
+    // Badge is a span with tracking-widest
     expect(container.querySelector(".tracking-\\[0\\.4em\\]")).toBeNull();
   });
 

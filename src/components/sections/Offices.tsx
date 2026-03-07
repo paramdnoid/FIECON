@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useRef, useState, type KeyboardEvent } from "react";
 import { useTranslations } from "next-intl";
-import { motion, useReducedMotion } from "motion/react";
+import { useReducedMotion } from "motion/react";
 import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { FadeIn } from "@/components/animations/FadeIn";
@@ -203,32 +203,7 @@ function Carousel3D({
           }
         >
           <div className="px-2 md:px-0">
-            <motion.div
-              drag="x"
-              dragConstraints={{ left: 0, right: 0 }}
-              dragElastic={0}
-              dragMomentum={false}
-              onDragStart={() => {
-                pauseAutoPlay();
-                dragStartRotation.current = rotation.get();
-              }}
-              onDrag={(_, info) => {
-                rotation.set(
-                  dragStartRotation.current + info.offset.x * DRAG_SENSITIVITY,
-                );
-              }}
-              onDragEnd={(_, info) => {
-                const delta = info.offset.x * DRAG_SENSITIVITY;
-                const angleStep = (Math.PI * 2) / OFFICES.length;
-                const newRotation = dragStartRotation.current + delta;
-                const nearestIndex =
-                  Math.round(-newRotation / angleStep) % OFFICES.length;
-                goTo(((nearestIndex % OFFICES.length) + OFFICES.length) % OFFICES.length);
-                resumeAutoPlay();
-              }}
-              style={{ cursor: "grab", touchAction: "pan-y" }}
-              whileDrag={{ cursor: "grabbing" }}
-            >
+            <div style={{ touchAction: "pan-y" }}>
               <EllipseCarousel containerHeight={cHeight}>
                 {OFFICES.map((office, i) => (
                   <EllipseCard
@@ -247,7 +222,7 @@ function Carousel3D({
                   </EllipseCard>
                 ))}
               </EllipseCarousel>
-            </motion.div>
+            </div>
           </div>
         </div>
 

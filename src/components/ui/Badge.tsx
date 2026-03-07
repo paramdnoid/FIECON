@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import { cn } from "@/lib/utils";
 
 type Props = {
   children: ReactNode;
@@ -6,20 +7,23 @@ type Props = {
   className?: string;
 };
 
+const VARIANTS = {
+  default: "bg-beige-100 text-bordeaux-900",
+  accent: "bg-bordeaux-900 text-white",
+} as const;
+
 export function Badge({
   children,
   variant = "default",
-  className = "",
+  className,
 }: Props) {
-  const variants = {
-    default: "bg-beige-100 text-bordeaux-900",
-    accent: "bg-bordeaux-900 text-white",
-  };
-
   return (
     <span
-      style={{ fontSize: "0.55rem" }}
-      className={`inline-block whitespace-nowrap px-2.5 py-1 leading-none font-semibold tracking-widest uppercase rounded-full ${variants[variant]} ${className}`}
+      className={cn(
+        "inline-block whitespace-nowrap px-2.5 py-1 text-[0.55rem] leading-none font-semibold tracking-widest uppercase rounded-full",
+        VARIANTS[variant],
+        className,
+      )}
     >
       {children}
     </span>
