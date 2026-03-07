@@ -107,7 +107,7 @@ function ServiceCardContent({
       )}
 
       {/* Icon + Title block + optional tabs */}
-      <div className="flex items-start gap-4 mb-3">
+      <div style={{ minHeight: "4.2rem" }} className="flex items-start gap-4 mb-3">
         {SERVICE_ICONS[serviceKey] && (
           <div className="w-10 h-10 rounded-full bg-bordeaux-900/5 group-hover:bg-bordeaux-900/10 flex items-center justify-center text-accent transition-colors duration-400 shrink-0 mt-0.5">
             {SERVICE_ICONS[serviceKey]}
@@ -134,7 +134,7 @@ function ServiceCardContent({
       </p>
 
       {/* Items — using design system Badge */}
-      <div className="flex flex-wrap gap-2 mt-auto pt-5">
+      <div className="flex flex-wrap gap-2 mt-auto pt-8">
         {Array.from({ length: ITEMS_PER_SERVICE[serviceKey] }, (_, i) => (
           <Badge key={i}>{t(`${serviceKey}.items.${i}`)}</Badge>
         ))}

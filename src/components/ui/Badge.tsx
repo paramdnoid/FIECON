@@ -12,13 +12,14 @@ export function Badge({
   className = "",
 }: Props) {
   const variants = {
-    default: "bg-beige-200 text-bordeaux-900",
+    default: "bg-beige-100 text-bordeaux-900",
     accent: "bg-bordeaux-900 text-white",
   };
 
   return (
     <span
-      className={`inline-block px-3 py-1 text-xs font-semibold tracking-wider uppercase rounded-full ${variants[variant]} ${className}`}
+      style={{ fontSize: "0.55rem" }}
+      className={`inline-block whitespace-nowrap px-2.5 py-1 leading-none font-semibold tracking-widest uppercase rounded-full ${variants[variant]} ${className}`}
     >
       {children}
     </span>
