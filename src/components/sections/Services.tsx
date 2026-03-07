@@ -98,35 +98,35 @@ function ServiceCardContent({
 }) {
   return (
     <>
-      {/* Title row with icon */}
-      <div className="flex items-start justify-between gap-3 mb-2">
-        <h3 className="font-display text-xl font-normal text-text-primary tracking-tight">
+      {/* Sub-service tabs (finance card) */}
+      {tabs ? <div className="mb-7">{tabs}</div> : null}
+
+      {/* Title row with icon — min-h ensures consistent alignment across cards */}
+      <div className="flex items-start justify-between gap-3 mb-2 min-h-[4.5rem]">
+        <h3 className="font-display text-base font-normal text-text-primary tracking-tight leading-snug">
           {t(`${serviceKey}.title`)}
         </h3>
-        <div className="w-9 h-9 shrink-0 rounded-full bg-bordeaux-900 text-beige-100 flex items-center justify-center group-hover:bg-bordeaux-700 transition-colors duration-500">
+        <div className="w-8 h-8 shrink-0 rounded-full bg-bordeaux-900 text-beige-100 flex items-center justify-center group-hover:bg-bordeaux-700 transition-colors duration-500">
           {SERVICE_ICONS[serviceKey]}
         </div>
       </div>
-
-      {/* Sub-service tabs (finance card) */}
-      {tabs}
 
       {/* Divider */}
       <div className="w-8 h-px bg-beige-400 mb-3" />
 
       {/* Description */}
-      <p className="text-sm text-text-muted leading-relaxed">
+      <p className="text-[13px] text-text-muted leading-relaxed">
         {t(`${serviceKey}.description`)}
       </p>
 
       {/* Badges — pushed to bottom */}
-      <div className="flex flex-wrap gap-2 mt-auto pt-4">
+      <div className="flex flex-wrap gap-1.5 mt-auto pt-4">
         {Array.from(
           { length: ITEMS_PER_SERVICE[serviceKey] },
           (_, i) => (
             <span
               key={i}
-              className="px-3 py-1 text-[11px] font-medium tracking-wide uppercase bg-beige-50 text-bordeaux-900 rounded-full"
+              className="px-2.5 py-0.5 text-[10px] font-medium tracking-wide uppercase bg-beige-50 text-bordeaux-900 rounded-full"
             >
               {t(`${serviceKey}.items.${i}`)}
             </span>
@@ -151,31 +151,32 @@ function FinanceCard({
   if (visibleKeys.length === 0) return null;
 
   return (
-    <HoverCard>
-      <ServiceCardContent
-        serviceKey={activeKey}
-        t={t}
-        tabs={
-          visibleKeys.length > 1 ? (
-            <div className="flex flex-wrap gap-1.5 mb-3">
-              {visibleKeys.map((key, i) => (
-                <button
-                  key={key}
-                  type="button"
-                  onClick={() => setActiveIdx(i)}
-                  className={`px-3 py-1.5 text-[11px] font-medium tracking-wide uppercase rounded-full transition-colors duration-200 ${
-                    i === activeIdx
-                      ? "bg-bordeaux-900 text-beige-100"
-                      : "bg-beige-100 text-text-muted hover:bg-beige-200 hover:text-text-primary"
-                  }`}
-                >
-                  {t(`${key}.title`)}
-                </button>
-              ))}
-            </div>
-          ) : undefined
-        }
-      />
+    <HoverCard
+      className="relative z-40 overflow-visible! isolate"
+      accentBarClassName="start-1/2 w-[22rem] -translate-x-1/2 sm:w-[26rem]"
+    >
+      {visibleKeys.length > 1 ? (
+        <div className="absolute top-0 left-1/2 z-50 -translate-x-1/2 -translate-y-1/2">
+          <div className="inline-flex items-center gap-0.5 rounded-xl border border-beige-200 bg-white/95 p-0.5 shadow-[0_8px_18px_-12px_rgba(98,25,28,0.35)] backdrop-blur-sm">
+            {visibleKeys.map((key, i) => (
+              <button
+                key={key}
+                type="button"
+                onClick={() => setActiveIdx(i)}
+                className={`px-2.5 py-1 text-[10px] font-medium tracking-wide uppercase rounded-lg transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-bordeaux-900/40 ${
+                  i === activeIdx
+                    ? "bg-bordeaux-900 text-beige-100 shadow-[0_4px_12px_-6px_rgba(98,25,28,0.6)]"
+                    : "bg-beige-100 text-text-muted hover:bg-beige-200 hover:text-text-primary"
+                }`}
+              >
+                {hasTranslation(t, `${key}.tab`) ? t(`${key}.tab`) : t(`${key}.title`)}
+              </button>
+            ))}
+          </div>
+        </div>
+      ) : null}
+
+      <ServiceCardContent serviceKey={activeKey} t={t} />
     </HoverCard>
   );
 }
@@ -207,7 +208,7 @@ export function Services() {
   // Combined finance card
   if (hasFinance) {
     allCards.push(
-      <FadeIn key="finance-group" delay={0.1 + delayIdx * 0.08} className="h-full">
+      <FadeIn key="finance-group" delay={0.1 + delayIdx * 0.08} className="relative z-40 h-full overflow-visible">
         <FinanceCard t={t} />
       </FadeIn>,
     );
@@ -228,18 +229,19 @@ export function Services() {
   }
 
   return (
-    <section id="services" className="py-32 sm:py-40 bg-beige-50">
-      <Container size="lg">
+    <section id="services" className="relative z-20 overflow-visible py-32 sm:py-40 bg-beige-50">
+      <Container size="lg" className="relative z-30 overflow-visible">
         <FadeIn>
           <SectionHeading
             badge={t("badge")}
             headline={t("headline")}
             subtitle={t("subtitle")}
             gradient
+            headlineClassName="gradient-text-hero font-normal leading-[0.95] tracking-[-0.03em] sm:text-6xl lg:text-7xl"
           />
         </FadeIn>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-5 lg:gap-6">
+        <div className="relative z-30 grid grid-cols-1 gap-5 overflow-visible md:grid-cols-3 lg:gap-6">
           {allCards}
         </div>
 

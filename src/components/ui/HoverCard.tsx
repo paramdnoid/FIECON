@@ -4,9 +4,10 @@ import { cn } from "@/lib/utils";
 type Props = {
   children: ReactNode;
   className?: string;
+  accentBarClassName?: string;
 };
 
-export function HoverCard({ children, className }: Props) {
+export function HoverCard({ children, className, accentBarClassName }: Props) {
   return (
     <div
       className={cn(
@@ -14,11 +15,15 @@ export function HoverCard({ children, className }: Props) {
         className,
       )}
     >
-      {/* Bordeaux accent bar */}
-      <div
-        aria-hidden="true"
-        className="absolute top-0 start-0 w-full h-0.5 bg-linear-to-r from-bordeaux-900 via-bordeaux-700 to-transparent scale-x-0 origin-start group-hover:scale-x-100 group-focus-within:scale-x-100 transition-transform duration-500"
-      />
+      {/* Bordeaux accent bar — clipped to card bounds even when card has overflow-visible */}
+      <div aria-hidden="true" className="absolute inset-0 overflow-hidden rounded-2xl pointer-events-none">
+        <div
+          className={cn(
+            "absolute top-0 start-0 w-full h-0.5 bg-linear-to-r from-bordeaux-900 via-bordeaux-700 to-transparent scale-x-0 origin-start group-hover:scale-x-100 group-focus-within:scale-x-100 transition-transform duration-500",
+            accentBarClassName,
+          )}
+        />
+      </div>
 
       <div className="p-7 lg:p-8 flex flex-col h-full">{children}</div>
     </div>

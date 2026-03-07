@@ -292,6 +292,7 @@ export function Offices() {
             headline={t("headline")}
             subtitle={t("subtitle")}
             gradient
+            headlineClassName="gradient-text-hero font-normal leading-[0.95] tracking-[-0.03em] sm:text-6xl lg:text-7xl"
           />
         </FadeIn>
 

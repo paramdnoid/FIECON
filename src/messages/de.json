@@ -53,6 +53,7 @@
     },
     "finance": {
       "title": "Finanzverwaltung",
+      "tab": "Allgemein",
       "description": "Ordnung schafft Vertrauen: Wir übernehmen die professionelle Verwaltung Ihrer Unternehmensfinanzen und schaffen die transparenten Strukturen, die nachhaltiges Wachstum ermöglichen.",
       "items": {
         "0": "Buchhaltung & Steuerberatung",
@@ -61,6 +62,7 @@
     },
     "construction": {
       "title": "Bau Finanzverwaltung",
+      "tab": "Bau",
       "description": "Bauprojekte brauchen finanzielle Verlässlichkeit. Wir strukturieren und begleiten die Finanzierung Ihrer Bauvorhaben — von der ersten Kalkulation bis zur Fertigstellung.",
       "items": {
         "0": "Projektfinanzierung",
@@ -70,6 +72,7 @@
     },
     "yacht": {
       "title": "Yachtbau Finanzverwaltung",
+      "tab": "Yachtbau",
       "description": "Ein besonderes Segment verdient besondere Sorgfalt. Wir beraten bei der Finanzierung von Yachtbauprojekten — diskret, persönlich und mit Verständnis für die Ansprüche dieser Branche.",
       "items": {
         "0": "Yachtbau Finanzierung",

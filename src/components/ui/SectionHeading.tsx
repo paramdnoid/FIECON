@@ -8,6 +8,7 @@ type Props = {
   align?: "center" | "left";
   gradient?: boolean;
   italic?: boolean;
+  headlineClassName?: string;
 };
 
 export function SectionHeading({
@@ -18,6 +19,7 @@ export function SectionHeading({
   align = "center",
   gradient = false,
   italic = false,
+  headlineClassName,
 }: Props) {
   const alignment = align === "center" ? "text-center" : "text-left";
 
@@ -31,7 +33,7 @@ export function SectionHeading({
       <h2
         className={`font-display text-4xl sm:text-5xl lg:text-6xl font-light tracking-tight mb-6 text-balance ${
           gradient ? "gradient-text" : "text-text-primary"
-        } ${italic ? "italic" : ""}`}
+        } ${italic ? "italic" : ""} ${headlineClassName ?? ""}`}
       >
         {headline}
       </h2>
