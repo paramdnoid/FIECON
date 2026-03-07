@@ -89,10 +89,12 @@ function ServiceCardContent({
   serviceKey,
   t,
   ordinal,
+  children,
 }: {
   serviceKey: string;
   t: ReturnType<typeof useTranslations<"services">>;
   ordinal?: string;
+  children?: React.ReactNode;
 }) {
   return (
     <>
@@ -103,16 +105,23 @@ function ServiceCardContent({
         </span>
       )}
 
-      {/* Icon + Title row */}
-      <div className="flex items-center gap-4 mb-3">
+      {/* Icon + Title block + optional tabs */}
+      <div className="flex items-start gap-4 mb-3">
         {SERVICE_ICONS[serviceKey] && (
-          <div className="w-10 h-10 rounded-full bg-bordeaux-900/5 group-hover:bg-bordeaux-900/10 flex items-center justify-center text-accent transition-colors duration-400 shrink-0">
+          <div className="w-10 h-10 rounded-full bg-bordeaux-900/5 group-hover:bg-bordeaux-900/10 flex items-center justify-center text-accent transition-colors duration-400 shrink-0 mt-0.5">
             {SERVICE_ICONS[serviceKey]}
           </div>
         )}
-        <h3 className="font-display text-xl font-normal text-text-primary tracking-tight leading-snug">
-          {t(`${serviceKey}.title`)}
-        </h3>
+        <div className="flex-1 min-w-0">
+          {children && (
+            <div className="flex items-center justify-end gap-3 mb-1.5">
+              {children}
+            </div>
+          )}
+          <h3 className="font-display text-lg sm:text-xl font-normal text-text-primary tracking-tight leading-snug">
+            {t(`${serviceKey}.title`)}
+          </h3>
+        </div>
       </div>
 
       {/* Divider */}
@@ -150,32 +159,27 @@ function FinanceCard({
   if (visibleKeys.length === 0) return null;
 
   return (
-    <HoverCard
-      className="relative z-40 overflow-visible! isolate"
-      accentBarClassName="hidden"
-    >
-      {visibleKeys.length > 1 ? (
-        <div className="absolute top-0 left-1/2 z-50 -translate-x-1/2 -translate-y-1/2">
-          <div className="inline-flex items-center gap-0.5 rounded-xl border border-beige-200 bg-white/95 p-0.5 shadow-[0_8px_18px_-12px_rgba(98,25,28,0.35)] backdrop-blur-sm">
+    <HoverCard>
+      <ServiceCardContent serviceKey={activeKey} t={t} ordinal={ordinal}>
+        {visibleKeys.length > 1 && (
+          <>
             {visibleKeys.map((key, i) => (
               <button
                 key={key}
                 type="button"
                 onClick={() => setActiveIdx(i)}
-                className={`px-2.5 py-1 text-[10px] font-medium tracking-wide uppercase rounded-lg transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-bordeaux-900/40 ${
+                className={`text-[10px] tracking-[0.15em] uppercase transition-colors duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-bordeaux-900/40 focus-visible:ring-offset-2 rounded-sm ${
                   i === activeIdx
-                    ? "bg-bordeaux-900 text-beige-100 shadow-[0_4px_12px_-6px_rgba(98,25,28,0.6)]"
-                    : "bg-beige-100 text-text-muted hover:bg-beige-200 hover:text-text-primary"
+                    ? "font-semibold text-bordeaux-900"
+                    : "font-medium text-bordeaux-900/30 hover:text-bordeaux-900/60"
                 }`}
               >
                 {hasTranslation(t, `${key}.tab`) ? t(`${key}.tab`) : t(`${key}.title`)}
               </button>
             ))}
-          </div>
-        </div>
-      ) : null}
-
-      <ServiceCardContent serviceKey={activeKey} t={t} ordinal={ordinal} />
+          </>
+        )}
+      </ServiceCardContent>
     </HoverCard>
   );
 }
@@ -231,7 +235,7 @@ export function Services() {
   }
 
   return (
-    <section id="services" className="relative z-20 overflow-visible py-32 sm:py-40 bg-beige-50">
+    <section id="services" className="relative z-20 overflow-visible py-20 sm:py-32 lg:py-40 bg-beige-50">
       <Container size="lg" className="relative z-30 overflow-visible">
         <FadeIn>
           <SectionHeading
@@ -261,7 +265,7 @@ export function Services() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 items-stretch">
           {FOCUS_AREAS.map((area, i) => (
             <FadeIn key={area.key} delay={0.4 + i * 0.1} className="h-full min-h-0">
-              <div className="relative pl-6 border-l border-beige-400/50 h-full flex flex-col">
+              <div className="relative pl-4 sm:pl-6 border-l border-beige-400/50 h-full flex flex-col">
                 {/* Icon + Title */}
                 <div className="flex items-center gap-3 mb-3">
                   <span className="text-accent shrink-0">

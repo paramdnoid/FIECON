@@ -38,7 +38,7 @@ export function Philosophy() {
   const t = useTranslations("approach");
 
   return (
-    <section id="approach" className="py-32 sm:py-40 bg-beige-50">
+    <section id="approach" className="py-20 sm:py-32 lg:py-40 bg-beige-50">
       <Container size="lg">
         <FadeIn>
           <SectionHeading badge={t("badge")} headline={t("headline")} gradient italic />
@@ -54,7 +54,7 @@ export function Philosophy() {
               delay={0.1 + index * 0.15}
               className="h-full"
             >
-              <div className="group relative flex h-full flex-col bg-white rounded-2xl border border-beige-200/60 p-8 text-center overflow-hidden transition-all duration-400 hover:shadow-lg hover:shadow-bordeaux-900/8 hover:border-beige-400/50">
+              <div className="group relative flex h-full flex-col bg-white rounded-2xl border border-beige-200/60 p-6 sm:p-8 text-center overflow-hidden transition-all duration-400 hover:shadow-lg hover:shadow-bordeaux-900/8 hover:border-beige-400/50">
                 {/* Accent bar top */}
                 <div className="absolute top-0 inset-x-0 h-[3px] bg-gradient-to-r from-bordeaux-900 via-bordeaux-700 to-beige-400 origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500" />
 

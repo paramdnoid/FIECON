@@ -25,7 +25,7 @@ export function HoverCard({ children, className, accentBarClassName }: Props) {
         />
       </div>
 
-      <div className="p-8 flex flex-col h-full">{children}</div>
+      <div className="p-6 sm:p-8 flex flex-col h-full">{children}</div>
     </div>
   );
 }

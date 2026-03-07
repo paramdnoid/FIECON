@@ -148,7 +148,7 @@ export function ContactDialog({ open, onClose }: Props) {
             role="dialog"
             aria-modal="true"
             aria-label={t("title")}
-            className="relative w-full max-w-4xl max-h-[90vh] overflow-hidden bg-white rounded-2xl shadow-2xl shadow-bordeaux-900/25 flex flex-col lg:flex-row"
+            className="relative w-full max-w-4xl max-h-[90dvh] overflow-hidden bg-white rounded-2xl shadow-2xl shadow-bordeaux-900/25 flex flex-col lg:flex-row"
           >
             {/* Left panel — branding & contact info */}
             <div className="hidden lg:flex lg:w-95 flex-col justify-between text-white p-10 relative overflow-hidden bg-bordeaux-900">
@@ -212,7 +212,7 @@ export function ContactDialog({ open, onClose }: Props) {
             </div>
 
             {/* Right panel — form */}
-            <div className="flex-1 overflow-y-auto max-h-[90vh]">
+            <div className="flex-1 overflow-y-auto">
               {/* Header */}
               <div className="flex items-center justify-between p-6 lg:p-8 lg:hidden">
                 <h2 className="font-display text-2xl sm:text-3xl font-light text-text-primary">

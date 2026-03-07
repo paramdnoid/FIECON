@@ -28,7 +28,7 @@ export function Footer() {
   return (
     <footer className="bg-bordeaux-900 text-beige-200 pt-20 pb-8">
       <Container size="lg">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-16 mb-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 sm:gap-12 lg:gap-16 mb-10 sm:mb-16">
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="flex items-center gap-3 mb-4">

@@ -30,7 +30,7 @@ export function Header() {
         }`}
       >
         <Container size="lg">
-          <div className="flex items-center justify-between h-24">
+          <div className="flex items-center justify-between h-20 lg:h-24">
             {/* Logo */}
             <Link
               href="/"
@@ -44,7 +44,7 @@ export function Header() {
                 height={36}
                 priority
               />
-              <span className="font-display text-xl font-normal gradient-text-hero tracking-tight">
+              <span className="font-display text-base sm:text-lg lg:text-xl font-normal gradient-text-hero tracking-tight">
                 {COMPANY.name}
               </span>
             </Link>
@@ -87,7 +87,7 @@ export function Header() {
               <button
                 type="button"
                 onClick={() => setMenuOpen(!menuOpen)}
-                className="lg:hidden p-2 text-text-primary hover:text-bordeaux-900 transition-colors cursor-pointer"
+                className="lg:hidden p-2.5 -mr-2.5 text-text-primary hover:text-bordeaux-900 transition-colors cursor-pointer"
                 aria-label={t("menu")}
                 aria-expanded={menuOpen}
               >

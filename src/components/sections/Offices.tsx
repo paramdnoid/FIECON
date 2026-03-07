@@ -37,7 +37,7 @@ function OfficeCardContent({
 
   return (
     <div className="h-full group relative overflow-hidden rounded-2xl bg-bordeaux-900 text-white">
-      <div className="p-6 sm:p-8 lg:p-10">
+      <div className="p-5 sm:p-6 lg:p-8">
         {MapComponent && (
           <div className="absolute inset-y-4 right-4 sm:inset-y-6 sm:right-6 flex items-center select-none pointer-events-none max-w-[50%]">
             <MapComponent
@@ -145,7 +145,7 @@ function Carousel3D({
 
         {/* Single carousel: responsive layout (mobile breakout + mask, desktop normal) */}
         <div
-          className="-mx-6 overflow-hidden md:mx-0 md:overflow-visible"
+          className="-mx-6 sm:-mx-8 overflow-hidden md:mx-0 md:overflow-visible"
           style={
             !isMd
               ? {
@@ -281,7 +281,7 @@ export function Offices() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <section id="offices" className="py-32 sm:py-20 relative overflow-hidden">
+    <section id="offices" className="py-20 sm:py-32 relative overflow-hidden">
       {/* Ambient background map — only when animations are enabled */}
       {!prefersReduced && <BackgroundMap activeIndex={activeIndex} />}
 

@@ -52,7 +52,7 @@ export function MobileMenu({ isOpen, onClose }: Props) {
             aria-label={t("navigation")}
           >
             {/* Header row — matches main header height */}
-            <div className="flex items-center justify-between h-24 px-6 sm:px-8">
+            <div className="flex items-center justify-between h-20 px-5 sm:px-8">
               <div className="flex items-center gap-3">
                 <Image
                   src="/logo.svg"
@@ -68,7 +68,7 @@ export function MobileMenu({ isOpen, onClose }: Props) {
                 ref={closeButtonRef}
                 type="button"
                 onClick={onClose}
-                className="p-2 text-text-primary hover:text-bordeaux-900 transition-colors cursor-pointer"
+                className="p-2.5 -mr-2.5 text-text-primary hover:text-bordeaux-900 transition-colors cursor-pointer"
                 aria-label={t("close_menu")}
               >
                 <svg
@@ -88,10 +88,10 @@ export function MobileMenu({ isOpen, onClose }: Props) {
             </div>
 
             {/* Divider */}
-            <div className="mx-6 sm:mx-8 h-px bg-gradient-to-r from-beige-400/40 via-beige-400/20 to-transparent" />
+            <div className="mx-5 sm:mx-8 h-px bg-gradient-to-r from-beige-400/40 via-beige-400/20 to-transparent" />
 
             {/* Navigation links */}
-            <nav className="flex-1 flex flex-col justify-center px-6 sm:px-8 -mt-12">
+            <nav className="flex-1 flex flex-col justify-center px-5 sm:px-8 -mt-12">
               {NAV_LINKS.map((link, i) => {
                 const isActive = activeSection === link.href;
                 return (
@@ -127,7 +127,7 @@ export function MobileMenu({ isOpen, onClose }: Props) {
                             : "w-0 group-hover:w-8 bg-bordeaux-900/50"
                         }`}
                       />
-                      <span className="font-display text-2xl sm:text-3xl font-light tracking-tight">
+                      <span className="font-display text-xl sm:text-2xl md:text-3xl font-light tracking-tight">
                         {t(link.id)}
                       </span>
                     </Link>
@@ -137,7 +137,7 @@ export function MobileMenu({ isOpen, onClose }: Props) {
             </nav>
 
             {/* Footer area */}
-            <div className="px-6 sm:px-8 pb-10">
+            <div className="px-5 sm:px-8 pb-10">
               <div className="h-px bg-gradient-to-r from-beige-400/40 via-beige-400/20 to-transparent mb-6" />
               <div className="flex items-center justify-between">
                 <LanguageSwitcher />

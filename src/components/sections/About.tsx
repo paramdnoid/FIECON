@@ -22,7 +22,7 @@ export function About() {
   return (
     <section id="about" className="bg-white">
       {/* === Zone 1: Narrative Intro === */}
-      <div className="py-32 sm:py-40">
+      <div className="py-20 sm:py-32 lg:py-40">
         <Container size="lg">
           {/* Top decorative line */}
           <FadeIn>
@@ -41,7 +41,7 @@ export function About() {
                 {/* Short accent line under badge */}
                 <div className="w-10 h-px bg-accent/40 mb-8" />
 
-                <h2 className="font-display text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-light tracking-tight gradient-text text-balance">
+                <h2 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-light tracking-tight gradient-text text-balance">
                   {t("headline")}
                 </h2>
               </SlideReveal>
@@ -81,7 +81,7 @@ export function About() {
                     to={stat.value}
                     duration={2}
                     delay={0.2 + i * 0.15}
-                    className="font-display text-5xl sm:text-6xl lg:text-7xl font-light text-bordeaux-900 tracking-tight"
+                    className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-light text-bordeaux-900 tracking-tight"
                   />
                   <p className="text-sm font-medium tracking-[0.2em] uppercase text-text-muted mt-3">
                     {t(stat.key)}

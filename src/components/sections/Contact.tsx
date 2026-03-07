@@ -19,7 +19,7 @@ export function Contact() {
   const [dialogOpen, setDialogOpen] = useState(false);
 
   return (
-    <section id="contact" className="py-32 sm:py-40 relative overflow-hidden bg-bordeaux-900">
+    <section id="contact" className="py-20 sm:py-32 lg:py-40 relative overflow-hidden bg-bordeaux-900">
       {/* Minimal decorative line */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-px h-24 bg-gradient-to-b from-white/10 to-transparent" />
@@ -36,11 +36,11 @@ export function Contact() {
       >
         <Container size="md" className="relative z-10">
           <FadeIn>
-            <div className="text-center mb-16">
+            <div className="text-center mb-10 sm:mb-16">
               <span className="inline-block text-sm font-medium tracking-[0.4em] uppercase text-beige-400 mb-4">
                 {t("badge")}
               </span>
-              <h2 className="font-display text-4xl sm:text-5xl lg:text-6xl font-light tracking-tight mb-6 text-white text-balance">
+              <h2 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light tracking-tight mb-6 text-white text-balance">
                 {t("headline")}
               </h2>
               <p className="text-lg sm:text-xl text-beige-400 max-w-xl mx-auto leading-relaxed text-balance">
@@ -84,7 +84,7 @@ export function Contact() {
                 </p>
                 <a
                   href={`mailto:${CONTACT.email}`}
-                  className="text-lg text-white hover:text-beige-200 transition-colors duration-400 break-all"
+                  className="text-base sm:text-lg text-white hover:text-beige-200 transition-colors duration-400 break-all"
                 >
                   {CONTACT.email}
                 </a>

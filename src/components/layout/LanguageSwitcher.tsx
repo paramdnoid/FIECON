@@ -43,7 +43,7 @@ export function LanguageSwitcher() {
       {/* Trigger button */}
       <button
         onClick={() => setOpen(true)}
-        className="flex items-center gap-2 px-3 py-1.5 text-sm font-medium text-bordeaux-900 border border-border rounded-md hover:bg-beige-200/50 transition-colors cursor-pointer"
+        className="flex items-center gap-2 px-3 py-2.5 text-sm font-medium text-bordeaux-900 border border-border rounded-md hover:bg-beige-200/50 transition-colors cursor-pointer"
         aria-label={t("title")}
         aria-haspopup="dialog"
       >
@@ -103,7 +103,7 @@ export function LanguageSwitcher() {
                     </div>
                     <button
                       onClick={() => setOpen(false)}
-                      className="flex items-center justify-center w-10 h-10 rounded-full text-text-muted hover:text-text-primary hover:bg-beige-100 transition-colors cursor-pointer"
+                      className="flex items-center justify-center w-11 h-11 rounded-full text-text-muted hover:text-text-primary hover:bg-beige-100 transition-colors cursor-pointer"
                       aria-label={t("close")}
                     >
                       <svg
@@ -121,7 +121,7 @@ export function LanguageSwitcher() {
                   </div>
 
                   {/* Language grid */}
-                  <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2 px-6 pb-6 overflow-y-auto">
+                  <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2 px-4 sm:px-6 pb-6 overflow-y-auto">
                     {LOCALES.map((loc, i) => {
                       const isActive = loc.code === locale;
                       const Flag = FLAGS[loc.flag];
@@ -131,7 +131,7 @@ export function LanguageSwitcher() {
                           ref={i === 0 ? firstButtonRef : undefined}
                           onClick={() => switchLocale(loc.code)}
                           aria-current={isActive ? "true" : undefined}
-                          className={`flex items-center gap-3 px-3.5 py-3 rounded-xl border text-left transition-all duration-200 cursor-pointer ${
+                          className={`flex items-center gap-3 px-3.5 py-3.5 rounded-xl border text-left transition-all duration-200 cursor-pointer ${
                             isActive
                               ? "bg-beige-100 border-bordeaux-900/20 text-bordeaux-900"
                               : "border-transparent hover:bg-beige-50 text-text-primary hover:text-bordeaux-900"

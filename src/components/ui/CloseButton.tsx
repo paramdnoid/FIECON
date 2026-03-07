@@ -8,7 +8,7 @@ export function CloseButton({ onClick, label }: Props) {
     <button
       type="button"
       onClick={onClick}
-      className="flex items-center justify-center w-10 h-10 rounded-full text-text-muted hover:text-text-primary hover:bg-beige-100 transition-colors cursor-pointer"
+      className="flex items-center justify-center w-11 h-11 rounded-full text-text-muted hover:text-text-primary hover:bg-beige-100 transition-colors cursor-pointer"
       aria-label={label}
     >
       <svg
