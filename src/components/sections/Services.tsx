@@ -10,43 +10,6 @@ import React from "react";
 import { hasTranslation } from "@/lib/utils";
 import { HoverCard } from "@/components/ui/HoverCard";
 
-const SERVICE_ICONS: Record<string, React.ReactNode> = {
-  consulting: (
-    <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M12 2L2 7l10 5 10-5-10-5z" />
-      <path d="M2 17l10 5 10-5" />
-      <path d="M2 12l10 5 10-5" />
-    </svg>
-  ),
-  finance: (
-    <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round">
-      <line x1="12" y1="1" x2="12" y2="23" />
-      <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
-    </svg>
-  ),
-  construction: (
-    <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round">
-      <rect x="1" y="4" width="22" height="16" rx="2" ry="2" />
-      <line x1="1" y1="10" x2="23" y2="10" />
-      <path d="M8 4v16" />
-      <path d="M16 4v16" />
-    </svg>
-  ),
-  yacht: (
-    <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M2 20h20" />
-      <path d="M12 4v12" />
-      <path d="M12 4l8 12H4z" />
-    </svg>
-  ),
-  private_health_insurance: (
-    <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M12 21s-7-4.35-7-10V5l7-3 7 3v6c0 5.65-7 10-7 10z" />
-      <path d="M12 8v6" />
-      <path d="M9 11h6" />
-    </svg>
-  ),
-};
 
 const STANDALONE_KEYS = [
   "consulting",
@@ -67,6 +30,41 @@ const FOCUS_AREAS = [
   { key: "corporate_law", itemCount: 3 },
   { key: "transparency", itemCount: 3 },
 ] as const;
+
+const SERVICE_ICONS: Record<string, React.ReactNode> = {
+  consulting: (
+    <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M12 2L2 7l10 5 10-5-10-5z" />
+      <path d="M2 17l10 5 10-5" />
+      <path d="M2 12l10 5 10-5" />
+    </svg>
+  ),
+  finance: (
+    <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+      <line x1="12" y1="1" x2="12" y2="23" />
+      <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+    </svg>
+  ),
+  construction: (
+    <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+      <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+      <line x1="3" y1="9" x2="21" y2="9" />
+      <line x1="9" y1="21" x2="9" y2="9" />
+    </svg>
+  ),
+  yacht: (
+    <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M3 17l3-7 5 3 5-9 3 13H3z" />
+      <path d="M3 21h18" />
+    </svg>
+  ),
+  private_health_insurance: (
+    <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+      <polyline points="9 12 11 14 15 10" />
+    </svg>
+  ),
+};
 
 const FOCUS_ICONS: Record<string, React.ReactNode> = {
   corporate_law: (
@@ -90,57 +88,58 @@ const FOCUS_ICONS: Record<string, React.ReactNode> = {
 function ServiceCardContent({
   serviceKey,
   t,
-  tabs,
+  ordinal,
 }: {
   serviceKey: string;
   t: ReturnType<typeof useTranslations<"services">>;
-  tabs?: React.ReactNode;
+  ordinal?: string;
 }) {
   return (
     <>
-      {/* Sub-service tabs (finance card) */}
-      {tabs ? <div className="mb-7">{tabs}</div> : null}
+      {/* Number watermark — like Philosophy */}
+      {ordinal && (
+        <span aria-hidden="true" className="absolute top-4 right-5 font-display text-6xl font-light text-bordeaux-900 opacity-[0.04] select-none pointer-events-none">
+          {ordinal}
+        </span>
+      )}
 
-      {/* Title row with icon — min-h ensures consistent alignment across cards */}
-      <div className="flex items-start justify-between gap-3 mb-2 min-h-[4.5rem]">
-        <h3 className="font-display text-base font-normal text-text-primary tracking-tight leading-snug">
+      {/* Icon + Title row */}
+      <div className="flex items-center gap-4 mb-3">
+        {SERVICE_ICONS[serviceKey] && (
+          <div className="w-10 h-10 rounded-full bg-bordeaux-900/5 group-hover:bg-bordeaux-900/10 flex items-center justify-center text-accent transition-colors duration-400 shrink-0">
+            {SERVICE_ICONS[serviceKey]}
+          </div>
+        )}
+        <h3 className="font-display text-xl font-normal text-text-primary tracking-tight leading-snug">
           {t(`${serviceKey}.title`)}
         </h3>
-        <div className="w-8 h-8 shrink-0 rounded-full bg-bordeaux-900 text-beige-100 flex items-center justify-center group-hover:bg-bordeaux-700 transition-colors duration-500">
-          {SERVICE_ICONS[serviceKey]}
-        </div>
       </div>
 
       {/* Divider */}
-      <div className="w-8 h-px bg-beige-400 mb-3" />
+      <div className="w-8 h-px bg-accent/30 mb-4" />
 
       {/* Description */}
-      <p className="text-[13px] text-text-muted leading-relaxed">
+      <p className="text-sm text-text-muted leading-relaxed">
         {t(`${serviceKey}.description`)}
       </p>
 
-      {/* Badges — pushed to bottom */}
-      <div className="flex flex-wrap gap-1.5 mt-auto pt-4">
+      {/* Items — dot-separated */}
+      <p className="text-[10px] tracking-wide uppercase text-bordeaux-900/40 mt-auto pt-4">
         {Array.from(
           { length: ITEMS_PER_SERVICE[serviceKey] },
-          (_, i) => (
-            <span
-              key={i}
-              className="px-2.5 py-0.5 text-[10px] font-medium tracking-wide uppercase bg-beige-50 text-bordeaux-900 rounded-full"
-            >
-              {t(`${serviceKey}.items.${i}`)}
-            </span>
-          ),
-        )}
-      </div>
+          (_, i) => t(`${serviceKey}.items.${i}`),
+        ).join(" · ")}
+      </p>
     </>
   );
 }
 
 function FinanceCard({
   t,
+  ordinal,
 }: {
   t: ReturnType<typeof useTranslations<"services">>;
+  ordinal?: string;
 }) {
   const visibleKeys = FINANCE_KEYS.filter((key) =>
     hasTranslation(t, `${key}.title`),
@@ -153,7 +152,7 @@ function FinanceCard({
   return (
     <HoverCard
       className="relative z-40 overflow-visible! isolate"
-      accentBarClassName="start-1/2 w-[22rem] -translate-x-1/2 sm:w-[26rem]"
+      accentBarClassName="hidden"
     >
       {visibleKeys.length > 1 ? (
         <div className="absolute top-0 left-1/2 z-50 -translate-x-1/2 -translate-y-1/2">
@@ -176,7 +175,7 @@ function FinanceCard({
         </div>
       ) : null}
 
-      <ServiceCardContent serviceKey={activeKey} t={t} />
+      <ServiceCardContent serviceKey={activeKey} t={t} ordinal={ordinal} />
     </HoverCard>
   );
 }
@@ -193,23 +192,25 @@ export function Services() {
   const allCards: React.ReactNode[] = [];
   let delayIdx = 0;
 
-  // First standalone card (consulting)
-  if (visibleStandaloneKeys.includes("consulting")) {
+  // Finance card first — spans 2 columns, dark hero variant
+  if (hasFinance) {
+    const ordinal = String(delayIdx + 1).padStart(2, "0");
     allCards.push(
-      <FadeIn key="consulting" delay={0.1 + delayIdx * 0.08} className="h-full">
-        <HoverCard>
-          <ServiceCardContent serviceKey="consulting" t={t} />
-        </HoverCard>
+      <FadeIn key="finance-group" delay={0.1 + delayIdx * 0.08} className="relative z-40 h-full overflow-visible">
+        <FinanceCard t={t} ordinal={ordinal} />
       </FadeIn>,
     );
     delayIdx++;
   }
 
-  // Combined finance card
-  if (hasFinance) {
+  // Consulting card — 1 column
+  if (visibleStandaloneKeys.includes("consulting")) {
+    const ordinal = String(delayIdx + 1).padStart(2, "0");
     allCards.push(
-      <FadeIn key="finance-group" delay={0.1 + delayIdx * 0.08} className="relative z-40 h-full overflow-visible">
-        <FinanceCard t={t} />
+      <FadeIn key="consulting" delay={0.1 + delayIdx * 0.08} className="h-full">
+        <HoverCard>
+          <ServiceCardContent serviceKey="consulting" t={t} ordinal={ordinal} />
+        </HoverCard>
       </FadeIn>,
     );
     delayIdx++;
@@ -218,10 +219,11 @@ export function Services() {
   // Remaining standalone cards (private_health_insurance)
   for (const key of visibleStandaloneKeys) {
     if (key === "consulting") continue;
+    const ordinal = String(delayIdx + 1).padStart(2, "0");
     allCards.push(
       <FadeIn key={key} delay={0.1 + delayIdx * 0.08} className="h-full">
         <HoverCard>
-          <ServiceCardContent serviceKey={key} t={t} />
+          <ServiceCardContent serviceKey={key} t={t} ordinal={ordinal} />
         </HoverCard>
       </FadeIn>,
     );

@@ -80,7 +80,7 @@
       }
     },
     "private_health_insurance": {
-      "title": "Private Krankenversicherung für selbstständige Unternehmer",
+      "title": "PKV für selbstständige Unternehmer",
       "description": "Wir begleiten Selbstständige bei der Auswahl, Strukturierung und Optimierung einer privaten Krankenversicherung — individuell auf Einkommenssituation, Leistungsbedarf und langfristige Planung abgestimmt.",
       "items": {
         "0": "Tarifvergleich & Auswahl",
