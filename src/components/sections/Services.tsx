@@ -9,6 +9,7 @@ import { FadeIn } from "@/components/animations/FadeIn";
 import React from "react";
 import { hasTranslation } from "@/lib/utils";
 import { HoverCard } from "@/components/ui/HoverCard";
+import { Badge } from "@/components/ui/Badge";
 
 
 const STANDALONE_KEYS = [
@@ -132,13 +133,12 @@ function ServiceCardContent({
         {t(`${serviceKey}.description`)}
       </p>
 
-      {/* Items — dot-separated */}
-      <p className="text-[10px] tracking-wide uppercase text-bordeaux-900/40 mt-auto pt-4">
-        {Array.from(
-          { length: ITEMS_PER_SERVICE[serviceKey] },
-          (_, i) => t(`${serviceKey}.items.${i}`),
-        ).join(" · ")}
-      </p>
+      {/* Items — using design system Badge */}
+      <div className="flex flex-wrap gap-2 mt-auto pt-5">
+        {Array.from({ length: ITEMS_PER_SERVICE[serviceKey] }, (_, i) => (
+          <Badge key={i}>{t(`${serviceKey}.items.${i}`)}</Badge>
+        ))}
+      </div>
     </>
   );
 }
