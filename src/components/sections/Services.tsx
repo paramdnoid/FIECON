@@ -264,9 +264,12 @@ export function Services() {
         </FadeIn>
 
         <div className="relative grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-20">
+          {/* Vertical divider with gradient fade — hidden on mobile via media query in style */}
+          <div aria-hidden="true" className="max-md:hidden" style={{ position: "absolute", left: "50%", top: 0, bottom: 0, width: "1px", transform: "translateX(-50%)", background: "linear-gradient(to bottom, transparent 0%, #CAAE9F 30%, #CAAE9F 70%, transparent 100%)" }} />
+
           {FOCUS_AREAS.map((area, i) => (
             <FadeIn key={area.key} delay={0.4 + i * 0.1}>
-              <div style={i === 1 ? { textAlign: "right" } : undefined}>
+              <div style={i === 0 ? { textAlign: "right" } : undefined}>
                 {/* Overline + Title */}
                 <p className="text-accent mb-2" style={{ fontSize: "0.6rem", letterSpacing: "0.2em", textTransform: "uppercase", fontWeight: 500 }}>
                   {t(`${area.key}.lead`)}
@@ -281,9 +284,9 @@ export function Services() {
                     <li
                       key={j}
                       className="flex items-start gap-3 text-sm text-text-muted leading-relaxed"
-                      style={i === 1 ? { flexDirection: "row-reverse", textAlign: "right" } : undefined}
+                      style={i === 0 ? { flexDirection: "row-reverse", textAlign: "right" } : undefined}
                     >
-                      <span aria-hidden="true" className="mt-0.5 text-accent/30 shrink-0 font-display text-xs">0{j + 1}</span>
+                      <span aria-hidden="true" className="mt-0.5 w-5 h-5 rounded-full text-white flex items-center justify-center shrink-0" style={{ fontSize: "0.55rem", fontWeight: 600, backgroundColor: "#873632" }}>0{j + 1}</span>
                       {t(`${area.key}.items.${j}`)}
                     </li>
                   ))}
