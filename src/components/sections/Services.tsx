@@ -115,7 +115,7 @@ function ServiceCardContent({
         )}
         <div className="flex-1 min-w-0">
           {children && (
-            <div className="flex items-center justify-end gap-3 mb-1.5">
+            <div className="flex items-center gap-3 mb-1.5">
               {children}
             </div>
           )}
@@ -168,11 +168,12 @@ function FinanceCard({
                 key={key}
                 type="button"
                 onClick={() => setActiveIdx(i)}
-                className={`text-[10px] tracking-[0.15em] uppercase transition-colors duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-bordeaux-900/40 focus-visible:ring-offset-2 rounded-sm ${
+                className={`relative px-2.5 py-1 rounded-full transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-bordeaux-900/40 focus-visible:ring-offset-2 ${
                   i === activeIdx
-                    ? "font-semibold text-bordeaux-900"
-                    : "font-medium text-bordeaux-900/30 hover:text-bordeaux-900/60"
+                    ? "bg-bordeaux-900 text-white shadow-sm"
+                    : "bg-beige-100 text-bordeaux-900/50 hover:bg-beige-200 hover:text-bordeaux-900/80"
                 }`}
+                style={{ fontSize: "0.55rem", letterSpacing: "0.12em", textTransform: "uppercase", fontWeight: 600 }}
               >
                 {hasTranslation(t, `${key}.tab`) ? t(`${key}.tab`) : t(`${key}.title`)}
               </button>
@@ -251,47 +252,38 @@ export function Services() {
           {allCards}
         </div>
 
-        {/* === Focus Areas — subtle detail zone === */}
+        {/* === Focus Areas === */}
         <FadeIn delay={0.3}>
           <div aria-hidden="true" className="h-px bg-linear-to-r from-transparent via-beige-400/30 to-transparent mt-16 mb-14" />
         </FadeIn>
 
         <FadeIn delay={0.35}>
-          <p className="text-center text-sm font-medium tracking-[0.4em] uppercase text-accent mb-10">
+          <p className="text-center text-sm font-medium tracking-[0.4em] uppercase text-accent mb-12">
             {t("focus_headline")}
           </p>
         </FadeIn>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 items-stretch">
+        <div className="relative grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-20">
           {FOCUS_AREAS.map((area, i) => (
-            <FadeIn key={area.key} delay={0.4 + i * 0.1} className="h-full min-h-0">
-              <div className="relative pl-4 sm:pl-6 border-l border-beige-400/50 h-full flex flex-col">
-                {/* Icon + Title */}
-                <div className="flex items-center gap-3 mb-3">
-                  <span className="text-accent shrink-0">
-                    {FOCUS_ICONS[area.key]}
-                  </span>
-                  <h4 className="font-display text-lg font-normal text-text-primary tracking-tight">
-                    {t(`${area.key}.title`)}
-                  </h4>
-                </div>
-
-                {/* Lead text */}
-                <p className="text-sm text-text-muted leading-relaxed mb-4">
+            <FadeIn key={area.key} delay={0.4 + i * 0.1}>
+              <div style={i === 1 ? { textAlign: "right" } : undefined}>
+                {/* Overline + Title */}
+                <p className="text-accent mb-2" style={{ fontSize: "0.6rem", letterSpacing: "0.2em", textTransform: "uppercase", fontWeight: 500 }}>
                   {t(`${area.key}.lead`)}
                 </p>
+                <h4 className="font-display text-lg font-normal text-bordeaux-900 tracking-tight mb-5">
+                  {t(`${area.key}.title`)}
+                </h4>
 
-                {/* Items list */}
-                <ul className="space-y-2">
+                {/* Items */}
+                <ul className="space-y-3">
                   {Array.from({ length: area.itemCount }, (_, j) => (
                     <li
                       key={j}
-                      className="flex items-start gap-2.5 text-sm text-text-muted leading-relaxed"
+                      className="flex items-start gap-3 text-sm text-text-muted leading-relaxed"
+                      style={i === 1 ? { flexDirection: "row-reverse", textAlign: "right" } : undefined}
                     >
-                      <span
-                        aria-hidden="true"
-                        className="mt-2 w-1 h-1 rounded-full bg-bordeaux-900/30 shrink-0"
-                      />
+                      <span aria-hidden="true" className="mt-0.5 text-accent/30 shrink-0 font-display text-xs">0{j + 1}</span>
                       {t(`${area.key}.items.${j}`)}
                     </li>
                   ))}

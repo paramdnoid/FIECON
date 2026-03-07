@@ -135,17 +135,17 @@ function Carousel3D({
         <button
           type="button"
           onClick={prev}
-          className="hidden md:flex absolute left-0 top-1/2 -translate-y-1/2 z-110 h-12 w-12 items-center justify-center rounded-full border border-bordeaux-900/10 bg-white text-bordeaux-900 shadow-md transition-all duration-300 hover:bg-bordeaux-900 hover:text-white hover:scale-110 hover:shadow-lg focus-visible:outline-2 focus-visible:outline-bordeaux-900"
+          className="hidden md:flex absolute left-0 bottom-0 z-110 h-14 w-14 items-center justify-center rounded-full bg-bordeaux-900 text-white shadow-lg shadow-bordeaux-900/25 transition-all duration-300 hover:bg-bordeaux-700 hover:shadow-xl hover:shadow-bordeaux-900/35 hover:scale-110 focus-visible:outline-2 focus-visible:outline-bordeaux-900"
           aria-label="Previous"
         >
-          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true">
             <path d="M12.5 15L7.5 10L12.5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
         </button>
 
         {/* Single carousel: responsive layout (mobile breakout + mask, desktop normal) */}
         <div
-          className="-mx-6 sm:-mx-8 overflow-hidden md:mx-0 md:overflow-visible"
+          className="-mx-2 sm:-mx-4 overflow-hidden md:mx-0 md:overflow-visible"
           style={
             !isMd
               ? {
@@ -157,7 +157,7 @@ function Carousel3D({
               : undefined
           }
         >
-          <div className="px-6 md:px-0">
+          <div className="px-2 md:px-0">
             <motion.div
               drag="x"
               dragConstraints={{ left: 0, right: 0 }}
@@ -210,10 +210,10 @@ function Carousel3D({
         <button
           type="button"
           onClick={next}
-          className="hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 z-110 h-12 w-12 items-center justify-center rounded-full border border-bordeaux-900/10 bg-white text-bordeaux-900 shadow-md transition-all duration-300 hover:bg-bordeaux-900 hover:text-white hover:scale-110 hover:shadow-lg focus-visible:outline-2 focus-visible:outline-bordeaux-900"
+          className="hidden md:flex absolute right-0 bottom-0 z-110 h-14 w-14 items-center justify-center rounded-full bg-bordeaux-900 text-white shadow-lg shadow-bordeaux-900/25 transition-all duration-300 hover:bg-bordeaux-700 hover:shadow-xl hover:shadow-bordeaux-900/35 hover:scale-110 focus-visible:outline-2 focus-visible:outline-bordeaux-900"
           aria-label="Next"
         >
-          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true">
             <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
         </button>

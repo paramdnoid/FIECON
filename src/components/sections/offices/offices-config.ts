@@ -4,7 +4,7 @@ import { EASE_OUT_EXPO } from "@/lib/constants";
 /* ── Layout constants ──────────────────────────────────────────────── */
 
 export const RADII = {
-  xs: { x: 165, y: 22 },
+  xs: { x: 140, y: 22 },
   sm: { x: 210, y: 28 },
   md: { x: 320, y: 45 },
   lg: { x: 420, y: 55 },
@@ -12,7 +12,7 @@ export const RADII = {
 };
 
 export const CARD = {
-  xs: { w: 270, h: 195 },
+  xs: { w: 240, h: 185 },
   sm: { w: 290, h: 200 },
   md: { w: 290, h: 200 },
   lg: { w: 340, h: 210 },
