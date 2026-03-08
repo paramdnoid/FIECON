@@ -66,6 +66,9 @@ export function Contact() {
 
   return (
     <section id="contact" className="relative py-16 sm:py-24 lg:py-32 overflow-hidden bg-white">
+      {/* Top gradient border */}
+      <div aria-hidden="true" className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-beige-400/40 to-transparent" />
+
       {/* Scale-up reveal wrapper */}
       <motion.div
         {...(!prefersReduced && {
@@ -154,6 +157,9 @@ export function Contact() {
           />
         </Suspense>
       )}
+
+      {/* Bottom gradient border */}
+      <div aria-hidden="true" className="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-beige-400/40 to-transparent" />
     </section>
   );
 }

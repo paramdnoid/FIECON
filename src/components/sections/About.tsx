@@ -24,11 +24,6 @@ export function About() {
       {/* === Zone 1: Narrative Intro === */}
       <div className="py-20 sm:py-32 lg:py-40">
         <Container size="lg">
-          {/* Top decorative line */}
-          <FadeIn>
-            <div className="w-full h-px bg-linear-to-r from-transparent via-beige-400/40 to-transparent mb-20 sm:mb-24" />
-          </FadeIn>
-
           {/* Asymmetric two-column layout */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20">
             {/* Left column — heading */}
