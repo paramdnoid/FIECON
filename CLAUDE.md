@@ -22,6 +22,9 @@ Corporate website for FIECON (Fiegler Consulting KG), an international consultin
 - `pnpm lint` — ESLint
 - `pnpm test` — Vitest (run once)
 - `pnpm test:watch` — Vitest (watch mode)
+- `pnpm test:coverage` — Vitest with coverage
+- `pnpm check:i18n` — Check translation completeness
+- `pnpm analyze` — Bundle analysis (sets ANALYZE=true)
 - `pnpm deploy` — Deploy to production (root@217.154.23.84); see docs/DEPLOYMENT.md
 
 ## Architecture
@@ -43,23 +46,28 @@ src/
 │   ├── globals.css          # Global styles + Tailwind @theme
 │   ├── robots.ts            # SEO: robots.txt
 │   ├── sitemap.ts           # SEO: sitemap.xml
+│   ├── page.tsx             # Root page (redirects to /de)
 │   ├── api/contact/route.ts # POST endpoint (nodemailer, rate-limited)
+│   ├── api/health/route.ts  # GET health check endpoint
 │   └── [locale]/
 │       ├── layout.tsx       # Locale layout: fonts, metadata, providers, Header/Footer
-│       ├── page.tsx         # Homepage (single-page scroll, 6 sections)
+│       ├── page.tsx         # Homepage (single-page scroll, 7 sections)
 │       ├── error.tsx        # Error boundary (translated)
 │       ├── loading.tsx      # Loading spinner
 │       ├── not-found.tsx    # 404 page (translated)
 │       ├── opengraph-image.tsx # Dynamic OG image generation
 │       ├── impressum/       # Legal: Impressum
 │       ├── datenschutz/     # Legal: Datenschutz
-│       └── team/[slug]/     # Team member profile pages
+│       └── team/
+│           ├── [slug]/page.tsx       # Team member profile pages
+│           ├── team-config.ts        # Team member data/config
+│           └── competency-icons/     # Per-member SVG competency icons
 ├── components/
 │   ├── animations/          # FadeIn, StaggerChildren, CountUp, ScrollProgress,
 │   │                        # TextReveal, SlideReveal, MagneticButton, EllipseCarousel
 │   ├── flags/               # 43 SVG flag components + index.ts barrel export
 │   ├── layout/              # Header, Footer, LanguageSwitcher, MobileMenu, ScrollToSection
-│   ├── sections/            # Hero, About, Services, Philosophy, Offices, Contact
+│   ├── sections/            # Hero, About, Services, Gesetze, Philosophy, Offices, Contact
 │   │                        # offices/ (BackgroundMap, CountryPhotoMap, offices-config, useCountryMask)
 │   │                        # team/ (TeamProfileHero, TeamProfileBio, TeamProfileCompetencies,
 │   │                        #        TeamProfileQuote, TeamProfileCta)
@@ -70,9 +78,10 @@ src/
 │                            # useDialogBehavior, useEllipseCarousel, useFocusTrap,
 │                            # useMediaQuery, useScrollProgress
 ├── i18n/                    # next-intl routing + request config
-├── lib/                     # constants.ts (company data, locales, nav links), utils.ts (cn, escapeHtml)
+├── lib/                     # constants.ts (company data, locales, nav links), utils.ts (cn, escapeHtml),
+│                            # env.ts (environment config), logger.ts (structured logging)
 ├── messages/                # 44 JSON translation files
-└── tests/                   # contact-api.test.ts, utils.test.ts
+└── tests/                   # 20 test files covering API, UI, sections, hooks, a11y, i18n, SEO, etc.
 ```
 
 ### Design System
