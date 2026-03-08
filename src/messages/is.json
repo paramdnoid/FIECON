@@ -18,7 +18,8 @@
     "contact": "Hafa samband",
     "navigation": "Leiðsögn",
     "close_menu": "Loka valmynd",
-    "skip_to_content": "Fara í efni"
+    "skip_to_content": "Fara í efni",
+    "gesetze": "Löggjöf"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -106,6 +107,28 @@
         "0": "Samræming þýskra krafna við erlend félagsskipulag",
         "1": "Trygging samkvæmra, tímanlegra og endurskoðanlegra tilkynninga",
         "2": "Regluleg endurskoðun og uppfærsla"
+      }
+    }
+  },
+  "gesetze": {
+    "badge": "Löggjöf",
+    "headline": "Regluverkið",
+    "subtitle": "Lagalegar undirstöður ráðgjafar okkar.",
+    "laws": {
+      "kwg": {
+        "abbreviation": "KWG",
+        "name": "Kreditwesengesetz",
+        "description": "Stjórnar leyfiskröfur fyrir bankastarfsemi og fjármálaþjónustu í Þýskalandi. KWG myndar grundvöll BaFin-eftirlitsins og skilgreinir í § 1 KWG lykilhugtökin ásamt § 25a KWG kröfurnar um viðeigandi skipulag viðskipta."
+      },
+      "vag": {
+        "abbreviation": "VAG",
+        "name": "Versicherungsaufsichtsgesetz",
+        "description": "Stjórnar eftirliti með vátryggingafélögum og þjónar vernd vátryggðra. VAG tryggir að vátryggjendur geti varanlega uppfyllt skuldbindingar sínar og séu stjórnað á viðeigandi hátt."
+      },
+      "estg": {
+        "abbreviation": "EStG",
+        "name": "Einkommensteuergesetz",
+        "description": "Stjórnar skattlagningu tekna einstaklinga í Þýskalandi. EStG skilgreinir tekjuflokka, skattfrjáls frádráttar og skatthlutföll og myndar grundvöll skattlagningar persónutekna."
       }
     }
   },

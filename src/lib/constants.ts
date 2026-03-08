@@ -90,6 +90,7 @@ export type TeamMemberSlug = (typeof TEAM_MEMBERS)[number]["slug"];
 export const NAV_LINKS = [
   { id: "about", href: "about" },
   { id: "services", href: "services" },
+  { id: "gesetze", href: "gesetze" },
   { id: "approach", href: "approach" },
   { id: "offices", href: "offices" },
   { id: "contact", href: "contact" },
@@ -102,6 +103,9 @@ export const HEADER_HEIGHT = 96;
 
 /** Custom scroll offset for the services section (tighter spacing). */
 export const SERVICES_SCROLL_OFFSET = 20;
+
+/** Custom scroll offset for the gesetze section — scrolls further down past top padding. */
+export const GESETZE_SCROLL_OFFSET = 20;
 
 export const BACKDROP_MOTION = {
   initial: { opacity: 0 },

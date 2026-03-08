@@ -18,7 +18,8 @@
     "contact": "Kontakt",
     "navigation": "Navigation",
     "close_menu": "Menü schließen",
-    "skip_to_content": "Zum Inhalt springen"
+    "skip_to_content": "Zum Inhalt springen",
+    "gesetze": "Gesetze"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -105,6 +106,28 @@
         "0": "Abgleich deutscher Vorgaben mit ausländischen Gesellschaftsstrukturen",
         "1": "Sicherstellung konsistenter, fristgerechter und prüfungssicherer Meldungen",
         "2": "Regelmäßige Überprüfung und Aktualisierung der Meldungen"
+      }
+    }
+  },
+  "gesetze": {
+    "badge": "Gesetze",
+    "headline": "Regulatorischer Rahmen",
+    "subtitle": "Die rechtlichen Grundlagen unserer Beratung.",
+    "laws": {
+      "kwg": {
+        "abbreviation": "KWG",
+        "name": "Kreditwesengesetz",
+        "description": "Regelt die Erlaubnispflichten für Bankgeschäfte und Finanzdienstleistungen in Deutschland. Das KWG bildet die Grundlage der BaFin-Aufsicht und definiert in § 1 KWG die zentralen Begriffe sowie in § 25a KWG die Anforderungen an eine ordnungsgemäße Geschäftsorganisation."
+      },
+      "vag": {
+        "abbreviation": "VAG",
+        "name": "Versicherungsaufsichtsgesetz",
+        "description": "Regelt die Beaufsichtigung von Versicherungsunternehmen und dient dem Schutz der Versicherten. Das VAG stellt sicher, dass Versicherer ihre Verpflichtungen dauerhaft erfüllen können und ordnungsgemäß geführt werden."
+      },
+      "estg": {
+        "abbreviation": "EStG",
+        "name": "Einkommensteuergesetz",
+        "description": "Regelt die Besteuerung des Einkommens natürlicher Personen in Deutschland. Das EStG definiert die Einkunftsarten, Freibeträge und Steuersätze und bildet die Grundlage der persönlichen Einkommensbesteuerung."
       }
     }
   },

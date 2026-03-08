@@ -18,7 +18,8 @@
     "contact": "Kontakt",
     "navigation": "Navigacija",
     "close_menu": "Zapri meni",
-    "skip_to_content": "Preskoči na vsebino"
+    "skip_to_content": "Preskoči na vsebino",
+    "gesetze": "Zakonodaja"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -106,6 +107,28 @@
         "0": "Usklajevanje nemških zahtev s tujimi korporacijskimi strukturami",
         "1": "Zagotavljanje doslednih, pravočasnih in preverljivih prijav",
         "2": "Redno preverjanje in posodabljanje prijav"
+      }
+    }
+  },
+  "gesetze": {
+    "badge": "Zakonodaja",
+    "headline": "Regulativni okvir",
+    "subtitle": "Pravne osnove našega svetovanja.",
+    "laws": {
+      "kwg": {
+        "abbreviation": "KWG",
+        "name": "Kreditwesengesetz",
+        "description": "Ureja zahteve za dovoljenja za bančne posle in finančne storitve v Nemčiji. KWG tvori osnovo nadzora BaFin in definira v § 1 KWG ključne pojme ter v § 25a KWG zahteve za ustrezno organizacijo poslovanja."
+      },
+      "vag": {
+        "abbreviation": "VAG",
+        "name": "Versicherungsaufsichtsgesetz",
+        "description": "Ureja nadzor nad zavarovalnicami in služi zaščiti zavarovancev. VAG zagotavlja, da lahko zavarovalnice trajno izpolnjujejo svoje obveznosti in so ustrezno upravljane."
+      },
+      "estg": {
+        "abbreviation": "EStG",
+        "name": "Einkommensteuergesetz",
+        "description": "Ureja obdavčitev dohodkov fizičnih oseb v Nemčiji. EStG opredeljuje vrste dohodkov, davčne olajšave in davčne stopnje ter tvori osnovo osebne dohodnine."
       }
     }
   },

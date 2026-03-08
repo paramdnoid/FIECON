@@ -18,7 +18,8 @@
     "contact": "Contact",
     "navigation": "Navigation",
     "close_menu": "Close menu",
-    "skip_to_content": "Skip to content"
+    "skip_to_content": "Skip to content",
+    "gesetze": "Legislation"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -105,6 +106,28 @@
         "0": "Alignment of German requirements with foreign corporate structures",
         "1": "Ensuring consistent, timely and audit-proof filings",
         "2": "Regular review and updates of register entries"
+      }
+    }
+  },
+  "gesetze": {
+    "badge": "Legislation",
+    "headline": "Regulatory Framework",
+    "subtitle": "The legal foundations of our advisory practice.",
+    "laws": {
+      "kwg": {
+        "abbreviation": "KWG",
+        "name": "Kreditwesengesetz",
+        "description": "Governs the licensing requirements for banking and financial services in Germany. The KWG forms the basis of BaFin supervision and defines in § 1 KWG the key terms as well as in § 25a KWG the requirements for proper business organisation."
+      },
+      "vag": {
+        "abbreviation": "VAG",
+        "name": "Versicherungsaufsichtsgesetz",
+        "description": "Governs the supervision of insurance companies and serves to protect policyholders. The VAG ensures that insurers can permanently meet their obligations and are properly managed."
+      },
+      "estg": {
+        "abbreviation": "EStG",
+        "name": "Einkommensteuergesetz",
+        "description": "Governs the taxation of personal income in Germany. The EStG defines the types of income, tax-free allowances and tax rates, forming the basis of personal income taxation."
       }
     }
   },

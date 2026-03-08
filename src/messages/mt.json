@@ -18,7 +18,8 @@
     "contact": "Kuntatt",
     "navigation": "Navigazzjoni",
     "close_menu": "Agħlaq il-menu",
-    "skip_to_content": "Aqbeż għall-kontenut"
+    "skip_to_content": "Aqbeż għall-kontenut",
+    "gesetze": "Leġiżlazzjoni"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -106,6 +107,28 @@
         "0": "Allinjament tar-rekwiżiti Ġermaniżi ma' strutturi korporattivi barranin",
         "1": "Garanzija ta' rapporti konsistenti, fil-ħin u awditabbli",
         "2": "Reviżjoni u aġġornament regolari tar-rapporti"
+      }
+    }
+  },
+  "gesetze": {
+    "badge": "Leġiżlazzjoni",
+    "headline": "Qafas regolatorju",
+    "subtitle": "Il-pedamenti legali tal-konsulenza tagħna.",
+    "laws": {
+      "kwg": {
+        "abbreviation": "KWG",
+        "name": "Kreditwesengesetz",
+        "description": "Jirregola r-rekwiżiti ta' liċenzjar għal operazzjonijiet bankarji u servizzi finanzjarji fil-Ġermanja. Il-KWG jifforma l-bażi tas-superviżjoni tal-BaFin u jiddefinixxi f'§ 1 KWG it-termini ewlenin kif ukoll f'§ 25a KWG ir-rekwiżiti għal organizzazzjoni kummerċjali xierqa."
+      },
+      "vag": {
+        "abbreviation": "VAG",
+        "name": "Versicherungsaufsichtsgesetz",
+        "description": "Jirregola s-superviżjoni ta' kumpaniji tal-assigurazzjoni u jservi għall-protezzjoni tal-assigurati. Il-VAG jiżgura li l-assiguraturi jistgħu b'mod permanenti jissodisfaw l-obbligi tagħhom u jiġu ġestiti b'mod xieraq."
+      },
+      "estg": {
+        "abbreviation": "EStG",
+        "name": "Einkommensteuergesetz",
+        "description": "Jirregola t-tassazzjoni tad-dħul ta' persuni fiżiċi fil-Ġermanja. L-EStG jiddefinixxi t-tipi ta' dħul, l-eżenzjonijiet mit-taxxa u r-rati tat-taxxa, u jifforma l-bażi tat-tassazzjoni tad-dħul personali."
       }
     }
   },

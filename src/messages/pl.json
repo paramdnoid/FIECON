@@ -18,7 +18,8 @@
     "contact": "Kontakt",
     "navigation": "Nawigacja",
     "close_menu": "Zamknij menu",
-    "skip_to_content": "Przejdź do treści"
+    "skip_to_content": "Przejdź do treści",
+    "gesetze": "Ustawodawstwo"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -106,6 +107,28 @@
         "0": "Dostosowanie niemieckich wymogów do zagranicznych struktur korporacyjnych",
         "1": "Zapewnienie spójnych, terminowych i sprawdzalnych zgłoszeń",
         "2": "Regularna weryfikacja i aktualizacja zgłoszeń"
+      }
+    }
+  },
+  "gesetze": {
+    "badge": "Ustawodawstwo",
+    "headline": "Ramy regulacyjne",
+    "subtitle": "Prawne podstawy naszego doradztwa.",
+    "laws": {
+      "kwg": {
+        "abbreviation": "KWG",
+        "name": "Kreditwesengesetz",
+        "description": "Reguluje wymogi licencyjne dla działalności bankowej i usług finansowych w Niemczech. KWG stanowi podstawę nadzoru BaFin i definiuje w § 1 KWG kluczowe pojęcia oraz w § 25a KWG wymogi dotyczące właściwej organizacji działalności."
+      },
+      "vag": {
+        "abbreviation": "VAG",
+        "name": "Versicherungsaufsichtsgesetz",
+        "description": "Reguluje nadzór nad firmami ubezpieczeniowymi i służy ochronie ubezpieczonych. VAG zapewnia, że ubezpieczyciele mogą trwale wypełniać swoje zobowiązania i są właściwie zarządzani."
+      },
+      "estg": {
+        "abbreviation": "EStG",
+        "name": "Einkommensteuergesetz",
+        "description": "Reguluje opodatkowanie dochodów osób fizycznych w Niemczech. EStG definiuje rodzaje dochodów, kwoty wolne od podatku i stawki podatkowe, stanowiąc podstawę opodatkowania dochodów osobistych."
       }
     }
   },
