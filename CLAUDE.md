@@ -9,6 +9,8 @@ Corporate website for FIECON (Fiegler Consulting KG), an international consultin
 - **Styling:** Tailwind CSS v4 (@tailwindcss/postcss plugin)
 - **Animations:** Motion (Framer Motion) v12
 - **i18n:** next-intl v4 (44 locales, `localePrefix: "always"`)
+- **Validation:** Zod v4
+- **Error Monitoring:** Sentry (@sentry/nextjs)
 - **Email:** Nodemailer 8
 - **Testing:** Vitest + Testing Library
 - **Package Manager:** pnpm
@@ -44,24 +46,32 @@ src/
 │   ├── api/contact/route.ts # POST endpoint (nodemailer, rate-limited)
 │   └── [locale]/
 │       ├── layout.tsx       # Locale layout: fonts, metadata, providers, Header/Footer
-│       ├── page.tsx         # Homepage (single-page scroll, 7 sections)
+│       ├── page.tsx         # Homepage (single-page scroll, 6 sections)
 │       ├── error.tsx        # Error boundary (translated)
 │       ├── loading.tsx      # Loading spinner
 │       ├── not-found.tsx    # 404 page (translated)
+│       ├── opengraph-image.tsx # Dynamic OG image generation
 │       ├── impressum/       # Legal: Impressum
-│       └── datenschutz/     # Legal: Datenschutz
+│       ├── datenschutz/     # Legal: Datenschutz
+│       └── team/[slug]/     # Team member profile pages
 ├── components/
 │   ├── animations/          # FadeIn, StaggerChildren, CountUp, ScrollProgress,
-│   │                        # TextReveal, SlideReveal, MagneticButton
-│   ├── flags/               # 13 SVG flag components + index.ts barrel export
+│   │                        # TextReveal, SlideReveal, MagneticButton, EllipseCarousel
+│   ├── flags/               # 43 SVG flag components + index.ts barrel export
 │   ├── layout/              # Header, Footer, LanguageSwitcher, MobileMenu, ScrollToSection
 │   ├── sections/            # Hero, About, Services, Philosophy, Offices, Contact
-│   └── ui/                  # Button, Badge, Container, SectionHeading,
-│                            # SectionDivider, ContactDialog
-├── hooks/                   # useScrollProgress, useActiveSection, useFocusTrap
+│   │                        # offices/ (BackgroundMap, CountryPhotoMap, offices-config, useCountryMask)
+│   │                        # team/ (TeamProfileHero, TeamProfileBio, TeamProfileCompetencies,
+│   │                        #        TeamProfileQuote, TeamProfileCta)
+│   └── ui/                  # Button, Badge, CloseButton, Container, ContactDialog,
+│                            # FormField, HoverCard, QuoteBlock, SectionDivider,
+│                            # SectionHeading, Spinner
+├── hooks/                   # useActiveSection, useAnimationComplete, useCarouselIndex,
+│                            # useDialogBehavior, useEllipseCarousel, useFocusTrap,
+│                            # useMediaQuery, useScrollProgress
 ├── i18n/                    # next-intl routing + request config
 ├── lib/                     # constants.ts (company data, locales, nav links), utils.ts (cn, escapeHtml)
-├── messages/                # 49 JSON translation files
+├── messages/                # 44 JSON translation files
 └── tests/                   # contact-api.test.ts, utils.test.ts
 ```
 

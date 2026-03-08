@@ -68,7 +68,7 @@ Systeme und Daten stehen den berechtigten Nutzern bei Bedarf zur Verfügung. Rec
 - Eingabevalidierung und HTML-Escaping (Kontaktformular)
 - Rate Limiting für API-Endpoints
 - TypeScript Strict Mode
-- Automatisierte Tests (>400 Tests, 80% Coverage-Threshold)
+- Automatisierte Tests (umfangreiche Testsuite mit 80% Coverage-Threshold)
 - ESLint mit 0 Errors/Warnings
 
 ### 4.4 Abhängigkeitsverwaltung

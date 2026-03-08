@@ -4,7 +4,8 @@
 
 | Version | Unterstützt |
 | ------- | ----------- |
-| 0.1.x   | Ja          |
+| 0.2.x   | Ja          |
+| 0.1.x   | Nein        |
 
 ## Sicherheitslücke melden
 

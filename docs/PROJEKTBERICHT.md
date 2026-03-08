@@ -35,8 +35,8 @@ Die FIECON Consulting Website ist eine professionell entwickelte Unternehmensweb
 ### 2.4 Linting
 
 - **ESLint:** Next.js Core Web Vitals + TypeScript-Konfiguration
-- **Status:** 4 Errors (hauptsächlich in Scripts außerhalb des Hauptcodes), 10 Warnings (unbenutzte Variablen in Tests, `require` in Node-Scripts)
-- **Quellcode:** Der eigentliche App-Code (`src/app`, `src/components`, `src/lib`, `src/hooks`, `src/i18n`) ist weitgehend lint-frei
+- **Status:** 0 Errors, 0 Warnings
+- **Quellcode:** Vollständig lint-frei seit v0.2.0
 
 ---
 
@@ -95,15 +95,24 @@ Die FIECON Consulting Website ist eine professionell entwickelte Unternehmensweb
 | `contact-api.test.ts` | 16 | API-Validierung, Rate Limit, XSS-Escape, SMTP-Mock |
 | `utils.test.ts` | 21 | `escapeHtml`, `cn`, `scrollToSection`, etc. |
 | `i18n-completeness.test.ts` | 176 | Vollständigkeit und Qualität aller 44 Locale-Dateien |
-| `seo.test.ts` | 8 | robots.txt, Sitemap-Struktur |
+| `i18n.test.ts` | 3 | i18n-Konfiguration und Routing |
+| `seo.test.ts` | 9 | robots.txt, Sitemap-Struktur |
 | `a11y.test.tsx` | 13 | FormField, ContactDialog, CloseButton (ARIA, Labels, Escape) |
-| `hooks.test.ts` | 12 | useActiveSection, useScrollProgress, useFocusTrap |
+| `hooks.test.ts` | 31 | useActiveSection, useScrollProgress, useFocusTrap |
 | `animation-components.test.tsx` | 22 | FadeIn, TextReveal, SlideReveal, useReducedMotion |
+| `animation-coverage.test.tsx` | 9 | Zusätzliche Animations-Coverage |
 | `ui-components.test.tsx` | 40 | Button, Badge, Container, SectionHeading |
 | `contact-dialog-flow.test.tsx` | 9 | Formular-Submit, Validierung, Erfolgsmeldung |
 | `layout-components.test.tsx` | 21 | Header, Footer, LanguageSwitcher |
+| `sections.test.tsx` | 23 | Hero, About, Services, Offices, Contact-Sektionen |
+| `pages.test.tsx` | 10 | Seiten-Rendering (Impressum, Datenschutz, etc.) |
+| `maps.test.tsx` | 8 | Länderspezifische Karten-Komponenten |
+| `root-layout.test.tsx` | 4 | Root-Layout-Rendering |
+| `locale-layout.test.tsx` | 10 | Locale-Layout, Fonts, Metadata |
+| `health-api.test.ts` | 3 | Health-Endpoint (`/api/health`) |
+| `misc-coverage.test.tsx` | 3 | Zusätzliche Coverage-Tests |
 
-**Gesamt: 338 Tests, alle bestanden.**
+**Gesamt: 431 Tests in 19 Testdateien.**
 
 ---
 
@@ -121,7 +130,7 @@ Basierend auf Umfang und Komplexität:
 | Internationalisierung (44 Locales) | 24–40 |
 | SEO (robots, sitemap, Metadata, JSON-LD) | 6–10 |
 | Barrierefreiheit & Fokus-Management | 6–10 |
-| Tests (338 Tests) | 20–30 |
+| Tests (431 Tests) | 20–30 |
 | Deployment-Setup & Dokumentation | 4–8 |
 | Maps (DE, RS, Texas) | 8–12 |
 
@@ -136,13 +145,21 @@ Basierend auf Umfang und Komplexität:
 1. **Sicherheit:** Kontakt-API mit CSRF, Rate Limiting, XSS- und Header-Injection-Schutz auf professionellem Niveau.
 2. **Internationalisierung:** 44 Sprachen mit automatisierten Tests für Vollständigkeit und Platzhalter-Konsistenz – ungewöhnlich gründlich für eine Unternehmenswebsite.
 3. **Barrierefreiheit:** Skip-Link, ARIA, `useReducedMotion`, Fokus-Trap im Dialog – deutliche Berücksichtigung von a11y.
-4. **Testqualität:** 338 Tests decken API, Utils, i18n, SEO, A11y, Hooks und UI ab; keine Quick-and-Dirty-Tests.
+4. **Testqualität:** 431 Tests decken API, Utils, i18n, SEO, A11y, Hooks und UI ab; keine Quick-and-Dirty-Tests.
 5. **Architektur:** Klare Struktur, zentrale Konstanten, konsistente Konventionen.
 6. **SEO:** robots.txt, Sitemap, Metadata, JSON-LD – gut vorbereitet für Suchmaschinen.
 
+### Neue Features seit v0.1.0 (hinzugefügt in v0.2.0)
+
+- **Team-Profilseiten:** Dynamische Routen unter `/team/[slug]` für einzelne Teammitglieder
+- **Private Krankenversicherung:** Neue Dienstleistungsseite für private Krankenversicherung
+- **EllipseCarousel:** Neue Karussell-Komponente für die Büro-Darstellung
+- **HoverCard & QuoteBlock:** Neue UI-Komponenten für interaktive Inhalte
+- **Länderspezifische Fotokarten:** Foto-Maps für die Standort-Darstellung
+
 ### Verbesserungspotenzial
 
-1. **Lint-Warnings:** Einige unbenutzte Variablen in Tests und `require` in Scripts – geringer Aufwand zur Bereinigung.
+1. **Lint-Warnings:** Seit v0.2.0 vollständig bereinigt (0 Errors, 0 Warnings).
 2. **Rate Limiting:** In-Memory-Lösung; bei horizontaler Skalierung wäre Redis o. Ä. sinnvoll – für ein Corporate-Site-Szenario aber vertretbar.
 3. **Coverage:** Kein expliziter Coverage-Report in der CI; `pnpm test:coverage` ist vorhanden, könnte in den Deploy-Prozess integriert werden.
 

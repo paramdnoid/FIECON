@@ -34,7 +34,7 @@ für die FIECON Consulting KG Webplattform und die damit verbundenen organisator
 
 | Maßnahme | Status | Verweis |
 |---|---|---|
-| Automatisierte Tests (411+ Tests) | ✅ Implementiert | `src/tests/` |
+| Automatisierte Tests (umfangreiche Testsuite) | ✅ Implementiert | `src/tests/` |
 | Coverage-Threshold (80%) | ✅ Enforced in CI | `vitest.config.ts` |
 | ESLint (0 Errors, 0 Warnings) | ✅ Enforced in CI | `eslint.config.mjs` |
 | TypeScript Strict Mode | ✅ Aktiviert | `tsconfig.json` |
