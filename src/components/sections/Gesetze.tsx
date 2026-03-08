@@ -4,7 +4,6 @@ import React from "react";
 import { useTranslations } from "next-intl";
 import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
-import { HoverCard } from "@/components/ui/HoverCard";
 import { FadeIn } from "@/components/animations/FadeIn";
 
 const LAW_ICONS: Record<string, React.ReactNode> = {
@@ -46,7 +45,15 @@ export function Gesetze() {
   const t = useTranslations("gesetze");
 
   return (
-    <section id="gesetze" className="py-20 sm:py-32 lg:py-40 bg-white">
+    <section id="gesetze" className="relative py-20 sm:py-32 lg:py-40 bg-beige-50 overflow-hidden">
+      {/* Large § watermark */}
+      <span
+        aria-hidden="true"
+        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-display text-[20rem] sm:text-[28rem] lg:text-[36rem] font-light text-bordeaux-900 opacity-[0.015] select-none pointer-events-none leading-none"
+      >
+        §
+      </span>
+
       <Container size="lg">
         <FadeIn>
           <SectionHeading
@@ -68,27 +75,39 @@ export function Gesetze() {
               delay={0.1 + index * 0.15}
               className="h-full"
             >
-              <HoverCard>
-                {/* Number watermark */}
-                <span aria-hidden="true" className="absolute top-4 right-5 font-display text-6xl font-light text-bordeaux-900 opacity-[0.04] select-none pointer-events-none">
-                  {law.number}
-                </span>
-
-                {/* Icon circle */}
-                <div className="w-14 h-14 rounded-full bg-bordeaux-900/5 group-hover:bg-bordeaux-900/10 flex items-center justify-center mx-auto mb-6 text-accent transition-colors duration-400">
-                  {LAW_ICONS[law.key]}
+              <div className="group relative flex h-full flex-col bg-white rounded-2xl border border-beige-200/60 overflow-hidden transition-all duration-400 hover:shadow-lg hover:shadow-bordeaux-900/8 hover:border-beige-400/50 focus-within:shadow-lg focus-within:shadow-bordeaux-900/8 focus-within:border-beige-400/50">
+                {/* Always-visible subtle top accent */}
+                <div aria-hidden="true" className="absolute inset-0 overflow-hidden rounded-2xl pointer-events-none">
+                  <div className="absolute top-0 inset-x-0 h-[2px] bg-gradient-to-r from-bordeaux-900/20 via-bordeaux-700/15 to-beige-400/20 transition-opacity duration-500" />
+                  <div className="absolute top-0 inset-x-0 h-[3px] bg-gradient-to-r from-bordeaux-900 via-bordeaux-700 to-beige-400 origin-left scale-x-0 group-hover:scale-x-100 group-focus-within:scale-x-100 transition-transform duration-500" />
                 </div>
 
-                <h3 className="font-display italic text-xl font-normal text-text-primary mb-1 text-center">
-                  {t(`laws.${law.key}.abbreviation`)}
-                </h3>
-                <p className="text-sm text-accent mb-3 text-center">
-                  {t(`laws.${law.key}.name`)}
-                </p>
-                <p className="flex-1 text-text-muted leading-relaxed text-sm max-w-xs mx-auto text-center">
-                  {t(`laws.${law.key}.description`)}
-                </p>
-              </HoverCard>
+                <div className="p-6 sm:p-8 flex flex-col items-center h-full text-center">
+                  {/* § watermark per card */}
+                  <span aria-hidden="true" className="absolute top-3 right-5 font-display text-7xl font-light text-bordeaux-900 opacity-[0.03] select-none pointer-events-none">
+                    §
+                  </span>
+
+                  {/* Icon circle */}
+                  <div className="w-14 h-14 rounded-full bg-bordeaux-900/5 ring-1 ring-bordeaux-900/[0.06] group-hover:bg-bordeaux-900/10 group-hover:ring-bordeaux-900/10 flex items-center justify-center mb-5 text-accent transition-all duration-400">
+                    {LAW_ICONS[law.key]}
+                  </div>
+
+                  <h3 className="font-display italic text-xl font-normal text-text-primary mb-1">
+                    {t(`laws.${law.key}.abbreviation`)}
+                  </h3>
+                  <p className="text-sm font-medium text-accent/80 mb-4 tracking-wide">
+                    {t(`laws.${law.key}.name`)}
+                  </p>
+
+                  {/* Tiny separator */}
+                  <div aria-hidden="true" className="w-8 h-px bg-beige-400/40 mb-4" />
+
+                  <p className="flex-1 text-text-muted leading-relaxed text-sm max-w-xs">
+                    {t(`laws.${law.key}.description`)}
+                  </p>
+                </div>
+              </div>
             </FadeIn>
           ))}
         </div>

@@ -1,4 +1,4 @@
-import { HEADER_HEIGHT, SERVICES_SCROLL_OFFSET } from "./constants";
+import { HEADER_HEIGHT, SERVICES_SCROLL_OFFSET, GESETZE_SCROLL_OFFSET } from "./constants";
 
 export function cn(...inputs: (string | undefined | null | false)[]) {
   return inputs.filter(Boolean).join(" ");
@@ -41,7 +41,10 @@ export function scrollToSection(
 ): void {
   const el = document.getElementById(sectionId);
   if (!el) return;
-  const offset = sectionId === "services" ? SERVICES_SCROLL_OFFSET : HEADER_HEIGHT;
+  const offset =
+    sectionId === "services" ? SERVICES_SCROLL_OFFSET :
+    sectionId === "gesetze" ? GESETZE_SCROLL_OFFSET :
+    HEADER_HEIGHT;
   const top = el.getBoundingClientRect().top + window.scrollY - offset;
   window.scrollTo({ top, behavior });
 }

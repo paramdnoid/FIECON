@@ -31,6 +31,7 @@ export default async function HomePage({
       <SectionDivider variant="line" />
       <Offices />
       <SectionDivider variant="diamond" />
+      <SectionDivider variant="line" />
       <Contact />
     </>
   );

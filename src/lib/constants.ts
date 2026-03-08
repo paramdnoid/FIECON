@@ -104,6 +104,9 @@ export const HEADER_HEIGHT = 96;
 /** Custom scroll offset for the services section (tighter spacing). */
 export const SERVICES_SCROLL_OFFSET = 20;
 
+/** Custom scroll offset for the gesetze section — scrolls further down past top padding. */
+export const GESETZE_SCROLL_OFFSET = 20;
+
 export const BACKDROP_MOTION = {
   initial: { opacity: 0 },
   animate: { opacity: 1 },
