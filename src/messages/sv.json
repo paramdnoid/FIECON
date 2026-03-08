@@ -18,7 +18,8 @@
     "contact": "Kontakt",
     "navigation": "Navigering",
     "close_menu": "Stäng meny",
-    "skip_to_content": "Hoppa till innehåll"
+    "skip_to_content": "Hoppa till innehåll",
+    "gesetze": "Lagstiftning"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -106,6 +107,28 @@
         "0": "Harmonisering av tyska krav med utländska bolagsstrukturer",
         "1": "Säkerställande av konsekventa, tidsenliga och revisionssäkra rapporter",
         "2": "Regelbunden granskning och uppdatering"
+      }
+    }
+  },
+  "gesetze": {
+    "badge": "Lagstiftning",
+    "headline": "Regelverk",
+    "subtitle": "De rättsliga grunderna för vår rådgivning.",
+    "laws": {
+      "kwg": {
+        "abbreviation": "KWG",
+        "name": "Kreditwesengesetz",
+        "description": "Reglerar tillståndskraven för bankverksamhet och finansiella tjänster i Tyskland. KWG utgör grunden för BaFin:s tillsyn och definierar i § 1 KWG de centrala begreppen samt i § 25a KWG kraven på en ordentlig affärsorganisation."
+      },
+      "vag": {
+        "abbreviation": "VAG",
+        "name": "Versicherungsaufsichtsgesetz",
+        "description": "Reglerar tillsynen av försäkringsbolag och tjänar till skydd för de försäkrade. VAG säkerställer att försäkringsgivare varaktigt kan uppfylla sina åtaganden och styrs på ett korrekt sätt."
+      },
+      "estg": {
+        "abbreviation": "EStG",
+        "name": "Einkommensteuergesetz",
+        "description": "Reglerar beskattningen av fysiska personers inkomst i Tyskland. EStG definierar inkomstslagen, skatteavdragen och skattesatserna och utgör grunden för den personliga inkomstbeskattningen."
       }
     }
   },

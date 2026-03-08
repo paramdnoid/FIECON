@@ -49,7 +49,7 @@ export function Footer() {
           </div>
 
           {/* Services */}
-          <div>
+          <div className="text-right">
             <h3 className="text-white font-medium text-sm uppercase tracking-[0.3em] mb-4">
               {t("services_title")}
             </h3>
@@ -68,7 +68,7 @@ export function Footer() {
           </div>
 
           {/* Offices */}
-          <div>
+          <div className="text-right">
             <h3 className="text-white font-medium text-sm uppercase tracking-[0.3em] mb-4">
               {t("offices_title")}
             </h3>
@@ -83,7 +83,7 @@ export function Footer() {
           </div>
 
           {/* Team & Legal */}
-          <div>
+          <div className="text-right">
             <h3 className="text-white font-medium text-sm uppercase tracking-[0.3em] mb-4">
               {tTeam("nav_label")}
             </h3>

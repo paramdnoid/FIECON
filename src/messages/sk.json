@@ -18,7 +18,8 @@
     "contact": "Kontakt",
     "navigation": "Navigácia",
     "close_menu": "Zavrieť menu",
-    "skip_to_content": "Prejsť na obsah"
+    "skip_to_content": "Prejsť na obsah",
+    "gesetze": "Legislatíva"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -106,6 +107,28 @@
         "0": "Zosúladenie nemeckých požiadaviek so zahraničnými korporátnymi štruktúrami",
         "1": "Zabezpečenie konzistentných, včasných a overiteľných hlásení",
         "2": "Pravidelná kontrola a aktualizácia hlásení"
+      }
+    }
+  },
+  "gesetze": {
+    "badge": "Legislatíva",
+    "headline": "Regulačný rámec",
+    "subtitle": "Právne základy nášho poradenstva.",
+    "laws": {
+      "kwg": {
+        "abbreviation": "KWG",
+        "name": "Kreditwesengesetz",
+        "description": "Upravuje licenčné požiadavky pre bankové operácie a finančné služby v Nemecku. KWG tvorí základ dohľadu BaFin a definuje v § 1 KWG kľúčové pojmy a v § 25a KWG požiadavky na riadnu organizáciu podnikania."
+      },
+      "vag": {
+        "abbreviation": "VAG",
+        "name": "Versicherungsaufsichtsgesetz",
+        "description": "Upravuje dohľad nad poisťovňami a slúži na ochranu poistencov. VAG zabezpečuje, že poisťovatelia môžu trvalo plniť svoje záväzky a sú riadne spravovaní."
+      },
+      "estg": {
+        "abbreviation": "EStG",
+        "name": "Einkommensteuergesetz",
+        "description": "Upravuje zdaňovanie príjmov fyzických osôb v Nemecku. EStG definuje druhy príjmov, daňové úľavy a sadzby dane a tvorí základ zdaňovania osobných príjmov."
       }
     }
   },

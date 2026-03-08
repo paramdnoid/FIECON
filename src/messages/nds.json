@@ -18,7 +18,8 @@
     "contact": "Kontakt",
     "navigation": "Navigation",
     "close_menu": "Menü sluten",
-    "skip_to_content": "Ton Inholt springen"
+    "skip_to_content": "Ton Inholt springen",
+    "gesetze": "Gesetten"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -106,6 +107,28 @@
         "0": "Afgliek vun düütsche Vorgaven mit utländsche Sellschupsstrukturen",
         "1": "Sicherstellung vun konsequente, fristgerechte un pröfungssekere Meldungen",
         "2": "Regelmatige Pröfung un Aktualiseeren vun de Meldungen"
+      }
+    }
+  },
+  "gesetze": {
+    "badge": "Gesetten",
+    "headline": "Regulatorischer Rahmen",
+    "subtitle": "De rechtlichen Grundlagen vun uns Beratung.",
+    "laws": {
+      "kwg": {
+        "abbreviation": "KWG",
+        "name": "Kreditwesengesetz",
+        "description": "Regelt de Erlabnispflichten för Bankgeschäften un Finanzdeenstleistungen in Düütschland. Dat KWG bildt de Grundlaag vun de BaFin-Oppsicht un defineert in § 1 KWG de zentralen Begriffe as ook in § 25a KWG de Anforderungen an en ordentliche Geschäftsorganisatschoon."
+      },
+      "vag": {
+        "abbreviation": "VAG",
+        "name": "Versicherungsaufsichtsgesetz",
+        "description": "Regelt de Oppsicht över Versekerungs-Ünnernehmen un deent den Schutz vun de Versekerten. Dat VAG stellt seker, dat Versekerer ehr Verpflichtungen duerhaft erfüllen könnt un ordentlich föhrt warrt."
+      },
+      "estg": {
+        "abbreviation": "EStG",
+        "name": "Einkommensteuergesetz",
+        "description": "Regelt de Besteuerung vun dat Inkamen vun natürliche Personen in Düütschland. Dat EStG defineert de Inkamensarten, Freibeträge un Stüersätze un bildt de Grundlaag vun de persönliche Inkamensbesteuerung."
       }
     }
   },

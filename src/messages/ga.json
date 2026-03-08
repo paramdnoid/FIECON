@@ -18,7 +18,8 @@
     "contact": "Teagmháil",
     "navigation": "Nascleanúint",
     "close_menu": "Dún roghchlár",
-    "skip_to_content": "Léim go dtí an t-ábhar"
+    "skip_to_content": "Léim go dtí an t-ábhar",
+    "gesetze": "Reachtaíocht"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -106,6 +107,28 @@
         "0": "Ailíniú riachtanais na Gearmáine le struchtúir chorparáideacha eachtracha",
         "1": "Tuairiscí comhsheasmhacha, tráthúla agus ininiúchta a chinntiú",
         "2": "Athbhreithniú agus nuashonrú rialta"
+      }
+    }
+  },
+  "gesetze": {
+    "badge": "Reachtaíocht",
+    "headline": "Creat rialála",
+    "subtitle": "Na bunchlocha dlí dár gcuid comhairleoireachta.",
+    "laws": {
+      "kwg": {
+        "abbreviation": "KWG",
+        "name": "Kreditwesengesetz",
+        "description": "Rialaíonn sé na ceanglais cheadúnais le haghaidh oibríochtaí baincéireachta agus seirbhísí airgeadais sa Ghearmáin. Is é an KWG bunús maoirseacht BaFin agus sainmhíníonn sé in § 1 KWG na príomhthéarmaí chomh maith le § 25a KWG na ceanglais maidir le heagrúchán gnó cuí."
+      },
+      "vag": {
+        "abbreviation": "VAG",
+        "name": "Versicherungsaufsichtsgesetz",
+        "description": "Rialaíonn sé maoirseacht cuideachtaí árachais agus fónann sé chun na n-árachaithe a chosaint. Cinntíonn an VAG gur féidir le hárachóirí a n-oibleagáidí a chomhlíonadh go buan agus go mbainistítear iad go cuí."
+      },
+      "estg": {
+        "abbreviation": "EStG",
+        "name": "Einkommensteuergesetz",
+        "description": "Rialaíonn sé cánachas ioncaim daoine nádúrtha sa Ghearmáin. Sainmhíníonn an EStG na cineálacha ioncaim, na liúntais saor ó cháin agus na rátaí cánach, ag cruthú bunús na cánach ioncaim phearsanta."
       }
     }
   },

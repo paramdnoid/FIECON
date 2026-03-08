@@ -18,7 +18,8 @@
     "contact": "Yhteystiedot",
     "navigation": "Navigointi",
     "close_menu": "Sulje valikko",
-    "skip_to_content": "Siirry sisältöön"
+    "skip_to_content": "Siirry sisältöön",
+    "gesetze": "Lainsäädäntö"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -106,6 +107,28 @@
         "0": "Saksalaisten vaatimusten yhteensovittaminen ulkomaisten yhtiörakenteiden kanssa",
         "1": "Johdonmukaisten, oikea-aikaisten ja tarkastettavien ilmoitusten varmistaminen",
         "2": "Säännöllinen tarkistus ja päivitys"
+      }
+    }
+  },
+  "gesetze": {
+    "badge": "Lainsäädäntö",
+    "headline": "Sääntelykehys",
+    "subtitle": "Neuvontamme oikeudelliset perusteet.",
+    "laws": {
+      "kwg": {
+        "abbreviation": "KWG",
+        "name": "Kreditwesengesetz",
+        "description": "Säätelee pankki- ja rahoituspalvelutoiminnan lupavaatimuksia Saksassa. KWG muodostaa BaFin-valvonnan perustan ja määrittelee § 1 KWG:ssä keskeiset käsitteet sekä § 25a KWG:ssä vaatimukset asianmukaiselle liiketoimintaorganisaatiolle."
+      },
+      "vag": {
+        "abbreviation": "VAG",
+        "name": "Versicherungsaufsichtsgesetz",
+        "description": "Säätelee vakuutusyhtiöiden valvontaa ja palvelee vakuutettujen suojaa. VAG varmistaa, että vakuutuksenantajat voivat pysyvästi täyttää velvoitteensa ja niitä johdetaan asianmukaisesti."
+      },
+      "estg": {
+        "abbreviation": "EStG",
+        "name": "Einkommensteuergesetz",
+        "description": "Säätelee luonnollisten henkilöiden tulojen verotusta Saksassa. EStG määrittelee tulolähteet, verovapaudet ja veroprosentit ja muodostaa henkilökohtaisen tuloverotuksen perustan."
       }
     }
   },

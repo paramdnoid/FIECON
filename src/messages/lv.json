@@ -18,7 +18,8 @@
     "contact": "Kontakti",
     "navigation": "Navigācija",
     "close_menu": "Aizvērt izvēlni",
-    "skip_to_content": "Pāriet uz saturu"
+    "skip_to_content": "Pāriet uz saturu",
+    "gesetze": "Likumdošana"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -106,6 +107,28 @@
         "0": "Vācijas prasību saskaņošana ar ārvalstu korporatīvajām struktūrām",
         "1": "Konsekventu, savlaicīgu un pārbaudāmu paziņojumu nodrošināšana",
         "2": "Regulāra pārskatīšana un atjaunināšana"
+      }
+    }
+  },
+  "gesetze": {
+    "badge": "Likumdošana",
+    "headline": "Regulatīvais ietvars",
+    "subtitle": "Mūsu konsultāciju tiesiskais pamats.",
+    "laws": {
+      "kwg": {
+        "abbreviation": "KWG",
+        "name": "Kreditwesengesetz",
+        "description": "Regulē licencēšanas prasības banku darbībai un finanšu pakalpojumiem Vācijā. KWG veido BaFin uzraudzības pamatu un definē § 1 KWG galvenos terminus, kā arī § 25a KWG prasības pienācīgai uzņēmējdarbības organizācijai."
+      },
+      "vag": {
+        "abbreviation": "VAG",
+        "name": "Versicherungsaufsichtsgesetz",
+        "description": "Regulē apdrošināšanas sabiedrību uzraudzību un kalpo apdrošināto personu aizsardzībai. VAG nodrošina, ka apdrošinātāji var pastāvīgi izpildīt savas saistības un tiek pienācīgi pārvaldīti."
+      },
+      "estg": {
+        "abbreviation": "EStG",
+        "name": "Einkommensteuergesetz",
+        "description": "Regulē fizisko personu ienākumu aplikšanu ar nodokli Vācijā. EStG definē ienākumu veidus, nodokļu atbrīvojumus un nodokļu likmes un veido personīgā ienākuma nodokļa pamatu."
       }
     }
   },

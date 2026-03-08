@@ -18,7 +18,8 @@
     "contact": "Kontakt",
     "navigation": "Navigatsioon",
     "close_menu": "Sulge menüü",
-    "skip_to_content": "Mine sisu juurde"
+    "skip_to_content": "Mine sisu juurde",
+    "gesetze": "Seadusandlus"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -106,6 +107,28 @@
         "0": "Saksa nõuete kooskõlastamine välismaiste äriühingustruktuuridega",
         "1": "Järjepidevate, õigeaegsete ja auditeeritavate teadete tagamine",
         "2": "Regulaarne ülevaatus ja uuendamine"
+      }
+    }
+  },
+  "gesetze": {
+    "badge": "Seadusandlus",
+    "headline": "Regulatiivne raamistik",
+    "subtitle": "Meie nõustamise õiguslikud alused.",
+    "laws": {
+      "kwg": {
+        "abbreviation": "KWG",
+        "name": "Kreditwesengesetz",
+        "description": "Reguleerib Saksamaa pangandus- ja finantsteenuste loanõudeid. KWG moodustab BaFin-i järelevalve aluse ning defineerib §-s 1 KWG põhimõisted ja §-s 25a KWG nõuded nõuetekohasele äritegevuse korraldusele."
+      },
+      "vag": {
+        "abbreviation": "VAG",
+        "name": "Versicherungsaufsichtsgesetz",
+        "description": "Reguleerib kindlustusettevõtete järelevalvet ja teenib kindlustatute kaitset. VAG tagab, et kindlustusandjad suudavad püsivalt täita oma kohustusi ja neid juhitakse nõuetekohaselt."
+      },
+      "estg": {
+        "abbreviation": "EStG",
+        "name": "Einkommensteuergesetz",
+        "description": "Reguleerib füüsiliste isikute tulude maksustamist Saksamaal. EStG defineerib tululiigid, maksuvabastused ja maksumäärad ning moodustab isikliku tulumaksustamise aluse."
       }
     }
   },
