@@ -19,8 +19,9 @@ export function Badge({
 }: Props) {
   return (
     <span
+      style={{ fontSize: "0.55rem" }}
       className={cn(
-        "inline-block whitespace-nowrap px-2.5 py-1 text-[0.55rem] leading-none font-semibold tracking-widest uppercase rounded-full",
+        "inline-block whitespace-nowrap px-2.5 py-1 leading-none font-semibold tracking-widest uppercase rounded-full",
         VARIANTS[variant],
         className,
       )}
