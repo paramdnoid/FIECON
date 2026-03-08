@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — Nemzetközi tanácsadás társasági jog és cégalapítás területén",
-    "description": "FIECON Germany Co. KG — Nemzetközi tanácsadás társasági jog, cégalapítás, pénzügyi igazgatás és építési finanszírozás területén. Irodák Hamburgban, Belgrádban, Texasban, Montenegro és Vanuatu.",
+    "description": "FIECON Consulting UG & Co KG — Nemzetközi tanácsadás társasági jog, cégalapítás, pénzügyi igazgatás és építési finanszírozás területén. Irodák Hamburgban, Belgrádban, Texasban, Montenegro és Vanuatu.",
     "keywords": "társasági jog, nemzetközi cégalapítás, tanácsadás Hamburg, pénzügyi igazgatás, építési finanszírozás, FIECON Consulting"
   },
   "nav": {
@@ -21,7 +21,7 @@
     "skip_to_content": "Ugrás a tartalomhoz"
   },
   "hero": {
-    "tagline": "Fiegler Consulting",
+    "tagline": "FIECON Consulting",
     "headline": "Az Ön joga. Nemzetközi szemlélettel.",
     "subtitle": "Társasági jog és nemzetközi cégalapítás — személyes kísérés Hamburgban, Belgrádban, Texasban, Montenegro és Vanuatu.",
     "cta_primary": "Szolgáltatásaink",
@@ -37,7 +37,7 @@
     "stat_2_label": "Szakterület",
     "stat_3_label": "Ország",
     "quote_attribution": "Peter Fiegler, alapító",
-    "profile_link": "Mehr über Peter Fiegler erfahren"
+    "profile_link": "Tudjon meg többet Peter Fieglerről"
   },
   "services": {
     "badge": "Szolgáltatások",
@@ -53,6 +53,7 @@
     },
     "finance": {
       "title": "Pénzügyi igazgatás",
+      "tab": "Általános",
       "description": "A rend bizalmat teremt: átvállaljuk vállalata pénzügyeinek professzionális kezelését, és megteremtjük a fenntartható növekedést lehetővé tevő átlátható struktúrákat.",
       "items": {
         "0": "Könyvelés és beszámolók",
@@ -61,6 +62,7 @@
     },
     "construction": {
       "title": "Építési finanszírozás",
+      "tab": "Építőipar",
       "description": "Az építési projektek pénzügyi megbízhatóságot igényelnek. Strukturáljuk és kísérjük az Ön építési beruházásainak finanszírozását — az első kalkulációtól a befejezésig.",
       "items": {
         "0": "Projektfinanszírozás",
@@ -70,6 +72,7 @@
     },
     "yacht": {
       "title": "Jachtépítési finanszírozás",
+      "tab": "Jacht",
       "description": "Egy különleges szegmens különleges gondosságot érdemel. Tanácsadást nyújtunk a jachtépítési projektek finanszírozásában — diszkréten, személyesen és az iparág elvárásainak ismeretében.",
       "items": {
         "0": "Jachtfinanszírozás",
@@ -190,13 +193,13 @@
     }
   },
   "footer": {
-    "description": "FIECON Germany Co. KG — Nemzetközi tanácsadás társasági jog, cégalapítás és egyéb területeken. Személyesen. Precízen. Partnerként.",
+    "description": "FIECON Consulting UG & Co KG — Nemzetközi tanácsadás társasági jog, cégalapítás és egyéb területeken. Személyesen. Precízen. Partnerként.",
     "services_title": "Szolgáltatások",
     "offices_title": "Helyszínek",
     "legal_title": "Jogi információk",
     "impressum": "Impresszum",
     "datenschutz": "Adatvédelmi nyilatkozat",
-    "copyright": "© {year} FIECON Germany Co. KG. Minden jog fenntartva."
+    "copyright": "© {year} FIECON Consulting UG & Co KG. Minden jog fenntartva."
   },
   "error": {
     "title": "Hiba történt",
@@ -300,37 +303,37 @@
     "contact_label": "Kapcsolat"
   },
   "team": {
-    "nav_label": "Team",
-    "competencies_headline": "Kompetenzfelder",
-    "cta_headline": "Lassen Sie uns ins Gespräch kommen",
-    "cta_subline": "Ob eine erste Frage oder ein konkretes Vorhaben — wir nehmen uns Zeit für Sie.",
-    "cta_button": "Kontakt aufnehmen",
-    "back_to_home": "Zur Startseite",
-    "breadcrumb_home": "Startseite"
+    "nav_label": "Csapat",
+    "competencies_headline": "Kompetenciaterületek",
+    "cta_headline": "Beszéljünk",
+    "cta_subline": "Legyen szó első kérdésről vagy konkrét projektről — időt szánunk Önre.",
+    "cta_button": "Kapcsolatfelvétel",
+    "back_to_home": "A főoldalra",
+    "breadcrumb_home": "Főoldal"
   },
   "team_peter_fiegler": {
-    "meta_title": "Peter Fiegler — Gründer & Gesellschaftsrechtsexperte",
-    "meta_description": "Peter Fiegler, Gründer von FIECON. Langjährige Expertise im Gesellschaftsrecht, internationale Firmengründungen und persönliche Beratung auf höchstem Niveau.",
+    "meta_title": "Peter Fiegler — Alapító és társasági jogi szakértő",
+    "meta_description": "Peter Fiegler, a FIECON alapítója. Sokéves tapasztalat a társasági jogban, nemzetközi cégalapításban és személyes tanácsadásban a legmagasabb szinten.",
     "hero_name": "Peter Fiegler",
-    "hero_role": "Gründer & Geschäftsführer",
-    "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
-    "bio_badge": "Über Peter Fiegler",
-    "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
+    "hero_role": "Alapító és ügyvezető",
+    "hero_tagline": "Társasági jog és nemzetközi cégalapítás — előrelátással, precizitással és személyes elkötelezettséggel.",
+    "bio_badge": "Peter Fieglerről",
+    "bio_1": "Peter Fiegler azzal a meggyőződéssel alapította a FIECON-t, hogy a társasági jogban kiváló tanácsadás csak akkor lehetséges, ha teljes mértékben az ügyfél nézőpontját vesszük fel. Megközelítése mély szaktudást párosít vállalkozói érzékkel, amely messze túlmutat a pusztán jogi dimenzión.",
     "bio_2": "Hamburgi, belgrádi, texasi, montenegrói és vanuatui irodáival nemzetközi hálózatot épített ki, amely ügyfeleit bárhová elkíséri, ahová üzleti terveik vezetik — legyen szó cégalapításról Délkelet-Európában, holdingstruktúra kialakításáról vagy új piacokra való belépésről.",
-    "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
-    "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
-    "quote_attribution": "Peter Fiegler, Gründer",
-    "competency_1_title": "Gesellschaftsrecht",
-    "competency_1_description": "Beratung bei der Gründung, Strukturierung und Führung von Gesellschaften — national und international. Von der GmbH bis zur grenzüberschreitenden Holding.",
-    "competency_2_title": "Internationale Firmengründungen",
-    "competency_2_description": "Umfassende Begleitung bei Firmengründungen in Deutschland, Serbien, den USA und weiteren Jurisdiktionen. Rechtssicher und effizient.",
-    "competency_3_title": "Finanzverwaltung & Compliance",
-    "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
-    "competency_4_title": "Strategische Beratung",
-    "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
+    "bio_3": "Filozófiája egyszerű: minden megbízás ugyanazt a gondosságot érdemli, amelyet saját vállalatának szentelne. Ez az igényesség formálja minden tanácsadását, minden struktúráját és minden ajánlását.",
+    "quote": "Úgy tanácsadunk, mintha a saját vállalatunkról lenne szó.",
+    "quote_attribution": "Peter Fiegler, alapító",
+    "competency_1_title": "Társasági jog",
+    "competency_1_description": "Tanácsadás társaságok alapításánál, strukturálásánál és irányításánál — nemzeti és nemzetközi szinten. A GmbH-tól a határokon átnyúló holdingstruktúrákig.",
+    "competency_2_title": "Nemzetközi cégalapítás",
+    "competency_2_description": "Átfogó kíséret cégalapításoknál Németországban, Szerbiában, az USA-ban és további joghatóságokban. Jogilag biztonságosan és hatékonyan.",
+    "competency_3_title": "Pénzügyi igazgatás és megfelelőség",
+    "competency_3_description": "Átlátható pénzügyi struktúrák, bejelentési kötelezettségek és átláthatósági nyilvántartás — a bizalmat építő vállalatirányításért.",
+    "competency_4_title": "Stratégiai tanácsadás",
+    "competency_4_description": "Hosszú távú stratégiák a vállalati növekedéshez, részesedési struktúrákhoz és nemzetközi terjeszkedéshez — személyesen és partnerként."
   },
   "schema": {
-    "description": "FIECON Germany Co. KG — Nemzetközi tanácsadás társasági jog, cégalapítás, pénzügyi igazgatás és építési finanszírozás területén. Irodák Hamburgban, Belgrádban, Texasban, Montenegro és Vanuatu.",
+    "description": "FIECON Consulting UG & Co KG — Nemzetközi tanácsadás társasági jog, cégalapítás, pénzügyi igazgatás és építési finanszírozás területén. Irodák Hamburgban, Belgrádban, Texasban, Montenegro és Vanuatu.",
     "offer_catalog": "Szolgáltatások",
     "service_consulting": "Társasági jog és cégalapítás",
     "service_finance": "Pénzügyi igazgatás",

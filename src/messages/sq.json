@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — Këshillim ndërkombëtar për të drejtën tregtare dhe themelimin e kompanive",
-    "description": "FIECON Germany Co. KG — Këshillim ndërkombëtar për të drejtën tregtare, themelimin e kompanive, administrimin financiar dhe financimin e ndërtimit. Zyra në Hamburg, Beograd, Teksas, Montenegro dhe Vanuatu.",
+    "description": "FIECON Consulting UG & Co KG — Këshillim ndërkombëtar për të drejtën tregtare, themelimin e kompanive, administrimin financiar dhe financimin e ndërtimit. Zyra në Hamburg, Beograd, Teksas, Montenegro dhe Vanuatu.",
     "keywords": "e drejtë shoqërish, themelim ndërkombëtar i kompanive, këshillim Hamburg, administrim financiar, financim ndërtimi, FIECON Consulting"
   },
   "nav": {
@@ -21,7 +21,7 @@
     "skip_to_content": "Kalo te përmbajtja"
   },
   "hero": {
-    "tagline": "Fiegler Consulting",
+    "tagline": "FIECON Consulting",
     "headline": "Biznesi juaj. I këshilluar ndërkombëtarisht.",
     "subtitle": "E drejta tregtare dhe themelimi ndërkombëtar i kompanive — udhëzim personal në Hamburg, Beograd, Teksas, Montenegro dhe Vanuatu.",
     "cta_primary": "Shërbimet tona",
@@ -37,7 +37,7 @@
     "stat_2_label": "Fusha praktike",
     "stat_3_label": "Vende",
     "quote_attribution": "Peter Fiegler, Themelues",
-    "profile_link": "Mehr über Peter Fiegler erfahren"
+    "profile_link": "Mësoni më shumë për Peter Fiegler"
   },
   "services": {
     "badge": "Shërbimet",
@@ -53,6 +53,7 @@
     },
     "finance": {
       "title": "Administrimi financiar",
+      "tab": "Të përgjithshme",
       "description": "Qartësia ndërton besimin: ne marrim përsipër administrimin financiar të korporatës suaj dhe krijojmë struktura transparente që mundësojnë rritje të qëndrueshme.",
       "items": {
         "0": "Kontabilitet dhe raportim",
@@ -61,6 +62,7 @@
     },
     "construction": {
       "title": "Financimi i ndërtimit",
+      "tab": "Ndërtimi",
       "description": "Projektet e ndërtimit kërkojnë besueshmëri financiare. Ne strukturojmë dhe mbikëqyrim financimin e sipërmarrjeve tuaja të ndërtimit — nga llogaritja fillestare deri te përfundimi.",
       "items": {
         "0": "Financimi i projekteve",
@@ -70,6 +72,7 @@
     },
     "yacht": {
       "title": "Financimi i ndërtimit të jahteve",
+      "tab": "Jahte",
       "description": "Një segment i veçantë meriton kujdes të veçantë. Ne këshillojmë për financimin e projekteve të ndërtimit të jahteve — me diskrecion, personalisht dhe me një kuptim të vërtetë të standardeve të industrisë.",
       "items": {
         "0": "Financimi i jahteve",
@@ -77,12 +80,12 @@
       }
     },
     "private_health_insurance": {
-      "title": "Private health insurance for self-employed entrepreneurs",
-      "description": "We support self-employed entrepreneurs in selecting, structuring and optimizing private health insurance — tailored to income profile, coverage requirements and long-term planning.",
+      "title": "Sigurimi shëndetësor privat për sipërmarrës të pavarur",
+      "description": "Ne mbështesim sipërmarrësit e pavarur në zgjedhjen, strukturimin dhe optimizimin e sigurimit shëndetësor privat — të përshtatur me profilin e të ardhurave, kërkesat e mbulimit dhe planifikimin afatgjatë.",
       "items": {
-        "0": "Plan comparison & selection",
-        "1": "Coverage and premium optimization",
-        "2": "Long-term protection strategy"
+        "0": "Krahasimi dhe zgjedhja e planit",
+        "1": "Optimizimi i mbulimit dhe primit",
+        "2": "Strategjia e mbrojtjes afatgjatë"
       }
     },
 
@@ -190,13 +193,13 @@
     }
   },
   "footer": {
-    "description": "FIECON Germany Co. KG — Këshillim ndërkombëtar për të drejtën tregtare, themelimin e kompanive dhe më gjerë. Personal. I saktë. Partnerisht.",
+    "description": "FIECON Consulting UG & Co KG — Këshillim ndërkombëtar për të drejtën tregtare, themelimin e kompanive dhe më gjerë. Personal. I saktë. Partnerisht.",
     "services_title": "Shërbimet",
     "offices_title": "Zyrat",
     "legal_title": "Ligjore",
     "impressum": "Njoftim ligjor",
     "datenschutz": "Politika e privatësisë",
-    "copyright": "© {year} FIECON Germany Co. KG. Të gjitha të drejtat e rezervuara."
+    "copyright": "© {year} FIECON Consulting UG & Co KG. Të gjitha të drejtat e rezervuara."
   },
   "error": {
     "title": "Ndodhi një gabim",
@@ -301,36 +304,36 @@
   },
   "team": {
     "nav_label": "Team",
-    "competencies_headline": "Kompetenzfelder",
-    "cta_headline": "Lassen Sie uns ins Gespräch kommen",
-    "cta_subline": "Ob eine erste Frage oder ein konkretes Vorhaben — wir nehmen uns Zeit für Sie.",
-    "cta_button": "Kontakt aufnehmen",
-    "back_to_home": "Zur Startseite",
-    "breadcrumb_home": "Startseite"
+    "competencies_headline": "Fushat e kompetencës",
+    "cta_headline": "Le të fillojmë një bisedë",
+    "cta_subline": "Qoftë një pyetje fillestare apo një projekt konkret — ne marrim kohë për ju.",
+    "cta_button": "Na kontaktoni",
+    "back_to_home": "Kthehu në faqen kryesore",
+    "breadcrumb_home": "Faqja kryesore"
   },
   "team_peter_fiegler": {
-    "meta_title": "Peter Fiegler — Gründer & Gesellschaftsrechtsexperte",
-    "meta_description": "Peter Fiegler, Gründer von FIECON. Langjährige Expertise im Gesellschaftsrecht, internationale Firmengründungen und persönliche Beratung auf höchstem Niveau.",
+    "meta_title": "Peter Fiegler — Themelues & Ekspert i të drejtës tregtare",
+    "meta_description": "Peter Fiegler, themelues i FIECON. Ekspertizë shumëvjeçare në të drejtën tregtare, themelime ndërkombëtare të kompanive dhe këshillim personal në nivelin më të lartë.",
     "hero_name": "Peter Fiegler",
-    "hero_role": "Gründer & Geschäftsführer",
-    "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
-    "bio_badge": "Über Peter Fiegler",
-    "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
+    "hero_role": "Themelues & Drejtor Menaxhues",
+    "hero_tagline": "E drejta tregtare dhe themelimi ndërkombëtar i kompanive — me vizion, saktësi dhe qëndrim personal.",
+    "bio_badge": "Rreth Peter Fiegler",
+    "bio_1": "Peter Fiegler themeloi FIECON me bindjen se këshillimi i shkëlqyer në të drejtën tregtare arrihet vetëm kur merret plotësisht perspektiva e mandatit. Qasja e tij kombinon njohuri të thella profesionale me një ndjeshmëri sipërmarrëse që shkon shumë përtej nivelit thjesht juridik.",
     "bio_2": "Me zyra në Hamburg, Beograd, Teksas, Malin e Zi dhe Vanuatu, ai ka ndërtuar një rrjet ndërkombëtar që shoqëron klientët kudo që planet e tyre të biznesit i çojnë — qoftë themelimi i një shoqërie në Evropën Juglindore, strukturimi i një holdingi, apo hyrja në tregje të reja.",
-    "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
-    "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
-    "quote_attribution": "Peter Fiegler, Gründer",
-    "competency_1_title": "Gesellschaftsrecht",
-    "competency_1_description": "Beratung bei der Gründung, Strukturierung und Führung von Gesellschaften — national und international. Von der GmbH bis zur grenzüberschreitenden Holding.",
-    "competency_2_title": "Internationale Firmengründungen",
-    "competency_2_description": "Umfassende Begleitung bei Firmengründungen in Deutschland, Serbien, den USA und weiteren Jurisdiktionen. Rechtssicher und effizient.",
-    "competency_3_title": "Finanzverwaltung & Compliance",
-    "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
-    "competency_4_title": "Strategische Beratung",
-    "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
+    "bio_3": "Filozofia e tij është e thjeshtë: çdo mandat meriton të njëjtin kujdes që ai do t'i kushtonte kompanisë së tij. Ky angazhim përcakton çdo këshillim, çdo strukturë dhe çdo rekomandim.",
+    "quote": "Ne këshillojmë sikur të ishte kompania jonë në rrezik.",
+    "quote_attribution": "Peter Fiegler, Themelues",
+    "competency_1_title": "E drejta tregtare",
+    "competency_1_description": "Këshillim për themelimin, strukturimin dhe drejtimin e shoqërive — kombëtarisht dhe ndërkombëtarisht. Nga GmbH deri te holdinget ndërkufitare.",
+    "competency_2_title": "Themelime ndërkombëtare të kompanive",
+    "competency_2_description": "Shoqërim gjithëpërfshirës në themelimin e kompanive në Gjermani, Serbi, SHBA dhe juridiksione të tjera. Ligjërisht i sigurt dhe efikas.",
+    "competency_3_title": "Administrim financiar & Përputhshmëri",
+    "competency_3_description": "Struktura financiare transparente, detyrime raportimi dhe regjistri i transparencës — për një qeverisje të kompanisë që ndërton besim.",
+    "competency_4_title": "Këshillim strategjik",
+    "competency_4_description": "Strategji afatgjata për rritjen e kompanisë, strukturat e pjesëmarrjes dhe zgjerimin ndërkombëtar — personalisht dhe në partneritet."
   },
   "schema": {
-    "description": "FIECON Germany Co. KG — Këshillim ndërkombëtar për të drejtën tregtare, themelimin e kompanive, administrimin financiar dhe financimin e ndërtimit. Zyra në Hamburg, Beograd, Teksas, Montenegro dhe Vanuatu.",
+    "description": "FIECON Consulting UG & Co KG — Këshillim ndërkombëtar për të drejtën tregtare, themelimin e kompanive, administrimin financiar dhe financimin e ndërtimit. Zyra në Hamburg, Beograd, Teksas, Montenegro dhe Vanuatu.",
     "offer_catalog": "Shërbimet",
     "service_consulting": "E drejta tregtare dhe themelimi i kompanive",
     "service_finance": "Administrimi financiar",

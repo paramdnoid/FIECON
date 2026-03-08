@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — International Corporate Law & Company Formation Advisory",
-    "description": "FIECON Germany Co. KG — International advisory for corporate law, company formations, financial administration and construction finance. Offices in Hamburg, Belgrade, Texas, Montenegro and Vanuatu.",
+    "description": "FIECON Consulting UG & Co KG — International advisory for corporate law, company formations, financial administration and construction finance. Offices in Hamburg, Belgrade, Texas, Montenegro and Vanuatu.",
     "keywords": "corporate law, international company formation, business consulting Hamburg, company formation Serbia, company formation USA Texas, financial administration, construction finance, yacht finance, FIECON Consulting, international advisory"
   },
   "nav": {
@@ -21,7 +21,7 @@
     "skip_to_content": "Skip to content"
   },
   "hero": {
-    "tagline": "Fiegler Consulting",
+    "tagline": "FIECON Consulting",
     "headline": "Your Business. Internationally Advised.",
     "subtitle": "Corporate law and international company formations — personal guidance in Hamburg, Belgrade, Texas, Montenegro and Vanuatu.",
     "cta_primary": "Our Services",
@@ -53,6 +53,7 @@
     },
     "finance": {
       "title": "Financial Administration",
+      "tab": "General",
       "description": "Clarity builds trust: we take charge of your corporate financial administration and create the transparent structures that enable sustainable growth.",
       "items": {
         "0": "Accounting & Reporting",
@@ -61,6 +62,7 @@
     },
     "construction": {
       "title": "Construction Finance",
+      "tab": "Construction",
       "description": "Construction projects demand financial reliability. We structure and oversee the financing of your building ventures — from initial calculation to completion.",
       "items": {
         "0": "Project Finance",
@@ -70,6 +72,7 @@
     },
     "yacht": {
       "title": "Yacht Construction Finance",
+      "tab": "Yacht",
       "description": "A distinctive segment deserves distinctive care. We advise on the financing of yacht construction projects — discreetly, personally and with a genuine understanding of the industry's standards.",
       "items": {
         "0": "Yacht Finance",
@@ -189,13 +192,13 @@
     }
   },
   "footer": {
-    "description": "FIECON Germany Co. KG — International advisory for corporate law, company formations and beyond. Personal. Precise. Partnered.",
+    "description": "FIECON Consulting UG & Co KG — International advisory for corporate law, company formations and beyond. Personal. Precise. Partnered.",
     "services_title": "Services",
     "offices_title": "Offices",
     "legal_title": "Legal",
     "impressum": "Legal Notice",
     "datenschutz": "Privacy Policy",
-    "copyright": "© {year} FIECON Germany Co. KG. All rights reserved."
+    "copyright": "© {year} FIECON Consulting UG & Co KG. All rights reserved."
   },
   "error": {
     "title": "An error occurred",
@@ -329,7 +332,7 @@
     "contact_label": "Contact"
   },
   "schema": {
-    "description": "FIECON Germany Co. KG — International advisory for corporate law, company formations, financial administration and construction finance. Offices in Hamburg, Belgrade, Texas, Montenegro and Vanuatu.",
+    "description": "FIECON Consulting UG & Co KG — International advisory for corporate law, company formations, financial administration and construction finance. Offices in Hamburg, Belgrade, Texas, Montenegro and Vanuatu.",
     "offer_catalog": "Services",
     "service_consulting": "Corporate Law & Company Formations",
     "service_finance": "Financial Administration",

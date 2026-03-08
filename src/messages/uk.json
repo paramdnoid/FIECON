@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — Міжнародне корпоративне право та консультації з реєстрації компаній",
-    "description": "FIECON Germany Co. KG — Міжнародні консультації з корпоративного права, реєстрації компаній, фінансового адміністрування та будівельного фінансування. Офіси в Гамбурзі, Белграді, Техасі, Montenegro та Vanuatu.",
+    "description": "FIECON Consulting UG & Co KG — Міжнародні консультації з корпоративного права, реєстрації компаній, фінансового адміністрування та будівельного фінансування. Офіси в Гамбурзі, Белграді, Техасі, Montenegro та Vanuatu.",
     "keywords": "корпоративне право, міжнародна реєстрація компаній, консалтинг Гамбург, фінансове управління, будівельне фінансування, FIECON Consulting"
   },
   "nav": {
@@ -21,7 +21,7 @@
     "skip_to_content": "Перейти до вмісту"
   },
   "hero": {
-    "tagline": "Fiegler Consulting",
+    "tagline": "FIECON Consulting",
     "headline": "Ваш бізнес. Міжнародна експертиза.",
     "subtitle": "Корпоративне право та міжнародна реєстрація компаній — персональний супровід у Гамбурзі, Белграді, Техасі, Montenegro та Vanuatu.",
     "cta_primary": "Наші послуги",
@@ -37,7 +37,7 @@
     "stat_2_label": "Напрямки діяльності",
     "stat_3_label": "Країни",
     "quote_attribution": "Peter Fiegler, засновник",
-    "profile_link": "Mehr über Peter Fiegler erfahren"
+    "profile_link": "Дізнатися більше про Peter Fiegler"
   },
   "services": {
     "badge": "Послуги",
@@ -53,6 +53,7 @@
     },
     "finance": {
       "title": "Фінансове адміністрування",
+      "tab": "Загальне",
       "description": "Прозорість створює довіру: ми беремо на себе фінансове адміністрування вашої компанії та створюємо прозорі структури для сталого зростання.",
       "items": {
         "0": "Бухгалтерський облік та звітність",
@@ -61,6 +62,7 @@
     },
     "construction": {
       "title": "Будівельне фінансування",
+      "tab": "Будівництво",
       "description": "Будівельні проєкти вимагають фінансової надійності. Ми структуруємо та контролюємо фінансування ваших будівельних проєктів — від початкового розрахунку до завершення.",
       "items": {
         "0": "Проєктне фінансування",
@@ -70,6 +72,7 @@
     },
     "yacht": {
       "title": "Фінансування будівництва яхт",
+      "tab": "Яхтобудування",
       "description": "Особливий сегмент заслуговує на особливу увагу. Ми консультуємо з фінансування будівництва яхт — дискретно, персонально та з глибоким розумінням стандартів галузі.",
       "items": {
         "0": "Фінансування яхт",
@@ -190,13 +193,13 @@
     }
   },
   "footer": {
-    "description": "FIECON Germany Co. KG — Міжнародне консультування з корпоративного права, реєстрації компаній та інше. Персонально. Точно. Партнерськи.",
+    "description": "FIECON Consulting UG & Co KG — Міжнародне консультування з корпоративного права, реєстрації компаній та інше. Персонально. Точно. Партнерськи.",
     "services_title": "Послуги",
     "offices_title": "Офіси",
     "legal_title": "Правова інформація",
     "impressum": "Імпресум",
     "datenschutz": "Політика конфіденційності",
-    "copyright": "© {year} FIECON Germany Co. KG. Усі права захищені."
+    "copyright": "© {year} FIECON Consulting UG & Co KG. Усі права захищені."
   },
   "error": {
     "title": "Сталася помилка",
@@ -239,16 +242,16 @@
     "bio_1": "Андре Ціммерман відповідає за технологічний напрямок та веб-розробку в FIECON. Як сертифікований розробник додатків він поєднує глибоку технічну експертизу з цілеспрямованим використанням штучного інтелекту — втілюючи амбітні проєкти в реальність на найвищому професійному рівні.",
     "bio_2": "Понад 20 років професійного досвіду в розробці ПЗ та глибоке розуміння програмування з ШІ — він має унікальний профіль: використовує передові технології ШІ як стратегічний інструмент для прискорення розробки та досягнення результатів максимальної професійної якості.",
     "bio_3": "Його принцип: технологія не повинна бути самоціллю, а інструментом — точним, надійним і орієнтованим на потреби бізнесу. З ШІ як партнером будь-яка візія стає результатом, який справді переконує.",
-    "quote": "Great technology is invisible — it simply works.",
+    "quote": "Хороша технологія невидима — вона просто працює.",
     "quote_attribution": "Andre Zimmermann",
-    "competency_1_title": "Web Development & Full-Stack",
-    "competency_1_description": "Conception and development of modern web applications — from user interface to server architecture. Performant, secure and scalable.",
-    "competency_2_title": "Software Architecture",
-    "competency_2_description": "Design of robust system architectures that grow with the business. From technology selection to long-term maintainability.",
-    "competency_3_title": "IT Project Management",
-    "competency_3_description": "Leadership and coordination of development teams and technical projects — with clear processes, agile methodologies and measurable outcomes.",
-    "competency_4_title": "Digital Infrastructure",
-    "competency_4_description": "Building and optimising digital infrastructure for businesses — from server administration to the integration of modern cloud solutions."
+    "competency_1_title": "Веб-розробка та Full-Stack",
+    "competency_1_description": "Концепція та розробка сучасних веб-додатків — від інтерфейсу користувача до серверної архітектури. Продуктивно, безпечно та масштабовано.",
+    "competency_2_title": "Програмна архітектура",
+    "competency_2_description": "Проєктування надійних системних архітектур, що зростають разом із бізнесом. Від вибору технологій до довгострокової підтримки.",
+    "competency_3_title": "Управління ІТ-проєктами",
+    "competency_3_description": "Керівництво та координація команд розробки та технічних проєктів — з чіткими процесами, гнучкими методологіями та вимірюваними результатами.",
+    "competency_4_title": "Цифрова інфраструктура",
+    "competency_4_description": "Побудова та оптимізація цифрової інфраструктури для бізнесу — від адміністрування серверів до інтеграції сучасних хмарних рішень."
   },
   "impressum": {
     "title": "Імпресум",
@@ -301,36 +304,36 @@
   },
   "team": {
     "nav_label": "Team",
-    "competencies_headline": "Kompetenzfelder",
-    "cta_headline": "Lassen Sie uns ins Gespräch kommen",
-    "cta_subline": "Ob eine erste Frage oder ein konkretes Vorhaben — wir nehmen uns Zeit für Sie.",
-    "cta_button": "Kontakt aufnehmen",
-    "back_to_home": "Zur Startseite",
-    "breadcrumb_home": "Startseite"
+    "competencies_headline": "Сфери компетенції",
+    "cta_headline": "Розпочнімо розмову",
+    "cta_subline": "Чи це початкове запитання, чи конкретний проєкт — ми знайдемо для вас час.",
+    "cta_button": "Зв'язатися з нами",
+    "back_to_home": "На головну",
+    "breadcrumb_home": "Головна"
   },
   "team_peter_fiegler": {
-    "meta_title": "Peter Fiegler — Gründer & Gesellschaftsrechtsexperte",
-    "meta_description": "Peter Fiegler, Gründer von FIECON. Langjährige Expertise im Gesellschaftsrecht, internationale Firmengründungen und persönliche Beratung auf höchstem Niveau.",
+    "meta_title": "Peter Fiegler — Засновник та експерт з корпоративного права",
+    "meta_description": "Peter Fiegler, засновник FIECON. Багаторічна експертиза в корпоративному праві, міжнародна реєстрація компаній та персональне консультування на найвищому рівні.",
     "hero_name": "Peter Fiegler",
-    "hero_role": "Gründer & Geschäftsführer",
-    "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
-    "bio_badge": "Über Peter Fiegler",
-    "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
+    "hero_role": "Засновник та керуючий директор",
+    "hero_tagline": "Корпоративне право та міжнародна реєстрація компаній — з далекоглядністю, точністю та особистою відповідальністю.",
+    "bio_badge": "Про Peter Fiegler",
+    "bio_1": "Peter Fiegler заснував FIECON з переконанням, що відмінне консультування в корпоративному праві можливе лише тоді, коли повністю приймаєш перспективу клієнта. Його підхід поєднує глибоку експертизу з підприємницьким чуттям, яке виходить далеко за межі суто юридичної площини.",
     "bio_2": "З офісами в Гамбурзі, Белграді, Техасі, Чорногорії та Вануату він побудував міжнародну мережу, яка супроводжує клієнтів туди, куди ведуть їх бізнес-плани — чи то заснування компанії в Південно-Східній Європі, структурування холдингу чи вихід на нові ринки.",
-    "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
-    "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
-    "quote_attribution": "Peter Fiegler, Gründer",
-    "competency_1_title": "Gesellschaftsrecht",
-    "competency_1_description": "Beratung bei der Gründung, Strukturierung und Führung von Gesellschaften — national und international. Von der GmbH bis zur grenzüberschreitenden Holding.",
-    "competency_2_title": "Internationale Firmengründungen",
-    "competency_2_description": "Umfassende Begleitung bei Firmengründungen in Deutschland, Serbien, den USA und weiteren Jurisdiktionen. Rechtssicher und effizient.",
-    "competency_3_title": "Finanzverwaltung & Compliance",
-    "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
-    "competency_4_title": "Strategische Beratung",
-    "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
+    "bio_3": "Його філософія проста: кожен мандат заслуговує на таку ж ретельність, яку він приділив би власній компанії. Цей принцип визначає кожну консультацію, кожну структуру і кожну рекомендацію.",
+    "quote": "Ми консультуємо так, ніби на кону стоїть наша власна компанія.",
+    "quote_attribution": "Peter Fiegler, засновник",
+    "competency_1_title": "Корпоративне право",
+    "competency_1_description": "Консультування при створенні, структуруванні та управлінні компаніями — на національному та міжнародному рівні. Від GmbH до транскордонного холдингу.",
+    "competency_2_title": "Міжнародна реєстрація компаній",
+    "competency_2_description": "Комплексний супровід при реєстрації компаній у Німеччині, Сербії, США та інших юрисдикціях. Юридично надійно та ефективно.",
+    "competency_3_title": "Фінансове адміністрування та комплаєнс",
+    "competency_3_description": "Прозорі фінансові структури, зобов'язання щодо звітності та реєстр прозорості — для корпоративного управління, що будує довіру.",
+    "competency_4_title": "Стратегічне консультування",
+    "competency_4_description": "Довгострокові стратегії зростання підприємства, структури участі та міжнародна експансія — персонально та партнерськи."
   },
   "schema": {
-    "description": "FIECON Germany Co. KG — Міжнародні консультації з корпоративного права, реєстрації компаній, фінансового адміністрування та будівельного фінансування. Офіси в Гамбурзі, Белграді, Техасі, Montenegro та Vanuatu.",
+    "description": "FIECON Consulting UG & Co KG — Міжнародні консультації з корпоративного права, реєстрації компаній, фінансового адміністрування та будівельного фінансування. Офіси в Гамбурзі, Белграді, Техасі, Montenegro та Vanuatu.",
     "offer_catalog": "Послуги",
     "service_consulting": "Корпоративне право та реєстрація компаній",
     "service_finance": "Фінансове адміністрування",

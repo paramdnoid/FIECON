@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — Drept societar internațional și consultanță în constituirea de societăți",
-    "description": "FIECON Germany Co. KG — Consultanță internațională în drept societar, constituirea de societăți, administrare financiară și finanțare a construcțiilor. Birouri în Hamburg, Belgrad, Texas, Montenegro și Vanuatu.",
+    "description": "FIECON Consulting UG & Co KG — Consultanță internațională în drept societar, constituirea de societăți, administrare financiară și finanțare a construcțiilor. Birouri în Hamburg, Belgrad, Texas, Montenegro și Vanuatu.",
     "keywords": "drept societar, înființare companie internațională, consultanță Hamburg, administrare financiară, finanțare construcții, FIECON Consulting"
   },
   "nav": {
@@ -21,7 +21,7 @@
     "skip_to_content": "Salt la conținut"
   },
   "hero": {
-    "tagline": "Fiegler Consulting",
+    "tagline": "FIECON Consulting",
     "headline": "Afacerea dumneavoastră. Consultanță internațională.",
     "subtitle": "Drept societar și constituirea internațională de societăți — asistență personală în Hamburg, Belgrad, Texas, Montenegro și Vanuatu.",
     "cta_primary": "Serviciile noastre",
@@ -37,7 +37,7 @@
     "stat_2_label": "Domenii de activitate",
     "stat_3_label": "Țări",
     "quote_attribution": "Peter Fiegler, fondator",
-    "profile_link": "Mehr über Peter Fiegler erfahren"
+    "profile_link": "Aflați mai multe despre Peter Fiegler"
   },
   "services": {
     "badge": "Servicii",
@@ -53,6 +53,7 @@
     },
     "finance": {
       "title": "Administrare financiară",
+      "tab": "General",
       "description": "Claritatea generează încredere: preluăm administrarea financiară a companiei dumneavoastră și creăm structurile transparente care permit o creștere sustenabilă.",
       "items": {
         "0": "Contabilitate și raportare",
@@ -61,6 +62,7 @@
     },
     "construction": {
       "title": "Finanțarea construcțiilor",
+      "tab": "Construcții",
       "description": "Proiectele de construcții necesită fiabilitate financiară. Structurăm și supraveghem finanțarea proiectelor dumneavoastră de construcții — de la calculul inițial până la finalizare.",
       "items": {
         "0": "Finanțare de proiecte",
@@ -70,6 +72,7 @@
     },
     "yacht": {
       "title": "Finanțarea construcției de iahturi",
+      "tab": "Iahturi",
       "description": "Un segment distinctiv merită o atenție distinctivă. Consiliem în finanțarea proiectelor de construcție de iahturi — discret, personal și cu o înțelegere reală a standardelor industriei.",
       "items": {
         "0": "Finanțare iahturi",
@@ -190,13 +193,13 @@
     }
   },
   "footer": {
-    "description": "FIECON Germany Co. KG — Consultanță internațională în drept societar, constituirea de societăți și nu numai. Personal. Precis. Partenerial.",
+    "description": "FIECON Consulting UG & Co KG — Consultanță internațională în drept societar, constituirea de societăți și nu numai. Personal. Precis. Partenerial.",
     "services_title": "Servicii",
     "offices_title": "Birouri",
     "legal_title": "Informații legale",
     "impressum": "Aviz legal",
     "datenschutz": "Politica de confidențialitate",
-    "copyright": "© {year} FIECON Germany Co. KG. Toate drepturile rezervate."
+    "copyright": "© {year} FIECON Consulting UG & Co KG. Toate drepturile rezervate."
   },
   "error": {
     "title": "A apărut o eroare",
@@ -300,37 +303,37 @@
     "contact_label": "Contact"
   },
   "team": {
-    "nav_label": "Team",
-    "competencies_headline": "Kompetenzfelder",
-    "cta_headline": "Lassen Sie uns ins Gespräch kommen",
-    "cta_subline": "Ob eine erste Frage oder ein konkretes Vorhaben — wir nehmen uns Zeit für Sie.",
-    "cta_button": "Kontakt aufnehmen",
-    "back_to_home": "Zur Startseite",
-    "breadcrumb_home": "Startseite"
+    "nav_label": "Echipă",
+    "competencies_headline": "Domenii de competență",
+    "cta_headline": "Să începem o conversație",
+    "cta_subline": "Fie că este o primă întrebare sau un proiect concret — ne facem timp pentru dumneavoastră.",
+    "cta_button": "Contactați-ne",
+    "back_to_home": "Înapoi la pagina principală",
+    "breadcrumb_home": "Acasă"
   },
   "team_peter_fiegler": {
-    "meta_title": "Peter Fiegler — Gründer & Gesellschaftsrechtsexperte",
-    "meta_description": "Peter Fiegler, Gründer von FIECON. Langjährige Expertise im Gesellschaftsrecht, internationale Firmengründungen und persönliche Beratung auf höchstem Niveau.",
+    "meta_title": "Peter Fiegler — Fondator și expert în drept societar",
+    "meta_description": "Peter Fiegler, fondatorul FIECON. Expertiză vastă în dreptul societar, constituirea internațională de societăți și consultanță personală la cel mai înalt nivel.",
     "hero_name": "Peter Fiegler",
-    "hero_role": "Gründer & Geschäftsführer",
-    "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
-    "bio_badge": "Über Peter Fiegler",
-    "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
+    "hero_role": "Fondator și Director General",
+    "hero_tagline": "Drept societar și constituirea internațională de societăți — cu viziune, precizie și angajament personal.",
+    "bio_badge": "Despre Peter Fiegler",
+    "bio_1": "Peter Fiegler a fondat FIECON cu convingerea că o consultanță de excelență în dreptul societar reușește doar atunci când adopți pe deplin perspectiva clientului. Abordarea sa combină o expertiză profundă cu un simț antreprenorial care depășește cu mult dimensiunea pur juridică.",
     "bio_2": "Cu birouri în Hamburg, Belgrad, Texas, Muntenegru și Vanuatu, a construit o rețea internațională care însoțește clienții oriunde îi duc proiectele lor — fie că este vorba de înființarea unei companii în sud-estul Europei, structurarea unui holding sau accesul pe noi piețe.",
-    "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
-    "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
-    "quote_attribution": "Peter Fiegler, Gründer",
-    "competency_1_title": "Gesellschaftsrecht",
-    "competency_1_description": "Beratung bei der Gründung, Strukturierung und Führung von Gesellschaften — national und international. Von der GmbH bis zur grenzüberschreitenden Holding.",
-    "competency_2_title": "Internationale Firmengründungen",
-    "competency_2_description": "Umfassende Begleitung bei Firmengründungen in Deutschland, Serbien, den USA und weiteren Jurisdiktionen. Rechtssicher und effizient.",
-    "competency_3_title": "Finanzverwaltung & Compliance",
-    "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
-    "competency_4_title": "Strategische Beratung",
-    "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
+    "bio_3": "Filosofia sa este simplă: fiecare mandat merită aceeași grijă pe care ar dedica-o propriei companii. Această exigență definește fiecare consultanță, fiecare structură și fiecare recomandare.",
+    "quote": "Consiliem ca și cum ar fi propria noastră companie în joc.",
+    "quote_attribution": "Peter Fiegler, fondator",
+    "competency_1_title": "Drept societar",
+    "competency_1_description": "Consultanță în constituirea, structurarea și guvernanța societăților — la nivel național și internațional. De la GmbH la holdinguri transfrontaliere.",
+    "competency_2_title": "Constituirea internațională de societăți",
+    "competency_2_description": "Asistență completă la constituirea de societăți în Germania, Serbia, SUA și alte jurisdicții. Sigur din punct de vedere juridic și eficient.",
+    "competency_3_title": "Administrare financiară și conformitate",
+    "competency_3_description": "Structuri financiare transparente, obligații de raportare și registrul transparenței — pentru o guvernanță corporativă care generează încredere.",
+    "competency_4_title": "Consultanță strategică",
+    "competency_4_description": "Strategii pe termen lung pentru creșterea companiei, structuri de participare și expansiune internațională — personal și partenerial."
   },
   "schema": {
-    "description": "FIECON Germany Co. KG — Consultanță internațională în drept societar, constituirea de societăți, administrare financiară și finanțare a construcțiilor. Birouri în Hamburg, Belgrad, Texas, Montenegro și Vanuatu.",
+    "description": "FIECON Consulting UG & Co KG — Consultanță internațională în drept societar, constituirea de societăți, administrare financiară și finanțare a construcțiilor. Birouri în Hamburg, Belgrad, Texas, Montenegro și Vanuatu.",
     "offer_catalog": "Servicii",
     "service_consulting": "Drept societar și constituirea de societăți",
     "service_finance": "Administrare financiară",

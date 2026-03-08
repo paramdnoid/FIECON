@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — Alþjóðleg ráðgjöf um félagarétt og stofnun fyrirtækja",
-    "description": "FIECON Germany Co. KG — Alþjóðleg ráðgjöf um félagarétt, stofnun fyrirtækja, fjármálastjórnun og byggingarfjármögnun. Skrifstofur í Hamborg, Belgrad, Texas, Montenegro og Vanuatu.",
+    "description": "FIECON Consulting UG & Co KG — Alþjóðleg ráðgjöf um félagarétt, stofnun fyrirtækja, fjármálastjórnun og byggingarfjármögnun. Skrifstofur í Hamborg, Belgrad, Texas, Montenegro og Vanuatu.",
     "keywords": "félagaréttur, alþjóðleg fyrirtækjastofnun, ráðgjöf Hamburg, fjármálastjórnun, byggingarfjármögnun, FIECON Consulting"
   },
   "nav": {
@@ -21,7 +21,7 @@
     "skip_to_content": "Fara í efni"
   },
   "hero": {
-    "tagline": "Fiegler Consulting",
+    "tagline": "FIECON Consulting",
     "headline": "Fyrirtækið þitt. Ráðlagt á alþjóðavettvangi.",
     "subtitle": "Félagaréttur og alþjóðleg stofnun fyrirtækja — persónuleg leiðsögn í Hamborg, Belgrad, Texas, Montenegro og Vanuatu.",
     "cta_primary": "Þjónusta okkar",
@@ -37,7 +37,7 @@
     "stat_2_label": "Starfsvið",
     "stat_3_label": "Lönd",
     "quote_attribution": "Peter Fiegler, stofnandi",
-    "profile_link": "Mehr über Peter Fiegler erfahren"
+    "profile_link": "Fræðast meira um Peter Fiegler"
   },
   "services": {
     "badge": "Þjónusta",
@@ -53,6 +53,7 @@
     },
     "finance": {
       "title": "Fjármálastjórnun",
+      "tab": "Almennt",
       "description": "Skýrleiki byggir traust: við tökum á okkur fjármálastjórnun fyrirtækis þíns og búum til gagnsæjar skipulagsheildir sem gera sjálfbæran vöxt mögulegan.",
       "items": {
         "0": "Bókhald og skýrslugerð",
@@ -61,6 +62,7 @@
     },
     "construction": {
       "title": "Byggingarfjármögnun",
+      "tab": "Bygging",
       "description": "Byggingarverkefni krefjast fjárhagslegrar áreiðanleika. Við skipuleggjum og umsjónum fjármögnun byggingarverkefna þinna — frá upphaflegum útreikningi til verkloka.",
       "items": {
         "0": "Verkefnafjármögnun",
@@ -70,6 +72,7 @@
     },
     "yacht": {
       "title": "Snekkjubyggingarfjármögnun",
+      "tab": "Snekkjubygging",
       "description": "Sérstakt svið á skilið sérstaka umhyggju. Við ráðleggjum um fjármögnun snekkjubyggingarverkefna — af trúnaði, persónulega og með raunverulegum skilningi á stöðlum greinarinnar.",
       "items": {
         "0": "Snekkjufjármögnun",
@@ -190,13 +193,13 @@
     }
   },
   "footer": {
-    "description": "FIECON Germany Co. KG — Alþjóðleg ráðgjöf um félagarétt, stofnun fyrirtækja og fleira. Persónulega. Nákvæmlega. Í samstarfi.",
+    "description": "FIECON Consulting UG & Co KG — Alþjóðleg ráðgjöf um félagarétt, stofnun fyrirtækja og fleira. Persónulega. Nákvæmlega. Í samstarfi.",
     "services_title": "Þjónusta",
     "offices_title": "Skrifstofur",
     "legal_title": "Lagalegt",
     "impressum": "Lagaleg tilkynning",
     "datenschutz": "Persónuverndarstefna",
-    "copyright": "© {year} FIECON Germany Co. KG. Allur réttur áskilinn."
+    "copyright": "© {year} FIECON Consulting UG & Co KG. Allur réttur áskilinn."
   },
   "error": {
     "title": "Villa kom upp",
@@ -239,16 +242,16 @@
     "bio_1": "Andre Zimmermann ber ábyrgð á tæknilegri stefnu og vefþróun FIECON. Sem fullgildur forritunaraðili sameinar hann dýptar tæknilegar þekkingar með markvissri notkun gervigreindar — og breytir metnaðarfullum verkefnum í veruleika á hæsta faglegu staðli.",
     "bio_2": "Með yfir 20 ára faglega reynslu í hugbúnaðarþróun og dýpa skilning á forritun með gervigreind, býr hann einstakt prófíl: hann nýtir nútíma gervigreindartækni sem stefnumótandi tól til að flýta þróun og skila niðurstöðum af hámarks faglega gæðum.",
     "bio_3": "Meginregla hans: tækni ætti aldrei að vera tilgangur í sjálfu sér, heldur tól — nákvæmt, áreiðanlegt og aðlagað þörfum fyrirtækisins. Með gervigreind sem samstarfsaðila verður hver framtíðarsýn að niðurstöðu sem sannarlega sannfærir.",
-    "quote": "Great technology is invisible — it simply works.",
+    "quote": "Góð tækni er ósýnileg — hún virkar einfaldlega.",
     "quote_attribution": "Andre Zimmermann",
-    "competency_1_title": "Web Development & Full-Stack",
-    "competency_1_description": "Conception and development of modern web applications — from user interface to server architecture. Performant, secure and scalable.",
-    "competency_2_title": "Software Architecture",
-    "competency_2_description": "Design of robust system architectures that grow with the business. From technology selection to long-term maintainability.",
-    "competency_3_title": "IT Project Management",
-    "competency_3_description": "Leadership and coordination of development teams and technical projects — with clear processes, agile methodologies and measurable outcomes.",
-    "competency_4_title": "Digital Infrastructure",
-    "competency_4_description": "Building and optimising digital infrastructure for businesses — from server administration to the integration of modern cloud solutions."
+    "competency_1_title": "Vefþróun & Full-Stack",
+    "competency_1_description": "Hugmyndasmíði og þróun nútíma vefforrita — frá notendaviðmóti til miðlaraarkitektúrs. Afkastamikið, öruggt og skalanlegt.",
+    "competency_2_title": "Hugbúnaðararkitektúr",
+    "competency_2_description": "Hönnun traustrar kerfisarkitektúrs sem vex með fyrirtækinu. Frá tæknivali til langtímaviðhaldsþjónustu.",
+    "competency_3_title": "Upplýsingatæknistjórnun verkefna",
+    "competency_3_description": "Forysta og samhæfing þróunarteymis og tæknilegra verkefna — með skýrum ferlum, sveigjanlegum aðferðum og mælanlegum árangri.",
+    "competency_4_title": "Stafræn innviðir",
+    "competency_4_description": "Uppbygging og fínstilling stafrænna innviða fyrir fyrirtæki — frá miðlarastjórnun til samþættingar nútíma skýjalausna."
   },
   "impressum": {
     "title": "Lagaleg tilkynning",
@@ -301,36 +304,36 @@
   },
   "team": {
     "nav_label": "Team",
-    "competencies_headline": "Kompetenzfelder",
-    "cta_headline": "Lassen Sie uns ins Gespräch kommen",
-    "cta_subline": "Ob eine erste Frage oder ein konkretes Vorhaben — wir nehmen uns Zeit für Sie.",
-    "cta_button": "Kontakt aufnehmen",
-    "back_to_home": "Zur Startseite",
-    "breadcrumb_home": "Startseite"
+    "competencies_headline": "Hæfnissvið",
+    "cta_headline": "Byrjum samtal",
+    "cta_subline": "Hvort sem um er að ræða upphaflega spurningu eða tiltekið verkefni — við tökum okkur tíma fyrir þig.",
+    "cta_button": "Hafðu samband",
+    "back_to_home": "Á forsíðu",
+    "breadcrumb_home": "Forsíða"
   },
   "team_peter_fiegler": {
-    "meta_title": "Peter Fiegler — Gründer & Gesellschaftsrechtsexperte",
-    "meta_description": "Peter Fiegler, Gründer von FIECON. Langjährige Expertise im Gesellschaftsrecht, internationale Firmengründungen und persönliche Beratung auf höchstem Niveau.",
+    "meta_title": "Peter Fiegler — Stofnandi & sérfræðingur í félagarétti",
+    "meta_description": "Peter Fiegler, stofnandi FIECON. Víðtæk sérfræðiþekking í félagarétti, alþjóðlegum fyrirtækjastofnunum og persónulegri ráðgjöf á hæsta stigi.",
     "hero_name": "Peter Fiegler",
-    "hero_role": "Gründer & Geschäftsführer",
-    "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
-    "bio_badge": "Über Peter Fiegler",
-    "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
+    "hero_role": "Stofnandi & framkvæmdastjóri",
+    "hero_tagline": "Félagaréttur og alþjóðlegar fyrirtækjastofnanir — með framsýni, nákvæmni og persónulegri skuldbindingu.",
+    "bio_badge": "Um Peter Fiegler",
+    "bio_1": "Peter Fiegler stofnaði FIECON með þeirri sannfæringu að framúrskarandi ráðgjöf í félagarétti nái einungis árangri þegar maður tekur sjónarhorn umbjóðandans að fullu. Nálgun hans sameinar djúpa sérfræðiþekkingu og frumkvöðlaanda sem nær langt út fyrir hið hreina lagalega svið.",
     "bio_2": "Með skrifstofur í Hamborg, Belgrad, Texas, Montenegro og Vanuatu hefur hann byggt upp alþjóðlegt net sem fylgir viðskiptavinum hvert sem viðskiptaáform þeirra leiða — hvort sem um er að ræða stofnun félags í Suðaustur-Evrópu, skipulagningu eignarhaldsfélags eða aðgang að nýjum mörkuðum.",
-    "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
-    "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
-    "quote_attribution": "Peter Fiegler, Gründer",
-    "competency_1_title": "Gesellschaftsrecht",
-    "competency_1_description": "Beratung bei der Gründung, Strukturierung und Führung von Gesellschaften — national und international. Von der GmbH bis zur grenzüberschreitenden Holding.",
-    "competency_2_title": "Internationale Firmengründungen",
-    "competency_2_description": "Umfassende Begleitung bei Firmengründungen in Deutschland, Serbien, den USA und weiteren Jurisdiktionen. Rechtssicher und effizient.",
-    "competency_3_title": "Finanzverwaltung & Compliance",
-    "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
-    "competency_4_title": "Strategische Beratung",
-    "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
+    "bio_3": "Heimspeki hans er einföld: hvert umboð á skilið sömu umhyggju og hann myndi verja eigin fyrirtæki. Þessi krafa mótar hverja ráðgjöf, hverja uppbyggingu og hverja ráðleggingu.",
+    "quote": "Við ráðleggjum eins og um okkar eigið fyrirtæki væri að ræða.",
+    "quote_attribution": "Peter Fiegler, stofnandi",
+    "competency_1_title": "Félagaréttur",
+    "competency_1_description": "Ráðgjöf við stofnun, skipulagningu og stjórnun félaga — innanlands og á alþjóðavettvangi. Frá GmbH til eignarhaldsfélag yfir landamæri.",
+    "competency_2_title": "Alþjóðlegar fyrirtækjastofnanir",
+    "competency_2_description": "Alhliða stuðningur við stofnun fyrirtækja í Þýskalandi, Serbíu, Bandaríkjunum og fleiri lögsögum. Lagalega traust og skilvirkt.",
+    "competency_3_title": "Fjármálastjórnun & reglufylgni",
+    "competency_3_description": "Gagnsæjar fjármálauppbyggingar, tilkynningaskylda og gagnsæisskrár — fyrir stjórnarhætti sem byggja upp traust.",
+    "competency_4_title": "Stefnumótandi ráðgjöf",
+    "competency_4_description": "Langtímastefnur fyrir vöxt fyrirtækja, hlutdeildarskipulag og alþjóðlega útrás — persónulega og í samstarfi."
   },
   "schema": {
-    "description": "FIECON Germany Co. KG — Alþjóðleg ráðgjöf um félagarétt, stofnun fyrirtækja, fjármálastjórnun og byggingarfjármögnun. Skrifstofur í Hamborg, Belgrad, Texas, Montenegro og Vanuatu.",
+    "description": "FIECON Consulting UG & Co KG — Alþjóðleg ráðgjöf um félagarétt, stofnun fyrirtækja, fjármálastjórnun og byggingarfjármögnun. Skrifstofur í Hamborg, Belgrad, Texas, Montenegro og Vanuatu.",
     "offer_catalog": "Þjónusta",
     "service_consulting": "Félagaréttur og stofnun fyrirtækja",
     "service_finance": "Fjármálastjórnun",

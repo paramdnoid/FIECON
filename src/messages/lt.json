@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — Tarptautinė bendrovių teisė ir konsultacijos dėl įmonių steigimo",
-    "description": "FIECON Germany Co. KG — Tarptautinės konsultacijos bendrovių teisės, įmonių steigimo, finansų administravimo ir statybų finansavimo srityse. Biurai Hamburge, Belgrade, Teksase, Montenegro ir Vanuatu.",
+    "description": "FIECON Consulting UG & Co KG — Tarptautinės konsultacijos bendrovių teisės, įmonių steigimo, finansų administravimo ir statybų finansavimo srityse. Biurai Hamburge, Belgrade, Teksase, Montenegro ir Vanuatu.",
     "keywords": "bendrovių teisė, tarptautinis įmonės steigimas, konsultacijos Hamburgas, finansų valdymas, statybų finansavimas, FIECON Consulting"
   },
   "nav": {
@@ -21,7 +21,7 @@
     "skip_to_content": "Pereiti prie turinio"
   },
   "hero": {
-    "tagline": "Fiegler Consulting",
+    "tagline": "FIECON Consulting",
     "headline": "Jūsų verslas. Tarptautiškai konsultuojamas.",
     "subtitle": "Bendrovių teisė ir tarptautinis įmonių steigimas — asmeninis konsultavimas Hamburge, Belgrade, Teksase, Montenegro ir Vanuatu.",
     "cta_primary": "Mūsų paslaugos",
@@ -37,7 +37,7 @@
     "stat_2_label": "Praktikos sritys",
     "stat_3_label": "Šalys",
     "quote_attribution": "Peter Fiegler, Įkūrėjas",
-    "profile_link": "Mehr über Peter Fiegler erfahren"
+    "profile_link": "Sužinokite daugiau apie Peter Fiegler"
   },
   "services": {
     "badge": "Paslaugos",
@@ -53,6 +53,7 @@
     },
     "finance": {
       "title": "Finansų administravimas",
+      "tab": "Bendra",
       "description": "Aiškumas kuria pasitikėjimą: perimame jūsų įmonės finansų administravimą ir kuriame skaidrias struktūras, kurios leidžia tvarų augimą.",
       "items": {
         "0": "Apskaita ir ataskaitų teikimas",
@@ -61,6 +62,7 @@
     },
     "construction": {
       "title": "Statybų finansavimas",
+      "tab": "Statyba",
       "description": "Statybų projektams reikia finansinio patikimumo. Struktūrizuojame ir prižiūrime jūsų statybų projektų finansavimą — nuo pradinio skaičiavimo iki užbaigimo.",
       "items": {
         "0": "Projektų finansavimas",
@@ -70,6 +72,7 @@
     },
     "yacht": {
       "title": "Jachtų statybos finansavimas",
+      "tab": "Jachta",
       "description": "Ypatingas segmentas nusipelno ypatingos priežiūros. Konsultuojame dėl jachtų statybos projektų finansavimo — diskretiškai, asmeniškai ir su tikru pramonės standartų supratimu.",
       "items": {
         "0": "Jachtų finansavimas",
@@ -190,13 +193,13 @@
     }
   },
   "footer": {
-    "description": "FIECON Germany Co. KG — Tarptautinės konsultacijos bendrovių teisės, įmonių steigimo ir kitose srityse. Asmeniškai. Tiksliai. Partnerystėje.",
+    "description": "FIECON Consulting UG & Co KG — Tarptautinės konsultacijos bendrovių teisės, įmonių steigimo ir kitose srityse. Asmeniškai. Tiksliai. Partnerystėje.",
     "services_title": "Paslaugos",
     "offices_title": "Biurai",
     "legal_title": "Teisinė informacija",
     "impressum": "Impressum",
     "datenschutz": "Privatumo politika",
-    "copyright": "© {year} FIECON Germany Co. KG. Visos teisės saugomos."
+    "copyright": "© {year} FIECON Consulting UG & Co KG. Visos teisės saugomos."
   },
   "error": {
     "title": "Įvyko klaida",
@@ -301,36 +304,36 @@
   },
   "team": {
     "nav_label": "Team",
-    "competencies_headline": "Kompetenzfelder",
-    "cta_headline": "Lassen Sie uns ins Gespräch kommen",
-    "cta_subline": "Ob eine erste Frage oder ein konkretes Vorhaben — wir nehmen uns Zeit für Sie.",
-    "cta_button": "Kontakt aufnehmen",
-    "back_to_home": "Zur Startseite",
-    "breadcrumb_home": "Startseite"
+    "competencies_headline": "Kompetencijos sritys",
+    "cta_headline": "Pradėkime pokalbį",
+    "cta_subline": "Nesvarbu, ar tai pradinis klausimas, ar konkretus projektas — mes skiriame jums laiko.",
+    "cta_button": "Susisiekite su mumis",
+    "back_to_home": "Į pagrindinį puslapį",
+    "breadcrumb_home": "Pradžia"
   },
   "team_peter_fiegler": {
-    "meta_title": "Peter Fiegler — Gründer & Gesellschaftsrechtsexperte",
-    "meta_description": "Peter Fiegler, Gründer von FIECON. Langjährige Expertise im Gesellschaftsrecht, internationale Firmengründungen und persönliche Beratung auf höchstem Niveau.",
+    "meta_title": "Peter Fiegler — Įkūrėjas ir bendrovių teisės ekspertas",
+    "meta_description": "Peter Fiegler, FIECON įkūrėjas. Ilgametė patirtis bendrovių teisėje, tarptautinis įmonių steigimas ir aukščiausio lygio asmeninės konsultacijos.",
     "hero_name": "Peter Fiegler",
-    "hero_role": "Gründer & Geschäftsführer",
-    "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
-    "bio_badge": "Über Peter Fiegler",
-    "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
+    "hero_role": "Įkūrėjas ir generalinis direktorius",
+    "hero_tagline": "Bendrovių teisė ir tarptautinis įmonių steigimas — su toliaregyste, tikslumu ir asmeniniu įsipareigojimu.",
+    "bio_badge": "Apie Peter Fiegler",
+    "bio_1": "Peter Fiegler įkūrė FIECON su įsitikinimu, kad puiki bendrovių teisės konsultacija pavyksta tik tada, kai visiškai perimi kliento perspektyvą. Jo požiūris sujungia gilias profesines žinias su verslumo intuicija, kuri toli pranoksta grynai teisinę plotmę.",
     "bio_2": "Su biurais Hamburge, Belgrade, Teksase, Montenegre ir Vanuatu jis sukūrė tarptautinį tinklą, kuris lydi klientus ten, kur juos veda verslo planai — nesvarbu, ar tai įmonės steigimas Pietryčių Europoje, holdingo struktūrizavimas ar naujų rinkų atvėrimas.",
-    "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
-    "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
-    "quote_attribution": "Peter Fiegler, Gründer",
-    "competency_1_title": "Gesellschaftsrecht",
-    "competency_1_description": "Beratung bei der Gründung, Strukturierung und Führung von Gesellschaften — national und international. Von der GmbH bis zur grenzüberschreitenden Holding.",
-    "competency_2_title": "Internationale Firmengründungen",
-    "competency_2_description": "Umfassende Begleitung bei Firmengründungen in Deutschland, Serbien, den USA und weiteren Jurisdiktionen. Rechtssicher und effizient.",
-    "competency_3_title": "Finanzverwaltung & Compliance",
-    "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
-    "competency_4_title": "Strategische Beratung",
-    "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
+    "bio_3": "Jo filosofija paprasta: kiekvienas pavedimas nusipelno tokio pat kruopštumo, kokį jis skirtų savo paties įmonei. Šis reikalavimas formuoja kiekvieną konsultaciją, kiekvieną struktūrą ir kiekvieną rekomendaciją.",
+    "quote": "Mes konsultuojame taip, tarsi tai būtų mūsų pačių įmonė.",
+    "quote_attribution": "Peter Fiegler, Įkūrėjas",
+    "competency_1_title": "Bendrovių teisė",
+    "competency_1_description": "Konsultacijos dėl bendrovių steigimo, struktūrizavimo ir valdymo — nacionaliniu ir tarptautiniu lygiu. Nuo GmbH iki tarpvalstybinių holdingų.",
+    "competency_2_title": "Tarptautinis įmonių steigimas",
+    "competency_2_description": "Visapusiškas palydėjimas steigiant įmones Vokietijoje, Serbijoje, JAV ir kitose jurisdikcijose. Teisiškai patikima ir efektyvu.",
+    "competency_3_title": "Finansų administravimas ir atitiktis",
+    "competency_3_description": "Skaidrios finansinės struktūros, ataskaitų teikimo pareigos ir skaidrumo registras — įmonės valdymui, kuris kuria pasitikėjimą.",
+    "competency_4_title": "Strateginis konsultavimas",
+    "competency_4_description": "Ilgalaikės strategijos įmonių augimui, dalyvavimo struktūroms ir tarptautinei ekspansijai — asmeniškai ir partnerystėje."
   },
   "schema": {
-    "description": "FIECON Germany Co. KG — Tarptautinės konsultacijos bendrovių teisės, įmonių steigimo, finansų administravimo ir statybų finansavimo srityse. Biurai Hamburge, Belgrade, Teksase, Montenegro ir Vanuatu.",
+    "description": "FIECON Consulting UG & Co KG — Tarptautinės konsultacijos bendrovių teisės, įmonių steigimo, finansų administravimo ir statybų finansavimo srityse. Biurai Hamburge, Belgrade, Teksase, Montenegro ir Vanuatu.",
     "offer_catalog": "Paslaugos",
     "service_consulting": "Bendrovių teisė ir įmonių steigimas",
     "service_finance": "Finansų administravimas",

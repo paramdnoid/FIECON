@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — Διεθνές Εταιρικό Δίκαιο & Συμβουλευτική Ίδρυσης Εταιρειών",
-    "description": "FIECON Germany Co. KG — Διεθνής συμβουλευτική για εταιρικό δίκαιο, ίδρυση εταιρειών, χρηματοοικονομική διοίκηση και χρηματοδότηση κατασκευών. Γραφεία σε Αμβούργο, Βελιγράδι, Τέξας, Montenegro και Vanuatu.",
+    "description": "FIECON Consulting UG & Co KG — Διεθνής συμβουλευτική για εταιρικό δίκαιο, ίδρυση εταιρειών, χρηματοοικονομική διοίκηση και χρηματοδότηση κατασκευών. Γραφεία σε Αμβούργο, Βελιγράδι, Τέξας, Montenegro και Vanuatu.",
     "keywords": "εταιρικό δίκαιο, διεθνής ίδρυση εταιρειών, συμβουλευτική Αμβούργο, οικονομική διαχείριση, χρηματοδότηση κατασκευών, FIECON Consulting"
   },
   "nav": {
@@ -21,7 +21,7 @@
     "skip_to_content": "Μετάβαση στο περιεχόμενο"
   },
   "hero": {
-    "tagline": "Fiegler Consulting",
+    "tagline": "FIECON Consulting",
     "headline": "Η επιχείρησή σας. Διεθνώς καθοδηγημένη.",
     "subtitle": "Εταιρικό δίκαιο και διεθνής ίδρυση εταιρειών — προσωπική καθοδήγηση σε Αμβούργο, Βελιγράδι, Τέξας, Montenegro και Vanuatu.",
     "cta_primary": "Οι υπηρεσίες μας",
@@ -37,7 +37,7 @@
     "stat_2_label": "Τομείς πρακτικής",
     "stat_3_label": "Χώρες",
     "quote_attribution": "Peter Fiegler, Ιδρυτής",
-    "profile_link": "Mehr über Peter Fiegler erfahren"
+    "profile_link": "Μάθετε περισσότερα για τον Peter Fiegler"
   },
   "services": {
     "badge": "Υπηρεσίες",
@@ -53,6 +53,7 @@
     },
     "finance": {
       "title": "Χρηματοοικονομική Διοίκηση",
+      "tab": "Γενικά",
       "description": "Η σαφήνεια χτίζει εμπιστοσύνη: αναλαμβάνουμε τη χρηματοοικονομική διοίκηση της εταιρείας σας και δημιουργούμε τις διαφανείς δομές που επιτρέπουν βιώσιμη ανάπτυξη.",
       "items": {
         "0": "Λογιστική & Αναφορές",
@@ -61,6 +62,7 @@
     },
     "construction": {
       "title": "Χρηματοδότηση Κατασκευών",
+      "tab": "Κατασκευές",
       "description": "Τα κατασκευαστικά έργα απαιτούν οικονομική αξιοπιστία. Δομούμε και επιβλέπουμε τη χρηματοδότηση των κατασκευαστικών σας εγχειρημάτων — από τον αρχικό υπολογισμό έως την ολοκλήρωση.",
       "items": {
         "0": "Χρηματοδότηση Έργων",
@@ -70,6 +72,7 @@
     },
     "yacht": {
       "title": "Χρηματοδότηση Ναυπήγησης Σκαφών",
+      "tab": "Σκάφη",
       "description": "Ένας ιδιαίτερος τομέας αξίζει ιδιαίτερη φροντίδα. Παρέχουμε συμβουλές για τη χρηματοδότηση έργων ναυπήγησης σκαφών — διακριτικά, προσωπικά και με γνήσια κατανόηση των προτύπων του κλάδου.",
       "items": {
         "0": "Χρηματοδότηση Σκαφών",
@@ -77,12 +80,12 @@
       }
     },
     "private_health_insurance": {
-      "title": "Private health insurance for self-employed entrepreneurs",
-      "description": "We support self-employed entrepreneurs in selecting, structuring and optimizing private health insurance — tailored to income profile, coverage requirements and long-term planning.",
+      "title": "Ιδιωτική ασφάλιση υγείας για αυτοαπασχολούμενους επιχειρηματίες",
+      "description": "Υποστηρίζουμε αυτοαπασχολούμενους επιχειρηματίες στην επιλογή, δόμηση και βελτιστοποίηση ιδιωτικής ασφάλισης υγείας — προσαρμοσμένη στο εισοδηματικό προφίλ, τις απαιτήσεις κάλυψης και τον μακροπρόθεσμο σχεδιασμό.",
       "items": {
-        "0": "Plan comparison & selection",
-        "1": "Coverage and premium optimization",
-        "2": "Long-term protection strategy"
+        "0": "Σύγκριση και επιλογή προγράμματος",
+        "1": "Βελτιστοποίηση κάλυψης και ασφαλίστρων",
+        "2": "Μακροπρόθεσμη στρατηγική προστασίας"
       }
     },
 
@@ -190,13 +193,13 @@
     }
   },
   "footer": {
-    "description": "FIECON Germany Co. KG — Διεθνής συμβουλευτική για εταιρικό δίκαιο, ίδρυση εταιρειών και πέρα από αυτά. Προσωπική. Ακριβής. Σε συνεργασία.",
+    "description": "FIECON Consulting UG & Co KG — Διεθνής συμβουλευτική για εταιρικό δίκαιο, ίδρυση εταιρειών και πέρα από αυτά. Προσωπική. Ακριβής. Σε συνεργασία.",
     "services_title": "Υπηρεσίες",
     "offices_title": "Γραφεία",
     "legal_title": "Νομικά",
     "impressum": "Νομική Γνωστοποίηση",
     "datenschutz": "Πολιτική Απορρήτου",
-    "copyright": "© {year} FIECON Germany Co. KG. Με επιφύλαξη παντός δικαιώματος."
+    "copyright": "© {year} FIECON Consulting UG & Co KG. Με επιφύλαξη παντός δικαιώματος."
   },
   "error": {
     "title": "Παρουσιάστηκε σφάλμα",
@@ -239,16 +242,16 @@
     "bio_1": "Ο Andre Zimmermann είναι υπεύθυνος για την τεχνολογική κατεύθυνση και την ανάπτυξη web της FIECON. Ως πιστοποιημένος προγραμματιστής εφαρμογών, συνδυάζει βαθιά τεχνική εμπειρογνωμοσύνη με τη στοχευμένη χρήση της τεχνητής νοημοσύνης — μετατρέποντας φιλόδοξα έργα σε πραγματικότητα στο υψηλότερο επαγγελματικό επίπεδο.",
     "bio_2": "Με πάνω από 20 χρόνια επαγγελματικής εμπειρίας στην ανάπτυξη λογισμικού και βαθιά κατανόηση του προγραμματισμού με τεχνητή νοημοσύνη, φέρνει ένα μοναδικό προφίλ: αξιοποιεί τις πιο προηγμένες τεχνολογίες ΤΝ ως στρατηγικό εργαλείο για επιτάχυνση της ανάπτυξης και παράδοση αποτελεσμάτων μέγιστης επαγγελματικής ποιότητας.",
     "bio_3": "Η αρχή του: η τεχνολογία δεν πρέπει ποτέ να είναι σκοπός από μόνη της, αλλά εργαλείο — ακριβές, αξιόπιστο και προσαρμοσμένο στις ανάγκες της επιχείρησης. Με την ΤΝ ως συνεργάτη, κάθε όραμα γίνεται αποτέλεσμα που πραγματικά πείθει.",
-    "quote": "Great technology is invisible — it simply works.",
+    "quote": "Η καλή τεχνολογία είναι αόρατη — απλώς λειτουργεί.",
     "quote_attribution": "Andre Zimmermann",
-    "competency_1_title": "Web Development & Full-Stack",
-    "competency_1_description": "Conception and development of modern web applications — from user interface to server architecture. Performant, secure and scalable.",
-    "competency_2_title": "Software Architecture",
-    "competency_2_description": "Design of robust system architectures that grow with the business. From technology selection to long-term maintainability.",
-    "competency_3_title": "IT Project Management",
-    "competency_3_description": "Leadership and coordination of development teams and technical projects — with clear processes, agile methodologies and measurable outcomes.",
-    "competency_4_title": "Digital Infrastructure",
-    "competency_4_description": "Building and optimising digital infrastructure for businesses — from server administration to the integration of modern cloud solutions."
+    "competency_1_title": "Ανάπτυξη Web & Full-Stack",
+    "competency_1_description": "Σχεδιασμός και ανάπτυξη σύγχρονων εφαρμογών web — από τη διεπαφή χρήστη έως την αρχιτεκτονική διακομιστή. Υψηλής απόδοσης, ασφαλής και επεκτάσιμη.",
+    "competency_2_title": "Αρχιτεκτονική Λογισμικού",
+    "competency_2_description": "Σχεδιασμός εύρωστων αρχιτεκτονικών συστημάτων που αναπτύσσονται μαζί με την επιχείρηση. Από την επιλογή τεχνολογίας έως τη μακροπρόθεσμη συντηρησιμότητα.",
+    "competency_3_title": "Διαχείριση Έργων IT",
+    "competency_3_description": "Ηγεσία και συντονισμός ομάδων ανάπτυξης και τεχνικών έργων — με σαφείς διαδικασίες, ευέλικτες μεθοδολογίες και μετρήσιμα αποτελέσματα.",
+    "competency_4_title": "Ψηφιακή Υποδομή",
+    "competency_4_description": "Κατασκευή και βελτιστοποίηση ψηφιακής υποδομής για επιχειρήσεις — από τη διαχείριση διακομιστών έως την ενσωμάτωση σύγχρονων λύσεων cloud."
   },
   "impressum": {
     "title": "Νομική Γνωστοποίηση",
@@ -301,36 +304,36 @@
   },
   "team": {
     "nav_label": "Team",
-    "competencies_headline": "Kompetenzfelder",
-    "cta_headline": "Lassen Sie uns ins Gespräch kommen",
-    "cta_subline": "Ob eine erste Frage oder ein konkretes Vorhaben — wir nehmen uns Zeit für Sie.",
-    "cta_button": "Kontakt aufnehmen",
-    "back_to_home": "Zur Startseite",
-    "breadcrumb_home": "Startseite"
+    "competencies_headline": "Τομείς εξειδίκευσης",
+    "cta_headline": "Ας ξεκινήσουμε μια συζήτηση",
+    "cta_subline": "Είτε πρόκειται για ένα αρχικό ερώτημα είτε για ένα συγκεκριμένο έργο — αφιερώνουμε χρόνο για εσάς.",
+    "cta_button": "Επικοινωνήστε μαζί μας",
+    "back_to_home": "Επιστροφή στην αρχική σελίδα",
+    "breadcrumb_home": "Αρχική"
   },
   "team_peter_fiegler": {
-    "meta_title": "Peter Fiegler — Gründer & Gesellschaftsrechtsexperte",
-    "meta_description": "Peter Fiegler, Gründer von FIECON. Langjährige Expertise im Gesellschaftsrecht, internationale Firmengründungen und persönliche Beratung auf höchstem Niveau.",
+    "meta_title": "Peter Fiegler — Ιδρυτής & Ειδικός Εταιρικού Δικαίου",
+    "meta_description": "Peter Fiegler, ιδρυτής της FIECON. Εκτενής εμπειρία στο εταιρικό δίκαιο, διεθνείς ιδρύσεις εταιρειών και προσωπική συμβουλευτική στο υψηλότερο επίπεδο.",
     "hero_name": "Peter Fiegler",
-    "hero_role": "Gründer & Geschäftsführer",
-    "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
-    "bio_badge": "Über Peter Fiegler",
-    "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
+    "hero_role": "Ιδρυτής & Διευθύνων Σύμβουλος",
+    "hero_tagline": "Εταιρικό δίκαιο και διεθνείς ιδρύσεις εταιρειών — με όραμα, ακρίβεια και προσωπική δέσμευση.",
+    "bio_badge": "Σχετικά με τον Peter Fiegler",
+    "bio_1": "Ο Peter Fiegler ίδρυσε τη FIECON με την πεποίθηση ότι η εξαιρετική συμβουλευτική στο εταιρικό δίκαιο επιτυγχάνεται μόνο όταν υιοθετείς πλήρως την προοπτική του πελάτη. Η προσέγγισή του συνδυάζει βαθιά εξειδίκευση με επιχειρηματική οξυδέρκεια που εκτείνεται πολύ πέρα από το καθαρά νομικό επίπεδο.",
     "bio_2": "Με γραφεία στο Αμβούργο, το Βελιγράδι, το Τέξας, το Montenegro και το Vanuatu, έχει δημιουργήσει ένα διεθνές δίκτυο που συνοδεύει τους πελάτες όπου κι αν τους οδηγούν τα επιχειρηματικά τους σχέδια — είτε πρόκειται για ίδρυση εταιρείας στη Νοτιοανατολική Ευρώπη, δομή holding, είτε για πρόσβαση σε νέες αγορές.",
-    "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
-    "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
-    "quote_attribution": "Peter Fiegler, Gründer",
-    "competency_1_title": "Gesellschaftsrecht",
-    "competency_1_description": "Beratung bei der Gründung, Strukturierung und Führung von Gesellschaften — national und international. Von der GmbH bis zur grenzüberschreitenden Holding.",
-    "competency_2_title": "Internationale Firmengründungen",
-    "competency_2_description": "Umfassende Begleitung bei Firmengründungen in Deutschland, Serbien, den USA und weiteren Jurisdiktionen. Rechtssicher und effizient.",
-    "competency_3_title": "Finanzverwaltung & Compliance",
-    "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
-    "competency_4_title": "Strategische Beratung",
-    "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
+    "bio_3": "Η φιλοσοφία του είναι απλή: κάθε εντολή αξίζει την ίδια φροντίδα που θα αφιέρωνε στη δική του εταιρεία. Αυτή η δέσμευση διαμορφώνει κάθε συμβουλή, κάθε δομή και κάθε σύσταση.",
+    "quote": "Συμβουλεύουμε σαν να ήταν δική μας η εταιρεία.",
+    "quote_attribution": "Peter Fiegler, Ιδρυτής",
+    "competency_1_title": "Εταιρικό Δίκαιο",
+    "competency_1_description": "Συμβουλευτική για την ίδρυση, δόμηση και διοίκηση εταιρειών — εθνικά και διεθνώς. Από τη GmbH έως τις διασυνοριακές εταιρείες holding.",
+    "competency_2_title": "Διεθνείς Ιδρύσεις Εταιρειών",
+    "competency_2_description": "Ολοκληρωμένη υποστήριξη σε ιδρύσεις εταιρειών σε Γερμανία, Σερβία, ΗΠΑ και περαιτέρω δικαιοδοσίες. Νομικά ασφαλής και αποτελεσματική.",
+    "competency_3_title": "Χρηματοοικονομική Διοίκηση & Συμμόρφωση",
+    "competency_3_description": "Διαφανείς χρηματοοικονομικές δομές, υποχρεώσεις αναφοράς και μητρώα διαφάνειας — για εταιρική διακυβέρνηση που χτίζει εμπιστοσύνη.",
+    "competency_4_title": "Στρατηγική Συμβουλευτική",
+    "competency_4_description": "Μακροπρόθεσμες στρατηγικές για εταιρική ανάπτυξη, δομές συμμετοχών και διεθνή επέκταση — προσωπικά και σε πνεύμα συνεργασίας."
   },
   "schema": {
-    "description": "FIECON Germany Co. KG — Διεθνής συμβουλευτική για εταιρικό δίκαιο, ίδρυση εταιρειών, χρηματοοικονομική διοίκηση και χρηματοδότηση κατασκευών. Γραφεία σε Αμβούργο, Βελιγράδι, Τέξας, Montenegro και Vanuatu.",
+    "description": "FIECON Consulting UG & Co KG — Διεθνής συμβουλευτική για εταιρικό δίκαιο, ίδρυση εταιρειών, χρηματοοικονομική διοίκηση και χρηματοδότηση κατασκευών. Γραφεία σε Αμβούργο, Βελιγράδι, Τέξας, Montenegro και Vanuatu.",
     "offer_catalog": "Υπηρεσίες",
     "service_consulting": "Εταιρικό Δίκαιο & Ίδρυση Εταιρειών",
     "service_finance": "Χρηματοοικονομική Διοίκηση",

@@ -5,8 +5,8 @@
   },
   "metadata": {
     "title": "FIECON — Internacionalno konsultipe ande societarno zakono thaj formipe le firmengo",
-    "description": "FIECON Germany Co. KG — Internacionalno konsultipe ande societarno zakono, formipe le firmengo, finansialno administracia thaj konstrukciako finansipe. Ofisurea ando Hamburg, Belgrad, Texas, Montenegro hai Vanuatu.",
-    "keywords": "Gesellschaftsrecht, internationale Firmengründung, Beratung Hamburg, Finanzverwaltung, Bau Finanzverwaltung, FIECON Consulting"
+    "description": "FIECON Consulting UG & Co KG — Internacionalno konsultipe ande societarno zakono, formipe le firmengo, finansialno administracia thaj konstrukciako finansipe. Ofisurea ando Hamburg, Belgrad, Texas, Montenegro hai Vanuatu.",
+    "keywords": "societarno zakono, internacionalno formipe le firmengo, konsultipe Hamburg, finansialno administracia, konstrukciako finansipe, FIECON Consulting"
   },
   "nav": {
     "home": "Dza ki sherutni pajina",
@@ -21,7 +21,7 @@
     "skip_to_content": "Dza ka o somipe"
   },
   "hero": {
-    "tagline": "Fiegler Consulting",
+    "tagline": "FIECON Consulting",
     "headline": "Tumaro zakono. Internacionalno gondolime.",
     "subtitle": "Societarno zakono thaj internacionalno formipe le firmengo — personalno arakhipe ando Hamburg, Belgrad, Texas, Montenegro hai Vanuatu.",
     "cta_primary": "Amare sevaurea",
@@ -37,7 +37,7 @@
     "stat_2_label": "Specialitetake thana",
     "stat_3_label": "Phuvja",
     "quote_attribution": "Peter Fiegler, Fondatoro",
-    "profile_link": "Mehr über Peter Fiegler erfahren"
+    "profile_link": "Maj but pal o Peter Fiegler"
   },
   "services": {
     "badge": "Sevaurea",
@@ -53,6 +53,7 @@
     },
     "finance": {
       "title": "Finansialno administracia",
+      "tab": "Generalno",
       "description": "E rendo anel patsiv: las pe amende e profesionalno administracia tumare firmake lovenge thaj keras le transparentne strukturura so den shajipe le dureder barjaripeske.",
       "items": {
         "0": "Kontabilipe thaj raportipe",
@@ -61,15 +62,17 @@
     },
     "construction": {
       "title": "Konstrukciako finansipe",
+      "tab": "Konstrukcia",
       "description": "Le konstrukciake proiekturea trubun finansialno siguripe. Strukturisaras thaj phirasas o finansipe tumare konstrukciake proiekturenge — andar o angluno kalkulipe dzi ko agoripe.",
       "items": {
         "0": "Proiektako finansipe",
         "1": "Investiciako arakhipe",
-        "2": "Hypothekenabsicherung"
+        "2": "Hipotekako arakhipe"
       }
     },
     "yacht": {
       "title": "Jachtako konstrukciako finansipe",
+      "tab": "Jachta",
       "description": "Jekh specialno segmento zasluzil specialni griza. Das konsultipe ko finansipe le jachtake konstrukciake proiekturenge — diskretno, personalno thaj hakharipesa ande le truburimata kadala biznisure.",
       "items": {
         "0": "Jachtako finansipe",
@@ -86,23 +89,23 @@
       }
     },
 
-    "focus_headline": "Zentrale Handlungsfelder",
+    "focus_headline": "Sherutne butjake thana",
     "corporate_law": {
-      "title": "Gesellschaftsrechtliche Expertise",
-      "lead": "Gesellschaftsrechtsexperte Peter Fiegler und sein Team",
+      "title": "Ekspertiza ando societarno zakono",
+      "lead": "Ekspertiso ando societarno zakono Peter Fiegler thaj leskoro timo",
       "items": {
-        "0": "Internationale Gesellschafts- und Beteiligungsstrukturen",
-        "1": "Gestaltung und Absicherung von Geschäftsführung, Haftung und Compliance",
-        "2": "Begleitung bei Strukturänderungen und grenzüberschreitenden Sachverhalten"
+        "0": "Internacionalne firmake thaj participacionalne strukturura",
+        "1": "Formipe thaj arakhipe le phiravipesko, odpovedalnostako thaj compliance-sko",
+        "2": "Phiravipe ko strukturalne paruvimata thaj granitsake situacie"
       }
     },
     "transparency": {
-      "title": "Transparenzregister",
-      "lead": "Prüfung sämtlicher Meldepflichten zu wirtschaftlich Berechtigten",
+      "title": "Transparentno registro",
+      "lead": "Kontrolipe savore raportipake obligacienge anglo ekonomikane profitantura",
       "items": {
-        "0": "Abgleich deutscher Vorgaben mit ausländischen Gesellschaftsstrukturen",
-        "1": "Sicherstellung konsistenter, fristgerechter und prüfungssicherer Meldungen",
-        "2": "Regelmäßige Überprüfung und Aktualisierung der Meldungen"
+        "0": "Komparipen le germanake truburimatengo le avrialune firmake strukturencar",
+        "1": "Siguripe le konsistentne, vremeske thaj kontrolipake-sigurne raportenge",
+        "2": "Regularno kontrolipe thaj aktualizipe le raportenge"
       }
     }
   },
@@ -151,7 +154,7 @@
     "vanuatu": {
       "city": "Vanuatu",
       "country": "Vanuatu",
-      "label": "Südpazifik"
+      "label": "Sudno Pacifiko"
     }
   },
   "contact": {
@@ -190,13 +193,13 @@
     }
   },
   "footer": {
-    "description": "FIECON Germany Co. KG — Internacionalno konsultipe ande societarno zakono, formipe le firmengo thaj maj but. Personalno. Precizno. Partnersko.",
+    "description": "FIECON Consulting UG & Co KG — Internacionalno konsultipe ande societarno zakono, formipe le firmengo thaj maj but. Personalno. Precizno. Partnersko.",
     "services_title": "Sevaurea",
     "offices_title": "Ofisurea",
     "legal_title": "Zakonsko",
     "impressum": "Zakonsko info",
     "datenschutz": "Datenge arakhipe",
-    "copyright": "© {year} FIECON Germany Co. KG. Sa e hakaja arakhle."
+    "copyright": "© {year} FIECON Consulting UG & Co KG. Sa e hakaja arakhle."
   },
   "error": {
     "title": "Jekh gresha avili",
@@ -209,25 +212,25 @@
     "back": "Ki sherutni pajina"
   },
   "team_rene_marquard": {
-    "meta_title": "René Marquard — Wealth Management & Edelmetall-Finanzanlagen",
-    "meta_description": "René Marquard, Spezialist für Wealth Management und Finanzanlagen in Edelmetall bei FIECON. Persönliche Vermögensberatung mit Weitblick und Diskretion.",
+    "meta_title": "René Marquard — Barvalipako phiravipe thaj investicie ande therne metale",
+    "meta_description": "René Marquard, specialisto anglo barvalipako phiravipe thaj investicie ande therne metale ande FIECON. Personalno barvalipako konsultipe dural dikhipesa thaj diskreciasa.",
     "hero_name": "René Marquard",
-    "hero_role": "Spezialist für Wealth Management",
-    "hero_tagline": "Wealth Management und Finanzanlagen in Edelmetall — mit Erfahrung, Diskretion und persönlichem Engagement.",
-    "bio_badge": "Über René Marquard",
-    "bio_1": "René Marquard bringt langjährige Expertise im Wealth Management und in der Personalberatung mit. Als Spezialist für Finanzanlagen in Edelmetall verbindet er fundiertes Marktwissen mit einem ausgeprägten Gespür für die individuellen Bedürfnisse seiner Mandanten.",
-    "bio_2": "Von Hamburg aus berät er Privatpersonen und Unternehmen, die ihr Vermögen nachhaltig sichern und strategisch weiterentwickeln möchten. Sein Ansatz verbindet klassische Vermögensverwaltung mit spezialisierten Anlagestrategien im Edelmetallsektor.",
-    "bio_3": "Diskretion, persönliche Nähe und eine langfristige Perspektive sind für ihn keine Schlagworte, sondern die Grundlage jeder Beratung. Jedes Mandat wird mit derselben Sorgfalt betreut — unabhängig von seiner Größe.",
-    "quote": "Vermögen bewahren heißt, vorausschauend handeln — mit Vertrauen und Weitblick.",
+    "hero_role": "Specialisto anglo barvalipako phiravipe",
+    "hero_tagline": "Barvalipako phiravipe thaj investicie ande therne metale — eksperienciasa, diskreciasa thaj personalno angazhipesa.",
+    "bio_badge": "Pal o René Marquard",
+    "bio_1": "René Marquard anel bershenge ekspertiza ando barvalipako phiravipe thaj ande konsultipe le personalosko. Sar specialisto ande investicie ande therne metale, phandel therno bazarako dzhanipe jekhe dikhipesa anglo individuale truburimata le klientengo.",
+    "bio_2": "Andar o Hamburg del konsultipe le privatne manushenge thaj le firmenge so kamna te arakhena penge barvalipe duraleder thaj te barjarena les strategikano. Leskoro drom phandel o klasikano barvalipako phiravipe le specialisime investiciake strategiencar ando therne metalengo sektoro.",
+    "bio_3": "Diskrecia, personalno pashipe thaj duraluno dikhipe nane ferdi lafura leste — von si o fondamento sakonge konsultipesko. Sako mandato lel e jakhuni griza — bi dikhipako pe leski baripen.",
+    "quote": "Te arakhes o barvalipe si te keres dural dikhipesa — patsivasa thaj viziasa.",
     "quote_attribution": "René Marquard",
-    "competency_1_title": "Wealth Management",
-    "competency_1_description": "Ganzheitliche Vermögensverwaltung für Privatpersonen und Unternehmen — von der Analyse über die Strategie bis zur laufenden Betreuung.",
-    "competency_2_title": "Edelmetall-Finanzanlagen",
-    "competency_2_description": "Spezialisierte Beratung zu Finanzanlagen in Gold, Silber und weiteren Edelmetallen — als Instrument der Vermögenssicherung und Diversifikation.",
-    "competency_3_title": "Personalberatung",
-    "competency_3_description": "Erfahrung in Human Resources und Personalberatung — für die Besetzung von Schlüsselpositionen und den Aufbau leistungsstarker Teams.",
-    "competency_4_title": "Vermögensstrategie",
-    "competency_4_description": "Entwicklung individueller Anlagestrategien, die Sicherheit und Wachstum in Einklang bringen — persönlich, langfristig und transparent."
+    "competency_1_title": "Barvalipako phiravipe",
+    "competency_1_description": "Pherduno barvalipako phiravipe le privatne manushenge thaj le firmenge — andar e analiza thaj e strategia dzi ko sakdivesutno arakhipe le portfoliosko.",
+    "competency_2_title": "Investicie ande therne metale",
+    "competency_2_description": "Specialisimo konsultipe anglo investicie ando somnakaj, ando rup thaj avere therne metale — sar instrumento le barvalipako arakhipesko thaj diversifikaciasko.",
+    "competency_3_title": "Konsultipe anglo personalo",
+    "competency_3_description": "Eksperiencia ande manushikane resursurea thaj konsultipe anglo personalo — anglo pheravipe le kljuchne poziciengo thaj vazdipe le zuralne timengo.",
+    "competency_4_title": "Barvalipaki strategia",
+    "competency_4_description": "Kerdipe le individuale investiciake strategienge so anena balanso mashkar o siguripe thaj o barjaripe — personalno, duraluno thaj transparentno."
   },
   "team_andre_zimmermann": {
     "meta_title": "Andre Zimmermann — Teknologijako thaj Web-razvojako",
@@ -301,36 +304,36 @@
   },
   "team": {
     "nav_label": "Team",
-    "competencies_headline": "Kompetenzfelder",
-    "cta_headline": "Lassen Sie uns ins Gespräch kommen",
-    "cta_subline": "Ob eine erste Frage oder ein konkretes Vorhaben — wir nehmen uns Zeit für Sie.",
-    "cta_button": "Kontakt aufnehmen",
-    "back_to_home": "Zur Startseite",
-    "breadcrumb_home": "Startseite"
+    "competencies_headline": "Kompetenciake thana",
+    "cta_headline": "Te shunav amen jekh avreske",
+    "cta_subline": "Dali si angluni puchiba vai konkretno proiekto — las amenge vreme tumenge.",
+    "cta_button": "Le kontakto",
+    "back_to_home": "Ki sherutni pajina",
+    "breadcrumb_home": "Sherutni pajina"
   },
   "team_peter_fiegler": {
-    "meta_title": "Peter Fiegler — Gründer & Gesellschaftsrechtsexperte",
-    "meta_description": "Peter Fiegler, Gründer von FIECON. Langjährige Expertise im Gesellschaftsrecht, internationale Firmengründungen und persönliche Beratung auf höchstem Niveau.",
+    "meta_title": "Peter Fiegler — Fondatoro thaj ekspertiso ando societarno zakono",
+    "meta_description": "Peter Fiegler, fondatoro le FIECON-esko. Bershenge ekspertiza ando societarno zakono, internacionalno formipe le firmengo thaj personalno konsultipe ko majbaro nivelo.",
     "hero_name": "Peter Fiegler",
-    "hero_role": "Gründer & Geschäftsführer",
-    "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
-    "bio_badge": "Über Peter Fiegler",
-    "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
+    "hero_role": "Fondatoro thaj shefo",
+    "hero_tagline": "Societarno zakono thaj internacionalno formipe le firmengo — dural dikhipesa, preciznostasa thaj personalna poziciasa.",
+    "bio_badge": "Pal o Peter Fiegler",
+    "bio_1": "Peter Fiegler formisardja e FIECON le patsivasa kaj ekselentno konsultipe ando societarno zakono ferdi atoska shaj avol kana lel e perspektiva le klientoske pherdo. Leskoro drom phandel therne ekspertiza jekhe biznisutne dikhipesa so dural dzhanel pestar e ferdi zakonski thana.",
     "bio_2": "Le ofisurea ando Hamburg, Belgrad, Texas, Montenegro hai Vanuatu, ov vazdija jekh internacionalno retiako so phirel le klienturen korik kaj lengo biznisurengo planuri ljen anel — te avel formipe jekhe firmako ando Sudoostno Europa, strukturipe jekhe holdingako vaj putaripe neve bazarengo.",
-    "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
-    "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
-    "quote_attribution": "Peter Fiegler, Gründer",
-    "competency_1_title": "Gesellschaftsrecht",
-    "competency_1_description": "Beratung bei der Gründung, Strukturierung und Führung von Gesellschaften — national und international. Von der GmbH bis zur grenzüberschreitenden Holding.",
-    "competency_2_title": "Internationale Firmengründungen",
-    "competency_2_description": "Umfassende Begleitung bei Firmengründungen in Deutschland, Serbien, den USA und weiteren Jurisdiktionen. Rechtssicher und effizient.",
-    "competency_3_title": "Finanzverwaltung & Compliance",
-    "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
-    "competency_4_title": "Strategische Beratung",
-    "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
+    "bio_3": "Leski filozofia si simplo: sako mandato zasluzil e jakhuni griza savi ov dela peske firmate. Kadava truburipen formil sako konsultipe, sako struktura thaj sako rekomendacia.",
+    "quote": "Das konsultipe sar te avelas amari peske firma.",
+    "quote_attribution": "Peter Fiegler, Fondatoro",
+    "competency_1_title": "Societarno zakono",
+    "competency_1_description": "Konsultipe ko formipe, strukturipe thaj phiravipe le firmenge — nacionalno thaj internacionalno. Andar e GmbH dzi ko granitsake holdingurea.",
+    "competency_2_title": "Internacionalno formipe le firmengo",
+    "competency_2_description": "Pherduno phiravipe ko formipe le firmenge ande Germania, Serbia, le USA thaj avere jurisdikcije. Zakonsko sigurno thaj efektivno.",
+    "competency_3_title": "Finansialno administracia thaj Compliance",
+    "competency_3_description": "Transparentne finansialne strukturura, raportipake obligacie thaj transparentno registro — anglo firmako phiravipe so anel patsiv.",
+    "competency_4_title": "Strategiako konsultipe",
+    "competency_4_description": "Duraluno strategiurea anglo firmako barjaripe, participacionalne strukturura thaj internacionalno barjaripe — personalno thaj partnersko."
   },
   "schema": {
-    "description": "FIECON Germany Co. KG — Internacionalno konsultipe ande societarno zakono, formipe le firmengo, finansialno administracia thaj konstrukciako finansipe. Ofisurea ando Hamburg, Belgrad, Texas, Montenegro hai Vanuatu.",
+    "description": "FIECON Consulting UG & Co KG — Internacionalno konsultipe ande societarno zakono, formipe le firmengo, finansialno administracia thaj konstrukciako finansipe. Ofisurea ando Hamburg, Belgrad, Texas, Montenegro hai Vanuatu.",
     "offer_catalog": "Sevaurea",
     "service_consulting": "Societarno zakono thaj formipe le firmengo",
     "service_finance": "Finansialno administracia",

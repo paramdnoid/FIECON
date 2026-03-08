@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — International Gesellschaftsrecht & Firmengrënnung Berodung",
-    "description": "FIECON Germany Co. KG — International Berodung fir Gesellschaftsrecht, Firmengrënnungen, Finanzverwaltung a Baufinanzéierung. Büroen an Hamburg, Belgrad, Texas, Montenegro an Vanuatu.",
+    "description": "FIECON Consulting UG & Co KG — International Berodung fir Gesellschaftsrecht, Firmengrënnungen, Finanzverwaltung a Baufinanzéierung. Büroen an Hamburg, Belgrad, Texas, Montenegro an Vanuatu.",
     "keywords": "Gesellschaftsrecht, international Firmegrënnung, Berodung Hambourg, Finanzverwaltung, Baufinanzéierung, Jachtfinanzéierung, FIECON Consulting"
   },
   "nav": {
@@ -21,7 +21,7 @@
     "skip_to_content": "Zum Inhalt sprangen"
   },
   "hero": {
-    "tagline": "Fiegler Consulting",
+    "tagline": "FIECON Consulting",
     "headline": "Äert Geschäft. International Beroden.",
     "subtitle": "Gesellschaftsrecht an international Firmengrënnungen — perséinlech Begleedung an Hamburg, Belgrad, Texas, Montenegro an Vanuatu.",
     "cta_primary": "Eis Servicer",
@@ -37,7 +37,7 @@
     "stat_2_label": "Berodungsberäicher",
     "stat_3_label": "Länner",
     "quote_attribution": "Peter Fiegler, Grënner",
-    "profile_link": "Mehr über Peter Fiegler erfahren"
+    "profile_link": "Méi iwwer Peter Fiegler erfahren"
   },
   "services": {
     "badge": "Servicer",
@@ -53,6 +53,7 @@
     },
     "finance": {
       "title": "Finanzverwaltung",
+      "tab": "Allgemeng",
       "description": "Kloerheet schafft Vertrauen: mir iwwerhuelen Är Finanzverwaltung a schafen transparent Strukturen, déi nohaltegt Wuesstem erméiglechen.",
       "items": {
         "0": "Buchhaltung & Berichterstattung",
@@ -61,6 +62,7 @@
     },
     "construction": {
       "title": "Baufinanzéierung",
+      "tab": "Bau",
       "description": "Bauprojete verlaangen finanziell Zouverlässegkeet. Mir strukturéieren an iwwerwaachen d'Finanzéierung vun Äre Bauvirhuelen — vun der éischter Kalkulatioun bis zur Fäerdegstellung.",
       "items": {
         "0": "Projetfinanzéierung",
@@ -70,6 +72,7 @@
     },
     "yacht": {
       "title": "Yachtbaufinanzéierung",
+      "tab": "Yachtbau",
       "description": "En distinctive Segment verdéngt distinctive Betreiung. Mir beroden bei der Finanzéierung vu Yachtbauprojeten — diskret, perséinlech a mat engem echte Versteesdemech fir d'Standarden vun der Branche.",
       "items": {
         "0": "Yachtfinanzéierung",
@@ -190,13 +193,13 @@
     }
   },
   "footer": {
-    "description": "FIECON Germany Co. KG — International Berodung fir Gesellschaftsrecht, Firmengrënnungen a méi. Perséinlech. Prezis. Partnerschaftlech.",
+    "description": "FIECON Consulting UG & Co KG — International Berodung fir Gesellschaftsrecht, Firmengrënnungen a méi. Perséinlech. Prezis. Partnerschaftlech.",
     "services_title": "Servicer",
     "offices_title": "Büroen",
     "legal_title": "Rechtleches",
     "impressum": "Impressum",
     "datenschutz": "Dateschutz",
-    "copyright": "© {year} FIECON Germany Co. KG. All Rechter virbehal."
+    "copyright": "© {year} FIECON Consulting UG & Co KG. All Rechter virbehal."
   },
   "error": {
     "title": "E Feeler ass opgetrueden",
@@ -301,36 +304,36 @@
   },
   "team": {
     "nav_label": "Team",
-    "competencies_headline": "Kompetenzfelder",
-    "cta_headline": "Lassen Sie uns ins Gespräch kommen",
-    "cta_subline": "Ob eine erste Frage oder ein konkretes Vorhaben — wir nehmen uns Zeit für Sie.",
-    "cta_button": "Kontakt aufnehmen",
-    "back_to_home": "Zur Startseite",
-    "breadcrumb_home": "Startseite"
+    "competencies_headline": "Kompetenzberäicher",
+    "cta_headline": "Loosst eis an d'Gespréich kommen",
+    "cta_subline": "Ob eng éischt Fro oder e konkreete Projet — mir huelen eis Zäit fir Iech.",
+    "cta_button": "Kontakt ophuelen",
+    "back_to_home": "Op d'Startsäit",
+    "breadcrumb_home": "Startsäit"
   },
   "team_peter_fiegler": {
-    "meta_title": "Peter Fiegler — Gründer & Gesellschaftsrechtsexperte",
-    "meta_description": "Peter Fiegler, Gründer von FIECON. Langjährige Expertise im Gesellschaftsrecht, internationale Firmengründungen und persönliche Beratung auf höchstem Niveau.",
+    "meta_title": "Peter Fiegler — Grënner & Gesellschaftsrechtsexpert",
+    "meta_description": "Peter Fiegler, Grënner vu FIECON. Laangjäreg Expertise am Gesellschaftsrecht, international Firmengrënnungen a perséinlech Berodung op héchstem Niveau.",
     "hero_name": "Peter Fiegler",
-    "hero_role": "Gründer & Geschäftsführer",
-    "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
-    "bio_badge": "Über Peter Fiegler",
-    "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
+    "hero_role": "Grënner & Geschäftsfüerer",
+    "hero_tagline": "Gesellschaftsrecht an international Firmengrënnungen — mat Weitbléck, Präzisioun a perséinlecher Haltung.",
+    "bio_badge": "Iwwer Peter Fiegler",
+    "bio_1": "Peter Fiegler huet FIECON gegrënnt mat der Iwwerzeegung, datt exzellent Berodung am Gesellschaftsrecht nëmme geléngt, wann ee d'Perspektiv vum Mandant komplett anhuelt. Säin Ansaz verbënnt déifgräifend Fachkenntnisser mat engem ënnernehmeresche Gespéier, dat wäit iwwer déi reng juristesch Ebene erausgeet.",
     "bio_2": "Mat Standuerter an Hamburg, Belgrad, Texas, Montenegro an Vanuatu huet hien en internationaalt Netzwierk opgebaut, dat Mandante begleet, wou hir Geschäftsvirhuelen se hiféieren — ob bei der Grënnung vun enger Gesellschaft a Südosteuropa, der Strukturéierung vun engem Holding oder der Erschléissung vun neie Mäerkten.",
-    "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
-    "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
-    "quote_attribution": "Peter Fiegler, Gründer",
+    "bio_3": "Seng Philosophie ass einfach: all Mandat verdéngt déiselwecht Suergfalt, déi hien senger eegener Firma widme géif. Dësen Usproch prägt all Berodung, all Struktur an all Empfeelung.",
+    "quote": "Mir beroden, wéi wann et eis eege Firma wier.",
+    "quote_attribution": "Peter Fiegler, Grënner",
     "competency_1_title": "Gesellschaftsrecht",
-    "competency_1_description": "Beratung bei der Gründung, Strukturierung und Führung von Gesellschaften — national und international. Von der GmbH bis zur grenzüberschreitenden Holding.",
-    "competency_2_title": "Internationale Firmengründungen",
-    "competency_2_description": "Umfassende Begleitung bei Firmengründungen in Deutschland, Serbien, den USA und weiteren Jurisdiktionen. Rechtssicher und effizient.",
+    "competency_1_description": "Berodung bei der Grënnung, Strukturéierung a Féierung vu Gesellschaften — national an international. Vun der GmbH bis zur grenziwwerschreidender Holding.",
+    "competency_2_title": "International Firmengrënnungen",
+    "competency_2_description": "Ëmfaassend Begleedung bei Firmengrënnungen an Däitschland, Serbien, den USA a weideren Jurisdiktiounen. Rechtssëcher an effizient.",
     "competency_3_title": "Finanzverwaltung & Compliance",
-    "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
-    "competency_4_title": "Strategische Beratung",
-    "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
+    "competency_3_description": "Transparent Finanzstrukturen, Meldepflichten an Transparenzregëster — fir eng Ënnernehmensféierung, déi Vertrauen schafft.",
+    "competency_4_title": "Strategesch Berodung",
+    "competency_4_description": "Laangfristeg Strategien fir Ënnernehmswuesstem, Beteilegungsstrukturen an international Expansioun — perséinlech a partnerschoftlech."
   },
   "schema": {
-    "description": "FIECON Germany Co. KG — International Berodung fir Gesellschaftsrecht, Firmengrënnungen, Finanzverwaltung a Baufinanzéierung. Büroen an Hamburg, Belgrad, Texas, Montenegro an Vanuatu.",
+    "description": "FIECON Consulting UG & Co KG — International Berodung fir Gesellschaftsrecht, Firmengrënnungen, Finanzverwaltung a Baufinanzéierung. Büroen an Hamburg, Belgrad, Texas, Montenegro an Vanuatu.",
     "offer_catalog": "Servicer",
     "service_consulting": "Gesellschaftsrecht & Firmengrënnungen",
     "service_finance": "Finanzverwaltung",

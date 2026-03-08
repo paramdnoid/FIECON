@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — Droit des sociétés international et conseil en création d'entreprises",
-    "description": "FIECON Germany Co. KG — Conseil international en droit des sociétés, création d'entreprises, administration financière et financement de la construction. Bureaux à Hambourg, Belgrade, au Texas, Montenegro et Vanuatu.",
+    "description": "FIECON Consulting UG & Co KG — Conseil international en droit des sociétés, création d'entreprises, administration financière et financement de la construction. Bureaux à Hambourg, Belgrade, au Texas, Montenegro et Vanuatu.",
     "keywords": "droit des sociétés, création d'entreprise international, conseil juridique Hambourg, création d'entreprise Serbie, création d'entreprise USA Texas, administration financière, financement construction, financement yachts, FIECON Consulting"
   },
   "nav": {
@@ -21,7 +21,7 @@
     "skip_to_content": "Aller au contenu"
   },
   "hero": {
-    "tagline": "Fiegler Consulting",
+    "tagline": "FIECON Consulting",
     "headline": "Votre entreprise. Conseillée à l'international.",
     "subtitle": "Droit des sociétés et création d'entreprises internationales — un accompagnement personnalisé à Hambourg, Belgrade, au Texas, Montenegro et Vanuatu.",
     "cta_primary": "Nos services",
@@ -37,7 +37,7 @@
     "stat_2_label": "Domaines d'activité",
     "stat_3_label": "Pays",
     "quote_attribution": "Peter Fiegler, fondateur",
-    "profile_link": "Mehr über Peter Fiegler erfahren"
+    "profile_link": "En savoir plus sur Peter Fiegler"
   },
   "services": {
     "badge": "Services",
@@ -53,6 +53,7 @@
     },
     "finance": {
       "title": "Administration financière",
+      "tab": "Général",
       "description": "La clarté crée la confiance : nous prenons en charge l'administration financière de votre entreprise et créons les structures transparentes qui permettent une croissance durable.",
       "items": {
         "0": "Comptabilité et reporting",
@@ -61,6 +62,7 @@
     },
     "construction": {
       "title": "Financement de la construction",
+      "tab": "Construction",
       "description": "Les projets de construction exigent une fiabilité financière. Nous structurons et supervisons le financement de vos projets de construction — du calcul initial à l'achèvement.",
       "items": {
         "0": "Financement de projets",
@@ -70,6 +72,7 @@
     },
     "yacht": {
       "title": "Financement de la construction de yachts",
+      "tab": "Yachts",
       "description": "Un segment distinctif mérite une attention particulière. Nous conseillons sur le financement de projets de construction de yachts — avec discrétion, personnalisation et une véritable compréhension des standards du secteur.",
       "items": {
         "0": "Financement de yachts",
@@ -190,13 +193,13 @@
     }
   },
   "footer": {
-    "description": "FIECON Germany Co. KG — Conseil international en droit des sociétés, création d'entreprises et au-delà. Personnel. Précis. Partenarial.",
+    "description": "FIECON Consulting UG & Co KG — Conseil international en droit des sociétés, création d'entreprises et au-delà. Personnel. Précis. Partenarial.",
     "services_title": "Services",
     "offices_title": "Bureaux",
     "legal_title": "Mentions légales",
     "impressum": "Mentions légales",
     "datenschutz": "Politique de confidentialité",
-    "copyright": "© {year} FIECON Germany Co. KG. Tous droits réservés."
+    "copyright": "© {year} FIECON Consulting UG & Co KG. Tous droits réservés."
   },
   "error": {
     "title": "Une erreur est survenue",
@@ -300,37 +303,37 @@
     "contact_label": "Contact"
   },
   "team": {
-    "nav_label": "Team",
-    "competencies_headline": "Kompetenzfelder",
-    "cta_headline": "Lassen Sie uns ins Gespräch kommen",
-    "cta_subline": "Ob eine erste Frage oder ein konkretes Vorhaben — wir nehmen uns Zeit für Sie.",
-    "cta_button": "Kontakt aufnehmen",
-    "back_to_home": "Zur Startseite",
-    "breadcrumb_home": "Startseite"
+    "nav_label": "Équipe",
+    "competencies_headline": "Domaines de compétence",
+    "cta_headline": "Engageons la conversation",
+    "cta_subline": "Qu'il s'agisse d'une première question ou d'un projet concret — nous prenons le temps pour vous.",
+    "cta_button": "Nous contacter",
+    "back_to_home": "Retour à l'accueil",
+    "breadcrumb_home": "Accueil"
   },
   "team_peter_fiegler": {
-    "meta_title": "Peter Fiegler — Gründer & Gesellschaftsrechtsexperte",
-    "meta_description": "Peter Fiegler, Gründer von FIECON. Langjährige Expertise im Gesellschaftsrecht, internationale Firmengründungen und persönliche Beratung auf höchstem Niveau.",
+    "meta_title": "Peter Fiegler — Fondateur et expert en droit des sociétés",
+    "meta_description": "Peter Fiegler, fondateur de FIECON. Une expertise approfondie en droit des sociétés, création d'entreprises internationales et conseil personnalisé au plus haut niveau.",
     "hero_name": "Peter Fiegler",
-    "hero_role": "Gründer & Geschäftsführer",
-    "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
-    "bio_badge": "Über Peter Fiegler",
-    "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
+    "hero_role": "Fondateur et Directeur Général",
+    "hero_tagline": "Droit des sociétés et création d'entreprises internationales — avec vision, précision et engagement personnel.",
+    "bio_badge": "À propos de Peter Fiegler",
+    "bio_1": "Peter Fiegler a fondé FIECON avec la conviction qu'un conseil d'excellence en droit des sociétés ne réussit que lorsque l'on adopte pleinement la perspective du client. Son approche associe une expertise approfondie à un sens entrepreneurial qui va bien au-delà de la dimension purement juridique.",
     "bio_2": "Avec des bureaux à Hambourg, Belgrade, au Texas, au Montenegro et au Vanuatu, il a bâti un réseau international qui accompagne les clients partout où leurs projets les mènent — qu'il s'agisse de créer une société en Europe du Sud-Est, de structurer une holding ou d'accéder à de nouveaux marchés.",
-    "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
-    "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
-    "quote_attribution": "Peter Fiegler, Gründer",
-    "competency_1_title": "Gesellschaftsrecht",
-    "competency_1_description": "Beratung bei der Gründung, Strukturierung und Führung von Gesellschaften — national und international. Von der GmbH bis zur grenzüberschreitenden Holding.",
-    "competency_2_title": "Internationale Firmengründungen",
-    "competency_2_description": "Umfassende Begleitung bei Firmengründungen in Deutschland, Serbien, den USA und weiteren Jurisdiktionen. Rechtssicher und effizient.",
-    "competency_3_title": "Finanzverwaltung & Compliance",
-    "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
-    "competency_4_title": "Strategische Beratung",
-    "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
+    "bio_3": "Sa philosophie est simple : chaque mandat mérite le même soin qu'il accorderait à sa propre entreprise. Cette exigence façonne chaque conseil, chaque structure et chaque recommandation.",
+    "quote": "Nous conseillons comme si c'était notre propre entreprise qui était en jeu.",
+    "quote_attribution": "Peter Fiegler, fondateur",
+    "competency_1_title": "Droit des sociétés",
+    "competency_1_description": "Conseil en matière de création, de structuration et de gouvernance de sociétés — au niveau national et international. De la GmbH au holding transfrontalier.",
+    "competency_2_title": "Création d'entreprises internationales",
+    "competency_2_description": "Accompagnement complet lors de la création d'entreprises en Allemagne, en Serbie, aux États-Unis et dans d'autres juridictions. Juridiquement sûr et efficace.",
+    "competency_3_title": "Administration financière et conformité",
+    "competency_3_description": "Structures financières transparentes, obligations déclaratives et registre de transparence — pour une gouvernance d'entreprise qui inspire confiance.",
+    "competency_4_title": "Conseil stratégique",
+    "competency_4_description": "Stratégies à long terme pour la croissance de l'entreprise, les structures de participation et l'expansion internationale — de manière personnelle et partenariale."
   },
   "schema": {
-    "description": "FIECON Germany Co. KG — Conseil international en droit des sociétés, création d'entreprises, administration financière et financement de la construction. Bureaux à Hambourg, Belgrade, au Texas, Montenegro et Vanuatu.",
+    "description": "FIECON Consulting UG & Co KG — Conseil international en droit des sociétés, création d'entreprises, administration financière et financement de la construction. Bureaux à Hambourg, Belgrade, au Texas, Montenegro et Vanuatu.",
     "offer_catalog": "Services",
     "service_consulting": "Droit des sociétés et création d'entreprises",
     "service_finance": "Administration financière",

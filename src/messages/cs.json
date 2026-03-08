@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — Mezinárodní korporátní právo a poradenství při zakládání společností",
-    "description": "FIECON Germany Co. KG — Mezinárodní poradenství v oblasti korporátního práva, zakládání společností, finanční správy a stavebního financování. Kanceláře v Hamburku, Bělehradě, Texasu, Černé Hoře a Vanuatu.",
+    "description": "FIECON Consulting UG & Co KG — Mezinárodní poradenství v oblasti korporátního práva, zakládání společností, finanční správy a stavebního financování. Kanceláře v Hamburku, Bělehradě, Texasu, Černé Hoře a Vanuatu.",
     "keywords": "obchodní právo, mezinárodní zakládání firem, poradenství Hamburk, finanční správa, stavební financování, FIECON Consulting"
   },
   "nav": {
@@ -21,7 +21,7 @@
     "skip_to_content": "Přejít na obsah"
   },
   "hero": {
-    "tagline": "Fiegler Consulting",
+    "tagline": "FIECON Consulting",
     "headline": "Vaše firma. Mezinárodně poradená.",
     "subtitle": "Korporátní právo a mezinárodní zakládání společností — osobní doprovod v Hamburku, Bělehradě, Texasu, Černé Hoře a Vanuatu.",
     "cta_primary": "Naše služby",
@@ -37,7 +37,7 @@
     "stat_2_label": "Oblastí činnosti",
     "stat_3_label": "Zemí",
     "quote_attribution": "Peter Fiegler, zakladatel",
-    "profile_link": "Mehr über Peter Fiegler erfahren"
+    "profile_link": "Zjistěte více o Peteru Fieglerovi"
   },
   "services": {
     "badge": "Služby",
@@ -53,6 +53,7 @@
     },
     "finance": {
       "title": "Finanční správa",
+      "tab": "Obecné",
       "description": "Přehlednost buduje důvěru: převezmeme finanční správu vaší společnosti a vytvoříme transparentní struktury, které umožní udržitelný růst.",
       "items": {
         "0": "Účetnictví a reporting",
@@ -61,6 +62,7 @@
     },
     "construction": {
       "title": "Stavební financování",
+      "tab": "Stavebnictví",
       "description": "Stavební projekty vyžadují finanční spolehlivost. Strukturujeme a dohlížíme na financování vašich stavebních projektů — od prvního výpočtu po dokončení.",
       "items": {
         "0": "Projektové financování",
@@ -70,6 +72,7 @@
     },
     "yacht": {
       "title": "Financování stavby jachet",
+      "tab": "Jachty",
       "description": "Výjimečný segment si zaslouží výjimečnou péči. Poradíme s financováním stavby jachet — diskrétně, osobně a s opravdovým porozuměním standardům odvětví.",
       "items": {
         "0": "Financování jachet",
@@ -190,13 +193,13 @@
     }
   },
   "footer": {
-    "description": "FIECON Germany Co. KG — Mezinárodní poradenství v oblasti korporátního práva, zakládání společností a dalšího. Osobně. Přesně. Partnersky.",
+    "description": "FIECON Consulting UG & Co KG — Mezinárodní poradenství v oblasti korporátního práva, zakládání společností a dalšího. Osobně. Přesně. Partnersky.",
     "services_title": "Služby",
     "offices_title": "Kanceláře",
     "legal_title": "Právní informace",
     "impressum": "Impressum",
     "datenschutz": "Ochrana osobních údajů",
-    "copyright": "© {year} FIECON Germany Co. KG. Všechna práva vyhrazena."
+    "copyright": "© {year} FIECON Consulting UG & Co KG. Všechna práva vyhrazena."
   },
   "error": {
     "title": "Došlo k chybě",
@@ -300,37 +303,37 @@
     "contact_label": "Kontakt"
   },
   "team": {
-    "nav_label": "Team",
-    "competencies_headline": "Kompetenzfelder",
-    "cta_headline": "Lassen Sie uns ins Gespräch kommen",
-    "cta_subline": "Ob eine erste Frage oder ein konkretes Vorhaben — wir nehmen uns Zeit für Sie.",
-    "cta_button": "Kontakt aufnehmen",
-    "back_to_home": "Zur Startseite",
-    "breadcrumb_home": "Startseite"
+    "nav_label": "Tým",
+    "competencies_headline": "Oblasti kompetencí",
+    "cta_headline": "Pojďme si promluvit",
+    "cta_subline": "Ať už jde o první otázku nebo konkrétní projekt — máme na vás čas.",
+    "cta_button": "Kontaktujte nás",
+    "back_to_home": "Na úvodní stránku",
+    "breadcrumb_home": "Úvod"
   },
   "team_peter_fiegler": {
-    "meta_title": "Peter Fiegler — Gründer & Gesellschaftsrechtsexperte",
-    "meta_description": "Peter Fiegler, Gründer von FIECON. Langjährige Expertise im Gesellschaftsrecht, internationale Firmengründungen und persönliche Beratung auf höchstem Niveau.",
+    "meta_title": "Peter Fiegler — Zakladatel a expert na korporátní právo",
+    "meta_description": "Peter Fiegler, zakladatel FIECON. Dlouholeté zkušenosti v korporátním právu, mezinárodním zakládání společností a osobní poradenství na nejvyšší úrovni.",
     "hero_name": "Peter Fiegler",
-    "hero_role": "Gründer & Geschäftsführer",
-    "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
-    "bio_badge": "Über Peter Fiegler",
-    "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
+    "hero_role": "Zakladatel a jednatel",
+    "hero_tagline": "Korporátní právo a mezinárodní zakládání společností — s vizí, přesností a osobním nasazením.",
+    "bio_badge": "O Peteru Fieglerovi",
+    "bio_1": "Peter Fiegler založil FIECON s přesvědčením, že vynikající poradenství v korporátním právu je možné pouze tehdy, když plně přijmete perspektivu klienta. Jeho přístup spojuje hlubokou odbornost s podnikatelským instinktem, který daleko přesahuje čistě právní rovinu.",
     "bio_2": "S kancelářemi v Hamburku, Bělehradě, Texasu, Černé Hoře a Vanuatu vybudoval mezinárodní síť, která klienty provází všude tam, kam je vedou jejich obchodní záměry — ať už jde o založení společnosti v jihovýchodní Evropě, strukturování holdingu nebo vstup na nové trhy.",
-    "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
-    "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
-    "quote_attribution": "Peter Fiegler, Gründer",
-    "competency_1_title": "Gesellschaftsrecht",
-    "competency_1_description": "Beratung bei der Gründung, Strukturierung und Führung von Gesellschaften — national und international. Von der GmbH bis zur grenzüberschreitenden Holding.",
-    "competency_2_title": "Internationale Firmengründungen",
-    "competency_2_description": "Umfassende Begleitung bei Firmengründungen in Deutschland, Serbien, den USA und weiteren Jurisdiktionen. Rechtssicher und effizient.",
-    "competency_3_title": "Finanzverwaltung & Compliance",
-    "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
-    "competency_4_title": "Strategische Beratung",
-    "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
+    "bio_3": "Jeho filozofie je jednoduchá: každý mandát si zaslouží stejnou péči, jakou by věnoval vlastní firmě. Tento závazek formuje každé poradenství, každou strukturu a každé doporučení.",
+    "quote": "Radíme tak, jako by šlo o naši vlastní firmu.",
+    "quote_attribution": "Peter Fiegler, zakladatel",
+    "competency_1_title": "Korporátní právo",
+    "competency_1_description": "Poradenství při zakládání, strukturování a řízení společností — na národní i mezinárodní úrovni. Od GmbH po přeshraniční holdingové struktury.",
+    "competency_2_title": "Mezinárodní zakládání společností",
+    "competency_2_description": "Komplexní doprovod při zakládání společností v Německu, Srbsku, USA a dalších jurisdikcích. Právně spolehlivě a efektivně.",
+    "competency_3_title": "Finanční správa a compliance",
+    "competency_3_description": "Transparentní finanční struktury, oznamovací povinnosti a registr skutečných vlastníků — pro řízení firmy, které buduje důvěru.",
+    "competency_4_title": "Strategické poradenství",
+    "competency_4_description": "Dlouhodobé strategie pro růst společnosti, účastnické struktury a mezinárodní expanzi — osobně a partnersky."
   },
   "schema": {
-    "description": "FIECON Germany Co. KG — Mezinárodní poradenství v oblasti korporátního práva, zakládání společností, finanční správy a stavebního financování. Kanceláře v Hamburku, Bělehradě, Texasu, Černé Hoře a Vanuatu.",
+    "description": "FIECON Consulting UG & Co KG — Mezinárodní poradenství v oblasti korporátního práva, zakládání společností, finanční správy a stavebního financování. Kanceláře v Hamburku, Bělehradě, Texasu, Černé Hoře a Vanuatu.",
     "offer_catalog": "Služby",
     "service_consulting": "Korporátní právo a zakládání společností",
     "service_finance": "Finanční správa",

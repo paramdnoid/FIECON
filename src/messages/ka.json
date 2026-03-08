@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — საერთაშორისო კორპორატიული სამართლისა და კომპანიების დაფუძნების კონსულტაცია",
-    "description": "FIECON Germany Co. KG — საერთაშორისო კონსულტაცია კორპორატიულ სამართალში, კომპანიების დაფუძნებაში, ფინანსურ ადმინისტრირებასა და სამშენებლო დაფინანსებაში. ოფისები ჰამბურგში, ბელგრადში, ტეხასში, მონტენეგროსა და ვანუატუში.",
+    "description": "FIECON Consulting UG & Co KG — საერთაშორისო კონსულტაცია კორპორატიულ სამართალში, კომპანიების დაფუძნებაში, ფინანსურ ადმინისტრირებასა და სამშენებლო დაფინანსებაში. ოფისები ჰამბურგში, ბელგრადში, ტეხასში, მონტენეგროსა და ვანუატუში.",
     "keywords": "კორპორაციული სამართალი, საერთაშორისო კომპანიის რეგისტრაცია, კონსულტაცია ჰამბურგი, ფინანსური მართვა, სამშენებლო დაფინანსება, FIECON Consulting"
   },
   "nav": {
@@ -21,7 +21,7 @@
     "skip_to_content": "გადასვლა შინაარსზე"
   },
   "hero": {
-    "tagline": "Fiegler Consulting",
+    "tagline": "FIECON Consulting",
     "headline": "თქვენი ბიზნესი. საერთაშორისოდ კონსულტირებული.",
     "subtitle": "კორპორატიული სამართალი და საერთაშორისო კომპანიების დაფუძნება — პირადი თანხლება ჰამბურგში, ბელგრადში, ტეხასში, მონტენეგროსა და ვანუატუში.",
     "cta_primary": "ჩვენი სერვისები",
@@ -37,7 +37,7 @@
     "stat_2_label": "საქმიანობის მიმართულება",
     "stat_3_label": "ქვეყანა",
     "quote_attribution": "Peter Fiegler, დამფუძნებელი",
-    "profile_link": "Mehr über Peter Fiegler erfahren"
+    "profile_link": "შეიტყვეთ მეტი Peter Fiegler-ის შესახებ"
   },
   "services": {
     "badge": "სერვისები",
@@ -53,6 +53,7 @@
     },
     "finance": {
       "title": "ფინანსური ადმინისტრირება",
+      "tab": "ზოგადი",
       "description": "სიცხადე ნდობას აშენებს: ჩვენ ვკისრულობთ თქვენს კორპორატიულ ფინანსურ ადმინისტრირებას და ვქმნით გამჭვირვალე სტრუქტურებს, რომლებიც მდგრად ზრდას უზრუნველყოფს.",
       "items": {
         "0": "ბუღალტერია და ანგარიშგება",
@@ -61,6 +62,7 @@
     },
     "construction": {
       "title": "სამშენებლო დაფინანსება",
+      "tab": "მშენებლობა",
       "description": "სამშენებლო პროექტები ფინანსურ საიმედოობას მოითხოვს. ჩვენ ვსტრუქტურირებთ და ვზედამხედველობთ თქვენი სამშენებლო პროექტების დაფინანსებას — საწყისი გაანგარიშებიდან დასრულებამდე.",
       "items": {
         "0": "პროექტის დაფინანსება",
@@ -70,6 +72,7 @@
     },
     "yacht": {
       "title": "იახტების მშენებლობის დაფინანსება",
+      "tab": "იახტი",
       "description": "განსაკუთრებული სეგმენტი განსაკუთრებულ ყურადღებას იმსახურებს. ვკონსულტირებთ იახტების მშენებლობის პროექტების დაფინანსებაში — დისკრეტულად, პირადად და ინდუსტრიის სტანდარტების ნამდვილი გაგებით.",
       "items": {
         "0": "იახტების დაფინანსება",
@@ -77,12 +80,12 @@
       }
     },
     "private_health_insurance": {
-      "title": "Private health insurance for self-employed entrepreneurs",
-      "description": "We support self-employed entrepreneurs in selecting, structuring and optimizing private health insurance — tailored to income profile, coverage requirements and long-term planning.",
+      "title": "კერძო ჯანმრთელობის დაზღვევა თვითდასაქმებული მეწარმეებისთვის",
+      "description": "ჩვენ ვეხმარებით თვითდასაქმებულ მეწარმეებს კერძო ჯანმრთელობის დაზღვევის შერჩევაში, სტრუქტურირებასა და ოპტიმიზაციაში — შემოსავლის პროფილზე, დაფარვის მოთხოვნებსა და გრძელვადიან დაგეგმვაზე მორგებული.",
       "items": {
-        "0": "Plan comparison & selection",
-        "1": "Coverage and premium optimization",
-        "2": "Long-term protection strategy"
+        "0": "გეგმების შედარება და შერჩევა",
+        "1": "დაფარვისა და პრემიის ოპტიმიზაცია",
+        "2": "გრძელვადიანი დაცვის სტრატეგია"
       }
     },
 
@@ -190,13 +193,13 @@
     }
   },
   "footer": {
-    "description": "FIECON Germany Co. KG — საერთაშორისო კონსულტაცია კორპორატიულ სამართალში, კომპანიების დაფუძნებასა და სხვა. პირადი. ზუსტი. პარტნიორული.",
+    "description": "FIECON Consulting UG & Co KG — საერთაშორისო კონსულტაცია კორპორატიულ სამართალში, კომპანიების დაფუძნებასა და სხვა. პირადი. ზუსტი. პარტნიორული.",
     "services_title": "სერვისები",
     "offices_title": "ოფისები",
     "legal_title": "იურიდიული",
     "impressum": "იურიდიული შენიშვნა",
     "datenschutz": "კონფიდენციალურობის პოლიტიკა",
-    "copyright": "© {year} FIECON Germany Co. KG. ყველა უფლება დაცულია."
+    "copyright": "© {year} FIECON Consulting UG & Co KG. ყველა უფლება დაცულია."
   },
   "error": {
     "title": "მოხდა შეცდომა",
@@ -301,36 +304,36 @@
   },
   "team": {
     "nav_label": "Team",
-    "competencies_headline": "Kompetenzfelder",
-    "cta_headline": "Lassen Sie uns ins Gespräch kommen",
-    "cta_subline": "Ob eine erste Frage oder ein konkretes Vorhaben — wir nehmen uns Zeit für Sie.",
-    "cta_button": "Kontakt aufnehmen",
-    "back_to_home": "Zur Startseite",
-    "breadcrumb_home": "Startseite"
+    "competencies_headline": "კომპეტენციის სფეროები",
+    "cta_headline": "დავიწყოთ საუბარი",
+    "cta_subline": "იქნება ეს პირველი კითხვა თუ კონკრეტული პროექტი — ჩვენ დროს ვიღებთ თქვენთვის.",
+    "cta_button": "დაგვიკავშირდით",
+    "back_to_home": "მთავარ გვერდზე დაბრუნება",
+    "breadcrumb_home": "მთავარი"
   },
   "team_peter_fiegler": {
-    "meta_title": "Peter Fiegler — Gründer & Gesellschaftsrechtsexperte",
-    "meta_description": "Peter Fiegler, Gründer von FIECON. Langjährige Expertise im Gesellschaftsrecht, internationale Firmengründungen und persönliche Beratung auf höchstem Niveau.",
+    "meta_title": "Peter Fiegler — დამფუძნებელი & კორპორატიული სამართლის ექსპერტი",
+    "meta_description": "Peter Fiegler, FIECON-ის დამფუძნებელი. მრავალწლიანი ექსპერტიზა კორპორატიულ სამართალში, საერთაშორისო კომპანიების დაფუძნება და პრემიუმ პირადი კონსულტაცია.",
     "hero_name": "Peter Fiegler",
-    "hero_role": "Gründer & Geschäftsführer",
-    "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
-    "bio_badge": "Über Peter Fiegler",
-    "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
+    "hero_role": "დამფუძნებელი & გენერალური დირექტორი",
+    "hero_tagline": "კორპორატიული სამართალი და საერთაშორისო კომპანიების დაფუძნება — ხედვით, სიზუსტით და პირადი ერთგულებით.",
+    "bio_badge": "Peter Fiegler-ის შესახებ",
+    "bio_1": "Peter Fiegler-მა დააფუძნა FIECON რწმენით, რომ შესანიშნავი კორპორატიული სამართლის კონსულტაცია მხოლოდ მაშინ წარმატებულია, როცა კლიენტის პერსპექტივა სრულად მიიღება. მისი მიდგომა აერთიანებს ღრმა ექსპერტიზას სამეწარმეო ინტუიციასთან, რომელიც მნიშვნელოვნად სცილდება წმინდა იურიდიულ სიბრტყეს.",
     "bio_2": "ჰამბურგში, ბელგრადში, ტეხასში, მონტენეგროსა და ვანუატუში ოფისებით მან შექმნა საერთაშორისო ქსელი, რომელიც კლიენტებს ახლავს სადაც არ უნდა მიიყვანოს მათი ბიზნეს-გეგმები — იქნება ეს კომპანიის დაფუძნება სამხრეთ-აღმოსავლეთ ევროპაში, ჰოლდინგის სტრუქტურირება თუ ახალ ბაზრებზე გასვლა.",
-    "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
-    "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
-    "quote_attribution": "Peter Fiegler, Gründer",
-    "competency_1_title": "Gesellschaftsrecht",
-    "competency_1_description": "Beratung bei der Gründung, Strukturierung und Führung von Gesellschaften — national und international. Von der GmbH bis zur grenzüberschreitenden Holding.",
-    "competency_2_title": "Internationale Firmengründungen",
-    "competency_2_description": "Umfassende Begleitung bei Firmengründungen in Deutschland, Serbien, den USA und weiteren Jurisdiktionen. Rechtssicher und effizient.",
-    "competency_3_title": "Finanzverwaltung & Compliance",
-    "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
-    "competency_4_title": "Strategische Beratung",
-    "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
+    "bio_3": "მისი ფილოსოფია მარტივია: ყოველი მანდატი იმსახურებს იმავე ზრუნვას, რასაც იგი საკუთარ კომპანიას მიუძღვნიდა. ეს ვალდებულება განსაზღვრავს ყოველ კონსულტაციას, ყოველ სტრუქტურას და ყოველ რეკომენდაციას.",
+    "quote": "ჩვენ ვკონსულტირებთ ისე, თითქოს ეს ჩვენი საკუთარი კომპანია იყოს.",
+    "quote_attribution": "Peter Fiegler, დამფუძნებელი",
+    "competency_1_title": "კორპორატიული სამართალი",
+    "competency_1_description": "კონსულტაცია კომპანიების დაფუძნებაზე, სტრუქტურირებასა და მმართველობაზე — ეროვნულად და საერთაშორისოდ. GmbH-დან ტრანსსასაზღვრო ჰოლდინგებამდე.",
+    "competency_2_title": "საერთაშორისო კომპანიების დაფუძნება",
+    "competency_2_description": "ყოვლისმომცველი თანხლება კომპანიების დაფუძნებისას გერმანიაში, სერბეთში, აშშ-ში და სხვა იურისდიქციებში. იურიდიულად მყარი და ეფექტური.",
+    "competency_3_title": "ფინანსური ადმინისტრირება & შესაბამისობა",
+    "competency_3_description": "გამჭვირვალე ფინანსური სტრუქტურები, საანგარიშგებო ვალდებულებები და გამჭვირვალობის რეესტრები — კორპორატიული მმართველობისთვის, რომელიც ნდობას აშენებს.",
+    "competency_4_title": "სტრატეგიული კონსულტაცია",
+    "competency_4_description": "გრძელვადიანი სტრატეგიები კორპორატიული ზრდის, მონაწილეობის სტრუქტურებისა და საერთაშორისო გაფართოებისთვის — პირადად და პარტნიორულად."
   },
   "schema": {
-    "description": "FIECON Germany Co. KG — საერთაშორისო კონსულტაცია კორპორატიულ სამართალში, კომპანიების დაფუძნებაში, ფინანსურ ადმინისტრირებასა და სამშენებლო დაფინანსებაში. ოფისები ჰამბურგში, ბელგრადში, ტეხასში, მონტენეგროსა და ვანუატუში.",
+    "description": "FIECON Consulting UG & Co KG — საერთაშორისო კონსულტაცია კორპორატიულ სამართალში, კომპანიების დაფუძნებაში, ფინანსურ ადმინისტრირებასა და სამშენებლო დაფინანსებაში. ოფისები ჰამბურგში, ბელგრადში, ტეხასში, მონტენეგროსა და ვანუატუში.",
     "offer_catalog": "სერვისები",
     "service_consulting": "კორპორატიული სამართალი და კომპანიების დაფუძნება",
     "service_finance": "ფინანსური ადმინისტრირება",

@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — International selskabsret & rådgivning om selskabsstiftelse",
-    "description": "FIECON Germany Co. KG — International rådgivning inden for selskabsret, selskabsstiftelse, økonomisk forvaltning og byggelinansiering. Kontorer i Hamborg, Beograd, Texas, Montenegro og Vanuatu.",
+    "description": "FIECON Consulting UG & Co KG — International rådgivning inden for selskabsret, selskabsstiftelse, økonomisk forvaltning og byggelinansiering. Kontorer i Hamborg, Beograd, Texas, Montenegro og Vanuatu.",
     "keywords": "selskabsret, international virksomhedsstiftelse, rådgivning Hamburg, finansforvaltning, bygningsfinansiering, yachtfinansiering, FIECON Consulting"
   },
   "nav": {
@@ -21,7 +21,7 @@
     "skip_to_content": "Spring til indhold"
   },
   "hero": {
-    "tagline": "Fiegler Consulting",
+    "tagline": "FIECON Consulting",
     "headline": "Din virksomhed. Internationalt rådgivet.",
     "subtitle": "Selskabsret og international selskabsstiftelse — personlig vejledning i Hamborg, Beograd, Texas, Montenegro og Vanuatu.",
     "cta_primary": "Vores ydelser",
@@ -37,7 +37,7 @@
     "stat_2_label": "Fagområder",
     "stat_3_label": "Lande",
     "quote_attribution": "Peter Fiegler, Grundlægger",
-    "profile_link": "Mehr über Peter Fiegler erfahren"
+    "profile_link": "Læs mere om Peter Fiegler"
   },
   "services": {
     "badge": "Ydelser",
@@ -53,6 +53,7 @@
     },
     "finance": {
       "title": "Økonomisk forvaltning",
+      "tab": "Generelt",
       "description": "Klarhed skaber tillid: vi overtager din virksomheds økonomiske forvaltning og skaber de gennemsigtige strukturer, der muliggør bæredygtig vækst.",
       "items": {
         "0": "Bogføring og rapportering",
@@ -61,6 +62,7 @@
     },
     "construction": {
       "title": "Byggefinansiering",
+      "tab": "Byggeri",
       "description": "Byggeprojekter kræver økonomisk pålidelighed. Vi strukturerer og overvåger finansieringen af dine byggeprojekter — fra den første beregning til færdiggørelsen.",
       "items": {
         "0": "Projektfinansiering",
@@ -70,6 +72,7 @@
     },
     "yacht": {
       "title": "Yachtbyggefinansiering",
+      "tab": "Yachtbyggeri",
       "description": "Et særligt segment fortjener særlig omsorg. Vi rådgiver om finansiering af yachtbyggeprojekter — diskret, personligt og med ægte forståelse for branchens standarder.",
       "items": {
         "0": "Yachtfinansiering",
@@ -190,13 +193,13 @@
     }
   },
   "footer": {
-    "description": "FIECON Germany Co. KG — International rådgivning inden for selskabsret, selskabsstiftelse og mere. Personlig. Præcis. I partnerskab.",
+    "description": "FIECON Consulting UG & Co KG — International rådgivning inden for selskabsret, selskabsstiftelse og mere. Personlig. Præcis. I partnerskab.",
     "services_title": "Ydelser",
     "offices_title": "Kontorer",
     "legal_title": "Juridisk",
     "impressum": "Impressum",
     "datenschutz": "Privatlivspolitik",
-    "copyright": "© {year} FIECON Germany Co. KG. Alle rettigheder forbeholdes."
+    "copyright": "© {year} FIECON Consulting UG & Co KG. Alle rettigheder forbeholdes."
   },
   "error": {
     "title": "Der opstod en fejl",
@@ -301,36 +304,36 @@
   },
   "team": {
     "nav_label": "Team",
-    "competencies_headline": "Kompetenzfelder",
-    "cta_headline": "Lassen Sie uns ins Gespräch kommen",
-    "cta_subline": "Ob eine erste Frage oder ein konkretes Vorhaben — wir nehmen uns Zeit für Sie.",
-    "cta_button": "Kontakt aufnehmen",
-    "back_to_home": "Zur Startseite",
-    "breadcrumb_home": "Startseite"
+    "competencies_headline": "Kompetenceområder",
+    "cta_headline": "Lad os komme i dialog",
+    "cta_subline": "Uanset om det drejer sig om et indledende spørgsmål eller et konkret projekt — vi tager os tid til dig.",
+    "cta_button": "Kontakt os",
+    "back_to_home": "Til forsiden",
+    "breadcrumb_home": "Forside"
   },
   "team_peter_fiegler": {
-    "meta_title": "Peter Fiegler — Gründer & Gesellschaftsrechtsexperte",
-    "meta_description": "Peter Fiegler, Gründer von FIECON. Langjährige Expertise im Gesellschaftsrecht, internationale Firmengründungen und persönliche Beratung auf höchstem Niveau.",
+    "meta_title": "Peter Fiegler — Grundlægger & selskabsretsekspert",
+    "meta_description": "Peter Fiegler, grundlægger af FIECON. Mangeårig ekspertise inden for selskabsret, internationale selskabsstiftelser og personlig rådgivning på højeste niveau.",
     "hero_name": "Peter Fiegler",
-    "hero_role": "Gründer & Geschäftsführer",
-    "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
-    "bio_badge": "Über Peter Fiegler",
-    "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
+    "hero_role": "Grundlægger & administrerende direktør",
+    "hero_tagline": "Selskabsret og internationale selskabsstiftelser — med fremsynethed, præcision og personligt engagement.",
+    "bio_badge": "Om Peter Fiegler",
+    "bio_1": "Peter Fiegler grundlagde FIECON med overbevisningen om, at fremragende rådgivning inden for selskabsret kun lykkes, når man fuldt ud indtager mandantens perspektiv. Hans tilgang forbinder dyb faglig ekspertise med en iværksætterånd, der rækker langt ud over det rent juridiske plan.",
     "bio_2": "Med kontorer i Hamburg, Beograd, Texas, Montenegro og Vanuatu har han opbygget et internationalt netværk, der ledsager klienter, uanset hvor deres forretningsplaner fører dem — hvad enten det drejer sig om at grundlægge et selskab i Sydøsteuropa, strukturere et holdingselskab eller at betræde nye markeder.",
-    "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
-    "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
-    "quote_attribution": "Peter Fiegler, Gründer",
-    "competency_1_title": "Gesellschaftsrecht",
-    "competency_1_description": "Beratung bei der Gründung, Strukturierung und Führung von Gesellschaften — national und international. Von der GmbH bis zur grenzüberschreitenden Holding.",
-    "competency_2_title": "Internationale Firmengründungen",
-    "competency_2_description": "Umfassende Begleitung bei Firmengründungen in Deutschland, Serbien, den USA und weiteren Jurisdiktionen. Rechtssicher und effizient.",
-    "competency_3_title": "Finanzverwaltung & Compliance",
-    "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
-    "competency_4_title": "Strategische Beratung",
-    "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
+    "bio_3": "Hans filosofi er enkel: ethvert mandat fortjener den samme omhu, som han ville vie sit eget selskab. Dette krav præger enhver rådgivning, enhver struktur og enhver anbefaling.",
+    "quote": "Vi rådgiver, som om det var vores eget selskab.",
+    "quote_attribution": "Peter Fiegler, Grundlægger",
+    "competency_1_title": "Selskabsret",
+    "competency_1_description": "Rådgivning ved stiftelse, strukturering og ledelse af selskaber — nationalt og internationalt. Fra GmbH til grænseoverskridende holdingselskaber.",
+    "competency_2_title": "Internationale selskabsstiftelser",
+    "competency_2_description": "Omfattende ledsagelse ved selskabsstiftelser i Tyskland, Serbien, USA og yderligere jurisdiktioner. Retssikker og effektiv.",
+    "competency_3_title": "Økonomisk forvaltning & compliance",
+    "competency_3_description": "Transparente finansielle strukturer, indberetningsforpligtelser og transparensregistre — for en virksomhedsledelse, der skaber tillid.",
+    "competency_4_title": "Strategisk rådgivning",
+    "competency_4_description": "Langsigtede strategier for virksomhedsvækst, kapitalandelsstrukturer og international ekspansion — personligt og i partnerskab."
   },
   "schema": {
-    "description": "FIECON Germany Co. KG — International rådgivning inden for selskabsret, selskabsstiftelse, økonomisk forvaltning og byggelinansiering. Kontorer i Hamborg, Beograd, Texas, Montenegro og Vanuatu.",
+    "description": "FIECON Consulting UG & Co KG — International rådgivning inden for selskabsret, selskabsstiftelse, økonomisk forvaltning og byggelinansiering. Kontorer i Hamborg, Beograd, Texas, Montenegro og Vanuatu.",
     "offer_catalog": "Ydelser",
     "service_consulting": "Selskabsret & selskabsstiftelse",
     "service_finance": "Økonomisk forvaltning",

@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — استشارات دولية في قانون الشركات وتأسيس الشركات",
-    "description": "FIECON Germany Co. KG — استشارات دولية في قانون الشركات، تأسيس الشركات، الإدارة المالية وتمويل البناء. مكاتب في هامبورغ وبلغراد وتكساس وMontenegro وVanuatu.",
+    "description": "FIECON Consulting UG & Co KG — استشارات دولية في قانون الشركات، تأسيس الشركات، الإدارة المالية وتمويل البناء. مكاتب في هامبورغ وبلغراد وتكساس وMontenegro وVanuatu.",
     "keywords": "قانون الشركات, تأسيس شركات دولية, استشارات هامبورغ, إدارة مالية, تمويل البناء, تمويل اليخوت, FIECON Consulting"
   },
   "nav": {
@@ -21,7 +21,7 @@
     "skip_to_content": "انتقل إلى المحتوى"
   },
   "hero": {
-    "tagline": "Fiegler Consulting",
+    "tagline": "FIECON Consulting",
     "headline": "حقوقكم. برؤية دولية.",
     "subtitle": "قانون الشركات وتأسيس الشركات الدولية — رعاية شخصية في هامبورغ وبلغراد وتكساس وMontenegro وVanuatu.",
     "cta_primary": "خدماتنا",
@@ -37,7 +37,7 @@
     "stat_2_label": "مجالات تخصص",
     "stat_3_label": "دول",
     "quote_attribution": "Peter Fiegler، المؤسس",
-    "profile_link": "Mehr über Peter Fiegler erfahren"
+    "profile_link": "اعرف المزيد عن Peter Fiegler"
   },
   "services": {
     "badge": "الخدمات",
@@ -53,6 +53,7 @@
     },
     "finance": {
       "title": "الإدارة المالية",
+      "tab": "عام",
       "description": "النظام يبني الثقة: نتولى الإدارة المهنية لأموال شركتكم وننشئ الهياكل الشفافة التي تتيح النمو المستدام.",
       "items": {
         "0": "المحاسبة وإعداد التقارير",
@@ -61,6 +62,7 @@
     },
     "construction": {
       "title": "تمويل البناء",
+      "tab": "البناء",
       "description": "تحتاج مشاريع البناء إلى موثوقية مالية. نقوم بهيكلة ومرافقة تمويل مشاريعكم الإنشائية — من الحساب الأول وحتى الإنجاز.",
       "items": {
         "0": "تمويل المشاريع",
@@ -70,6 +72,7 @@
     },
     "yacht": {
       "title": "تمويل بناء اليخوت",
+      "tab": "اليخوت",
       "description": "قطاع مميز يستحق عناية مميزة. نقدم الاستشارات في تمويل مشاريع بناء اليخوت — بسرية تامة وبشكل شخصي ومع فهم لمتطلبات هذا القطاع.",
       "items": {
         "0": "تمويل اليخوت",
@@ -190,13 +193,13 @@
     }
   },
   "footer": {
-    "description": "FIECON Germany Co. KG — استشارات دولية في قانون الشركات وتأسيس الشركات والمزيد. شخصيًا. بدقة. بروح الشراكة.",
+    "description": "FIECON Consulting UG & Co KG — استشارات دولية في قانون الشركات وتأسيس الشركات والمزيد. شخصيًا. بدقة. بروح الشراكة.",
     "services_title": "الخدمات",
     "offices_title": "المكاتب",
     "legal_title": "معلومات قانونية",
     "impressum": "البيانات القانونية",
     "datenschutz": "سياسة الخصوصية",
-    "copyright": "© {year} FIECON Germany Co. KG. جميع الحقوق محفوظة."
+    "copyright": "© {year} FIECON Consulting UG & Co KG. جميع الحقوق محفوظة."
   },
   "error": {
     "title": "حدث خطأ",
@@ -301,36 +304,36 @@
   },
   "team": {
     "nav_label": "Team",
-    "competencies_headline": "Kompetenzfelder",
-    "cta_headline": "Lassen Sie uns ins Gespräch kommen",
-    "cta_subline": "Ob eine erste Frage oder ein konkretes Vorhaben — wir nehmen uns Zeit für Sie.",
-    "cta_button": "Kontakt aufnehmen",
-    "back_to_home": "Zur Startseite",
-    "breadcrumb_home": "Startseite"
+    "competencies_headline": "مجالات الكفاءة",
+    "cta_headline": "لنبدأ الحوار",
+    "cta_subline": "سواء كان سؤالًا أوليًا أو مشروعًا محددًا — نخصص لكم الوقت.",
+    "cta_button": "تواصل معنا",
+    "back_to_home": "إلى الصفحة الرئيسية",
+    "breadcrumb_home": "الصفحة الرئيسية"
   },
   "team_peter_fiegler": {
-    "meta_title": "Peter Fiegler — Gründer & Gesellschaftsrechtsexperte",
-    "meta_description": "Peter Fiegler, Gründer von FIECON. Langjährige Expertise im Gesellschaftsrecht, internationale Firmengründungen und persönliche Beratung auf höchstem Niveau.",
+    "meta_title": "Peter Fiegler — المؤسس وخبير قانون الشركات",
+    "meta_description": "Peter Fiegler، مؤسس FIECON. خبرة طويلة في قانون الشركات، تأسيس الشركات الدولية واستشارات شخصية على أعلى مستوى.",
     "hero_name": "Peter Fiegler",
-    "hero_role": "Gründer & Geschäftsführer",
-    "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
-    "bio_badge": "Über Peter Fiegler",
-    "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
+    "hero_role": "المؤسس والمدير العام",
+    "hero_tagline": "قانون الشركات وتأسيس الشركات الدولية — ببُعد نظر ودقة والتزام شخصي.",
+    "bio_badge": "عن Peter Fiegler",
+    "bio_1": "أسس Peter Fiegler شركة FIECON بقناعة أن الاستشارات المتميزة في قانون الشركات لا تنجح إلا عندما يتبنى المستشار منظور العميل بالكامل. يجمع نهجه بين الخبرة العميقة والحس الريادي الذي يتجاوز البعد القانوني البحت بكثير.",
     "bio_2": "بمكاتب في هامبورغ وبلغراد وتكساس وMontenegro وVanuatu، بنى شبكة دولية ترافق العملاء أينما قادتهم مشاريعهم — سواء في تأسيس شركة في جنوب شرق أوروبا أو هيكلة شركة قابضة أو دخول أسواق جديدة.",
-    "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
-    "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
-    "quote_attribution": "Peter Fiegler, Gründer",
-    "competency_1_title": "Gesellschaftsrecht",
-    "competency_1_description": "Beratung bei der Gründung, Strukturierung und Führung von Gesellschaften — national und international. Von der GmbH bis zur grenzüberschreitenden Holding.",
-    "competency_2_title": "Internationale Firmengründungen",
-    "competency_2_description": "Umfassende Begleitung bei Firmengründungen in Deutschland, Serbien, den USA und weiteren Jurisdiktionen. Rechtssicher und effizient.",
-    "competency_3_title": "Finanzverwaltung & Compliance",
-    "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
-    "competency_4_title": "Strategische Beratung",
-    "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
+    "bio_3": "فلسفته بسيطة: كل تكليف يستحق نفس العناية التي يكرسها لشركته الخاصة. هذا الالتزام يشكل كل استشارة وكل هيكل وكل توصية.",
+    "quote": "نقدّم الاستشارة وكأن الأمر يتعلق بشركتنا نحن.",
+    "quote_attribution": "Peter Fiegler، المؤسس",
+    "competency_1_title": "قانون الشركات",
+    "competency_1_description": "استشارات في تأسيس الشركات وهيكلتها وإدارتها — على المستوى الوطني والدولي. من شركة GmbH إلى الشركات القابضة العابرة للحدود.",
+    "competency_2_title": "تأسيس الشركات الدولية",
+    "competency_2_description": "مرافقة شاملة في تأسيس الشركات في ألمانيا وصربيا والولايات المتحدة وجهات قضائية أخرى. آمنة قانونيًا وفعالة.",
+    "competency_3_title": "الإدارة المالية والامتثال",
+    "competency_3_description": "هياكل مالية شفافة، التزامات إبلاغ وسجل شفافية — لإدارة مؤسسية تبني الثقة.",
+    "competency_4_title": "الاستشارات الاستراتيجية",
+    "competency_4_description": "استراتيجيات طويلة الأمد لنمو الشركات وهياكل المساهمة والتوسع الدولي — بشكل شخصي وبروح الشراكة."
   },
   "schema": {
-    "description": "FIECON Germany Co. KG — استشارات دولية في قانون الشركات، تأسيس الشركات، الإدارة المالية وتمويل البناء. مكاتب في هامبورغ وبلغراد وتكساس وMontenegro وVanuatu.",
+    "description": "FIECON Consulting UG & Co KG — استشارات دولية في قانون الشركات، تأسيس الشركات، الإدارة المالية وتمويل البناء. مكاتب في هامبورغ وبلغراد وتكساس وMontenegro وVanuatu.",
     "offer_catalog": "الخدمات",
     "service_consulting": "قانون الشركات وتأسيس الشركات",
     "service_finance": "الإدارة المالية",

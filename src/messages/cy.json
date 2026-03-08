@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — Ymgynghoriaeth Ryngwladol mewn Cyfraith Corfforaethol a Sefydlu Cwmniau",
-    "description": "FIECON Germany Co. KG — Ymgynghoriaeth ryngwladol mewn cyfraith gorfforaethol, sefydlu cwmniau, gweinyddiaeth ariannol a chyllid adeiladu. Swyddfeydd yn Hamburg, Belgrade, Texas, Montenegro a Vanuatu.",
+    "description": "FIECON Consulting UG & Co KG — Ymgynghoriaeth ryngwladol mewn cyfraith gorfforaethol, sefydlu cwmniau, gweinyddiaeth ariannol a chyllid adeiladu. Swyddfeydd yn Hamburg, Belgrade, Texas, Montenegro a Vanuatu.",
     "keywords": "cyfraith cwmnïau, sefydlu cwmni rhyngwladol, ymgynghoriaeth Hamburg, gweinyddiaeth ariannol, cyllid adeiladu, FIECON Consulting"
   },
   "nav": {
@@ -21,7 +21,7 @@
     "skip_to_content": "Neidio i'r cynnwys"
   },
   "hero": {
-    "tagline": "Fiegler Consulting",
+    "tagline": "FIECON Consulting",
     "headline": "Eich Busnes. Wedi'i Gynghori'n Rhyngwladol.",
     "subtitle": "Cyfraith gorfforaethol a sefydlu cwmniau rhyngwladol — arweiniad personol yn Hamburg, Belgrade, Texas, Montenegro a Vanuatu.",
     "cta_primary": "Ein Gwasanaethau",
@@ -37,7 +37,7 @@
     "stat_2_label": "Meysydd ymarfer",
     "stat_3_label": "Gwledydd",
     "quote_attribution": "Peter Fiegler, Sylfaenydd",
-    "profile_link": "Mehr über Peter Fiegler erfahren"
+    "profile_link": "Dysgu mwy am Peter Fiegler"
   },
   "services": {
     "badge": "Gwasanaethau",
@@ -53,6 +53,7 @@
     },
     "finance": {
       "title": "Gweinyddiaeth Ariannol",
+      "tab": "Cyffredinol",
       "description": "Mae eglurder yn meithrin ymddiriedaeth: rydym yn gofalu am eich gweinyddiaeth ariannol gorfforaethol ac yn creu'r strwythurau tryloyw sy'n galluogi twf cynaliadwy.",
       "items": {
         "0": "Cyfrifeg ac adrodd",
@@ -61,6 +62,7 @@
     },
     "construction": {
       "title": "Cyllid Adeiladu",
+      "tab": "Adeiladu",
       "description": "Mae prosiectau adeiladu yn gofyn am ddibynadwyedd ariannol. Rydym yn strwythuro ac yn goruchwylio cyllid eich mentrau adeiladu — o'r cyfrifiad cychwynnol i'r cwblhad.",
       "items": {
         "0": "Cyllid prosiectau",
@@ -70,6 +72,7 @@
     },
     "yacht": {
       "title": "Cyllid Adeiladu Iotiau",
+      "tab": "Iotiau",
       "description": "Mae segment arbennig yn haeddu gofal arbennig. Rydym yn cynghori ar gyllido prosiectau adeiladu iotiau — yn ddoeth, yn bersonol a chyda dealltwriaeth wirioneddol o safonau'r diwydiant.",
       "items": {
         "0": "Cyllid iotiau",
@@ -77,12 +80,12 @@
       }
     },
     "private_health_insurance": {
-      "title": "Private health insurance for self-employed entrepreneurs",
-      "description": "We support self-employed entrepreneurs in selecting, structuring and optimizing private health insurance — tailored to income profile, coverage requirements and long-term planning.",
+      "title": "Yswiriant iechyd preifat i entrepreneuriaid hunangyflogedig",
+      "description": "Rydym yn cefnogi entrepreneuriaid hunangyflogedig wrth ddewis, strwythuro ac optimeiddio yswiriant iechyd preifat — wedi'i deilwra i broffil incwm, gofynion yswiriant a chynllunio hirdymor.",
       "items": {
-        "0": "Plan comparison & selection",
-        "1": "Coverage and premium optimization",
-        "2": "Long-term protection strategy"
+        "0": "Cymharu a dewis cynllun",
+        "1": "Optimeiddio yswiriant a phremiwm",
+        "2": "Strategaeth amddiffyn hirdymor"
       }
     },
 
@@ -190,13 +193,13 @@
     }
   },
   "footer": {
-    "description": "FIECON Germany Co. KG — Ymgynghoriaeth ryngwladol mewn cyfraith gorfforaethol, sefydlu cwmniau a mwy. Personol. Manwl. Partneriaethol.",
+    "description": "FIECON Consulting UG & Co KG — Ymgynghoriaeth ryngwladol mewn cyfraith gorfforaethol, sefydlu cwmniau a mwy. Personol. Manwl. Partneriaethol.",
     "services_title": "Gwasanaethau",
     "offices_title": "Swyddfeydd",
     "legal_title": "Cyfreithiol",
     "impressum": "Hysbysiad cyfreithiol",
     "datenschutz": "Polisi preifatrwydd",
-    "copyright": "© {year} FIECON Germany Co. KG. Cedwir pob hawl."
+    "copyright": "© {year} FIECON Consulting UG & Co KG. Cedwir pob hawl."
   },
   "error": {
     "title": "Digwyddodd gwall",
@@ -301,36 +304,36 @@
   },
   "team": {
     "nav_label": "Team",
-    "competencies_headline": "Kompetenzfelder",
-    "cta_headline": "Lassen Sie uns ins Gespräch kommen",
-    "cta_subline": "Ob eine erste Frage oder ein konkretes Vorhaben — wir nehmen uns Zeit für Sie.",
-    "cta_button": "Kontakt aufnehmen",
-    "back_to_home": "Zur Startseite",
-    "breadcrumb_home": "Startseite"
+    "competencies_headline": "Meysydd arbenigedd",
+    "cta_headline": "Gadewch i ni ddechrau sgwrs",
+    "cta_subline": "Boed yn gwestiwn cyntaf neu'n brosiect penodol — rydym yn rhoi amser i chi.",
+    "cta_button": "Cysylltwch a ni",
+    "back_to_home": "Yn ol i'r hafan",
+    "breadcrumb_home": "Hafan"
   },
   "team_peter_fiegler": {
-    "meta_title": "Peter Fiegler — Gründer & Gesellschaftsrechtsexperte",
-    "meta_description": "Peter Fiegler, Gründer von FIECON. Langjährige Expertise im Gesellschaftsrecht, internationale Firmengründungen und persönliche Beratung auf höchstem Niveau.",
+    "meta_title": "Peter Fiegler — Sylfaenydd & Arbenigwr Cyfraith Gorfforaethol",
+    "meta_description": "Peter Fiegler, sylfaenydd FIECON. Arbenigedd helaeth mewn cyfraith gorfforaethol, sefydlu cwmniau rhyngwladol a chynghori personol ar y lefel uchaf.",
     "hero_name": "Peter Fiegler",
-    "hero_role": "Gründer & Geschäftsführer",
-    "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
-    "bio_badge": "Über Peter Fiegler",
-    "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
+    "hero_role": "Sylfaenydd & Rheolwr Gyfarwyddwr",
+    "hero_tagline": "Cyfraith gorfforaethol a sefydlu cwmniau rhyngwladol — gyda gweledigaeth, manwl gywirdeb ac ymrwymiad personol.",
+    "bio_badge": "Am Peter Fiegler",
+    "bio_1": "Sefydlodd Peter Fiegler FIECON gyda'r argyhoeddiad mai dim ond trwy fabwysiadu persbectif y cleient yn llawn y gellir cyflawni cynghori rhagorol mewn cyfraith gorfforaethol. Mae ei ddull yn cyfuno arbenigedd dwfn a synnwyr entrepreneuraidd sy'n ymestyn ymhell y tu hwnt i'r lefel gyfreithiol yn unig.",
     "bio_2": "Gyda swyddfeydd yn Hamburg, Belgrade, Texas, Montenegro a Vanuatu, mae wedi adeiladu rhwydwaith rhyngwladol sy'n cefnogi cleientiaid ble bynnag y mae eu cynlluniau busnes yn eu harwain — boed yn sefydlu cwmni yn Ne-ddwyrain Ewrop, strwythuro daliad, neu gael mynediad i farchnadoedd newydd.",
-    "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
-    "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
-    "quote_attribution": "Peter Fiegler, Gründer",
-    "competency_1_title": "Gesellschaftsrecht",
-    "competency_1_description": "Beratung bei der Gründung, Strukturierung und Führung von Gesellschaften — national und international. Von der GmbH bis zur grenzüberschreitenden Holding.",
-    "competency_2_title": "Internationale Firmengründungen",
-    "competency_2_description": "Umfassende Begleitung bei Firmengründungen in Deutschland, Serbien, den USA und weiteren Jurisdiktionen. Rechtssicher und effizient.",
-    "competency_3_title": "Finanzverwaltung & Compliance",
-    "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
-    "competency_4_title": "Strategische Beratung",
-    "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
+    "bio_3": "Mae ei athroniaeth yn syml: mae pob mandad yn haeddu'r un gofal a fyddai'n ei roi i'w gwmni ei hun. Mae'r ymrwymiad hwn yn llywio pob cyngor, pob strwythur a phob argymhelliad.",
+    "quote": "Rydym yn cynghori fel pe bai'n gwmni ein hunain.",
+    "quote_attribution": "Peter Fiegler, Sylfaenydd",
+    "competency_1_title": "Cyfraith Gorfforaethol",
+    "competency_1_description": "Cynghori ar sefydlu, strwythuro a llywodraethu cwmniau — yn genedlaethol ac yn rhyngwladol. O'r GmbH i ddaliadau trawsffiniol.",
+    "competency_2_title": "Sefydlu Cwmniau Rhyngwladol",
+    "competency_2_description": "Cefnogaeth gynhwysfawr wrth sefydlu cwmniau yn yr Almaen, Serbia, UDA ac awdurdodaethau pellach. Yn gyfreithiol gadarn ac yn effeithlon.",
+    "competency_3_title": "Gweinyddiaeth Ariannol & Chydymffurfiaeth",
+    "competency_3_description": "Strwythurau ariannol tryloyw, rhwymedigaethau adrodd a chofrestrau tryloywder — ar gyfer llywodraethu corfforaethol sy'n meithrin ymddiriedaeth.",
+    "competency_4_title": "Cynghori Strategol",
+    "competency_4_description": "Strategaethau hirdymor ar gyfer twf corfforaethol, strwythurau cyfranddaliad ac ehangu rhyngwladol — yn bersonol ac mewn partneriaeth."
   },
   "schema": {
-    "description": "FIECON Germany Co. KG — Ymgynghoriaeth ryngwladol mewn cyfraith gorfforaethol, sefydlu cwmniau, gweinyddiaeth ariannol a chyllid adeiladu. Swyddfeydd yn Hamburg, Belgrade, Texas, Montenegro a Vanuatu.",
+    "description": "FIECON Consulting UG & Co KG — Ymgynghoriaeth ryngwladol mewn cyfraith gorfforaethol, sefydlu cwmniau, gweinyddiaeth ariannol a chyllid adeiladu. Swyddfeydd yn Hamburg, Belgrade, Texas, Montenegro a Vanuatu.",
     "offer_catalog": "Gwasanaethau",
     "service_consulting": "Cyfraith Gorfforaethol a Sefydlu Cwmniau",
     "service_finance": "Gweinyddiaeth Ariannol",

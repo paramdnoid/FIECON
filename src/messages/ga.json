@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — Comhairle Idirnáisiúnta ar Dhlí Corparáideach agus Bunú Cuideachtaí",
-    "description": "FIECON Germany Co. KG — Comhairle idirnáisiúnta ar dhlí corparáideach, bunú cuideachtaí, riarachán airgeadais agus maoiniú tógála. Oifigí i Hamburg, Béalgrád, Texas, Montenegro agus Vanuatu.",
+    "description": "FIECON Consulting UG & Co KG — Comhairle idirnáisiúnta ar dhlí corparáideach, bunú cuideachtaí, riarachán airgeadais agus maoiniú tógála. Oifigí i Hamburg, Béalgrád, Texas, Montenegro agus Vanuatu.",
     "keywords": "dlí corparáideach, bunú cuideachta idirnáisiúnta, comhairliúchán Hamburg, riarachán airgeadais, maoiniú tógála, FIECON Consulting"
   },
   "nav": {
@@ -21,7 +21,7 @@
     "skip_to_content": "Léim go dtí an t-ábhar"
   },
   "hero": {
-    "tagline": "Fiegler Consulting",
+    "tagline": "FIECON Consulting",
     "headline": "Do ghnó. Comhairle idirnáisiúnta.",
     "subtitle": "Dlí corparáideach agus bunú cuideachtaí idirnáisiúnta — treoir phearsanta i Hamburg, Béalgrád, Texas, Montenegro agus Vanuatu.",
     "cta_primary": "Ár seirbhísí",
@@ -37,7 +37,7 @@
     "stat_2_label": "Réimsí cleachtais",
     "stat_3_label": "Tíortha",
     "quote_attribution": "Peter Fiegler, Bunaitheoir",
-    "profile_link": "Mehr über Peter Fiegler erfahren"
+    "profile_link": "Foghlaim tuilleadh faoi Peter Fiegler"
   },
   "services": {
     "badge": "Seirbhísí",
@@ -53,6 +53,7 @@
     },
     "finance": {
       "title": "Riarachán airgeadais",
+      "tab": "Ginearálta",
       "description": "Tógann soiléireacht muinín: glacaimid freagracht as riarachán airgeadais do chuideachta agus cruthaímid struchtúir thrédhearcacha a chumasaíonn fás inbhuanaithe.",
       "items": {
         "0": "Cuntasaíocht agus tuairisciú",
@@ -61,6 +62,7 @@
     },
     "construction": {
       "title": "Maoiniú tógála",
+      "tab": "Tógáil",
       "description": "Éilíonn tionscadail tógála iontaofacht airgeadais. Struchtúraimid agus maoirsímid maoiniú d'fhiontar tógála — ón ríomh tosaigh go dtí an chríochnú.",
       "items": {
         "0": "Maoiniú tionscadail",
@@ -70,6 +72,7 @@
     },
     "yacht": {
       "title": "Maoiniú tógála luamh",
+      "tab": "Luamh",
       "description": "Tuillimid cúram ar leith do segmint ar leith. Tugaimid comhairle ar mhaoiniú tionscadal tógála luamh — go discréideach, go pearsanta agus le fíorthuiscint ar chaighdeáin an tionscail.",
       "items": {
         "0": "Maoiniú luamh",
@@ -77,12 +80,12 @@
       }
     },
     "private_health_insurance": {
-      "title": "Private health insurance for self-employed entrepreneurs",
-      "description": "We support self-employed entrepreneurs in selecting, structuring and optimizing private health insurance — tailored to income profile, coverage requirements and long-term planning.",
+      "title": "Árachas sláinte príobháideach d'fhiontraithe féinfhostaithe",
+      "description": "Tacaímid le fiontraithe féinfhostaithe i roghnú, structúrú agus optamú árachais sláinte phríobháidigh — curtha in oiriúint do phróifíl ioncaim, riachtanais chumhdaigh agus pleanáil fhadtéarmach.",
       "items": {
-        "0": "Plan comparison & selection",
-        "1": "Coverage and premium optimization",
-        "2": "Long-term protection strategy"
+        "0": "Comparáid agus roghnú plean",
+        "1": "Optamú cumhdaigh agus préimhe",
+        "2": "Straitéis cosanta fadtéarmach"
       }
     },
 
@@ -190,13 +193,13 @@
     }
   },
   "footer": {
-    "description": "FIECON Germany Co. KG — Comhairle idirnáisiúnta ar dhlí corparáideach, bunú cuideachtaí agus tuilleadh. Pearsanta. Cruinn. Comhpháirtíocht.",
+    "description": "FIECON Consulting UG & Co KG — Comhairle idirnáisiúnta ar dhlí corparáideach, bunú cuideachtaí agus tuilleadh. Pearsanta. Cruinn. Comhpháirtíocht.",
     "services_title": "Seirbhísí",
     "offices_title": "Oifigí",
     "legal_title": "Dlí",
     "impressum": "Fógra dlíthiúil",
     "datenschutz": "Polasaí príobháideachais",
-    "copyright": "© {year} FIECON Germany Co. KG. Gach ceart ar cosaint."
+    "copyright": "© {year} FIECON Consulting UG & Co KG. Gach ceart ar cosaint."
   },
   "error": {
     "title": "Tharla earráid",
@@ -301,36 +304,36 @@
   },
   "team": {
     "nav_label": "Team",
-    "competencies_headline": "Kompetenzfelder",
-    "cta_headline": "Lassen Sie uns ins Gespräch kommen",
-    "cta_subline": "Ob eine erste Frage oder ein konkretes Vorhaben — wir nehmen uns Zeit für Sie.",
-    "cta_button": "Kontakt aufnehmen",
-    "back_to_home": "Zur Startseite",
-    "breadcrumb_home": "Startseite"
+    "competencies_headline": "Réimsí inniúlachta",
+    "cta_headline": "Cuirimis tús le comhrá",
+    "cta_subline": "Cibé an ceist tosaigh nó tionscadal coincréiteach é — glacaimid an t-am duit.",
+    "cta_button": "Déan teagmháil",
+    "back_to_home": "Ar ais go dtí an leathanach baile",
+    "breadcrumb_home": "Baile"
   },
   "team_peter_fiegler": {
-    "meta_title": "Peter Fiegler — Gründer & Gesellschaftsrechtsexperte",
-    "meta_description": "Peter Fiegler, Gründer von FIECON. Langjährige Expertise im Gesellschaftsrecht, internationale Firmengründungen und persönliche Beratung auf höchstem Niveau.",
+    "meta_title": "Peter Fiegler — Bunaitheoir & Saineolaí Dlí Corparáidigh",
+    "meta_description": "Peter Fiegler, bunaitheoir FIECON. Saineolas fairsing sa dlí corparáideach, bunú cuideachtaí idirnáisiúnta agus comhairle phearsanta ar an leibhéal is airde.",
     "hero_name": "Peter Fiegler",
-    "hero_role": "Gründer & Geschäftsführer",
-    "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
-    "bio_badge": "Über Peter Fiegler",
-    "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
+    "hero_role": "Bunaitheoir & Stiúrthóir Bainistíochta",
+    "hero_tagline": "Dlí corparáideach agus bunú cuideachtaí idirnáisiúnta — le fís, cruinneas agus tiomantas pearsanta.",
+    "bio_badge": "Faoi Peter Fiegler",
+    "bio_1": "Bhunaigh Peter Fiegler FIECON leis an gcinneadh nach n-éiríonn le comhairle sármhaith i ndlí corparáideach ach amháin nuair a ghlactar go hiomlán le peirspictíocht an chliaint. Cumaann a chur chuige saineolas domhain le hintinn fiontraíochta a théann i bhfad níos faide ná an leibhéal dlíthiúil amháin.",
     "bio_2": "Le hoifigí i Hamburg, Béalgrád, Texas, Montenegro agus Vanuatu, tá líonra idirnáisiúnta tógtha aige a thacaíonn le cliaint cibé áit a dtugann a bpleananna gnó iad — bíodh sé ag bunú cuideachta in Oirdheisceart na hEorpa, ag struchtúrú sealbhaíochta, nó ag dul isteach i margaí nua.",
-    "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
-    "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
-    "quote_attribution": "Peter Fiegler, Gründer",
-    "competency_1_title": "Gesellschaftsrecht",
-    "competency_1_description": "Beratung bei der Gründung, Strukturierung und Führung von Gesellschaften — national und international. Von der GmbH bis zur grenzüberschreitenden Holding.",
-    "competency_2_title": "Internationale Firmengründungen",
-    "competency_2_description": "Umfassende Begleitung bei Firmengründungen in Deutschland, Serbien, den USA und weiteren Jurisdiktionen. Rechtssicher und effizient.",
-    "competency_3_title": "Finanzverwaltung & Compliance",
-    "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
-    "competency_4_title": "Strategische Beratung",
-    "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
+    "bio_3": "Tá a fhealsúnacht simplí: tuillimid gach sainordú an cúram céanna a thabharfadh sé dá chuideachta féin. Múnlaíonn an tiomantas seo gach comhairle, gach struchtúr agus gach moladh.",
+    "quote": "Tugaimid comhairle amhail is go mba é ár gcuideachta féin a bheadh i gceist.",
+    "quote_attribution": "Peter Fiegler, Bunaitheoir",
+    "competency_1_title": "Dlí Corparáideach",
+    "competency_1_description": "Comhairle ar bhunú, structúrú agus rialachas cuideachtaí — go náisiúnta agus go hidirnáisiúnta. Ón GmbH go sealbhaíochtaí trasteorann.",
+    "competency_2_title": "Bunú Cuideachtaí Idirnáisiúnta",
+    "competency_2_description": "Tacaíocht chuimsitheach le bunú cuideachtaí sa Ghearmáin, sa tSeirbia, sna Stáit Aontaithe agus i ndlínsí eile. Go dlíthiúil fónta agus éifeachtach.",
+    "competency_3_title": "Riarachán Airgeadais & Comhlíontacht",
+    "competency_3_description": "Struchtúir airgeadais thrédhearcacha, oibleagáidí tuairiscithe agus clár trédhearcachta — le haghaidh rialachas corparáideach a thógann muinín.",
+    "competency_4_title": "Comhairle Straitéiseach",
+    "competency_4_description": "Straitéisí fadtéarmacha le haghaidh fás corparáideach, struchtúir rannpháirtíochta agus leathnú idirnáisiúnta — pearsanta agus comhpháirtíoch."
   },
   "schema": {
-    "description": "FIECON Germany Co. KG — Comhairle idirnáisiúnta ar dhlí corparáideach, bunú cuideachtaí, riarachán airgeadais agus maoiniú tógála. Oifigí i Hamburg, Béalgrád, Texas, Montenegro agus Vanuatu.",
+    "description": "FIECON Consulting UG & Co KG — Comhairle idirnáisiúnta ar dhlí corparáideach, bunú cuideachtaí, riarachán airgeadais agus maoiniú tógála. Oifigí i Hamburg, Béalgrád, Texas, Montenegro agus Vanuatu.",
     "offer_catalog": "Seirbhísí",
     "service_consulting": "Dlí corparáideach agus bunú cuideachtaí",
     "service_finance": "Riarachán airgeadais",

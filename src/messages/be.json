@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — Міжнароднае кансультаванне па карпаратыўным праве і стварэнні кампаній",
-    "description": "FIECON Germany Co. KG — Міжнароднае кансультаванне па карпаратыўным праве, стварэнні кампаній, фінансавым адміністраванні і фінансаванні будаўніцтва. Офісы ў Гамбургу, Бялградзе, Тэхасе, Montenegro і Vanuatu.",
+    "description": "FIECON Consulting UG & Co KG — Міжнароднае кансультаванне па карпаратыўным праве, стварэнні кампаній, фінансавым адміністраванні і фінансаванні будаўніцтва. Офісы ў Гамбургу, Бялградзе, Тэхасе, Montenegro і Vanuatu.",
     "keywords": "карпаратыўнае права, міжнародная рэгістрацыя кампаній, кансалтынг Гамбург, фінансавае кіраванне, будаўнічае фінансаванне, FIECON Consulting"
   },
   "nav": {
@@ -21,7 +21,7 @@
     "skip_to_content": "Перайсці да зместу"
   },
   "hero": {
-    "tagline": "Fiegler Consulting",
+    "tagline": "FIECON Consulting",
     "headline": "Ваш бізнес. Міжнародна кансультаваны.",
     "subtitle": "Карпаратыўнае права і міжнароднае стварэнне кампаній — асабістае суправаджэнне ў Гамбургу, Бялградзе, Тэхасе, Montenegro і Vanuatu.",
     "cta_primary": "Нашы паслугі",
@@ -37,7 +37,7 @@
     "stat_2_label": "Напрамкаў дзейнасці",
     "stat_3_label": "Краін",
     "quote_attribution": "Peter Fiegler, Заснавальнік",
-    "profile_link": "Mehr über Peter Fiegler erfahren"
+    "profile_link": "Даведацца больш пра Peter Fiegler"
   },
   "services": {
     "badge": "Паслугі",
@@ -53,6 +53,7 @@
     },
     "finance": {
       "title": "Фінансавае адміністраванне",
+      "tab": "Агульнае",
       "description": "Яснасць спараджае давер: мы бяром на сябе вашу карпаратыўную фінансавую адміністрацыю і ствараем празрыстыя структуры, якія забяспечваюць устойлівы рост.",
       "items": {
         "0": "Бухгалтэрыя і справаздачнасць",
@@ -61,6 +62,7 @@
     },
     "construction": {
       "title": "Фінансаванне будаўніцтва",
+      "tab": "Будаўніцтва",
       "description": "Будаўнічыя праекты патрабуюць фінансавай надзейнасці. Мы структуруем і кантралюем фінансаванне вашых будаўнічых праектаў — ад першага разліку да завяршэння.",
       "items": {
         "0": "Праектнае фінансаванне",
@@ -70,6 +72,7 @@
     },
     "yacht": {
       "title": "Фінансаванне яхтабудаўніцтва",
+      "tab": "Яхтабудаўніцтва",
       "description": "Адметны сегмент заслугоўвае адметнага клопату. Мы кансультуем па фінансаванні яхтабудаўнічых праектаў — дыскрэтна, асабіста і з сапраўдным разуменнем стандартаў галіны.",
       "items": {
         "0": "Фінансаванне яхт",
@@ -190,13 +193,13 @@
     }
   },
   "footer": {
-    "description": "FIECON Germany Co. KG — Міжнароднае кансультаванне па карпаратыўным праве, стварэнні кампаній і не толькі. Асабіста. Дакладна. Партнёрска.",
+    "description": "FIECON Consulting UG & Co KG — Міжнароднае кансультаванне па карпаратыўным праве, стварэнні кампаній і не толькі. Асабіста. Дакладна. Партнёрска.",
     "services_title": "Паслугі",
     "offices_title": "Офісы",
     "legal_title": "Прававая інфармацыя",
     "impressum": "Выхадныя дадзеныя",
     "datenschutz": "Палітыка прыватнасці",
-    "copyright": "© {year} FIECON Germany Co. KG. Усе правы абаронены."
+    "copyright": "© {year} FIECON Consulting UG & Co KG. Усе правы абаронены."
   },
   "error": {
     "title": "Адбылася памылка",
@@ -301,36 +304,36 @@
   },
   "team": {
     "nav_label": "Team",
-    "competencies_headline": "Kompetenzfelder",
-    "cta_headline": "Lassen Sie uns ins Gespräch kommen",
-    "cta_subline": "Ob eine erste Frage oder ein konkretes Vorhaben — wir nehmen uns Zeit für Sie.",
-    "cta_button": "Kontakt aufnehmen",
-    "back_to_home": "Zur Startseite",
-    "breadcrumb_home": "Startseite"
+    "competencies_headline": "Вобласці кампетэнцый",
+    "cta_headline": "Давайце пагаворым",
+    "cta_subline": "Ці гэта першае пытанне, ці канкрэтны праект — мы знаходзім час для вас.",
+    "cta_button": "Звяжыцеся з намі",
+    "back_to_home": "На галоўную старонку",
+    "breadcrumb_home": "Галоўная"
   },
   "team_peter_fiegler": {
-    "meta_title": "Peter Fiegler — Gründer & Gesellschaftsrechtsexperte",
-    "meta_description": "Peter Fiegler, Gründer von FIECON. Langjährige Expertise im Gesellschaftsrecht, internationale Firmengründungen und persönliche Beratung auf höchstem Niveau.",
+    "meta_title": "Peter Fiegler — Заснавальнік і эксперт па карпаратыўным праве",
+    "meta_description": "Peter Fiegler, заснавальнік FIECON. Шматгадовая экспертыза ў карпаратыўным праве, міжнароднае стварэнне кампаній і асабістае кансультаванне на найвышэйшым узроўні.",
     "hero_name": "Peter Fiegler",
-    "hero_role": "Gründer & Geschäftsführer",
-    "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
-    "bio_badge": "Über Peter Fiegler",
-    "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
+    "hero_role": "Заснавальнік і кіраўнік",
+    "hero_tagline": "Карпаратыўнае права і міжнароднае стварэнне кампаній — з далёкагляднасцю, дакладнасцю і асабістай адказнасцю.",
+    "bio_badge": "Пра Peter Fiegler",
+    "bio_1": "Peter Fiegler заснаваў FIECON з перакананнем, што выдатнае кансультаванне ў карпаратыўным праве магчыма толькі тады, калі цалкам прымаеш перспектыву кліента. Яго падыход спалучае глыбокую экспертызу з прадпрымальніцкім інстынктам, які выходзіць далёка за межы чыста юрыдычнай плоскасці.",
     "bio_2": "З офісамі ў Гамбургу, Бялградзе, Тэхасе, Чарнагорыі і Вануату ён стварыў міжнародную сетку, якая суправаджае кліентаў туды, куды вядуць іх бізнес-планы — ці гэта заснаванне кампаніі ў Паўднёва-Усходняй Еўропе, структураванне холдынга ці выхад на новыя рынкі.",
-    "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
-    "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
-    "quote_attribution": "Peter Fiegler, Gründer",
-    "competency_1_title": "Gesellschaftsrecht",
-    "competency_1_description": "Beratung bei der Gründung, Strukturierung und Führung von Gesellschaften — national und international. Von der GmbH bis zur grenzüberschreitenden Holding.",
-    "competency_2_title": "Internationale Firmengründungen",
-    "competency_2_description": "Umfassende Begleitung bei Firmengründungen in Deutschland, Serbien, den USA und weiteren Jurisdiktionen. Rechtssicher und effizient.",
-    "competency_3_title": "Finanzverwaltung & Compliance",
-    "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
-    "competency_4_title": "Strategische Beratung",
-    "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
+    "bio_3": "Яго філасофія простая: кожны мандат заслугоўвае той самай старанлівасці, якую ён прысвяціў бы свайму ўласнаму прадпрыемству. Гэты падыход вызначае кожную кансультацыю, кожную структуру і кожную рэкамендацыю.",
+    "quote": "Мы кансультуем так, быццам гэта наша ўласная кампанія.",
+    "quote_attribution": "Peter Fiegler, заснавальнік",
+    "competency_1_title": "Карпаратыўнае права",
+    "competency_1_description": "Кансультаванне пры стварэнні, структураванні і кіраванні кампаніямі — на нацыянальным і міжнародным узроўні. Ад GmbH да транскарданнага холдынга.",
+    "competency_2_title": "Міжнароднае стварэнне кампаній",
+    "competency_2_description": "Комплекснае суправаджэнне пры стварэнні кампаній у Германіі, Сербіі, ЗША і іншых юрысдыкцыях. Юрыдычна надзейна і эфектыўна.",
+    "competency_3_title": "Фінансавае адміністраванне і камплаенс",
+    "competency_3_description": "Празрыстыя фінансавыя структуры, абавязацельствы па справаздачнасці і рэестр празрыстасці — для кіравання прадпрыемствам, якое стварае давер.",
+    "competency_4_title": "Стратэгічнае кансультаванне",
+    "competency_4_description": "Доўгатэрміновыя стратэгіі для росту прадпрыемства, структуры ўдзелу і міжнароднай экспансіі — асабіста і партнёрскі."
   },
   "schema": {
-    "description": "FIECON Germany Co. KG — Міжнароднае кансультаванне па карпаратыўным праве, стварэнні кампаній, фінансавым адміністраванні і фінансаванні будаўніцтва. Офісы ў Гамбургу, Бялградзе, Тэхасе, Montenegro і Vanuatu.",
+    "description": "FIECON Consulting UG & Co KG — Міжнароднае кансультаванне па карпаратыўным праве, стварэнні кампаній, фінансавым адміністраванні і фінансаванні будаўніцтва. Офісы ў Гамбургу, Бялградзе, Тэхасе, Montenegro і Vanuatu.",
     "offer_catalog": "Паслугі",
     "service_consulting": "Карпаратыўнае права і стварэнне кампаній",
     "service_finance": "Фінансавае адміністраванне",

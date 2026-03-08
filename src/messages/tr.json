@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — Şirketler Hukuku ve Uluslararası Şirket Kuruluşları İçin Danışmanlık",
-    "description": "FIECON Germany Co. KG — Şirketler hukuku, uluslararası şirket kuruluşları, finans yönetimi ve inşaat finansmanı alanlarında danışmanlık. Hamburg, Belgrad, Texas'ta, Montenegro ve Vanuatu ofisler.",
+    "description": "FIECON Consulting UG & Co KG — Şirketler hukuku, uluslararası şirket kuruluşları, finans yönetimi ve inşaat finansmanı alanlarında danışmanlık. Hamburg, Belgrad, Texas'ta, Montenegro ve Vanuatu ofisler.",
     "keywords": "şirketler hukuku, uluslararası şirket kuruluşu, danışmanlık Hamburg, mali yönetim, inşaat finansmanı, yat finansmanı, FIECON Consulting"
   },
   "nav": {
@@ -21,7 +21,7 @@
     "skip_to_content": "İçeriğe atla"
   },
   "hero": {
-    "tagline": "Fiegler Consulting",
+    "tagline": "FIECON Consulting",
     "headline": "Hukukunuz. Uluslararası düşünülmüş.",
     "subtitle": "Şirketler hukuku ve uluslararası şirket kuruluşları — Hamburg, Belgrad, Texas'ta, Montenegro ve Vanuatu kişisel danışmanlık.",
     "cta_primary": "Hizmetlerimiz",
@@ -37,7 +37,7 @@
     "stat_2_label": "Uzmanlık alanı",
     "stat_3_label": "Ülke",
     "quote_attribution": "Peter Fiegler, Kurucu",
-    "profile_link": "Mehr über Peter Fiegler erfahren"
+    "profile_link": "Peter Fiegler hakkında daha fazla bilgi edinin"
   },
   "services": {
     "badge": "Hizmetler",
@@ -53,6 +53,7 @@
     },
     "finance": {
       "title": "Finans Yönetimi",
+      "tab": "Genel",
       "description": "Düzen güven yaratır: Şirket finanslarınızın profesyonel yönetimini üstleniyor ve sürdürülebilir büyümeyi mümkün kılan şeffaf yapılar oluşturuyoruz.",
       "items": {
         "0": "Muhasebe ve raporlama",
@@ -61,6 +62,7 @@
     },
     "construction": {
       "title": "İnşaat Finansmanı",
+      "tab": "İnşaat",
       "description": "İnşaat projeleri finansal güvenilirlik gerektirir. İnşaat projelerinizin finansmanını yapılandırıyor ve ilk hesaplamadan tamamlanmasına kadar eşlik ediyoruz.",
       "items": {
         "0": "Proje finansmanı",
@@ -70,6 +72,7 @@
     },
     "yacht": {
       "title": "Yat İnşaat Finansmanı",
+      "tab": "Yat",
       "description": "Özel bir segment özel bir özen hak eder. Yat inşaat projelerinin finansmanı konusunda danışmanlık sunuyoruz — gizlilik içinde, kişisel ve bu sektörün beklentilerine uygun bir anlayışla.",
       "items": {
         "0": "Yat finansmanı",
@@ -190,13 +193,13 @@
     }
   },
   "footer": {
-    "description": "FIECON Germany Co. KG — Şirketler hukuku, şirket kuruluşları ve daha fazlası için uluslararası danışmanlık. Kişisel. Hassas. Ortaklık ruhuyla.",
+    "description": "FIECON Consulting UG & Co KG — Şirketler hukuku, şirket kuruluşları ve daha fazlası için uluslararası danışmanlık. Kişisel. Hassas. Ortaklık ruhuyla.",
     "services_title": "Hizmetler",
     "offices_title": "Ofisler",
     "legal_title": "Hukuki bilgiler",
     "impressum": "Künye",
     "datenschutz": "Gizlilik politikası",
-    "copyright": "© {year} FIECON Germany Co. KG. Tüm hakları saklıdır."
+    "copyright": "© {year} FIECON Consulting UG & Co KG. Tüm hakları saklıdır."
   },
   "error": {
     "title": "Bir hata oluştu",
@@ -301,36 +304,36 @@
   },
   "team": {
     "nav_label": "Team",
-    "competencies_headline": "Kompetenzfelder",
-    "cta_headline": "Lassen Sie uns ins Gespräch kommen",
-    "cta_subline": "Ob eine erste Frage oder ein konkretes Vorhaben — wir nehmen uns Zeit für Sie.",
-    "cta_button": "Kontakt aufnehmen",
-    "back_to_home": "Zur Startseite",
-    "breadcrumb_home": "Startseite"
+    "competencies_headline": "Yetkinlik alanları",
+    "cta_headline": "Bir sohbet başlatalım",
+    "cta_subline": "İlk bir soru olsun ya da somut bir proje — sizin için zaman ayırıyoruz.",
+    "cta_button": "İletişime geçin",
+    "back_to_home": "Ana sayfaya dön",
+    "breadcrumb_home": "Ana sayfa"
   },
   "team_peter_fiegler": {
-    "meta_title": "Peter Fiegler — Gründer & Gesellschaftsrechtsexperte",
-    "meta_description": "Peter Fiegler, Gründer von FIECON. Langjährige Expertise im Gesellschaftsrecht, internationale Firmengründungen und persönliche Beratung auf höchstem Niveau.",
+    "meta_title": "Peter Fiegler — Kurucu ve Şirketler Hukuku Uzmanı",
+    "meta_description": "Peter Fiegler, FIECON'un kurucusu. Şirketler hukukunda uzun yıllık uzmanlık, uluslararası şirket kuruluşları ve en üst düzeyde kişisel danışmanlık.",
     "hero_name": "Peter Fiegler",
-    "hero_role": "Gründer & Geschäftsführer",
-    "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
-    "bio_badge": "Über Peter Fiegler",
-    "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
+    "hero_role": "Kurucu ve Genel Müdür",
+    "hero_tagline": "Şirketler hukuku ve uluslararası şirket kuruluşları — öngörü, hassasiyet ve kişisel tutumla.",
+    "bio_badge": "Peter Fiegler Hakkında",
+    "bio_1": "Peter Fiegler, FIECON'u şirketler hukukunda mükemmel danışmanlığın ancak müvekkilin bakış açısını tamamen benimsemekle mümkün olacağı inancıyla kurdu. Yaklaşımı, derin uzmanlık bilgisini salt hukuki boyutu çok aşan girişimci bir sezgiyle birleştirir.",
     "bio_2": "Hamburg, Belgrad, Texas, Montenegro ve Vanuatu'daki ofisleriyle, müvekkillerine iş planlarının onları götürdüğü her yerde eşlik eden uluslararası bir ağ kurmuştur — ister Güneydoğu Avrupa'da bir şirket kurmak, bir holding yapılandırmak, isterse yeni pazarlara açılmak olsun.",
-    "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
-    "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
-    "quote_attribution": "Peter Fiegler, Gründer",
-    "competency_1_title": "Gesellschaftsrecht",
-    "competency_1_description": "Beratung bei der Gründung, Strukturierung und Führung von Gesellschaften — national und international. Von der GmbH bis zur grenzüberschreitenden Holding.",
-    "competency_2_title": "Internationale Firmengründungen",
-    "competency_2_description": "Umfassende Begleitung bei Firmengründungen in Deutschland, Serbien, den USA und weiteren Jurisdiktionen. Rechtssicher und effizient.",
-    "competency_3_title": "Finanzverwaltung & Compliance",
-    "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
-    "competency_4_title": "Strategische Beratung",
-    "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
+    "bio_3": "Felsefesi basittir: her vekalet, kendi şirketine göstereceği aynı özeni hak eder. Bu anlayış her danışmanlığı, her yapıyı ve her tavsiyeyi şekillendirir.",
+    "quote": "Kendi şirketimizmiş gibi danışıyoruz.",
+    "quote_attribution": "Peter Fiegler, Kurucu",
+    "competency_1_title": "Şirketler hukuku",
+    "competency_1_description": "Şirketlerin kurulması, yapılandırılması ve yönetimi konusunda danışmanlık — ulusal ve uluslararası düzeyde. GmbH'den sınır ötesi holdinglere kadar.",
+    "competency_2_title": "Uluslararası şirket kuruluşları",
+    "competency_2_description": "Almanya, Sırbistan, ABD ve diğer yetki alanlarında şirket kuruluşlarında kapsamlı eşlik. Hukuki güvence ve verimlilik.",
+    "competency_3_title": "Finans yönetimi ve uyumluluk",
+    "competency_3_description": "Şeffaf mali yapılar, bildirim yükümlülükleri ve şeffaflık sicili — güven oluşturan bir kurumsal yönetim için.",
+    "competency_4_title": "Stratejik danışmanlık",
+    "competency_4_description": "Kurumsal büyüme, iştirak yapıları ve uluslararası genişleme için uzun vadeli stratejiler — kişisel ve ortaklık ruhuyla."
   },
   "schema": {
-    "description": "FIECON Germany Co. KG — Şirketler hukuku, uluslararası şirket kuruluşları, finans yönetimi ve inşaat finansmanı alanlarında danışmanlık. Hamburg, Belgrad, Texas'ta, Montenegro ve Vanuatu ofisler.",
+    "description": "FIECON Consulting UG & Co KG — Şirketler hukuku, uluslararası şirket kuruluşları, finans yönetimi ve inşaat finansmanı alanlarında danışmanlık. Hamburg, Belgrad, Texas'ta, Montenegro ve Vanuatu ofisler.",
     "offer_catalog": "Hizmetler",
     "service_consulting": "Şirketler Hukuku ve Şirket Kuruluşları",
     "service_finance": "Finans Yönetimi",

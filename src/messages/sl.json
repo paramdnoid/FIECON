@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — Mednarodno gospodarsko pravo in svetovanje pri ustanavljanju podjetij",
-    "description": "FIECON Germany Co. KG — Mednarodno svetovanje na področju gospodarskega prava, ustanavljanja podjetij, finančne uprave in financiranja gradnje. Pisarne v Hamburgu, Beogradu, Teksasu, Montenegro in Vanuatu.",
+    "description": "FIECON Consulting UG & Co KG — Mednarodno svetovanje na področju gospodarskega prava, ustanavljanja podjetij, finančne uprave in financiranja gradnje. Pisarne v Hamburgu, Beogradu, Teksasu, Montenegro in Vanuatu.",
     "keywords": "gospodarsko pravo, mednarodno ustanavljanje podjetij, svetovanje Hamburg, finančno upravljanje, gradbeno financiranje, FIECON Consulting"
   },
   "nav": {
@@ -21,7 +21,7 @@
     "skip_to_content": "Preskoči na vsebino"
   },
   "hero": {
-    "tagline": "Fiegler Consulting",
+    "tagline": "FIECON Consulting",
     "headline": "Vaše podjetje. Mednarodno svetovano.",
     "subtitle": "Gospodarsko pravo in mednarodno ustanavljanje podjetij — osebno vodenje v Hamburgu, Beogradu, Teksasu, Montenegro in Vanuatu.",
     "cta_primary": "Naše storitve",
@@ -37,7 +37,7 @@
     "stat_2_label": "Strokovna področja",
     "stat_3_label": "Držav",
     "quote_attribution": "Peter Fiegler, ustanovitelj",
-    "profile_link": "Mehr über Peter Fiegler erfahren"
+    "profile_link": "Več o Peteru Fieglerju"
   },
   "services": {
     "badge": "Storitve",
@@ -53,6 +53,7 @@
     },
     "finance": {
       "title": "Finančna uprava",
+      "tab": "Splošno",
       "description": "Jasnost gradi zaupanje: prevzamemo vašo korporativno finančno upravo in ustvarjamo pregledne strukture, ki omogočajo trajnostno rast.",
       "items": {
         "0": "Računovodstvo in poročanje",
@@ -61,6 +62,7 @@
     },
     "construction": {
       "title": "Financiranje gradnje",
+      "tab": "Gradbeništvo",
       "description": "Gradbeni projekti zahtevajo finančno zanesljivost. Strukturiramo in nadziramo financiranje vaših gradbenih projektov — od prvega izračuna do zaključka.",
       "items": {
         "0": "Projektno financiranje",
@@ -70,6 +72,7 @@
     },
     "yacht": {
       "title": "Financiranje gradnje jaht",
+      "tab": "Jahte",
       "description": "Poseben segment si zasluži posebno skrb. Svetujemo pri financiranju projektov gradnje jaht — diskretno, osebno in z resničnim razumevanjem standardov panoge.",
       "items": {
         "0": "Financiranje jaht",
@@ -190,13 +193,13 @@
     }
   },
   "footer": {
-    "description": "FIECON Germany Co. KG — Mednarodno svetovanje na področju gospodarskega prava, ustanavljanja podjetij in več. Osebno. Natančno. Partnersko.",
+    "description": "FIECON Consulting UG & Co KG — Mednarodno svetovanje na področju gospodarskega prava, ustanavljanja podjetij in več. Osebno. Natančno. Partnersko.",
     "services_title": "Storitve",
     "offices_title": "Pisarne",
     "legal_title": "Pravne informacije",
     "impressum": "Pravno obvestilo",
     "datenschutz": "Politika zasebnosti",
-    "copyright": "© {year} FIECON Germany Co. KG. Vse pravice pridržane."
+    "copyright": "© {year} FIECON Consulting UG & Co KG. Vse pravice pridržane."
   },
   "error": {
     "title": "Prišlo je do napake",
@@ -300,37 +303,37 @@
     "contact_label": "Kontakt"
   },
   "team": {
-    "nav_label": "Team",
-    "competencies_headline": "Kompetenzfelder",
-    "cta_headline": "Lassen Sie uns ins Gespräch kommen",
-    "cta_subline": "Ob eine erste Frage oder ein konkretes Vorhaben — wir nehmen uns Zeit für Sie.",
-    "cta_button": "Kontakt aufnehmen",
-    "back_to_home": "Zur Startseite",
-    "breadcrumb_home": "Startseite"
+    "nav_label": "Ekipa",
+    "competencies_headline": "Področja kompetenc",
+    "cta_headline": "Pogovorimo se",
+    "cta_subline": "Naj bo to začetno vprašanje ali konkreten projekt — za vas si vzamemo čas.",
+    "cta_button": "Stopite v stik",
+    "back_to_home": "Na domačo stran",
+    "breadcrumb_home": "Domov"
   },
   "team_peter_fiegler": {
-    "meta_title": "Peter Fiegler — Gründer & Gesellschaftsrechtsexperte",
-    "meta_description": "Peter Fiegler, Gründer von FIECON. Langjährige Expertise im Gesellschaftsrecht, internationale Firmengründungen und persönliche Beratung auf höchstem Niveau.",
+    "meta_title": "Peter Fiegler — Ustanovitelj in strokovnjak za gospodarsko pravo",
+    "meta_description": "Peter Fiegler, ustanovitelj FIECON. Dolgoletne izkušnje v gospodarskem pravu, mednarodnem ustanavljanju podjetij in osebno svetovanje na najvišji ravni.",
     "hero_name": "Peter Fiegler",
-    "hero_role": "Gründer & Geschäftsführer",
-    "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
-    "bio_badge": "Über Peter Fiegler",
-    "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
+    "hero_role": "Ustanovitelj in direktor",
+    "hero_tagline": "Gospodarsko pravo in mednarodno ustanavljanje podjetij — z vizijo, natančnostjo in osebno predanostjo.",
+    "bio_badge": "O Peteru Fieglerju",
+    "bio_1": "Peter Fiegler je ustanovil FIECON s prepričanjem, da odlično svetovanje na področju gospodarskega prava uspe le, ko v celoti prevzamete perspektivo stranke. Njegov pristop združuje globoko strokovno znanje s podjetniškim instinktom, ki daleč presega zgolj pravno dimenzijo.",
     "bio_2": "S pisarnami v Hamburgu, Beogradu, Teksasu, Črni gori in Vanuatuju je zgradil mednarodno mrežo, ki stranke spremlja povsod, kamor jih vodijo njihovi poslovni načrti — naj gre za ustanovitev podjetja v jugovzhodni Evropi, strukturiranje holdinga ali vstop na nove trge.",
-    "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
-    "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
-    "quote_attribution": "Peter Fiegler, Gründer",
-    "competency_1_title": "Gesellschaftsrecht",
-    "competency_1_description": "Beratung bei der Gründung, Strukturierung und Führung von Gesellschaften — national und international. Von der GmbH bis zur grenzüberschreitenden Holding.",
-    "competency_2_title": "Internationale Firmengründungen",
-    "competency_2_description": "Umfassende Begleitung bei Firmengründungen in Deutschland, Serbien, den USA und weiteren Jurisdiktionen. Rechtssicher und effizient.",
-    "competency_3_title": "Finanzverwaltung & Compliance",
-    "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
-    "competency_4_title": "Strategische Beratung",
-    "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
+    "bio_3": "Njegova filozofija je preprosta: vsak mandat si zasluži enako skrb, kot bi jo namenil lastnemu podjetju. Ta zaveza oblikuje vsako svetovanje, vsako strukturo in vsako priporočilo.",
+    "quote": "Svetujemo, kot da bi šlo za naše lastno podjetje.",
+    "quote_attribution": "Peter Fiegler, ustanovitelj",
+    "competency_1_title": "Gospodarsko pravo",
+    "competency_1_description": "Svetovanje pri ustanavljanju, strukturiranju in vodenju podjetij — na nacionalni in mednarodni ravni. Od GmbH do čezmejnih holdingov.",
+    "competency_2_title": "Mednarodno ustanavljanje podjetij",
+    "competency_2_description": "Celovita podpora pri ustanavljanju podjetij v Nemčiji, Srbiji, ZDA in drugih jurisdikcijah. Pravno zanesljivo in učinkovito.",
+    "competency_3_title": "Finančna uprava in skladnost",
+    "competency_3_description": "Pregledne finančne strukture, obveznosti poročanja in register dejanskih lastnikov — za vodenje podjetja, ki gradi zaupanje.",
+    "competency_4_title": "Strateško svetovanje",
+    "competency_4_description": "Dolgoročne strategije za rast podjetja, udeležbene strukture in mednarodno širitev — osebno in partnersko."
   },
   "schema": {
-    "description": "FIECON Germany Co. KG — Mednarodno svetovanje na področju gospodarskega prava, ustanavljanja podjetij, finančne uprave in financiranja gradnje. Pisarne v Hamburgu, Beogradu, Teksasu, Montenegro in Vanuatu.",
+    "description": "FIECON Consulting UG & Co KG — Mednarodno svetovanje na področju gospodarskega prava, ustanavljanja podjetij, finančne uprave in financiranja gradnje. Pisarne v Hamburgu, Beogradu, Teksasu, Montenegro in Vanuatu.",
     "offer_catalog": "Storitve",
     "service_consulting": "Gospodarsko pravo in ustanavljanje podjetij",
     "service_finance": "Finančna uprava",

@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — Nazioarteko Sozietate Zuzenbidea eta Enpresa Eraketa Aholkularitza",
-    "description": "FIECON Germany Co. KG — Nazioarteko aholkularitza sozietate zuzenbidean, enpresa eraketetan, finantza administrazioan eta eraikuntza finantzaketan. Bulegoak Hamburgen, Belgraden, Texasen, Montenegron eta Vanuatun.",
+    "description": "FIECON Consulting UG & Co KG — Nazioarteko aholkularitza sozietate zuzenbidean, enpresa eraketetan, finantza administrazioan eta eraikuntza finantzaketan. Bulegoak Hamburgen, Belgraden, Texasen, Montenegron eta Vanuatun.",
     "keywords": "sozietate zuzenbidea, nazioarteko enpresa sortzea, aholkularitza Hamburg, finantza kudeaketa, eraikuntza finantzaketa, FIECON Consulting"
   },
   "nav": {
@@ -21,7 +21,7 @@
     "skip_to_content": "Edukira joan"
   },
   "hero": {
-    "tagline": "Fiegler Consulting",
+    "tagline": "FIECON Consulting",
     "headline": "Zure negozioa. Nazioartean aholkatua.",
     "subtitle": "Sozietate zuzenbidea eta nazioarteko enpresa eraketa — laguntza pertsonala Hamburgen, Belgraden, Texasen, Montenegron eta Vanuatun.",
     "cta_primary": "Gure zerbitzuak",
@@ -37,7 +37,7 @@
     "stat_2_label": "Jarduera arloak",
     "stat_3_label": "Herrialdeak",
     "quote_attribution": "Peter Fiegler, Sortzailea",
-    "profile_link": "Mehr über Peter Fiegler erfahren"
+    "profile_link": "Peter Fieglerri buruz gehiago jakin"
   },
   "services": {
     "badge": "Zerbitzuak",
@@ -53,6 +53,7 @@
     },
     "finance": {
       "title": "Finantza Administrazioa",
+      "tab": "Orokorra",
       "description": "Argitasunak konfiantza sortzen du: zure finantza administrazio korporatiboa hartzen dugu eta hazkunde iraunkorra ahalbidetzen duten egitura gardenak sortzen ditugu.",
       "items": {
         "0": "Kontabilitatea eta txostenak",
@@ -61,6 +62,7 @@
     },
     "construction": {
       "title": "Eraikuntza Finantzaketa",
+      "tab": "Eraikuntza",
       "description": "Eraikuntza proiektuek finantza fidagarritasuna eskatzen dute. Zure eraikuntza proiektuen finantzaketa egituratzen eta gainbegiratzen dugu — hasierako kalkulutik bukaerara.",
       "items": {
         "0": "Proiektu finantzaketa",
@@ -70,6 +72,7 @@
     },
     "yacht": {
       "title": "Yate Eraikuntza Finantzaketa",
+      "tab": "Yatea",
       "description": "Segmentu bereizi batek arreta berezia merezi du. Yate eraikuntza proiektuen finantzaketan aholkatzen dugu — diskrezioaz, pertsonalki eta sektorearen estandarren benetako ulermenarekin.",
       "items": {
         "0": "Yate finantzaketa",
@@ -190,13 +193,13 @@
     }
   },
   "footer": {
-    "description": "FIECON Germany Co. KG — Nazioarteko aholkularitza sozietate zuzenbidean, enpresa eraketetan eta gehiagotan. Pertsonala. Zehatza. Lankidetzakoa.",
+    "description": "FIECON Consulting UG & Co KG — Nazioarteko aholkularitza sozietate zuzenbidean, enpresa eraketetan eta gehiagotan. Pertsonala. Zehatza. Lankidetzakoa.",
     "services_title": "Zerbitzuak",
     "offices_title": "Bulegoak",
     "legal_title": "Legala",
     "impressum": "Lege oharra",
     "datenschutz": "Pribatutasun politika",
-    "copyright": "© {year} FIECON Germany Co. KG. Eskubide guztiak erreserbatuta."
+    "copyright": "© {year} FIECON Consulting UG & Co KG. Eskubide guztiak erreserbatuta."
   },
   "error": {
     "title": "Errore bat gertatu da",
@@ -300,37 +303,37 @@
     "contact_label": "Kontaktua"
   },
   "team": {
-    "nav_label": "Team",
-    "competencies_headline": "Kompetenzfelder",
-    "cta_headline": "Lassen Sie uns ins Gespräch kommen",
-    "cta_subline": "Ob eine erste Frage oder ein konkretes Vorhaben — wir nehmen uns Zeit für Sie.",
-    "cta_button": "Kontakt aufnehmen",
-    "back_to_home": "Zur Startseite",
-    "breadcrumb_home": "Startseite"
+    "nav_label": "Taldea",
+    "competencies_headline": "Espezializazio arloak",
+    "cta_headline": "Hasi dezagun elkarrizketa bat",
+    "cta_subline": "Lehen galdera bat izan edo proiektu zehatz bat — denbora hartzen dugu zuretzat.",
+    "cta_button": "Harremanetan jarri",
+    "back_to_home": "Hasiera orrira itzuli",
+    "breadcrumb_home": "Hasiera"
   },
   "team_peter_fiegler": {
-    "meta_title": "Peter Fiegler — Gründer & Gesellschaftsrechtsexperte",
-    "meta_description": "Peter Fiegler, Gründer von FIECON. Langjährige Expertise im Gesellschaftsrecht, internationale Firmengründungen und persönliche Beratung auf höchstem Niveau.",
+    "meta_title": "Peter Fiegler — Sortzailea eta sozietate-zuzenbide aditua",
+    "meta_description": "Peter Fiegler, FIECONen sortzailea. Esperientzia zabala sozietate-zuzenbidean, nazioarteko enpresa eraketetan eta maila goreneko aholkularitza pertsonala.",
     "hero_name": "Peter Fiegler",
-    "hero_role": "Gründer & Geschäftsführer",
-    "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
-    "bio_badge": "Über Peter Fiegler",
-    "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
+    "hero_role": "Sortzailea eta Zuzendari Nagusia",
+    "hero_tagline": "Sozietate-zuzenbidea eta nazioarteko enpresa eraketa — ikuspegi, zehaztasun eta konpromiso pertsonalarekin.",
+    "bio_badge": "Peter Fieglerri buruz",
+    "bio_1": "Peter Fieglerrek FIECON sortu zuen uste sendoarekin: sozietate-zuzenbidean bikaintasunezko aholkularitza bezeroaren ikuspegia erabat hartzen denean bakarrik lortzen da. Bere ikuspegia ezagutza espezializatu sakona eta maila juridiko hutsetik haratago doan ekintzailetza-sena uztartzen ditu.",
     "bio_2": "Hamburgen, Belgraden, Texasen, Montenegron eta Vanuatun bulegoekin, nazioarteko sare bat eraiki du, bezeroei beren negozio-planak eramaten dituzten lekuetan laguntzen diena — Hego-ekialdeko Europan enpresa bat sortuz, holding bat egituratuz edo merkatu berrietara sartuz.",
-    "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
-    "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
-    "quote_attribution": "Peter Fiegler, Gründer",
-    "competency_1_title": "Gesellschaftsrecht",
-    "competency_1_description": "Beratung bei der Gründung, Strukturierung und Führung von Gesellschaften — national und international. Von der GmbH bis zur grenzüberschreitenden Holding.",
-    "competency_2_title": "Internationale Firmengründungen",
-    "competency_2_description": "Umfassende Begleitung bei Firmengründungen in Deutschland, Serbien, den USA und weiteren Jurisdiktionen. Rechtssicher und effizient.",
-    "competency_3_title": "Finanzverwaltung & Compliance",
-    "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
-    "competency_4_title": "Strategische Beratung",
-    "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
+    "bio_3": "Bere filosofia sinplea da: mandatu bakoitzak bere enpresa propioari eskainiko liokeen arreta bera merezi du. Eskakizun honek aholkularitza, egitura eta gomendio bakoitza definitzen du.",
+    "quote": "Gure enpresa propioa balitz bezala aholkatzen dugu.",
+    "quote_attribution": "Peter Fiegler, sortzailea",
+    "competency_1_title": "Sozietate-zuzenbidea",
+    "competency_1_description": "Sozietateen eraketa, egituratzea eta gobernantzan aholkularitza — maila nazionalean eta internazionalean. GmbH-tik mugaz gaindiko holdingetara.",
+    "competency_2_title": "Nazioarteko enpresa eraketa",
+    "competency_2_description": "Laguntza integrala Alemanian, Serbian, AEBetan eta beste jurisdikzioetan enpresen eraketan. Legalki segurua eta eraginkorra.",
+    "competency_3_title": "Finantza administrazioa eta betetze-araudia",
+    "competency_3_description": "Finantza-egitura gardenak, jakinarazpen-betebeharrak eta gardentasun-erregistroa — konfiantza sortzen duen enpresa kudeaketarako.",
+    "competency_4_title": "Aholkularitza estrategikoa",
+    "competency_4_description": "Epe luzeko estrategiak enpresa hazkundeari, partaidetza egiturei eta nazioarteko hedapenari — pertsonalki eta lankidetzan."
   },
   "schema": {
-    "description": "FIECON Germany Co. KG — Nazioarteko aholkularitza sozietate zuzenbidean, enpresa eraketetan, finantza administrazioan eta eraikuntza finantzaketan. Bulegoak Hamburgen, Belgraden, Texasen, Montenegron eta Vanuatun.",
+    "description": "FIECON Consulting UG & Co KG — Nazioarteko aholkularitza sozietate zuzenbidean, enpresa eraketetan, finantza administrazioan eta eraikuntza finantzaketan. Bulegoak Hamburgen, Belgraden, Texasen, Montenegron eta Vanuatun.",
     "offer_catalog": "Zerbitzuak",
     "service_consulting": "Sozietate Zuzenbidea eta Enpresa Eraketa",
     "service_finance": "Finantza Administrazioa",

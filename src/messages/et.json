@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — Rahvusvaheline äriõiguse ja ettevõtte asutamise nõustamine",
-    "description": "FIECON Germany Co. KG — Rahvusvaheline nõustamine äriõiguse, ettevõtete asutamise, finantshalduse ja ehitusfinantseerimise valdkonnas. Kontorid Hamburgis, Belgradis, Texases, Montenegros ja Vanuatul.",
+    "description": "FIECON Consulting UG & Co KG — Rahvusvaheline nõustamine äriõiguse, ettevõtete asutamise, finantshalduse ja ehitusfinantseerimise valdkonnas. Kontorid Hamburgis, Belgradis, Texases, Montenegros ja Vanuatul.",
     "keywords": "äriõigus, rahvusvaheline ettevõtte asutamine, nõustamine Hamburg, finantsjuhtimine, ehituse rahastamine, FIECON Consulting"
   },
   "nav": {
@@ -21,7 +21,7 @@
     "skip_to_content": "Mine sisu juurde"
   },
   "hero": {
-    "tagline": "Fiegler Consulting",
+    "tagline": "FIECON Consulting",
     "headline": "Teie äri. Rahvusvaheliselt nõustatud.",
     "subtitle": "Äriõigus ja rahvusvaheline ettevõtete asutamine — isiklik juhendamine Hamburgis, Belgradis, Texases, Montenegros ja Vanuatul.",
     "cta_primary": "Meie teenused",
@@ -37,7 +37,7 @@
     "stat_2_label": "Tegevusvaldkonda",
     "stat_3_label": "Riiki",
     "quote_attribution": "Peter Fiegler, asutaja",
-    "profile_link": "Mehr über Peter Fiegler erfahren"
+    "profile_link": "Loe rohkem Peter Fiegleri kohta"
   },
   "services": {
     "badge": "Teenused",
@@ -53,6 +53,7 @@
     },
     "finance": {
       "title": "Finantshaldus",
+      "tab": "Üldine",
       "description": "Selgus loob usaldust: võtame teie ettevõtte finantshalduse enda kanda ja loome läbipaistvad struktuurid, mis võimaldavad jätkusuutlikku kasvu.",
       "items": {
         "0": "Raamatupidamine ja aruandlus",
@@ -61,6 +62,7 @@
     },
     "construction": {
       "title": "Ehitusfinantseerimine",
+      "tab": "Ehitus",
       "description": "Ehitusprojektid nõuavad rahalist usaldusväärsust. Struktureerime ja jälgime teie ehitusprojektide finantseerimist — algsest arvutusest kuni valmimiseni.",
       "items": {
         "0": "Projektide finantseerimine",
@@ -70,6 +72,7 @@
     },
     "yacht": {
       "title": "Jahiehituse finantseerimine",
+      "tab": "Jaht",
       "description": "Erilise segmendi jaoks eriline hoolitsus. Nõustame jahiehitusprojektide finantseerimise osas — diskreetselt, isiklikult ja tõelise valdkonnastandardite mõistmisega.",
       "items": {
         "0": "Jahifinantseerimine",
@@ -77,12 +80,12 @@
       }
     },
     "private_health_insurance": {
-      "title": "Private health insurance for self-employed entrepreneurs",
-      "description": "We support self-employed entrepreneurs in selecting, structuring and optimizing private health insurance — tailored to income profile, coverage requirements and long-term planning.",
+      "title": "Eratervisekindlustus füüsilisest isikust ettevõtjatele",
+      "description": "Toetame füüsilisest isikust ettevõtjaid eratervisekindlustuse valimisel, struktureerimisel ja optimeerimisel — kohandatud sissetulekuprofiili, kaitsevajaduste ja pikaajalise planeerimise järgi.",
       "items": {
-        "0": "Plan comparison & selection",
-        "1": "Coverage and premium optimization",
-        "2": "Long-term protection strategy"
+        "0": "Plaanide võrdlus ja valik",
+        "1": "Katte ja preemia optimeerimine",
+        "2": "Pikaajaline kaitsestrateegia"
       }
     },
 
@@ -190,13 +193,13 @@
     }
   },
   "footer": {
-    "description": "FIECON Germany Co. KG — Rahvusvaheline nõustamine äriõiguse, ettevõtete asutamise ja muude valdkondade osas. Isiklik. Täpne. Partnerluslik.",
+    "description": "FIECON Consulting UG & Co KG — Rahvusvaheline nõustamine äriõiguse, ettevõtete asutamise ja muude valdkondade osas. Isiklik. Täpne. Partnerluslik.",
     "services_title": "Teenused",
     "offices_title": "Kontorid",
     "legal_title": "Õigusalane",
     "impressum": "Õigusteade",
     "datenschutz": "Privaatsuspoliitika",
-    "copyright": "© {year} FIECON Germany Co. KG. Kõik õigused kaitstud."
+    "copyright": "© {year} FIECON Consulting UG & Co KG. Kõik õigused kaitstud."
   },
   "error": {
     "title": "Tekkis viga",
@@ -301,36 +304,36 @@
   },
   "team": {
     "nav_label": "Team",
-    "competencies_headline": "Kompetenzfelder",
-    "cta_headline": "Lassen Sie uns ins Gespräch kommen",
-    "cta_subline": "Ob eine erste Frage oder ein konkretes Vorhaben — wir nehmen uns Zeit für Sie.",
-    "cta_button": "Kontakt aufnehmen",
-    "back_to_home": "Zur Startseite",
-    "breadcrumb_home": "Startseite"
+    "competencies_headline": "Kompetentsivaldkonnad",
+    "cta_headline": "Alustame vestlust",
+    "cta_subline": "Olgu see esmane küsimus või konkreetne projekt — võtame teie jaoks aega.",
+    "cta_button": "Võtke ühendust",
+    "back_to_home": "Tagasi avalehele",
+    "breadcrumb_home": "Avaleht"
   },
   "team_peter_fiegler": {
-    "meta_title": "Peter Fiegler — Gründer & Gesellschaftsrechtsexperte",
-    "meta_description": "Peter Fiegler, Gründer von FIECON. Langjährige Expertise im Gesellschaftsrecht, internationale Firmengründungen und persönliche Beratung auf höchstem Niveau.",
+    "meta_title": "Peter Fiegler — Asutaja & äriõiguse ekspert",
+    "meta_description": "Peter Fiegler, FIECONi asutaja. Pikaajaline ekspertiis äriõiguses, rahvusvahelised ettevõtete asutamised ja isiklik nõustamine kõrgeimal tasemel.",
     "hero_name": "Peter Fiegler",
-    "hero_role": "Gründer & Geschäftsführer",
-    "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
-    "bio_badge": "Über Peter Fiegler",
-    "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
+    "hero_role": "Asutaja & tegevjuht",
+    "hero_tagline": "Äriõigus ja rahvusvaheline ettevõtete asutamine — kaugemalevaatega, täpsusega ja isikliku hoiakuga.",
+    "bio_badge": "Peter Fieglerist",
+    "bio_1": "Peter Fiegler asutas FIECONi veendumusega, et suurepärane äriõiguse nõustamine õnnestub ainult siis, kui kliendi perspektiiv võetakse täielikult omaks. Tema lähenemine ühendab sügava erialateadmise ettevõtliku vaistuga, mis ulatub kaugele puhtjuriidilisest tasandist.",
     "bio_2": "Kontorid Hamburgis, Belgradis, Texases, Montenegros ja Vanuatul on ta üles ehitanud rahvusvahelise võrgustiku, mis saadab kliente kõikjal, kuhu nende äriplaanid viivad — olgu selleks ettevõtte asutamine Kagu-Euroopas, valdusettevõtte struktureerimine või uutele turgudele sisenemine.",
-    "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
-    "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
-    "quote_attribution": "Peter Fiegler, Gründer",
-    "competency_1_title": "Gesellschaftsrecht",
-    "competency_1_description": "Beratung bei der Gründung, Strukturierung und Führung von Gesellschaften — national und international. Von der GmbH bis zur grenzüberschreitenden Holding.",
-    "competency_2_title": "Internationale Firmengründungen",
-    "competency_2_description": "Umfassende Begleitung bei Firmengründungen in Deutschland, Serbien, den USA und weiteren Jurisdiktionen. Rechtssicher und effizient.",
-    "competency_3_title": "Finanzverwaltung & Compliance",
-    "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
-    "competency_4_title": "Strategische Beratung",
-    "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
+    "bio_3": "Tema filosoofia on lihtne: iga volitus väärib sama hoolsust, mida ta pühendaks enda ettevõttele. See nõudlikkus kujundab iga nõustamist, iga struktuuri ja iga soovitust.",
+    "quote": "Me nõustame nii, nagu oleks kaalul meie enda ettevõte.",
+    "quote_attribution": "Peter Fiegler, asutaja",
+    "competency_1_title": "Äriõigus",
+    "competency_1_description": "Nõustamine äriühingute asutamise, struktureerimise ja juhtimise osas — riigisiseselt ja rahvusvaheliselt. GmbH-st piiriüleste holdinguteni.",
+    "competency_2_title": "Rahvusvahelised ettevõtete asutamised",
+    "competency_2_description": "Terviklik toetus ettevõtete asutamisel Saksamaal, Serbias, USA-s ja teistes jurisdiktsioonides. Õiguslikult kindel ja tõhus.",
+    "competency_3_title": "Finantshaldus & nõuetele vastavus",
+    "competency_3_description": "Läbipaistvad finantsstruktuurid, aruandluskohustused ja läbipaistvusregister — ettevõtte juhtimise jaoks, mis loob usaldust.",
+    "competency_4_title": "Strateegiline nõustamine",
+    "competency_4_description": "Pikaajalised strateegiad ettevõtte kasvu, osalusstruktuuride ja rahvusvahelise laienemise jaoks — isiklikult ja partnerluslikult."
   },
   "schema": {
-    "description": "FIECON Germany Co. KG — Rahvusvaheline nõustamine äriõiguse, ettevõtete asutamise, finantshalduse ja ehitusfinantseerimise valdkonnas. Kontorid Hamburgis, Belgradis, Texases, Montenegros ja Vanuatul.",
+    "description": "FIECON Consulting UG & Co KG — Rahvusvaheline nõustamine äriõiguse, ettevõtete asutamise, finantshalduse ja ehitusfinantseerimise valdkonnas. Kontorid Hamburgis, Belgradis, Texases, Montenegros ja Vanuatul.",
     "offer_catalog": "Teenused",
     "service_consulting": "Äriõigus ja ettevõtete asutamine",
     "service_finance": "Finantshaldus",

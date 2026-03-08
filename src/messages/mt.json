@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — Konsulenza Internazzjonali dwar id-Dritt Korporattiv u t-Twaqqif ta' Kumpaniji",
-    "description": "FIECON Germany Co. KG — Konsulenza internazzjonali dwar id-dritt korporattiv, it-twaqqif ta' kumpaniji, l-amministrazzjoni finanzjarja u l-finanzjament tal-kostruzzjoni. Uffiċċji f'Hamburg, Belgrad, Texas, Montenegro u Vanuatu.",
+    "description": "FIECON Consulting UG & Co KG — Konsulenza internazzjonali dwar id-dritt korporattiv, it-twaqqif ta' kumpaniji, l-amministrazzjoni finanzjarja u l-finanzjament tal-kostruzzjoni. Uffiċċji f'Hamburg, Belgrad, Texas, Montenegro u Vanuatu.",
     "keywords": "liġi tas-soċjetajiet, formazzjoni ta' kumpaniji internazzjonali, konsulenza Hamburg, amministrazzjoni finanzjarja, finanzjament tal-kostruzzjoni, FIECON Consulting"
   },
   "nav": {
@@ -21,7 +21,7 @@
     "skip_to_content": "Aqbeż għall-kontenut"
   },
   "hero": {
-    "tagline": "Fiegler Consulting",
+    "tagline": "FIECON Consulting",
     "headline": "In-negozju tiegħek. Konsultat internazzjonalment.",
     "subtitle": "Dritt korporattiv u twaqqif internazzjonali ta' kumpaniji — gwida personali f'Hamburg, Belgrad, Texas, Montenegro u Vanuatu.",
     "cta_primary": "Is-servizzi tagħna",
@@ -37,7 +37,7 @@
     "stat_2_label": "Oqsma ta' prattika",
     "stat_3_label": "Pajjiżi",
     "quote_attribution": "Peter Fiegler, Fundatur",
-    "profile_link": "Mehr über Peter Fiegler erfahren"
+    "profile_link": "Tgħallem aktar dwar Peter Fiegler"
   },
   "services": {
     "badge": "Servizzi",
@@ -53,6 +53,7 @@
     },
     "finance": {
       "title": "Amministrazzjoni finanzjarja",
+      "tab": "Ġenerali",
       "description": "Iċ-ċarezza tibni l-fiduċja: aħna nieħdu f'idejna l-amministrazzjoni finanzjarja korporattiva tiegħek u noħolqu strutturi trasparenti li jippermettu tkabbir sostenibbli.",
       "items": {
         "0": "Kontabbiltà u rapportar",
@@ -61,6 +62,7 @@
     },
     "construction": {
       "title": "Finanzjament tal-kostruzzjoni",
+      "tab": "Kostruzzjoni",
       "description": "Proġetti tal-kostruzzjoni jeħtieġu affidabbiltà finanzjarja. Aħna nistrutturaw u nissorveljaw il-finanzjament tal-impriżi tal-bini tiegħek — mill-kalkolu inizjali sat-tlestija.",
       "items": {
         "0": "Finanzjament ta' proġetti",
@@ -70,6 +72,7 @@
     },
     "yacht": {
       "title": "Finanzjament tal-kostruzzjoni tal-jottijiet",
+      "tab": "Jottijiet",
       "description": "Segment distint jistħoqqlu kura distinta. Aħna nagħtu konsulenza dwar il-finanzjament ta' proġetti tal-kostruzzjoni tal-jottijiet — b'diskrezzjoni, personalment u b'fehim ġenwin tal-istandards tal-industrija.",
       "items": {
         "0": "Finanzjament tal-jottijiet",
@@ -190,13 +193,13 @@
     }
   },
   "footer": {
-    "description": "FIECON Germany Co. KG — Konsulenza internazzjonali dwar id-dritt korporattiv, it-twaqqif ta' kumpaniji u lil hinn. Personali. Preċiż. Fi sħubija.",
+    "description": "FIECON Consulting UG & Co KG — Konsulenza internazzjonali dwar id-dritt korporattiv, it-twaqqif ta' kumpaniji u lil hinn. Personali. Preċiż. Fi sħubija.",
     "services_title": "Servizzi",
     "offices_title": "Uffiċċji",
     "legal_title": "Legali",
     "impressum": "Avviż legali",
     "datenschutz": "Politika tal-privatezza",
-    "copyright": "© {year} FIECON Germany Co. KG. Id-drittijiet kollha riżervati."
+    "copyright": "© {year} FIECON Consulting UG & Co KG. Id-drittijiet kollha riżervati."
   },
   "error": {
     "title": "Seħħ żball",
@@ -301,36 +304,36 @@
   },
   "team": {
     "nav_label": "Team",
-    "competencies_headline": "Kompetenzfelder",
-    "cta_headline": "Lassen Sie uns ins Gespräch kommen",
-    "cta_subline": "Ob eine erste Frage oder ein konkretes Vorhaben — wir nehmen uns Zeit für Sie.",
-    "cta_button": "Kontakt aufnehmen",
-    "back_to_home": "Zur Startseite",
-    "breadcrumb_home": "Startseite"
+    "competencies_headline": "Oqsma ta' kompetenza",
+    "cta_headline": "Ejja nibdew konversazzjoni",
+    "cta_subline": "Kemm jekk hija mistoqsija inizjali jew proġett konkret — aħna nieħdu l-ħin għalik.",
+    "cta_button": "Ikkuntattjana",
+    "back_to_home": "Lura lejn il-paġna ewlenija",
+    "breadcrumb_home": "Paġna ewlenija"
   },
   "team_peter_fiegler": {
-    "meta_title": "Peter Fiegler — Gründer & Gesellschaftsrechtsexperte",
-    "meta_description": "Peter Fiegler, Gründer von FIECON. Langjährige Expertise im Gesellschaftsrecht, internationale Firmengründungen und persönliche Beratung auf höchstem Niveau.",
+    "meta_title": "Peter Fiegler — Fundatur u Espert tad-Dritt Korporattiv",
+    "meta_description": "Peter Fiegler, fundatur ta' FIECON. Esperjenza twila fid-dritt korporattiv, twaqqif internazzjonali ta' kumpaniji u parir personali tal-ogħla livell.",
     "hero_name": "Peter Fiegler",
-    "hero_role": "Gründer & Geschäftsführer",
-    "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
-    "bio_badge": "Über Peter Fiegler",
-    "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
+    "hero_role": "Fundatur u Direttur Maniġerjali",
+    "hero_tagline": "Dritt korporattiv u twaqqif internazzjonali ta' kumpaniji — b'viżjoni, preċiżjoni u impenn personali.",
+    "bio_badge": "Dwar Peter Fiegler",
+    "bio_1": "Peter Fiegler waqqaf FIECON bil-konvinzjoni li parir eċċellenti fid-dritt korporattiv jirnexxu biss meta tadotta bis-sħiħ il-perspettiva tal-klijent. L-approċċ tiegħu jgħaqqad għarfien profond ma' sens imprenditorjali li jmur lil hinn mid-dimensjoni purament legali.",
     "bio_2": "B'uffiċċji f'Hamburg, Belgrad, Texas, Montenegro u Vanuatu, bena netwerk internazzjonali li jakkumpanja l-klijenti kulfejn jeħodhom il-pjanijiet tan-negozju tagħhom — kemm jekk huwa t-twaqqif ta' kumpanija fil-Lvant tal-Ewropa, l-istrutturar ta' holding, jew id-dħul f'swieq ġodda.",
-    "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
-    "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
-    "quote_attribution": "Peter Fiegler, Gründer",
-    "competency_1_title": "Gesellschaftsrecht",
-    "competency_1_description": "Beratung bei der Gründung, Strukturierung und Führung von Gesellschaften — national und international. Von der GmbH bis zur grenzüberschreitenden Holding.",
-    "competency_2_title": "Internationale Firmengründungen",
-    "competency_2_description": "Umfassende Begleitung bei Firmengründungen in Deutschland, Serbien, den USA und weiteren Jurisdiktionen. Rechtssicher und effizient.",
-    "competency_3_title": "Finanzverwaltung & Compliance",
-    "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
-    "competency_4_title": "Strategische Beratung",
-    "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
+    "bio_3": "Il-filosofija tiegħu hija sempliċi: kull mandat jistħoqqlu l-istess kura li hu jagħti lill-kumpanija tiegħu stess. Dan l-impenn jiffurmà kull konsultazzjoni, kull struttura u kull rakkomandazzjoni.",
+    "quote": "Aħna nagħtu konsulenza bħallikieku kienet il-kumpanija tagħna stess involuta.",
+    "quote_attribution": "Peter Fiegler, Fundatur",
+    "competency_1_title": "Dritt korporattiv",
+    "competency_1_description": "Parir dwar it-twaqqif, l-istrutturar u l-governanza ta' kumpaniji — nazzjonalment u internazzjonalment. Minn GmbH sa holdings transfruntieri.",
+    "competency_2_title": "Twaqqif internazzjonali ta' kumpaniji",
+    "competency_2_description": "Akkumpanjament komprensiv fit-twaqqif ta' kumpaniji fil-Ġermanja, is-Serbja, l-Istati Uniti u ġurisdizzjonijiet oħra. Legalment sod u effiċjenti.",
+    "competency_3_title": "Amministrazzjoni finanzjarja u konformità",
+    "competency_3_description": "Strutturi finanzjarji trasparenti, obbligi ta' rappurtar u reġistru tat-trasparenza — għal governanza korporattiva li tibni l-fiduċja.",
+    "competency_4_title": "Parir strateġiku",
+    "competency_4_description": "Strateġiji fit-tul għat-tkabbir korporattiv, strutturi ta' parteċipazzjoni u espansjoni internazzjonali — personali u fi sħubija."
   },
   "schema": {
-    "description": "FIECON Germany Co. KG — Konsulenza internazzjonali dwar id-dritt korporattiv, it-twaqqif ta' kumpaniji, l-amministrazzjoni finanzjarja u l-finanzjament tal-kostruzzjoni. Uffiċċji f'Hamburg, Belgrad, Texas, Montenegro u Vanuatu.",
+    "description": "FIECON Consulting UG & Co KG — Konsulenza internazzjonali dwar id-dritt korporattiv, it-twaqqif ta' kumpaniji, l-amministrazzjoni finanzjarja u l-finanzjament tal-kostruzzjoni. Uffiċċji f'Hamburg, Belgrad, Texas, Montenegro u Vanuatu.",
     "offer_catalog": "Servizzi",
     "service_consulting": "Dritt korporattiv u twaqqif ta' kumpaniji",
     "service_finance": "Amministrazzjoni finanzjarja",

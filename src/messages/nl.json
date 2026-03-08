@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — Internationaal Advies voor Ondernemingsrecht & Bedrijfsoprichtingen",
-    "description": "FIECON Germany Co. KG — Internationaal advies voor ondernemingsrecht, bedrijfsoprichtingen, financieel beheer en bouwfinanciering. Vestigingen in Hamburg, Belgrado, Texas, Montenegro en Vanuatu.",
+    "description": "FIECON Consulting UG & Co KG — Internationaal advies voor ondernemingsrecht, bedrijfsoprichtingen, financieel beheer en bouwfinanciering. Vestigingen in Hamburg, Belgrado, Texas, Montenegro en Vanuatu.",
     "keywords": "ondernemingsrecht, internationale bedrijfsoprichting, advies Hamburg, bedrijfsoprichting Servië, bedrijfsoprichting VS Texas, financieel beheer, bouwfinanciering, jachtfinanciering, FIECON Consulting"
   },
   "nav": {
@@ -21,7 +21,7 @@
     "skip_to_content": "Ga naar inhoud"
   },
   "hero": {
-    "tagline": "Fiegler Consulting",
+    "tagline": "FIECON Consulting",
     "headline": "Uw recht. Internationaal gedacht.",
     "subtitle": "Ondernemingsrecht en internationale bedrijfsoprichtingen — persoonlijke begeleiding in Hamburg, Belgrado, Texas, Montenegro en Vanuatu.",
     "cta_primary": "Onze diensten",
@@ -37,7 +37,7 @@
     "stat_2_label": "Vakgebieden",
     "stat_3_label": "Landen",
     "quote_attribution": "Peter Fiegler, Oprichter",
-    "profile_link": "Mehr über Peter Fiegler erfahren"
+    "profile_link": "Meer over Peter Fiegler"
   },
   "services": {
     "badge": "Diensten",
@@ -53,6 +53,7 @@
     },
     "finance": {
       "title": "Financieel beheer",
+      "tab": "Algemeen",
       "description": "Orde schept vertrouwen: wij nemen het professionele beheer van uw bedrijfsfinanciën op ons en creëren de transparante structuren die duurzame groei mogelijk maken.",
       "items": {
         "0": "Boekhouding & Rapportage",
@@ -61,6 +62,7 @@
     },
     "construction": {
       "title": "Bouwfinanciering",
+      "tab": "Bouw",
       "description": "Bouwprojecten vragen om financiële betrouwbaarheid. Wij structureren en begeleiden de financiering van uw bouwprojecten — van de eerste berekening tot de oplevering.",
       "items": {
         "0": "Projectfinanciering",
@@ -70,6 +72,7 @@
     },
     "yacht": {
       "title": "Jachtbouwfinanciering",
+      "tab": "Jachtbouw",
       "description": "Een bijzonder segment verdient bijzondere zorg. Wij adviseren bij de financiering van jachtbouwprojecten — discreet, persoonlijk en met begrip voor de eisen van deze branche.",
       "items": {
         "0": "Jachtfinanciering",
@@ -190,13 +193,13 @@
     }
   },
   "footer": {
-    "description": "FIECON Germany Co. KG — Internationaal advies voor ondernemingsrecht, bedrijfsoprichtingen en meer. Persoonlijk. Precies. Partnerschap.",
+    "description": "FIECON Consulting UG & Co KG — Internationaal advies voor ondernemingsrecht, bedrijfsoprichtingen en meer. Persoonlijk. Precies. Partnerschap.",
     "services_title": "Diensten",
     "offices_title": "Vestigingen",
     "legal_title": "Juridisch",
     "impressum": "Impressum",
     "datenschutz": "Privacybeleid",
-    "copyright": "© {year} FIECON Germany Co. KG. Alle rechten voorbehouden."
+    "copyright": "© {year} FIECON Consulting UG & Co KG. Alle rechten voorbehouden."
   },
   "error": {
     "title": "Er is een fout opgetreden",
@@ -301,36 +304,36 @@
   },
   "team": {
     "nav_label": "Team",
-    "competencies_headline": "Kompetenzfelder",
-    "cta_headline": "Lassen Sie uns ins Gespräch kommen",
-    "cta_subline": "Ob eine erste Frage oder ein konkretes Vorhaben — wir nehmen uns Zeit für Sie.",
-    "cta_button": "Kontakt aufnehmen",
-    "back_to_home": "Zur Startseite",
-    "breadcrumb_home": "Startseite"
+    "competencies_headline": "Expertisegebieden",
+    "cta_headline": "Laten we in gesprek komen",
+    "cta_subline": "Of het nu een eerste vraag is of een concreet plan — wij nemen de tijd voor u.",
+    "cta_button": "Contact opnemen",
+    "back_to_home": "Naar startpagina",
+    "breadcrumb_home": "Startpagina"
   },
   "team_peter_fiegler": {
-    "meta_title": "Peter Fiegler — Gründer & Gesellschaftsrechtsexperte",
-    "meta_description": "Peter Fiegler, Gründer von FIECON. Langjährige Expertise im Gesellschaftsrecht, internationale Firmengründungen und persönliche Beratung auf höchstem Niveau.",
+    "meta_title": "Peter Fiegler — Oprichter & ondernemingsrechtexpert",
+    "meta_description": "Peter Fiegler, oprichter van FIECON. Jarenlange expertise in ondernemingsrecht, internationale bedrijfsoprichtingen en persoonlijk advies op het hoogste niveau.",
     "hero_name": "Peter Fiegler",
-    "hero_role": "Gründer & Geschäftsführer",
-    "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
-    "bio_badge": "Über Peter Fiegler",
-    "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
+    "hero_role": "Oprichter & directeur",
+    "hero_tagline": "Ondernemingsrecht en internationale bedrijfsoprichtingen — met visie, precisie en persoonlijke betrokkenheid.",
+    "bio_badge": "Over Peter Fiegler",
+    "bio_1": "Peter Fiegler richtte FIECON op met de overtuiging dat uitstekend advies in het ondernemingsrecht alleen slaagt wanneer men het perspectief van de cliënt volledig overneemt. Zijn aanpak verbindt diepgaande vakkennis met ondernemingszin die ver voorbij het zuiver juridische vlak reikt.",
     "bio_2": "Met kantoren in Hamburg, Belgrado, Texas, Montenegro en Vanuatu heeft hij een internationaal netwerk opgebouwd dat cliënten begeleidt waar hun zakelijke plannen hen ook brengen — of het nu gaat om de oprichting van een onderneming in Zuidoost-Europa, de structurering van een holding of de ontsluiting van nieuwe markten.",
-    "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
-    "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
-    "quote_attribution": "Peter Fiegler, Gründer",
-    "competency_1_title": "Gesellschaftsrecht",
-    "competency_1_description": "Beratung bei der Gründung, Strukturierung und Führung von Gesellschaften — national und international. Von der GmbH bis zur grenzüberschreitenden Holding.",
-    "competency_2_title": "Internationale Firmengründungen",
-    "competency_2_description": "Umfassende Begleitung bei Firmengründungen in Deutschland, Serbien, den USA und weiteren Jurisdiktionen. Rechtssicher und effizient.",
-    "competency_3_title": "Finanzverwaltung & Compliance",
-    "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
-    "competency_4_title": "Strategische Beratung",
-    "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
+    "bio_3": "Zijn filosofie is eenvoudig: elk mandaat verdient dezelfde zorgvuldigheid die hij aan zijn eigen onderneming zou besteden. Deze ambitie vormt elke adviesrelatie, elke structuur en elke aanbeveling.",
+    "quote": "Wij adviseren alsof het ons eigen bedrijf betreft.",
+    "quote_attribution": "Peter Fiegler, Oprichter",
+    "competency_1_title": "Ondernemingsrecht",
+    "competency_1_description": "Advies bij de oprichting, structurering en besturing van ondernemingen — nationaal en internationaal. Van GmbH tot grensoverschrijdende holdings.",
+    "competency_2_title": "Internationale bedrijfsoprichtingen",
+    "competency_2_description": "Uitgebreide begeleiding bij bedrijfsoprichtingen in Duitsland, Servië, de VS en verdere jurisdicties. Juridisch correct en efficiënt.",
+    "competency_3_title": "Financieel beheer & compliance",
+    "competency_3_description": "Transparante financiële structuren, meldingsplichten en transparantieregisters — voor een bedrijfsvoering die vertrouwen schept.",
+    "competency_4_title": "Strategisch advies",
+    "competency_4_description": "Langetermijnstrategieën voor bedrijfsgroei, deelnemingsstructuren en internationale expansie — persoonlijk en in partnerschap."
   },
   "schema": {
-    "description": "FIECON Germany Co. KG — Internationaal advies voor ondernemingsrecht, bedrijfsoprichtingen, financieel beheer en bouwfinanciering. Vestigingen in Hamburg, Belgrado, Texas, Montenegro en Vanuatu.",
+    "description": "FIECON Consulting UG & Co KG — Internationaal advies voor ondernemingsrecht, bedrijfsoprichtingen, financieel beheer en bouwfinanciering. Vestigingen in Hamburg, Belgrado, Texas, Montenegro en Vanuatu.",
     "offer_catalog": "Diensten",
     "service_consulting": "Ondernemingsrecht & Bedrijfsoprichtingen",
     "service_finance": "Financieel beheer",

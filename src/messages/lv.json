@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "FIECON — Starptautiskā komerctiesību un uzņēmumu dibināšanas konsultācija",
-    "description": "FIECON Germany Co. KG — Starptautiska konsultācija komerctiesību, uzņēmumu dibināšanas, finanšu administrācijas un būvniecības finansēšanas jomā. Biroji Hamburgā, Belgradā, Teksasā, Montenegro un Vanuatu.",
+    "description": "FIECON Consulting UG & Co KG — Starptautiska konsultācija komerctiesību, uzņēmumu dibināšanas, finanšu administrācijas un būvniecības finansēšanas jomā. Biroji Hamburgā, Belgradā, Teksasā, Montenegro un Vanuatu.",
     "keywords": "komerctiesības, starptautiska uzņēmuma dibināšana, konsultācijas Hamburga, finanšu pārvaldība, būvniecības finansēšana, FIECON Consulting"
   },
   "nav": {
@@ -21,7 +21,7 @@
     "skip_to_content": "Pāriet uz saturu"
   },
   "hero": {
-    "tagline": "Fiegler Consulting",
+    "tagline": "FIECON Consulting",
     "headline": "Jūsu bizness. Starptautiski konsultēts.",
     "subtitle": "Komerctiesības un starptautiska uzņēmumu dibināšana — personīga vadība Hamburgā, Belgradā, Teksasā, Montenegro un Vanuatu.",
     "cta_primary": "Mūsu pakalpojumi",
@@ -37,7 +37,7 @@
     "stat_2_label": "Prakses jomas",
     "stat_3_label": "Valstis",
     "quote_attribution": "Peter Fiegler, dibinātājs",
-    "profile_link": "Mehr über Peter Fiegler erfahren"
+    "profile_link": "Uzziniet vairāk par Peter Fiegler"
   },
   "services": {
     "badge": "Pakalpojumi",
@@ -53,6 +53,7 @@
     },
     "finance": {
       "title": "Finanšu administrācija",
+      "tab": "Vispārīgi",
       "description": "Skaidrība veido uzticību: mēs pārvaldām jūsu korporatīvo finanšu administrāciju un veidojam caurspīdīgas struktūras, kas nodrošina ilgtspējīgu izaugsmi.",
       "items": {
         "0": "Grāmatvedība un atskaites",
@@ -61,6 +62,7 @@
     },
     "construction": {
       "title": "Būvniecības finansēšana",
+      "tab": "Būvniecība",
       "description": "Būvniecības projekti prasa finansiālu uzticamību. Mēs strukturējam un pārraugām jūsu būvniecības projektu finansēšanu — no sākotnējā aprēķina līdz pabeigšanai.",
       "items": {
         "0": "Projektu finansēšana",
@@ -70,6 +72,7 @@
     },
     "yacht": {
       "title": "Jahtu būvniecības finansēšana",
+      "tab": "Jahta",
       "description": "Īpašs segments ir pelnījis īpašu aprūpi. Mēs konsultējam par jahtu būvniecības projektu finansēšanu — diskrēti, personiski un ar patiesu nozares standartu izpratni.",
       "items": {
         "0": "Jahtu finansēšana",
@@ -190,13 +193,13 @@
     }
   },
   "footer": {
-    "description": "FIECON Germany Co. KG — Starptautiska konsultācija komerctiesību, uzņēmumu dibināšanas un citu jomu jautājumos. Personiski. Precīzi. Partnerībā.",
+    "description": "FIECON Consulting UG & Co KG — Starptautiska konsultācija komerctiesību, uzņēmumu dibināšanas un citu jomu jautājumos. Personiski. Precīzi. Partnerībā.",
     "services_title": "Pakalpojumi",
     "offices_title": "Biroji",
     "legal_title": "Juridiskā informācija",
     "impressum": "Juridiskais paziņojums",
     "datenschutz": "Privātuma politika",
-    "copyright": "© {year} FIECON Germany Co. KG. Visas tiesības aizsargātas."
+    "copyright": "© {year} FIECON Consulting UG & Co KG. Visas tiesības aizsargātas."
   },
   "error": {
     "title": "Radās kļūda",
@@ -301,36 +304,36 @@
   },
   "team": {
     "nav_label": "Team",
-    "competencies_headline": "Kompetenzfelder",
-    "cta_headline": "Lassen Sie uns ins Gespräch kommen",
-    "cta_subline": "Ob eine erste Frage oder ein konkretes Vorhaben — wir nehmen uns Zeit für Sie.",
-    "cta_button": "Kontakt aufnehmen",
-    "back_to_home": "Zur Startseite",
-    "breadcrumb_home": "Startseite"
+    "competencies_headline": "Kompetences jomas",
+    "cta_headline": "Sāksim sarunu",
+    "cta_subline": "Neatkarīgi no tā, vai tas ir sākotnējs jautājums vai konkrēts projekts — mēs veltām jums laiku.",
+    "cta_button": "Sazināties",
+    "back_to_home": "Uz sākumlapu",
+    "breadcrumb_home": "Sākums"
   },
   "team_peter_fiegler": {
-    "meta_title": "Peter Fiegler — Gründer & Gesellschaftsrechtsexperte",
-    "meta_description": "Peter Fiegler, Gründer von FIECON. Langjährige Expertise im Gesellschaftsrecht, internationale Firmengründungen und persönliche Beratung auf höchstem Niveau.",
+    "meta_title": "Peter Fiegler — Dibinātājs un komerctiesību eksperts",
+    "meta_description": "Peter Fiegler, FIECON dibinātājs. Ilggadēja ekspertīze komerctiesībās, starptautiska uzņēmumu dibināšana un augstākā līmeņa personīga konsultācija.",
     "hero_name": "Peter Fiegler",
-    "hero_role": "Gründer & Geschäftsführer",
-    "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
-    "bio_badge": "Über Peter Fiegler",
-    "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
+    "hero_role": "Dibinātājs un izpilddirektors",
+    "hero_tagline": "Komerctiesības un starptautiska uzņēmumu dibināšana — ar tālredzību, precizitāti un personīgu iesaistīšanos.",
+    "bio_badge": "Par Peter Fiegler",
+    "bio_1": "Peter Fiegler dibināja FIECON ar pārliecību, ka izcila komerctiesību konsultācija izdodas tikai tad, ja pilnībā uzņemas klienta perspektīvu. Viņa pieeja apvieno dziļas profesionālās zināšanas ar uzņēmējdarbības intuīciju, kas ievērojami pārsniedz tīri juridisko dimensiju.",
     "bio_2": "Ar birojiem Hamburgā, Belgradā, Teksasā, Montenegro un Vanuatu viņš ir izveidojis starptautisku tīklu, kas pavada klientus visur, kur viņu biznesa plāni tos ved — vai nu dibinot uzņēmumu Dienvidaustrumeiropā, strukturējot holdingu vai ienākot jaunos tirgos.",
-    "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
-    "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
-    "quote_attribution": "Peter Fiegler, Gründer",
-    "competency_1_title": "Gesellschaftsrecht",
-    "competency_1_description": "Beratung bei der Gründung, Strukturierung und Führung von Gesellschaften — national und international. Von der GmbH bis zur grenzüberschreitenden Holding.",
-    "competency_2_title": "Internationale Firmengründungen",
-    "competency_2_description": "Umfassende Begleitung bei Firmengründungen in Deutschland, Serbien, den USA und weiteren Jurisdiktionen. Rechtssicher und effizient.",
-    "competency_3_title": "Finanzverwaltung & Compliance",
-    "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
-    "competency_4_title": "Strategische Beratung",
-    "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
+    "bio_3": "Viņa filozofija ir vienkārša: katrs mandāts ir pelnījis tādu pašu rūpību, kādu viņš veltītu savam uzņēmumam. Šī apņemšanās veido katru konsultāciju, katru struktūru un katru rekomendāciju.",
+    "quote": "Mēs konsultējam tā, it kā runa būtu par mūsu pašu uzņēmumu.",
+    "quote_attribution": "Peter Fiegler, dibinātājs",
+    "competency_1_title": "Komerctiesības",
+    "competency_1_description": "Konsultācijas par uzņēmumu dibināšanu, strukturēšanu un pārvaldību — nacionālā un starptautiskā līmenī. No GmbH līdz pārrobežu holdingiem.",
+    "competency_2_title": "Starptautiska uzņēmumu dibināšana",
+    "competency_2_description": "Visaptveroša pavadīšana uzņēmumu dibināšanā Vācijā, Serbijā, ASV un citās jurisdikcijās. Juridiski droša un efektīva.",
+    "competency_3_title": "Finanšu administrācija un atbilstība",
+    "competency_3_description": "Caurspīdīgas finanšu struktūras, ziņošanas pienākumi un pārredzamības reģistrs — korporatīvai pārvaldībai, kas veido uzticību.",
+    "competency_4_title": "Stratēģiskā konsultācija",
+    "competency_4_description": "Ilgtermiņa stratēģijas uzņēmumu izaugsmei, līdzdalības struktūrām un starptautiskai ekspansijai — personiski un partnerībā."
   },
   "schema": {
-    "description": "FIECON Germany Co. KG — Starptautiska konsultācija komerctiesību, uzņēmumu dibināšanas, finanšu administrācijas un būvniecības finansēšanas jomā. Biroji Hamburgā, Belgradā, Teksasā, Montenegro un Vanuatu.",
+    "description": "FIECON Consulting UG & Co KG — Starptautiska konsultācija komerctiesību, uzņēmumu dibināšanas, finanšu administrācijas un būvniecības finansēšanas jomā. Biroji Hamburgā, Belgradā, Teksasā, Montenegro un Vanuatu.",
     "offer_catalog": "Pakalpojumi",
     "service_consulting": "Komerctiesības un uzņēmumu dibināšana",
     "service_finance": "Finanšu administrācija",

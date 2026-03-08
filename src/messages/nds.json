@@ -5,8 +5,8 @@
   },
   "metadata": {
     "title": "FIECON — Internationale Beradung för Sellschopsrecht & Firmengrünnen",
-    "description": "FIECON Germany Co. KG — Internationale Beradung för Sellschopsrecht, Firmengrünnen, Finanzverwalten un Bufinanzeren. Standoorten in Hamborg, Belgrad, Texas, Montenegro un Vanuatu.",
-    "keywords": "Sellschopsrecht, Firmengrünnung international, Beratung Hamburg, Finanzverwaltung, Bufinanzierung, Jachtbufinanzierung, FIECON Consulting"
+    "description": "FIECON Consulting UG & Co KG — Internationale Beradung för Sellschopsrecht, Firmengrünnen, Finanzverwalten un Bufinanzeren. Standoorten in Hamborg, Belgrad, Texas, Montenegro un Vanuatu.",
+    "keywords": "Sellschopsrecht, Firmengrünnen internationaal, Beradung Hamborg, Finanzverwalten, Bufinanzeren, Jachtbufinanzeren, FIECON Consulting"
   },
   "nav": {
     "home": "Na de Startsiet",
@@ -21,7 +21,7 @@
     "skip_to_content": "Ton Inholt springen"
   },
   "hero": {
-    "tagline": "Fiegler Consulting",
+    "tagline": "FIECON Consulting",
     "headline": "Juw Recht. Internationaal dacht.",
     "subtitle": "Sellschopsrecht un internationale Firmengrünnen — persöönliche Betreung in Hamborg, Belgrad, Texas, Montenegro un Vanuatu.",
     "cta_primary": "Uns Leistungen",
@@ -37,7 +37,7 @@
     "stat_2_label": "Fachbereiken",
     "stat_3_label": "Länner",
     "quote_attribution": "Peter Fiegler, Grünner",
-    "profile_link": "Mehr über Peter Fiegler erfahren"
+    "profile_link": "Mehr över Peter Fiegler erfahren"
   },
   "services": {
     "badge": "Leistungen",
@@ -53,6 +53,7 @@
     },
     "finance": {
       "title": "Finanzverwalten",
+      "tab": "Allgemeen",
       "description": "Ordnung schafft Vertruen: Wi övvernehmt dat professionelle Verwalten vun Juw Ünnernehmenfinanzen un schafft de transparenten Strukturen, de nahaltiges Wassen mööglich maakt.",
       "items": {
         "0": "Bookholden & Reporting",
@@ -61,15 +62,17 @@
     },
     "construction": {
       "title": "Bufinanzeren",
+      "tab": "Bu",
       "description": "Buprojekten bruukt finanzielle Verlässlichkeit. Wi struktureert un begleid de Finanzeren vun Juw Buvörhebben — vun de eerste Kalkulatioon bet to dat Feerdigstellen.",
       "items": {
         "0": "Projektfinanzeren",
         "1": "Investitioonssekeren",
-        "2": "Hypothekenabsicherung"
+        "2": "Hypothekenofsekeren"
       }
     },
     "yacht": {
       "title": "Jachtbufinanzeren",
+      "tab": "Jachtbu",
       "description": "En besünner Segment verdeent besünnere Sorgfalt. Wi beraadt bi de Finanzeren vun Jachtbuprojekten — diskret, persöönlich un mit Verstahn för de Ansprööke vun düsse Branche.",
       "items": {
         "0": "Jachtfinanzeren",
@@ -86,7 +89,7 @@
       }
     },
 
-    "focus_headline": "Zentrale Handlungsfelder",
+    "focus_headline": "Zentrale Handlungsfeller",
     "corporate_law": {
       "title": "Sellschupsrechtliche Expertise",
       "lead": "Sellschupsrechtsexpert Peter Fiegler un sien Team",
@@ -190,13 +193,13 @@
     }
   },
   "footer": {
-    "description": "FIECON Germany Co. KG — Internationale Beradung för Sellschopsrecht, Firmengrünnen un mehr. Persöönlich. Präzies. Partnerschoplich.",
+    "description": "FIECON Consulting UG & Co KG — Internationale Beradung för Sellschopsrecht, Firmengrünnen un mehr. Persöönlich. Präzies. Partnerschoplich.",
     "services_title": "Leistungen",
     "offices_title": "Standoorten",
     "legal_title": "Rechtliches",
     "impressum": "Impressum",
     "datenschutz": "Datenschutz",
-    "copyright": "© {year} FIECON Germany Co. KG. Alle Rechten vörbeholln."
+    "copyright": "© {year} FIECON Consulting UG & Co KG. Alle Rechten vörbeholln."
   },
   "error": {
     "title": "Dor is en Fehler optreden",
@@ -210,24 +213,24 @@
   },
   "team_rene_marquard": {
     "meta_title": "René Marquard — Vermögensverwaltung & Edelmetall-Anlagen",
-    "meta_description": "René Marquard, Spezialist för Vermögensverwaltung un Edelmetall-Anlagen bi FIECON. Persönliche Vermögensberatung mit Weitblick un Diskretion.",
+    "meta_description": "René Marquard, Spezialist för Vermögensverwalten un Edelmetall-Anlagen bi FIECON. Persöönliche Vermögensberadung mit Wiedsicht un Diskretioon.",
     "hero_name": "René Marquard",
     "hero_role": "Spezialist för Vermögensverwaltung",
-    "hero_tagline": "Vermögensverwaltung un Edelmetall-Anlagen — mit Erfarung, Diskretion un persönlich Engagement.",
+    "hero_tagline": "Vermögensverwalten un Edelmetall-Anlagen — mit Erfarung, Diskretioon un persöönlich Engagement.",
     "bio_badge": "Över René Marquard",
     "bio_1": "René Marquard bringt langjohrige Expertis in de Vermögensverwaltung un in de Personalberatung mit. As Spezialist för Edelmetall-Anlagen verbinnt he fundiert Marktweten mit en utprägt Gespör för de individuellen Bedürfnisse vun sien Mandanten.",
     "bio_2": "Vun Hamburg ut berät he Privatpersonen un Ünnernehmen, de ehr Vermögen nahhaltig sekeren un strategisch wietentwickeln wüllt. Sien Ansatz verbinnt klassische Vermögensverwaltung mit spezialiseerten Anlagestrategien in’n Edelmetall-Sektor.",
-    "bio_3": "Diskretion, persönliche Näh un en langfristige Perspektiv sünd för em keen Schlagwöör, man de Grundlaag vun jedere Beratung. Jed Mandat warrt mit dieselbe Sorgfalt betreut — unafhängig vun sien Grött.",
+    "bio_3": "Diskretioon, persöönliche Nähde un en langfristige Perspektiv sünd för em keen Schlagwöör, man de Grundlaag vun jedere Beradung. Jed Mandat warrt mit diesülve Sorgfalt betreut — unafhängig vun sien Grött.",
     "quote": "Vermögen bewahren heet, vörutschoen handeln — mit Vertroen un Weitblick.",
     "quote_attribution": "René Marquard",
-    "competency_1_title": "Vermögensverwaltung",
-    "competency_1_description": "Ganzheitliche Vermögensverwaltung för Privatpersonen un Ünnernehmen — vun de Analyse över de Strategie bit to de loopende Betreuung.",
+    "competency_1_title": "Vermögensverwalten",
+    "competency_1_description": "Ganzheitliche Vermögensverwalten för Privatpersonen un Ünnernehmen — vun de Analyse över de Strategie bit to de loopende Betreung.",
     "competency_2_title": "Edelmetall-Anlagen",
-    "competency_2_description": "Spezialiseerte Beratung to Anlagen in Gold, Sülver un wietere Edelmetallen — as Instrument vun de Vermögenssekerung un Diversifikation.",
-    "competency_3_title": "Personalberatung",
-    "competency_3_description": "Erfarung in Human Resources un Personalberatung — för de Besetten vun Slötelpositionen un den Opbo vun leistungsstarke Teams.",
+    "competency_2_description": "Spezialiseerte Beradung to Anlagen in Gold, Sülver un wietere Edelmetallen — as Instrument vun de Vermögenssekeren un Diversifikatioon.",
+    "competency_3_title": "Personalberadung",
+    "competency_3_description": "Erfarung in Human Resources un Personalberadung — för de Besetten vun Slötelpositioonen un den Opbo vun leistungsstarke Teams.",
     "competency_4_title": "Vermögensstrategie",
-    "competency_4_description": "Entwicklung individueller Anlagestrategien, de Sekerheit un Wasdom in Eenklaang bröökt — persönlich, langfristig un transparent."
+    "competency_4_description": "Entwicklung individueller Anlagestrategien, de Sekerheit un Wasdom in Eenklaang bröökt — persöönlich, langfristig un transparent."
   },
   "team_andre_zimmermann": {
     "meta_title": "Andre Zimmermann — Baas Technologie & Webentwicklung",
@@ -269,11 +272,11 @@
     "copyright_text": "De dörch de Siedenbedrievers opstellt Inholten un Warken op düsse Sieden ünnerliggt dat düütsche Urheberrecht. De Vervelfältigung, Bearbeidung, Verbreedung un jede Oort vun Verwertung buten de Grenzen vun dat Urheberrecht bruukt de schriftliche Tostimmung vun den jeweiligen Autor bzw. Opsteller."
   },
   "datenschutz": {
-    "title": "Datenschutzerklärung",
-    "intro": "Wi nehmt den Schutz vun Juw persöönliche Daten sehr ernst. Wi behandelt Juw personenbezogene Daten vertroulich un na de gesetzlichen Datenschutzvörschriften as ok düsse Datenschutzerklärung.",
+    "title": "Datenschutzerkläörung",
+    "intro": "Wi nehmt den Schutz vun Juw persöönliche Daten sehr eernst. Wi behandelt Juw personenbetrokene Daten vertroulich un na de gesetzlichen Datenschutzvörschriften as ok düsse Datenschutzerkläörung.",
     "section_1_title": "1. Verantwoortliche Steed",
     "section_1_text": "Verantwoortliche Steed för de Datenverarbeidung op düsse Websiet is:",
-    "section_2_title": "2. Erheben un Verarbeiden vun personenbezogene Daten",
+    "section_2_title": "2. Erheven un Verarbeiden vun personenbetrokene Daten",
     "section_2_text": "Bi't Besöken vun uns Websiet warrt automatisch Informatioonen vun allgemeine Natuur erfasst. Düsse Informatioonen (Server-Logfiles) beinholt to'n Bispeel de Oort vun den Webbrowser, dat bruukte Bedriefssystem, den Domainnaam vun Juw Internet-Service-Provider, Juw IP-Adress un so wieder. Hierbi hannelt dat sik utslietlich üm Informatioonen, de keen Rückslüsse op Juw Persoon tolaat.",
     "section_2_legal_basis": "Rechtsgrundlaag för de Datenverarbeidung is Art. 6 Abs. 1 lit. f DSGVO. Uns berechtigtet Interess besteiht in dat Sekerstelln vun en störungsfreten Bedrieff vun uns Websiet.",
     "section_2_retention": "De Server-Logfiles warrt na 14 Daag automatisch löscht.",
@@ -301,36 +304,36 @@
   },
   "team": {
     "nav_label": "Team",
-    "competencies_headline": "Kompetenzfelder",
-    "cta_headline": "Lassen Sie uns ins Gespräch kommen",
-    "cta_subline": "Ob eine erste Frage oder ein konkretes Vorhaben — wir nehmen uns Zeit für Sie.",
-    "cta_button": "Kontakt aufnehmen",
-    "back_to_home": "Zur Startseite",
-    "breadcrumb_home": "Startseite"
+    "competencies_headline": "Kompetenzfeller",
+    "cta_headline": "Laat uns in't Gespräk kommen",
+    "cta_subline": "Of en eerste Fraag oder en konkret Vörhebben — wi nehmt uns Tied för Se.",
+    "cta_button": "Kontakt opnehmen",
+    "back_to_home": "Na de Startsiet",
+    "breadcrumb_home": "Startsiet"
   },
   "team_peter_fiegler": {
-    "meta_title": "Peter Fiegler — Gründer & Gesellschaftsrechtsexperte",
-    "meta_description": "Peter Fiegler, Gründer von FIECON. Langjährige Expertise im Gesellschaftsrecht, internationale Firmengründungen und persönliche Beratung auf höchstem Niveau.",
+    "meta_title": "Peter Fiegler — Grünner & Sellschopsrechtsexpert",
+    "meta_description": "Peter Fiegler, Grünner vun FIECON. Langjohrige Expertis in't Sellschopsrecht, internationale Firmengrünnen un persöönliche Beradung op höchstem Niveau.",
     "hero_name": "Peter Fiegler",
-    "hero_role": "Gründer & Geschäftsführer",
-    "hero_tagline": "Gesellschaftsrecht und internationale Firmengründungen — mit Weitblick, Präzision und persönlicher Haltung.",
-    "bio_badge": "Über Peter Fiegler",
-    "bio_1": "Peter Fiegler gründete FIECON mit der Überzeugung, dass exzellente Beratung im Gesellschaftsrecht nur dann gelingt, wenn man die Perspektive des Mandanten vollständig einnimmt. Sein Ansatz verbindet tiefgreifende Fachkenntnis mit einem unternehmerischen Gespür, das weit über die rein juristische Ebene hinausgeht.",
+    "hero_role": "Grünner & Geschäftsföhrer",
+    "hero_tagline": "Sellschopsrecht un internationale Firmengrünnen — mit Wiedsicht, Präzisioon un persöönlicher Haltung.",
+    "bio_badge": "Över Peter Fiegler",
+    "bio_1": "Peter Fiegler hett FIECON grünnt mit de Övertuugung, dat utteekente Beradung in't Sellschopsrecht blots denn gelüngt, wenn een de Perspektiv vun den Mandanten vullständig innahmt. Sien Ansatz verbinnt deepe Fachkenntnisse mit en ünnernehmerisch Gespöör, dat wied över dat rein juridische Flack henuutgeiht.",
     "bio_2": "Mit Standorten in Hamburg, Belgrad, Texas, Montenegro un Vanuatu hett he en internationalet Netzwark opbuut, dat Mandanten dor begleit, wo ehr Geschäftsvorhaben se henföhrt — ob bi de Gründung vun een Sellschaft in Südosteuropa, de Strukturierung vun een Holding oder dat Erschleten vun niege Markten.",
-    "bio_3": "Seine Philosophie ist einfach: Jedes Mandat verdient dieselbe Sorgfalt, die er seinem eigenen Unternehmen widmen würde. Dieser Anspruch prägt jede Beratung, jede Struktur und jede Empfehlung.",
-    "quote": "Wir beraten, als ginge es um unser eigenes Unternehmen.",
-    "quote_attribution": "Peter Fiegler, Gründer",
-    "competency_1_title": "Gesellschaftsrecht",
-    "competency_1_description": "Beratung bei der Gründung, Strukturierung und Führung von Gesellschaften — national und international. Von der GmbH bis zur grenzüberschreitenden Holding.",
-    "competency_2_title": "Internationale Firmengründungen",
-    "competency_2_description": "Umfassende Begleitung bei Firmengründungen in Deutschland, Serbien, den USA und weiteren Jurisdiktionen. Rechtssicher und effizient.",
-    "competency_3_title": "Finanzverwaltung & Compliance",
-    "competency_3_description": "Transparente Finanzstrukturen, Meldepflichten und Transparenzregister — für eine Unternehmensführung, die Vertrauen schafft.",
-    "competency_4_title": "Strategische Beratung",
-    "competency_4_description": "Langfristige Strategien für Unternehmenswachstum, Beteiligungsstrukturen und internationale Expansion — persönlich und partnerschaftlich."
+    "bio_3": "Sien Philosophie is eenfach: Jed Mandat verdeent diesülve Sorgfalt, de he sien egen Ünnernehmen widmen würr. Düsse Ansprook prägt jede Beradung, jede Struktur un jede Empfehlung.",
+    "quote": "Wi beraadt, as güng dat üm uns egen Ünnernehmen.",
+    "quote_attribution": "Peter Fiegler, Grünner",
+    "competency_1_title": "Sellschopsrecht",
+    "competency_1_description": "Beradung bi dat Grünnen, Struktureren un Föhren vun Sellschopen — nationaal un internationaal. Vun de GmbH bet to de grenzövergriepennen Holding.",
+    "competency_2_title": "Internationale Firmengrünnen",
+    "competency_2_description": "Ümfassende Begleidung bi Firmengrünnen in Düütschland, Serbien, de USA un wietere Jurisdiktioonen. Rechtsseker un effizient.",
+    "competency_3_title": "Finanzverwalten & Compliance",
+    "competency_3_description": "Klore Finanzstrukturen, Meldepflichten un Transparenzregister — för en Ünnernehmensföhrung, de Vertruen schafft.",
+    "competency_4_title": "Strategische Beradung",
+    "competency_4_description": "Langfristige Strategien för dat Wassen vun't Ünnernehmen, Beteiligungsstrukturen un internationale Expansioon — persöönlich un partnerschoplich."
   },
   "schema": {
-    "description": "FIECON Germany Co. KG — Internationale Beradung för Sellschopsrecht, Firmengrünnen, Finanzverwalten un Bufinanzeren. Standoorten in Hamborg, Belgrad, Texas, Montenegro un Vanuatu.",
+    "description": "FIECON Consulting UG & Co KG — Internationale Beradung för Sellschopsrecht, Firmengrünnen, Finanzverwalten un Bufinanzeren. Standoorten in Hamborg, Belgrad, Texas, Montenegro un Vanuatu.",
     "offer_catalog": "Leistungen",
     "service_consulting": "Sellschopsrecht & Firmengrünnen",
     "service_finance": "Finanzverwalten",
