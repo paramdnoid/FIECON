@@ -18,7 +18,8 @@
     "contact": "Kontakto",
     "navigation": "Navigacia",
     "close_menu": "Phand o menüo",
-    "skip_to_content": "Dza ka o somipe"
+    "skip_to_content": "Dza ka o somipe",
+    "gesetze": "Zakonipe"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -106,6 +107,28 @@
         "0": "Komparipen le germanake truburimatengo le avrialune firmake strukturencar",
         "1": "Siguripe le konsistentne, vremeske thaj kontrolipake-sigurne raportenge",
         "2": "Regularno kontrolipe thaj aktualizipe le raportenge"
+      }
+    }
+  },
+  "gesetze": {
+    "badge": "Zakonipe",
+    "headline": "Regulativno čarčovo",
+    "subtitle": "E juridikane temelji amare savetovibaskere.",
+    "laws": {
+      "kwg": {
+        "abbreviation": "KWG",
+        "name": "Kreditwesengesetz",
+        "description": "Regulišinel e zahtevura vaš dozvolipe vaš bankakere buća thaj finansijake službe ando Germanija. O KWG kerel e osnova e BaFin nadzoroskeri thaj definišinel ando § 1 KWG e ključno pojmura thaj ando § 25a KWG e zahtevura vaš uredno organiziribe e bućakero."
+      },
+      "vag": {
+        "abbreviation": "VAG",
+        "name": "Versicherungsaufsichtsgesetz",
+        "description": "Regulišinel o nadzori upral e osiguravajuće kompanijende thaj služinel vaš zaštitibe e osiguranikengero. O VAG garantišinel kaj e osiguravačura šaj trajno te ispuninen pire obaveze thaj te oven uredno vodime."
+      },
+      "estg": {
+        "abbreviation": "EStG",
+        "name": "Einkommensteuergesetz",
+        "description": "Regulišinel o oporezibe e dohodkoskero e fizičke manušengero ando Germanija. O EStG definišinel e vrste dohodkoskere, e poreska oslobođenja thaj e poreska stope thaj kerel e osnova e lično oporezibaskero e dohodkoskero."
       }
     }
   },

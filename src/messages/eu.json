@@ -18,7 +18,8 @@
     "contact": "Kontaktua",
     "navigation": "Nabigazioa",
     "close_menu": "Menua itxi",
-    "skip_to_content": "Edukira joan"
+    "skip_to_content": "Edukira joan",
+    "gesetze": "Legeria"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -106,6 +107,28 @@
         "0": "Alemaniar eskakizunak atzerriko sozietate-egiturekin lerrokatzea",
         "1": "Jakinarazpen koherenteak, garaiz eta ikuskaritzarako modukoak bermatzea",
         "2": "Jakinarazpenen berrikuspen eta eguneratze erregularra"
+      }
+    }
+  },
+  "gesetze": {
+    "badge": "Legeria",
+    "headline": "Erregulazio-esparrua",
+    "subtitle": "Gure aholkularitzaren oinarri juridikoak.",
+    "laws": {
+      "kwg": {
+        "abbreviation": "KWG",
+        "name": "Kreditwesengesetz",
+        "description": "Alemaniako bankuko operazioetarako eta finantza-zerbitzuetarako baimen-eskakizunak arautzen ditu. KWGk BaFin-en gainbegiratzaren oinarria osatzen du eta § 1 KWGn funtsezko terminoak definitzen ditu, baita § 25a KWGn enpresa-antolaketa egokia lortzeko eskakizunak ere."
+      },
+      "vag": {
+        "abbreviation": "VAG",
+        "name": "Versicherungsaufsichtsgesetz",
+        "description": "Aseguru-konpainien gainbegiratzea arautzen du eta aseguratuen babesa bermatzen du. VAGk bermatzen du aseguratzaileek beren betebeharrak betetzeko gaitasuna iraunkor mantendu dezaketela eta modu egokian kudeatzen direla."
+      },
+      "estg": {
+        "abbreviation": "EStG",
+        "name": "Einkommensteuergesetz",
+        "description": "Alemaniako pertsona fisikoen errentaren zerga-araubidea arautzen du. EStGk diru-sarrera motak, zerga-salbuespenak eta zerga-tasak definitzen ditu, errenta pertsonalaren zergaren oinarria osatuz."
       }
     }
   },

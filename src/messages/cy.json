@@ -18,7 +18,8 @@
     "contact": "Cysylltu",
     "navigation": "Llywio",
     "close_menu": "Cau dewislen",
-    "skip_to_content": "Neidio i'r cynnwys"
+    "skip_to_content": "Neidio i'r cynnwys",
+    "gesetze": "Deddfwriaeth"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -106,6 +107,28 @@
         "0": "Cysoni gofynion Almaenig â strwythurau corfforaethol tramor",
         "1": "Sicrhau adroddiadau cyson, amserol a chwiladwy",
         "2": "Adolygiad a diweddariadau rheolaidd"
+      }
+    }
+  },
+  "gesetze": {
+    "badge": "Deddfwriaeth",
+    "headline": "Fframwaith rheoleiddiol",
+    "subtitle": "Seiliau cyfreithiol ein gwasanaeth ymgynghori.",
+    "laws": {
+      "kwg": {
+        "abbreviation": "KWG",
+        "name": "Kreditwesengesetz",
+        "description": "Mae'n llywodraethu'r gofynion trwyddedu ar gyfer gweithrediadau bancio a gwasanaethau ariannol yn yr Almaen. Mae'r KWG yn ffurfio sail goruchwyliaeth BaFin ac yn diffinio yn § 1 KWG y termau allweddol yn ogystal ag yn § 25a KWG y gofynion ar gyfer trefniadaeth fusnes briodol."
+      },
+      "vag": {
+        "abbreviation": "VAG",
+        "name": "Versicherungsaufsichtsgesetz",
+        "description": "Mae'n llywodraethu goruchwyliaeth cwmnïau yswiriant ac yn gwasanaethu i ddiogelu'r yswiriedig. Mae'r VAG yn sicrhau bod yswirwyr yn gallu cyflawni eu rhwymedigaethau'n barhaol a'u bod yn cael eu rheoli'n briodol."
+      },
+      "estg": {
+        "abbreviation": "EStG",
+        "name": "Einkommensteuergesetz",
+        "description": "Mae'n llywodraethu trethu incwm personau naturiol yn yr Almaen. Mae'r EStG yn diffinio'r mathau o incwm, y lwfansau di-dreth a'r cyfraddau treth, gan ffurfio sail trethu incwm personol."
       }
     }
   },

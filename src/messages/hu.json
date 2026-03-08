@@ -18,7 +18,8 @@
     "contact": "Kapcsolat",
     "navigation": "Navigáció",
     "close_menu": "Menü bezárása",
-    "skip_to_content": "Ugrás a tartalomhoz"
+    "skip_to_content": "Ugrás a tartalomhoz",
+    "gesetze": "Jogszabályok"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -106,6 +107,28 @@
         "0": "A német követelmények összhangba hozása külföldi társasági struktúrákkal",
         "1": "Következetes, időben történő és ellenőrizhető bejelentések biztosítása",
         "2": "Rendszeres ellenőrzés és frissítés"
+      }
+    }
+  },
+  "gesetze": {
+    "badge": "Jogszabályok",
+    "headline": "Szabályozási keretrendszer",
+    "subtitle": "Tanácsadásunk jogi alapjai.",
+    "laws": {
+      "kwg": {
+        "abbreviation": "KWG",
+        "name": "Kreditwesengesetz",
+        "description": "A németországi banki tevékenységek és pénzügyi szolgáltatások engedélyezési követelményeit szabályozza. A KWG a BaFin felügyeleti tevékenységének alapját képezi, és a § 1 KWG-ben a kulcsfogalmakat, valamint a § 25a KWG-ben a megfelelő üzletszervezési követelményeket határozza meg."
+      },
+      "vag": {
+        "abbreviation": "VAG",
+        "name": "Versicherungsaufsichtsgesetz",
+        "description": "A biztosítótársaságok felügyeletét szabályozza, és a biztosítottak védelmét szolgálja. A VAG biztosítja, hogy a biztosítók tartósan teljesíthessék kötelezettségeiket, és megfelelően irányítsák őket."
+      },
+      "estg": {
+        "abbreviation": "EStG",
+        "name": "Einkommensteuergesetz",
+        "description": "A természetes személyek jövedelmének adóztatását szabályozza Németországban. Az EStG meghatározza a jövedelemtípusokat, az adómentességeket és az adókulcsokat, és a személyi jövedelemadóztatás alapját képezi."
       }
     }
   },

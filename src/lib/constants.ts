@@ -90,6 +90,7 @@ export type TeamMemberSlug = (typeof TEAM_MEMBERS)[number]["slug"];
 export const NAV_LINKS = [
   { id: "about", href: "about" },
   { id: "services", href: "services" },
+  { id: "gesetze", href: "gesetze" },
   { id: "approach", href: "approach" },
   { id: "offices", href: "offices" },
   { id: "contact", href: "contact" },

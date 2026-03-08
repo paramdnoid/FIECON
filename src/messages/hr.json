@@ -18,7 +18,8 @@
     "contact": "Kontakt",
     "navigation": "Navigacija",
     "close_menu": "Zatvori izbornik",
-    "skip_to_content": "Preskoči na sadržaj"
+    "skip_to_content": "Preskoči na sadržaj",
+    "gesetze": "Zakonodavstvo"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -106,6 +107,28 @@
         "0": "Usklađivanje njemačkih zahtjeva sa stranim korporativnim strukturama",
         "1": "Osiguranje dosljednih, pravovremenih i provjerljivih prijava",
         "2": "Redovita provjera i ažuriranje prijava"
+      }
+    }
+  },
+  "gesetze": {
+    "badge": "Zakonodavstvo",
+    "headline": "Regulatorni okvir",
+    "subtitle": "Pravni temelji našeg savjetovanja.",
+    "laws": {
+      "kwg": {
+        "abbreviation": "KWG",
+        "name": "Kreditwesengesetz",
+        "description": "Uređuje zahtjeve za odobrenja za bankovne poslove i financijske usluge u Njemačkoj. KWG čini osnovu BaFin nadzora i definira u § 1 KWG ključne pojmove te u § 25a KWG zahtjeve za uredno organiziranje poslovanja."
+      },
+      "vag": {
+        "abbreviation": "VAG",
+        "name": "Versicherungsaufsichtsgesetz",
+        "description": "Uređuje nadzor nad osiguravajućim društvima i služi zaštiti osiguranika. VAG osigurava da osiguravatelji mogu trajno ispunjavati svoje obveze i da su uredno vođeni."
+      },
+      "estg": {
+        "abbreviation": "EStG",
+        "name": "Einkommensteuergesetz",
+        "description": "Uređuje oporezivanje dohotka fizičkih osoba u Njemačkoj. EStG definira vrste dohotka, porezna oslobođenja i porezne stope te čini osnovu osobnog oporezivanja dohotka."
       }
     }
   },

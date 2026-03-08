@@ -18,7 +18,8 @@
     "contact": "Contacte",
     "navigation": "Navegació",
     "close_menu": "Tancar menú",
-    "skip_to_content": "Anar al contingut"
+    "skip_to_content": "Anar al contingut",
+    "gesetze": "Legislació"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -106,6 +107,28 @@
         "0": "Alineació dels requisits alemanys amb les estructures societàries estrangeres",
         "1": "Garantia de comunicacions coherents, puntuals i auditables",
         "2": "Revisió i actualització regular de les comunicacions"
+      }
+    }
+  },
+  "gesetze": {
+    "badge": "Legislació",
+    "headline": "Marc regulatori",
+    "subtitle": "Els fonaments jurídics del nostre assessorament.",
+    "laws": {
+      "kwg": {
+        "abbreviation": "KWG",
+        "name": "Kreditwesengesetz",
+        "description": "Regula els requisits d'autorització per a operacions bancàries i serveis financers a Alemanya. El KWG constitueix la base de la supervisió de la BaFin i defineix al § 1 KWG els termes clau així com al § 25a KWG els requisits per a una organització empresarial adequada."
+      },
+      "vag": {
+        "abbreviation": "VAG",
+        "name": "Versicherungsaufsichtsgesetz",
+        "description": "Regula la supervisió de les companyies d'assegurances i serveix per protegir els assegurats. El VAG garanteix que les asseguradores puguin complir permanentment amb les seves obligacions i siguin gestionades de manera adequada."
+      },
+      "estg": {
+        "abbreviation": "EStG",
+        "name": "Einkommensteuergesetz",
+        "description": "Regula la tributació de la renda de les persones físiques a Alemanya. L'EStG defineix els tipus d'ingressos, les exempcions fiscals i els tipus impositius, constituint la base de la tributació personal de la renda."
       }
     }
   },

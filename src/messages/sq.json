@@ -18,7 +18,8 @@
     "contact": "Kontakti",
     "navigation": "Navigimi",
     "close_menu": "Mbyll menynë",
-    "skip_to_content": "Kalo te përmbajtja"
+    "skip_to_content": "Kalo te përmbajtja",
+    "gesetze": "Legjislacioni"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -106,6 +107,28 @@
         "0": "Harmonizimi i kërkesave gjermane me strukturat e shoqërive të huaja",
         "1": "Sigurimi i raportimeve të qëndrueshme, në kohë dhe të verifikueshme",
         "2": "Rishikim dhe përditësim i rregullt"
+      }
+    }
+  },
+  "gesetze": {
+    "badge": "Legjislacioni",
+    "headline": "Kuadri rregullator",
+    "subtitle": "Bazat juridike të këshillimit tonë.",
+    "laws": {
+      "kwg": {
+        "abbreviation": "KWG",
+        "name": "Kreditwesengesetz",
+        "description": "Rregullon kërkesat e licencimit për veprimtaritë bankare dhe shërbimet financiare në Gjermani. KWG formon bazën e mbikëqyrjes së BaFin dhe përcakton në § 1 KWG termat kryesore si dhe në § 25a KWG kërkesat për organizim të duhur të biznesit."
+      },
+      "vag": {
+        "abbreviation": "VAG",
+        "name": "Versicherungsaufsichtsgesetz",
+        "description": "Rregullon mbikëqyrjen e kompanive të sigurimit dhe shërben për mbrojtjen e të siguruarve. VAG siguron që siguruesit mund të përmbushin përgjithmonë detyrimet e tyre dhe menaxhohen në mënyrë të duhur."
+      },
+      "estg": {
+        "abbreviation": "EStG",
+        "name": "Einkommensteuergesetz",
+        "description": "Rregullon tatimin e të ardhurave të personave fizikë në Gjermani. EStG përcakton llojet e të ardhurave, përjashtimet tatimore dhe normat tatimore, duke formuar bazën e tatimit mbi të ardhurat personale."
       }
     }
   },

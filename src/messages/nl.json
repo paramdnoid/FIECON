@@ -18,7 +18,8 @@
     "contact": "Contact",
     "navigation": "Navigatie",
     "close_menu": "Menu sluiten",
-    "skip_to_content": "Ga naar inhoud"
+    "skip_to_content": "Ga naar inhoud",
+    "gesetze": "Wetgeving"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -106,6 +107,28 @@
         "0": "Afstemming van Duitse vereisten met buitenlandse vennootschapsstructuren",
         "1": "Waarborging van consistente, tijdige en controleerbare meldingen",
         "2": "Regelmatige controle en actualisering van meldingen"
+      }
+    }
+  },
+  "gesetze": {
+    "badge": "Wetgeving",
+    "headline": "Regelgevend kader",
+    "subtitle": "De juridische grondslagen van ons advies.",
+    "laws": {
+      "kwg": {
+        "abbreviation": "KWG",
+        "name": "Kreditwesengesetz",
+        "description": "Regelt de vergunningsvereisten voor bankactiviteiten en financiële dienstverlening in Duitsland. Het KWG vormt de basis van het BaFin-toezicht en definieert in § 1 KWG de kernbegrippen en in § 25a KWG de eisen voor een deugdelijke bedrijfsorganisatie."
+      },
+      "vag": {
+        "abbreviation": "VAG",
+        "name": "Versicherungsaufsichtsgesetz",
+        "description": "Regelt het toezicht op verzekeringsmaatschappijen en dient ter bescherming van de verzekerden. Het VAG waarborgt dat verzekeraars blijvend aan hun verplichtingen kunnen voldoen en op een deugdelijke wijze worden bestuurd."
+      },
+      "estg": {
+        "abbreviation": "EStG",
+        "name": "Einkommensteuergesetz",
+        "description": "Regelt de belastingheffing over het inkomen van natuurlijke personen in Duitsland. Het EStG definieert de inkomstensoorten, belastingvrijstellingen en belastingtarieven en vormt de basis van de persoonlijke inkomstenbelasting."
       }
     }
   },

@@ -18,7 +18,8 @@
     "contact": "Kontakt",
     "navigation": "Navigatioun",
     "close_menu": "Menü zoumaachen",
-    "skip_to_content": "Zum Inhalt sprangen"
+    "skip_to_content": "Zum Inhalt sprangen",
+    "gesetze": "Gesetzgebung"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -106,6 +107,28 @@
         "0": "Ofgläich vun däitschen Virgaben mat auslänneschen Gesellschaftsstrukturen",
         "1": "Sécherstellung vu konsequenten, fristgerechten a préifungssëchere Meldungen",
         "2": "Regelméisseg Iwwerpréiwung an Aktualiséierung vun de Meldungen"
+      }
+    }
+  },
+  "gesetze": {
+    "badge": "Gesetzgebung",
+    "headline": "Regulatoreschen Kader",
+    "subtitle": "D'juristesch Grondlage vun eiser Berodung.",
+    "laws": {
+      "kwg": {
+        "abbreviation": "KWG",
+        "name": "Kreditwesengesetz",
+        "description": "Reegelt d'Erlabnispflichte fir Bankgeschäfter a Finanzdienstleeschtungen an Däitschland. D'KWG bildt d'Basis vun der BaFin-Opsiicht an definéiert am § 1 KWG déi zentral Begrëffer souwéi am § 25a KWG d'Ufuerderunge fir eng uerdentlech Geschäftsorganisatioun."
+      },
+      "vag": {
+        "abbreviation": "VAG",
+        "name": "Versicherungsaufsichtsgesetz",
+        "description": "Reegelt d'Opsiicht iwwer Versécherungsgesellschaften an déngt dem Schutz vun de Versécherten. D'VAG garantéiert, datt Versécherer hir Verpflichtunge permanent erfëlle kënnen an uerdentlech geféiert ginn."
+      },
+      "estg": {
+        "abbreviation": "EStG",
+        "name": "Einkommensteuergesetz",
+        "description": "Reegelt d'Besteierung vum Akommes vu natierlech Persounen an Däitschland. D'EStG definéiert d'Akommensaarten, Fräibetréi an d'Steiersätz a bildt d'Basis vun der persounegebonnener Akommensbesteierung."
       }
     }
   },

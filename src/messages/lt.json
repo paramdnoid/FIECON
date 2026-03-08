@@ -18,7 +18,8 @@
     "contact": "Kontaktai",
     "navigation": "Navigacija",
     "close_menu": "Uždaryti meniu",
-    "skip_to_content": "Pereiti prie turinio"
+    "skip_to_content": "Pereiti prie turinio",
+    "gesetze": "Teisės aktai"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -106,6 +107,28 @@
         "0": "Vokietijos reikalavimų suderinimas su užsienio įmonių struktūromis",
         "1": "Nuoseklių, savalaikių ir audituojamų pranešimų užtikrinimas",
         "2": "Reguliarus peržiūrėjimas ir atnaujinimas"
+      }
+    }
+  },
+  "gesetze": {
+    "badge": "Teisės aktai",
+    "headline": "Reguliavimo sistema",
+    "subtitle": "Mūsų konsultavimo teisiniai pagrindai.",
+    "laws": {
+      "kwg": {
+        "abbreviation": "KWG",
+        "name": "Kreditwesengesetz",
+        "description": "Reglamentuoja leidimų reikalavimus bankinei veiklai ir finansinėms paslaugoms Vokietijoje. KWG sudaro BaFin priežiūros pagrindą ir apibrėžia § 1 KWG pagrindinius terminus bei § 25a KWG reikalavimus tinkamam verslo organizavimui."
+      },
+      "vag": {
+        "abbreviation": "VAG",
+        "name": "Versicherungsaufsichtsgesetz",
+        "description": "Reglamentuoja draudimo bendrovių priežiūrą ir tarnauja apdraustųjų apsaugai. VAG užtikrina, kad draudikai galėtų nuolat vykdyti savo įsipareigojimus ir būtų tinkamai valdomi."
+      },
+      "estg": {
+        "abbreviation": "EStG",
+        "name": "Einkommensteuergesetz",
+        "description": "Reglamentuoja fizinių asmenų pajamų apmokestinimą Vokietijoje. EStG apibrėžia pajamų rūšis, neapmokestinamuosius dydžius ir mokesčių tarifus, sudarydamas asmeninio pajamų apmokestinimo pagrindą."
       }
     }
   },

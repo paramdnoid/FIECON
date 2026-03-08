@@ -18,7 +18,8 @@
     "contact": "İletişim",
     "navigation": "Navigasyon",
     "close_menu": "Menüyü kapat",
-    "skip_to_content": "İçeriğe atla"
+    "skip_to_content": "İçeriğe atla",
+    "gesetze": "Mevzuat"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -106,6 +107,28 @@
         "0": "Alman gereksinimlerin yabancı şirket yapılarıyla uyumlaştırılması",
         "1": "Tutarlı, zamanında ve denetlenebilir bildirimlerin sağlanması",
         "2": "Düzenli inceleme ve güncelleme"
+      }
+    }
+  },
+  "gesetze": {
+    "badge": "Mevzuat",
+    "headline": "Düzenleyici çerçeve",
+    "subtitle": "Danışmanlığımızın hukuki temelleri.",
+    "laws": {
+      "kwg": {
+        "abbreviation": "KWG",
+        "name": "Kreditwesengesetz",
+        "description": "Almanya'da bankacılık faaliyetleri ve finansal hizmetler için lisans gerekliliklerini düzenler. KWG, BaFin denetiminin temelini oluşturur ve § 1 KWG'de temel kavramları, § 25a KWG'de ise uygun iş organizasyonu gerekliliklerini tanımlar."
+      },
+      "vag": {
+        "abbreviation": "VAG",
+        "name": "Versicherungsaufsichtsgesetz",
+        "description": "Sigorta şirketlerinin denetimini düzenler ve sigortalıların korunmasına hizmet eder. VAG, sigortacıların yükümlülüklerini kalıcı olarak yerine getirebilmelerini ve uygun şekilde yönetilmelerini sağlar."
+      },
+      "estg": {
+        "abbreviation": "EStG",
+        "name": "Einkommensteuergesetz",
+        "description": "Almanya'da gerçek kişilerin gelirlerinin vergilendirilmesini düzenler. EStG, gelir türlerini, vergi muafiyetlerini ve vergi oranlarını tanımlar ve kişisel gelir vergisinin temelini oluşturur."
       }
     }
   },

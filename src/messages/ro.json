@@ -18,7 +18,8 @@
     "contact": "Contact",
     "navigation": "Navigare",
     "close_menu": "Închide meniul",
-    "skip_to_content": "Salt la conținut"
+    "skip_to_content": "Salt la conținut",
+    "gesetze": "Legislație"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -106,6 +107,28 @@
         "0": "Alinierea cerințelor germane cu structurile societare străine",
         "1": "Asigurarea raportărilor consecvente, la timp și verificabile",
         "2": "Verificare și actualizare regulată a raportărilor"
+      }
+    }
+  },
+  "gesetze": {
+    "badge": "Legislație",
+    "headline": "Cadrul de reglementare",
+    "subtitle": "Fundamentele juridice ale consultanței noastre.",
+    "laws": {
+      "kwg": {
+        "abbreviation": "KWG",
+        "name": "Kreditwesengesetz",
+        "description": "Reglementează cerințele de autorizare pentru operațiunile bancare și serviciile financiare din Germania. KWG constituie baza supravegherii BaFin și definește în § 1 KWG termenii cheie, precum și în § 25a KWG cerințele pentru o organizare adecvată a activității."
+      },
+      "vag": {
+        "abbreviation": "VAG",
+        "name": "Versicherungsaufsichtsgesetz",
+        "description": "Reglementează supravegherea societăților de asigurări și servește protecției asiguraților. VAG asigură că asigurătorii își pot îndeplini permanent obligațiile și sunt administrați în mod corespunzător."
+      },
+      "estg": {
+        "abbreviation": "EStG",
+        "name": "Einkommensteuergesetz",
+        "description": "Reglementează impozitarea veniturilor persoanelor fizice din Germania. EStG definește tipurile de venituri, scutirile fiscale și cotele de impozitare, constituind baza impozitării veniturilor personale."
       }
     }
   },
