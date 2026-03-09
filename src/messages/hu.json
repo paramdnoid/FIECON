@@ -89,7 +89,6 @@
         "2": "Long-term protection strategy"
       }
     },
-
     "focus_headline": "Kulcsfontosságú tevékenységi területek",
     "corporate_law": {
       "title": "Társasági jogi szakértelem",
@@ -130,7 +129,8 @@
         "name": "Einkommensteuergesetz",
         "description": "A természetes személyek jövedelmének adóztatását szabályozza Németországban. Az EStG meghatározza a jövedelemtípusokat, az adómentességeket és az adókulcsokat, és a személyi jövedelemadóztatás alapját képezi."
       }
-    }
+    },
+    "mehr_erfahren": "Learn more"
   },
   "approach": {
     "badge": "Megközelítésünk",
@@ -362,5 +362,55 @@
     "service_finance": "Pénzügyi igazgatás",
     "service_construction": "Építési finanszírozás",
     "service_yacht": "Jachtépítési finanszírozás"
+  },
+  "gesetze_page": {
+    "meta_title": "Legal Foundations — KWG, VAG & EStG",
+    "meta_description": "FIECON explains the regulatory foundations: the Banking Act, Insurance Supervision Act and Income Tax Act — and how we guide clients through these requirements.",
+    "breadcrumb_home": "Home",
+    "breadcrumb_current": "Legislation",
+    "hero_badge": "Regulatory Framework",
+    "hero_headline": "Legal Foundations",
+    "hero_intro_1": "FIECON's advisory practice is deeply rooted in the German and European regulatory framework. The Banking Act (KWG), Insurance Supervision Act (VAG) and Income Tax Act (EStG) form the legal basis for substantial parts of our daily advisory work — from structuring international entities to tax optimisation for entrepreneurs.",
+    "hero_intro_2": "On this page, we introduce the three central acts, explain their key regulatory areas and show how FIECON concretely supports clients in meeting the requirements of these frameworks in a legally sound and efficient manner.",
+    "hero_chip_kwg": "KWG",
+    "hero_chip_vag": "VAG",
+    "hero_chip_estg": "EStG",
+    "kwg_abbreviation": "KWG",
+    "kwg_name": "Kreditwesengesetz (Banking Act)",
+    "kwg_intro": "The Banking Act (KWG) forms the cornerstone of German banking supervision. It governs the conditions under which companies may conduct banking business or provide financial services, and sets out requirements for organisation, capital adequacy and internal controls. The Federal Financial Supervisory Authority (BaFin) supervises all licensed institutions in Germany on the basis of the KWG.",
+    "kwg_detail": "For companies wishing to conduct banking business or provide financial services, the licensing obligation under § 32 KWG is of central importance. The KWG defines in § 1 a broad catalogue of activities requiring authorisation — from lending and investment advice to order execution. At the same time, § 25a requires institutions to maintain proper business organisation with adequate risk management.",
+    "kwg_provisions_headline": "Key Provisions",
+    "kwg_provision_0": "§ 1 KWG — Definitions: Exhaustive definition of all banking and financial services businesses requiring authorisation, including lending, deposit-taking and investment advice.",
+    "kwg_provision_1": "§ 25a KWG — Special organisational obligations: Requirements for proper business organisation with adequate risk management, internal control procedures and compliance structures.",
+    "kwg_provision_2": "§ 32 KWG — Licensing requirement: Prohibition on conducting banking business and financial services commercially without written authorisation from BaFin.",
+    "kwg_provision_3": "§ 44 KWG — BaFin audit powers: Powers of the supervisory authority to conduct audits at institutions and to request information and documents.",
+    "kwg_consulting_headline": "FIECON Advisory in the KWG Context",
+    "kwg_consulting_text": "FIECON supports companies and founders in assessing licensing obligations under the KWG, in preparing and submitting BaFin licence applications, and in implementing the organisational requirements of § 25a KWG. We also assist with ongoing regulatory compliance and communication with the supervisory authority.",
+    "vag_abbreviation": "VAG",
+    "vag_name": "Versicherungsaufsichtsgesetz (Insurance Supervision Act)",
+    "vag_intro": "The Insurance Supervision Act (VAG) governs state supervision of insurance companies in Germany and primarily serves to protect policyholders. It transposes the European Solvency II Directive into German law and ensures that insurers are permanently able to fulfil their obligations towards the insured.",
+    "vag_detail": "The VAG requires insurance companies to comply with extensive capital requirements (Solvency Capital Requirement and Minimum Capital Requirement) and to be properly managed by fit and proper persons. Special provisions apply to private health insurers regarding premium calculation and the formation of ageing provisions — an area of particular relevance for the advisory of self-employed entrepreneurs.",
+    "vag_provisions_headline": "Key Provisions",
+    "vag_provision_0": "§ 11 VAG — Licensing requirement: Prohibition on conducting insurance business without BaFin authorisation, combined with a catalogue of insurance classes requiring a licence.",
+    "vag_provision_1": "§ 124 VAG — Investment management: Requirements for the investment of assets in accordance with the Prudent Person Principle.",
+    "vag_provision_2": "§ 22 VAG — Senior managers: Requirements for the reliability and professional suitability of persons in key functions within an insurance company.",
+    "vag_provision_3": "§ 294 VAG — BaFin supervisory powers: Extensive supervisory and intervention powers of the authority in relation to supervised insurance undertakings.",
+    "vag_consulting_headline": "FIECON Advisory in the VAG Context",
+    "vag_consulting_text": "FIECON advises on the structuring of insurance solutions for international entrepreneurs and self-employed individuals, particularly in the area of private health insurance (PKV). We analyse tariff structures taking into account the regulatory requirements of the VAG and support clients in optimally protecting their personal risks.",
+    "estg_abbreviation": "EStG",
+    "estg_name": "Einkommensteuergesetz (Income Tax Act)",
+    "estg_intro": "The Income Tax Act (EStG) governs the taxation of the income of natural persons in Germany. As the central tax act for private individuals and self-employed persons, it defines the seven types of income, personal allowances and progressive tax rates. The EStG is particularly significant for internationally active entrepreneurs, as Germany applies the worldwide income principle.",
+    "estg_detail": "Anyone who is subject to unlimited tax liability in Germany (§ 1 EStG) is generally required to tax their entire worldwide income in Germany — regardless of where it was earned. The correct delimitation of tax liability, the application of double taxation agreements and the tax-efficient structuring of corporate structures are therefore key advisory areas for internationally active clients.",
+    "estg_provisions_headline": "Key Provisions",
+    "estg_provision_0": "§ 1 EStG — Unlimited tax liability: Natural persons with residence or habitual abode in Germany are subject to unlimited income tax liability on their worldwide income.",
+    "estg_provision_1": "§ 2 EStG — Types of income: Exhaustive definition of the seven types of income, including income from trade or business, self-employment and capital assets.",
+    "estg_provision_2": "§ 19 EStG — Income from non-self-employed work: Regulation of the taxation of wages, salaries, bonuses and monetary benefits from an employment relationship.",
+    "estg_provision_3": "§ 49 EStG — Limited tax liability: Taxation of income from German sources for persons without residence in Germany — relevant for foreign shareholders and managing directors.",
+    "estg_consulting_headline": "FIECON Advisory in the EStG Context",
+    "estg_consulting_text": "FIECON supports internationally active entrepreneurs, shareholders and self-employed individuals in analysing and optimising their tax situation under the EStG. We examine personal tax liability, the applicability of double taxation agreements and develop tax-efficient corporate and remuneration structures. For self-employed persons, we also advise on the tax-efficient structuring of pension provision, particularly in conjunction with private health insurance.",
+    "cta_headline": "Regulatory questions? We have the answers.",
+    "cta_subline": "Whether a KWG licence application, VAG-compliant insurance structure or tax optimisation under the EStG — get in touch with us.",
+    "cta_button": "Get in touch",
+    "cta_back": "Back to homepage"
   }
 }

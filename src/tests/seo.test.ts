@@ -29,8 +29,15 @@ describe("sitemap()", () => {
   const result = sitemap();
   const localeCount = routing.locales.length;
 
-  it("returns entries for all locales × 6 pages", () => {
-    expect(result).toHaveLength(localeCount * 6);
+  it("returns entries for all locales × 7 pages", () => {
+    expect(result).toHaveLength(localeCount * 7);
+  });
+
+  it("includes gesetze for every locale with medium-high priority", () => {
+    const gesetzeEntries = result.filter((e) => e.url.endsWith("/gesetze"));
+    expect(gesetzeEntries).toHaveLength(localeCount);
+    expect(gesetzeEntries[0].priority).toBe(0.8);
+    expect(gesetzeEntries[0].changeFrequency).toBe("monthly");
   });
 
   it("includes homepage for every locale with priority 1", () => {

@@ -20,6 +20,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.7,
     })),
+    { path: "/gesetze", changeFrequency: "monthly", priority: 0.8 },
     { path: "/impressum", changeFrequency: "yearly", priority: 0.3, lastModified: legalDate },
     { path: "/datenschutz", changeFrequency: "yearly", priority: 0.3, lastModified: legalDate },
   ];
