@@ -1,25 +1,26 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
-
-const _maskCache: Record<string, string> = {};
+import { useCallback, useMemo, useState } from "react";
 
 /**
  * Generates a data-URL mask from an SVG map component (filled regions only).
- * Cached per country code so each mask is only computed once.
+ * Computed from the rendered SVG map and memoized per hook lifecycle.
  */
-export function useCountryMask(countryCode: string) {
-  const [maskUrl, setMaskUrl] = useState(_maskCache[countryCode] ?? null);
-  const ref = useRef<HTMLDivElement>(null);
+export function useCountryMask() {
+  const [container, setContainer] = useState<HTMLDivElement | null>(null);
+  const ref = useCallback((node: HTMLDivElement | null) => {
+    setContainer(node);
+  }, []);
 
-  useEffect(() => {
-    if (_maskCache[countryCode]) {
-      setMaskUrl(_maskCache[countryCode]);
-      return;
+  const maskUrl = useMemo(() => {
+    if (!container) {
+      return null;
     }
-    if (!ref.current) return;
-    const svg = ref.current.querySelector("svg");
-    if (!svg) return;
+
+    const svg = container.querySelector("svg");
+    if (!svg) {
+      return null;
+    }
 
     const clone = svg.cloneNode(true) as SVGElement;
     clone.removeAttribute("class");
@@ -36,9 +37,8 @@ export function useCountryMask(countryCode: string) {
     const url = `data:image/svg+xml;charset=utf-8,${encodeURIComponent(
       new XMLSerializer().serializeToString(clone),
     )}`;
-    _maskCache[countryCode] = url;
-    setMaskUrl(url);
-  }, [countryCode]);
+    return url;
+  }, [container]);
 
   return { maskUrl, ref };
 }

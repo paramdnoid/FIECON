@@ -13,7 +13,7 @@ import { useCountryMask } from "./useCountryMask";
 export function CountryPhotoMap({ countryCode }: { countryCode: string }) {
   const config = PHOTO_MAP_CONFIG[countryCode];
   const MapSvg = COUNTRY_MAPS[countryCode];
-  const { maskUrl, ref } = useCountryMask(countryCode);
+  const { maskUrl, ref } = useCountryMask();
   if (!config || !MapSvg) return null;
   const { src } = config;
 

@@ -411,6 +411,10 @@
     "cta_headline": "Regulatory questions? We have the answers.",
     "cta_subline": "Whether a KWG licence application, VAG-compliant insurance structure or tax optimisation under the EStG — get in touch with us.",
     "cta_button": "Get in touch",
-    "cta_back": "Back to homepage"
+    "cta_back": "Back to homepage",
+    "kwg_provision_4": "§ 46 KWG — Supervisory intervention measures: Powers of BaFin to intervene in the event of supervisory deficiencies, in particular to safeguard proper management and protect creditors.",
+    "vag_provision_4": "§ 311 VAG — Specific rules for private health insurance: Provisions on actuarial calculation, premium adjustments and long-term financing through ageing reserves.",
+    "estg_provision_4": "§ 22 EStG — Other income: Taxation in particular of recurring payments such as pensions, as well as certain other income outside the classic income categories.",
+    "estg_provision_5": "§ 23 EStG — Private disposal transactions: Tax treatment of gains from the disposal of private assets within the statutory holding periods."
   }
 }

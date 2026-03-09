@@ -27,7 +27,11 @@
     "zod": "^4.3.6"
   },
   "pnpm": {
-    "onlyBuiltDependencies": ["sharp", "esbuild", "@swc/core"]
+    "onlyBuiltDependencies": [
+      "sharp",
+      "esbuild",
+      "@swc/core"
+    ]
   },
   "devDependencies": {
     "@cyclonedx/cyclonedx-npm": "^4.1.2",

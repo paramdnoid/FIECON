@@ -9,9 +9,19 @@ export function useActiveSection() {
   const [activeSection, setActiveSection] = useState<string>("");
   const lastUrlSection = useRef<string>("");
   const mountedAt = useRef(0);
+  const enabledOnThisPage = useRef(false);
 
   useEffect(() => {
     mountedAt.current = Date.now();
+    const pathSegments = window.location.pathname.split("/").filter(Boolean);
+    const isLocaleHome = pathSegments.length === 1;
+    enabledOnThisPage.current = isLocaleHome;
+
+    // Only track/update hash on locale homepage (e.g. /de), not on subpages like /de/gesetze.
+    if (!isLocaleHome) {
+      setActiveSection("");
+      return;
+    }
 
     // Use scroll-based detection: the active section is whichever section's
     // top edge is closest to (but above) the detection line (header + offset).
@@ -47,6 +57,10 @@ export function useActiveSection() {
 
   // Sync URL hash with active section (delay on mount to allow ScrollToSection to work first)
   useEffect(() => {
+    if (!enabledOnThisPage.current) {
+      return;
+    }
+
     const timeSinceMount = Date.now() - mountedAt.current;
     const delay = timeSinceMount < 300 ? 300 - timeSinceMount : 0;
 

@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { SectionDivider } from "@/components/ui/SectionDivider";
-import { GesetzeHero } from "@/components/sections/gesetze/GesetzeHero";
-import { GesetzeDetail } from "@/components/sections/gesetze/GesetzeDetail";
-import { GesetzeCtaSection } from "@/components/sections/gesetze/GesetzeCtaSection";
+import { GesetzeDocsLayout } from "@/components/sections/gesetze/docs/GesetzeDocsLayout";
 import { COMPANY } from "@/lib/constants";
 
 export async function generateMetadata({
@@ -36,12 +33,7 @@ export default async function GesetzePage({
 
   return (
     <>
-      <GesetzeHero />
-      <GesetzeDetail lawKey="kwg" index={0} />
-      <GesetzeDetail lawKey="vag" index={1} />
-      <GesetzeDetail lawKey="estg" index={2} />
-      <SectionDivider variant="diamond" />
-      <GesetzeCtaSection />
+      <GesetzeDocsLayout />
     </>
   );
 }
