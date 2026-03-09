@@ -3,16 +3,17 @@
 import { useState, useRef, useCallback } from "react";
 import { createPortal } from "react-dom";
 import { useLocale, useTranslations } from "next-intl";
-import { useRouter } from "next/navigation";
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import { LOCALES, BACKDROP_MOTION, MODAL_MOTION } from "@/lib/constants";
 import { FLAGS } from "@/components/flags";
 import { useFocusTrap } from "@/hooks/useFocusTrap";
 import { useDialogBehavior } from "@/hooks/useDialogBehavior";
+import { usePathname, useRouter } from "@/i18n/navigation";
 
 export function LanguageSwitcher() {
   const locale = useLocale();
   const router = useRouter();
+  const pathname = usePathname();
   const t = useTranslations("language");
   const [open, setOpen] = useState(false);
   const prefersReduced = useReducedMotion();
@@ -30,9 +31,9 @@ export function LanguageSwitcher() {
       const secure = globalThis.location?.protocol === "https:" ? ";Secure" : "";
       globalThis.document.cookie = `NEXT_LOCALE=${code};path=/;max-age=31536000;SameSite=Lax${secure}`;
       setOpen(false);
-      router.push(`/${code}`);
+      router.push(pathname, { locale: code });
     },
-    [router],
+    [pathname, router],
   );
 
   const backdropMotion = prefersReduced ? {} : BACKDROP_MOTION;

@@ -19,7 +19,6 @@ export function useActiveSection() {
 
     // Only track/update hash on locale homepage (e.g. /de), not on subpages like /de/gesetze.
     if (!isLocaleHome) {
-      setActiveSection("");
       return;
     }
 

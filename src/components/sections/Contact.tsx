@@ -1,17 +1,11 @@
 "use client";
 
-import { useState, lazy, Suspense } from "react";
 import { useTranslations } from "next-intl";
 import { motion, useReducedMotion } from "motion/react";
-import { Container } from "@/components/ui/Container";
-import { Button } from "@/components/ui/Button";
-import { MagneticButton } from "@/components/animations/MagneticButton";
-import { FadeIn } from "@/components/animations/FadeIn";
+import { MagneticButton, FadeIn } from "@/components/animations";
+import { Container, Button } from "@/components/ui";
 import { CONTACT, EASE_OUT_EXPO } from "@/lib/constants";
-
-const ContactDialog = lazy(() =>
-  import("@/components/ui/ContactDialog").then((m) => ({ default: m.ContactDialog }))
-);
+import { useContactDialog } from "@/hooks/useContactDialog";
 
 const CONTACT_ITEMS = [
   {
@@ -62,12 +56,12 @@ const CONTACT_ITEMS = [
 export function Contact() {
   const t = useTranslations("contact");
   const prefersReduced = useReducedMotion();
-  const [dialogOpen, setDialogOpen] = useState(false);
+  const { openDialog, dialogNode } = useContactDialog();
 
   return (
     <section id="contact" className="relative py-16 sm:py-24 lg:py-32 overflow-hidden bg-white">
       {/* Top gradient border */}
-      <div aria-hidden="true" className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-beige-400/40 to-transparent" />
+      <div aria-hidden="true" className="absolute inset-x-0 top-0 h-px bg-linear-to-r from-transparent via-beige-400/40 to-transparent" />
 
       {/* Scale-up reveal wrapper */}
       <motion.div
@@ -95,7 +89,7 @@ export function Contact() {
           </FadeIn>
 
           {/* Gradient divider */}
-          <div aria-hidden="true" className="h-px bg-gradient-to-r from-transparent via-beige-400/30 to-transparent mb-8 sm:mb-10" />
+          <div aria-hidden="true" className="h-px bg-linear-to-r from-transparent via-beige-400/30 to-transparent mb-8 sm:mb-10" />
 
           {/* Contact row — inline, symmetric */}
           <FadeIn delay={0.15}>
@@ -139,7 +133,7 @@ export function Contact() {
                 <Button
                   variant="primary"
                   size="md"
-                  onClick={() => setDialogOpen(true)}
+                  onClick={openDialog}
                 >
                   {t("cta")}
                 </Button>
@@ -149,17 +143,10 @@ export function Contact() {
         </Container>
       </motion.div>
 
-      {dialogOpen && (
-        <Suspense>
-          <ContactDialog
-            open={dialogOpen}
-            onClose={() => setDialogOpen(false)}
-          />
-        </Suspense>
-      )}
+      {dialogNode}
 
       {/* Bottom gradient border */}
-      <div aria-hidden="true" className="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-beige-400/40 to-transparent" />
+      <div aria-hidden="true" className="absolute inset-x-0 bottom-0 h-px bg-linear-to-r from-transparent via-beige-400/40 to-transparent" />
     </section>
   );
 }

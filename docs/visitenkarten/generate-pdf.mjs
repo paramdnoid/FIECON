@@ -200,7 +200,7 @@ function buildHTML(side, personName, mobile) {
   </body></html>`;
 }
 
-async function generatePDF(browser, html, outputPath, title) {
+async function generatePDF(browser, html, outputPath) {
   const page = await browser.newPage();
 
   // Höhere Renderqualität für schärfere Vektoren und Texte
@@ -249,8 +249,8 @@ async function main() {
     const frontHTML = buildHTML("front", person.name, person.mobile);
     const backHTML = buildHTML("back", person.name, person.mobile);
 
-    await generatePDF(browser, frontHTML, join(OUTPUT_DIR, `${person.slug}-vorderseite.pdf`), `${person.name} — Vorderseite`);
-    await generatePDF(browser, backHTML, join(OUTPUT_DIR, `${person.slug}-rueckseite.pdf`), `${person.name} — Rückseite`);
+    await generatePDF(browser, frontHTML, join(OUTPUT_DIR, `${person.slug}-vorderseite.pdf`));
+    await generatePDF(browser, backHTML, join(OUTPUT_DIR, `${person.slug}-rueckseite.pdf`));
   }
 
   await browser.close();

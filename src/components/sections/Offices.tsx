@@ -3,18 +3,17 @@
 import { useCallback, useEffect, useRef, useState, type KeyboardEvent } from "react";
 import { useTranslations } from "next-intl";
 import { useReducedMotion } from "motion/react";
-import { Container } from "@/components/ui/Container";
-import { SectionHeading } from "@/components/ui/SectionHeading";
-import { FadeIn } from "@/components/animations/FadeIn";
-import {
-  EllipseCarousel,
-  EllipseCard,
-} from "@/components/animations/EllipseCarousel";
+import { EllipseCarousel, EllipseCard, FadeIn } from "@/components/animations";
+import { Container, SectionHeading } from "@/components/ui";
 import { OFFICES, OFFICE_CITY_OVERRIDES } from "@/lib/constants";
 import { useEllipseCarousel } from "@/hooks/useEllipseCarousel";
 import { useMediaQuery } from "@/hooks/useMediaQuery";
 import { COUNTRY_MAPS } from "@/components/maps";
 import { BackgroundMap } from "./offices/BackgroundMap";
+import {
+  OfficeCarouselDots,
+  OfficeCarouselNavButton,
+} from "./offices/OfficeCarouselControls";
 import {
   RADII,
   CARD,
@@ -173,17 +172,7 @@ function Carousel3D({
         aria-roledescription="carousel"
         aria-label={t("badge")}
       >
-        {/* Prev button — desktop only */}
-        <button
-          type="button"
-          onClick={prev}
-          className="hidden md:flex absolute left-0 bottom-0 z-110 h-14 w-14 items-center justify-center rounded-full bg-bordeaux-900 text-white shadow-lg shadow-bordeaux-900/25 transition-all duration-300 hover:bg-bordeaux-700 hover:shadow-xl hover:shadow-bordeaux-900/35 hover:scale-110 focus-visible:outline-2 focus-visible:outline-bordeaux-900"
-          aria-label="Previous"
-        >
-          <svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true">
-            <path d="M12.5 15L7.5 10L12.5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-          </svg>
-        </button>
+        <OfficeCarouselNavButton direction="prev" onClick={prev} />
 
         {/* Single carousel: responsive layout (mobile breakout + mask, desktop normal) */}
         <div
@@ -226,17 +215,7 @@ function Carousel3D({
           </div>
         </div>
 
-        {/* Next button — desktop only */}
-        <button
-          type="button"
-          onClick={next}
-          className="hidden md:flex absolute right-0 bottom-0 z-110 h-14 w-14 items-center justify-center rounded-full bg-bordeaux-900 text-white shadow-lg shadow-bordeaux-900/25 transition-all duration-300 hover:bg-bordeaux-700 hover:shadow-xl hover:shadow-bordeaux-900/35 hover:scale-110 focus-visible:outline-2 focus-visible:outline-bordeaux-900"
-          aria-label="Next"
-        >
-          <svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true">
-            <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-          </svg>
-        </button>
+        <OfficeCarouselNavButton direction="next" onClick={next} />
 
         {/* Active slide announcement for screen readers */}
         <div className="sr-only" aria-live="polite" aria-atomic="true">
@@ -245,28 +224,17 @@ function Carousel3D({
           — {t(`${OFFICES[activeIndex].id}.country`)}
         </div>
 
-        {/* Dots */}
-        <div
-          className="flex justify-center gap-2 sm:gap-2.5 mt-4 sm:mt-6"
-          role="tablist"
-          aria-label={t("badge")}
-        >
-          {OFFICES.map((office, i) => (
-            <button
-              key={office.id}
-              type="button"
-              role="tab"
-              aria-selected={activeIndex === i}
-              aria-label={`${OFFICE_CITY_OVERRIDES[office.id] ?? t(`${office.id}.city`)} (${i + 1} / ${OFFICES.length})`}
-              className={`h-2 rounded-full transition-all duration-300 ${
-                activeIndex === i
-                  ? "bg-bordeaux-900 w-6 sm:w-7"
-                  : "bg-beige-400/50 w-2 hover:bg-beige-400"
-              }`}
-              onClick={() => goTo(i)}
-            />
-          ))}
-        </div>
+        <OfficeCarouselDots
+          offices={OFFICES}
+          activeIndex={activeIndex}
+          onSelect={goTo}
+          ariaLabel={t("badge")}
+          getCityLabel={(officeId) =>
+            OFFICE_CITY_OVERRIDES[
+              officeId as keyof typeof OFFICE_CITY_OVERRIDES
+            ] ?? t(`${officeId}.city`)
+          }
+        />
       </div>
     </FadeIn>
   );

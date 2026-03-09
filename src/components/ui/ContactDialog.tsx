@@ -1,36 +1,23 @@
 "use client";
 
 import {
-  useState,
   useEffect,
   useRef,
-  type FormEvent,
 } from "react";
 import { useDialogBehavior } from "@/hooks/useDialogBehavior";
 import { motion, AnimatePresence, useReducedMotion } from "motion/react";
 import { useTranslations } from "next-intl";
 import { CONTACT, COMPANY, LOGO_PATHS, BACKDROP_MOTION, MODAL_MOTION } from "@/lib/constants";
-import { EMAIL_REGEX } from "@/lib/utils";
 import { useFocusTrap } from "@/hooks/useFocusTrap";
 import { FormField } from "./FormField";
 import { CloseButton } from "./CloseButton";
 import { Spinner } from "./Spinner";
+import { useContactForm, type ErrorKind } from "./useContactForm";
 
 type Props = {
   open: boolean;
   onClose: () => void;
 };
-
-type FormState = "idle" | "sending" | "success" | "error";
-type ErrorKind = "network" | "timeout" | "rate_limit" | "server";
-
-type FieldErrors = {
-  name?: string;
-  email?: string;
-  subject?: string;
-  message?: string;
-};
-
 
 export function ContactDialog({ open, onClose }: Props) {
   const t = useTranslations("contact.dialog");
@@ -40,15 +27,8 @@ export function ContactDialog({ open, onClose }: Props) {
   const trapRef = useFocusTrap(open);
   const firstInputRef = useRef<HTMLInputElement>(null);
 
-  const [formState, setFormState] = useState<FormState>("idle");
-  const [errorKind, setErrorKind] = useState<ErrorKind>("server");
-  const [errors, setErrors] = useState<FieldErrors>({});
-  const [form, setForm] = useState({
-    name: "",
-    email: "",
-    subject: "",
-    message: "",
-  });
+  const { errors, errorKind, form, formState, reset, retry, setField, submit } =
+    useContactForm({ t });
 
   // Capture the element that triggered the dialog for focus restoration
   const triggerRef = useRef<Element | null>(null);
@@ -65,64 +45,10 @@ export function ContactDialog({ open, onClose }: Props) {
     }
   }, [open]);
 
-  function validate(): FieldErrors {
-    const errs: FieldErrors = {};
-    if (!form.name.trim()) errs.name = t("required");
-    if (!form.email.trim()) {
-      errs.email = t("required");
-    } else if (!EMAIL_REGEX.test(form.email)) {
-      errs.email = t("invalid_email");
-    }
-    if (!form.subject.trim()) errs.subject = t("required");
-    if (!form.message.trim()) errs.message = t("required");
-    return errs;
-  }
-
-  async function handleSubmit(e: FormEvent) {
-    e.preventDefault();
-    const errs = validate();
-    setErrors(errs);
-    if (Object.keys(errs).length > 0) return;
-
-    setFormState("sending");
-
-    const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 15_000);
-
-    try {
-      const res = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
-        signal: controller.signal,
-      });
-
-      if (!res.ok) {
-        setErrorKind(res.status === 429 ? "rate_limit" : "server");
-        setFormState("error");
-        return;
-      }
-
-      setFormState("success");
-      setForm({ name: "", email: "", subject: "", message: "" });
-    } catch (err) {
-      setErrorKind(
-        err instanceof DOMException && err.name === "AbortError"
-          ? "timeout"
-          : "network",
-      );
-      setFormState("error");
-    } finally {
-      clearTimeout(timeout);
-    }
-  }
-
   function handleClose() {
     onClose();
     setTimeout(() => {
-      setFormState("idle");
-      setErrors({});
-      setForm({ name: "", email: "", subject: "", message: "" });
+      reset();
     }, 300);
   }
 
@@ -238,9 +164,9 @@ export function ContactDialog({ open, onClose }: Props) {
                 {formState === "success" ? (
                   <SuccessView t={t} onClose={handleClose} />
                 ) : formState === "error" ? (
-                  <ErrorView t={t} errorKind={errorKind} onRetry={() => setFormState("idle")} />
+                  <ErrorView t={t} errorKind={errorKind} onRetry={retry} />
                 ) : (
-                  <form onSubmit={handleSubmit} noValidate className="space-y-5">
+                  <form onSubmit={submit} noValidate className="space-y-5">
                     {/* Name + Email row */}
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                       <FormField
@@ -250,9 +176,7 @@ export function ContactDialog({ open, onClose }: Props) {
                         value={form.name}
                         error={errors.name}
                         ref={firstInputRef}
-                        onChange={(v) =>
-                          setForm((f) => ({ ...f, name: v }))
-                        }
+                        onChange={(v) => setField("name", v)}
                       />
                       <FormField
                         id="contact-email"
@@ -261,9 +185,7 @@ export function ContactDialog({ open, onClose }: Props) {
                         placeholder={t("email_placeholder")}
                         value={form.email}
                         error={errors.email}
-                        onChange={(v) =>
-                          setForm((f) => ({ ...f, email: v }))
-                        }
+                        onChange={(v) => setField("email", v)}
                       />
                     </div>
 
@@ -273,9 +195,7 @@ export function ContactDialog({ open, onClose }: Props) {
                       placeholder={t("subject_placeholder")}
                       value={form.subject}
                       error={errors.subject}
-                      onChange={(v) =>
-                        setForm((f) => ({ ...f, subject: v }))
-                      }
+                      onChange={(v) => setField("subject", v)}
                     />
 
                     <FormField
@@ -285,9 +205,7 @@ export function ContactDialog({ open, onClose }: Props) {
                       value={form.message}
                       error={errors.message}
                       multiline
-                      onChange={(v) =>
-                        setForm((f) => ({ ...f, message: v }))
-                      }
+                      onChange={(v) => setField("message", v)}
                     />
 
                     <button

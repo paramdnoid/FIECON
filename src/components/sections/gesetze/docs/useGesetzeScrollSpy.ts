@@ -18,8 +18,6 @@ export function useGesetzeScrollSpy() {
   const [activeSection, setActiveSection] = useState<GesetzDocsSectionId>(() => getInitialSectionId());
 
   useEffect(() => {
-    // Ensure hash-based section is applied immediately on client mount.
-    setActiveSection(getInitialSectionId());
     let suppressScrollSpyUntil = 0;
     let lockToHashUntilUserInput = false;
 

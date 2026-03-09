@@ -1,22 +1,15 @@
 "use client";
 
-import { lazy, Suspense, useState } from "react";
 import { useTranslations } from "next-intl";
-import { FadeIn } from "@/components/animations/FadeIn";
-import { MagneticButton } from "@/components/animations/MagneticButton";
+import { FadeIn, MagneticButton } from "@/components/animations";
 import { Link } from "@/i18n/navigation";
+import { useContactDialog } from "@/hooks/useContactDialog";
 import { GESETZE_DOCS_LAWS } from "./gesetze-docs.config";
 import { GesetzDocArticle } from "./GesetzDocArticle";
 
-const ContactDialog = lazy(() =>
-  import("@/components/ui/ContactDialog").then((m) => ({
-    default: m.ContactDialog,
-  })),
-);
-
 export function GesetzeDocsContent() {
   const t = useTranslations("gesetze_page");
-  const [dialogOpen, setDialogOpen] = useState(false);
+  const { openDialog, dialogNode } = useContactDialog();
 
   return (
     <div>
@@ -64,7 +57,7 @@ export function GesetzeDocsContent() {
               <MagneticButton>
                 <button
                   type="button"
-                  onClick={() => setDialogOpen(true)}
+                  onClick={openDialog}
                   className="inline-flex items-center rounded-lg bg-white px-8 py-4 font-medium text-bordeaux-900 transition-colors duration-300 hover:bg-beige-50"
                 >
                   {t("cta_button")}
@@ -82,11 +75,7 @@ export function GesetzeDocsContent() {
         </FadeIn>
       </section>
 
-      {dialogOpen && (
-        <Suspense>
-          <ContactDialog open={dialogOpen} onClose={() => setDialogOpen(false)} />
-        </Suspense>
-      )}
+      {dialogNode}
     </div>
   );
 }

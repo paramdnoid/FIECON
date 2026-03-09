@@ -84,7 +84,6 @@ function getServerEnv(): ServerEnv {
     return serverSchema.parse(process.env);
   } catch (err) {
     const table = formatEnvValidationError(err);
-    // eslint-disable-next-line no-console
     console.error(table);
     throw err;
   }
@@ -107,7 +106,6 @@ if (
   env.NODE_ENV === "production" &&
   !(env.SMTP_HOST?.trim() && env.SMTP_USER?.trim() && env.SMTP_PASS && env.CONTACT_TO?.trim())
 ) {
-  // eslint-disable-next-line no-console
   console.warn(
     "[env] SMTP_HOST, SMTP_USER, SMTP_PASS or CONTACT_TO missing — contact form will be unavailable",
   );

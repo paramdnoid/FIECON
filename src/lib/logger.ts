@@ -34,13 +34,10 @@ function write(level: LogLevel, message: string, meta?: LogMeta): void {
   const out = formatEntry(level, message, meta);
   if (level === "error") {
     captureSentryError(meta);
-    // eslint-disable-next-line no-console
     console.error(out);
   } else if (level === "warn") {
-    // eslint-disable-next-line no-console
     console.warn(out);
   } else {
-    // eslint-disable-next-line no-console
     console.log(out);
   }
 }

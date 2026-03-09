@@ -2,16 +2,11 @@
 
 import { useState } from "react";
 import { useTranslations } from "next-intl";
-import { Container } from "@/components/ui/Container";
-import { SectionHeading } from "@/components/ui/SectionHeading";
-import { FadeIn } from "@/components/animations/FadeIn";
-
-import React from "react";
+import { FadeIn } from "@/components/animations";
 import { hasTranslation } from "@/lib/utils";
-import { HoverCard } from "@/components/ui/HoverCard";
-import { Badge } from "@/components/ui/Badge";
-
-
+import { Badge, Container, HoverCard, SectionHeading } from "@/components/ui";
+import { ServicesFocusAreas } from "./services/ServicesFocusAreas";
+import { SERVICE_ICONS } from "./services/service-icons";
 const STANDALONE_KEYS = [
   "consulting",
   "private_health_insurance",
@@ -25,46 +20,6 @@ const ITEMS_PER_SERVICE: Record<string, number> = {
   construction: 3,
   yacht: 2,
   private_health_insurance: 3,
-};
-
-const FOCUS_AREAS = [
-  { key: "corporate_law", itemCount: 3 },
-  { key: "transparency", itemCount: 3 },
-] as const;
-
-const SERVICE_ICONS: Record<string, React.ReactNode> = {
-  consulting: (
-    <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M12 2L2 7l10 5 10-5-10-5z" />
-      <path d="M2 17l10 5 10-5" />
-      <path d="M2 12l10 5 10-5" />
-    </svg>
-  ),
-  finance: (
-    <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-      <line x1="12" y1="1" x2="12" y2="23" />
-      <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
-    </svg>
-  ),
-  construction: (
-    <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-      <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
-      <line x1="3" y1="9" x2="21" y2="9" />
-      <line x1="9" y1="21" x2="9" y2="9" />
-    </svg>
-  ),
-  yacht: (
-    <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M3 17l3-7 5 3 5-9 3 13H3z" />
-      <path d="M3 21h18" />
-    </svg>
-  ),
-  private_health_insurance: (
-    <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
-      <polyline points="9 12 11 14 15 10" />
-    </svg>
-  ),
 };
 
 function ServiceCardContent({
@@ -233,49 +188,7 @@ export function Services() {
           {allCards}
         </div>
 
-        {/* === Focus Areas === */}
-        <FadeIn delay={0.3}>
-          <div aria-hidden="true" className="h-px bg-linear-to-r from-transparent via-beige-400/30 to-transparent mt-16 mb-14" />
-        </FadeIn>
-
-        <FadeIn delay={0.35}>
-          <p className="text-center text-sm font-medium tracking-[0.4em] uppercase text-accent mb-12">
-            {t("focus_headline")}
-          </p>
-        </FadeIn>
-
-        <div className="relative grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-20">
-          {/* Vertical divider with gradient fade — hidden on mobile via media query in style */}
-          <div aria-hidden="true" className="max-md:hidden" style={{ position: "absolute", left: "50%", top: 0, bottom: 0, width: "1px", transform: "translateX(-50%)", background: "linear-gradient(to bottom, transparent 0%, #CAAE9F 30%, #CAAE9F 70%, transparent 100%)" }} />
-
-          {FOCUS_AREAS.map((area, i) => (
-            <FadeIn key={area.key} delay={0.4 + i * 0.1}>
-              <div style={i === 0 ? { textAlign: "right" } : undefined}>
-                {/* Overline + Title */}
-                <p className="text-accent mb-2" style={{ fontSize: "0.6rem", letterSpacing: "0.2em", textTransform: "uppercase", fontWeight: 500 }}>
-                  {t(`${area.key}.lead`)}
-                </p>
-                <h4 className="font-display text-lg font-normal text-bordeaux-900 tracking-tight mb-5">
-                  {t(`${area.key}.title`)}
-                </h4>
-
-                {/* Items */}
-                <ul className="space-y-3">
-                  {Array.from({ length: area.itemCount }, (_, j) => (
-                    <li
-                      key={j}
-                      className="flex items-start gap-3 text-sm text-text-muted leading-relaxed"
-                      style={i === 0 ? { flexDirection: "row-reverse", textAlign: "right" } : undefined}
-                    >
-                      <span aria-hidden="true" className="mt-0.5 w-5 h-5 rounded-full text-white flex items-center justify-center shrink-0" style={{ fontSize: "0.55rem", fontWeight: 600, backgroundColor: "#873632" }}>0{j + 1}</span>
-                      {t(`${area.key}.items.${j}`)}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </FadeIn>
-          ))}
-        </div>
+        <ServicesFocusAreas t={t} />
       </Container>
     </section>
   );

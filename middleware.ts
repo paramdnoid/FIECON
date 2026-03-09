@@ -36,10 +36,6 @@ export default function middleware(request: NextRequest) {
   }
   const cspDirectives = directives.join("; ");
 
-  // Pass nonce to Next.js so it can inject it into <script> tags
-  const requestHeaders = new Headers(request.headers);
-  requestHeaders.set("x-nonce", nonce);
-
   // Set security headers on the response
   response.headers.set("Content-Security-Policy", cspDirectives);
   response.headers.set("x-nonce", nonce);
@@ -48,5 +44,5 @@ export default function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/((?!_next|api|team|offices|logo\\.svg|favicon|apple-touch|og-image|icon\\.svg|robots\\.txt|sitemap\\.xml|google[a-z0-9]+\\.html).*)"],
+  matcher: ["/((?!api|_next|_vercel|.*\\..*).*)"],
 };

@@ -1,18 +1,10 @@
 "use client";
 
-import { useState, lazy, Suspense } from "react";
 import { motion, useReducedMotion } from "motion/react";
-import { Container } from "@/components/ui/Container";
-import { Button } from "@/components/ui/Button";
-import { MagneticButton } from "@/components/animations/MagneticButton";
-import { FadeIn } from "@/components/animations/FadeIn";
+import { MagneticButton, FadeIn } from "@/components/animations";
+import { Container, Button } from "@/components/ui";
 import { EASE_OUT_EXPO } from "@/lib/constants";
-
-const ContactDialog = lazy(() =>
-  import("@/components/ui/ContactDialog").then((m) => ({
-    default: m.ContactDialog,
-  }))
-);
+import { useContactDialog } from "@/hooks/useContactDialog";
 
 type Props = {
   headline: string;
@@ -22,7 +14,7 @@ type Props = {
 
 export function TeamProfileCta({ headline, subline, ctaLabel }: Props) {
   const prefersReduced = useReducedMotion();
-  const [dialogOpen, setDialogOpen] = useState(false);
+  const { openDialog, dialogNode } = useContactDialog();
 
   return (
     <section className="py-32 sm:py-40 relative overflow-hidden bg-bordeaux-900">
@@ -60,7 +52,7 @@ export function TeamProfileCta({ headline, subline, ctaLabel }: Props) {
                 <Button
                   variant="inverse"
                   size="lg"
-                  onClick={() => setDialogOpen(true)}
+                  onClick={openDialog}
                 >
                   {ctaLabel}
                 </Button>
@@ -70,14 +62,7 @@ export function TeamProfileCta({ headline, subline, ctaLabel }: Props) {
         </Container>
       </motion.div>
 
-      {dialogOpen && (
-        <Suspense>
-          <ContactDialog
-            open={dialogOpen}
-            onClose={() => setDialogOpen(false)}
-          />
-        </Suspense>
-      )}
+      {dialogNode}
     </section>
   );
 }
