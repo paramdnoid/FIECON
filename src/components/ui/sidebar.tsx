@@ -98,16 +98,19 @@ function SidebarProvider({
 type SidebarProps = React.ComponentProps<"aside"> & {
   side?: "left" | "right";
   collapsible?: "offcanvas" | "icon" | "none";
+  overlayCloseLabel?: string;
 };
 
 function Sidebar({
   side = "left",
   collapsible = "offcanvas",
+  overlayCloseLabel,
   className,
   children,
   ...props
 }: SidebarProps) {
   const { isMobile, open, openMobile, setOpenMobile } = useSidebar();
+  const resolvedOverlayCloseLabel = overlayCloseLabel ?? "Close sidebar overlay";
 
   if (isMobile) {
     return (
@@ -116,7 +119,7 @@ function Sidebar({
           <>
             <button
               type="button"
-              aria-label="Close sidebar overlay"
+              aria-label={resolvedOverlayCloseLabel}
               className="fixed inset-0 z-40 bg-black/40"
               onClick={() => setOpenMobile(false)}
             />
@@ -172,18 +175,23 @@ function SidebarContent({ className, ...props }: React.ComponentProps<"div">) {
   );
 }
 
-function SidebarTrigger({ className, ...props }: React.ComponentProps<"button">) {
+type SidebarTriggerProps = React.ComponentProps<"button"> & {
+  label: string;
+};
+
+function SidebarTrigger({ className, label, ...props }: SidebarTriggerProps) {
   const { toggleSidebar } = useSidebar();
 
   return (
     <button
       type="button"
+      aria-label={label}
       onClick={toggleSidebar}
       className={`inline-flex h-9 w-9 items-center justify-center rounded-md border border-bordeaux-900/15 bg-white text-bordeaux-900 transition-colors hover:bg-beige-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent ${className ?? ""}`}
       {...props}
     >
       <span aria-hidden="true">☰</span>
-      <span className="sr-only">Sidebar umschalten</span>
+      <span className="sr-only">{label}</span>
     </button>
   );
 }
@@ -254,13 +262,17 @@ function SidebarMenuButton({
   );
 }
 
-function SidebarRail({ className, ...props }: React.ComponentProps<"button">) {
+type SidebarRailProps = React.ComponentProps<"button"> & {
+  label: string;
+};
+
+function SidebarRail({ className, label, ...props }: SidebarRailProps) {
   const { toggleSidebar } = useSidebar();
 
   return (
     <button
       type="button"
-      aria-label="Sidebar umschalten"
+      aria-label={label}
       onClick={toggleSidebar}
       className={`absolute top-1/2 -right-2 hidden h-14 w-2 -translate-y-1/2 rounded-full border border-bordeaux-900/20 bg-white/95 transition-colors hover:bg-beige-50 lg:block ${className ?? ""}`}
       {...props}

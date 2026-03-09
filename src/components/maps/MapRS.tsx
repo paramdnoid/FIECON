@@ -6,8 +6,7 @@ export function MapRS({ className = "w-full h-full", dotClassName = "fill-curren
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 724.531 1036.962"
       className={className}
-      role="img"
-      aria-label="Serbien Karte"
+      aria-hidden="true"
       overflow="visible"
     >
       <path fillRule="evenodd" clipRule="evenodd" fill="currentColor" d="M266.575,781.008c-0.196-0.394-0.099-0.956-0.194-1.367

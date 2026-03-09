@@ -49,7 +49,7 @@ export function LanguageSwitcher() {
         aria-haspopup="dialog"
       >
         {CurrentFlag && (
-          <CurrentFlag className="w-5 h-3.5 rounded-[2px] overflow-hidden" />
+          <CurrentFlag className="w-5 h-3.5 rounded-xs overflow-hidden" />
         )}
         <span className="uppercase tracking-wide text-xs">
           {currentLocale.code.split("-")[0]}
@@ -76,7 +76,7 @@ export function LanguageSwitcher() {
             {open && (
               <div
                 ref={trapRef}
-                className="fixed inset-0 z-[60] flex items-center justify-center p-4 sm:p-6"
+                className="fixed inset-0 z-60 flex items-center justify-center p-4 sm:p-6"
               >
                 {/* Backdrop */}
                 <motion.div
@@ -139,7 +139,7 @@ export function LanguageSwitcher() {
                           }`}
                         >
                           {Flag && (
-                            <Flag className="w-6 h-4 rounded-[2px] overflow-hidden shrink-0" />
+                            <Flag className="w-6 h-4 rounded-xs overflow-hidden shrink-0" />
                           )}
                           <span className="text-sm font-medium truncate">
                             {loc.nativeName}

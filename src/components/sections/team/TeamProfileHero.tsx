@@ -12,6 +12,7 @@ type Props = {
   imageSrc: string;
   imageAlt: string;
   breadcrumbs: { label: string; href?: string }[];
+  breadcrumbAriaLabel?: string;
 };
 
 export function TeamProfileHero({
@@ -21,6 +22,7 @@ export function TeamProfileHero({
   imageSrc,
   imageAlt,
   breadcrumbs,
+  breadcrumbAriaLabel,
 }: Props) {
   const prefersReduced = useReducedMotion();
 
@@ -88,7 +90,7 @@ export function TeamProfileHero({
         {/* Breadcrumb */}
         <motion.nav
           {...fadeUp(0.1)}
-          aria-label="Breadcrumb"
+          aria-label={breadcrumbAriaLabel ?? breadcrumbs.map((crumb) => crumb.label).join(" / ")}
           className="mb-12 sm:mb-16"
         >
           <ol className="flex items-center gap-2 text-sm text-text-muted">
