@@ -13,37 +13,55 @@ type Props = {
 export function GesetzeDetail({ lawKey, index }: Props) {
   const t = useTranslations("gesetze_page");
   const decorativeNumber = String(index + 1).padStart(2, "0");
+  const isEvenSection = index % 2 === 0;
+  const provisionKeys: string[] = [];
+
+  for (let i = 0; ; i += 1) {
+    const key = `${lawKey}_provision_${i}`;
+
+    if (!t.has(key)) {
+      break;
+    }
+
+    provisionKeys.push(key);
+  }
 
   return (
     <section
-      className={`py-12 sm:py-16 lg:py-20 relative overflow-hidden ${
-        index % 2 === 0 ? "bg-beige-50" : "bg-white"
+      className={`relative overflow-hidden py-16 sm:py-20 lg:py-28 ${
+        isEvenSection ? "bg-beige-50" : "bg-white"
       }`}
     >
+      <div
+        aria-hidden="true"
+        className="absolute inset-x-0 top-0 h-px bg-linear-to-r from-transparent via-beige-400/30 to-transparent"
+      />
+
       {/* Decorative number watermark — anchored to right edge, vertically centred */}
       <span
         aria-hidden="true"
-        className="absolute -right-6 top-1/2 -translate-y-1/2 font-display text-[18rem] font-bold text-bordeaux-900 opacity-[0.04] select-none pointer-events-none leading-none"
+        className="pointer-events-none absolute -right-6 top-1/2 hidden -translate-y-1/2 select-none font-display text-[14rem] font-semibold leading-none text-bordeaux-900 lg:block lg:text-[16rem] xl:text-[18rem]"
+        style={{ opacity: 0.02 }}
       >
         {decorativeNumber}
       </span>
 
       <Container size="lg">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20">
+        <div className="grid grid-cols-1 gap-14 lg:grid-cols-12 lg:gap-18 xl:gap-22">
 
           {/* Left col (5 spans): identity + provisions */}
-          <div className="lg:col-span-5">
+          <div className="lg:col-span-5 lg:sticky lg:top-32 lg:self-start">
             <FadeIn>
               {/* Icon circle + abbreviation + full name */}
-              <div className="flex items-center gap-4 mb-6">
-                <div className="w-14 h-14 rounded-full bg-bordeaux-900/5 ring-1 ring-bordeaux-900/[0.06] flex items-center justify-center text-accent shrink-0">
+              <div className="mb-7 flex items-center gap-4 sm:mb-8">
+                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-bordeaux-900/5 text-accent ring-1 ring-bordeaux-900/8">
                   {LAW_ICONS[lawKey]}
                 </div>
                 <div>
-                  <p className="font-display italic text-2xl font-normal text-text-primary leading-tight">
+                  <p className="font-display text-3xl font-normal italic leading-tight text-text-primary sm:text-[2rem]">
                     {t(`${lawKey}_abbreviation`)}
                   </p>
-                  <p className="text-sm font-medium text-accent/80 tracking-wide">
+                  <p className="text-xs font-semibold uppercase tracking-[0.14em] text-accent/80 sm:text-sm">
                     {t(`${lawKey}_name`)}
                   </p>
                 </div>
@@ -52,21 +70,24 @@ export function GesetzeDetail({ lawKey, index }: Props) {
               {/* Gradient divider */}
               <div
                 aria-hidden="true"
-                className="h-px bg-gradient-to-r from-bordeaux-900/20 via-bordeaux-700/15 to-transparent mb-8"
+                className="mb-8 h-px bg-linear-to-r from-bordeaux-900/20 via-bordeaux-700/15 to-transparent sm:mb-9"
               />
 
               {/* Provisions headline */}
-              <h3 className="font-display text-xl font-semibold text-text-primary mb-6">
+              <h3 className="mb-6 font-display text-[1.35rem] font-semibold text-text-primary sm:mb-7">
                 {t(`${lawKey}_provisions_headline`)}
               </h3>
 
               {/* Provisions list */}
-              <ul className="space-y-4">
-                {([0, 1, 2, 3] as const).map((i) => (
-                  <li key={i} className="flex gap-3">
-                    <span className="font-display text-accent shrink-0 mt-0.5">§</span>
-                    <span className="text-text-muted leading-relaxed text-sm">
-                      {t(`${lawKey}_provision_${i}`)}
+              <ul className="divide-y divide-bordeaux-900/8 border-y border-bordeaux-900/10">
+                {provisionKeys.map((key) => (
+                  <li
+                    key={key}
+                    className="grid grid-cols-[1.25rem,1fr] items-start gap-3 py-4"
+                  >
+                    <span className="mt-0.5 font-display text-accent/85">§</span>
+                    <span className="text-sm leading-7 text-text-secondary">
+                      {t(key)}
                     </span>
                   </li>
                 ))}
@@ -75,19 +96,28 @@ export function GesetzeDetail({ lawKey, index }: Props) {
           </div>
 
           {/* Right col (7 spans): intro + detail + consulting box */}
-          <div className="lg:col-span-7 lg:pt-2">
+          <div className="lg:col-span-7 lg:pt-4">
             <FadeIn delay={0.15}>
-              <p className="text-text-muted leading-relaxed text-lg mb-5">
+              <p className="mb-5 max-w-[66ch] font-display text-[1.375rem] leading-[1.4] text-text-primary sm:text-[1.625rem]">
                 {t(`${lawKey}_intro`)}
               </p>
-              <p className="text-text-muted leading-relaxed mb-10">
+              <p className="mb-10 max-w-[68ch] text-[0.98rem] leading-8 text-text-muted sm:mb-12">
                 {t(`${lawKey}_detail`)}
               </p>
 
+              <div
+                aria-hidden="true"
+                className="mb-7 h-px bg-linear-to-r from-bordeaux-900/15 via-beige-400/35 to-transparent sm:mb-8"
+              />
+
               {/* Consulting box — gradient border frame (mirrors About.tsx quote cards) */}
-              <div className="rounded-2xl p-px bg-linear-to-r from-beige-400/30 via-bordeaux-500/20 to-beige-400/30 shadow-[0_4px_24px_-8px_rgba(98,25,28,0.06)]">
-                <div className={`rounded-2xl px-6 py-5 sm:px-8 sm:py-6 ${index % 2 === 0 ? "bg-white" : "bg-beige-50"}`}>
-                  <p className="text-xs font-semibold tracking-[0.2em] uppercase text-accent mb-3">
+              <div className="rounded-xl border border-bordeaux-900/12 bg-transparent shadow-sm">
+                <div
+                  className={`rounded-xl border-l-2 border-bordeaux-700/35 px-6 py-5 sm:px-8 sm:py-6 ${
+                    isEvenSection ? "bg-white" : "bg-beige-50/50"
+                  }`}
+                >
+                  <p className="mb-3 text-xs font-medium uppercase tracking-[0.16em] text-text-secondary">
                     {t(`${lawKey}_consulting_headline`)}
                   </p>
                   <p className="text-text-muted leading-relaxed">
