@@ -25,7 +25,7 @@ RSYNC_EXCLUDES=(
   --exclude "*.tsbuildinfo"
   --exclude ".DS_Store"
   --exclude "plugins"
-  --exclude "docs"
+  --exclude "/docs"
   --exclude "scripts"
   --exclude "src/tests"
   --exclude ".github"
