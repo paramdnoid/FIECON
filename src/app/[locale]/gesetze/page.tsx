@@ -38,9 +38,7 @@ export default async function GesetzePage({
     <>
       <GesetzeHero />
       <GesetzeDetail lawKey="kwg" index={0} />
-
       <GesetzeDetail lawKey="vag" index={1} />
-
       <GesetzeDetail lawKey="estg" index={2} />
       <SectionDivider variant="diamond" />
       <GesetzeCtaSection />
