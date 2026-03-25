@@ -38,7 +38,7 @@ export function Gesetze() {
         </FadeIn>
 
         {/* Gradient divider */}
-        <div aria-hidden="true" className="h-px bg-gradient-to-r from-transparent via-beige-400/30 to-transparent mb-12" />
+        <div aria-hidden="true" className="h-px bg-linear-to-r from-transparent via-beige-400/30 to-transparent mb-12" />
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 items-stretch">
           {LAWS.map((law, index) => (
@@ -47,11 +47,11 @@ export function Gesetze() {
               delay={0.1 + index * 0.15}
               className="h-full"
             >
-              <div className="group relative flex h-full flex-col bg-white rounded-2xl border border-beige-200/60 overflow-hidden transition-all duration-400 hover:shadow-lg hover:shadow-bordeaux-900/8 hover:border-beige-400/50 focus-within:shadow-lg focus-within:shadow-bordeaux-900/8 focus-within:border-beige-400/50">
+              <div className="group fiecon-card-frame relative flex h-full flex-col rounded-2xl overflow-hidden transition-all duration-400 hover:-translate-y-0.5 hover:shadow-[0_16px_38px_-26px_rgba(98,25,28,0.7)] hover:border-beige-400/70 focus-within:-translate-y-0.5 focus-within:shadow-[0_16px_38px_-26px_rgba(98,25,28,0.7)] focus-within:border-beige-400/70">
                 {/* Always-visible subtle top accent */}
                 <div aria-hidden="true" className="absolute inset-0 overflow-hidden rounded-2xl pointer-events-none">
-                  <div className="absolute top-0 inset-x-0 h-[2px] bg-gradient-to-r from-bordeaux-900/20 via-bordeaux-700/15 to-beige-400/20 transition-opacity duration-500" />
-                  <div className="absolute top-0 inset-x-0 h-[3px] bg-gradient-to-r from-bordeaux-900 via-bordeaux-700 to-beige-400 origin-left scale-x-0 group-hover:scale-x-100 group-focus-within:scale-x-100 transition-transform duration-500" />
+                  <div className="absolute top-0 inset-x-0 h-[2px] bg-linear-to-r from-bordeaux-900/20 via-bordeaux-700/15 to-beige-400/20 transition-opacity duration-500" />
+                  <div className="absolute top-0 inset-x-0 h-[3px] bg-linear-to-r from-bordeaux-900 via-bordeaux-700 to-beige-400 origin-left scale-x-0 group-hover:scale-x-100 group-focus-within:scale-x-100 transition-transform duration-500" />
                 </div>
 
                 <div className="p-6 sm:p-8 flex flex-col items-center h-full text-center">
@@ -61,7 +61,7 @@ export function Gesetze() {
                   </span>
 
                   {/* Icon circle */}
-                  <div className="w-14 h-14 rounded-full bg-bordeaux-900/5 ring-1 ring-bordeaux-900/[0.06] group-hover:bg-bordeaux-900/10 group-hover:ring-bordeaux-900/10 flex items-center justify-center mb-5 text-accent transition-all duration-400">
+                  <div className="w-14 h-14 rounded-full bg-bordeaux-900/5 ring-1 ring-bordeaux-900/6 group-hover:bg-bordeaux-900/10 group-hover:ring-bordeaux-900/10 flex items-center justify-center mb-5 text-accent transition-all duration-400">
                     {LAW_ICONS[law.key]}
                   </div>
 

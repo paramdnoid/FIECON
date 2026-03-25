@@ -2,10 +2,10 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { useScrollProgress } from "@/hooks/useScrollProgress";
 import { useActiveSection } from "@/hooks/useActiveSection";
-import { COMPANY, NAV_LINKS } from "@/lib/constants";
+import { COMPANY, getNavLinks } from "@/lib/constants";
 import { scrollToSection } from "@/lib/utils";
 import { Container } from "@/components/ui/Container";
 import { ScrollProgress } from "@/components/animations/ScrollProgress";
@@ -17,6 +17,8 @@ export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const scrolled = useScrollProgress();
   const activeSection = useActiveSection();
+  const locale = useLocale();
+  const navLinks = getNavLinks(locale);
   const t = useTranslations("nav");
 
   return (
@@ -51,7 +53,7 @@ export function Header() {
 
             {/* Desktop Navigation */}
             <nav className="hidden lg:flex items-center gap-8">
-              {NAV_LINKS.map((link) => {
+              {navLinks.map((link) => {
                 const isActive = activeSection === link.href;
                 return (
                   <Link

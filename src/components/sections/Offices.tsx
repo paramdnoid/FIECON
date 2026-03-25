@@ -35,7 +35,7 @@ function OfficeCardContent({
   const city = OFFICE_CITY_OVERRIDES[office.id] ?? t(`${office.id}.city`);
 
   return (
-    <div className="h-full group relative overflow-hidden rounded-2xl bg-bordeaux-900 text-white">
+    <div className="fiecon-card-frame-dark h-full group relative overflow-hidden rounded-2xl text-white">
       <div className="p-5 sm:p-6 lg:p-8">
         {MapComponent && (
           <div className="absolute inset-y-4 right-4 sm:inset-y-6 sm:right-6 flex items-center select-none pointer-events-none max-w-[50%]">

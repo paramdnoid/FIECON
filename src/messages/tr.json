@@ -19,7 +19,8 @@
     "navigation": "Navigasyon",
     "close_menu": "Menüyü kapat",
     "skip_to_content": "İçeriğe atla",
-    "gesetze": "Mevzuat"
+    "gesetze": "Mevzuat",
+    "four_point_plan": "Dort adimli plan"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -416,5 +417,111 @@
     "vag_provision_4": "§ 311 VAG — Specific rules for private health insurance: Provisions on actuarial calculation, premium adjustments and long-term financing through ageing reserves.",
     "estg_provision_4": "§ 22 EStG — Other income: Taxation in particular of recurring payments such as pensions, as well as certain other income outside the classic income categories.",
     "estg_provision_5": "§ 23 EStG — Private disposal transactions: Tax treatment of gains from the disposal of private assets within the statutory holding periods."
+  },
+  "fourPointPlan": {
+    "badge": "Dort adimli plan",
+    "headline": "Finansal bagimsizlik icin dort adimli planimiz",
+    "subtitle": "Operasyonel uygulama ve uzun vadeli varlik guvencesi iceren yapilandirilmis butunsel strateji.",
+    "intro": "Plan klasik girisimci mantigini izler: yapiyi kurmak, vergileri optimize etmek, maliyetleri dusurmek ve uzun vadede vergi acisindan etkin varlik olusturmak. Belirleyici olan yalnizca strateji degil, gunluk isleyiste disiplinli uygulamadir.",
+    "cta_details": "Detayli plani goruntule",
+    "detail": {
+      "meta_title": "Finansal bagimsizlik icin dort adimli plan",
+      "meta_description": "FIECON dort adimli planinin ayrintili sunumu: strateji ve organizasyon, vergi optimizasyonu, finansal rahatlama ve uzun vadeli varlik birikimi.",
+      "headline": "Dort adimli planin detayi",
+      "subtitle": "Tum onlemlerin, alt alanlarin ve uygulama onceliklerinin kapsamli acilimi.",
+      "navigation_label": "Etkilesimli navigasyon",
+      "focus_label": "Aktif odak",
+      "subpoints_label": "Alt alanlar",
+      "items_label": "Onlemler",
+      "cta_panel_title": "Stratejiden uygulamaya",
+      "cta_panel_text": "Yalnizca strateji tasarlamiyor, her bir onlemin operasyonel hayata gecirilmesini de aktif olarak destekliyoruz.",
+      "cta_contact": "Strateji gorusmesi planla",
+      "cta_back_home": "Ana sayfaya don"
+    },
+    "points": {
+      "strategy": {
+        "title": "Strateji ve organizasyon",
+        "teaser": "Hedef yapinin net tanimi ve operasyonel olarak verimli uygulama.",
+        "description": "Gunluk faaliyetlerin net sorumluluklar ve saglam bir yapiyla yurutulmesi.",
+        "subpoints": {
+          "1_1": {
+            "title": "1.1 Is hedef yapisinin net tanimi",
+            "items": {
+              "0": "Sirket formunun ve ortaklik yapisinin belirlenmesi",
+              "1": "Mevcut is modellerinin genisletilmesi",
+              "2": "Operasyonel faaliyet ile varlik yonetiminin ayrilmasi",
+              "3": "Hukuken guvenli bir organizasyon yapisinin kurulmasi"
+            }
+          },
+          "1_2": {
+            "title": "1.2 Gunluk operasyonun verimli organizasyonu",
+            "items": {
+              "0": "Sureclerin standartlastirilmasi",
+              "1": "Operasyonel gorevlerin devredilmesi",
+              "2": "Dis hizmet saglayicilarin kullanimi (vergi danismani, muhasebe, yonetim)"
+            }
+          }
+        }
+      },
+      "tax": {
+        "title": "Vergi optimizasyonu",
+        "teaser": "Sirket ve kar yapisini vergi acisindan hassas bicimde kurgulamak.",
+        "description": "Likiditeyi koruyan ve buyumeyi destekleyen mevzuata uygun vergi mimarisi.",
+        "subpoints": {
+          "2_1": {
+            "title": "2.1 Dogru sirket yapisinin secimi",
+            "items": {
+              "0": "Sermaye sirketi ile ortaklik yapilarinin kombinasyonu",
+              "1": "Holding yapilarinin kullanimi",
+              "2": "Ozel varlik ile isletme varliginin ayrilmasi"
+            }
+          },
+          "2_2": {
+            "title": "2.2 Kar aktarimi ve yapilandirma",
+            "items": {
+              "0": "Isletme giderlerinin kullanimi",
+              "1": "Yonetici ucreti ve kar dagitiminin yapilandirilmasi",
+              "2": "Vergi istisnalarinin kullanimi"
+            }
+          },
+          "2_3": {
+            "title": "2.3 Isletme varligi icinde varlik birikimi",
+            "items": {
+              "0": "Yatirimlarin sirket uzerinden yapilmasi"
+            }
+          }
+        }
+      },
+      "relief": {
+        "title": "Finansal rahatlama",
+        "teaser": "Ozellikle PKV alaninda duzenli maliyetleri hedefli bicimde azaltmak.",
+        "description": "Duzenli maliyetlerin hedefli sekilde azaltilmasi, ozellikle ozel saglik sigortasi alaninda.",
+        "subpoints": {
+          "3_1": {
+            "title": "3.1 Mevcut maliyet yapisinin analizi",
+            "items": {
+              "0": "Saglik sigortasi",
+              "1": "Emeklilik birikimi",
+              "2": "Devam eden ozel yukumlulukler"
+            }
+          }
+        }
+      },
+      "pension": {
+        "title": "Vergiden muaf emeklilik varligi",
+        "teaser": "Yasal elde tutma sureleri dogrultusunda uzun vadeli vergiden muaf varlik birikimi.",
+        "description": "Yasal elde tutma sureleri, uzun vadeli planlama ve hukuki guvence odaginda vergiden muaf emeklilik varligi olusturma.",
+        "subpoints": {
+          "4_1": {
+            "title": "4.1 Vergiden muaf varlik birikiminin temel ilkesi",
+            "items": {
+              "0": "Uzun vadeli elde tutma perspektifiyle yatirim",
+              "1": "Yasal vergi muafiyetlerinin kullanimi",
+              "2": "En az 10 yillik planlama"
+            }
+          }
+        }
+      }
+    }
   }
 }

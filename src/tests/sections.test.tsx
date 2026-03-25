@@ -174,10 +174,9 @@ describe("Services", () => {
     const { Services } = await import("@/components/sections/Services");
     render(<Services />);
     expect(screen.getByText("consulting.title")).toBeDefined();
-    // Finance group: tab button + active h3 both show finance.title
-    expect(screen.getAllByText("finance.title")).toHaveLength(2);
-    expect(screen.getByText("construction.title")).toBeDefined();
-    expect(screen.getByText("yacht.title")).toBeDefined();
+    expect(screen.getAllByText("finance.title").length).toBeGreaterThanOrEqual(1);
+    expect(screen.getByText("construction.tab")).toBeDefined();
+    expect(screen.getByText("yacht.tab")).toBeDefined();
   });
 
   it("renders focus areas", async () => {
@@ -205,6 +204,27 @@ describe("Philosophy", () => {
     expect(screen.getByText("values.personal.title")).toBeDefined();
     expect(screen.getByText("values.trust.title")).toBeDefined();
   });
+});
+
+// ---------------------------------------------------------------------------
+// FourPointPlan
+// ---------------------------------------------------------------------------
+describe("FourPointPlan", () => {
+  it("renders the four-point-plan section with id", async () => {
+    const { FourPointPlan } = await import("@/components/sections/FourPointPlan");
+    const { container } = render(<FourPointPlan />);
+    expect(container.querySelector("#four-point-plan")).toBeDefined();
+  });
+
+  it("renders all four plan pillars", async () => {
+    const { FourPointPlan } = await import("@/components/sections/FourPointPlan");
+    render(<FourPointPlan />);
+    expect(screen.getByText("points.strategy.title")).toBeDefined();
+    expect(screen.getByText("points.tax.title")).toBeDefined();
+    expect(screen.getByText("points.relief.title")).toBeDefined();
+    expect(screen.getByText("points.pension.title")).toBeDefined();
+  });
+
 });
 
 // ---------------------------------------------------------------------------

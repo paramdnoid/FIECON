@@ -13,6 +13,7 @@
     "menu": "Menü öffnen",
     "about": "Über uns",
     "services": "Leistungen",
+    "four_point_plan": "Vier-Punkte-Plan",
     "approach": "Ansatz",
     "offices": "Standorte",
     "contact": "Kontakt",
@@ -147,6 +148,112 @@
       "trust": {
         "title": "Partnerschaft auf Augenhöhe",
         "description": "Wir denken langfristig. Transparenz, Integrität und messbare Ergebnisse sind für uns nicht nur Werte — sie sind Versprechen."
+      }
+    }
+  },
+  "fourPointPlan": {
+    "badge": "Vier-Punkte-Plan",
+    "headline": "Unser Vier-Punkte-Plan zur finanziellen Unabhängigkeit",
+    "subtitle": "Strukturierte Gesamtstrategie mit operativer Umsetzung und langfristiger Vermögenssicherung.",
+    "intro": "Der Plan folgt der klassischen unternehmerischen Logik: Struktur aufbauen, Steuern optimieren, Kosten senken und Vermögen langfristig steuerfrei aufbauen. Entscheidend ist nicht nur die Strategie, sondern die saubere Umsetzung im Tagesgeschäft.",
+    "cta_details": "Detaillierten Plan ansehen",
+    "detail": {
+      "meta_title": "Vier-Punkte-Plan zur finanziellen Unabhängigkeit",
+      "meta_description": "Detaillierte Darstellung des FIECON Vier-Punkte-Plans: Strategie und Organisation, steuerliche Optimierung, finanzielle Entlastung und steuerfreier Vermögensaufbau.",
+      "headline": "Vier-Punkte-Plan im Detail",
+      "subtitle": "Detaillierte Ausarbeitung aller Maßnahmen, Teilbereiche und operativen Umsetzungsschritte.",
+      "navigation_label": "Interaktive Navigation",
+      "focus_label": "Aktiver Schwerpunkt",
+      "subpoints_label": "Teilbereiche",
+      "items_label": "Maßnahmen",
+      "cta_panel_title": "Vom Plan zur Umsetzung",
+      "cta_panel_text": "Wir begleiten Sie nicht nur bei der Strategie, sondern bei der operativen Implementierung jeder einzelnen Maßnahme.",
+      "cta_contact": "Strategiegespräch vereinbaren",
+      "cta_back_home": "Zur Startseite"
+    },
+    "points": {
+      "strategy": {
+        "title": "Strategie und Organisation",
+        "teaser": "Klare Zielstruktur und effiziente Umsetzung im Tagesgeschäft.",
+        "description": "Umsetzung des Tagesgeschäfts mit klaren Verantwortlichkeiten und belastbarer Struktur.",
+        "subpoints": {
+          "1_1": {
+            "title": "1.1 Klare Definition der geschäftlichen Zielstruktur",
+            "items": {
+              "0": "Festlegung der Unternehmensform(en) und Beteiligungsstruktur",
+              "1": "Erweiterung bestehender Geschäftsmodelle",
+              "2": "Trennung von operativem Geschäft und Vermögensverwaltung",
+              "3": "Aufbau einer rechtssicheren Organisationsstruktur"
+            }
+          },
+          "1_2": {
+            "title": "1.2 Effiziente Organisation des Tagesgeschäfts",
+            "items": {
+              "0": "Standardisierung von Abläufen",
+              "1": "Delegation operativer Tätigkeiten",
+              "2": "Nutzung externer Dienstleister (Steuerberater, Buchhaltung, Verwaltung)"
+            }
+          }
+        }
+      },
+      "tax": {
+        "title": "Steuerliche Optimierung",
+        "teaser": "Gesellschafts- und Gewinnstruktur steuerlich präzise ausrichten.",
+        "description": "Rechtskonforme Steuerstruktur, die Liquidität sichert und Wachstum fördert.",
+        "subpoints": {
+          "2_1": {
+            "title": "2.1 Wahl der richtigen Gesellschaftsstruktur",
+            "items": {
+              "0": "Kombination aus Kapitalgesellschaft und Personengesellschaft",
+              "1": "Nutzung von Holding-Strukturen",
+              "2": "Trennung von Privatvermögen und Betriebsvermögen"
+            }
+          },
+          "2_2": {
+            "title": "2.2 Gewinnverlagerung und Gestaltung",
+            "items": {
+              "0": "Nutzung von Betriebsausgaben",
+              "1": "Gestaltung von Geschäftsführergehalt und Gewinnausschüttung",
+              "2": "Nutzung steuerlicher Freibeträge"
+            }
+          },
+          "2_3": {
+            "title": "2.3 Vermögensaufbau im Betriebsvermögen",
+            "items": {
+              "0": "Investitionen über die Gesellschaft"
+            }
+          }
+        }
+      },
+      "relief": {
+        "title": "Finanzielle Entlastung",
+        "teaser": "Laufende Kosten gezielt reduzieren, insbesondere im PKV-Bereich.",
+        "description": "Gezielte Entlastung der laufenden Kosten, insbesondere im Bereich der PKV.",
+        "subpoints": {
+          "3_1": {
+            "title": "3.1 Analyse der bestehenden Kostenstruktur",
+            "items": {
+              "0": "Krankenversicherung",
+              "1": "Altersvorsorge",
+              "2": "Laufende private Verpflichtungen"
+            }
+          }
+        }
+      },
+      "pension": {
+        "title": "Steuerfreie Rente",
+        "teaser": "Langfristiger Aufbau steuerfreien Vermögens unter Berücksichtigung der gesetzlichen Haltedauer.",
+        "description": "Aufbau der steuerfreien Rente mit Fokus auf gesetzliche Haltedauer, langfristige Planung und rechtssicheren Vermögensaufbau.",
+        "subpoints": {
+          "4_1": {
+            "title": "4.1 Grundprinzip des steuerfreien Vermögensaufbaus",
+            "items": {
+              "0": "Investition mit langfristiger Haltedauer",
+              "1": "Nutzung gesetzlicher Steuerbefreiungen",
+              "2": "Planung über mindestens 10+ Jahre"
+            }
+          }
+        }
       }
     }
   },

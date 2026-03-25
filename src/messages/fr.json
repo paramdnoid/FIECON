@@ -19,7 +19,8 @@
     "navigation": "Navigation",
     "close_menu": "Fermer le menu",
     "skip_to_content": "Aller au contenu",
-    "gesetze": "Législation"
+    "gesetze": "Législation",
+    "four_point_plan": "Plan en quatre points"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -416,5 +417,111 @@
     "vag_provision_4": "§ 311 VAG — Specific rules for private health insurance: Provisions on actuarial calculation, premium adjustments and long-term financing through ageing reserves.",
     "estg_provision_4": "§ 22 EStG — Other income: Taxation in particular of recurring payments such as pensions, as well as certain other income outside the classic income categories.",
     "estg_provision_5": "§ 23 EStG — Private disposal transactions: Tax treatment of gains from the disposal of private assets within the statutory holding periods."
+  },
+  "fourPointPlan": {
+    "badge": "Plan en quatre points",
+    "headline": "Notre plan en quatre points vers l'independance financiere",
+    "subtitle": "Une strategie globale structuree avec execution operationnelle et securisation patrimoniale a long terme.",
+    "intro": "Le plan suit une logique entrepreneuriale classique: structurer, optimiser la fiscalite, reduire les charges et constituer un patrimoine durablement exonere d'impot. La strategie seule ne suffit pas; l'execution rigoureuse au quotidien est decisive.",
+    "cta_details": "Voir le plan detaille",
+    "detail": {
+      "meta_title": "Plan en quatre points pour l'independance financiere",
+      "meta_description": "Presentation detaillee du plan FIECON en quatre points: strategie et organisation, optimisation fiscale, allegement financier et constitution patrimoniale fiscalement avantageuse.",
+      "headline": "Plan en quatre points en detail",
+      "subtitle": "Developpement detaille des mesures, des sous-domaines et des priorites d'execution.",
+      "navigation_label": "Navigation interactive",
+      "focus_label": "Priorite active",
+      "subpoints_label": "Sous-domaines",
+      "items_label": "Mesures",
+      "cta_panel_title": "De la strategie a l'execution",
+      "cta_panel_text": "Nous ne definissons pas seulement la strategie, nous accompagnons aussi la mise en oeuvre operationnelle de chaque mesure.",
+      "cta_contact": "Prendre rendez-vous strategique",
+      "cta_back_home": "Retour a l'accueil"
+    },
+    "points": {
+      "strategy": {
+        "title": "Strategie et organisation",
+        "teaser": "Structurer clairement les objectifs et executer efficacement au quotidien.",
+        "description": "Execution du quotidien sur la base de responsabilites claires et d'une structure robuste.",
+        "subpoints": {
+          "1_1": {
+            "title": "1.1 Definition claire de la structure cible de l'activite",
+            "items": {
+              "0": "Definition de la ou des formes societaires et de la structure de participation",
+              "1": "Extension des modeles economiques existants",
+              "2": "Separation de l'activite operationnelle et de la gestion patrimoniale",
+              "3": "Mise en place d'une organisation juridiquement securisee"
+            }
+          },
+          "1_2": {
+            "title": "1.2 Organisation efficace de l'activite quotidienne",
+            "items": {
+              "0": "Standardisation des processus",
+              "1": "Delegation des activites operationnelles",
+              "2": "Recours a des prestataires externes (conseil fiscal, comptabilite, administration)"
+            }
+          }
+        }
+      },
+      "tax": {
+        "title": "Optimisation fiscale",
+        "teaser": "Aligner finement la structure societaire et la structure de resultat.",
+        "description": "Architecture fiscale conforme qui protege la liquidite et soutient la croissance.",
+        "subpoints": {
+          "2_1": {
+            "title": "2.1 Choix de la bonne structure societaire",
+            "items": {
+              "0": "Combinaison de societes de capitaux et de societes de personnes",
+              "1": "Utilisation de structures holding",
+              "2": "Separation du patrimoine prive et du patrimoine professionnel"
+            }
+          },
+          "2_2": {
+            "title": "2.2 Repartition et structuration du resultat",
+            "items": {
+              "0": "Utilisation des charges d'exploitation",
+              "1": "Structuration de la remuneration de direction et des distributions de benefices",
+              "2": "Utilisation des abattements fiscaux"
+            }
+          },
+          "2_3": {
+            "title": "2.3 Constitution patrimoniale dans l'actif professionnel",
+            "items": {
+              "0": "Investissements realises via la societe"
+            }
+          }
+        }
+      },
+      "relief": {
+        "title": "Allegement financier",
+        "teaser": "Reduire de facon ciblee les charges courantes, en particulier en assurance maladie privee.",
+        "description": "Reduction ciblee des charges recurrentes, en particulier dans le domaine de l'assurance maladie privee.",
+        "subpoints": {
+          "3_1": {
+            "title": "3.1 Analyse de la structure de couts existante",
+            "items": {
+              "0": "Assurance maladie",
+              "1": "Prevoyance retraite",
+              "2": "Engagements prives recurrents"
+            }
+          }
+        }
+      },
+      "pension": {
+        "title": "Retraite fiscalement exoneree",
+        "teaser": "Constitution patrimoniale exoneree d'impot sur le long terme, en respectant les durees legales de detention.",
+        "description": "Construction de la retraite fiscalement exoneree en tenant compte de la duree legale de detention, de la planification long terme et de la securite juridique.",
+        "subpoints": {
+          "4_1": {
+            "title": "4.1 Principe fondamental de la constitution patrimoniale exoneree d'impot",
+            "items": {
+              "0": "Investissement avec horizon de detention long terme",
+              "1": "Utilisation des exonérations fiscales prevues par la loi",
+              "2": "Planification sur au moins 10 ans"
+            }
+          }
+        }
+      }
+    }
   }
 }

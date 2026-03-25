@@ -19,7 +19,8 @@
     "navigation": "Navigation",
     "close_menu": "Luk menu",
     "skip_to_content": "Spring til indhold",
-    "gesetze": "Lovgivning"
+    "gesetze": "Lovgivning",
+    "four_point_plan": "Firepunktsplan"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -416,5 +417,111 @@
     "vag_provision_4": "§ 311 VAG — Specific rules for private health insurance: Provisions on actuarial calculation, premium adjustments and long-term financing through ageing reserves.",
     "estg_provision_4": "§ 22 EStG — Other income: Taxation in particular of recurring payments such as pensions, as well as certain other income outside the classic income categories.",
     "estg_provision_5": "§ 23 EStG — Private disposal transactions: Tax treatment of gains from the disposal of private assets within the statutory holding periods."
+  },
+  "fourPointPlan": {
+    "badge": "Firepunktsplan",
+    "headline": "Vores firepunktsplan for finansiel uafhængighed",
+    "subtitle": "Struktureret helhedsstrategi med operationel implementering og langsigtet formuesikring.",
+    "intro": "Planen følger klassisk forretningslogik: opbygge struktur, optimere skat, reducere omkostninger og opbygge skatteeffektiv formue på lang sigt. Det afgørende er ikke kun strategien, men den disciplineret gennemførelse i den daglige drift.",
+    "cta_details": "Se detaljeret plan",
+    "detail": {
+      "meta_title": "Firepunktsplan for finansiel uafhængighed",
+      "meta_description": "Detaljeret fremstilling af FIECONs firepunktsplan: strategi og organisation, skatteoptimering, finansiel aflastning og langsigtet skatteeffektiv formueopbygning.",
+      "headline": "Firepunktsplan i detaljer",
+      "subtitle": "Detaljeret gennemgang af tiltag, delomrader og operationelle prioriteringer.",
+      "navigation_label": "Interaktiv navigation",
+      "focus_label": "Aktivt fokus",
+      "subpoints_label": "Delomrader",
+      "items_label": "Tiltag",
+      "cta_panel_title": "Fra strategi til gennemforelse",
+      "cta_panel_text": "Vi udvikler ikke kun strategi - vi understotter ogsa den operationelle implementering af hvert enkelt tiltag.",
+      "cta_contact": "Book en strategisamtale",
+      "cta_back_home": "Tilbage til forsiden"
+    },
+    "points": {
+      "strategy": {
+        "title": "Strategi og organisation",
+        "teaser": "Klar malstruktur og effektiv operationel gennemforelse.",
+        "description": "Gennemforelse af den daglige drift med klare ansvarsforhold og robust struktur.",
+        "subpoints": {
+          "1_1": {
+            "title": "1.1 Klar definition af virksomhedens malstruktur",
+            "items": {
+              "0": "Fastlæggelse af selskabsform(er) og ejerstruktur",
+              "1": "Udvidelse af eksisterende forretningsmodeller",
+              "2": "Adskillelse af operationel drift og formueforvaltning",
+              "3": "Opbygning af en juridisk robust organisationsstruktur"
+            }
+          },
+          "1_2": {
+            "title": "1.2 Effektiv organisering af den daglige drift",
+            "items": {
+              "0": "Standardisering af processer",
+              "1": "Delegering af operationelle aktiviteter",
+              "2": "Anvendelse af eksterne servicepartnere (skatteradgiver, bogholderi, administration)"
+            }
+          }
+        }
+      },
+      "tax": {
+        "title": "Skatteoptimering",
+        "teaser": "Tilpas selskabs- og overskudsstruktur med skattemæssig præcision.",
+        "description": "Compliance-baseret skattestruktur, der sikrer likviditet og understotter vækst.",
+        "subpoints": {
+          "2_1": {
+            "title": "2.1 Valg af den rette selskabsstruktur",
+            "items": {
+              "0": "Kombination af kapitalselskab og personselskab",
+              "1": "Anvendelse af holdingstrukturer",
+              "2": "Adskillelse af privat formue og virksomhedsformue"
+            }
+          },
+          "2_2": {
+            "title": "2.2 Overskudsflytning og strukturering",
+            "items": {
+              "0": "Anvendelse af driftsomkostninger",
+              "1": "Strukturering af direktionens lon og udbytte",
+              "2": "Anvendelse af skattemæssige fribelob"
+            }
+          },
+          "2_3": {
+            "title": "2.3 Formueopbygning i virksomhedsformuen",
+            "items": {
+              "0": "Investeringer via selskabet"
+            }
+          }
+        }
+      },
+      "relief": {
+        "title": "Finansiel aflastning",
+        "teaser": "Reducere lobende omkostninger målrettet, især inden for privat sygeforsikring.",
+        "description": "Målrettet aflastning af de lobende omkostninger, især inden for privat sygeforsikring.",
+        "subpoints": {
+          "3_1": {
+            "title": "3.1 Analyse af den eksisterende omkostningsstruktur",
+            "items": {
+              "0": "Sygeforsikring",
+              "1": "Pensionsopsparing",
+              "2": "Lobende private forpligtelser"
+            }
+          }
+        }
+      },
+      "pension": {
+        "title": "Skattefri pension",
+        "teaser": "Langsigtet skattefri formueopbygning med hensyn til lovbestemte ejerperioder.",
+        "description": "Opbygning af skattefri pension med fokus pa lovbestemte ejerperioder, langsigtet planlægning og juridisk robusthed.",
+        "subpoints": {
+          "4_1": {
+            "title": "4.1 Grundprincip for skattefri formueopbygning",
+            "items": {
+              "0": "Investering med langsigtet ejerhorisont",
+              "1": "Anvendelse af lovbestemte skattefritagelser",
+              "2": "Planlægning over mindst 10 ar"
+            }
+          }
+        }
+      }
+    }
   }
 }

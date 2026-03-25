@@ -19,7 +19,8 @@
     "navigation": "Навигация",
     "close_menu": "Закрыть меню",
     "skip_to_content": "Перейти к содержимому",
-    "gesetze": "Законодательство"
+    "gesetze": "Законодательство",
+    "four_point_plan": "Chetyrekhpunktovyy plan"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -416,5 +417,111 @@
     "vag_provision_4": "§ 311 VAG — Specific rules for private health insurance: Provisions on actuarial calculation, premium adjustments and long-term financing through ageing reserves.",
     "estg_provision_4": "§ 22 EStG — Other income: Taxation in particular of recurring payments such as pensions, as well as certain other income outside the classic income categories.",
     "estg_provision_5": "§ 23 EStG — Private disposal transactions: Tax treatment of gains from the disposal of private assets within the statutory holding periods."
+  },
+  "fourPointPlan": {
+    "badge": "Chetyrekhpunktovyy plan",
+    "headline": "Nash chetyrekhpunktovyy plan finansovoy nezavisimosti",
+    "subtitle": "Strukturirovannaya kompleksnaya strategiya s operatsionnym vnedreniem i dolgosrochnoy zashchitoy kapitala.",
+    "intro": "Plan sledyet klassicheskoy predprinimatelskoy logike: postroit strukturu, optimizirovat nalogi, snizit rashody i dolgosrochno formirovat nalogovo effektivnyy kapital. Klyuchevym yavlyaetsya ne tolko strategiya, no i disciplinovannoe ispolnenie v ezhednevnykh protsessakh.",
+    "cta_details": "Posmotret detalnyy plan",
+    "detail": {
+      "meta_title": "Chetyrekhpunktovyy plan finansovoy nezavisimosti",
+      "meta_description": "Detalnaya prezentatsiya plana FIECON: strategiya i organizatsiya, nalogovaya optimizatsiya, finansovoe oblegchenie i dolgosrochnoe formirovanie kapitala.",
+      "headline": "Chetyrekhpunktovyy plan v detalyakh",
+      "subtitle": "Podrobnoe opisanie mer, napravleniy i prioritetov vnedreniya.",
+      "navigation_label": "Interaktivnaya navigatsiya",
+      "focus_label": "Aktivnyy fokus",
+      "subpoints_label": "Napravleniya",
+      "items_label": "Mery",
+      "cta_panel_title": "Ot strategii k realizatsii",
+      "cta_panel_text": "My ne tolko razrabatyvaem strategiyu, no i soprovozhdaem operatsionnuyu realizatsiyu kazhdoy mery.",
+      "cta_contact": "Zaplaniruyte strategicheskuyu vstrechu",
+      "cta_back_home": "Nazad na glavnuyu"
+    },
+    "points": {
+      "strategy": {
+        "title": "Strategiya i organizatsiya",
+        "teaser": "Yasnaya tselevaya struktura i effektivnaya operatsionnaya realizatsiya.",
+        "description": "Ezhednevnaya rabota na osnove chetkikh zon otvetstvennosti i ustoychivoy struktury.",
+        "subpoints": {
+          "1_1": {
+            "title": "1.1 Chyotkoe opredelenie tselevoy biznes-struktury",
+            "items": {
+              "0": "Opredelenie organizatsionno-pravovoy formy i struktury uchastiya",
+              "1": "Rasshirenie suschestvuyushchikh biznes-modeley",
+              "2": "Razdelenie operatsionnoy deyatelnosti i upravleniya aktivami",
+              "3": "Postroenie yuridicheski nadezhnoy organizatsionnoy struktury"
+            }
+          },
+          "1_2": {
+            "title": "1.2 Effektivnaya organizatsiya ezhednevnoy deyatelnosti",
+            "items": {
+              "0": "Standartizatsiya protsessov",
+              "1": "Delegirovanie operatsionnykh zadach",
+              "2": "Privlechenie vneshnikh specialistov (nalogovyy konsultant, bukhgalteriya, administrirovanie)"
+            }
+          }
+        }
+      },
+      "tax": {
+        "title": "Nalogovaya optimizatsiya",
+        "teaser": "Tochno nastroit korporativnuyu i pribylnuyu strukturu s nalogovoy tochki zreniya.",
+        "description": "Pravomernaya nalogovaya arkhitektura, kotoraia zashchishchaet likvidnost i podderzhivaet rost.",
+        "subpoints": {
+          "2_1": {
+            "title": "2.1 Vybor pravilnoy korporativnoy struktury",
+            "items": {
+              "0": "Kombinatsiya kapitalovoy i partner skoy form",
+              "1": "Ispolzovanie holdingovykh struktur",
+              "2": "Razdelenie lichnykh i biznes-aktivov"
+            }
+          },
+          "2_2": {
+            "title": "2.2 Pereraspredelenie i strukturirovanie pribyli",
+            "items": {
+              "0": "Ispolzovanie operatsionnykh rashodov",
+              "1": "Strukturirovanie vozнаграждения rukovoditelya i raspredeleniya pribyli",
+              "2": "Ispolzovanie nalogovykh lgot"
+            }
+          },
+          "2_3": {
+            "title": "2.3 Formirovanie kapitala v aktivakh kompanii",
+            "items": {
+              "0": "Investitsii cherez kompaniu"
+            }
+          }
+        }
+      },
+      "relief": {
+        "title": "Finansovoe oblegchenie",
+        "teaser": "Tochechno sokrashchat postoyannye rashody, osobenno v sfere PKV.",
+        "description": "Tselevoe snizhenie tekushchikh postoyannykh rashodov, v osobennosti v sfere chastnogo meditsinskogo strakhovaniya.",
+        "subpoints": {
+          "3_1": {
+            "title": "3.1 Analiz deystvuyushchey struktury rashodov",
+            "items": {
+              "0": "Meditsinskoe strakhovanie",
+              "1": "Pensionnye nakopleniya",
+              "2": "Postoyannye lichnye obyazatelstva"
+            }
+          }
+        }
+      },
+      "pension": {
+        "title": "Nalogovo osvobozhdennaya pensiya",
+        "teaser": "Dolgosrochnoe formirovanie kapitala s nalogovymi preimushchestvami i soblyudeniem zakonnogo sroka uderzhaniya.",
+        "description": "Formirovanie nalogovo osvobozhdennoy pensii s fokusom na zakonnye sroki uderzhaniya, dolgosrochnoe planirovanie i yuridicheskuyu nadezhnost.",
+        "subpoints": {
+          "4_1": {
+            "title": "4.1 Bazovyy printsip nalogovo osvobozhdennogo nakopleniya kapitala",
+            "items": {
+              "0": "Investitsii s dolgosrochnym gorizontom uderzhaniya",
+              "1": "Ispolzovanie zakonnykh nalogovykh osvobozhdeniy",
+              "2": "Planirovanie kak minimum na 10 let"
+            }
+          }
+        }
+      }
+    }
   }
 }

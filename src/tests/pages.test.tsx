@@ -1,5 +1,5 @@
-import { describe, it, expect, vi } from "vitest";
-import { render, screen } from "@testing-library/react";
+import { beforeEach, afterEach, describe, it, expect, vi } from "vitest";
+import { act, render, screen, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 
 // ---------------------------------------------------------------------------
@@ -175,6 +175,69 @@ describe("HomePage", () => {
     expect(screen.getByTestId("philosophy")).toBeDefined();
     expect(screen.getByTestId("offices")).toBeDefined();
     expect(screen.getByTestId("contact")).toBeDefined();
+  });
+});
+
+// ---------------------------------------------------------------------------
+// Four-Point-Plan detail page
+// ---------------------------------------------------------------------------
+describe("Four-Point-Plan page", () => {
+  beforeEach(() => {
+    window.scrollTo = vi.fn();
+  });
+
+  afterEach(() => {
+    vi.unstubAllGlobals();
+    vi.restoreAllMocks();
+  });
+
+  it("renders detailed plan content for de locale", async () => {
+    const FourPointPlanPage = (await import("@/app/[locale]/four-point-plan/page")).default;
+    render(await FourPointPlanPage({ params: Promise.resolve({ locale: "de" }) }));
+
+    const user = userEvent.setup();
+    expect(screen.getByText("cta_contact")).toBeDefined();
+    expect(screen.getByText("points.strategy.subpoints.1_1.items.0")).toBeDefined();
+
+    await user.click(screen.getAllByRole("button", { name: /points\.tax\.title/i })[0]);
+    await user.click(screen.getByRole("button", { name: /points\.tax\.subpoints\.2_2\.title/i }));
+    expect(screen.getByText("points.tax.subpoints.2_2.items.1")).toBeDefined();
+  });
+
+  it("syncs left navigation on window scroll progress", async () => {
+    const FourPointPlanPage = (await import("@/app/[locale]/four-point-plan/page")).default;
+    render(await FourPointPlanPage({ params: Promise.resolve({ locale: "de" }) }));
+
+    const scrollSyncRoot = document.querySelector("[data-scroll-sync-root='true']");
+    expect(scrollSyncRoot).toBeDefined();
+
+    Object.defineProperty(window, "innerHeight", { value: 1000, configurable: true });
+    Object.defineProperty(scrollSyncRoot as HTMLElement, "offsetHeight", {
+      value: 2400,
+      configurable: true,
+    });
+    (scrollSyncRoot as HTMLElement).getBoundingClientRect = () =>
+      ({
+        top: -300,
+        bottom: 2100,
+        height: 2400,
+        width: 0,
+        x: 0,
+        y: -300,
+        left: 0,
+        right: 0,
+        toJSON: () => ({}),
+      }) as DOMRect;
+    await act(async () => {
+      window.dispatchEvent(new Event("scroll"));
+    });
+
+    const leftNav = document.querySelector("aside");
+    expect(leftNav).toBeDefined();
+    const taxButtonInLeftNav = within(leftNav as HTMLElement).getByRole("button", {
+      name: /points\.tax\.title/i,
+    });
+    expect(taxButtonInLeftNav.getAttribute("aria-pressed")).toBe("true");
   });
 });
 

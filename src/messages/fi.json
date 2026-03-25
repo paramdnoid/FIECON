@@ -19,7 +19,8 @@
     "navigation": "Navigointi",
     "close_menu": "Sulje valikko",
     "skip_to_content": "Siirry sisältöön",
-    "gesetze": "Lainsäädäntö"
+    "gesetze": "Lainsäädäntö",
+    "four_point_plan": "Neljän kohdan suunnitelma"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -416,5 +417,111 @@
     "vag_provision_4": "§ 311 VAG — Specific rules for private health insurance: Provisions on actuarial calculation, premium adjustments and long-term financing through ageing reserves.",
     "estg_provision_4": "§ 22 EStG — Other income: Taxation in particular of recurring payments such as pensions, as well as certain other income outside the classic income categories.",
     "estg_provision_5": "§ 23 EStG — Private disposal transactions: Tax treatment of gains from the disposal of private assets within the statutory holding periods."
+  },
+  "fourPointPlan": {
+    "badge": "Neljän kohdan suunnitelma",
+    "headline": "Neljän kohdan suunnitelmamme taloudelliseen riippumattomuuteen",
+    "subtitle": "Strukturoitu kokonaisstrategia, jossa operatiivinen toteutus ja pitkäjänteinen varallisuuden turvaaminen yhdistyvät.",
+    "intro": "Suunnitelma noudattaa klassista yrittäjälogiikkaa: rakennetaan rakenne, optimoidaan verotus, vähennetään kustannuksia ja kasvatetaan pitkäjänteisesti verotehokasta varallisuutta. Ratkaisevaa ei ole pelkkä strategia, vaan kurinalainen toteutus päivittäisessä toiminnassa.",
+    "cta_details": "Katso yksityiskohtainen suunnitelma",
+    "detail": {
+      "meta_title": "Neljän kohdan suunnitelma taloudelliseen riippumattomuuteen",
+      "meta_description": "Yksityiskohtainen esitys FIECONin neljän kohdan suunnitelmasta: strategia ja organisointi, verotuksen optimointi, taloudellinen keventäminen ja pitkäjänteinen verotehokas varallisuuden kerryttäminen.",
+      "headline": "Neljän kohdan suunnitelma yksityiskohtaisesti",
+      "subtitle": "Yksityiskohtainen erittely toimenpiteistä, osa-alueista ja operatiivisista prioriteeteista.",
+      "navigation_label": "Interaktiivinen navigointi",
+      "focus_label": "Aktiivinen painopiste",
+      "subpoints_label": "Osa-alueet",
+      "items_label": "Toimenpiteet",
+      "cta_panel_title": "Strategiasta toteutukseen",
+      "cta_panel_text": "Emme ainoastaan suunnittele strategiaa - tuemme myös jokaisen toimenpiteen operatiivista käyttöönottoa.",
+      "cta_contact": "Varaa strategiatapaaminen",
+      "cta_back_home": "Takaisin etusivulle"
+    },
+    "points": {
+      "strategy": {
+        "title": "Strategia ja organisointi",
+        "teaser": "Selkeä tavoiterakenne ja tehokas operatiivinen toteutus.",
+        "description": "Päivittäisen toiminnan toteutus selkein vastuin ja kestävällä rakenteella.",
+        "subpoints": {
+          "1_1": {
+            "title": "1.1 Liiketoiminnan tavoiterakenteen selkeä määrittely",
+            "items": {
+              "0": "Yhtiömuodon (tai yhtiömuotojen) ja omistusrakenteen määrittely",
+              "1": "Nykyisten liiketoimintamallien laajentaminen",
+              "2": "Operatiivisen liiketoiminnan ja varallisuudenhallinnan eriyttäminen",
+              "3": "Oikeudellisesti kestävän organisaatiorakenteen rakentaminen"
+            }
+          },
+          "1_2": {
+            "title": "1.2 Päivittäisen toiminnan tehokas organisointi",
+            "items": {
+              "0": "Prosessien standardointi",
+              "1": "Operatiivisten tehtävien delegointi",
+              "2": "Ulkopuolisten palveluntarjoajien hyödyntäminen (veroneuvonta, kirjanpito, hallinto)"
+            }
+          }
+        }
+      },
+      "tax": {
+        "title": "Verotuksen optimointi",
+        "teaser": "Yhtiö- ja tulosrakenne verotuksellisesti tarkasti linjaan.",
+        "description": "Sääntelyä noudattava verorakenne, joka turvaa maksuvalmiuden ja tukee kasvua.",
+        "subpoints": {
+          "2_1": {
+            "title": "2.1 Oikean yhtiörakenteen valinta",
+            "items": {
+              "0": "Pääomayhtiön ja henkilöyhtiön yhdistäminen",
+              "1": "Holding-rakenteiden hyödyntäminen",
+              "2": "Yksityisvarallisuuden ja yritysvarallisuuden eriyttäminen"
+            }
+          },
+          "2_2": {
+            "title": "2.2 Tuloksen siirto ja rakenteistaminen",
+            "items": {
+              "0": "Liiketoiminnan kulujen hyödyntäminen",
+              "1": "Johtopalkan ja voitonjaon rakenteistaminen",
+              "2": "Verovapaiden rajojen ja vähennysten hyödyntäminen"
+            }
+          },
+          "2_3": {
+            "title": "2.3 Varallisuuden kerryttäminen yritysvarallisuudessa",
+            "items": {
+              "0": "Sijoitukset yhtiön kautta"
+            }
+          }
+        }
+      },
+      "relief": {
+        "title": "Taloudellinen keventäminen",
+        "teaser": "Pysyvien kustannusten tavoitteellinen vähentäminen, erityisesti yksityisessä sairausvakuutuksessa.",
+        "description": "Pysyvien kulujen tavoitteellinen keventäminen, erityisesti yksityisen sairausvakuutuksen alueella.",
+        "subpoints": {
+          "3_1": {
+            "title": "3.1 Nykyisen kustannusrakenteen analyysi",
+            "items": {
+              "0": "Sairausvakuutus",
+              "1": "Eläkesäästäminen",
+              "2": "Jatkuvat yksityiset sitoumukset"
+            }
+          }
+        }
+      },
+      "pension": {
+        "title": "Verovapaa eläkevarallisuus",
+        "teaser": "Pitkäjänteinen verovapaa varallisuuden kerryttäminen lakisääteiset omistusajat huomioiden.",
+        "description": "Verovapaan eläkevarallisuuden rakentaminen painottaen lakisääteisiä omistusaikoja, pitkäjänteistä suunnittelua ja oikeudellista varmuutta.",
+        "subpoints": {
+          "4_1": {
+            "title": "4.1 Verovapaan varallisuuden kerryttämisen periaate",
+            "items": {
+              "0": "Sijoittaminen pitkällä omistushorisontilla",
+              "1": "Lakisääteisten verovapauksien hyödyntäminen",
+              "2": "Suunnittelu vähintään 10 vuoden aikajänteellä"
+            }
+          }
+        }
+      }
+    }
   }
 }

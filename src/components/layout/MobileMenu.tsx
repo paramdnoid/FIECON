@@ -2,9 +2,9 @@
 
 import { useRef } from "react";
 import Image from "next/image";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { AnimatePresence, motion } from "motion/react";
-import { NAV_LINKS, EASE_OUT_EXPO, COMPANY } from "@/lib/constants";
+import { EASE_OUT_EXPO, COMPANY, getNavLinks } from "@/lib/constants";
 import { scrollToSection } from "@/lib/utils";
 import { useActiveSection } from "@/hooks/useActiveSection";
 import { useFocusTrap } from "@/hooks/useFocusTrap";
@@ -20,6 +20,8 @@ type Props = {
 export function MobileMenu({ isOpen, onClose }: Props) {
   const t = useTranslations("nav");
   const activeSection = useActiveSection();
+  const locale = useLocale();
+  const navLinks = getNavLinks(locale);
   const trapRef = useFocusTrap(isOpen);
   const closeButtonRef = useRef<HTMLButtonElement>(null);
 
@@ -52,7 +54,7 @@ export function MobileMenu({ isOpen, onClose }: Props) {
             aria-label={t("navigation")}
           >
             {/* Header row — matches main header height */}
-            <div className="flex items-center justify-between h-20 px-5 sm:px-8">
+            <div className="relative z-20 flex items-center justify-between h-20 px-5 sm:px-8">
               <div className="flex items-center gap-3">
                 <Image
                   src="/logo.svg"
@@ -88,11 +90,11 @@ export function MobileMenu({ isOpen, onClose }: Props) {
             </div>
 
             {/* Divider */}
-            <div className="mx-5 sm:mx-8 h-px bg-gradient-to-r from-beige-400/40 via-beige-400/20 to-transparent" />
+            <div className="relative z-10 mx-5 sm:mx-8 h-px bg-linear-to-r from-beige-400/40 via-beige-400/20 to-transparent" />
 
             {/* Navigation links */}
-            <nav className="flex-1 flex flex-col justify-center px-5 sm:px-8 -mt-12">
-              {NAV_LINKS.map((link, i) => {
+            <nav className="relative z-0 flex-1 flex flex-col justify-center px-5 sm:px-8 -mt-12">
+              {navLinks.map((link, i) => {
                 const isActive = activeSection === link.href;
                 return (
                   <motion.div
@@ -138,7 +140,7 @@ export function MobileMenu({ isOpen, onClose }: Props) {
 
             {/* Footer area */}
             <div className="px-5 sm:px-8 pb-10">
-              <div className="h-px bg-gradient-to-r from-beige-400/40 via-beige-400/20 to-transparent mb-6" />
+              <div className="h-px bg-linear-to-r from-beige-400/40 via-beige-400/20 to-transparent mb-6" />
               <div className="flex items-center justify-between">
                 <LanguageSwitcher />
                 <span className="text-xs text-text-muted tracking-wide">

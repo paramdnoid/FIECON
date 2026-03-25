@@ -52,9 +52,6 @@ vi.mock("next/image", () => ({
 }));
 
 const mockPush = vi.fn();
-vi.mock("next/navigation", () => ({
-  useRouter: () => ({ push: mockPush }),
-}));
 
 vi.mock("@/i18n/navigation", () => ({
   Link: ({
@@ -70,6 +67,8 @@ vi.mock("@/i18n/navigation", () => ({
       </a>
     );
   },
+  useRouter: () => ({ push: mockPush }),
+  usePathname: () => "/de",
 }));
 
 vi.mock("@/hooks/useScrollProgress", () => ({
@@ -128,9 +127,9 @@ describe("Header", () => {
   it("renders navigation links for all NAV_LINKS", async () => {
     const { Header } = await import("@/components/layout/Header");
     render(<Header />);
-    // NAV_LINKS has 5 entries: about, services, approach, offices, contact
+    // German locale includes all links including the Four-Point-Plan.
     // In desktop nav each link renders with the translation key as text
-    for (const id of ["about", "services", "approach", "offices", "contact"]) {
+    for (const id of ["about", "services", "four_point_plan", "gesetze", "approach", "offices", "contact"]) {
       // There are multiple links (desktop nav + mobile menu), just check they exist
       const links = screen.getAllByText(id);
       expect(links.length).toBeGreaterThanOrEqual(1);
@@ -177,10 +176,10 @@ describe("MobileMenu", () => {
     expect(dialog.getAttribute("aria-modal")).toBe("true");
   });
 
-  it("renders all 5 nav links", async () => {
+  it("renders all nav links for de locale", async () => {
     const { MobileMenu } = await import("@/components/layout/MobileMenu");
     render(<MobileMenu isOpen={true} onClose={() => {}} />);
-    for (const id of ["about", "services", "approach", "offices", "contact"]) {
+    for (const id of ["about", "services", "four_point_plan", "gesetze", "approach", "offices", "contact"]) {
       expect(screen.getByText(id)).toBeDefined();
     }
   });
@@ -301,7 +300,7 @@ describe("LanguageSwitcher", () => {
     const englishButton = screen.getByText("English").closest("button")!;
     await user.click(englishButton);
 
-    expect(mockPush).toHaveBeenCalledWith("/en");
+    expect(mockPush).toHaveBeenCalledWith("/de", { locale: "en" });
   });
 
   it("closes modal when Escape is pressed", async () => {

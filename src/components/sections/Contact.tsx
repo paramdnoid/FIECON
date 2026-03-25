@@ -93,7 +93,7 @@ export function Contact() {
 
           {/* Contact row — inline, symmetric */}
           <FadeIn delay={0.15}>
-            <div className="flex flex-col sm:flex-row items-stretch justify-center gap-px max-w-2xl mx-auto mb-10 rounded-xl overflow-hidden border border-beige-200/60">
+            <div className="fiecon-card-frame flex flex-col sm:flex-row items-stretch justify-center gap-px max-w-2xl mx-auto mb-10 rounded-xl overflow-hidden">
               {CONTACT_ITEMS.map((item, i) => {
                 const value = item.getValue();
                 const href = item.getHref();

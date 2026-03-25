@@ -90,11 +90,26 @@ export type TeamMemberSlug = (typeof TEAM_MEMBERS)[number]["slug"];
 export const NAV_LINKS = [
   { id: "about", href: "about" },
   { id: "services", href: "services" },
+  { id: "four_point_plan", href: "four-point-plan" },
   { id: "gesetze", href: "gesetze" },
   { id: "approach", href: "approach" },
   { id: "offices", href: "offices" },
   { id: "contact", href: "contact" },
 ] as const;
+
+const FOUR_POINT_PLAN_LOCALES = new Set(["de", "en"]);
+
+export function isFourPointPlanLocale(locale: string) {
+  return FOUR_POINT_PLAN_LOCALES.has(locale);
+}
+
+export function getNavLinks(locale: string) {
+  if (isFourPointPlanLocale(locale)) {
+    return NAV_LINKS;
+  }
+
+  return NAV_LINKS.filter((link) => link.href !== "four-point-plan");
+}
 
 export const EASE_OUT_EXPO = [0.16, 1, 0.3, 1] as [number, number, number, number];
 
