@@ -1,57 +1,23 @@
 import { describe, it, expect, vi, beforeEach } from "vitest";
 import { render, screen } from "@testing-library/react";
+import { waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
+import {
+  mockMotionReact,
+  mockNextImage,
+  mockNextIntl,
+} from "./test-utils/mocks";
 
 // ---------------------------------------------------------------------------
 // Mocks
 // ---------------------------------------------------------------------------
-vi.mock("next-intl", () => ({
-  useTranslations: () => (key: string) => key,
-  useLocale: () => "de",
+mockNextIntl();
+mockMotionReact();
+mockNextImage();
+
+const { mockPush } = vi.hoisted(() => ({
+  mockPush: vi.fn(),
 }));
-
-vi.mock("motion/react", () => {
-  function filterDomProps(props: Record<string, unknown>) {
-    const blocked = new Set([
-      "initial", "animate", "exit", "transition", "variants",
-      "whileHover", "whileTap", "whileInView", "viewport", "layout", "custom",
-    ]);
-    const filtered: Record<string, unknown> = {};
-    for (const [k, v] of Object.entries(props)) {
-      if (!blocked.has(k)) filtered[k] = v;
-    }
-    return filtered;
-  }
-
-  return {
-    motion: new Proxy({} as Record<string, unknown>, {
-      get: (_target, prop: string) => {
-        const Comp = ({
-          children,
-          ...rest
-        }: React.PropsWithChildren<Record<string, unknown>>) => (
-          <div data-motion-element={prop} {...filterDomProps(rest)}>
-            {children}
-          </div>
-        );
-        Comp.displayName = `motion.${prop}`;
-        return Comp;
-      },
-    }),
-    AnimatePresence: ({ children }: React.PropsWithChildren) => <>{children}</>,
-    useReducedMotion: () => false,
-    useScroll: () => ({ scrollYProgress: { get: () => 0 } }),
-  };
-});
-
-vi.mock("next/image", () => ({
-  default: ({ priority: _priority, fill: _fill, ...rest }: Record<string, unknown>) => {
-    // eslint-disable-next-line jsx-a11y/alt-text, @next/next/no-img-element
-    return <img {...rest} />;
-  },
-}));
-
-const mockPush = vi.fn();
 
 vi.mock("@/i18n/navigation", () => ({
   Link: ({
@@ -287,7 +253,7 @@ describe("LanguageSwitcher", () => {
     expect(deutschButton.getAttribute("aria-current")).toBe("true");
   });
 
-  it("clicking a locale button calls router.push", async () => {
+  it("clicking a locale button updates locale cookie and closes modal", async () => {
     const { LanguageSwitcher } = await import(
       "@/components/layout/LanguageSwitcher"
     );
@@ -300,7 +266,10 @@ describe("LanguageSwitcher", () => {
     const englishButton = screen.getByText("English").closest("button")!;
     await user.click(englishButton);
 
-    expect(mockPush).toHaveBeenCalledWith("/de", { locale: "en" });
+    await waitFor(() => {
+      expect(document.cookie).toContain("NEXT_LOCALE=en");
+      expect(screen.queryByRole("dialog")).toBeNull();
+    });
   });
 
   it("closes modal when Escape is pressed", async () => {

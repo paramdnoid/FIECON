@@ -96,6 +96,7 @@ export const NAV_LINKS = [
   { id: "offices", href: "offices" },
   { id: "contact", href: "contact" },
 ] as const;
+export type NavLinkItem = (typeof NAV_LINKS)[number];
 
 const FOUR_POINT_PLAN_LOCALES = new Set(["de", "en"]);
 

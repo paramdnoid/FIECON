@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import { cn } from "@/lib/utils";
 
 type Props = {
   children: ReactNode;
@@ -6,7 +7,7 @@ type Props = {
   className?: string;
 };
 
-export function Container({ children, size = "lg", className = "" }: Props) {
+export function Container({ children, size = "lg", className }: Props) {
   const maxWidth = {
     sm: "max-w-3xl",
     md: "max-w-5xl",
@@ -14,7 +15,7 @@ export function Container({ children, size = "lg", className = "" }: Props) {
   }[size];
 
   return (
-    <div className={`mx-auto px-6 sm:px-8 lg:px-12 ${maxWidth} ${className}`}>
+    <div className={cn("mx-auto px-6 sm:px-8 lg:px-12", maxWidth, className)}>
       {children}
     </div>
   );

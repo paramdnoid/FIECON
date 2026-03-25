@@ -6,12 +6,12 @@ import { useLocale, useTranslations } from "next-intl";
 import { useScrollProgress } from "@/hooks/useScrollProgress";
 import { useActiveSection } from "@/hooks/useActiveSection";
 import { COMPANY, getNavLinks } from "@/lib/constants";
-import { scrollToSection } from "@/lib/utils";
 import { Container } from "@/components/ui/Container";
 import { ScrollProgress } from "@/components/animations/ScrollProgress";
 import { Link } from "@/i18n/navigation";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { MobileMenu } from "./MobileMenu";
+import { SectionNavLink } from "./SectionNavLink";
 
 export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -56,25 +56,13 @@ export function Header() {
               {navLinks.map((link) => {
                 const isActive = activeSection === link.href;
                 return (
-                  <Link
+                  <SectionNavLink
                     key={link.id}
-                    href={`/#${link.href}`}
-                    onClick={(e) => {
-                      if (document.getElementById(link.href)) {
-                        e.preventDefault();
-                        scrollToSection(link.href);
-                      }
-                    }}
-                    aria-current={isActive ? "true" : undefined}
-                    className={`relative text-xs font-medium tracking-widest uppercase transition-colors duration-400 group ${
-                      isActive ? "text-bordeaux-900" : "text-text-muted hover:text-bordeaux-900"
-                    }`}
-                  >
-                    {t(link.id)}
-                    <span className={`absolute -bottom-1 left-0 h-px bg-accent transition-all duration-400 ${
-                      isActive ? "w-full" : "w-0 group-hover:w-full"
-                    }`} />
-                  </Link>
+                    link={link}
+                    label={t(link.id)}
+                    isActive={isActive}
+                    variant="desktop"
+                  />
                 );
               })}
             </nav>

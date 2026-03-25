@@ -1,5 +1,6 @@
 import { type ReactNode } from "react";
 import { cn } from "@/lib/utils";
+import { CardInteractive, CardContent } from "./Card";
 
 type Props = {
   children: ReactNode;
@@ -9,9 +10,9 @@ type Props = {
 
 export function HoverCard({ children, className, accentBarClassName }: Props) {
   return (
-    <div
+    <CardInteractive
       className={cn(
-        "group fiecon-card-frame rounded-2xl h-full overflow-hidden transition-all duration-400 hover:-translate-y-0.5 hover:shadow-[0_16px_38px_-26px_rgba(98,25,28,0.7)] hover:border-beige-400/70 focus-within:-translate-y-0.5 focus-within:shadow-[0_16px_38px_-26px_rgba(98,25,28,0.7)] focus-within:border-beige-400/70",
+        "group h-full overflow-hidden hover:-translate-y-0.5 focus-within:-translate-y-0.5",
         className,
       )}
     >
@@ -25,7 +26,7 @@ export function HoverCard({ children, className, accentBarClassName }: Props) {
         />
       </div>
 
-      <div className="p-6 sm:p-8 flex flex-col h-full">{children}</div>
-    </div>
+      <CardContent className="flex h-full flex-col">{children}</CardContent>
+    </CardInteractive>
   );
 }

@@ -1,6 +1,12 @@
 import { describe, it, expect, vi } from "vitest";
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
+import {
+  mockMotionReact,
+  mockNavigation,
+  mockNextImage,
+  mockNextIntl,
+} from "./test-utils/mocks";
 
 // ---------------------------------------------------------------------------
 // Mocks
@@ -21,74 +27,10 @@ Object.defineProperty(window, "matchMedia", {
   }),
 });
 
-vi.mock("next-intl", () => ({
-  useTranslations: () => (key: string) => key,
-  useLocale: () => "de",
-}));
-
-vi.mock("motion/react", () => {
-  function filterDomProps(props: Record<string, unknown>) {
-    const blocked = new Set([
-      "initial", "animate", "exit", "transition", "variants",
-      "whileHover", "whileTap", "whileInView", "viewport", "layout", "custom",
-      "style",
-    ]);
-    const filtered: Record<string, unknown> = {};
-    for (const [k, v] of Object.entries(props)) {
-      if (!blocked.has(k)) filtered[k] = v;
-    }
-    return filtered;
-  }
-
-  return {
-    motion: new Proxy({} as Record<string, unknown>, {
-      get: (_target, prop: string) => {
-        const Comp = ({
-          children,
-          ...rest
-        }: React.PropsWithChildren<Record<string, unknown>>) => {
-          const tag = typeof prop === "string" && ["svg", "path", "div", "span", "p"].includes(prop) ? prop : "div";
-          const Tag = tag as keyof JSX.IntrinsicElements;
-          return <Tag data-motion-element={prop} {...filterDomProps(rest)}>{children}</Tag>;
-        };
-        Comp.displayName = `motion.${prop}`;
-        return Comp;
-      },
-    }),
-    AnimatePresence: ({ children }: React.PropsWithChildren) => <>{children}</>,
-    useReducedMotion: () => false,
-    useScroll: () => ({ scrollYProgress: { get: () => 0 } }),
-    useTransform: () => 0,
-    useInView: () => true,
-    useMotionValue: (initial: number) => ({
-      get: () => initial,
-      set: () => {},
-      on: () => () => {},
-    }),
-    useSpring: (val: unknown) => val,
-    animate: (_motionValue: unknown, _to: unknown, _opts?: unknown) => ({
-      stop: () => {},
-    }),
-  };
-});
-
-vi.mock("next/image", () => ({
-  default: ({ priority: _p, fill: _f, ...rest }: Record<string, unknown>) => {
-    // eslint-disable-next-line jsx-a11y/alt-text, @next/next/no-img-element
-    return <img {...rest} />;
-  },
-}));
-
-vi.mock("@/i18n/navigation", () => ({
-  Link: ({
-    children,
-    href,
-    ...rest
-  }: React.PropsWithChildren<{ href: string } & Record<string, unknown>>) => {
-    const { locale: _l, prefetch: _p, ...domProps } = rest as Record<string, unknown>;
-    return <a href={href} {...domProps}>{children}</a>;
-  },
-}));
+mockNextIntl();
+mockMotionReact();
+mockNextImage();
+mockNavigation();
 
 vi.mock("@/hooks/useCarouselIndex", () => ({
   useCarouselIndex: () => [{ current: null }, 0],

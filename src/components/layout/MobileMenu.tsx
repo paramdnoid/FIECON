@@ -5,12 +5,11 @@ import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 import { AnimatePresence, motion } from "motion/react";
 import { EASE_OUT_EXPO, COMPANY, getNavLinks } from "@/lib/constants";
-import { scrollToSection } from "@/lib/utils";
 import { useActiveSection } from "@/hooks/useActiveSection";
 import { useFocusTrap } from "@/hooks/useFocusTrap";
 import { useDialogBehavior } from "@/hooks/useDialogBehavior";
-import { Link } from "@/i18n/navigation";
 import { LanguageSwitcher } from "./LanguageSwitcher";
+import { SectionNavLink } from "./SectionNavLink";
 
 type Props = {
   isOpen: boolean;
@@ -107,32 +106,13 @@ export function MobileMenu({ isOpen, onClose }: Props) {
                       ease: EASE_OUT_EXPO,
                     }}
                   >
-                    <Link
-                      href={`/#${link.href}`}
-                      onClick={(e) => {
-                        if (document.getElementById(link.href)) {
-                          e.preventDefault();
-                          scrollToSection(link.href);
-                        }
-                        onClose();
-                      }}
-                      className={`group flex items-center gap-4 py-4 text-left cursor-pointer transition-colors duration-300 ${
-                        isActive
-                          ? "text-bordeaux-900"
-                          : "text-text-primary hover:text-bordeaux-900"
-                      }`}
-                    >
-                      <span
-                        className={`h-px transition-all duration-300 ${
-                          isActive
-                            ? "w-8 bg-bordeaux-900"
-                            : "w-0 group-hover:w-8 bg-bordeaux-900/50"
-                        }`}
-                      />
-                      <span className="font-display text-xl sm:text-2xl md:text-3xl font-light tracking-tight">
-                        {t(link.id)}
-                      </span>
-                    </Link>
+                    <SectionNavLink
+                      link={link}
+                      label={t(link.id)}
+                      isActive={isActive}
+                      variant="mobile"
+                      onNavigate={onClose}
+                    />
                   </motion.div>
                 );
               })}

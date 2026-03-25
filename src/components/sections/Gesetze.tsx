@@ -47,7 +47,7 @@ export function Gesetze() {
               delay={0.1 + index * 0.15}
               className="h-full"
             >
-              <div className="group fiecon-card-frame relative flex h-full flex-col rounded-2xl overflow-hidden transition-all duration-400 hover:-translate-y-0.5 hover:shadow-[0_16px_38px_-26px_rgba(98,25,28,0.7)] hover:border-beige-400/70 focus-within:-translate-y-0.5 focus-within:shadow-[0_16px_38px_-26px_rgba(98,25,28,0.7)] focus-within:border-beige-400/70">
+              <div className="group fiecon-card-frame fiecon-card-interactive relative flex h-full flex-col rounded-2xl overflow-hidden hover:-translate-y-0.5 focus-within:-translate-y-0.5">
                 {/* Always-visible subtle top accent */}
                 <div aria-hidden="true" className="absolute inset-0 overflow-hidden rounded-2xl pointer-events-none">
                   <div className="absolute top-0 inset-x-0 h-[2px] bg-linear-to-r from-bordeaux-900/20 via-bordeaux-700/15 to-beige-400/20 transition-opacity duration-500" />

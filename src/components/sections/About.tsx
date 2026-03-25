@@ -101,7 +101,7 @@ export function About() {
             <Link
               href="/team/peter-fiegler"
               aria-label={t("profile_link")}
-              className="group fiecon-card-frame mx-auto block max-w-4xl rounded-2xl overflow-hidden transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_16px_38px_-26px_rgba(98,25,28,0.7)] hover:border-beige-400/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-bordeaux-900 focus-visible:ring-offset-2"
+              className="group fiecon-card-frame fiecon-card-interactive mx-auto block max-w-4xl rounded-2xl overflow-hidden hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-bordeaux-900 focus-visible:ring-offset-2"
             >
               <div className="relative">
                 <QuoteBlock
@@ -147,7 +147,7 @@ export function About() {
                 <Link
                   key={member.slug}
                   href={`/team/${member.slug}`}
-                  className="group fiecon-card-frame relative flex items-center gap-4 rounded-xl transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_16px_38px_-26px_rgba(98,25,28,0.7)] hover:border-beige-400/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-bordeaux-900 focus-visible:ring-offset-2"
+                  className="group fiecon-card-frame fiecon-card-interactive relative flex items-center gap-4 rounded-xl hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-bordeaux-900 focus-visible:ring-offset-2"
                 >
                   <div className="flex w-full items-center gap-4 rounded-xl bg-beige-50/80 px-5 py-4 sm:px-6 sm:py-5">
                     <div className="relative size-14 shrink-0 overflow-hidden rounded-full ring-1 ring-bordeaux-900/10 ring-offset-1 ring-offset-beige-50 sm:size-16">

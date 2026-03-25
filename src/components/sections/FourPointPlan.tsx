@@ -5,6 +5,7 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { Container } from "@/components/ui/Container";
 import { FadeIn } from "@/components/animations/FadeIn";
+import { FOUR_POINT_PLAN_POINTS } from "@/components/sections/four-point-plan/plan-data";
 
 const PLAN_ICONS: Record<string, React.ReactNode> = {
   strategy: (
@@ -40,25 +41,6 @@ const PLAN_ICONS: Record<string, React.ReactNode> = {
     </svg>
   ),
 };
-
-const PLAN_POINTS = [
-  {
-    key: "strategy",
-    number: "01",
-  },
-  {
-    key: "tax",
-    number: "02",
-  },
-  {
-    key: "relief",
-    number: "03",
-  },
-  {
-    key: "pension",
-    number: "04",
-  },
-] as const;
 
 export function FourPointPlan() {
   const t = useTranslations("fourPointPlan");
@@ -111,7 +93,7 @@ export function FourPointPlan() {
         <div aria-hidden="true" className="h-px bg-linear-to-r from-transparent via-beige-400/40 to-transparent mb-6 lg:mb-8" />
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-4 lg:gap-5 items-stretch">
-          {PLAN_POINTS.map((point, pointIndex) => (
+          {FOUR_POINT_PLAN_POINTS.map((point, pointIndex) => (
             <FadeIn
               key={point.key}
               delay={0.1 + pointIndex * 0.08}
@@ -127,7 +109,7 @@ export function FourPointPlan() {
                 href={`/four-point-plan#plan-step-${point.key}`}
                 className="group block h-full rounded-2xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-bordeaux-800/65 focus-visible:ring-offset-2 focus-visible:ring-offset-white"
               >
-                <article className={`fiecon-card-frame relative flex h-full min-h-[138px] flex-col overflow-hidden rounded-2xl p-4 transition-all duration-500 hover:shadow-[0_16px_38px_-26px_rgba(98,25,28,0.7)] hover:border-beige-400/70 sm:p-5 ${pointIndex % 2 === 0 ? "hover:-translate-y-1" : "hover:translate-y-1"}`}>
+                <article className={`fiecon-card-frame fiecon-card-interactive relative flex h-full min-h-[138px] flex-col overflow-hidden rounded-2xl p-4 sm:p-5 ${pointIndex % 2 === 0 ? "hover:-translate-y-1" : "hover:translate-y-1"}`}>
                   <div className="absolute top-0 inset-x-0 h-[4px] bg-linear-to-r from-bordeaux-900 via-bordeaux-700 to-beige-400 origin-left scale-x-0 transition-transform duration-500 group-hover:scale-x-100" />
 
                   <span aria-hidden="true" className="absolute top-3 right-4 font-display text-5xl lg:text-6xl font-light text-bordeaux-900 opacity-[0.05] select-none pointer-events-none">

@@ -2,12 +2,12 @@ import { describe, it, expect } from "vitest";
 import { render } from "@testing-library/react";
 
 describe("MapUS", () => {
-  it("renders an SVG with role img", async () => {
+  it("renders an SVG and marks it decorative", async () => {
     const { MapUS } = await import("@/components/maps/MapUS");
     const { container } = render(<MapUS />);
     const svg = container.querySelector("svg");
     expect(svg).toBeDefined();
-    expect(svg?.getAttribute("role")).toBe("img");
+    expect(svg?.getAttribute("aria-hidden")).toBe("true");
   });
 
   it("accepts custom className", async () => {

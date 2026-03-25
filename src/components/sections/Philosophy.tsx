@@ -54,7 +54,7 @@ export function Philosophy() {
               delay={0.1 + index * 0.15}
               className="h-full"
             >
-              <div className="group fiecon-card-frame relative flex h-full flex-col rounded-2xl p-6 sm:p-8 text-center overflow-hidden transition-all duration-400 hover:-translate-y-0.5 hover:shadow-[0_16px_38px_-26px_rgba(98,25,28,0.7)] hover:border-beige-400/70">
+              <div className="group fiecon-card-frame fiecon-card-interactive relative flex h-full flex-col rounded-2xl p-6 sm:p-8 text-center overflow-hidden hover:-translate-y-0.5">
                 {/* Accent bar top */}
                 <div className="absolute top-0 inset-x-0 h-[3px] bg-linear-to-r from-bordeaux-900 via-bordeaux-700 to-beige-400 origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500" />
 
