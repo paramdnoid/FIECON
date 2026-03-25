@@ -1,5 +1,5 @@
 import { vi } from "vitest";
-import type { PropsWithChildren } from "react";
+import type { JSX as ReactJSX, PropsWithChildren } from "react";
 
 export function mockNextIntl() {
   vi.mock("next-intl", () => ({
@@ -52,7 +52,7 @@ export function mockMotionReact() {
             const tag = typeof prop === "string" && ["svg", "path", "div", "span", "p"].includes(prop)
               ? prop
               : "div";
-            const Tag = tag as keyof JSX.IntrinsicElements;
+            const Tag = tag as keyof ReactJSX.IntrinsicElements;
             return (
               <Tag data-motion-element={prop} {...filterDomProps(rest)}>
                 {children}
