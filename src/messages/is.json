@@ -20,7 +20,7 @@
     "close_menu": "Loka valmynd",
     "skip_to_content": "Fara í efni",
     "gesetze": "Löggjöf",
-    "four_point_plan": "Four-Point Plan"
+    "four_point_plan": "Vier-Punkte-Plan"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -82,12 +82,12 @@
       }
     },
     "private_health_insurance": {
-      "title": "Private health insurance for self-employed entrepreneurs",
-      "description": "We support self-employed entrepreneurs in selecting, structuring and optimizing private health insurance — tailored to income profile, coverage requirements and long-term planning.",
+      "title": "PKV für selbstständige Unternehmer",
+      "description": "Wir begleiten Selbstständige bei der Auswahl, Strukturierung und Optimierung einer privaten Krankenversicherung — individuell auf Einkommenssituation, Leistungsbedarf und langfristige Planung abgestimmt.",
       "items": {
-        "0": "Plan comparison & selection",
-        "1": "Coverage and premium optimization",
-        "2": "Long-term protection strategy"
+        "0": "Tarifvergleich & Auswahl",
+        "1": "Leistungs- und Beitragsoptimierung",
+        "2": "Langfristige Absicherungsstrategie"
       }
     },
     "focus_headline": "Helstu starfssvið",
@@ -131,7 +131,7 @@
         "description": "Stjórnar skattlagningu tekna einstaklinga í Þýskalandi. EStG skilgreinir tekjuflokka, skattfrjáls frádráttar og skatthlutföll og myndar grundvöll skattlagningar persónutekna."
       }
     },
-    "mehr_erfahren": "Learn more"
+    "mehr_erfahren": "Mehr erfahren"
   },
   "approach": {
     "badge": "Nálgun okkar",
@@ -365,159 +365,159 @@
     "service_yacht": "Snekkjubyggingarfjármögnun"
   },
   "gesetze_page": {
-    "meta_title": "Legal Foundations — KWG, VAG & EStG",
-    "meta_description": "FIECON explains the regulatory foundations: the Banking Act, Insurance Supervision Act and Income Tax Act — and how we guide clients through these requirements.",
-    "breadcrumb_home": "Home",
-    "breadcrumb_current": "Legislation",
-    "hero_badge": "Regulatory Framework",
-    "hero_headline": "Legal Foundations",
-    "hero_intro_1": "FIECON's advisory practice is deeply rooted in the German and European regulatory framework. The Banking Act (KWG), Insurance Supervision Act (VAG) and Income Tax Act (EStG) form the legal basis for substantial parts of our daily advisory work — from structuring international entities to tax optimisation for entrepreneurs.",
-    "hero_intro_2": "On this page, we introduce the three central acts, explain their key regulatory areas and show how FIECON concretely supports clients in meeting the requirements of these frameworks in a legally sound and efficient manner.",
+    "meta_title": "Rechtliche Grundlagen — KWG, VAG & EStG",
+    "meta_description": "FIECON erläutert die regulatorischen Grundlagen: Kreditwesengesetz, Versicherungsaufsichtsgesetz und Einkommensteuergesetz — und wie wir Mandanten dabei begleiten.",
+    "breadcrumb_home": "Startseite",
+    "breadcrumb_current": "Gesetze",
+    "hero_badge": "Regulatorischer Rahmen",
+    "hero_headline": "Rechtliche Grundlagen",
+    "hero_intro_1": "Die Beratungspraxis von FIECON ist tief im deutschen und europäischen Regulierungsrahmen verankert. Das Kreditwesengesetz, das Versicherungsaufsichtsgesetz und das Einkommensteuergesetz bilden die rechtliche Grundlage für wesentliche Teile unserer täglichen Beratungsarbeit — von der Strukturierung internationaler Gesellschaften bis zur steuerlichen Optimierung für Unternehmer.",
+    "hero_intro_2": "Auf dieser Seite stellen wir Ihnen die drei zentralen Gesetze vor, erläutern ihre wesentlichen Regelungsbereiche und zeigen, wie FIECON Mandanten konkret dabei unterstützt, die Anforderungen dieser Regelwerke rechtssicher und effizient zu erfüllen.",
     "hero_chip_kwg": "KWG",
     "hero_chip_vag": "VAG",
     "hero_chip_estg": "EStG",
     "kwg_abbreviation": "KWG",
-    "kwg_name": "Kreditwesengesetz (Banking Act)",
-    "kwg_intro": "The Banking Act (KWG) forms the cornerstone of German banking supervision. It governs the conditions under which companies may conduct banking business or provide financial services, and sets out requirements for organisation, capital adequacy and internal controls. The Federal Financial Supervisory Authority (BaFin) supervises all licensed institutions in Germany on the basis of the KWG.",
-    "kwg_detail": "For companies wishing to conduct banking business or provide financial services, the licensing obligation under § 32 KWG is of central importance. The KWG defines in § 1 a broad catalogue of activities requiring authorisation — from lending and investment advice to order execution. At the same time, § 25a requires institutions to maintain proper business organisation with adequate risk management.",
-    "kwg_provisions_headline": "Key Provisions",
-    "kwg_provision_0": "§ 1 KWG — Definitions: Exhaustive definition of all banking and financial services businesses requiring authorisation, including lending, deposit-taking and investment advice.",
-    "kwg_provision_1": "§ 25a KWG — Special organisational obligations: Requirements for proper business organisation with adequate risk management, internal control procedures and compliance structures.",
-    "kwg_provision_2": "§ 32 KWG — Licensing requirement: Prohibition on conducting banking business and financial services commercially without written authorisation from BaFin.",
-    "kwg_provision_3": "§ 44 KWG — BaFin audit powers: Powers of the supervisory authority to conduct audits at institutions and to request information and documents.",
-    "kwg_consulting_headline": "FIECON Advisory in the KWG Context",
-    "kwg_consulting_text": "FIECON supports companies and founders in assessing licensing obligations under the KWG, in preparing and submitting BaFin licence applications, and in implementing the organisational requirements of § 25a KWG. We also assist with ongoing regulatory compliance and communication with the supervisory authority.",
+    "kwg_name": "Kreditwesengesetz",
+    "kwg_intro": "Das Kreditwesengesetz (KWG) bildet das Fundament der deutschen Bankenaufsicht. Es regelt, unter welchen Voraussetzungen Unternehmen Bankgeschäfte oder Finanzdienstleistungen erbringen dürfen, und legt die Anforderungen an Organisation, Kapitalausstattung und interne Kontrolle fest. Die Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin) überwacht auf Grundlage des KWG alle erlaubnispflichtigen Institute in Deutschland.",
+    "kwg_detail": "Für Unternehmen, die Bankgeschäfte betreiben oder Finanzdienstleistungen erbringen wollen, ist die Erlaubnispflicht nach § 32 KWG von zentraler Bedeutung. Das KWG definiert in § 1 einen breiten Katalog erlaubnispflichtiger Tätigkeiten — von der Kreditvergabe über die Anlageberatung bis hin zur Abschlussvermittlung. Gleichzeitig verpflichtet § 25a Institute zu einer ordnungsgemäßen Geschäftsorganisation mit angemessenem Risikomanagement.",
+    "kwg_provisions_headline": "Wesentliche Regelungen",
+    "kwg_provision_0": "§ 1 KWG — Begriffsbestimmungen: Abschließende Definition aller erlaubnispflichtigen Bank- und Finanzdienstleistungsgeschäfte, einschließlich Kreditgeschäft, Einlagengeschäft und Anlageberatung.",
+    "kwg_provision_1": "§ 25a KWG — Besondere organisatorische Pflichten: Anforderungen an eine ordnungsgemäße Geschäftsorganisation mit angemessenem Risikomanagement, internen Kontrollverfahren und Compliance-Strukturen.",
+    "kwg_provision_2": "§ 32 KWG — Erlaubnispflicht: Verbot der gewerbsmäßigen Erbringung von Bankgeschäften und Finanzdienstleistungen ohne schriftliche Erlaubnis der BaFin.",
+    "kwg_provision_3": "§ 44 KWG — Prüfungsrechte der BaFin: Befugnisse der Aufsichtsbehörde zur Durchführung von Prüfungen bei Instituten und zur Anforderung von Auskünften und Unterlagen.",
+    "kwg_consulting_headline": "FIECON-Beratung im KWG-Kontext",
+    "kwg_consulting_text": "FIECON begleitet Unternehmen und Gründer bei der Prüfung der Erlaubnispflicht nach dem KWG, bei der Vorbereitung und Einreichung von BaFin-Erlaubnisanträgen sowie bei der Implementierung der organisatorischen Anforderungen nach § 25a KWG. Wir unterstützen auch bei der laufenden regulatorischen Compliance und der Kommunikation mit der Aufsichtsbehörde.",
     "vag_abbreviation": "VAG",
-    "vag_name": "Versicherungsaufsichtsgesetz (Insurance Supervision Act)",
-    "vag_intro": "The Insurance Supervision Act (VAG) governs state supervision of insurance companies in Germany and primarily serves to protect policyholders. It transposes the European Solvency II Directive into German law and ensures that insurers are permanently able to fulfil their obligations towards the insured.",
-    "vag_detail": "The VAG requires insurance companies to comply with extensive capital requirements (Solvency Capital Requirement and Minimum Capital Requirement) and to be properly managed by fit and proper persons. Special provisions apply to private health insurers regarding premium calculation and the formation of ageing provisions — an area of particular relevance for the advisory of self-employed entrepreneurs.",
-    "vag_provisions_headline": "Key Provisions",
-    "vag_provision_0": "§ 11 VAG — Licensing requirement: Prohibition on conducting insurance business without BaFin authorisation, combined with a catalogue of insurance classes requiring a licence.",
-    "vag_provision_1": "§ 124 VAG — Investment management: Requirements for the investment of assets in accordance with the Prudent Person Principle.",
-    "vag_provision_2": "§ 22 VAG — Senior managers: Requirements for the reliability and professional suitability of persons in key functions within an insurance company.",
-    "vag_provision_3": "§ 294 VAG — BaFin supervisory powers: Extensive supervisory and intervention powers of the authority in relation to supervised insurance undertakings.",
-    "vag_consulting_headline": "FIECON Advisory in the VAG Context",
-    "vag_consulting_text": "FIECON advises on the structuring of insurance solutions for international entrepreneurs and self-employed individuals, particularly in the area of private health insurance (PKV). We analyse tariff structures taking into account the regulatory requirements of the VAG and support clients in optimally protecting their personal risks.",
+    "vag_name": "Versicherungsaufsichtsgesetz",
+    "vag_intro": "Das Versicherungsaufsichtsgesetz (VAG) regelt die staatliche Aufsicht über Versicherungsunternehmen in Deutschland und dient in erster Linie dem Schutz der Versicherungsnehmer. Es setzt die europäische Solvency II-Richtlinie in deutsches Recht um und stellt sicher, dass Versicherer dauerhaft in der Lage sind, ihre Verpflichtungen gegenüber den Versicherten zu erfüllen.",
+    "vag_detail": "Das VAG verpflichtet Versicherungsunternehmen zur Einhaltung umfangreicher Kapitalanforderungen (Solvency Capital Requirement und Minimum Capital Requirement) sowie zur ordnungsgemäßen Geschäftsführung durch geeignete und zuverlässige Personen. Für private Krankenversicherer gelten besondere Bestimmungen zur Kalkulation der Prämien und zur Bildung von Alterungsrückstellungen — ein Bereich, der für die Beratung selbstständiger Unternehmer besonders relevant ist.",
+    "vag_provisions_headline": "Wesentliche Regelungen",
+    "vag_provision_0": "§ 11 VAG — Erlaubnispflicht: Verbot des Betriebs von Versicherungsgeschäften ohne Erlaubnis der BaFin, verbunden mit einem Katalog der erlaubnispflichtigen Versicherungssparten.",
+    "vag_provision_1": "§ 124 VAG — Kapitalanlagemanagement: Anforderungen an die Anlage der Vermögenswerte nach dem Grundsatz der unternehmerischen Vorsicht (Prudent Person Principle).",
+    "vag_provision_2": "§ 22 VAG — Geschäftsleiter: Anforderungen an Zuverlässigkeit und fachliche Eignung der verantwortlichen Personen in Schlüsselfunktionen eines Versicherungsunternehmens.",
+    "vag_provision_3": "§ 294 VAG — Aufsichtsbefugnisse der BaFin: Umfangreiche Aufsichts- und Eingriffsbefugnisse der Bundesanstalt gegenüber beaufsichtigten Versicherungsunternehmen.",
+    "vag_consulting_headline": "FIECON-Beratung im VAG-Kontext",
+    "vag_consulting_text": "FIECON berät bei der Strukturierung von Versicherungslösungen für internationale Unternehmer und Selbstständige, insbesondere im Bereich der privaten Krankenversicherung (PKV). Wir analysieren Tarifstrukturen unter Berücksichtigung der aufsichtsrechtlichen Vorgaben des VAG und begleiten Mandanten bei der optimalen Absicherung ihrer persönlichen Risiken.",
     "estg_abbreviation": "EStG",
-    "estg_name": "Einkommensteuergesetz (Income Tax Act)",
-    "estg_intro": "The Income Tax Act (EStG) governs the taxation of the income of natural persons in Germany. As the central tax act for private individuals and self-employed persons, it defines the seven types of income, personal allowances and progressive tax rates. The EStG is particularly significant for internationally active entrepreneurs, as Germany applies the worldwide income principle.",
-    "estg_detail": "Anyone who is subject to unlimited tax liability in Germany (§ 1 EStG) is generally required to tax their entire worldwide income in Germany — regardless of where it was earned. The correct delimitation of tax liability, the application of double taxation agreements and the tax-efficient structuring of corporate structures are therefore key advisory areas for internationally active clients.",
-    "estg_provisions_headline": "Key Provisions",
-    "estg_provision_0": "§ 1 EStG — Unlimited tax liability: Natural persons with residence or habitual abode in Germany are subject to unlimited income tax liability on their worldwide income.",
-    "estg_provision_1": "§ 2 EStG — Types of income: Exhaustive definition of the seven types of income, including income from trade or business, self-employment and capital assets.",
-    "estg_provision_2": "§ 19 EStG — Income from non-self-employed work: Regulation of the taxation of wages, salaries, bonuses and monetary benefits from an employment relationship.",
-    "estg_provision_3": "§ 49 EStG — Limited tax liability: Taxation of income from German sources for persons without residence in Germany — relevant for foreign shareholders and managing directors.",
-    "estg_consulting_headline": "FIECON Advisory in the EStG Context",
-    "estg_consulting_text": "FIECON supports internationally active entrepreneurs, shareholders and self-employed individuals in analysing and optimising their tax situation under the EStG. We examine personal tax liability, the applicability of double taxation agreements and develop tax-efficient corporate and remuneration structures. For self-employed persons, we also advise on the tax-efficient structuring of pension provision, particularly in conjunction with private health insurance.",
-    "cta_headline": "Regulatory questions? We have the answers.",
-    "cta_subline": "Whether a KWG licence application, VAG-compliant insurance structure or tax optimisation under the EStG — get in touch with us.",
-    "cta_button": "Get in touch",
-    "cta_back": "Back to homepage",
-    "kwg_provision_4": "§ 46 KWG — Supervisory intervention measures: Powers of BaFin to intervene in the event of supervisory deficiencies, in particular to safeguard proper management and protect creditors.",
-    "vag_provision_4": "§ 311 VAG — Specific rules for private health insurance: Provisions on actuarial calculation, premium adjustments and long-term financing through ageing reserves.",
-    "estg_provision_4": "§ 22 EStG — Other income: Taxation in particular of recurring payments such as pensions, as well as certain other income outside the classic income categories.",
-    "estg_provision_5": "§ 23 EStG — Private disposal transactions: Tax treatment of gains from the disposal of private assets within the statutory holding periods."
+    "estg_name": "Einkommensteuergesetz",
+    "estg_intro": "Das Einkommensteuergesetz (EStG) regelt die Besteuerung des Einkommens natürlicher Personen in Deutschland. Als das zentrale Steuergesetz für Privatpersonen und Selbstständige definiert es die sieben Einkunftsarten, die persönlichen Freibeträge sowie die progressiven Steuersätze. Für international tätige Unternehmer ist das EStG besonders bedeutsam, da Deutschland das Welteinkommensprinzip anwendet.",
+    "estg_detail": "Wer in Deutschland unbeschränkt steuerpflichtig ist (§ 1 EStG), muss grundsätzlich sein gesamtes weltweites Einkommen in Deutschland versteuern — unabhängig davon, wo es erzielt wurde. Die korrekte Abgrenzung der Steuerpflicht, die Anwendung von Doppelbesteuerungsabkommen und die steuerlich optimale Gestaltung von Gesellschaftsstrukturen sind daher wesentliche Beratungsfelder für international tätige Mandanten.",
+    "estg_provisions_headline": "Wesentliche Regelungen",
+    "estg_provision_0": "§ 1 EStG — Unbeschränkte Steuerpflicht: Natürliche Personen mit Wohnsitz oder gewöhnlichem Aufenthalt in Deutschland unterliegen der unbeschränkten Einkommensteuerpflicht auf ihr Welteinkommen.",
+    "estg_provision_1": "§ 2 EStG — Einkunftsarten: Abschließende Definition der sieben Einkunftsarten, darunter Einkünfte aus Gewerbebetrieb, aus selbstständiger Arbeit und aus Kapitalvermögen.",
+    "estg_provision_2": "§ 19 EStG — Einkünfte aus nichtselbstständiger Arbeit: Regelung der Besteuerung von Arbeitslohn, Gehalt, Gratifikationen und geldwerten Vorteilen aus einem Arbeitsverhältnis.",
+    "estg_provision_3": "§ 49 EStG — Beschränkte Steuerpflicht: Besteuerung von Einkünften aus deutschen Quellen bei Personen ohne Wohnsitz in Deutschland — relevant für ausländische Gesellschafter und Geschäftsführer.",
+    "estg_consulting_headline": "FIECON-Beratung im EStG-Kontext",
+    "estg_consulting_text": "FIECON begleitet international tätige Unternehmer, Gesellschafter und Selbstständige bei der Analyse und Optimierung ihrer steuerlichen Situation unter dem EStG. Wir prüfen die persönliche Steuerpflicht, die Anwendbarkeit von Doppelbesteuerungsabkommen und entwickeln steuerlich effiziente Gesellschafts- und Vergütungsstrukturen. Für Selbstständige beraten wir zudem zur steuerlich optimalen Gestaltung der Vorsorge, insbesondere im Zusammenspiel mit der privaten Krankenversicherung.",
+    "cta_headline": "Regulatorische Fragen? Wir haben die Antworten.",
+    "cta_subline": "Ob KWG-Erlaubnisantrag, VAG-konforme Versicherungsstruktur oder steuerliche Optimierung nach EStG — sprechen Sie uns an.",
+    "cta_button": "Senda tölvupóst",
+    "cta_back": "Zur Startseite",
+    "kwg_provision_4": "§ 46 KWG — Maßnahmen bei Gefahr: Eingriffsbefugnisse der BaFin bei aufsichtsrechtlichen Missständen, insbesondere zur Sicherung der ordnungsgemäßen Geschäftsführung und zum Schutz von Gläubigern.",
+    "vag_provision_4": "§ 311 VAG — Besondere Vorgaben für die private Krankenversicherung: Regelungen zur Kalkulation, Prämienanpassung und dauerhaften Finanzierung über Alterungsrückstellungen.",
+    "estg_provision_4": "§ 22 EStG — Sonstige Einkünfte: Besteuerung insbesondere von wiederkehrenden Bezügen wie Renten sowie bestimmter weiterer Einkünfte außerhalb der klassischen Einkunftsarten.",
+    "estg_provision_5": "§ 23 EStG — Private Veräußerungsgeschäfte: Steuerliche Erfassung von Gewinnen aus der Veräußerung privater Wirtschaftsgüter innerhalb der gesetzlichen Haltefristen."
   },
   "fourPointPlan": {
-    "badge": "Four-Point Plan",
-    "headline": "Our Four-Point Plan for Financial Independence",
-    "subtitle": "A structured end-to-end strategy with operational execution and long-term asset protection.",
-    "intro": "The model follows a classical entrepreneurial sequence: build structure, optimize taxes, reduce costs, and build long-term tax-efficient wealth. What matters most is not only strategy, but disciplined execution in day-to-day business.",
-    "cta_details": "View detailed plan",
+    "badge": "Vier-Punkte-Plan",
+    "headline": "Unser Vier-Punkte-Plan zur finanziellen Unabhängigkeit",
+    "subtitle": "Strukturierte Gesamtstrategie mit operativer Umsetzung und langfristiger Vermögenssicherung.",
+    "intro": "Der Plan folgt der klassischen unternehmerischen Logik: Struktur aufbauen, Steuern optimieren, Kosten senken und Vermögen langfristig steuerfrei aufbauen. Entscheidend ist nicht nur die Strategie, sondern die saubere Umsetzung im Tagesgeschäft.",
+    "cta_details": "Detaillierten Plan ansehen",
     "detail": {
-      "meta_title": "Four-Point Plan for Financial Independence",
-      "meta_description": "Detailed view of the FIECON Four-Point Plan: strategy and organization, tax optimization, financial relief, and tax-efficient long-term wealth building.",
-      "headline": "Four-Point Plan in Detail",
-      "subtitle": "Comprehensive breakdown of all measures, sub-areas, and execution priorities.",
-      "navigation_label": "Interactive Navigation",
-      "focus_label": "Active Focus",
-      "subpoints_label": "Sub-areas",
-      "items_label": "Measures",
-      "cta_panel_title": "From Strategy to Execution",
-      "cta_panel_text": "We do not only design strategy - we support the operational implementation of every single measure.",
-      "cta_contact": "Schedule a strategy call",
-      "cta_back_home": "Back to homepage"
+      "meta_title": "Vier-Punkte-Plan zur finanziellen Unabhängigkeit",
+      "meta_description": "Detaillierte Darstellung des FIECON Vier-Punkte-Plans: Strategie und Organisation, steuerliche Optimierung, finanzielle Entlastung und steuerfreier Vermögensaufbau.",
+      "headline": "Vier-Punkte-Plan im Detail",
+      "subtitle": "Detaillierte Ausarbeitung aller Maßnahmen, Teilbereiche und operativen Umsetzungsschritte.",
+      "navigation_label": "Interaktive Navigation",
+      "focus_label": "Aktiver Schwerpunkt",
+      "subpoints_label": "Teilbereiche",
+      "items_label": "Maßnahmen",
+      "cta_panel_title": "Vom Plan zur Umsetzung",
+      "cta_panel_text": "Wir begleiten Sie nicht nur bei der Strategie, sondern bei der operativen Implementierung jeder einzelnen Maßnahme.",
+      "cta_contact": "Strategiegespräch vereinbaren",
+      "cta_back_home": "Zur Startseite"
     },
     "points": {
       "strategy": {
-        "title": "Strategy and Organization",
-        "teaser": "Define target structures clearly and execute operations efficiently.",
-        "description": "Daily operations executed through clear governance and resilient structures.",
+        "title": "Strategie und Organisation",
+        "teaser": "Klare Zielstruktur und effiziente Umsetzung im Tagesgeschäft.",
+        "description": "Umsetzung des Tagesgeschäfts mit klaren Verantwortlichkeiten und belastbarer Struktur.",
         "subpoints": {
           "1_1": {
-            "title": "1.1 Clear definition of the business target structure",
+            "title": "1.1 Klare Definition der geschäftlichen Zielstruktur",
             "items": {
-              "0": "Definition of legal entities and ownership structure",
-              "1": "Expansion of existing business models",
-              "2": "Separation of operating business and asset management",
-              "3": "Establishment of a legally robust organizational setup"
+              "0": "Festlegung der Unternehmensform(en) und Beteiligungsstruktur",
+              "1": "Erweiterung bestehender Geschäftsmodelle",
+              "2": "Trennung von operativem Geschäft und Vermögensverwaltung",
+              "3": "Aufbau einer rechtssicheren Organisationsstruktur"
             }
           },
           "1_2": {
-            "title": "1.2 Efficient organization of day-to-day business",
+            "title": "1.2 Effiziente Organisation des Tagesgeschäfts",
             "items": {
-              "0": "Standardization of core processes",
-              "1": "Delegation of operational activities",
-              "2": "Use of external service providers (tax advisor, accounting, administration)"
+              "0": "Standardisierung von Abläufen",
+              "1": "Delegation operativer Tätigkeiten",
+              "2": "Nutzung externer Dienstleister (Steuerberater, Buchhaltung, Verwaltung)"
             }
           }
         }
       },
       "tax": {
-        "title": "Tax Optimization",
-        "teaser": "Align company and profit structures with tax precision.",
-        "description": "Compliant tax architecture that protects liquidity and supports growth.",
+        "title": "Steuerliche Optimierung",
+        "teaser": "Gesellschafts- und Gewinnstruktur steuerlich präzise ausrichten.",
+        "description": "Rechtskonforme Steuerstruktur, die Liquidität sichert und Wachstum fördert.",
         "subpoints": {
           "2_1": {
-            "title": "2.1 Selecting the right company structure",
+            "title": "2.1 Wahl der richtigen Gesellschaftsstruktur",
             "items": {
-              "0": "Combination of corporation and partnership structures",
-              "1": "Use of holding structures",
-              "2": "Separation of private assets and business assets"
+              "0": "Kombination aus Kapitalgesellschaft und Personengesellschaft",
+              "1": "Nutzung von Holding-Strukturen",
+              "2": "Trennung von Privatvermögen und Betriebsvermögen"
             }
           },
           "2_2": {
-            "title": "2.2 Profit allocation and tax structuring",
+            "title": "2.2 Gewinnverlagerung und Gestaltung",
             "items": {
-              "0": "Use of operating expenses",
-              "1": "Structuring of managing director salary and profit distribution",
-              "2": "Use of tax allowances"
+              "0": "Nutzung von Betriebsausgaben",
+              "1": "Gestaltung von Geschäftsführergehalt und Gewinnausschüttung",
+              "2": "Nutzung steuerlicher Freibeträge"
             }
           },
           "2_3": {
-            "title": "2.3 Asset building inside business assets",
+            "title": "2.3 Vermögensaufbau im Betriebsvermögen",
             "items": {
-              "0": "Investments made through the company"
+              "0": "Investitionen über die Gesellschaft"
             }
           }
         }
       },
       "relief": {
-        "title": "Financial Relief",
-        "teaser": "Reduce recurring burdens with focused cost optimization, especially PKV.",
-        "description": "Targeted reduction of recurring burdens, especially in private health insurance.",
+        "title": "Finanzielle Entlastung",
+        "teaser": "Laufende Kosten gezielt reduzieren, insbesondere im PKV-Bereich.",
+        "description": "Gezielte Entlastung der laufenden Kosten, insbesondere im Bereich der PKV.",
         "subpoints": {
           "3_1": {
-            "title": "3.1 Analysis of the current cost structure",
+            "title": "3.1 Analyse der bestehenden Kostenstruktur",
             "items": {
-              "0": "Health insurance",
-              "1": "Retirement provision",
-              "2": "Ongoing private obligations"
+              "0": "Krankenversicherung",
+              "1": "Altersvorsorge",
+              "2": "Laufende private Verpflichtungen"
             }
           }
         }
       },
       "pension": {
-        "title": "Tax-Free Retirement Wealth",
-        "teaser": "Long-term tax-free wealth building aligned with statutory holding periods.",
-        "description": "Tax-free retirement wealth strategy focused on statutory holding periods, long-term planning, and legally robust implementation.",
+        "title": "Steuerfreie Rente",
+        "teaser": "Langfristiger Aufbau steuerfreien Vermögens unter Berücksichtigung der gesetzlichen Haltedauer.",
+        "description": "Aufbau der steuerfreien Rente mit Fokus auf gesetzliche Haltedauer, langfristige Planung und rechtssicheren Vermögensaufbau.",
         "subpoints": {
           "4_1": {
-            "title": "4.1 Core principle of tax-free wealth accumulation",
+            "title": "4.1 Grundprinzip des steuerfreien Vermögensaufbaus",
             "items": {
-              "0": "Investment with a long-term holding horizon",
-              "1": "Use of statutory tax exemptions",
-              "2": "Planning over at least 10+ years"
+              "0": "Investition mit langfristiger Haltedauer",
+              "1": "Nutzung gesetzlicher Steuerbefreiungen",
+              "2": "Planung über mindestens 10+ Jahre"
             }
           }
         }

@@ -98,10 +98,8 @@ export const NAV_LINKS = [
 ] as const;
 export type NavLinkItem = (typeof NAV_LINKS)[number];
 
-const FOUR_POINT_PLAN_LOCALES = new Set(["de", "en"]);
-
 export function isFourPointPlanLocale(locale: string) {
-  return FOUR_POINT_PLAN_LOCALES.has(locale);
+  return LOCALES.some((supportedLocale) => supportedLocale.code === locale);
 }
 
 export function getNavLinks(locale: string) {
