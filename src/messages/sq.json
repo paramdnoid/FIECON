@@ -20,7 +20,7 @@
     "close_menu": "Mbyll menynë",
     "skip_to_content": "Kalo te përmbajtja",
     "gesetze": "Legjislacioni",
-    "four_point_plan": "Vier-Punkte-Plan"
+    "four_point_plan": "Plani me katër pika"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -117,21 +117,21 @@
     "laws": {
       "kwg": {
         "abbreviation": "KWG",
-        "name": "Kreditwesengesetz",
+        "name": "Ligji për bankat",
         "description": "Rregullon kërkesat e licencimit për veprimtaritë bankare dhe shërbimet financiare në Gjermani. KWG formon bazën e mbikëqyrjes së BaFin dhe përcakton në § 1 KWG termat kryesore si dhe në § 25a KWG kërkesat për organizim të duhur të biznesit."
       },
       "vag": {
         "abbreviation": "VAG",
-        "name": "Versicherungsaufsichtsgesetz",
+        "name": "Ligji i Mbikëqyrjes së Sigurimeve",
         "description": "Rregullon mbikëqyrjen e kompanive të sigurimit dhe shërben për mbrojtjen e të siguruarve. VAG siguron që siguruesit mund të përmbushin përgjithmonë detyrimet e tyre dhe menaxhohen në mënyrë të duhur."
       },
       "estg": {
         "abbreviation": "EStG",
-        "name": "Einkommensteuergesetz",
+        "name": "Ligji për tatimin mbi të ardhurat",
         "description": "Rregullon tatimin e të ardhurave të personave fizikë në Gjermani. EStG përcakton llojet e të ardhurave, përjashtimet tatimore dhe normat tatimore, duke formuar bazën e tatimit mbi të ardhurat personale."
       }
     },
-    "mehr_erfahren": "Mehr erfahren"
+    "mehr_erfahren": "Mësoni më shumë"
   },
   "approach": {
     "badge": "Qasja jonë",
@@ -187,7 +187,7 @@
     "subtitle": "Qoftë një pyetje fillestare apo një projekt konkret — ne marrim kohë për ju.",
     "phone": "Telefoni",
     "mobile": "Celulari",
-    "email": "E-Mail",
+    "email": "e-mail",
     "address": "Adresa",
     "cta": "Dërgo email",
     "dialog": {
@@ -283,7 +283,7 @@
     "contact_title": "Kontakti",
     "phone_label": "Telefoni",
     "mobile_label": "Celulari",
-    "email_label": "E-Mail",
+    "email_label": "e-mail",
     "homepage_label": "Faqja e internetit",
     "responsible_title": "Përgjegjës për përmbajtjen sipas § 55 par. 2 RStV",
     "responsible_name": "Peter Fiegler",
@@ -319,15 +319,15 @@
     "section_5_rights_4": "E drejta e transportueshmërisë së të dhënave (Art. 20 DSGVO)",
     "section_5_rights_5": "E drejta e kundërshtimit të përpunimit (Art. 21 DSGVO)",
     "section_5_text_2": "Ju gjithashtu keni të drejtën të paraqisni një ankesë pranë një autoriteti mbikëqyrës të mbrojtjes së të dhënave rreth përpunimit të të dhënave tuaja personale nga ana jonë.",
-    "section_6_title": "6. Cookies",
+    "section_6_title": "6. Biskota",
     "section_6_text": "Faqja jonë e internetit përdor një cookie funksional (NEXT_LOCALE) për të ruajtur preferencën tuaj të gjuhës. Ky cookie është teknikisht i nevojshëm dhe nuk kërkon pëlqim sipas § 25 par. 2 TDDDG. Nuk përdoren cookies gjurmimi ose analitike.",
     "section_7_title": "7. Ndryshimet në këtë politikë privatësie",
     "section_7_text": "Kjo politikë privatësie është aktualisht e vlefshme. Për shkak të zhvillimit të mëtejshëm të faqes sonë të internetit ose për shkak të kërkesave të ndryshuara ligjore ose rregullatore, mund të bëhet e nevojshme ndryshimi i kësaj politike të privatësisë.",
-    "email_label": "E-Mail",
+    "email_label": "e-mail",
     "contact_label": "Kontakti"
   },
   "team": {
-    "nav_label": "Team",
+    "nav_label": "ekipi",
     "competencies_headline": "Fushat e kompetencës",
     "cta_headline": "Le të fillojmë një bisedë",
     "cta_subline": "Qoftë një pyetje fillestare apo një projekt konkret — ne marrim kohë për ju.",
@@ -365,159 +365,159 @@
     "service_yacht": "Financimi i ndërtimit të jahteve"
   },
   "gesetze_page": {
-    "meta_title": "Rechtliche Grundlagen — KWG, VAG & EStG",
-    "meta_description": "FIECON erläutert die regulatorischen Grundlagen: Kreditwesengesetz, Versicherungsaufsichtsgesetz und Einkommensteuergesetz — und wie wir Mandanten dabei begleiten.",
-    "breadcrumb_home": "Startseite",
-    "breadcrumb_current": "Gesetze",
-    "hero_badge": "Regulatorischer Rahmen",
-    "hero_headline": "Rechtliche Grundlagen",
-    "hero_intro_1": "Die Beratungspraxis von FIECON ist tief im deutschen und europäischen Regulierungsrahmen verankert. Das Kreditwesengesetz, das Versicherungsaufsichtsgesetz und das Einkommensteuergesetz bilden die rechtliche Grundlage für wesentliche Teile unserer täglichen Beratungsarbeit — von der Strukturierung internationaler Gesellschaften bis zur steuerlichen Optimierung für Unternehmer.",
-    "hero_intro_2": "Auf dieser Seite stellen wir Ihnen die drei zentralen Gesetze vor, erläutern ihre wesentlichen Regelungsbereiche und zeigen, wie FIECON Mandanten konkret dabei unterstützt, die Anforderungen dieser Regelwerke rechtssicher und effizient zu erfüllen.",
+    "meta_title": "Baza ligjore - KWG, VAG & EStG",
+    "meta_description": "FIECON shpjegon bazën rregullatore: Aktin Bankar, Aktin e Mbikëqyrjes së Sigurimeve dhe Aktin e Tatimit mbi të Ardhurat - dhe si i mbështesim klientët në këtë drejtim.",
+    "breadcrumb_home": "Faqja kryesore",
+    "breadcrumb_current": "Ligjet",
+    "hero_badge": "Kuadri rregullator",
+    "hero_headline": "Baza ligjore",
+    "hero_intro_1": "Praktika e konsultimit të FIECON është thellësisht e ankoruar në kuadrin rregullator gjerman dhe evropian. Akti Bankar, Akti i Mbikëqyrjes së Sigurimeve dhe Akti i Tatimit mbi të Ardhurat përbëjnë bazën ligjore për pjesët thelbësore të punës sonë të përditshme këshilluese - nga strukturimi i kompanive ndërkombëtare deri te optimizimi i taksave për sipërmarrësit.",
+    "hero_intro_2": "Në këtë faqe ne ju prezantojmë me tre ligjet qendrore, shpjegojmë fushat e tyre kryesore rregullatore dhe tregojmë se si FIECON mbështet në mënyrë specifike klientët në përmbushjen e kërkesave të këtyre rregulloreve në një mënyrë të sigurt dhe efikase ligjërisht.",
     "hero_chip_kwg": "KWG",
     "hero_chip_vag": "VAG",
     "hero_chip_estg": "EStG",
     "kwg_abbreviation": "KWG",
-    "kwg_name": "Kreditwesengesetz",
-    "kwg_intro": "Das Kreditwesengesetz (KWG) bildet das Fundament der deutschen Bankenaufsicht. Es regelt, unter welchen Voraussetzungen Unternehmen Bankgeschäfte oder Finanzdienstleistungen erbringen dürfen, und legt die Anforderungen an Organisation, Kapitalausstattung und interne Kontrolle fest. Die Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin) überwacht auf Grundlage des KWG alle erlaubnispflichtigen Institute in Deutschland.",
-    "kwg_detail": "Für Unternehmen, die Bankgeschäfte betreiben oder Finanzdienstleistungen erbringen wollen, ist die Erlaubnispflicht nach § 32 KWG von zentraler Bedeutung. Das KWG definiert in § 1 einen breiten Katalog erlaubnispflichtiger Tätigkeiten — von der Kreditvergabe über die Anlageberatung bis hin zur Abschlussvermittlung. Gleichzeitig verpflichtet § 25a Institute zu einer ordnungsgemäßen Geschäftsorganisation mit angemessenem Risikomanagement.",
-    "kwg_provisions_headline": "Wesentliche Regelungen",
-    "kwg_provision_0": "§ 1 KWG — Begriffsbestimmungen: Abschließende Definition aller erlaubnispflichtigen Bank- und Finanzdienstleistungsgeschäfte, einschließlich Kreditgeschäft, Einlagengeschäft und Anlageberatung.",
-    "kwg_provision_1": "§ 25a KWG — Besondere organisatorische Pflichten: Anforderungen an eine ordnungsgemäße Geschäftsorganisation mit angemessenem Risikomanagement, internen Kontrollverfahren und Compliance-Strukturen.",
-    "kwg_provision_2": "§ 32 KWG — Erlaubnispflicht: Verbot der gewerbsmäßigen Erbringung von Bankgeschäften und Finanzdienstleistungen ohne schriftliche Erlaubnis der BaFin.",
-    "kwg_provision_3": "§ 44 KWG — Prüfungsrechte der BaFin: Befugnisse der Aufsichtsbehörde zur Durchführung von Prüfungen bei Instituten und zur Anforderung von Auskünften und Unterlagen.",
-    "kwg_consulting_headline": "FIECON-Beratung im KWG-Kontext",
-    "kwg_consulting_text": "FIECON begleitet Unternehmen und Gründer bei der Prüfung der Erlaubnispflicht nach dem KWG, bei der Vorbereitung und Einreichung von BaFin-Erlaubnisanträgen sowie bei der Implementierung der organisatorischen Anforderungen nach § 25a KWG. Wir unterstützen auch bei der laufenden regulatorischen Compliance und der Kommunikation mit der Aufsichtsbehörde.",
+    "kwg_name": "Ligji për bankat",
+    "kwg_intro": "Akti Bankar (KWG) përbën themelin e mbikëqyrjes bankare gjermane. Ai rregullon kushtet në të cilat kompanitë mund të ofrojnë shërbime bankare ose financiare dhe specifikon kërkesat për organizimin, burimet e kapitalit dhe kontrollin e brendshëm. Autoriteti Federal i Mbikëqyrjes Financiare (BaFin) monitoron të gjitha institucionet në Gjermani që kërkojnë autorizim në bazë të KWG.",
+    "kwg_detail": "Për kompanitë që kryejnë biznes bankar ose duan të ofrojnë shërbime financiare, kërkesa e autorizimit në përputhje me nenin 32 të KWG është e një rëndësie qendrore. Në seksionin 1, KWG përcakton një katalog të gjerë të aktiviteteve që kërkojnë autorizim - nga dhënia e kredive deri te këshillat për investime dhe marrëveshjet ndërmjetësuese. Në të njëjtën kohë, neni 25a obligon institucionet që të kenë një organizatë të mirëfilltë biznesi me menaxhim të duhur të rrezikut.",
+    "kwg_provisions_headline": "Rregulloret thelbësore",
+    "kwg_provision_0": "§ 1 KWG - Përkufizime: Përkufizimi përfundimtar i të gjitha transaksioneve të shërbimeve bankare dhe financiare që kërkojnë autorizim, duke përfshirë biznesin kreditues, biznesin e depozitave dhe këshillimin për investime.",
+    "kwg_provision_1": "§ 25a KWG — Detyrime të veçanta organizative: Kërkesat për një organizatë të përshtatshme biznesi me menaxhim të duhur të rrezikut, procedura të kontrollit të brendshëm dhe struktura të pajtueshmërisë.",
+    "kwg_provision_2": "§ 32 KWG - Detyrimi për marrjen e lejes: Ndalimi i ofrimit komercial të transaksioneve bankare dhe shërbimeve financiare pa lejen me shkrim të BaFin.",
+    "kwg_provision_3": "Seksioni 44 KWG - Të drejtat e auditimit të BaFin: Kompetencat e autoritetit mbikëqyrës për të kryer auditime të institucioneve dhe për të kërkuar informacione dhe dokumente.",
+    "kwg_consulting_headline": "Konsulenca FIECON në kontekstin e KWG",
+    "kwg_consulting_text": "FIECON mbështet kompanitë dhe themeluesit në kontrollimin e kërkesës për autorizim sipas KWG, në përgatitjen dhe dorëzimin e aplikacioneve për autorizim BaFin dhe në zbatimin e kërkesave organizative sipas seksionit 25a KWG. Ne gjithashtu mbështesim pajtueshmërinë e vazhdueshme rregullatore dhe komunikimin me autoritetin mbikëqyrës.",
     "vag_abbreviation": "VAG",
-    "vag_name": "Versicherungsaufsichtsgesetz",
-    "vag_intro": "Das Versicherungsaufsichtsgesetz (VAG) regelt die staatliche Aufsicht über Versicherungsunternehmen in Deutschland und dient in erster Linie dem Schutz der Versicherungsnehmer. Es setzt die europäische Solvency II-Richtlinie in deutsches Recht um und stellt sicher, dass Versicherer dauerhaft in der Lage sind, ihre Verpflichtungen gegenüber den Versicherten zu erfüllen.",
-    "vag_detail": "Das VAG verpflichtet Versicherungsunternehmen zur Einhaltung umfangreicher Kapitalanforderungen (Solvency Capital Requirement und Minimum Capital Requirement) sowie zur ordnungsgemäßen Geschäftsführung durch geeignete und zuverlässige Personen. Für private Krankenversicherer gelten besondere Bestimmungen zur Kalkulation der Prämien und zur Bildung von Alterungsrückstellungen — ein Bereich, der für die Beratung selbstständiger Unternehmer besonders relevant ist.",
-    "vag_provisions_headline": "Wesentliche Regelungen",
-    "vag_provision_0": "§ 11 VAG — Erlaubnispflicht: Verbot des Betriebs von Versicherungsgeschäften ohne Erlaubnis der BaFin, verbunden mit einem Katalog der erlaubnispflichtigen Versicherungssparten.",
-    "vag_provision_1": "§ 124 VAG — Kapitalanlagemanagement: Anforderungen an die Anlage der Vermögenswerte nach dem Grundsatz der unternehmerischen Vorsicht (Prudent Person Principle).",
-    "vag_provision_2": "§ 22 VAG — Geschäftsleiter: Anforderungen an Zuverlässigkeit und fachliche Eignung der verantwortlichen Personen in Schlüsselfunktionen eines Versicherungsunternehmens.",
-    "vag_provision_3": "§ 294 VAG — Aufsichtsbefugnisse der BaFin: Umfangreiche Aufsichts- und Eingriffsbefugnisse der Bundesanstalt gegenüber beaufsichtigten Versicherungsunternehmen.",
-    "vag_consulting_headline": "FIECON-Beratung im VAG-Kontext",
-    "vag_consulting_text": "FIECON berät bei der Strukturierung von Versicherungslösungen für internationale Unternehmer und Selbstständige, insbesondere im Bereich der privaten Krankenversicherung (PKV). Wir analysieren Tarifstrukturen unter Berücksichtigung der aufsichtsrechtlichen Vorgaben des VAG und begleiten Mandanten bei der optimalen Absicherung ihrer persönlichen Risiken.",
+    "vag_name": "Ligji i Mbikëqyrjes së Sigurimeve",
+    "vag_intro": "Akti i Mbikëqyrjes së Sigurimeve (VAG) rregullon mbikëqyrjen shtetërore të kompanive të sigurimit në Gjermani dhe shërben kryesisht për të mbrojtur të siguruarit. Ai zbaton Direktivën Evropiane të Solvency II në ligjin gjerman dhe siguron që siguruesit të jenë në gjendje të përmbushin përgjithmonë detyrimet e tyre ndaj të siguruarit.",
+    "vag_detail": "VAG detyron kompanitë e sigurimeve të respektojnë kërkesat e mëdha të kapitalit (Kërkesat për kapital pagues dhe kërkesat minimale të kapitalit) si dhe menaxhimin e duhur nga njerëz të përshtatshëm dhe të besueshëm. Rregullore të veçanta zbatohen për siguruesit shëndetësorë privatë në lidhje me llogaritjen e primeve dhe formimin e provigjoneve të vjetërsisë - një fushë që është veçanërisht e rëndësishme për këshillimin e sipërmarrësve të vetëpunësuar.",
+    "vag_provisions_headline": "Rregulloret thelbësore",
+    "vag_provision_0": "§ 11 VAG - Detyrimi për marrjen e autorizimit: Ndalimi i kryerjes së biznesit të sigurimit pa lejen e BaFin, i kombinuar me një katalog të linjave të sigurimit që kërkojnë autorizim.",
+    "vag_provision_1": "§ 124 VAG - Menaxhimi i investimeve kapitale: Kërkesat për investimin e aktiveve në përputhje me parimin e kujdesit sipërmarrës (Prudent Person Principle).",
+    "vag_provision_2": "§ 22 VAG - Menaxherët: Kërkesat për besueshmërinë dhe përshtatshmërinë profesionale të personave përgjegjës në funksionet kyçe të një shoqërie sigurimesh.",
+    "vag_provision_3": "§ 294 VAG — Kompetencat mbikëqyrëse të BaFin: Kompetenca të gjera mbikëqyrëse dhe ndërhyrje të Autoritetit Federal të Mbikëqyrjes Financiare ndaj kompanive të mbikëqyrura të sigurimit.",
+    "vag_consulting_headline": "Konsulenca FIECON në kontekstin VAG",
+    "vag_consulting_text": "FIECON këshillon për strukturimin e zgjidhjeve të sigurimit për sipërmarrësit ndërkombëtarë dhe të vetëpunësuarit, veçanërisht në fushën e sigurimeve shëndetësore private (PKV). Ne analizojmë strukturat tarifore duke marrë parasysh kërkesat rregullatore të VAG dhe mbështesim klientët në sigurimin optimal të rreziqeve të tyre personale.",
     "estg_abbreviation": "EStG",
-    "estg_name": "Einkommensteuergesetz",
-    "estg_intro": "Das Einkommensteuergesetz (EStG) regelt die Besteuerung des Einkommens natürlicher Personen in Deutschland. Als das zentrale Steuergesetz für Privatpersonen und Selbstständige definiert es die sieben Einkunftsarten, die persönlichen Freibeträge sowie die progressiven Steuersätze. Für international tätige Unternehmer ist das EStG besonders bedeutsam, da Deutschland das Welteinkommensprinzip anwendet.",
-    "estg_detail": "Wer in Deutschland unbeschränkt steuerpflichtig ist (§ 1 EStG), muss grundsätzlich sein gesamtes weltweites Einkommen in Deutschland versteuern — unabhängig davon, wo es erzielt wurde. Die korrekte Abgrenzung der Steuerpflicht, die Anwendung von Doppelbesteuerungsabkommen und die steuerlich optimale Gestaltung von Gesellschaftsstrukturen sind daher wesentliche Beratungsfelder für international tätige Mandanten.",
-    "estg_provisions_headline": "Wesentliche Regelungen",
-    "estg_provision_0": "§ 1 EStG — Unbeschränkte Steuerpflicht: Natürliche Personen mit Wohnsitz oder gewöhnlichem Aufenthalt in Deutschland unterliegen der unbeschränkten Einkommensteuerpflicht auf ihr Welteinkommen.",
-    "estg_provision_1": "§ 2 EStG — Einkunftsarten: Abschließende Definition der sieben Einkunftsarten, darunter Einkünfte aus Gewerbebetrieb, aus selbstständiger Arbeit und aus Kapitalvermögen.",
-    "estg_provision_2": "§ 19 EStG — Einkünfte aus nichtselbstständiger Arbeit: Regelung der Besteuerung von Arbeitslohn, Gehalt, Gratifikationen und geldwerten Vorteilen aus einem Arbeitsverhältnis.",
-    "estg_provision_3": "§ 49 EStG — Beschränkte Steuerpflicht: Besteuerung von Einkünften aus deutschen Quellen bei Personen ohne Wohnsitz in Deutschland — relevant für ausländische Gesellschafter und Geschäftsführer.",
-    "estg_consulting_headline": "FIECON-Beratung im EStG-Kontext",
-    "estg_consulting_text": "FIECON begleitet international tätige Unternehmer, Gesellschafter und Selbstständige bei der Analyse und Optimierung ihrer steuerlichen Situation unter dem EStG. Wir prüfen die persönliche Steuerpflicht, die Anwendbarkeit von Doppelbesteuerungsabkommen und entwickeln steuerlich effiziente Gesellschafts- und Vergütungsstrukturen. Für Selbstständige beraten wir zudem zur steuerlich optimalen Gestaltung der Vorsorge, insbesondere im Zusammenspiel mit der privaten Krankenversicherung.",
-    "cta_headline": "Regulatorische Fragen? Wir haben die Antworten.",
-    "cta_subline": "Ob KWG-Erlaubnisantrag, VAG-konforme Versicherungsstruktur oder steuerliche Optimierung nach EStG — sprechen Sie uns an.",
+    "estg_name": "Ligji për tatimin mbi të ardhurat",
+    "estg_intro": "Akti i Tatimit mbi të Ardhurat (EStG) rregullon tatimin e të ardhurave të personave fizikë në Gjermani. Si ligji qendror i taksave për individët privatë dhe të vetëpunësuarit, ai përcakton shtatë llojet e të ardhurave, shtesat personale dhe normat e taksave progresive. EStG është veçanërisht i rëndësishëm për sipërmarrësit aktivë ndërkombëtarë, sepse Gjermania zbaton parimin e të ardhurave globale.",
+    "estg_detail": "Kushdo që i nënshtrohet detyrimit tatimor të pakufizuar në Gjermani (§ 1 EStG) në përgjithësi duhet të paguajë tatimin mbi të gjitha të ardhurat e tij në mbarë botën në Gjermani - pavarësisht se ku janë fituar. Përcaktimi i saktë i detyrimit tatimor, zbatimi i marrëveshjeve të taksimit të dyfishtë dhe dizajni optimal tatimor i strukturave të korporatave janë për këtë arsye fusha thelbësore të këshillimit për klientët aktivë ndërkombëtarë.",
+    "estg_provisions_headline": "Rregulloret thelbësore",
+    "estg_provision_0": "§ 1 EStG - Detyrim tatimor i pakufizuar: Personat fizikë me banim ose vendbanim të zakonshëm në Gjermani i nënshtrohen detyrimit të pakufizuar tatimor mbi të ardhurat e tyre në mbarë botën.",
+    "estg_provision_1": "§ 2 EStG — Llojet e të ardhurave: Përkufizimi përfundimtar i shtatë llojeve të të ardhurave, duke përfshirë të ardhurat nga operacionet tregtare, nga vetëpunësimi dhe nga aktivet kapitale.",
+    "estg_provision_2": "§ 19 EStG - Të ardhura nga punësimi: Rregullimi i taksimit të pagave, mëditjeve, shpërblimeve dhe përfitimeve monetare nga një marrëdhënie pune.",
+    "estg_provision_3": "§ 49 EStG - Detyrim i kufizuar tatimor: Tatimi i të ardhurave nga burimet gjermane për personat pa vendbanim në Gjermani - relevante për aksionarët dhe drejtorët e huaj të huaj.",
+    "estg_consulting_headline": "Këshilla FIECON në kontekstin EStG",
+    "estg_consulting_text": "FIECON mbështet sipërmarrësit ndërkombëtarë aktivë, aksionerët dhe njerëzit e vetëpunësuar në analizimin dhe optimizimin e situatës së tyre tatimore sipas EStG. Ne shqyrtojmë detyrimin tatimor personal, zbatueshmërinë e marrëveshjeve të taksimit të dyfishtë dhe zhvillojmë struktura të korporatave dhe shpërblimeve me efikasitet tatimor. Për të vetëpunësuarit, ne këshillojmë edhe strukturën optimale të taksave për sigurimin e pensioneve, veçanërisht në lidhje me sigurimet shëndetësore private.",
+    "cta_headline": "Pyetje rregullatore? Ne i kemi përgjigjet.",
+    "cta_subline": "Nëse është një aplikim për leje KWG, një strukturë sigurimi në përputhje me VAG ose optimizim tatimor sipas EStG - flisni me ne.",
     "cta_button": "Dërgo email",
-    "cta_back": "Zur Startseite",
-    "kwg_provision_4": "§ 46 KWG — Maßnahmen bei Gefahr: Eingriffsbefugnisse der BaFin bei aufsichtsrechtlichen Missständen, insbesondere zur Sicherung der ordnungsgemäßen Geschäftsführung und zum Schutz von Gläubigern.",
-    "vag_provision_4": "§ 311 VAG — Besondere Vorgaben für die private Krankenversicherung: Regelungen zur Kalkulation, Prämienanpassung und dauerhaften Finanzierung über Alterungsrückstellungen.",
-    "estg_provision_4": "§ 22 EStG — Sonstige Einkünfte: Besteuerung insbesondere von wiederkehrenden Bezügen wie Renten sowie bestimmter weiterer Einkünfte außerhalb der klassischen Einkunftsarten.",
-    "estg_provision_5": "§ 23 EStG — Private Veräußerungsgeschäfte: Steuerliche Erfassung von Gewinnen aus der Veräußerung privater Wirtschaftsgüter innerhalb der gesetzlichen Haltefristen."
+    "cta_back": "Në faqen kryesore",
+    "kwg_provision_4": "§ 46 KWG - Masat në rast rreziku: Kompetencat e BaFin për të ndërhyrë në rast ankesash rregullatore, në veçanti për të siguruar menaxhimin e duhur dhe për të mbrojtur kreditorët.",
+    "vag_provision_4": "§ 311 VAG - Kërkesa të veçanta për sigurimin shëndetësor privat: rregullore për llogaritjen, rregullimin e primit dhe financimin e përhershëm nëpërmjet dispozitave të vjetërsisë.",
+    "estg_provision_4": "§ 22 EStG - Të ardhura të tjera: Taksimi në veçanti i pagesave të përsëritura si pensionet dhe disa të ardhura të tjera jashtë llojeve klasike të të ardhurave.",
+    "estg_provision_5": "§ 23 EStG - Transaksionet e shitjeve private: Njohja tatimore e fitimeve nga shitja e aktiveve private brenda periudhave të mbajtjes me ligj."
   },
   "fourPointPlan": {
-    "badge": "Vier-Punkte-Plan",
-    "headline": "Unser Vier-Punkte-Plan zur finanziellen Unabhängigkeit",
-    "subtitle": "Strukturierte Gesamtstrategie mit operativer Umsetzung und langfristiger Vermögenssicherung.",
-    "intro": "Der Plan folgt der klassischen unternehmerischen Logik: Struktur aufbauen, Steuern optimieren, Kosten senken und Vermögen langfristig steuerfrei aufbauen. Entscheidend ist nicht nur die Strategie, sondern die saubere Umsetzung im Tagesgeschäft.",
-    "cta_details": "Detaillierten Plan ansehen",
+    "badge": "Plani me katër pika",
+    "headline": "Plani ynë me katër pika për pavarësinë financiare",
+    "subtitle": "Strategji e përgjithshme e strukturuar me zbatim operacional dhe mbrojtje afatgjatë të aseteve.",
+    "intro": "Plani ndjek logjikën klasike të sipërmarrjes: ndërtimi i strukturës, optimizimi i taksave, reduktimi i kostove dhe ndërtimi i aktiveve pa taksa në afat të gjatë. Nuk është e rëndësishme vetëm strategjia, por edhe zbatimi i duhur i saj në biznesin e përditshëm.",
+    "cta_details": "Shikoni planin e detajuar",
     "detail": {
-      "meta_title": "Vier-Punkte-Plan zur finanziellen Unabhängigkeit",
-      "meta_description": "Detaillierte Darstellung des FIECON Vier-Punkte-Plans: Strategie und Organisation, steuerliche Optimierung, finanzielle Entlastung und steuerfreier Vermögensaufbau.",
-      "headline": "Vier-Punkte-Plan im Detail",
-      "subtitle": "Detaillierte Ausarbeitung aller Maßnahmen, Teilbereiche und operativen Umsetzungsschritte.",
-      "navigation_label": "Interaktive Navigation",
-      "focus_label": "Aktiver Schwerpunkt",
-      "subpoints_label": "Teilbereiche",
-      "items_label": "Maßnahmen",
-      "cta_panel_title": "Vom Plan zur Umsetzung",
-      "cta_panel_text": "Wir begleiten Sie nicht nur bei der Strategie, sondern bei der operativen Implementierung jeder einzelnen Maßnahme.",
-      "cta_contact": "Strategiegespräch vereinbaren",
-      "cta_back_home": "Zur Startseite"
+      "meta_title": "Plani me katër pika për pavarësi financiare",
+      "meta_description": "Prezantimi i detajuar i planit me katër pika FIECON: strategjia dhe organizimi, optimizimi i taksave, lehtësimi financiar dhe krijimi i pasurisë pa taksa.",
+      "headline": "Plani me katër pika në detaje",
+      "subtitle": "Elaborimi i detajuar i të gjitha masave, nënfushat dhe hapat operacional të zbatimit.",
+      "navigation_label": "Navigacion interaktiv",
+      "focus_label": "Fokusi aktiv",
+      "subpoints_label": "Nënzonat",
+      "items_label": "Masat",
+      "cta_panel_title": "Nga plani në zbatim",
+      "cta_panel_text": "Ne ju mbështesim jo vetëm me strategjinë, por edhe me zbatimin operacional të çdo mase individuale.",
+      "cta_contact": "Organizoni një takim strategjik",
+      "cta_back_home": "Në faqen kryesore"
     },
     "points": {
       "strategy": {
-        "title": "Strategie und Organisation",
-        "teaser": "Klare Zielstruktur und effiziente Umsetzung im Tagesgeschäft.",
-        "description": "Umsetzung des Tagesgeschäfts mit klaren Verantwortlichkeiten und belastbarer Struktur.",
+        "title": "Strategjia dhe organizimi",
+        "teaser": "Strukturë e qartë e objektivit dhe zbatim efikas në biznesin e përditshëm.",
+        "description": "Zbatimi i biznesit të përditshëm me përgjegjësi të qarta dhe një strukturë elastike.",
         "subpoints": {
           "1_1": {
-            "title": "1.1 Klare Definition der geschäftlichen Zielstruktur",
+            "title": "1.1 Përkufizim i qartë i strukturës së objektivit të biznesit",
             "items": {
-              "0": "Festlegung der Unternehmensform(en) und Beteiligungsstruktur",
-              "1": "Erweiterung bestehender Geschäftsmodelle",
-              "2": "Trennung von operativem Geschäft und Vermögensverwaltung",
-              "3": "Aufbau einer rechtssicheren Organisationsstruktur"
+              "0": "Përcaktimi i formës(ve) të shoqërisë dhe strukturës së aksioneve",
+              "1": "Zgjerimi i modeleve ekzistuese të biznesit",
+              "2": "Ndarja e biznesit operativ dhe menaxhimi i aseteve",
+              "3": "Ndërtimi i një strukture organizative të sigurt ligjërisht"
             }
           },
           "1_2": {
-            "title": "1.2 Effiziente Organisation des Tagesgeschäfts",
+            "title": "1.2 Organizimi efikas i biznesit të përditshëm",
             "items": {
-              "0": "Standardisierung von Abläufen",
-              "1": "Delegation operativer Tätigkeiten",
-              "2": "Nutzung externer Dienstleister (Steuerberater, Buchhaltung, Verwaltung)"
+              "0": "Standardizimi i proceseve",
+              "1": "Delegimi i aktiviteteve operative",
+              "2": "Përdorimi i ofruesve të shërbimeve të jashtme (këshilltarë tatimorë, kontabilitet, administratë)"
             }
           }
         }
       },
       "tax": {
-        "title": "Steuerliche Optimierung",
-        "teaser": "Gesellschafts- und Gewinnstruktur steuerlich präzise ausrichten.",
-        "description": "Rechtskonforme Steuerstruktur, die Liquidität sichert und Wachstum fördert.",
+        "title": "Optimizimi i taksave",
+        "teaser": "Përafroni strukturën e kompanisë dhe fitimit pikërisht për qëllime tatimore.",
+        "description": "Struktura tatimore në përputhje me ligjin që siguron likuiditet dhe nxit rritjen.",
         "subpoints": {
           "2_1": {
-            "title": "2.1 Wahl der richtigen Gesellschaftsstruktur",
+            "title": "2.1 Zgjedhja e strukturës së duhur të korporatës",
             "items": {
-              "0": "Kombination aus Kapitalgesellschaft und Personengesellschaft",
-              "1": "Nutzung von Holding-Strukturen",
-              "2": "Trennung von Privatvermögen und Betriebsvermögen"
+              "0": "Kombinimi i korporatës dhe partneritetit",
+              "1": "Përdorimi i strukturave mbajtëse",
+              "2": "Ndarja e aseteve private dhe aseteve të biznesit"
             }
           },
           "2_2": {
-            "title": "2.2 Gewinnverlagerung und Gestaltung",
+            "title": "2.2 Zhvendosja e fitimit dhe dizajni",
             "items": {
-              "0": "Nutzung von Betriebsausgaben",
-              "1": "Gestaltung von Geschäftsführergehalt und Gewinnausschüttung",
-              "2": "Nutzung steuerlicher Freibeträge"
+              "0": "Përdorimi i shpenzimeve të biznesit",
+              "1": "Dizajnimi i pagave të drejtorit menaxhues dhe shpërndarjes së fitimit",
+              "2": "Përdorimi i lehtësirave tatimore"
             }
           },
           "2_3": {
-            "title": "2.3 Vermögensaufbau im Betriebsvermögen",
+            "title": "2.3 Akumulimi i aseteve në asetet e biznesit",
             "items": {
-              "0": "Investitionen über die Gesellschaft"
+              "0": "Investimet përmes shoqërisë"
             }
           }
         }
       },
       "relief": {
-        "title": "Finanzielle Entlastung",
-        "teaser": "Laufende Kosten gezielt reduzieren, insbesondere im PKV-Bereich.",
-        "description": "Gezielte Entlastung der laufenden Kosten, insbesondere im Bereich der PKV.",
+        "title": "Lehtësim financiar",
+        "teaser": "Ulje e synuar e kostove të vazhdueshme, veçanërisht në sektorin privat të sigurimeve shëndetësore.",
+        "description": "Lehtësim i synuar i kostove të vazhdueshme, veçanërisht në fushën e sigurimit shëndetësor privat.",
         "subpoints": {
           "3_1": {
-            "title": "3.1 Analyse der bestehenden Kostenstruktur",
+            "title": "3.1 Analiza e strukturës ekzistuese të kostos",
             "items": {
-              "0": "Krankenversicherung",
-              "1": "Altersvorsorge",
-              "2": "Laufende private Verpflichtungen"
+              "0": "sigurimi shëndetësor",
+              "1": "Planifikimi i daljes në pension",
+              "2": "Angazhime personale të vazhdueshme"
             }
           }
         }
       },
       "pension": {
-        "title": "Steuerfreie Rente",
-        "teaser": "Langfristiger Aufbau steuerfreien Vermögens unter Berücksichtigung der gesetzlichen Haltedauer.",
-        "description": "Aufbau der steuerfreien Rente mit Fokus auf gesetzliche Haltedauer, langfristige Planung und rechtssicheren Vermögensaufbau.",
+        "title": "Pension pa taksa",
+        "teaser": "Akumulimi afatgjatë i aktiveve pa taksa, duke marrë parasysh periudhën e mbajtjes ligjore.",
+        "description": "Ndërtimi i një pensioni pa taksa me fokus në periudhat e mbajtjes ligjore, planifikimin afatgjatë dhe akumulimin e aseteve të sigurta ligjërisht.",
         "subpoints": {
           "4_1": {
-            "title": "4.1 Grundprinzip des steuerfreien Vermögensaufbaus",
+            "title": "4.1 Parimi bazë i akumulimit të aktiveve pa taksa",
             "items": {
-              "0": "Investition mit langfristiger Haltedauer",
-              "1": "Nutzung gesetzlicher Steuerbefreiungen",
-              "2": "Planung über mindestens 10+ Jahre"
+              "0": "Investim me një periudhë mbajtjeje afatgjatë",
+              "1": "Përdorimi i përjashtimeve ligjore nga taksat",
+              "2": "Planifikimi për të paktën 10+ vjet"
             }
           }
         }

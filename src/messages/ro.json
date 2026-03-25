@@ -15,12 +15,12 @@
     "services": "Servicii",
     "approach": "Abordare",
     "offices": "Birouri",
-    "contact": "Kontakt",
+    "contact": "contact",
     "navigation": "Navigare",
     "close_menu": "Închide meniul",
     "skip_to_content": "Salt la conținut",
     "gesetze": "Legislație",
-    "four_point_plan": "Vier-Punkte-Plan"
+    "four_point_plan": "Plan în patru puncte"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -55,7 +55,7 @@
     },
     "finance": {
       "title": "Administrare financiară",
-      "tab": "Allgemein",
+      "tab": "În general",
       "description": "Claritatea generează încredere: preluăm administrarea financiară a companiei dumneavoastră și creăm structurile transparente care permit o creștere sustenabilă.",
       "items": {
         "0": "Contabilitate și raportare",
@@ -82,12 +82,12 @@
       }
     },
     "private_health_insurance": {
-      "title": "PKV für selbstständige Unternehmer",
-      "description": "Wir begleiten Selbstständige bei der Auswahl, Strukturierung und Optimierung einer privaten Krankenversicherung — individuell auf Einkommenssituation, Leistungsbedarf und langfristige Planung abgestimmt.",
+      "title": "PKV pentru antreprenori independenți",
+      "description": "Sprijinim persoanele care desfășoară activități independente în selectarea, structurarea și optimizarea asigurărilor private de sănătate - adaptate individual la situația lor de venit, nevoile de beneficii și planificarea pe termen lung.",
       "items": {
-        "0": "Tarifvergleich & Auswahl",
-        "1": "Leistungs- und Beitragsoptimierung",
-        "2": "Langfristige Absicherungsstrategie"
+        "0": "Compararea și selecția tarifelor",
+        "1": "Optimizarea performanței și a contribuției",
+        "2": "Strategie de acoperire pe termen lung"
       }
     },
     "focus_headline": "Domenii cheie de activitate",
@@ -117,21 +117,21 @@
     "laws": {
       "kwg": {
         "abbreviation": "KWG",
-        "name": "Kreditwesengesetz",
+        "name": "Legea bancare",
         "description": "Reglementează cerințele de autorizare pentru operațiunile bancare și serviciile financiare din Germania. KWG constituie baza supravegherii BaFin și definește în § 1 KWG termenii cheie, precum și în § 25a KWG cerințele pentru o organizare adecvată a activității."
       },
       "vag": {
         "abbreviation": "VAG",
-        "name": "Versicherungsaufsichtsgesetz",
+        "name": "Legea privind supravegherea asigurărilor",
         "description": "Reglementează supravegherea societăților de asigurări și servește protecției asiguraților. VAG asigură că asigurătorii își pot îndeplini permanent obligațiile și sunt administrați în mod corespunzător."
       },
       "estg": {
         "abbreviation": "EStG",
-        "name": "Einkommensteuergesetz",
+        "name": "Legea privind impozitul pe venit",
         "description": "Reglementează impozitarea veniturilor persoanelor fizice din Germania. EStG definește tipurile de venituri, scutirile fiscale și cotele de impozitare, constituind baza impozitării veniturilor personale."
       }
     },
-    "mehr_erfahren": "Mehr erfahren"
+    "mehr_erfahren": "Află mai multe"
   },
   "approach": {
     "badge": "Abordarea noastră",
@@ -162,7 +162,7 @@
     },
     "belgrade": {
       "city": "Belgrad",
-      "country": "Serbien",
+      "country": "Serbia",
       "label": "Europa de Sud-Est"
     },
     "texas": {
@@ -182,10 +182,10 @@
     }
   },
   "contact": {
-    "badge": "Kontakt",
+    "badge": "contact",
     "headline": "Hai să discutăm",
     "subtitle": "Fie că este o primă întrebare sau un proiect concret — ne facem timp pentru dumneavoastră.",
-    "phone": "Telefon",
+    "phone": "telefon",
     "mobile": "Mobil",
     "email": "E-mail",
     "address": "Adresă",
@@ -280,8 +280,8 @@
   "impressum": {
     "title": "Aviz legal",
     "info_title": "Informații conform § 5 TMG",
-    "contact_title": "Kontakt",
-    "phone_label": "Telefon",
+    "contact_title": "contact",
+    "phone_label": "telefon",
     "mobile_label": "Mobil",
     "email_label": "E-mail",
     "homepage_label": "Website",
@@ -304,7 +304,7 @@
     "section_2_text": "La vizitarea website-ului nostru, sunt colectate automat informații de natură generală. Aceste informații (fișiere jurnal ale serverului) includ tipul browserului web, sistemul de operare utilizat, numele de domeniu al furnizorului dumneavoastră de internet, adresa IP și date similare. Acestea sunt exclusiv informații care nu permit tragerea unor concluzii cu privire la persoana dumneavoastră.",
     "section_2_legal_basis": "Temeiul juridic pentru prelucrarea datelor este art. 6 alin. 1 lit. f DSGVO. Interesul nostru legitim constă în asigurarea funcționării fără probleme a website-ului nostru.",
     "section_2_retention": "Fișierele jurnal ale serverului sunt șterse automat după 14 zile.",
-    "section_3_title": "3. Kontaktaufnahme",
+    "section_3_title": "3. Contactați-ne",
     "section_3_text": "Dacă ne contactați prin e-mail sau prin formularul de contact, datele dumneavoastră, inclusiv datele de contact pe care le furnizați, vor fi stocate în scopul prelucrării solicitării și în cazul întrebărilor ulterioare. Nu vom partaja aceste date fără consimțământul dumneavoastră.",
     "section_3_legal_basis": "Temeiul juridic pentru prelucrarea datelor este art. 6 alin. 1 lit. b DSGVO (măsuri precontractuale) sau art. 6 alin. 1 lit. f DSGVO (interesul legitim în prelucrarea solicitării dumneavoastră).",
     "section_3_retention": "Datele transmise în cadrul contactării vor fi șterse de îndată ce solicitarea dumneavoastră a fost procesată definitiv și nu se aplică obligații legale de păstrare.",
@@ -324,7 +324,7 @@
     "section_7_title": "7. Modificări ale acestei politici de confidențialitate",
     "section_7_text": "Această politică de confidențialitate este valabilă în prezent. Din cauza dezvoltării continue a website-ului nostru sau din cauza modificării cerințelor legale sau de reglementare, poate fi necesară modificarea acestei politici de confidențialitate.",
     "email_label": "E-mail",
-    "contact_label": "Kontakt"
+    "contact_label": "contact"
   },
   "team": {
     "nav_label": "Echipă",
@@ -365,159 +365,159 @@
     "service_yacht": "Finanțarea construcției de iahturi"
   },
   "gesetze_page": {
-    "meta_title": "Rechtliche Grundlagen — KWG, VAG & EStG",
-    "meta_description": "FIECON erläutert die regulatorischen Grundlagen: Kreditwesengesetz, Versicherungsaufsichtsgesetz und Einkommensteuergesetz — und wie wir Mandanten dabei begleiten.",
-    "breadcrumb_home": "Startseite",
-    "breadcrumb_current": "Gesetze",
-    "hero_badge": "Regulatorischer Rahmen",
-    "hero_headline": "Rechtliche Grundlagen",
-    "hero_intro_1": "Die Beratungspraxis von FIECON ist tief im deutschen und europäischen Regulierungsrahmen verankert. Das Kreditwesengesetz, das Versicherungsaufsichtsgesetz und das Einkommensteuergesetz bilden die rechtliche Grundlage für wesentliche Teile unserer täglichen Beratungsarbeit — von der Strukturierung internationaler Gesellschaften bis zur steuerlichen Optimierung für Unternehmer.",
-    "hero_intro_2": "Auf dieser Seite stellen wir Ihnen die drei zentralen Gesetze vor, erläutern ihre wesentlichen Regelungsbereiche und zeigen, wie FIECON Mandanten konkret dabei unterstützt, die Anforderungen dieser Regelwerke rechtssicher und effizient zu erfüllen.",
+    "meta_title": "Temei juridic — KWG, VAG și EStG",
+    "meta_description": "FIECON explică baza de reglementare: Legea bancară, Legea privind supravegherea asigurărilor și Legea privind impozitul pe venit - și modul în care sprijinim clienții în acest sens.",
+    "breadcrumb_home": "Pagina de start",
+    "breadcrumb_current": "Legile",
+    "hero_badge": "Cadrul de reglementare",
+    "hero_headline": "Temei juridic",
+    "hero_intro_1": "Practica de consultanță a FIECON este profund ancorată în cadrul de reglementare german și european. Legea bancară, Legea privind supravegherea asigurărilor și Legea privind impozitul pe venit formează baza legală pentru părți esențiale ale activității noastre zilnice de consultanță - de la structurarea companiilor internaționale până la optimizarea fiscală pentru antreprenori.",
+    "hero_intro_2": "Pe această pagină vă prezentăm cele trei legi centrale, explicăm domeniile lor cheie de reglementare și arătăm cum FIECON sprijină în mod specific clienții în îndeplinirea cerințelor acestor reglementări într-un mod sigur și eficient din punct de vedere juridic.",
     "hero_chip_kwg": "KWG",
     "hero_chip_vag": "VAG",
     "hero_chip_estg": "EStG",
     "kwg_abbreviation": "KWG",
-    "kwg_name": "Kreditwesengesetz",
-    "kwg_intro": "Das Kreditwesengesetz (KWG) bildet das Fundament der deutschen Bankenaufsicht. Es regelt, unter welchen Voraussetzungen Unternehmen Bankgeschäfte oder Finanzdienstleistungen erbringen dürfen, und legt die Anforderungen an Organisation, Kapitalausstattung und interne Kontrolle fest. Die Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin) überwacht auf Grundlage des KWG alle erlaubnispflichtigen Institute in Deutschland.",
-    "kwg_detail": "Für Unternehmen, die Bankgeschäfte betreiben oder Finanzdienstleistungen erbringen wollen, ist die Erlaubnispflicht nach § 32 KWG von zentraler Bedeutung. Das KWG definiert in § 1 einen breiten Katalog erlaubnispflichtiger Tätigkeiten — von der Kreditvergabe über die Anlageberatung bis hin zur Abschlussvermittlung. Gleichzeitig verpflichtet § 25a Institute zu einer ordnungsgemäßen Geschäftsorganisation mit angemessenem Risikomanagement.",
-    "kwg_provisions_headline": "Wesentliche Regelungen",
-    "kwg_provision_0": "§ 1 KWG — Begriffsbestimmungen: Abschließende Definition aller erlaubnispflichtigen Bank- und Finanzdienstleistungsgeschäfte, einschließlich Kreditgeschäft, Einlagengeschäft und Anlageberatung.",
-    "kwg_provision_1": "§ 25a KWG — Besondere organisatorische Pflichten: Anforderungen an eine ordnungsgemäße Geschäftsorganisation mit angemessenem Risikomanagement, internen Kontrollverfahren und Compliance-Strukturen.",
-    "kwg_provision_2": "§ 32 KWG — Erlaubnispflicht: Verbot der gewerbsmäßigen Erbringung von Bankgeschäften und Finanzdienstleistungen ohne schriftliche Erlaubnis der BaFin.",
-    "kwg_provision_3": "§ 44 KWG — Prüfungsrechte der BaFin: Befugnisse der Aufsichtsbehörde zur Durchführung von Prüfungen bei Instituten und zur Anforderung von Auskünften und Unterlagen.",
-    "kwg_consulting_headline": "FIECON-Beratung im KWG-Kontext",
-    "kwg_consulting_text": "FIECON begleitet Unternehmen und Gründer bei der Prüfung der Erlaubnispflicht nach dem KWG, bei der Vorbereitung und Einreichung von BaFin-Erlaubnisanträgen sowie bei der Implementierung der organisatorischen Anforderungen nach § 25a KWG. Wir unterstützen auch bei der laufenden regulatorischen Compliance und der Kommunikation mit der Aufsichtsbehörde.",
+    "kwg_name": "Legea bancare",
+    "kwg_intro": "Legea bancară (KWG) formează fundamentul supravegherii bancare germane. Acesta reglementează condițiile în care companiile pot furniza servicii bancare sau financiare și precizează cerințele de organizare, resurse de capital și control intern. Autoritatea Federală de Supraveghere Financiară (BaFin) monitorizează toate instituțiile din Germania care necesită autorizare pe baza KWG.",
+    "kwg_detail": "Pentru companiile care desfășoară activități bancare sau doresc să furnizeze servicii financiare, cerința de autorizare în conformitate cu secțiunea 32 din KWG este de o importanță centrală. În Secțiunea 1, KWG definește un catalog larg de activități care necesită autorizare - de la acordarea de împrumuturi la consultanță în investiții și tranzacții de intermediere. În același timp, Secțiunea 25a obligă instituțiile să aibă o organizare de afaceri adecvată, cu un management adecvat al riscului.",
+    "kwg_provisions_headline": "Reglementări esențiale",
+    "kwg_provision_0": "§ 1 KWG - Definiții: Definiția finală a tuturor tranzacțiilor de servicii bancare și financiare care necesită autorizare, inclusiv afaceri de creditare, afaceri de depozit și consultanță în investiții.",
+    "kwg_provision_1": "§ 25a KWG — Obligații organizaționale speciale: cerințe pentru o organizare comercială adecvată, cu un management adecvat al riscurilor, proceduri de control intern și structuri de conformitate.",
+    "kwg_provision_2": "§ 32 KWG - Obligația de a obține permisiunea: Interzicerea furnizării comerciale de tranzacții bancare și servicii financiare fără permisiunea scrisă a BaFin.",
+    "kwg_provision_3": "Secțiunea 44 KWG - Drepturile de audit ale BaFin: Competențele autorității de supraveghere de a efectua audituri ale instituțiilor și de a solicita informații și documente.",
+    "kwg_consulting_headline": "Consultanță FIECON în contextul KWG",
+    "kwg_consulting_text": "FIECON sprijină companiile și fondatorii în verificarea cerinței de autorizare conform KWG, în pregătirea și depunerea cererilor de autorizare BaFin și în implementarea cerințelor organizaționale conform Secțiunii 25a KWG. Susținem, de asemenea, conformitatea continuă cu reglementările și comunicarea cu autoritatea de supraveghere.",
     "vag_abbreviation": "VAG",
-    "vag_name": "Versicherungsaufsichtsgesetz",
-    "vag_intro": "Das Versicherungsaufsichtsgesetz (VAG) regelt die staatliche Aufsicht über Versicherungsunternehmen in Deutschland und dient in erster Linie dem Schutz der Versicherungsnehmer. Es setzt die europäische Solvency II-Richtlinie in deutsches Recht um und stellt sicher, dass Versicherer dauerhaft in der Lage sind, ihre Verpflichtungen gegenüber den Versicherten zu erfüllen.",
-    "vag_detail": "Das VAG verpflichtet Versicherungsunternehmen zur Einhaltung umfangreicher Kapitalanforderungen (Solvency Capital Requirement und Minimum Capital Requirement) sowie zur ordnungsgemäßen Geschäftsführung durch geeignete und zuverlässige Personen. Für private Krankenversicherer gelten besondere Bestimmungen zur Kalkulation der Prämien und zur Bildung von Alterungsrückstellungen — ein Bereich, der für die Beratung selbstständiger Unternehmer besonders relevant ist.",
-    "vag_provisions_headline": "Wesentliche Regelungen",
-    "vag_provision_0": "§ 11 VAG — Erlaubnispflicht: Verbot des Betriebs von Versicherungsgeschäften ohne Erlaubnis der BaFin, verbunden mit einem Katalog der erlaubnispflichtigen Versicherungssparten.",
-    "vag_provision_1": "§ 124 VAG — Kapitalanlagemanagement: Anforderungen an die Anlage der Vermögenswerte nach dem Grundsatz der unternehmerischen Vorsicht (Prudent Person Principle).",
-    "vag_provision_2": "§ 22 VAG — Geschäftsleiter: Anforderungen an Zuverlässigkeit und fachliche Eignung der verantwortlichen Personen in Schlüsselfunktionen eines Versicherungsunternehmens.",
-    "vag_provision_3": "§ 294 VAG — Aufsichtsbefugnisse der BaFin: Umfangreiche Aufsichts- und Eingriffsbefugnisse der Bundesanstalt gegenüber beaufsichtigten Versicherungsunternehmen.",
-    "vag_consulting_headline": "FIECON-Beratung im VAG-Kontext",
-    "vag_consulting_text": "FIECON berät bei der Strukturierung von Versicherungslösungen für internationale Unternehmer und Selbstständige, insbesondere im Bereich der privaten Krankenversicherung (PKV). Wir analysieren Tarifstrukturen unter Berücksichtigung der aufsichtsrechtlichen Vorgaben des VAG und begleiten Mandanten bei der optimalen Absicherung ihrer persönlichen Risiken.",
+    "vag_name": "Legea privind supravegherea asigurărilor",
+    "vag_intro": "Legea privind supravegherea asigurărilor (VAG) reglementează supravegherea de stat a companiilor de asigurări din Germania și servește în primul rând la protejarea asiguraților. Implementează Directiva europeană Solvabilitate II în dreptul german și asigură că asigurătorii își pot îndeplini în permanență obligațiile față de asigurat.",
+    "vag_detail": "VAG obligă companiile de asigurări să respecte cerințe extinse de capital (cerința de capital de solvabilitate și cerința de capital minim), precum și o gestionare adecvată de către persoane adecvate și de încredere. Asigurărilor private de sănătate se aplică reglementări speciale în ceea ce privește calcularea primelor și formarea provizioanelor pentru îmbătrânire - domeniu care este deosebit de relevant pentru consilierea antreprenorilor independenți.",
+    "vag_provisions_headline": "Reglementări esențiale",
+    "vag_provision_0": "§ 11 VAG - Obligația de a obține autorizație: Interdicția de a desfășura activități de asigurare fără permisiunea BaFin, combinată cu un catalog al liniilor de asigurări care necesită autorizare.",
+    "vag_provision_1": "§ 124 VAG - Managementul investițiilor de capital: Cerințe pentru investirea activelor în conformitate cu principiul prudenței antreprenoriale (Principiul Persoanei Prudente).",
+    "vag_provision_2": "§ 22 VAG - Manageri: Cerințe de fiabilitate și adecvare profesională a persoanelor responsabile în funcțiile cheie ale unei companii de asigurări.",
+    "vag_provision_3": "§ 294 VAG — Competențele de supraveghere ale BaFin: puteri extinse de supraveghere și intervenție ale Autorității Federale de Supraveghere Financiară față de companiile de asigurări supravegheate.",
+    "vag_consulting_headline": "Consultanta FIECON in contextul VAG",
+    "vag_consulting_text": "FIECON oferă consiliere cu privire la structurarea soluțiilor de asigurare pentru antreprenorii internaționali și independenți, în special în domeniul asigurărilor private de sănătate (PKV). Analizăm structurile tarifare ținând cont de cerințele de reglementare ale VAG și sprijinim clienții în asigurarea optimă a riscurilor personale.",
     "estg_abbreviation": "EStG",
-    "estg_name": "Einkommensteuergesetz",
-    "estg_intro": "Das Einkommensteuergesetz (EStG) regelt die Besteuerung des Einkommens natürlicher Personen in Deutschland. Als das zentrale Steuergesetz für Privatpersonen und Selbstständige definiert es die sieben Einkunftsarten, die persönlichen Freibeträge sowie die progressiven Steuersätze. Für international tätige Unternehmer ist das EStG besonders bedeutsam, da Deutschland das Welteinkommensprinzip anwendet.",
-    "estg_detail": "Wer in Deutschland unbeschränkt steuerpflichtig ist (§ 1 EStG), muss grundsätzlich sein gesamtes weltweites Einkommen in Deutschland versteuern — unabhängig davon, wo es erzielt wurde. Die korrekte Abgrenzung der Steuerpflicht, die Anwendung von Doppelbesteuerungsabkommen und die steuerlich optimale Gestaltung von Gesellschaftsstrukturen sind daher wesentliche Beratungsfelder für international tätige Mandanten.",
-    "estg_provisions_headline": "Wesentliche Regelungen",
-    "estg_provision_0": "§ 1 EStG — Unbeschränkte Steuerpflicht: Natürliche Personen mit Wohnsitz oder gewöhnlichem Aufenthalt in Deutschland unterliegen der unbeschränkten Einkommensteuerpflicht auf ihr Welteinkommen.",
-    "estg_provision_1": "§ 2 EStG — Einkunftsarten: Abschließende Definition der sieben Einkunftsarten, darunter Einkünfte aus Gewerbebetrieb, aus selbstständiger Arbeit und aus Kapitalvermögen.",
-    "estg_provision_2": "§ 19 EStG — Einkünfte aus nichtselbstständiger Arbeit: Regelung der Besteuerung von Arbeitslohn, Gehalt, Gratifikationen und geldwerten Vorteilen aus einem Arbeitsverhältnis.",
-    "estg_provision_3": "§ 49 EStG — Beschränkte Steuerpflicht: Besteuerung von Einkünften aus deutschen Quellen bei Personen ohne Wohnsitz in Deutschland — relevant für ausländische Gesellschafter und Geschäftsführer.",
-    "estg_consulting_headline": "FIECON-Beratung im EStG-Kontext",
-    "estg_consulting_text": "FIECON begleitet international tätige Unternehmer, Gesellschafter und Selbstständige bei der Analyse und Optimierung ihrer steuerlichen Situation unter dem EStG. Wir prüfen die persönliche Steuerpflicht, die Anwendbarkeit von Doppelbesteuerungsabkommen und entwickeln steuerlich effiziente Gesellschafts- und Vergütungsstrukturen. Für Selbstständige beraten wir zudem zur steuerlich optimalen Gestaltung der Vorsorge, insbesondere im Zusammenspiel mit der privaten Krankenversicherung.",
-    "cta_headline": "Regulatorische Fragen? Wir haben die Antworten.",
-    "cta_subline": "Ob KWG-Erlaubnisantrag, VAG-konforme Versicherungsstruktur oder steuerliche Optimierung nach EStG — sprechen Sie uns an.",
+    "estg_name": "Legea privind impozitul pe venit",
+    "estg_intro": "Legea privind impozitul pe venit (EStG) reglementează impozitarea veniturilor persoanelor fizice în Germania. Ca lege fiscală centrală pentru persoanele fizice și persoanele care desfășoară activități independente, definește cele șapte tipuri de venituri, alocațiile personale și cotele progresive de impozitare. EStG este deosebit de important pentru antreprenorii activi la nivel internațional, deoarece Germania aplică principiul venitului global.",
+    "estg_detail": "Oricine este supus unei obligații fiscale nelimitate în Germania (§ 1 EStG) trebuie, în general, să plătească impozit pe întregul venit mondial din Germania - indiferent de locul în care a fost câștigat. Definirea corectă a obligației fiscale, aplicarea acordurilor de dublă impunere și proiectarea optimă din punct de vedere fiscal a structurilor corporative sunt, prin urmare, domenii esențiale de consiliere pentru clienții activi la nivel internațional.",
+    "estg_provisions_headline": "Reglementări esențiale",
+    "estg_provision_0": "§ 1 EStG - Obligație fiscală nelimitată: Persoanele fizice cu reședința sau domiciliul obișnuit în Germania sunt supuse unei obligații nelimitate de impozit pe venit pentru veniturile lor la nivel mondial.",
+    "estg_provision_1": "§ 2 EStG — Tipuri de venituri: Definiția finală a celor șapte tipuri de venituri, inclusiv venituri din operațiuni comerciale, din activități independente și din active de capital.",
+    "estg_provision_2": "§ 19 EStG - Venituri din muncă: Reglementarea impozitării salariilor, salariilor, sporurilor și beneficiilor bănești dintr-un raport de muncă.",
+    "estg_provision_3": "§ 49 EStG - Responsabilitate fiscală limitată: Impozitarea veniturilor din surse germane pentru persoanele fără reședința în Germania - relevantă pentru acționarii străini și directorii generali.",
+    "estg_consulting_headline": "Sfaturi FIECON în contextul EStG",
+    "estg_consulting_text": "FIECON sprijină antreprenorii activi la nivel internațional, acționarii și persoanele care desfășoară activități independente în analiza și optimizarea situației lor fiscale în cadrul EStG. Examinăm obligația fiscală personală, aplicabilitatea acordurilor de dublă impunere și dezvoltăm structuri corporative și de remunerare eficiente din punct de vedere fiscal. Pentru persoanele care desfășoară activități independente, le oferim și consultanță privind structura fiscală optimă pentru asigurarea pensiei, în special în legătură cu asigurările private de sănătate.",
+    "cta_headline": "Întrebări de reglementare? Avem răspunsurile.",
+    "cta_subline": "Fie că este vorba de o cerere de permis KWG, de o structură de asigurare conformă VAG sau de optimizare fiscală conform EStG - discutați cu noi.",
     "cta_button": "Trimite e-mail",
-    "cta_back": "Zur Startseite",
-    "kwg_provision_4": "§ 46 KWG — Maßnahmen bei Gefahr: Eingriffsbefugnisse der BaFin bei aufsichtsrechtlichen Missständen, insbesondere zur Sicherung der ordnungsgemäßen Geschäftsführung und zum Schutz von Gläubigern.",
-    "vag_provision_4": "§ 311 VAG — Besondere Vorgaben für die private Krankenversicherung: Regelungen zur Kalkulation, Prämienanpassung und dauerhaften Finanzierung über Alterungsrückstellungen.",
-    "estg_provision_4": "§ 22 EStG — Sonstige Einkünfte: Besteuerung insbesondere von wiederkehrenden Bezügen wie Renten sowie bestimmter weiterer Einkünfte außerhalb der klassischen Einkunftsarten.",
-    "estg_provision_5": "§ 23 EStG — Private Veräußerungsgeschäfte: Steuerliche Erfassung von Gewinnen aus der Veräußerung privater Wirtschaftsgüter innerhalb der gesetzlichen Haltefristen."
+    "cta_back": "La pagina de start",
+    "kwg_provision_4": "§ 46 KWG - Măsuri în caz de pericol: competențele BaFin de a interveni în cazul unor nemulțumiri de reglementare, în special pentru a asigura o gestionare adecvată și pentru a proteja creditorii.",
+    "vag_provision_4": "§ 311 VAG - Cerințe speciale pentru asigurările private de sănătate: reglementări de calcul, ajustare a primelor și finanțare permanentă prin prevederi de vechime.",
+    "estg_provision_4": "§ 22 EStG - Alte venituri: Impozitarea în special a plăților recurente, cum ar fi pensiile și anumite alte venituri în afara tipurilor clasice de venituri.",
+    "estg_provision_5": "§ 23 EStG - Tranzacții de vânzare private: Recunoașterea fiscală a profiturilor din vânzarea activelor private în perioadele legale de deținere."
   },
   "fourPointPlan": {
-    "badge": "Vier-Punkte-Plan",
-    "headline": "Unser Vier-Punkte-Plan zur finanziellen Unabhängigkeit",
-    "subtitle": "Strukturierte Gesamtstrategie mit operativer Umsetzung und langfristiger Vermögenssicherung.",
-    "intro": "Der Plan folgt der klassischen unternehmerischen Logik: Struktur aufbauen, Steuern optimieren, Kosten senken und Vermögen langfristig steuerfrei aufbauen. Entscheidend ist nicht nur die Strategie, sondern die saubere Umsetzung im Tagesgeschäft.",
-    "cta_details": "Detaillierten Plan ansehen",
+    "badge": "Plan în patru puncte",
+    "headline": "Planul nostru în patru puncte pentru independență financiară",
+    "subtitle": "Strategie generală structurată cu implementare operațională și protecție pe termen lung a activelor.",
+    "intro": "Planul urmează logica antreprenorială clasică: construiți structura, optimizați impozitele, reduceți costurile și construiți active fără impozit pe termen lung. Nu doar strategia este importantă, ci și implementarea ei corectă în afacerile de zi cu zi.",
+    "cta_details": "Vezi planul detaliat",
     "detail": {
-      "meta_title": "Vier-Punkte-Plan zur finanziellen Unabhängigkeit",
-      "meta_description": "Detaillierte Darstellung des FIECON Vier-Punkte-Plans: Strategie und Organisation, steuerliche Optimierung, finanzielle Entlastung und steuerfreier Vermögensaufbau.",
-      "headline": "Vier-Punkte-Plan im Detail",
-      "subtitle": "Detaillierte Ausarbeitung aller Maßnahmen, Teilbereiche und operativen Umsetzungsschritte.",
-      "navigation_label": "Interaktive Navigation",
-      "focus_label": "Aktiver Schwerpunkt",
-      "subpoints_label": "Teilbereiche",
-      "items_label": "Maßnahmen",
-      "cta_panel_title": "Vom Plan zur Umsetzung",
-      "cta_panel_text": "Wir begleiten Sie nicht nur bei der Strategie, sondern bei der operativen Implementierung jeder einzelnen Maßnahme.",
-      "cta_contact": "Strategiegespräch vereinbaren",
-      "cta_back_home": "Zur Startseite"
+      "meta_title": "Plan în patru puncte pentru independență financiară",
+      "meta_description": "Prezentarea detaliată a planului FIECON în patru puncte: strategie și organizare, optimizare fiscală, scutire financiară și creare de avere fără impozitare.",
+      "headline": "Plan în patru puncte în detaliu",
+      "subtitle": "Elaborarea detaliată a tuturor măsurilor, subdomeniilor și etapelor de implementare operațională.",
+      "navigation_label": "Navigare interactivă",
+      "focus_label": "Focalizare activă",
+      "subpoints_label": "Subdomenii",
+      "items_label": "Măsuri",
+      "cta_panel_title": "De la plan la implementare",
+      "cta_panel_text": "Nu vă sprijinim doar cu strategia, ci și cu implementarea operațională a fiecărei măsuri individuale.",
+      "cta_contact": "Organizați o întâlnire de strategie",
+      "cta_back_home": "La pagina de start"
     },
     "points": {
       "strategy": {
-        "title": "Strategie und Organisation",
-        "teaser": "Klare Zielstruktur und effiziente Umsetzung im Tagesgeschäft.",
-        "description": "Umsetzung des Tagesgeschäfts mit klaren Verantwortlichkeiten und belastbarer Struktur.",
+        "title": "Strategie și organizare",
+        "teaser": "Structură țintă clară și implementare eficientă în afacerile de zi cu zi.",
+        "description": "Implementarea afacerilor zilnice cu responsabilități clare și o structură rezistentă.",
         "subpoints": {
           "1_1": {
-            "title": "1.1 Klare Definition der geschäftlichen Zielstruktur",
+            "title": "1.1 Definirea clară a structurii țintă a afacerii",
             "items": {
-              "0": "Festlegung der Unternehmensform(en) und Beteiligungsstruktur",
-              "1": "Erweiterung bestehender Geschäftsmodelle",
-              "2": "Trennung von operativem Geschäft und Vermögensverwaltung",
-              "3": "Aufbau einer rechtssicheren Organisationsstruktur"
+              "0": "Determinarea formei (formelor) de societate și a structurii acționariatului",
+              "1": "Extinderea modelelor de afaceri existente",
+              "2": "Separarea afacerii operaționale și managementul activelor",
+              "3": "Construirea unei structuri organizaționale sigure din punct de vedere juridic"
             }
           },
           "1_2": {
-            "title": "1.2 Effiziente Organisation des Tagesgeschäfts",
+            "title": "1.2 Organizarea eficientă a afacerilor de zi cu zi",
             "items": {
-              "0": "Standardisierung von Abläufen",
-              "1": "Delegation operativer Tätigkeiten",
-              "2": "Nutzung externer Dienstleister (Steuerberater, Buchhaltung, Verwaltung)"
+              "0": "Standardizarea proceselor",
+              "1": "Delegarea activităților operaționale",
+              "2": "Utilizarea furnizorilor externi de servicii (consilieri fiscali, contabilitate, administrare)"
             }
           }
         }
       },
       "tax": {
-        "title": "Steuerliche Optimierung",
-        "teaser": "Gesellschafts- und Gewinnstruktur steuerlich präzise ausrichten.",
-        "description": "Rechtskonforme Steuerstruktur, die Liquidität sichert und Wachstum fördert.",
+        "title": "Optimizare fiscală",
+        "teaser": "Aliniați compania și structura profitului tocmai în scopuri fiscale.",
+        "description": "Structură fiscală conformă din punct de vedere legal, care asigură lichiditatea și promovează creșterea.",
         "subpoints": {
           "2_1": {
-            "title": "2.1 Wahl der richtigen Gesellschaftsstruktur",
+            "title": "2.1 Alegerea structurii corporative potrivite",
             "items": {
-              "0": "Kombination aus Kapitalgesellschaft und Personengesellschaft",
-              "1": "Nutzung von Holding-Strukturen",
-              "2": "Trennung von Privatvermögen und Betriebsvermögen"
+              "0": "Combinație de corporație și parteneriat",
+              "1": "Utilizarea structurilor de deținere",
+              "2": "Separarea activelor private și a activelor comerciale"
             }
           },
           "2_2": {
-            "title": "2.2 Gewinnverlagerung und Gestaltung",
+            "title": "2.2 Schimbarea profitului și proiectare",
             "items": {
-              "0": "Nutzung von Betriebsausgaben",
-              "1": "Gestaltung von Geschäftsführergehalt und Gewinnausschüttung",
-              "2": "Nutzung steuerlicher Freibeträge"
+              "0": "Utilizarea cheltuielilor de afaceri",
+              "1": "Proiectarea salariilor directorului general și a distribuțiilor de profit",
+              "2": "Utilizarea deducerilor fiscale"
             }
           },
           "2_3": {
-            "title": "2.3 Vermögensaufbau im Betriebsvermögen",
+            "title": "2.3 Acumularea de active în activele întreprinderii",
             "items": {
-              "0": "Investitionen über die Gesellschaft"
+              "0": "Investiții prin societate"
             }
           }
         }
       },
       "relief": {
-        "title": "Finanzielle Entlastung",
-        "teaser": "Laufende Kosten gezielt reduzieren, insbesondere im PKV-Bereich.",
-        "description": "Gezielte Entlastung der laufenden Kosten, insbesondere im Bereich der PKV.",
+        "title": "Ajutor financiar",
+        "teaser": "Reducerea vizată a costurilor curente, în special în sectorul asigurărilor private de sănătate.",
+        "description": "Reducerea vizată a costurilor curente, în special în domeniul asigurărilor private de sănătate.",
         "subpoints": {
           "3_1": {
-            "title": "3.1 Analyse der bestehenden Kostenstruktur",
+            "title": "3.1 Analiza structurii de costuri existente",
             "items": {
-              "0": "Krankenversicherung",
-              "1": "Altersvorsorge",
-              "2": "Laufende private Verpflichtungen"
+              "0": "asigurare de sanatate",
+              "1": "Planificarea pensionării",
+              "2": "Angajamente personale permanente"
             }
           }
         }
       },
       "pension": {
-        "title": "Steuerfreie Rente",
-        "teaser": "Langfristiger Aufbau steuerfreien Vermögens unter Berücksichtigung der gesetzlichen Haltedauer.",
-        "description": "Aufbau der steuerfreien Rente mit Fokus auf gesetzliche Haltedauer, langfristige Planung und rechtssicheren Vermögensaufbau.",
+        "title": "Pensie fără impozit",
+        "teaser": "Acumularea pe termen lung a activelor scutite de impozit, ținând cont de perioada legală de deținere.",
+        "description": "Construirea unei pensii fără impozitare, cu accent pe perioadele legale de deținere, planificarea pe termen lung și acumularea de active sigură din punct de vedere juridic.",
         "subpoints": {
           "4_1": {
-            "title": "4.1 Grundprinzip des steuerfreien Vermögensaufbaus",
+            "title": "4.1 Principiul de bază al acumulării de active fără taxe",
             "items": {
-              "0": "Investition mit langfristiger Haltedauer",
-              "1": "Nutzung gesetzlicher Steuerbefreiungen",
-              "2": "Planung über mindestens 10+ Jahre"
+              "0": "Investiție cu o perioadă de deținere pe termen lung",
+              "1": "Utilizarea scutirilor fiscale legale",
+              "2": "Planificare pentru cel puțin 10+ ani"
             }
           }
         }

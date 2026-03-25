@@ -20,7 +20,7 @@
     "close_menu": "Uždaryti meniu",
     "skip_to_content": "Pereiti prie turinio",
     "gesetze": "Teisės aktai",
-    "four_point_plan": "Vier-Punkte-Plan"
+    "four_point_plan": "Keturių taškų planas"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -82,12 +82,12 @@
       }
     },
     "private_health_insurance": {
-      "title": "PKV für selbstständige Unternehmer",
-      "description": "Wir begleiten Selbstständige bei der Auswahl, Strukturierung und Optimierung einer privaten Krankenversicherung — individuell auf Einkommenssituation, Leistungsbedarf und langfristige Planung abgestimmt.",
+      "title": "PKV savarankiškai dirbantiems verslininkams",
+      "description": "Palaikome savarankiškai dirbančius asmenis renkantis, struktūrizuojant ir optimizuojant privatų sveikatos draudimą – individualiai pritaikytą jų pajamų situacijai, išmokų poreikiams ir ilgalaikiam planavimui.",
       "items": {
-        "0": "Tarifvergleich & Auswahl",
-        "1": "Leistungs- und Beitragsoptimierung",
-        "2": "Langfristige Absicherungsstrategie"
+        "0": "Tarifų palyginimas ir pasirinkimas",
+        "1": "Našumo ir indėlio optimizavimas",
+        "2": "Ilgalaikė apsidraudimo strategija"
       }
     },
     "focus_headline": "Pagrindinės veiklos sritys",
@@ -117,21 +117,21 @@
     "laws": {
       "kwg": {
         "abbreviation": "KWG",
-        "name": "Kreditwesengesetz",
+        "name": "Bankininkystės įstatymas",
         "description": "Reglamentuoja leidimų reikalavimus bankinei veiklai ir finansinėms paslaugoms Vokietijoje. KWG sudaro BaFin priežiūros pagrindą ir apibrėžia § 1 KWG pagrindinius terminus bei § 25a KWG reikalavimus tinkamam verslo organizavimui."
       },
       "vag": {
         "abbreviation": "VAG",
-        "name": "Versicherungsaufsichtsgesetz",
+        "name": "Draudimo priežiūros įstatymas",
         "description": "Reglamentuoja draudimo bendrovių priežiūrą ir tarnauja apdraustųjų apsaugai. VAG užtikrina, kad draudikai galėtų nuolat vykdyti savo įsipareigojimus ir būtų tinkamai valdomi."
       },
       "estg": {
         "abbreviation": "EStG",
-        "name": "Einkommensteuergesetz",
+        "name": "Pajamų mokesčio įstatymas",
         "description": "Reglamentuoja fizinių asmenų pajamų apmokestinimą Vokietijoje. EStG apibrėžia pajamų rūšis, neapmokestinamuosius dydžius ir mokesčių tarifus, sudarydamas asmeninio pajamų apmokestinimo pagrindą."
       }
     },
-    "mehr_erfahren": "Mehr erfahren"
+    "mehr_erfahren": "Sužinokite daugiau"
   },
   "approach": {
     "badge": "Mūsų požiūris",
@@ -221,7 +221,7 @@
     "services_title": "Paslaugos",
     "offices_title": "Biurai",
     "legal_title": "Teisinė informacija",
-    "impressum": "Impressum",
+    "impressum": "įspaudas",
     "datenschutz": "Privatumo politika",
     "copyright": "© {year} FIECON Consulting UG & Co KG. Visos teisės saugomos."
   },
@@ -278,7 +278,7 @@
     "competency_4_description": "Skaitmeninės infrastruktūros kūrimas ir optimizavimas įmonėms — nuo serverių administravimo iki šiuolaikinių debesų sprendimų integravimo."
   },
   "impressum": {
-    "title": "Impressum",
+    "title": "įspaudas",
     "info_title": "Informacija pagal § 5 TMG",
     "contact_title": "Kontaktai",
     "phone_label": "Telefonas",
@@ -327,7 +327,7 @@
     "contact_label": "Kontaktai"
   },
   "team": {
-    "nav_label": "Team",
+    "nav_label": "komanda",
     "competencies_headline": "Kompetencijos sritys",
     "cta_headline": "Pradėkime pokalbį",
     "cta_subline": "Nesvarbu, ar tai pradinis klausimas, ar konkretus projektas — mes skiriame jums laiko.",
@@ -365,159 +365,159 @@
     "service_yacht": "Jachtų statybos finansavimas"
   },
   "gesetze_page": {
-    "meta_title": "Rechtliche Grundlagen — KWG, VAG & EStG",
-    "meta_description": "FIECON erläutert die regulatorischen Grundlagen: Kreditwesengesetz, Versicherungsaufsichtsgesetz und Einkommensteuergesetz — und wie wir Mandanten dabei begleiten.",
-    "breadcrumb_home": "Startseite",
-    "breadcrumb_current": "Gesetze",
-    "hero_badge": "Regulatorischer Rahmen",
-    "hero_headline": "Rechtliche Grundlagen",
-    "hero_intro_1": "Die Beratungspraxis von FIECON ist tief im deutschen und europäischen Regulierungsrahmen verankert. Das Kreditwesengesetz, das Versicherungsaufsichtsgesetz und das Einkommensteuergesetz bilden die rechtliche Grundlage für wesentliche Teile unserer täglichen Beratungsarbeit — von der Strukturierung internationaler Gesellschaften bis zur steuerlichen Optimierung für Unternehmer.",
-    "hero_intro_2": "Auf dieser Seite stellen wir Ihnen die drei zentralen Gesetze vor, erläutern ihre wesentlichen Regelungsbereiche und zeigen, wie FIECON Mandanten konkret dabei unterstützt, die Anforderungen dieser Regelwerke rechtssicher und effizient zu erfüllen.",
+    "meta_title": "Teisinis pagrindas – KWG, VAG ir EStG",
+    "meta_description": "FIECON paaiškina reguliavimo pagrindą: Bankininkystės įstatymą, Draudimo priežiūros įstatymą ir Pajamų mokesčio įstatymą – ir kaip mes padedame klientams šiuo klausimu.",
+    "breadcrumb_home": "Pagrindinis puslapis",
+    "breadcrumb_current": "Įstatymai",
+    "hero_badge": "Reguliavimo sistema",
+    "hero_headline": "Teisinis pagrindas",
+    "hero_intro_1": "FIECON konsultavimo praktika yra giliai įsitvirtinusi Vokietijos ir Europos reguliavimo sistemoje. Bankų įstatymas, Draudimo priežiūros įstatymas ir Pajamų mokesčio įstatymas sudaro teisinį pagrindą esminėms mūsų kasdienio konsultavimo darbo dalims – nuo ​​tarptautinių įmonių struktūrizavimo iki mokesčių optimizavimo verslininkams.",
+    "hero_intro_2": "Šiame puslapyje supažindiname su trimis pagrindiniais įstatymais, paaiškiname pagrindines jų reguliavimo sritis ir parodome, kaip FIECON konkrečiai padeda klientams teisiškai saugiu ir efektyviu būdu įvykdyti šių taisyklių reikalavimus.",
     "hero_chip_kwg": "KWG",
     "hero_chip_vag": "VAG",
     "hero_chip_estg": "EStG",
     "kwg_abbreviation": "KWG",
-    "kwg_name": "Kreditwesengesetz",
-    "kwg_intro": "Das Kreditwesengesetz (KWG) bildet das Fundament der deutschen Bankenaufsicht. Es regelt, unter welchen Voraussetzungen Unternehmen Bankgeschäfte oder Finanzdienstleistungen erbringen dürfen, und legt die Anforderungen an Organisation, Kapitalausstattung und interne Kontrolle fest. Die Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin) überwacht auf Grundlage des KWG alle erlaubnispflichtigen Institute in Deutschland.",
-    "kwg_detail": "Für Unternehmen, die Bankgeschäfte betreiben oder Finanzdienstleistungen erbringen wollen, ist die Erlaubnispflicht nach § 32 KWG von zentraler Bedeutung. Das KWG definiert in § 1 einen breiten Katalog erlaubnispflichtiger Tätigkeiten — von der Kreditvergabe über die Anlageberatung bis hin zur Abschlussvermittlung. Gleichzeitig verpflichtet § 25a Institute zu einer ordnungsgemäßen Geschäftsorganisation mit angemessenem Risikomanagement.",
-    "kwg_provisions_headline": "Wesentliche Regelungen",
-    "kwg_provision_0": "§ 1 KWG — Begriffsbestimmungen: Abschließende Definition aller erlaubnispflichtigen Bank- und Finanzdienstleistungsgeschäfte, einschließlich Kreditgeschäft, Einlagengeschäft und Anlageberatung.",
-    "kwg_provision_1": "§ 25a KWG — Besondere organisatorische Pflichten: Anforderungen an eine ordnungsgemäße Geschäftsorganisation mit angemessenem Risikomanagement, internen Kontrollverfahren und Compliance-Strukturen.",
-    "kwg_provision_2": "§ 32 KWG — Erlaubnispflicht: Verbot der gewerbsmäßigen Erbringung von Bankgeschäften und Finanzdienstleistungen ohne schriftliche Erlaubnis der BaFin.",
-    "kwg_provision_3": "§ 44 KWG — Prüfungsrechte der BaFin: Befugnisse der Aufsichtsbehörde zur Durchführung von Prüfungen bei Instituten und zur Anforderung von Auskünften und Unterlagen.",
-    "kwg_consulting_headline": "FIECON-Beratung im KWG-Kontext",
-    "kwg_consulting_text": "FIECON begleitet Unternehmen und Gründer bei der Prüfung der Erlaubnispflicht nach dem KWG, bei der Vorbereitung und Einreichung von BaFin-Erlaubnisanträgen sowie bei der Implementierung der organisatorischen Anforderungen nach § 25a KWG. Wir unterstützen auch bei der laufenden regulatorischen Compliance und der Kommunikation mit der Aufsichtsbehörde.",
+    "kwg_name": "Bankininkystės įstatymas",
+    "kwg_intro": "Bankininkystės įstatymas (KWG) yra Vokietijos bankų priežiūros pagrindas. Jame reglamentuojamos sąlygos, kuriomis įmonės gali teikti bankines ar finansines paslaugas, nurodomi organizacijos, kapitalo išteklių ir vidaus kontrolės reikalavimai. Federalinė finansų priežiūros institucija (BaFin) stebi visas Vokietijos institucijas, kurioms reikalingas leidimas pagal KWG.",
+    "kwg_detail": "Įmonėms, kurios užsiima bankine veikla arba nori teikti finansines paslaugas, leidimo reikalavimas pagal KWG 32 skirsnį yra labai svarbus. 1 skirsnyje KWG apibrėžia platų veiklų, kurioms reikalingas leidimas, katalogą – nuo ​​paskolų suteikimo iki konsultacijų dėl investavimo ir tarpininkavimo sandorių. Kartu 25a skirsnis įpareigoja institucijas turėti tinkamą verslo organizavimą ir tinkamą rizikos valdymą.",
+    "kwg_provisions_headline": "Esminės taisyklės",
+    "kwg_provision_0": "§ 1 KWG – Apibrėžimai: Galutinė visų bankinių ir finansinių paslaugų operacijų, kurioms reikalingas leidimas, apibrėžimas, įskaitant skolinimo verslą, indėlių verslą ir konsultacijas investavimo klausimais.",
+    "kwg_provision_1": "§ 25a KWG – Specialūs organizaciniai įsipareigojimai: Reikalavimai tinkamai verslo organizacijai su tinkamu rizikos valdymu, vidaus kontrolės procedūromis ir atitikties struktūromis.",
+    "kwg_provision_2": "§ 32 KWG – Pareiga gauti leidimą: draudimas komerciškai teikti bankines operacijas ir finansines paslaugas be raštiško BaFin leidimo.",
+    "kwg_provision_3": "KWG 44 straipsnis – „BaFin“ audito teisės: Priežiūros institucijos įgaliojimai atlikti įstaigų auditą ir reikalauti informacijos bei dokumentų.",
+    "kwg_consulting_headline": "FIECON konsultavimas KWG kontekste",
+    "kwg_consulting_text": "FIECON padeda įmonėms ir steigėjams tikrinti leidimo reikalavimą pagal KWG, rengiant ir teikiant BaFin autorizacijos paraiškas bei įgyvendinant organizacinius reikalavimus pagal KWG 25a skirsnį. Taip pat palaikome nuolatinį teisės aktų laikymąsi ir bendravimą su priežiūros institucija.",
     "vag_abbreviation": "VAG",
-    "vag_name": "Versicherungsaufsichtsgesetz",
-    "vag_intro": "Das Versicherungsaufsichtsgesetz (VAG) regelt die staatliche Aufsicht über Versicherungsunternehmen in Deutschland und dient in erster Linie dem Schutz der Versicherungsnehmer. Es setzt die europäische Solvency II-Richtlinie in deutsches Recht um und stellt sicher, dass Versicherer dauerhaft in der Lage sind, ihre Verpflichtungen gegenüber den Versicherten zu erfüllen.",
-    "vag_detail": "Das VAG verpflichtet Versicherungsunternehmen zur Einhaltung umfangreicher Kapitalanforderungen (Solvency Capital Requirement und Minimum Capital Requirement) sowie zur ordnungsgemäßen Geschäftsführung durch geeignete und zuverlässige Personen. Für private Krankenversicherer gelten besondere Bestimmungen zur Kalkulation der Prämien und zur Bildung von Alterungsrückstellungen — ein Bereich, der für die Beratung selbstständiger Unternehmer besonders relevant ist.",
-    "vag_provisions_headline": "Wesentliche Regelungen",
-    "vag_provision_0": "§ 11 VAG — Erlaubnispflicht: Verbot des Betriebs von Versicherungsgeschäften ohne Erlaubnis der BaFin, verbunden mit einem Katalog der erlaubnispflichtigen Versicherungssparten.",
-    "vag_provision_1": "§ 124 VAG — Kapitalanlagemanagement: Anforderungen an die Anlage der Vermögenswerte nach dem Grundsatz der unternehmerischen Vorsicht (Prudent Person Principle).",
-    "vag_provision_2": "§ 22 VAG — Geschäftsleiter: Anforderungen an Zuverlässigkeit und fachliche Eignung der verantwortlichen Personen in Schlüsselfunktionen eines Versicherungsunternehmens.",
-    "vag_provision_3": "§ 294 VAG — Aufsichtsbefugnisse der BaFin: Umfangreiche Aufsichts- und Eingriffsbefugnisse der Bundesanstalt gegenüber beaufsichtigten Versicherungsunternehmen.",
-    "vag_consulting_headline": "FIECON-Beratung im VAG-Kontext",
-    "vag_consulting_text": "FIECON berät bei der Strukturierung von Versicherungslösungen für internationale Unternehmer und Selbstständige, insbesondere im Bereich der privaten Krankenversicherung (PKV). Wir analysieren Tarifstrukturen unter Berücksichtigung der aufsichtsrechtlichen Vorgaben des VAG und begleiten Mandanten bei der optimalen Absicherung ihrer persönlichen Risiken.",
+    "vag_name": "Draudimo priežiūros įstatymas",
+    "vag_intro": "Draudimo priežiūros įstatymas (VAG) reglamentuoja valstybinę draudimo įmonių priežiūrą Vokietijoje ir pirmiausia padeda apsaugoti draudėjus. Ji perkelia Europos direktyvą „Mokumas II“ į Vokietijos teisę ir užtikrina, kad draudikai galėtų nuolat vykdyti savo įsipareigojimus apdraustajam.",
+    "vag_detail": "VAG įpareigoja draudimo bendroves laikytis plačių kapitalo reikalavimų (mokumo kapitalo reikalavimo ir minimalaus kapitalo reikalavimo), taip pat tinkamo valdymo, kurį atlieka tinkami ir patikimi žmonės. Privatiems sveikatos draudikams taikomos specialios nuostatos dėl įmokų apskaičiavimo ir senėjimo atidėjinių formavimo – tai sritis, kuri ypač aktuali konsultuojant savarankiškai dirbančius verslininkus.",
+    "vag_provisions_headline": "Esminės taisyklės",
+    "vag_provision_0": "§ 11 VAG – Įsipareigojimas gauti leidimą: draudimas vykdyti draudimo veiklą be BaFin leidimo kartu su draudimo linijų, kurioms reikalingas leidimas, katalogu.",
+    "vag_provision_1": "§ 124 VAG – Kapitalo investicijų valdymas: Reikalavimai investuojant turtą pagal verslo apdairumo principą (Apdairaus asmens principas).",
+    "vag_provision_2": "§ 22 VAG – Vadovai: atsakingų asmenų, atliekančių pagrindines draudimo bendrovės funkcijas, patikimumo ir profesinio tinkamumo reikalavimai.",
+    "vag_provision_3": "§ 294 VAG – „BaFin“ priežiūros galios: Platūs Federalinės finansų priežiūros institucijos priežiūros ir intervencijos įgaliojimai prižiūrimų draudimo įmonių atžvilgiu.",
+    "vag_consulting_headline": "FIECON konsultavimas VAG kontekste",
+    "vag_consulting_text": "FIECON konsultuoja dėl draudimo sprendimų struktūrizavimo tarptautiniams verslininkams ir savarankiškai dirbantiems asmenims, ypač privataus sveikatos draudimo (PKV) srityje. Analizuojame tarifų struktūras atsižvelgdami į VAG norminius reikalavimus ir padedame klientams optimaliai užtikrinti asmeninę riziką.",
     "estg_abbreviation": "EStG",
-    "estg_name": "Einkommensteuergesetz",
-    "estg_intro": "Das Einkommensteuergesetz (EStG) regelt die Besteuerung des Einkommens natürlicher Personen in Deutschland. Als das zentrale Steuergesetz für Privatpersonen und Selbstständige definiert es die sieben Einkunftsarten, die persönlichen Freibeträge sowie die progressiven Steuersätze. Für international tätige Unternehmer ist das EStG besonders bedeutsam, da Deutschland das Welteinkommensprinzip anwendet.",
-    "estg_detail": "Wer in Deutschland unbeschränkt steuerpflichtig ist (§ 1 EStG), muss grundsätzlich sein gesamtes weltweites Einkommen in Deutschland versteuern — unabhängig davon, wo es erzielt wurde. Die korrekte Abgrenzung der Steuerpflicht, die Anwendung von Doppelbesteuerungsabkommen und die steuerlich optimale Gestaltung von Gesellschaftsstrukturen sind daher wesentliche Beratungsfelder für international tätige Mandanten.",
-    "estg_provisions_headline": "Wesentliche Regelungen",
-    "estg_provision_0": "§ 1 EStG — Unbeschränkte Steuerpflicht: Natürliche Personen mit Wohnsitz oder gewöhnlichem Aufenthalt in Deutschland unterliegen der unbeschränkten Einkommensteuerpflicht auf ihr Welteinkommen.",
-    "estg_provision_1": "§ 2 EStG — Einkunftsarten: Abschließende Definition der sieben Einkunftsarten, darunter Einkünfte aus Gewerbebetrieb, aus selbstständiger Arbeit und aus Kapitalvermögen.",
-    "estg_provision_2": "§ 19 EStG — Einkünfte aus nichtselbstständiger Arbeit: Regelung der Besteuerung von Arbeitslohn, Gehalt, Gratifikationen und geldwerten Vorteilen aus einem Arbeitsverhältnis.",
-    "estg_provision_3": "§ 49 EStG — Beschränkte Steuerpflicht: Besteuerung von Einkünften aus deutschen Quellen bei Personen ohne Wohnsitz in Deutschland — relevant für ausländische Gesellschafter und Geschäftsführer.",
-    "estg_consulting_headline": "FIECON-Beratung im EStG-Kontext",
-    "estg_consulting_text": "FIECON begleitet international tätige Unternehmer, Gesellschafter und Selbstständige bei der Analyse und Optimierung ihrer steuerlichen Situation unter dem EStG. Wir prüfen die persönliche Steuerpflicht, die Anwendbarkeit von Doppelbesteuerungsabkommen und entwickeln steuerlich effiziente Gesellschafts- und Vergütungsstrukturen. Für Selbstständige beraten wir zudem zur steuerlich optimalen Gestaltung der Vorsorge, insbesondere im Zusammenspiel mit der privaten Krankenversicherung.",
-    "cta_headline": "Regulatorische Fragen? Wir haben die Antworten.",
-    "cta_subline": "Ob KWG-Erlaubnisantrag, VAG-konforme Versicherungsstruktur oder steuerliche Optimierung nach EStG — sprechen Sie uns an.",
+    "estg_name": "Pajamų mokesčio įstatymas",
+    "estg_intro": "Pajamų mokesčio įstatymas (EStG) reglamentuoja fizinių asmenų pajamų apmokestinimą Vokietijoje. Kaip pagrindinis mokesčių įstatymas privatiems asmenims ir savarankiškai dirbantiems asmenims, jis apibrėžia septynias pajamų rūšis, asmenines pašalpas ir progresinius mokesčių tarifus. EStG yra ypač svarbus tarptautiniu mastu aktyviems verslininkams, nes Vokietija taiko pasaulinių pajamų principą.",
+    "estg_detail": "Kiekvienas, kuriam Vokietijoje taikoma neribota mokesčių prievolė (EStG 1 straipsnis), paprastai turi sumokėti mokesčius už visas savo pasaulines pajamas Vokietijoje, neatsižvelgiant į tai, kur jos buvo uždirbtos. Todėl teisingas mokestinės prievolės apibrėžimas, dvigubo apmokestinimo išvengimo susitarimų taikymas ir mokesčių požiūriu optimalus įmonių struktūrų dizainas yra esminės tarptautiniu mastu aktyvių klientų patarimo sritys.",
+    "estg_provisions_headline": "Esminės taisyklės",
+    "estg_provision_0": "§ 1 EStG – Neribota mokestinė prievolė: fiziniai asmenys, kurių nuolatinė gyvenamoji vieta arba nuolatinė gyvenamoji vieta yra Vokietijoje, turi neribotą pajamų mokesčio prievolę nuo savo pajamų visame pasaulyje.",
+    "estg_provision_1": "EStG § 2 – Pajamų rūšys: galutinė septynių pajamų rūšių apibrėžtis, įskaitant pajamas iš komercinės veiklos, savarankiško darbo ir kapitalo turto.",
+    "estg_provision_2": "§ 19 EStG – Pajamos iš darbo: darbo užmokesčio, atlyginimų, priedų ir piniginių išmokų iš darbo santykių apmokestinimo reglamentavimas.",
+    "estg_provision_3": "EStG § 49 – Ribotas mokestinis įsipareigojimas: Vokietijoje negyvenančių asmenų pajamų iš Vokietijos šaltinių apmokestinimas – aktualu užsienio akcininkams ir generaliniams direktoriams.",
+    "estg_consulting_headline": "FIECON patarimai EStG kontekste",
+    "estg_consulting_text": "FIECON padeda tarptautiniu mastu aktyviems verslininkams, akcininkams ir savarankiškai dirbantiems asmenims analizuoti ir optimizuoti savo mokesčių situaciją pagal EStG. Nagrinėjame fizinių asmenų mokestinę prievolę, dvigubo apmokestinimo išvengimo sutarčių taikymą, kuriame mokesčių požiūriu efektyvias įmonių ir atlyginimų struktūras. Savarankiškai dirbantiems asmenims taip pat patariame dėl optimalios pensijų apmokestinimo struktūros, ypač kartu su privačiu sveikatos draudimu.",
+    "cta_headline": "Klausimai dėl reguliavimo? Mes turime atsakymus.",
+    "cta_subline": "Nesvarbu, ar tai būtų KWG leidimo paraiška, VAG reikalavimus atitinkanti draudimo struktūra ar mokesčių optimizavimas pagal EStG – pasikalbėkite su mumis.",
     "cta_button": "Siųsti el. laišką",
-    "cta_back": "Zur Startseite",
-    "kwg_provision_4": "§ 46 KWG — Maßnahmen bei Gefahr: Eingriffsbefugnisse der BaFin bei aufsichtsrechtlichen Missständen, insbesondere zur Sicherung der ordnungsgemäßen Geschäftsführung und zum Schutz von Gläubigern.",
-    "vag_provision_4": "§ 311 VAG — Besondere Vorgaben für die private Krankenversicherung: Regelungen zur Kalkulation, Prämienanpassung und dauerhaften Finanzierung über Alterungsrückstellungen.",
-    "estg_provision_4": "§ 22 EStG — Sonstige Einkünfte: Besteuerung insbesondere von wiederkehrenden Bezügen wie Renten sowie bestimmter weiterer Einkünfte außerhalb der klassischen Einkunftsarten.",
-    "estg_provision_5": "§ 23 EStG — Private Veräußerungsgeschäfte: Steuerliche Erfassung von Gewinnen aus der Veräußerung privater Wirtschaftsgüter innerhalb der gesetzlichen Haltefristen."
+    "cta_back": "Į pagrindinį puslapį",
+    "kwg_provision_4": "§ 46 KWG – Priemonės pavojaus atveju: BaFin įgaliojimai įsikišti kilus nusiskundimams dėl reguliavimo, ypač siekiant užtikrinti tinkamą valdymą ir apsaugoti kreditorius.",
+    "vag_provision_4": "§ 311 VAG – Specialūs reikalavimai privačiam sveikatos draudimui: apskaičiavimo, įmokų koregavimo ir nuolatinio finansavimo taikant senėjimo nuostatas taisyklės.",
+    "estg_provision_4": "EStG § 22 – Kitos pajamos: ypač pasikartojančių išmokų, tokių kaip pensijos ir tam tikros kitos pajamos, nepriklausančios klasikinėms pajamų rūšims, apmokestinimas.",
+    "estg_provision_5": "EStG § 23 – Privatūs pardavimo sandoriai: pelno, gauto pardavus privatų turtą per įstatymų numatytą laikymo laikotarpį, pripažinimas mokestiniu būdu."
   },
   "fourPointPlan": {
-    "badge": "Vier-Punkte-Plan",
-    "headline": "Unser Vier-Punkte-Plan zur finanziellen Unabhängigkeit",
-    "subtitle": "Strukturierte Gesamtstrategie mit operativer Umsetzung und langfristiger Vermögenssicherung.",
-    "intro": "Der Plan folgt der klassischen unternehmerischen Logik: Struktur aufbauen, Steuern optimieren, Kosten senken und Vermögen langfristig steuerfrei aufbauen. Entscheidend ist nicht nur die Strategie, sondern die saubere Umsetzung im Tagesgeschäft.",
-    "cta_details": "Detaillierten Plan ansehen",
+    "badge": "Keturių taškų planas",
+    "headline": "Mūsų keturių punktų finansinės nepriklausomybės planas",
+    "subtitle": "Struktūrizuota bendra strategija su operatyviniu įgyvendinimu ir ilgalaike turto apsauga.",
+    "intro": "Plane vadovaujamasi klasikine verslo logika: sukurti struktūrą, optimizuoti mokesčius, mažinti sąnaudas ir ilgalaikėje perspektyvoje kaupti turtą neapmokestinant. Svarbu ne tik strategija, bet ir tinkamas jos įgyvendinimas kasdieniame versle.",
+    "cta_details": "Žiūrėti detalųjį planą",
     "detail": {
-      "meta_title": "Vier-Punkte-Plan zur finanziellen Unabhängigkeit",
-      "meta_description": "Detaillierte Darstellung des FIECON Vier-Punkte-Plans: Strategie und Organisation, steuerliche Optimierung, finanzielle Entlastung und steuerfreier Vermögensaufbau.",
-      "headline": "Vier-Punkte-Plan im Detail",
-      "subtitle": "Detaillierte Ausarbeitung aller Maßnahmen, Teilbereiche und operativen Umsetzungsschritte.",
-      "navigation_label": "Interaktive Navigation",
-      "focus_label": "Aktiver Schwerpunkt",
-      "subpoints_label": "Teilbereiche",
-      "items_label": "Maßnahmen",
-      "cta_panel_title": "Vom Plan zur Umsetzung",
-      "cta_panel_text": "Wir begleiten Sie nicht nur bei der Strategie, sondern bei der operativen Implementierung jeder einzelnen Maßnahme.",
-      "cta_contact": "Strategiegespräch vereinbaren",
-      "cta_back_home": "Zur Startseite"
+      "meta_title": "Keturių punktų finansinės nepriklausomybės planas",
+      "meta_description": "Išsamus FIECON keturių punktų plano pristatymas: strategija ir organizavimas, mokesčių optimizavimas, finansinė lengvata ir neapmokestinamas turto kūrimas.",
+      "headline": "Išsamus keturių taškų planas",
+      "subtitle": "Detalus visų priemonių, posričių ir veiklos įgyvendinimo etapų sukūrimas.",
+      "navigation_label": "Interaktyvi navigacija",
+      "focus_label": "Aktyvus dėmesys",
+      "subpoints_label": "Posritys",
+      "items_label": "Priemonės",
+      "cta_panel_title": "Nuo plano iki įgyvendinimo",
+      "cta_panel_text": "Mes ne tik remiame strategiją, bet ir kiekvienos atskiros priemonės operatyvų įgyvendinimą.",
+      "cta_contact": "Surengti strateginį susitikimą",
+      "cta_back_home": "Į pagrindinį puslapį"
     },
     "points": {
       "strategy": {
-        "title": "Strategie und Organisation",
-        "teaser": "Klare Zielstruktur und effiziente Umsetzung im Tagesgeschäft.",
-        "description": "Umsetzung des Tagesgeschäfts mit klaren Verantwortlichkeiten und belastbarer Struktur.",
+        "title": "Strategija ir organizacija",
+        "teaser": "Aiški tikslinė struktūra ir efektyvus įgyvendinimas kasdieniame versle.",
+        "description": "Kasdienio verslo įgyvendinimas su aiškia atsakomybe ir atsparia struktūra.",
         "subpoints": {
           "1_1": {
-            "title": "1.1 Klare Definition der geschäftlichen Zielstruktur",
+            "title": "1.1 Aiškus verslo tikslinės struktūros apibrėžimas",
             "items": {
-              "0": "Festlegung der Unternehmensform(en) und Beteiligungsstruktur",
-              "1": "Erweiterung bestehender Geschäftsmodelle",
-              "2": "Trennung von operativem Geschäft und Vermögensverwaltung",
-              "3": "Aufbau einer rechtssicheren Organisationsstruktur"
+              "0": "Bendrovės formos (-ių) ir akcijų paketo struktūros nustatymas",
+              "1": "Esamų verslo modelių išplėtimas",
+              "2": "Operatyvaus verslo ir turto valdymo atskyrimas",
+              "3": "Sukurti teisiškai saugią organizacinę struktūrą"
             }
           },
           "1_2": {
-            "title": "1.2 Effiziente Organisation des Tagesgeschäfts",
+            "title": "1.2 Efektyvus kasdienio verslo organizavimas",
             "items": {
-              "0": "Standardisierung von Abläufen",
-              "1": "Delegation operativer Tätigkeiten",
-              "2": "Nutzung externer Dienstleister (Steuerberater, Buchhaltung, Verwaltung)"
+              "0": "Procesų standartizavimas",
+              "1": "Operatyvinės veiklos delegavimas",
+              "2": "Išorinių paslaugų teikėjų (mokesčių konsultantų, apskaitos, administravimo) naudojimas"
             }
           }
         }
       },
       "tax": {
-        "title": "Steuerliche Optimierung",
-        "teaser": "Gesellschafts- und Gewinnstruktur steuerlich präzise ausrichten.",
-        "description": "Rechtskonforme Steuerstruktur, die Liquidität sichert und Wachstum fördert.",
+        "title": "Mokesčių optimizavimas",
+        "teaser": "Tiksliai suderinkite įmonės ir pelno struktūrą mokesčių tikslais.",
+        "description": "Teisinius reikalavimus atitinkanti mokesčių struktūra, užtikrinanti likvidumą ir skatinanti augimą.",
         "subpoints": {
           "2_1": {
-            "title": "2.1 Wahl der richtigen Gesellschaftsstruktur",
+            "title": "2.1 Tinkamos įmonės struktūros pasirinkimas",
             "items": {
-              "0": "Kombination aus Kapitalgesellschaft und Personengesellschaft",
-              "1": "Nutzung von Holding-Strukturen",
-              "2": "Trennung von Privatvermögen und Betriebsvermögen"
+              "0": "Korporacijos ir partnerystės derinys",
+              "1": "Laikančiųjų konstrukcijų naudojimas",
+              "2": "Privataus ir verslo turto atskyrimas"
             }
           },
           "2_2": {
-            "title": "2.2 Gewinnverlagerung und Gestaltung",
+            "title": "2.2 Pelno perkėlimas ir projektavimas",
             "items": {
-              "0": "Nutzung von Betriebsausgaben",
-              "1": "Gestaltung von Geschäftsführergehalt und Gewinnausschüttung",
-              "2": "Nutzung steuerlicher Freibeträge"
+              "0": "Verslo išlaidų panaudojimas",
+              "1": "Vykdomojo direktoriaus atlyginimų ir pelno paskirstymo planavimas",
+              "2": "Mokesčių lengvatų naudojimas"
             }
           },
           "2_3": {
-            "title": "2.3 Vermögensaufbau im Betriebsvermögen",
+            "title": "2.3 Turto kaupimas verslo turte",
             "items": {
-              "0": "Investitionen über die Gesellschaft"
+              "0": "Investicijos per visuomenę"
             }
           }
         }
       },
       "relief": {
-        "title": "Finanzielle Entlastung",
-        "teaser": "Laufende Kosten gezielt reduzieren, insbesondere im PKV-Bereich.",
-        "description": "Gezielte Entlastung der laufenden Kosten, insbesondere im Bereich der PKV.",
+        "title": "Finansinė pagalba",
+        "teaser": "Tikslingas nuolatinių išlaidų mažinimas, ypač privačiame sveikatos draudimo sektoriuje.",
+        "description": "Tikslinis einamųjų išlaidų palengvinimas, ypač privataus sveikatos draudimo srityje.",
         "subpoints": {
           "3_1": {
-            "title": "3.1 Analyse der bestehenden Kostenstruktur",
+            "title": "3.1 Esamos kaštų struktūros analizė",
             "items": {
-              "0": "Krankenversicherung",
-              "1": "Altersvorsorge",
-              "2": "Laufende private Verpflichtungen"
+              "0": "sveikatos draudimas",
+              "1": "Išėjimo į pensiją planavimas",
+              "2": "Nuolatiniai asmeniniai įsipareigojimai"
             }
           }
         }
       },
       "pension": {
-        "title": "Steuerfreie Rente",
-        "teaser": "Langfristiger Aufbau steuerfreien Vermögens unter Berücksichtigung der gesetzlichen Haltedauer.",
-        "description": "Aufbau der steuerfreien Rente mit Fokus auf gesetzliche Haltedauer, langfristige Planung und rechtssicheren Vermögensaufbau.",
+        "title": "Neapmokestinama pensija",
+        "teaser": "Ilgalaikis neapmokestinamo turto kaupimas, atsižvelgiant į teisėtą laikymo laikotarpį.",
+        "description": "Neapmokestinamos pensijos kūrimas, daugiausia dėmesio skiriant įstatymų nustatytam laikymo laikotarpiui, ilgalaikiam planavimui ir teisiškai saugiam turto kaupimui.",
         "subpoints": {
           "4_1": {
-            "title": "4.1 Grundprinzip des steuerfreien Vermögensaufbaus",
+            "title": "4.1 Pagrindinis neapmokestinamo turto kaupimo principas",
             "items": {
-              "0": "Investition mit langfristiger Haltedauer",
-              "1": "Nutzung gesetzlicher Steuerbefreiungen",
-              "2": "Planung über mindestens 10+ Jahre"
+              "0": "Investicija su ilgalaikiu laikymo laikotarpiu",
+              "1": "Įstatymais numatytų mokesčių lengvatų naudojimas",
+              "2": "Planavimas bent 10+ metų"
             }
           }
         }

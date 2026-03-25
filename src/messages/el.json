@@ -20,7 +20,7 @@
     "close_menu": "Κλείσιμο μενού",
     "skip_to_content": "Μετάβαση στο περιεχόμενο",
     "gesetze": "Νομοθεσία",
-    "four_point_plan": "Vier-Punkte-Plan"
+    "four_point_plan": "Σχέδιο τεσσάρων σημείων"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -117,21 +117,21 @@
     "laws": {
       "kwg": {
         "abbreviation": "KWG",
-        "name": "Kreditwesengesetz",
+        "name": "Τραπεζικός νόμος",
         "description": "Ρυθμίζει τις απαιτήσεις αδειοδότησης για τραπεζικές εργασίες και χρηματοπιστωτικές υπηρεσίες στη Γερμανία. Ο KWG αποτελεί τη βάση της εποπτείας της BaFin και ορίζει στο § 1 KWG τους βασικούς όρους καθώς και στο § 25a KWG τις απαιτήσεις για κατάλληλη οργάνωση επιχειρήσεων."
       },
       "vag": {
         "abbreviation": "VAG",
-        "name": "Versicherungsaufsichtsgesetz",
+        "name": "Νόμος περί εποπτείας ασφαλίσεων",
         "description": "Ρυθμίζει την εποπτεία ασφαλιστικών εταιρειών και υπηρετεί την προστασία των ασφαλισμένων. Ο VAG διασφαλίζει ότι οι ασφαλιστές μπορούν μόνιμα να εκπληρώνουν τις υποχρεώσεις τους και διοικούνται κατάλληλα."
       },
       "estg": {
         "abbreviation": "EStG",
-        "name": "Einkommensteuergesetz",
+        "name": "Νόμος περί φόρου εισοδήματος",
         "description": "Ρυθμίζει τη φορολόγηση εισοδήματος φυσικών προσώπων στη Γερμανία. Ο EStG ορίζει τα είδη εισοδήματος, τις φορολογικές απαλλαγές και τους φορολογικούς συντελεστές, αποτελώντας τη βάση της φορολόγησης προσωπικού εισοδήματος."
       }
     },
-    "mehr_erfahren": "Mehr erfahren"
+    "mehr_erfahren": "Μάθετε περισσότερα"
   },
   "approach": {
     "badge": "Η προσέγγισή μας",
@@ -187,7 +187,7 @@
     "subtitle": "Είτε πρόκειται για ένα αρχικό ερώτημα είτε για ένα συγκεκριμένο έργο — αφιερώνουμε χρόνο για εσάς.",
     "phone": "Τηλέφωνο",
     "mobile": "Κινητό",
-    "email": "E-Mail",
+    "email": "e-mail",
     "address": "Διεύθυνση",
     "cta": "Αποστολή email",
     "dialog": {
@@ -283,7 +283,7 @@
     "contact_title": "Επικοινωνία",
     "phone_label": "Τηλέφωνο",
     "mobile_label": "Κινητό",
-    "email_label": "E-Mail",
+    "email_label": "e-mail",
     "homepage_label": "Ιστοσελίδα",
     "responsible_title": "Υπεύθυνος για το περιεχόμενο σύμφωνα με § 55 παρ. 2 RStV",
     "responsible_name": "Peter Fiegler",
@@ -319,15 +319,15 @@
     "section_5_rights_4": "Δικαίωμα φορητότητας δεδομένων (Art. 20 DSGVO)",
     "section_5_rights_5": "Δικαίωμα εναντίωσης στην επεξεργασία (Art. 21 DSGVO)",
     "section_5_text_2": "Έχετε επίσης το δικαίωμα να υποβάλετε καταγγελία σε εποπτική αρχή προστασίας δεδομένων σχετικά με την επεξεργασία των προσωπικών σας δεδομένων από εμάς.",
-    "section_6_title": "6. Cookies",
+    "section_6_title": "6. Μπισκότα",
     "section_6_text": "Η ιστοσελίδα μας χρησιμοποιεί ένα λειτουργικό cookie (NEXT_LOCALE) για την αποθήκευση της γλωσσικής σας προτίμησης. Αυτό το cookie είναι τεχνικά απαραίτητο και δεν απαιτεί συγκατάθεση σύμφωνα με § 25 παρ. 2 TDDDG. Δεν χρησιμοποιούνται cookies παρακολούθησης ή ανάλυσης.",
     "section_7_title": "7. Αλλαγές σε αυτή την πολιτική απορρήτου",
     "section_7_text": "Αυτή η πολιτική απορρήτου είναι επί του παρόντος σε ισχύ. Λόγω της περαιτέρω ανάπτυξης της ιστοσελίδας μας ή λόγω αλλαγμένων νομικών ή κανονιστικών απαιτήσεων, ενδέχεται να καταστεί αναγκαία η τροποποίηση αυτής της πολιτικής απορρήτου.",
-    "email_label": "E-Mail",
+    "email_label": "e-mail",
     "contact_label": "Επικοινωνία"
   },
   "team": {
-    "nav_label": "Team",
+    "nav_label": "ομάδα",
     "competencies_headline": "Τομείς εξειδίκευσης",
     "cta_headline": "Ας ξεκινήσουμε μια συζήτηση",
     "cta_subline": "Είτε πρόκειται για ένα αρχικό ερώτημα είτε για ένα συγκεκριμένο έργο — αφιερώνουμε χρόνο για εσάς.",
@@ -365,159 +365,159 @@
     "service_yacht": "Χρηματοδότηση Ναυπήγησης Σκαφών"
   },
   "gesetze_page": {
-    "meta_title": "Rechtliche Grundlagen — KWG, VAG & EStG",
-    "meta_description": "FIECON erläutert die regulatorischen Grundlagen: Kreditwesengesetz, Versicherungsaufsichtsgesetz und Einkommensteuergesetz — und wie wir Mandanten dabei begleiten.",
-    "breadcrumb_home": "Startseite",
-    "breadcrumb_current": "Gesetze",
-    "hero_badge": "Regulatorischer Rahmen",
-    "hero_headline": "Rechtliche Grundlagen",
-    "hero_intro_1": "Die Beratungspraxis von FIECON ist tief im deutschen und europäischen Regulierungsrahmen verankert. Das Kreditwesengesetz, das Versicherungsaufsichtsgesetz und das Einkommensteuergesetz bilden die rechtliche Grundlage für wesentliche Teile unserer täglichen Beratungsarbeit — von der Strukturierung internationaler Gesellschaften bis zur steuerlichen Optimierung für Unternehmer.",
-    "hero_intro_2": "Auf dieser Seite stellen wir Ihnen die drei zentralen Gesetze vor, erläutern ihre wesentlichen Regelungsbereiche und zeigen, wie FIECON Mandanten konkret dabei unterstützt, die Anforderungen dieser Regelwerke rechtssicher und effizient zu erfüllen.",
+    "meta_title": "Νομική βάση — KWG, VAG & EStG",
+    "meta_description": "Η FIECON εξηγεί τη ρυθμιστική βάση: τον Τραπεζικό Νόμο, τον Νόμο περί Εποπτείας Ασφαλίσεων και τον Νόμο περί Φορολογίας Εισοδήματος - και πώς υποστηρίζουμε τους πελάτες από αυτή την άποψη.",
+    "breadcrumb_home": "Αρχική σελίδα",
+    "breadcrumb_current": "Νόμοι",
+    "hero_badge": "Ρυθμιστικό πλαίσιο",
+    "hero_headline": "Νομική βάση",
+    "hero_intro_1": "Η συμβουλευτική πρακτική της FIECON είναι βαθιά εδραιωμένη στο γερμανικό και ευρωπαϊκό κανονιστικό πλαίσιο. Ο νόμος περί τραπεζών, ο νόμος περί εποπτείας ασφαλίσεων και ο νόμος περί φόρου εισοδήματος αποτελούν τη νομική βάση για βασικά μέρη της καθημερινής μας συμβουλευτικής εργασίας - από τη διάρθρωση διεθνών εταιρειών έως τη φορολογική βελτιστοποίηση για τους επιχειρηματίες.",
+    "hero_intro_2": "Σε αυτή τη σελίδα σας παρουσιάζουμε τους τρεις κεντρικούς νόμους, εξηγούμε τους βασικούς ρυθμιστικούς τομείς τους και δείχνουμε πώς η FIECON υποστηρίζει συγκεκριμένα τους πελάτες στην εκπλήρωση των απαιτήσεων αυτών των κανονισμών με νομικά ασφαλή και αποτελεσματικό τρόπο.",
     "hero_chip_kwg": "KWG",
     "hero_chip_vag": "VAG",
     "hero_chip_estg": "EStG",
     "kwg_abbreviation": "KWG",
-    "kwg_name": "Kreditwesengesetz",
-    "kwg_intro": "Das Kreditwesengesetz (KWG) bildet das Fundament der deutschen Bankenaufsicht. Es regelt, unter welchen Voraussetzungen Unternehmen Bankgeschäfte oder Finanzdienstleistungen erbringen dürfen, und legt die Anforderungen an Organisation, Kapitalausstattung und interne Kontrolle fest. Die Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin) überwacht auf Grundlage des KWG alle erlaubnispflichtigen Institute in Deutschland.",
-    "kwg_detail": "Für Unternehmen, die Bankgeschäfte betreiben oder Finanzdienstleistungen erbringen wollen, ist die Erlaubnispflicht nach § 32 KWG von zentraler Bedeutung. Das KWG definiert in § 1 einen breiten Katalog erlaubnispflichtiger Tätigkeiten — von der Kreditvergabe über die Anlageberatung bis hin zur Abschlussvermittlung. Gleichzeitig verpflichtet § 25a Institute zu einer ordnungsgemäßen Geschäftsorganisation mit angemessenem Risikomanagement.",
-    "kwg_provisions_headline": "Wesentliche Regelungen",
-    "kwg_provision_0": "§ 1 KWG — Begriffsbestimmungen: Abschließende Definition aller erlaubnispflichtigen Bank- und Finanzdienstleistungsgeschäfte, einschließlich Kreditgeschäft, Einlagengeschäft und Anlageberatung.",
-    "kwg_provision_1": "§ 25a KWG — Besondere organisatorische Pflichten: Anforderungen an eine ordnungsgemäße Geschäftsorganisation mit angemessenem Risikomanagement, internen Kontrollverfahren und Compliance-Strukturen.",
-    "kwg_provision_2": "§ 32 KWG — Erlaubnispflicht: Verbot der gewerbsmäßigen Erbringung von Bankgeschäften und Finanzdienstleistungen ohne schriftliche Erlaubnis der BaFin.",
-    "kwg_provision_3": "§ 44 KWG — Prüfungsrechte der BaFin: Befugnisse der Aufsichtsbehörde zur Durchführung von Prüfungen bei Instituten und zur Anforderung von Auskünften und Unterlagen.",
-    "kwg_consulting_headline": "FIECON-Beratung im KWG-Kontext",
-    "kwg_consulting_text": "FIECON begleitet Unternehmen und Gründer bei der Prüfung der Erlaubnispflicht nach dem KWG, bei der Vorbereitung und Einreichung von BaFin-Erlaubnisanträgen sowie bei der Implementierung der organisatorischen Anforderungen nach § 25a KWG. Wir unterstützen auch bei der laufenden regulatorischen Compliance und der Kommunikation mit der Aufsichtsbehörde.",
+    "kwg_name": "Τραπεζικός νόμος",
+    "kwg_intro": "Ο νόμος περί τραπεζών (KWG) αποτελεί το θεμέλιο της γερμανικής τραπεζικής εποπτείας. Ρυθμίζει τους όρους υπό τους οποίους οι εταιρείες μπορούν να παρέχουν τραπεζικές ή χρηματοοικονομικές υπηρεσίες και προσδιορίζει τις απαιτήσεις οργάνωσης, κεφαλαιακών πόρων και εσωτερικού ελέγχου. Η Ομοσπονδιακή Αρχή Χρηματοοικονομικής Εποπτείας (BaFin) παρακολουθεί όλα τα ιδρύματα στη Γερμανία που απαιτούν εξουσιοδότηση βάσει της KWG.",
+    "kwg_detail": "Για εταιρείες που ασκούν τραπεζικές δραστηριότητες ή θέλουν να παρέχουν χρηματοοικονομικές υπηρεσίες, η απαίτηση εξουσιοδότησης σύμφωνα με την Ενότητα 32 του KWG είναι κεντρικής σημασίας. Στην Ενότητα 1, η KWG ορίζει έναν ευρύ κατάλογο δραστηριοτήτων που απαιτούν άδεια - από τη χορήγηση δανείων έως τις επενδυτικές συμβουλές και τις συμφωνίες μεσιτείας. Ταυτόχρονα, το άρθρο 25α υποχρεώνει τα ιδρύματα να έχουν μια σωστή επιχειρηματική οργάνωση με κατάλληλη διαχείριση κινδύνων.",
+    "kwg_provisions_headline": "Βασικοί κανονισμοί",
+    "kwg_provision_0": "§ 1 KWG - Ορισμοί: Τελικός ορισμός όλων των συναλλαγών τραπεζικών και χρηματοοικονομικών υπηρεσιών που απαιτούν άδεια, συμπεριλαμβανομένων των επιχειρηματικών δανείων, των επιχειρηματικών καταθέσεων και των επενδυτικών συμβουλών.",
+    "kwg_provision_1": "§ 25a KWG — Ειδικές οργανωτικές υποχρεώσεις: Απαιτήσεις για σωστή επιχειρηματική οργάνωση με κατάλληλη διαχείριση κινδύνου, διαδικασίες εσωτερικού ελέγχου και δομές συμμόρφωσης.",
+    "kwg_provision_2": "§ 32 KWG - Υποχρέωση λήψης άδειας: Απαγόρευση της εμπορικής παροχής τραπεζικών συναλλαγών και χρηματοοικονομικών υπηρεσιών χωρίς τη γραπτή άδεια της BaFin.",
+    "kwg_provision_3": "Ενότητα 44 KWG - Δικαιώματα ελέγχου της BaFin: Εξουσίες της εποπτικής αρχής να διενεργεί ελέγχους σε ιδρύματα και να ζητά πληροφορίες και έγγραφα.",
+    "kwg_consulting_headline": "Συμβουλευτική FIECON στο πλαίσιο της KWG",
+    "kwg_consulting_text": "Η FIECON υποστηρίζει εταιρείες και ιδρυτές στον έλεγχο της απαίτησης εξουσιοδότησης σύμφωνα με την KWG, στην προετοιμασία και υποβολή αιτήσεων εξουσιοδότησης BaFin και στην εφαρμογή των οργανωτικών απαιτήσεων σύμφωνα με την Ενότητα 25a ​​KWG. Υποστηρίζουμε επίσης τη συνεχή κανονιστική συμμόρφωση και επικοινωνία με την εποπτική αρχή.",
     "vag_abbreviation": "VAG",
-    "vag_name": "Versicherungsaufsichtsgesetz",
-    "vag_intro": "Das Versicherungsaufsichtsgesetz (VAG) regelt die staatliche Aufsicht über Versicherungsunternehmen in Deutschland und dient in erster Linie dem Schutz der Versicherungsnehmer. Es setzt die europäische Solvency II-Richtlinie in deutsches Recht um und stellt sicher, dass Versicherer dauerhaft in der Lage sind, ihre Verpflichtungen gegenüber den Versicherten zu erfüllen.",
-    "vag_detail": "Das VAG verpflichtet Versicherungsunternehmen zur Einhaltung umfangreicher Kapitalanforderungen (Solvency Capital Requirement und Minimum Capital Requirement) sowie zur ordnungsgemäßen Geschäftsführung durch geeignete und zuverlässige Personen. Für private Krankenversicherer gelten besondere Bestimmungen zur Kalkulation der Prämien und zur Bildung von Alterungsrückstellungen — ein Bereich, der für die Beratung selbstständiger Unternehmer besonders relevant ist.",
-    "vag_provisions_headline": "Wesentliche Regelungen",
-    "vag_provision_0": "§ 11 VAG — Erlaubnispflicht: Verbot des Betriebs von Versicherungsgeschäften ohne Erlaubnis der BaFin, verbunden mit einem Katalog der erlaubnispflichtigen Versicherungssparten.",
-    "vag_provision_1": "§ 124 VAG — Kapitalanlagemanagement: Anforderungen an die Anlage der Vermögenswerte nach dem Grundsatz der unternehmerischen Vorsicht (Prudent Person Principle).",
-    "vag_provision_2": "§ 22 VAG — Geschäftsleiter: Anforderungen an Zuverlässigkeit und fachliche Eignung der verantwortlichen Personen in Schlüsselfunktionen eines Versicherungsunternehmens.",
-    "vag_provision_3": "§ 294 VAG — Aufsichtsbefugnisse der BaFin: Umfangreiche Aufsichts- und Eingriffsbefugnisse der Bundesanstalt gegenüber beaufsichtigten Versicherungsunternehmen.",
-    "vag_consulting_headline": "FIECON-Beratung im VAG-Kontext",
-    "vag_consulting_text": "FIECON berät bei der Strukturierung von Versicherungslösungen für internationale Unternehmer und Selbstständige, insbesondere im Bereich der privaten Krankenversicherung (PKV). Wir analysieren Tarifstrukturen unter Berücksichtigung der aufsichtsrechtlichen Vorgaben des VAG und begleiten Mandanten bei der optimalen Absicherung ihrer persönlichen Risiken.",
+    "vag_name": "Νόμος περί εποπτείας ασφαλίσεων",
+    "vag_intro": "Ο νόμος περί εποπτείας ασφαλίσεων (VAG) ρυθμίζει την κρατική εποπτεία των ασφαλιστικών εταιρειών στη Γερμανία και χρησιμεύει κυρίως για την προστασία των αντισυμβαλλομένων. Εφαρμόζει την Ευρωπαϊκή Οδηγία Solvency II στο γερμανικό δίκαιο και διασφαλίζει ότι οι ασφαλιστές είναι μόνιμα σε θέση να εκπληρώνουν τις υποχρεώσεις τους προς τους ασφαλισμένους.",
+    "vag_detail": "Η VAG υποχρεώνει τις ασφαλιστικές εταιρείες να συμμορφώνονται με εκτεταμένες κεφαλαιακές απαιτήσεις (Κεφαλαιακή Απαίτηση Φερεγγυότητας και Ελάχιστη Κεφαλαιακή Απαίτηση) καθώς και σωστή διαχείριση από κατάλληλα και αξιόπιστα άτομα. Ισχύουν ειδικοί κανονισμοί για τους ιδιωτικούς ασφαλιστές υγείας σχετικά με τον υπολογισμό των ασφαλίστρων και τη διαμόρφωση προβλέψεων γήρανσης - τομέας που είναι ιδιαίτερα σημαντικός για την παροχή συμβουλών σε αυτοαπασχολούμενους επιχειρηματίες.",
+    "vag_provisions_headline": "Βασικοί κανονισμοί",
+    "vag_provision_0": "§ 11 VAG - Υποχρέωση λήψης άδειας: Απαγόρευση άσκησης ασφαλιστικών εργασιών χωρίς την άδεια της BaFin, σε συνδυασμό με κατάλογο των γραμμών ασφάλισης που απαιτούν άδεια.",
+    "vag_provision_1": "§ 124 VAG - Διαχείριση επενδύσεων κεφαλαίου: Απαιτήσεις για την επένδυση περιουσιακών στοιχείων σύμφωνα με την αρχή της επιχειρηματικής σύνεσης (Prudent Person Principle).",
+    "vag_provision_2": "§ 22 VAG - Managers: Απαιτήσεις αξιοπιστίας και επαγγελματικής καταλληλότητας των υπευθύνων σε βασικές λειτουργίες μιας ασφαλιστικής εταιρείας.",
+    "vag_provision_3": "§ 294 VAG — Εποπτικές εξουσίες της BaFin: Εκτεταμένες εποπτικές και παρεμβατικές εξουσίες της Ομοσπονδιακής Αρχής Χρηματοοικονομικής Εποπτείας έναντι εποπτευόμενων ασφαλιστικών εταιρειών.",
+    "vag_consulting_headline": "Συμβουλευτική FIECON στο πλαίσιο VAG",
+    "vag_consulting_text": "Η FIECON συμβουλεύει για τη διάρθρωση ασφαλιστικών λύσεων για διεθνείς επιχειρηματίες και αυτοαπασχολούμενους, ειδικά στον τομέα της ιδιωτικής ασφάλισης υγείας (PKV). Αναλύουμε τις δομές τιμολογίων λαμβάνοντας υπόψη τις ρυθμιστικές απαιτήσεις του VAG και υποστηρίζουμε τους πελάτες στη βέλτιστη διασφάλιση των προσωπικών τους κινδύνων.",
     "estg_abbreviation": "EStG",
-    "estg_name": "Einkommensteuergesetz",
-    "estg_intro": "Das Einkommensteuergesetz (EStG) regelt die Besteuerung des Einkommens natürlicher Personen in Deutschland. Als das zentrale Steuergesetz für Privatpersonen und Selbstständige definiert es die sieben Einkunftsarten, die persönlichen Freibeträge sowie die progressiven Steuersätze. Für international tätige Unternehmer ist das EStG besonders bedeutsam, da Deutschland das Welteinkommensprinzip anwendet.",
-    "estg_detail": "Wer in Deutschland unbeschränkt steuerpflichtig ist (§ 1 EStG), muss grundsätzlich sein gesamtes weltweites Einkommen in Deutschland versteuern — unabhängig davon, wo es erzielt wurde. Die korrekte Abgrenzung der Steuerpflicht, die Anwendung von Doppelbesteuerungsabkommen und die steuerlich optimale Gestaltung von Gesellschaftsstrukturen sind daher wesentliche Beratungsfelder für international tätige Mandanten.",
-    "estg_provisions_headline": "Wesentliche Regelungen",
-    "estg_provision_0": "§ 1 EStG — Unbeschränkte Steuerpflicht: Natürliche Personen mit Wohnsitz oder gewöhnlichem Aufenthalt in Deutschland unterliegen der unbeschränkten Einkommensteuerpflicht auf ihr Welteinkommen.",
-    "estg_provision_1": "§ 2 EStG — Einkunftsarten: Abschließende Definition der sieben Einkunftsarten, darunter Einkünfte aus Gewerbebetrieb, aus selbstständiger Arbeit und aus Kapitalvermögen.",
-    "estg_provision_2": "§ 19 EStG — Einkünfte aus nichtselbstständiger Arbeit: Regelung der Besteuerung von Arbeitslohn, Gehalt, Gratifikationen und geldwerten Vorteilen aus einem Arbeitsverhältnis.",
-    "estg_provision_3": "§ 49 EStG — Beschränkte Steuerpflicht: Besteuerung von Einkünften aus deutschen Quellen bei Personen ohne Wohnsitz in Deutschland — relevant für ausländische Gesellschafter und Geschäftsführer.",
-    "estg_consulting_headline": "FIECON-Beratung im EStG-Kontext",
-    "estg_consulting_text": "FIECON begleitet international tätige Unternehmer, Gesellschafter und Selbstständige bei der Analyse und Optimierung ihrer steuerlichen Situation unter dem EStG. Wir prüfen die persönliche Steuerpflicht, die Anwendbarkeit von Doppelbesteuerungsabkommen und entwickeln steuerlich effiziente Gesellschafts- und Vergütungsstrukturen. Für Selbstständige beraten wir zudem zur steuerlich optimalen Gestaltung der Vorsorge, insbesondere im Zusammenspiel mit der privaten Krankenversicherung.",
-    "cta_headline": "Regulatorische Fragen? Wir haben die Antworten.",
-    "cta_subline": "Ob KWG-Erlaubnisantrag, VAG-konforme Versicherungsstruktur oder steuerliche Optimierung nach EStG — sprechen Sie uns an.",
+    "estg_name": "Νόμος περί φόρου εισοδήματος",
+    "estg_intro": "Ο νόμος περί φόρου εισοδήματος (EStG) ρυθμίζει τη φορολόγηση του εισοδήματος των φυσικών προσώπων στη Γερμανία. Ως κεντρικός φορολογικός νόμος για ιδιώτες και αυτοαπασχολούμενους, ορίζει τα επτά είδη εισοδήματος, τα προσωπικά επιδόματα και τους προοδευτικούς φορολογικούς συντελεστές. Το EStG είναι ιδιαίτερα σημαντικό για τους διεθνώς ενεργούς επιχειρηματίες επειδή η Γερμανία εφαρμόζει την αρχή του παγκόσμιου εισοδήματος.",
+    "estg_detail": "Οποιοσδήποτε υπόκειται σε απεριόριστη φορολογική υποχρέωση στη Γερμανία (§ 1 EStG) πρέπει γενικά να πληρώσει φόρο για ολόκληρο το παγκόσμιο εισόδημά του στη Γερμανία - ανεξάρτητα από το πού το κέρδισε. Ο σωστός ορισμός της φορολογικής υποχρέωσης, η εφαρμογή συμφωνιών διπλής φορολόγησης και ο φορολογικά βέλτιστος σχεδιασμός των εταιρικών δομών είναι επομένως βασικοί τομείς συμβουλών για διεθνώς ενεργούς πελάτες.",
+    "estg_provisions_headline": "Βασικοί κανονισμοί",
+    "estg_provision_0": "§ 1 EStG - Απεριόριστη φορολογική υποχρέωση: Τα φυσικά πρόσωπα με διαμονή ή συνήθη διαμονή στη Γερμανία υπόκεινται σε απεριόριστη φορολογική υποχρέωση για το παγκόσμιο εισόδημά τους.",
+    "estg_provision_1": "§ 2 EStG — Είδη εισοδήματος: Τελικός ορισμός των επτά τύπων εισοδήματος, συμπεριλαμβανομένων των εισοδημάτων από εμπορικές δραστηριότητες, από αυτοαπασχόληση και από περιουσιακά στοιχεία κεφαλαίου.",
+    "estg_provision_2": "§ 19 EStG - Εισόδημα από εργασία: Ρύθμιση φορολόγησης μισθών, ημερομισθίων, επιδομάτων και χρηματικών παροχών από εργασιακή σχέση.",
+    "estg_provision_3": "§ 49 EStG - Περιορισμένη φορολογική υποχρέωση: Φορολογία εισοδήματος από γερμανικές πηγές για άτομα που δεν διαμένουν στη Γερμανία - σχετική για αλλοδαπούς μετόχους και διευθύνοντες συμβούλους.",
+    "estg_consulting_headline": "Συμβουλές FIECON στο πλαίσιο EStG",
+    "estg_consulting_text": "Η FIECON υποστηρίζει διεθνώς ενεργούς επιχειρηματίες, μετόχους και αυτοαπασχολούμενους στην ανάλυση και τη βελτιστοποίηση της φορολογικής τους κατάστασης στο πλαίσιο του EStG. Εξετάζουμε τη φορολογική υποχρέωση φυσικών προσώπων, τη δυνατότητα εφαρμογής συμφωνιών διπλής φορολογίας και αναπτύσσουμε φορολογικά αποδοτικές εταιρικές δομές και δομές αμοιβών. Για τους αυτοαπασχολούμενους, συμβουλεύουμε επίσης τη βέλτιστη φορολογική δομή για την παροχή συντάξεων, ειδικά σε συνδυασμό με την ιδιωτική ασφάλιση υγείας.",
+    "cta_headline": "Ρυθμιστικές ερωτήσεις; Έχουμε τις απαντήσεις.",
+    "cta_subline": "Είτε πρόκειται για αίτηση άδειας KWG, για ασφαλιστική δομή συμβατή με VAG ή για φορολογική βελτιστοποίηση σύμφωνα με το EStG - μιλήστε μας.",
     "cta_button": "Αποστολή email",
-    "cta_back": "Zur Startseite",
-    "kwg_provision_4": "§ 46 KWG — Maßnahmen bei Gefahr: Eingriffsbefugnisse der BaFin bei aufsichtsrechtlichen Missständen, insbesondere zur Sicherung der ordnungsgemäßen Geschäftsführung und zum Schutz von Gläubigern.",
-    "vag_provision_4": "§ 311 VAG — Besondere Vorgaben für die private Krankenversicherung: Regelungen zur Kalkulation, Prämienanpassung und dauerhaften Finanzierung über Alterungsrückstellungen.",
-    "estg_provision_4": "§ 22 EStG — Sonstige Einkünfte: Besteuerung insbesondere von wiederkehrenden Bezügen wie Renten sowie bestimmter weiterer Einkünfte außerhalb der klassischen Einkunftsarten.",
-    "estg_provision_5": "§ 23 EStG — Private Veräußerungsgeschäfte: Steuerliche Erfassung von Gewinnen aus der Veräußerung privater Wirtschaftsgüter innerhalb der gesetzlichen Haltefristen."
+    "cta_back": "Στην αρχική σελίδα",
+    "kwg_provision_4": "§ 46 KWG - Μέτρα σε περίπτωση κινδύνου: Εξουσίες της BaFin να παρεμβαίνει σε περίπτωση ρυθμιστικών παραπόνων, ιδίως για τη διασφάλιση της σωστής διαχείρισης και την προστασία των πιστωτών.",
+    "vag_provision_4": "§ 311 VAG - Ειδικές απαιτήσεις για την ιδιωτική ασφάλιση υγείας: κανονισμοί για τον υπολογισμό, την προσαρμογή των ασφαλίστρων και τη μόνιμη χρηματοδότηση μέσω διατάξεων γήρανσης.",
+    "estg_provision_4": "§ 22 EStG - Λοιπά εισοδήματα: Φορολογία ιδίως επαναλαμβανόμενων πληρωμών όπως οι συντάξεις και ορισμένα άλλα εισοδήματα εκτός των κλασικών τύπων εισοδήματος.",
+    "estg_provision_5": "§ 23 EStG - Συναλλαγές ιδιωτικών πωλήσεων: Αναγνώριση φόρου κερδών από την πώληση ιδιωτικών περιουσιακών στοιχείων εντός των νόμιμων περιόδων κατοχής."
   },
   "fourPointPlan": {
-    "badge": "Vier-Punkte-Plan",
-    "headline": "Unser Vier-Punkte-Plan zur finanziellen Unabhängigkeit",
-    "subtitle": "Strukturierte Gesamtstrategie mit operativer Umsetzung und langfristiger Vermögenssicherung.",
-    "intro": "Der Plan folgt der klassischen unternehmerischen Logik: Struktur aufbauen, Steuern optimieren, Kosten senken und Vermögen langfristig steuerfrei aufbauen. Entscheidend ist nicht nur die Strategie, sondern die saubere Umsetzung im Tagesgeschäft.",
-    "cta_details": "Detaillierten Plan ansehen",
+    "badge": "Σχέδιο τεσσάρων σημείων",
+    "headline": "Το σχέδιο τεσσάρων σημείων μας για οικονομική ανεξαρτησία",
+    "subtitle": "Δομημένη συνολική στρατηγική με λειτουργική εφαρμογή και μακροπρόθεσμη προστασία περιουσιακών στοιχείων.",
+    "intro": "Το σχέδιο ακολουθεί την κλασική επιχειρηματική λογική: οικοδόμηση δομής, βελτιστοποίηση φόρων, μείωση του κόστους και δημιουργία περιουσιακών στοιχείων αφορολόγητα μακροπρόθεσμα. Δεν είναι μόνο η στρατηγική που είναι σημαντική, αλλά και η σωστή εφαρμογή της στην καθημερινή δουλειά.",
+    "cta_details": "Δείτε αναλυτικό σχέδιο",
     "detail": {
-      "meta_title": "Vier-Punkte-Plan zur finanziellen Unabhängigkeit",
-      "meta_description": "Detaillierte Darstellung des FIECON Vier-Punkte-Plans: Strategie und Organisation, steuerliche Optimierung, finanzielle Entlastung und steuerfreier Vermögensaufbau.",
-      "headline": "Vier-Punkte-Plan im Detail",
-      "subtitle": "Detaillierte Ausarbeitung aller Maßnahmen, Teilbereiche und operativen Umsetzungsschritte.",
-      "navigation_label": "Interaktive Navigation",
-      "focus_label": "Aktiver Schwerpunkt",
-      "subpoints_label": "Teilbereiche",
-      "items_label": "Maßnahmen",
-      "cta_panel_title": "Vom Plan zur Umsetzung",
-      "cta_panel_text": "Wir begleiten Sie nicht nur bei der Strategie, sondern bei der operativen Implementierung jeder einzelnen Maßnahme.",
-      "cta_contact": "Strategiegespräch vereinbaren",
-      "cta_back_home": "Zur Startseite"
+      "meta_title": "Σχέδιο τεσσάρων σημείων για οικονομική ανεξαρτησία",
+      "meta_description": "Αναλυτική παρουσίαση του σχεδίου τεσσάρων σημείων FIECON: στρατηγική και οργάνωση, φορολογική βελτιστοποίηση, οικονομική ελάφρυνση και αφορολόγητη δημιουργία πλούτου.",
+      "headline": "Αναλυτικά το σχέδιο τεσσάρων σημείων",
+      "subtitle": "Λεπτομερής επεξεργασία όλων των μέτρων, υποτομέων και λειτουργικών βημάτων υλοποίησης.",
+      "navigation_label": "Διαδραστική πλοήγηση",
+      "focus_label": "Ενεργή εστίαση",
+      "subpoints_label": "Υποπεριοχές",
+      "items_label": "Μέτρα",
+      "cta_panel_title": "Από το σχέδιο στην υλοποίηση",
+      "cta_panel_text": "Δεν σας υποστηρίζουμε μόνο με τη στρατηγική, αλλά και με την επιχειρησιακή εφαρμογή κάθε επιμέρους μέτρου.",
+      "cta_contact": "Οργανώστε μια συνάντηση στρατηγικής",
+      "cta_back_home": "Στην αρχική σελίδα"
     },
     "points": {
       "strategy": {
-        "title": "Strategie und Organisation",
-        "teaser": "Klare Zielstruktur und effiziente Umsetzung im Tagesgeschäft.",
-        "description": "Umsetzung des Tagesgeschäfts mit klaren Verantwortlichkeiten und belastbarer Struktur.",
+        "title": "Στρατηγική και οργάνωση",
+        "teaser": "Σαφής δομή στόχου και αποτελεσματική εφαρμογή στην καθημερινή επιχείρηση.",
+        "description": "Υλοποίηση καθημερινών εργασιών με ξεκάθαρες αρμοδιότητες και ανθεκτική δομή.",
         "subpoints": {
           "1_1": {
-            "title": "1.1 Klare Definition der geschäftlichen Zielstruktur",
+            "title": "1.1 Σαφής ορισμός της δομής του επιχειρηματικού στόχου",
             "items": {
-              "0": "Festlegung der Unternehmensform(en) und Beteiligungsstruktur",
-              "1": "Erweiterung bestehender Geschäftsmodelle",
-              "2": "Trennung von operativem Geschäft und Vermögensverwaltung",
-              "3": "Aufbau einer rechtssicheren Organisationsstruktur"
+              "0": "Προσδιορισμός της μορφής(ών) της εταιρείας και της μετοχικής σύνθεσης",
+              "1": "Επέκταση υφιστάμενων επιχειρηματικών μοντέλων",
+              "2": "Διαχωρισμός λειτουργικών επιχειρήσεων και διαχείρισης περιουσιακών στοιχείων",
+              "3": "Η οικοδόμηση μιας νομικά ασφαλούς οργανωτικής δομής"
             }
           },
           "1_2": {
-            "title": "1.2 Effiziente Organisation des Tagesgeschäfts",
+            "title": "1.2 Αποτελεσματική οργάνωση των καθημερινών εργασιών",
             "items": {
-              "0": "Standardisierung von Abläufen",
-              "1": "Delegation operativer Tätigkeiten",
-              "2": "Nutzung externer Dienstleister (Steuerberater, Buchhaltung, Verwaltung)"
+              "0": "Τυποποίηση διαδικασιών",
+              "1": "Ανάθεση επιχειρησιακών δραστηριοτήτων",
+              "2": "Χρήση εξωτερικών παρόχων υπηρεσιών (φοροτεχνικοί, λογιστικοί, διοικητικοί)"
             }
           }
         }
       },
       "tax": {
-        "title": "Steuerliche Optimierung",
-        "teaser": "Gesellschafts- und Gewinnstruktur steuerlich präzise ausrichten.",
-        "description": "Rechtskonforme Steuerstruktur, die Liquidität sichert und Wachstum fördert.",
+        "title": "Φορολογική βελτιστοποίηση",
+        "teaser": "Ευθυγραμμίστε τη δομή της εταιρείας και των κερδών ακριβώς για φορολογικούς σκοπούς.",
+        "description": "Νομικά συμβατή φορολογική δομή που εξασφαλίζει ρευστότητα και προωθεί την ανάπτυξη.",
         "subpoints": {
           "2_1": {
-            "title": "2.1 Wahl der richtigen Gesellschaftsstruktur",
+            "title": "2.1 Επιλογή της σωστής εταιρικής δομής",
             "items": {
-              "0": "Kombination aus Kapitalgesellschaft und Personengesellschaft",
-              "1": "Nutzung von Holding-Strukturen",
-              "2": "Trennung von Privatvermögen und Betriebsvermögen"
+              "0": "Συνδυασμός εταιρείας και εταιρικής σχέσης",
+              "1": "Χρήση δομών εκμετάλλευσης",
+              "2": "Διαχωρισμός ιδιωτικών και επιχειρηματικών περιουσιακών στοιχείων"
             }
           },
           "2_2": {
-            "title": "2.2 Gewinnverlagerung und Gestaltung",
+            "title": "2.2 Μετατόπιση κερδών και σχεδιασμός",
             "items": {
-              "0": "Nutzung von Betriebsausgaben",
-              "1": "Gestaltung von Geschäftsführergehalt und Gewinnausschüttung",
-              "2": "Nutzung steuerlicher Freibeträge"
+              "0": "Χρήση επιχειρηματικών δαπανών",
+              "1": "Σχεδιασμός μισθών και διανομής κερδών του Διευθύνοντος Συμβούλου",
+              "2": "Χρήση φορολογικών εκπτώσεων"
             }
           },
           "2_3": {
-            "title": "2.3 Vermögensaufbau im Betriebsvermögen",
+            "title": "2.3 Συσσώρευση περιουσιακών στοιχείων σε εταιρικά περιουσιακά στοιχεία",
             "items": {
-              "0": "Investitionen über die Gesellschaft"
+              "0": "Επενδύσεις μέσω της κοινωνίας"
             }
           }
         }
       },
       "relief": {
-        "title": "Finanzielle Entlastung",
-        "teaser": "Laufende Kosten gezielt reduzieren, insbesondere im PKV-Bereich.",
-        "description": "Gezielte Entlastung der laufenden Kosten, insbesondere im Bereich der PKV.",
+        "title": "Οικονομική ελάφρυνση",
+        "teaser": "Στοχευμένη μείωση των διαρκών δαπανών, ιδιαίτερα στον τομέα της ιδιωτικής ασφάλισης υγείας.",
+        "description": "Στοχευμένη ελάφρυνση των συνεχιζόμενων δαπανών, ιδιαίτερα στον τομέα της ιδιωτικής ασφάλισης υγείας.",
         "subpoints": {
           "3_1": {
-            "title": "3.1 Analyse der bestehenden Kostenstruktur",
+            "title": "3.1 Ανάλυση της υφιστάμενης δομής κόστους",
             "items": {
-              "0": "Krankenversicherung",
-              "1": "Altersvorsorge",
-              "2": "Laufende private Verpflichtungen"
+              "0": "ασφάλιση υγείας",
+              "1": "Προγραμματισμός συνταξιοδότησης",
+              "2": "Συνεχείς προσωπικές δεσμεύσεις"
             }
           }
         }
       },
       "pension": {
-        "title": "Steuerfreie Rente",
-        "teaser": "Langfristiger Aufbau steuerfreien Vermögens unter Berücksichtigung der gesetzlichen Haltedauer.",
-        "description": "Aufbau der steuerfreien Rente mit Fokus auf gesetzliche Haltedauer, langfristige Planung und rechtssicheren Vermögensaufbau.",
+        "title": "Αφορολόγητη σύνταξη",
+        "teaser": "Μακροπρόθεσμη συσσώρευση αφορολόγητων περιουσιακών στοιχείων, λαμβάνοντας υπόψη τη νόμιμη περίοδο κατοχής.",
+        "description": "Δημιουργία αφορολόγητης σύνταξης με επίκεντρο τις νόμιμες περιόδους κατοχής, τον μακροπρόθεσμο σχεδιασμό και τη νομικά ασφαλή συσσώρευση περιουσιακών στοιχείων.",
         "subpoints": {
           "4_1": {
-            "title": "4.1 Grundprinzip des steuerfreien Vermögensaufbaus",
+            "title": "4.1 Βασική αρχή της αφορολόγητης συσσώρευσης περιουσιακών στοιχείων",
             "items": {
-              "0": "Investition mit langfristiger Haltedauer",
-              "1": "Nutzung gesetzlicher Steuerbefreiungen",
-              "2": "Planung über mindestens 10+ Jahre"
+              "0": "Επένδυση με μακροπρόθεσμη περίοδο διακράτησης",
+              "1": "Χρήση νόμιμων φορολογικών απαλλαγών",
+              "2": "Προγραμματισμός για τουλάχιστον 10+ χρόνια"
             }
           }
         }

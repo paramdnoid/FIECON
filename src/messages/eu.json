@@ -20,7 +20,7 @@
     "close_menu": "Menua itxi",
     "skip_to_content": "Edukira joan",
     "gesetze": "Legeria",
-    "four_point_plan": "Vier-Punkte-Plan"
+    "four_point_plan": "Lau puntuko plana"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -82,12 +82,12 @@
       }
     },
     "private_health_insurance": {
-      "title": "PKV für selbstständige Unternehmer",
-      "description": "Wir begleiten Selbstständige bei der Auswahl, Strukturierung und Optimierung einer privaten Krankenversicherung — individuell auf Einkommenssituation, Leistungsbedarf und langfristige Planung abgestimmt.",
+      "title": "Ekintzaile autonomoentzako PKV",
+      "description": "Autonomoei laguntzen diegu osasun-aseguru pribatua aukeratzen, egituratzen eta optimizatzen, beren diru-sarreren egoerara, prestazio-beharretara eta epe luzerako plangintzara egokituta.",
       "items": {
-        "0": "Tarifvergleich & Auswahl",
-        "1": "Leistungs- und Beitragsoptimierung",
-        "2": "Langfristige Absicherungsstrategie"
+        "0": "Tarifen alderaketa eta aukeraketa",
+        "1": "Errendimendua eta ekarpena optimizatzea",
+        "2": "Epe luzerako estaldura estrategia"
       }
     },
     "focus_headline": "Jardunbide nagusiak",
@@ -117,21 +117,21 @@
     "laws": {
       "kwg": {
         "abbreviation": "KWG",
-        "name": "Kreditwesengesetz",
+        "name": "Banku Legea",
         "description": "Alemaniako bankuko operazioetarako eta finantza-zerbitzuetarako baimen-eskakizunak arautzen ditu. KWGk BaFin-en gainbegiratzaren oinarria osatzen du eta § 1 KWGn funtsezko terminoak definitzen ditu, baita § 25a KWGn enpresa-antolaketa egokia lortzeko eskakizunak ere."
       },
       "vag": {
         "abbreviation": "VAG",
-        "name": "Versicherungsaufsichtsgesetz",
+        "name": "Aseguruen Gainbegiratze Legea",
         "description": "Aseguru-konpainien gainbegiratzea arautzen du eta aseguratuen babesa bermatzen du. VAGk bermatzen du aseguratzaileek beren betebeharrak betetzeko gaitasuna iraunkor mantendu dezaketela eta modu egokian kudeatzen direla."
       },
       "estg": {
         "abbreviation": "EStG",
-        "name": "Einkommensteuergesetz",
+        "name": "Errenta Zergaren Legea",
         "description": "Alemaniako pertsona fisikoen errentaren zerga-araubidea arautzen du. EStGk diru-sarrera motak, zerga-salbuespenak eta zerga-tasak definitzen ditu, errenta pertsonalaren zergaren oinarria osatuz."
       }
     },
-    "mehr_erfahren": "Mehr erfahren"
+    "mehr_erfahren": "Lortu informazio gehiago"
   },
   "approach": {
     "badge": "Gure ikuspegia",
@@ -162,7 +162,7 @@
     },
     "belgrade": {
       "city": "Belgrado",
-      "country": "Serbien",
+      "country": "Serbia",
       "label": "Hego-ekialdeko Europa"
     },
     "texas": {
@@ -365,159 +365,159 @@
     "service_yacht": "Yate Eraikuntza Finantzaketa"
   },
   "gesetze_page": {
-    "meta_title": "Rechtliche Grundlagen — KWG, VAG & EStG",
-    "meta_description": "FIECON erläutert die regulatorischen Grundlagen: Kreditwesengesetz, Versicherungsaufsichtsgesetz und Einkommensteuergesetz — und wie wir Mandanten dabei begleiten.",
-    "breadcrumb_home": "Startseite",
-    "breadcrumb_current": "Gesetze",
-    "hero_badge": "Regulatorischer Rahmen",
-    "hero_headline": "Rechtliche Grundlagen",
-    "hero_intro_1": "Die Beratungspraxis von FIECON ist tief im deutschen und europäischen Regulierungsrahmen verankert. Das Kreditwesengesetz, das Versicherungsaufsichtsgesetz und das Einkommensteuergesetz bilden die rechtliche Grundlage für wesentliche Teile unserer täglichen Beratungsarbeit — von der Strukturierung internationaler Gesellschaften bis zur steuerlichen Optimierung für Unternehmer.",
-    "hero_intro_2": "Auf dieser Seite stellen wir Ihnen die drei zentralen Gesetze vor, erläutern ihre wesentlichen Regelungsbereiche und zeigen, wie FIECON Mandanten konkret dabei unterstützt, die Anforderungen dieser Regelwerke rechtssicher und effizient zu erfüllen.",
+    "meta_title": "Oinarri juridikoa — KWG, VAG eta EStG",
+    "meta_description": "FIECONek oinarri arautzaileak azaltzen ditu: Banku Legea, Aseguruen Gainbegiratze Legea eta Errenta Zergaren Legea, eta bezeroei nola laguntzen diegun zentzu horretan.",
+    "breadcrumb_home": "Hasierako orria",
+    "breadcrumb_current": "Legeak",
+    "hero_badge": "Arau-esparrua",
+    "hero_headline": "Oinarri juridikoa",
+    "hero_intro_1": "FIECONen aholkularitza-praktika Alemaniako eta Europako arau-esparruan oso ainguratuta dago. Banku Legeak, Aseguruen Gainbegiratze Legeak eta Errentaren gaineko Zergaren Legeak gure eguneroko aholkularitza lanaren funtsezko atalen oinarri juridikoa osatzen dute -nazioarteko enpresen egituraketatik hasi eta ekintzaileentzako zerga-optimizaziora arte.",
+    "hero_intro_2": "Orri honetan hiru lege zentralak aurkezten dizkizugu, haien arau-eremu nagusiak azaltzen ditugu eta FIECONek bezeroei nola laguntzen dien bereziki araudi hauen eskakizunak legez seguru eta modu eraginkorrean betetzen erakusten dizkizugu.",
     "hero_chip_kwg": "KWG",
     "hero_chip_vag": "VAG",
     "hero_chip_estg": "EStG",
     "kwg_abbreviation": "KWG",
-    "kwg_name": "Kreditwesengesetz",
-    "kwg_intro": "Das Kreditwesengesetz (KWG) bildet das Fundament der deutschen Bankenaufsicht. Es regelt, unter welchen Voraussetzungen Unternehmen Bankgeschäfte oder Finanzdienstleistungen erbringen dürfen, und legt die Anforderungen an Organisation, Kapitalausstattung und interne Kontrolle fest. Die Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin) überwacht auf Grundlage des KWG alle erlaubnispflichtigen Institute in Deutschland.",
-    "kwg_detail": "Für Unternehmen, die Bankgeschäfte betreiben oder Finanzdienstleistungen erbringen wollen, ist die Erlaubnispflicht nach § 32 KWG von zentraler Bedeutung. Das KWG definiert in § 1 einen breiten Katalog erlaubnispflichtiger Tätigkeiten — von der Kreditvergabe über die Anlageberatung bis hin zur Abschlussvermittlung. Gleichzeitig verpflichtet § 25a Institute zu einer ordnungsgemäßen Geschäftsorganisation mit angemessenem Risikomanagement.",
-    "kwg_provisions_headline": "Wesentliche Regelungen",
-    "kwg_provision_0": "§ 1 KWG — Begriffsbestimmungen: Abschließende Definition aller erlaubnispflichtigen Bank- und Finanzdienstleistungsgeschäfte, einschließlich Kreditgeschäft, Einlagengeschäft und Anlageberatung.",
-    "kwg_provision_1": "§ 25a KWG — Besondere organisatorische Pflichten: Anforderungen an eine ordnungsgemäße Geschäftsorganisation mit angemessenem Risikomanagement, internen Kontrollverfahren und Compliance-Strukturen.",
-    "kwg_provision_2": "§ 32 KWG — Erlaubnispflicht: Verbot der gewerbsmäßigen Erbringung von Bankgeschäften und Finanzdienstleistungen ohne schriftliche Erlaubnis der BaFin.",
-    "kwg_provision_3": "§ 44 KWG — Prüfungsrechte der BaFin: Befugnisse der Aufsichtsbehörde zur Durchführung von Prüfungen bei Instituten und zur Anforderung von Auskünften und Unterlagen.",
-    "kwg_consulting_headline": "FIECON-Beratung im KWG-Kontext",
-    "kwg_consulting_text": "FIECON begleitet Unternehmen und Gründer bei der Prüfung der Erlaubnispflicht nach dem KWG, bei der Vorbereitung und Einreichung von BaFin-Erlaubnisanträgen sowie bei der Implementierung der organisatorischen Anforderungen nach § 25a KWG. Wir unterstützen auch bei der laufenden regulatorischen Compliance und der Kommunikation mit der Aufsichtsbehörde.",
+    "kwg_name": "Banku Legea",
+    "kwg_intro": "Banku Legea (KWG) Alemaniako bankuen gainbegiratzearen oinarria da. Enpresek banku- edo finantza-zerbitzuak eskain ditzaketen baldintzak arautzen ditu eta antolaketa, kapital-baliabide eta barne-kontroleko baldintzak zehazten ditu. Finantza Gainbegiratze Agintaritza Federalak (BaFin) KWGren arabera baimena behar duten Alemaniako erakunde guztiak kontrolatzen ditu.",
+    "kwg_detail": "Banku-negozioa egiten duten edo finantza-zerbitzuak eman nahi dituzten enpresentzat, KWGren 32. artikuluaren araberako baimen-eskakizuna funtsezkoa da. 1. atalean, KWG-k baimena behar duten jardueren katalogo zabala definitzen du - maileguak ematetik inbertsio-aholkularitza eta bitartekaritza-eskaintzaraino. Aldi berean, 25.a artikuluak erakundeak behartzen ditu enpresa-antolaketa egokia izatera, arriskuen kudeaketa egokiarekin.",
+    "kwg_provisions_headline": "Ezinbesteko araudia",
+    "kwg_provision_0": "§ 1 KWG - Definizioak: baimena behar duten banku- eta finantza-zerbitzuen transakzio guztien behin betiko definizioa, mailegu-negozioa, gordailu-negozioa eta inbertsio-aholkularitza barne.",
+    "kwg_provision_1": "§ 25a KWG — Antolamendu-betebehar bereziak: arriskuen kudeaketa, barne-kontrol-prozedura eta betetze-egitura egokiak dituen enpresa-antolakuntza egoki baten eskakizunak.",
+    "kwg_provision_2": "§ 32 KWG - Baimena lortzeko betebeharra: BaFin-en idatzizko baimenik gabe banku-transakzioen eta finantza-zerbitzuen merkataritza-hornikuntzaren debekua.",
+    "kwg_provision_3": "44. artikulua KWG - BaFin-en ikuskaritza-eskubideak: kontrol-agintaritzaren ahalmenak erakundeen auditoretzak egiteko eta informazioa eta dokumentuak eskatzeko.",
+    "kwg_consulting_headline": "FIECON aholkularitza KWG testuinguruan",
+    "kwg_consulting_text": "FIECONek enpresei eta sortzaileei laguntzen die KWGren araberako baimen-eskakizuna egiaztatzen, BaFin baimen-eskaerak prestatzen eta bidaltzen eta 25a KWG artikuluaren arabera antolakuntza-eskakizunak ezartzen. Gainera, araudia etengabe betetzea eta gainbegiratze-agintaritzaren komunikazioa onartzen dugu.",
     "vag_abbreviation": "VAG",
-    "vag_name": "Versicherungsaufsichtsgesetz",
-    "vag_intro": "Das Versicherungsaufsichtsgesetz (VAG) regelt die staatliche Aufsicht über Versicherungsunternehmen in Deutschland und dient in erster Linie dem Schutz der Versicherungsnehmer. Es setzt die europäische Solvency II-Richtlinie in deutsches Recht um und stellt sicher, dass Versicherer dauerhaft in der Lage sind, ihre Verpflichtungen gegenüber den Versicherten zu erfüllen.",
-    "vag_detail": "Das VAG verpflichtet Versicherungsunternehmen zur Einhaltung umfangreicher Kapitalanforderungen (Solvency Capital Requirement und Minimum Capital Requirement) sowie zur ordnungsgemäßen Geschäftsführung durch geeignete und zuverlässige Personen. Für private Krankenversicherer gelten besondere Bestimmungen zur Kalkulation der Prämien und zur Bildung von Alterungsrückstellungen — ein Bereich, der für die Beratung selbstständiger Unternehmer besonders relevant ist.",
-    "vag_provisions_headline": "Wesentliche Regelungen",
-    "vag_provision_0": "§ 11 VAG — Erlaubnispflicht: Verbot des Betriebs von Versicherungsgeschäften ohne Erlaubnis der BaFin, verbunden mit einem Katalog der erlaubnispflichtigen Versicherungssparten.",
-    "vag_provision_1": "§ 124 VAG — Kapitalanlagemanagement: Anforderungen an die Anlage der Vermögenswerte nach dem Grundsatz der unternehmerischen Vorsicht (Prudent Person Principle).",
-    "vag_provision_2": "§ 22 VAG — Geschäftsleiter: Anforderungen an Zuverlässigkeit und fachliche Eignung der verantwortlichen Personen in Schlüsselfunktionen eines Versicherungsunternehmens.",
-    "vag_provision_3": "§ 294 VAG — Aufsichtsbefugnisse der BaFin: Umfangreiche Aufsichts- und Eingriffsbefugnisse der Bundesanstalt gegenüber beaufsichtigten Versicherungsunternehmen.",
-    "vag_consulting_headline": "FIECON-Beratung im VAG-Kontext",
-    "vag_consulting_text": "FIECON berät bei der Strukturierung von Versicherungslösungen für internationale Unternehmer und Selbstständige, insbesondere im Bereich der privaten Krankenversicherung (PKV). Wir analysieren Tarifstrukturen unter Berücksichtigung der aufsichtsrechtlichen Vorgaben des VAG und begleiten Mandanten bei der optimalen Absicherung ihrer persönlichen Risiken.",
+    "vag_name": "Aseguruen Gainbegiratze Legea",
+    "vag_intro": "Aseguruen Gainbegiratze Legeak (VAG) Alemaniako aseguru-konpainien estatuko gainbegiratzea arautzen du eta, batez ere, aseguruak babesteko balio du. Kaudimenaren II. Europako Zuzentaraua Alemaniako zuzenbidean ezartzen du eta aseguru-emaileek aseguruekiko dituzten betebeharrak betirako gai izango direla bermatzen du.",
+    "vag_detail": "VAGk aseguru-etxeak kapital-eskakizun zabalak betetzera behartzen ditu (Kaudimen Kapital Eskakizuna eta Gutxieneko Kapital Eskakizuna) eta baita pertsona egoki eta fidagarrien kudeaketa egokia ere. Osasun-aseguru pribatuei arau bereziak aplikatzen zaizkie primak kalkulatzeari eta zahartze-hornidurak osatzeari dagokionez -arlo hori bereziki garrantzitsua da enpresaburu autonomoei aholkularitza emateko.",
+    "vag_provisions_headline": "Ezinbesteko araudia",
+    "vag_provision_0": "§ 11 VAG - Baimena lortzeko betebeharra: BaFin-en baimenik gabe aseguru-negozioak egiteko debekua, baimena behar duten aseguru-lerroen katalogoarekin batera.",
+    "vag_provision_1": "§ 124 VAG - Kapital-inbertsioen kudeaketa: aktiboak inbertitzeko betekizunak zuhurtzia ekintzailearen printzipioaren arabera (Pertsona Zuhurren Printzipioa).",
+    "vag_provision_2": "§ 22 VAG - Kudeatzaileak: aseguru-etxe baten funtsezko funtzioetan arduradunen fidagarritasun eta egokitasun profesionalaren baldintzak.",
+    "vag_provision_3": "§ 294 VAG — BaFin-en gainbegiratze-eskumenak: Finantza Gainbegiratze Agintaritza Federalaren gainbegiratze eta esku-hartze ahalmen zabalak aseguru-konpainiei gainbegiratuta.",
+    "vag_consulting_headline": "FIECON aholkularitza VAG testuinguruan",
+    "vag_consulting_text": "FIECONek nazioarteko ekintzaileentzako eta autonomoentzako aseguru-irtenbideak egituratzeko aholkuak ematen ditu, batez ere osasun asegurua pribatuaren (PKV) arloan. Tarifen egiturak aztertzen ditugu VAGren arauzko eskakizunak kontuan hartuta eta bezeroei laguntzen diegu beren arrisku pertsonalak modu ezin hobean ziurtatzen.",
     "estg_abbreviation": "EStG",
-    "estg_name": "Einkommensteuergesetz",
-    "estg_intro": "Das Einkommensteuergesetz (EStG) regelt die Besteuerung des Einkommens natürlicher Personen in Deutschland. Als das zentrale Steuergesetz für Privatpersonen und Selbstständige definiert es die sieben Einkunftsarten, die persönlichen Freibeträge sowie die progressiven Steuersätze. Für international tätige Unternehmer ist das EStG besonders bedeutsam, da Deutschland das Welteinkommensprinzip anwendet.",
-    "estg_detail": "Wer in Deutschland unbeschränkt steuerpflichtig ist (§ 1 EStG), muss grundsätzlich sein gesamtes weltweites Einkommen in Deutschland versteuern — unabhängig davon, wo es erzielt wurde. Die korrekte Abgrenzung der Steuerpflicht, die Anwendung von Doppelbesteuerungsabkommen und die steuerlich optimale Gestaltung von Gesellschaftsstrukturen sind daher wesentliche Beratungsfelder für international tätige Mandanten.",
-    "estg_provisions_headline": "Wesentliche Regelungen",
-    "estg_provision_0": "§ 1 EStG — Unbeschränkte Steuerpflicht: Natürliche Personen mit Wohnsitz oder gewöhnlichem Aufenthalt in Deutschland unterliegen der unbeschränkten Einkommensteuerpflicht auf ihr Welteinkommen.",
-    "estg_provision_1": "§ 2 EStG — Einkunftsarten: Abschließende Definition der sieben Einkunftsarten, darunter Einkünfte aus Gewerbebetrieb, aus selbstständiger Arbeit und aus Kapitalvermögen.",
-    "estg_provision_2": "§ 19 EStG — Einkünfte aus nichtselbstständiger Arbeit: Regelung der Besteuerung von Arbeitslohn, Gehalt, Gratifikationen und geldwerten Vorteilen aus einem Arbeitsverhältnis.",
-    "estg_provision_3": "§ 49 EStG — Beschränkte Steuerpflicht: Besteuerung von Einkünften aus deutschen Quellen bei Personen ohne Wohnsitz in Deutschland — relevant für ausländische Gesellschafter und Geschäftsführer.",
-    "estg_consulting_headline": "FIECON-Beratung im EStG-Kontext",
-    "estg_consulting_text": "FIECON begleitet international tätige Unternehmer, Gesellschafter und Selbstständige bei der Analyse und Optimierung ihrer steuerlichen Situation unter dem EStG. Wir prüfen die persönliche Steuerpflicht, die Anwendbarkeit von Doppelbesteuerungsabkommen und entwickeln steuerlich effiziente Gesellschafts- und Vergütungsstrukturen. Für Selbstständige beraten wir zudem zur steuerlich optimalen Gestaltung der Vorsorge, insbesondere im Zusammenspiel mit der privaten Krankenversicherung.",
-    "cta_headline": "Regulatorische Fragen? Wir haben die Antworten.",
-    "cta_subline": "Ob KWG-Erlaubnisantrag, VAG-konforme Versicherungsstruktur oder steuerliche Optimierung nach EStG — sprechen Sie uns an.",
+    "estg_name": "Errenta Zergaren Legea",
+    "estg_intro": "Errentaren gaineko Zergaren Legeak (EStG) Alemanian pertsona fisikoen errentaren zergapetzea arautzen du. Partikularren eta autonomoen zerga-lege zentrala den aldetik, zazpi errenta motak, hobari pertsonalak eta zerga-tasa progresiboak zehazten ditu. EStG bereziki garrantzitsua da nazioartean aktibo dauden ekintzaileentzat, Alemaniak errenta globalaren printzipioa aplikatzen duelako.",
+    "estg_detail": "Alemanian zerga-erantzukizun mugagabearen menpe dagoen edonork (§ 1 EStG) orokorrean mundu osoko diru-sarreren gaineko zergak ordaindu behar ditu Alemanian, non irabazitakoa edozein dela ere. Zerga-erantzukizunaren definizio zuzena, tributazio bikoitzaren hitzarmenak aplikatzea eta sozietate-egituren diseinurako ezinbestekoak dira, beraz, nazioartean aktibo dauden bezeroentzat.",
+    "estg_provisions_headline": "Ezinbesteko araudia",
+    "estg_provision_0": "§ 1 EStG - Zerga-erantzukizun mugagabea: Alemanian bizilekua edo ohiko bizilekua duten pertsona fisikoek errentaren gaineko zerga-erantzukizun mugagabea dute mundu osoko diru-sarreren gainean.",
+    "estg_provision_1": "§ 2 EStG — Errenta motak: Zazpi errenta motaren behin betiko definizioa, merkataritza-eragiketen, autonomoen eta kapital-aktiboen diru-sarrerak barne.",
+    "estg_provision_2": "§ 19 EStG - Lan-sarrerak: lan-harreman baten alokairuen, soldaten, hobarien eta diru-prestazioen gaineko zerga arautzea.",
+    "estg_provision_3": "§ 49 EStG - Zerga-erantzukizun mugatua: Alemanian bizi ez diren pertsonentzako iturri alemaniarren errentaren zergapetzea - ​​atzerriko akziodunentzat eta zuzendari kudeatzaileentzat garrantzitsua.",
+    "estg_consulting_headline": "FIECON aholkularitza EStG testuinguruan",
+    "estg_consulting_text": "FIECONek nazioartean aktibo dauden ekintzaileei, akziodunei eta autonomoei laguntzen die beren zerga-egoera aztertzen eta optimizatzen EStGren arabera. Zerga-erantzukizun pertsonala, zerga bikoitzaren itunen aplikagarritasuna aztertzen dugu eta zerga-eraginkortasuna duten sozietate eta ordainsari egiturak garatzen ditugu. Autonomoei, pentsioen hornikuntzarako zerga-egitura optimoa aholkatzen dugu, batez ere osasun-aseguru pribatuarekin batera.",
+    "cta_headline": "Arauzko galderak? Erantzunak ditugu.",
+    "cta_subline": "KWG baimen-eskaera, VAG-ekin bat datorren aseguru-egitura edo EStGren araberako zerga-optimizazioa dela - hitz egin gurekin.",
     "cta_button": "Posta elektronikoa bidali",
-    "cta_back": "Zur Startseite",
-    "kwg_provision_4": "§ 46 KWG — Maßnahmen bei Gefahr: Eingriffsbefugnisse der BaFin bei aufsichtsrechtlichen Missständen, insbesondere zur Sicherung der ordnungsgemäßen Geschäftsführung und zum Schutz von Gläubigern.",
-    "vag_provision_4": "§ 311 VAG — Besondere Vorgaben für die private Krankenversicherung: Regelungen zur Kalkulation, Prämienanpassung und dauerhaften Finanzierung über Alterungsrückstellungen.",
-    "estg_provision_4": "§ 22 EStG — Sonstige Einkünfte: Besteuerung insbesondere von wiederkehrenden Bezügen wie Renten sowie bestimmter weiterer Einkünfte außerhalb der klassischen Einkunftsarten.",
-    "estg_provision_5": "§ 23 EStG — Private Veräußerungsgeschäfte: Steuerliche Erfassung von Gewinnen aus der Veräußerung privater Wirtschaftsgüter innerhalb der gesetzlichen Haltefristen."
+    "cta_back": "Hasierako orrialdera",
+    "kwg_provision_4": "§ 46 KWG - Arriskuaren kasuan neurriak: BaFin-en eskumenak arau-hausteen kasuan esku hartzeko, bereziki kudeaketa egokia bermatzeko eta hartzekodunak babesteko.",
+    "vag_provision_4": "§ 311 VAG - Osasun-aseguru pribaturako betekizun bereziak: kalkulurako, primaren doikuntzarako eta finantzaketa iraunkorra zahartzeko xedapenen bidez.",
+    "estg_provision_4": "§ 22 EStG - Beste diru-sarrera batzuk: errenta mota klasikoetatik kanpoko beste diru-sarrera batzuk, esaterako, pentsioak eta beste zenbait diru-sarrerak.",
+    "estg_provision_5": "§ 23 EStG - Salmenta-eragiketa pribatuak: Ondasun pribatuen salmentaren etekinen zerga-aitorpena legez ezarritako epeetan."
   },
   "fourPointPlan": {
-    "badge": "Vier-Punkte-Plan",
-    "headline": "Unser Vier-Punkte-Plan zur finanziellen Unabhängigkeit",
-    "subtitle": "Strukturierte Gesamtstrategie mit operativer Umsetzung und langfristiger Vermögenssicherung.",
-    "intro": "Der Plan folgt der klassischen unternehmerischen Logik: Struktur aufbauen, Steuern optimieren, Kosten senken und Vermögen langfristig steuerfrei aufbauen. Entscheidend ist nicht nur die Strategie, sondern die saubere Umsetzung im Tagesgeschäft.",
-    "cta_details": "Detaillierten Plan ansehen",
+    "badge": "Lau puntuko plana",
+    "headline": "Finantza burujabetzarako gure lau puntuko plana",
+    "subtitle": "Estrategia orokorra egituratua inplementazio operatiboarekin eta epe luzerako aktiboen babesarekin.",
+    "intro": "Planak ekintzailetza-logika klasikoari jarraitzen dio: egitura eraiki, zergak optimizatu, kostuak murriztea eta aktiboak zergarik gabe eraikitzea epe luzera. Ez da garrantzitsua estrategia bakarrik, eguneroko negozioan behar bezala ezartzea ere bada.",
+    "cta_details": "Ikusi plano zehatza",
     "detail": {
-      "meta_title": "Vier-Punkte-Plan zur finanziellen Unabhängigkeit",
-      "meta_description": "Detaillierte Darstellung des FIECON Vier-Punkte-Plans: Strategie und Organisation, steuerliche Optimierung, finanzielle Entlastung und steuerfreier Vermögensaufbau.",
-      "headline": "Vier-Punkte-Plan im Detail",
-      "subtitle": "Detaillierte Ausarbeitung aller Maßnahmen, Teilbereiche und operativen Umsetzungsschritte.",
-      "navigation_label": "Interaktive Navigation",
-      "focus_label": "Aktiver Schwerpunkt",
-      "subpoints_label": "Teilbereiche",
-      "items_label": "Maßnahmen",
-      "cta_panel_title": "Vom Plan zur Umsetzung",
-      "cta_panel_text": "Wir begleiten Sie nicht nur bei der Strategie, sondern bei der operativen Implementierung jeder einzelnen Maßnahme.",
-      "cta_contact": "Strategiegespräch vereinbaren",
-      "cta_back_home": "Zur Startseite"
+      "meta_title": "Finantza burujabetzarako lau puntuko plana",
+      "meta_description": "FIECON lau puntuko planaren aurkezpen zehatza: estrategia eta antolamendua, zerga optimizazioa, finantza arintzea eta zergarik gabeko aberastasuna sortzea.",
+      "headline": "Lau puntuko planoa xehetasunez",
+      "subtitle": "Neurri, azpi-eremu eta eragiketa ezartzeko urrats guztien lanketa zehatza.",
+      "navigation_label": "Nabigazio interaktiboa",
+      "focus_label": "Foku aktiboa",
+      "subpoints_label": "Azpi-eremuak",
+      "items_label": "Neurriak",
+      "cta_panel_title": "Planetik inplementaziora arte",
+      "cta_panel_text": "Estrategian ez ezik, neurri bakoitzaren ezarpen operatiboan ere laguntzen dizugu.",
+      "cta_contact": "Antolatu estrategia bilera",
+      "cta_back_home": "Hasierako orrialdera"
     },
     "points": {
       "strategy": {
-        "title": "Strategie und Organisation",
-        "teaser": "Klare Zielstruktur und effiziente Umsetzung im Tagesgeschäft.",
-        "description": "Umsetzung des Tagesgeschäfts mit klaren Verantwortlichkeiten und belastbarer Struktur.",
+        "title": "Estrategia eta antolaketa",
+        "teaser": "Helburu-egitura argia eta ezarpen eraginkorra eguneroko negozioan.",
+        "description": "Eguneroko negozioa ezartzea erantzukizun argiekin eta egitura sendo batekin.",
         "subpoints": {
           "1_1": {
-            "title": "1.1 Klare Definition der geschäftlichen Zielstruktur",
+            "title": "1.1 Negozioaren xede-egituraren definizio argia",
             "items": {
-              "0": "Festlegung der Unternehmensform(en) und Beteiligungsstruktur",
-              "1": "Erweiterung bestehender Geschäftsmodelle",
-              "2": "Trennung von operativem Geschäft und Vermögensverwaltung",
-              "3": "Aufbau einer rechtssicheren Organisationsstruktur"
+              "0": "Sozietate forma(k) eta akzio-egitura zehaztea",
+              "1": "Dauden negozio ereduen hedapena",
+              "2": "Negozio operatiboa eta aktiboen kudeaketa bereiztea",
+              "3": "Antolamendu-egitura juridikoki segurua eraikitzea"
             }
           },
           "1_2": {
-            "title": "1.2 Effiziente Organisation des Tagesgeschäfts",
+            "title": "1.2 Eguneroko negozioaren antolaketa eraginkorra",
             "items": {
-              "0": "Standardisierung von Abläufen",
-              "1": "Delegation operativer Tätigkeiten",
-              "2": "Nutzung externer Dienstleister (Steuerberater, Buchhaltung, Verwaltung)"
+              "0": "Prozesuen normalizazioa",
+              "1": "Jarduera operatiboen eskuordetzea",
+              "2": "Kanpoko zerbitzu-hornitzaileen erabilera (zerga-aholkulariak, kontabilitatea, administrazioa)"
             }
           }
         }
       },
       "tax": {
-        "title": "Steuerliche Optimierung",
-        "teaser": "Gesellschafts- und Gewinnstruktur steuerlich präzise ausrichten.",
-        "description": "Rechtskonforme Steuerstruktur, die Liquidität sichert und Wachstum fördert.",
+        "title": "Zerga optimizazioa",
+        "teaser": "Lerrokatu enpresa eta irabazien egitura, hain zuzen ere zerga-ondorioetarako.",
+        "description": "Likidezia bermatzen duen eta hazkundea sustatzen duen zerga-egitura legez betetzen duena.",
         "subpoints": {
           "2_1": {
-            "title": "2.1 Wahl der richtigen Gesellschaftsstruktur",
+            "title": "2.1 Egitura korporatiboa egokia hautatzea",
             "items": {
-              "0": "Kombination aus Kapitalgesellschaft und Personengesellschaft",
-              "1": "Nutzung von Holding-Strukturen",
-              "2": "Trennung von Privatvermögen und Betriebsvermögen"
+              "0": "Korporazioaren eta lankidetzaren konbinazioa",
+              "1": "Euste-egituren erabilera",
+              "2": "Ondasun pribatuak eta enpresa-aktiboak bereiztea"
             }
           },
           "2_2": {
-            "title": "2.2 Gewinnverlagerung und Gestaltung",
+            "title": "2.2 Irabazi-aldaketa eta diseinua",
             "items": {
-              "0": "Nutzung von Betriebsausgaben",
-              "1": "Gestaltung von Geschäftsführergehalt und Gewinnausschüttung",
-              "2": "Nutzung steuerlicher Freibeträge"
+              "0": "Enpresa-gastuen erabilera",
+              "1": "Zuzendari kudeatzaileen soldatak eta irabazien banaketak diseinatzea",
+              "2": "Zerga hobariak erabiltzea"
             }
           },
           "2_3": {
-            "title": "2.3 Vermögensaufbau im Betriebsvermögen",
+            "title": "2.3 Aktiboak metatzea enpresa-aktiboetan",
             "items": {
-              "0": "Investitionen über die Gesellschaft"
+              "0": "Inbertsioak gizartearen bidez"
             }
           }
         }
       },
       "relief": {
-        "title": "Finanzielle Entlastung",
-        "teaser": "Laufende Kosten gezielt reduzieren, insbesondere im PKV-Bereich.",
-        "description": "Gezielte Entlastung der laufenden Kosten, insbesondere im Bereich der PKV.",
+        "title": "Finantza sorospena",
+        "teaser": "Etengabeko kostuen murrizketa bideratua, batez ere osasun-aseguru pribatuaren sektorean.",
+        "description": "Etengabeko kostuen arintzea bideratua, batez ere osasun-aseguru pribatuaren arloan.",
         "subpoints": {
           "3_1": {
-            "title": "3.1 Analyse der bestehenden Kostenstruktur",
+            "title": "3.1 Lehendik dagoen kostu-egituraren analisia",
             "items": {
-              "0": "Krankenversicherung",
-              "1": "Altersvorsorge",
-              "2": "Laufende private Verpflichtungen"
+              "0": "osasun asegurua",
+              "1": "Erretiroaren plangintza",
+              "2": "Etengabeko konpromiso pertsonalak"
             }
           }
         }
       },
       "pension": {
-        "title": "Steuerfreie Rente",
-        "teaser": "Langfristiger Aufbau steuerfreien Vermögens unter Berücksichtigung der gesetzlichen Haltedauer.",
-        "description": "Aufbau der steuerfreien Rente mit Fokus auf gesetzliche Haltedauer, langfristige Planung und rechtssicheren Vermögensaufbau.",
+        "title": "Zergarik gabeko pentsioa",
+        "teaser": "Zergarik gabeko ondasunen epe luzerako metaketa, legezko eduki-epea kontuan hartuta.",
+        "description": "Zergarik gabeko pentsioa eraikitzea, legez gordetzeko aldietan, epe luzeko plangintzan eta aktiboen metaketa legez seguruan oinarrituta.",
         "subpoints": {
           "4_1": {
-            "title": "4.1 Grundprinzip des steuerfreien Vermögensaufbaus",
+            "title": "4.1 Zergarik gabeko aktiboen metaketaren oinarrizko printzipioa",
             "items": {
-              "0": "Investition mit langfristiger Haltedauer",
-              "1": "Nutzung gesetzlicher Steuerbefreiungen",
-              "2": "Planung über mindestens 10+ Jahre"
+              "0": "Epe luzerako atxikipen-epea duen inbertsioa",
+              "1": "Legezko zerga-salbuespenak erabiltzea",
+              "2": "Gutxienez 10 urtetik gorako plangintza"
             }
           }
         }

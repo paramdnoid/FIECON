@@ -117,17 +117,17 @@
     "laws": {
       "kwg": {
         "abbreviation": "KWG",
-        "name": "Kreditwesengesetz",
+        "name": "Bankwet",
         "description": "Regelt de vergunningsvereisten voor bankactiviteiten en financiële dienstverlening in Duitsland. Het KWG vormt de basis van het BaFin-toezicht en definieert in § 1 KWG de kernbegrippen en in § 25a KWG de eisen voor een deugdelijke bedrijfsorganisatie."
       },
       "vag": {
         "abbreviation": "VAG",
-        "name": "Versicherungsaufsichtsgesetz",
+        "name": "Wet toezicht verzekeringen",
         "description": "Regelt het toezicht op verzekeringsmaatschappijen en dient ter bescherming van de verzekerden. Het VAG waarborgt dat verzekeraars blijvend aan hun verplichtingen kunnen voldoen en op een deugdelijke wijze worden bestuurd."
       },
       "estg": {
         "abbreviation": "EStG",
-        "name": "Einkommensteuergesetz",
+        "name": "Wet inkomstenbelasting",
         "description": "Regelt de belastingheffing over het inkomen van natuurlijke personen in Duitsland. Het EStG definieert de inkomstensoorten, belastingvrijstellingen en belastingtarieven en vormt de basis van de persoonlijke inkomstenbelasting."
       }
     },

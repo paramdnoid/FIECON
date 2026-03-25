@@ -20,7 +20,7 @@
     "close_menu": "Agħlaq il-menu",
     "skip_to_content": "Aqbeż għall-kontenut",
     "gesetze": "Leġiżlazzjoni",
-    "four_point_plan": "Vier-Punkte-Plan"
+    "four_point_plan": "Pjan ta’ erba’ punti"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -82,12 +82,12 @@
       }
     },
     "private_health_insurance": {
-      "title": "PKV für selbstständige Unternehmer",
-      "description": "Wir begleiten Selbstständige bei der Auswahl, Strukturierung und Optimierung einer privaten Krankenversicherung — individuell auf Einkommenssituation, Leistungsbedarf und langfristige Planung abgestimmt.",
+      "title": "PKV għal intraprendituri li jaħdmu għal rashom",
+      "description": "Aħna nappoġġjaw lin-nies li jaħdmu għal rashom fl-għażla, l-istrutturar u l-ottimizzazzjoni tal-assigurazzjoni tas-saħħa privata - imfassla individwalment għas-sitwazzjoni tad-dħul tagħhom, il-ħtiġijiet tal-benefiċċji u l-ippjanar fit-tul.",
       "items": {
-        "0": "Tarifvergleich & Auswahl",
-        "1": "Leistungs- und Beitragsoptimierung",
-        "2": "Langfristige Absicherungsstrategie"
+        "0": "Tqabbil tat-tariffi u għażla",
+        "1": "Prestazzjoni u ottimizzazzjoni tal-kontribuzzjoni",
+        "2": "Strateġija ta' hedging fit-tul"
       }
     },
     "focus_headline": "Oqsma ewlenin ta' azzjoni",
@@ -117,21 +117,21 @@
     "laws": {
       "kwg": {
         "abbreviation": "KWG",
-        "name": "Kreditwesengesetz",
+        "name": "Att Bankarju",
         "description": "Jirregola r-rekwiżiti ta' liċenzjar għal operazzjonijiet bankarji u servizzi finanzjarji fil-Ġermanja. Il-KWG jifforma l-bażi tas-superviżjoni tal-BaFin u jiddefinixxi f'§ 1 KWG it-termini ewlenin kif ukoll f'§ 25a KWG ir-rekwiżiti għal organizzazzjoni kummerċjali xierqa."
       },
       "vag": {
         "abbreviation": "VAG",
-        "name": "Versicherungsaufsichtsgesetz",
+        "name": "Att dwar is- Sorveljanza ta' l- Assigurazzjoni",
         "description": "Jirregola s-superviżjoni ta' kumpaniji tal-assigurazzjoni u jservi għall-protezzjoni tal-assigurati. Il-VAG jiżgura li l-assiguraturi jistgħu b'mod permanenti jissodisfaw l-obbligi tagħhom u jiġu ġestiti b'mod xieraq."
       },
       "estg": {
         "abbreviation": "EStG",
-        "name": "Einkommensteuergesetz",
+        "name": "Att dwar it-Taxxa fuq l-Income",
         "description": "Jirregola t-tassazzjoni tad-dħul ta' persuni fiżiċi fil-Ġermanja. L-EStG jiddefinixxi t-tipi ta' dħul, l-eżenzjonijiet mit-taxxa u r-rati tat-taxxa, u jifforma l-bażi tat-tassazzjoni tad-dħul personali."
       }
     },
-    "mehr_erfahren": "Mehr erfahren"
+    "mehr_erfahren": "Tgħallem aktar"
   },
   "approach": {
     "badge": "L-approċċ tagħna",
@@ -185,9 +185,9 @@
     "badge": "Kuntatt",
     "headline": "Ejja nitkellmu",
     "subtitle": "Kemm jekk hija mistoqsija inizjali jew proġett konkret — aħna nieħdu l-ħin għalik.",
-    "phone": "Telefon",
+    "phone": "telefon",
     "mobile": "Mowbajl",
-    "email": "E-Mail",
+    "email": "e-mail",
     "address": "Indirizz",
     "cta": "Ibgħat email",
     "dialog": {
@@ -281,9 +281,9 @@
     "title": "Avviż legali",
     "info_title": "Informazzjoni skont § 5 TMG",
     "contact_title": "Kuntatt",
-    "phone_label": "Telefon",
+    "phone_label": "telefon",
     "mobile_label": "Mowbajl",
-    "email_label": "E-Mail",
+    "email_label": "e-mail",
     "homepage_label": "Paġna ewlenija",
     "responsible_title": "Responsabbli għall-kontenut skont § 55 par. 2 RStV",
     "responsible_name": "Peter Fiegler",
@@ -323,11 +323,11 @@
     "section_6_text": "Il-websajt tagħna tuża cookie funzjonali (NEXT_LOCALE) biex taħżen il-preferenza tal-lingwa tiegħek. Din il-cookie hija teknikament meħtieġa u ma teħtieġx kunsens taħt § 25 par. 2 TDDDG. L-ebda cookies ta' tracking jew analitika ma jintużaw.",
     "section_7_title": "7. Bidliet f'din il-politika tal-privatezza",
     "section_7_text": "Din il-politika tal-privatezza hija valida bħalissa. Minħabba l-iżvilupp ulterjuri tal-websajt tagħna jew minħabba rekwiżiti legali jew regolatorji mibdula, jista' jkun meħtieġ li tiġi emendata din il-politika tal-privatezza.",
-    "email_label": "E-Mail",
+    "email_label": "e-mail",
     "contact_label": "Kuntatt"
   },
   "team": {
-    "nav_label": "Team",
+    "nav_label": "tim",
     "competencies_headline": "Oqsma ta' kompetenza",
     "cta_headline": "Ejja nibdew konversazzjoni",
     "cta_subline": "Kemm jekk hija mistoqsija inizjali jew proġett konkret — aħna nieħdu l-ħin għalik.",
@@ -365,159 +365,159 @@
     "service_yacht": "Finanzjament tal-kostruzzjoni tal-jottijiet"
   },
   "gesetze_page": {
-    "meta_title": "Rechtliche Grundlagen — KWG, VAG & EStG",
-    "meta_description": "FIECON erläutert die regulatorischen Grundlagen: Kreditwesengesetz, Versicherungsaufsichtsgesetz und Einkommensteuergesetz — und wie wir Mandanten dabei begleiten.",
-    "breadcrumb_home": "Startseite",
-    "breadcrumb_current": "Gesetze",
-    "hero_badge": "Regulatorischer Rahmen",
-    "hero_headline": "Rechtliche Grundlagen",
-    "hero_intro_1": "Die Beratungspraxis von FIECON ist tief im deutschen und europäischen Regulierungsrahmen verankert. Das Kreditwesengesetz, das Versicherungsaufsichtsgesetz und das Einkommensteuergesetz bilden die rechtliche Grundlage für wesentliche Teile unserer täglichen Beratungsarbeit — von der Strukturierung internationaler Gesellschaften bis zur steuerlichen Optimierung für Unternehmer.",
-    "hero_intro_2": "Auf dieser Seite stellen wir Ihnen die drei zentralen Gesetze vor, erläutern ihre wesentlichen Regelungsbereiche und zeigen, wie FIECON Mandanten konkret dabei unterstützt, die Anforderungen dieser Regelwerke rechtssicher und effizient zu erfüllen.",
+    "meta_title": "Bażi legali — KWG, VAG & EStG",
+    "meta_description": "FIECON jispjega l-bażi regolatorja: l-Att Bankarju, l-Att dwar is-Superviżjoni tal-Assigurazzjoni u l-Att dwar it-Taxxa tad-Dħul - u kif aħna nappoġġjaw lill-klijenti f’dan ir-rigward.",
+    "breadcrumb_home": "Home page",
+    "breadcrumb_current": "Liġijiet",
+    "hero_badge": "Qafas regolatorju",
+    "hero_headline": "Bażi legali",
+    "hero_intro_1": "Il-prattika ta' konsultazzjoni ta' FIECON hija ankrata profondament fil-qafas regolatorju Ġermaniż u Ewropew. L-Att Bankarju, l-Att dwar is-Superviżjoni tal-Assigurazzjoni u l-Att dwar it-Taxxa fuq id-Dħul jiffurmaw il-bażi legali għal partijiet essenzjali tax-xogħol ta’ konsulenza tagħna ta’ kuljum - mill-istrutturar ta’ kumpaniji internazzjonali għall-ottimizzazzjoni tat-taxxa għall-intraprendituri.",
+    "hero_intro_2": "F'din il-paġna aħna nintroduċuk it-tliet liġijiet ċentrali, nispjegaw l-oqsma regolatorji ewlenin tagħhom u nuru kif FIECON tappoġġja speċifikament lill-klijenti biex jissodisfaw ir-rekwiżiti ta 'dawn ir-regolamenti b'mod legalment sigur u effiċjenti.",
     "hero_chip_kwg": "KWG",
     "hero_chip_vag": "VAG",
     "hero_chip_estg": "EStG",
     "kwg_abbreviation": "KWG",
-    "kwg_name": "Kreditwesengesetz",
-    "kwg_intro": "Das Kreditwesengesetz (KWG) bildet das Fundament der deutschen Bankenaufsicht. Es regelt, unter welchen Voraussetzungen Unternehmen Bankgeschäfte oder Finanzdienstleistungen erbringen dürfen, und legt die Anforderungen an Organisation, Kapitalausstattung und interne Kontrolle fest. Die Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin) überwacht auf Grundlage des KWG alle erlaubnispflichtigen Institute in Deutschland.",
-    "kwg_detail": "Für Unternehmen, die Bankgeschäfte betreiben oder Finanzdienstleistungen erbringen wollen, ist die Erlaubnispflicht nach § 32 KWG von zentraler Bedeutung. Das KWG definiert in § 1 einen breiten Katalog erlaubnispflichtiger Tätigkeiten — von der Kreditvergabe über die Anlageberatung bis hin zur Abschlussvermittlung. Gleichzeitig verpflichtet § 25a Institute zu einer ordnungsgemäßen Geschäftsorganisation mit angemessenem Risikomanagement.",
-    "kwg_provisions_headline": "Wesentliche Regelungen",
-    "kwg_provision_0": "§ 1 KWG — Begriffsbestimmungen: Abschließende Definition aller erlaubnispflichtigen Bank- und Finanzdienstleistungsgeschäfte, einschließlich Kreditgeschäft, Einlagengeschäft und Anlageberatung.",
-    "kwg_provision_1": "§ 25a KWG — Besondere organisatorische Pflichten: Anforderungen an eine ordnungsgemäße Geschäftsorganisation mit angemessenem Risikomanagement, internen Kontrollverfahren und Compliance-Strukturen.",
-    "kwg_provision_2": "§ 32 KWG — Erlaubnispflicht: Verbot der gewerbsmäßigen Erbringung von Bankgeschäften und Finanzdienstleistungen ohne schriftliche Erlaubnis der BaFin.",
-    "kwg_provision_3": "§ 44 KWG — Prüfungsrechte der BaFin: Befugnisse der Aufsichtsbehörde zur Durchführung von Prüfungen bei Instituten und zur Anforderung von Auskünften und Unterlagen.",
-    "kwg_consulting_headline": "FIECON-Beratung im KWG-Kontext",
-    "kwg_consulting_text": "FIECON begleitet Unternehmen und Gründer bei der Prüfung der Erlaubnispflicht nach dem KWG, bei der Vorbereitung und Einreichung von BaFin-Erlaubnisanträgen sowie bei der Implementierung der organisatorischen Anforderungen nach § 25a KWG. Wir unterstützen auch bei der laufenden regulatorischen Compliance und der Kommunikation mit der Aufsichtsbehörde.",
+    "kwg_name": "Att Bankarju",
+    "kwg_intro": "L-Att Bankarju (KWG) jifforma l-pedament tas-superviżjoni bankarja Ġermaniża. Jirregola l-kundizzjonijiet li taħthom il-kumpaniji jistgħu jipprovdu servizzi bankarji jew finanzjarji u jispeċifika r-rekwiżiti għall-organizzazzjoni, ir-riżorsi kapitali u l-kontroll intern. L-Awtorità Superviżorja Finanzjarja Federali (BaFin) tissorvelja l-istituzzjonijiet kollha fil-Ġermanja li jeħtieġu awtorizzazzjoni fuq il-bażi tal-KWG.",
+    "kwg_detail": "Għal kumpaniji li jwettqu negozju bankarju jew jixtiequ jipprovdu servizzi finanzjarji, ir-rekwiżit ta' awtorizzazzjoni skont it-Taqsima 32 tal-KWG huwa ta' importanza ċentrali. Fit-Taqsima 1, il-KWG jiddefinixxi katalogu wiesa' ta' attivitajiet li jeħtieġu awtorizzazzjoni - mill-għoti ta' self għal pariri dwar l-investiment u ftehimiet ta' senserija. Fl-istess ħin, it-Taqsima 25a tobbliga lill-istituzzjonijiet li jkollhom organizzazzjoni tan-negozju xierqa b'ġestjoni xierqa tar-riskju.",
+    "kwg_provisions_headline": "Regolamenti essenzjali",
+    "kwg_provision_0": "§ 1 KWG - Definizzjonijiet: Definizzjoni finali tat-tranżazzjonijiet bankarji u finanzjarji kollha li jeħtieġu awtorizzazzjoni, inkluż negozju ta' self, negozju ta' depożitu u pariri dwar l-investiment.",
+    "kwg_provision_1": "§ 25a KWG — Obbligi organizzattivi speċjali: Rekwiżiti għal organizzazzjoni kummerċjali xierqa b'ġestjoni tar-riskju xierqa, proċeduri ta' kontroll intern u strutturi ta' konformità.",
+    "kwg_provision_2": "§ 32 KWG - Obbligu li jinkiseb permess: Projbizzjoni tal-provvista kummerċjali ta' tranżazzjonijiet bankarji u servizzi finanzjarji mingħajr il-permess bil-miktub ta' BaFin.",
+    "kwg_provision_3": "Taqsima 44 KWG - Drittijiet tal-awditjar tal-BaFin: Setgħat tal-awtorità superviżorja li twettaq verifiki tal-istituzzjonijiet u li titlob informazzjoni u dokumenti.",
+    "kwg_consulting_headline": "konsultazzjoni FIECON fil-kuntest KWG",
+    "kwg_consulting_text": "FIECON jappoġġja kumpaniji u fundaturi fil-verifika tar-rekwiżit ta 'awtorizzazzjoni skont il-KWG, fil-preparazzjoni u s-sottomissjoni ta' applikazzjonijiet għall-awtorizzazzjoni tal-BaFin u fl-implimentazzjoni tar-rekwiżiti organizzattivi skont it-Taqsima 25a KWG. Aħna nappoġġaw ukoll il-konformità u l-komunikazzjoni regolatorja kontinwi mal-awtorità superviżorja.",
     "vag_abbreviation": "VAG",
-    "vag_name": "Versicherungsaufsichtsgesetz",
-    "vag_intro": "Das Versicherungsaufsichtsgesetz (VAG) regelt die staatliche Aufsicht über Versicherungsunternehmen in Deutschland und dient in erster Linie dem Schutz der Versicherungsnehmer. Es setzt die europäische Solvency II-Richtlinie in deutsches Recht um und stellt sicher, dass Versicherer dauerhaft in der Lage sind, ihre Verpflichtungen gegenüber den Versicherten zu erfüllen.",
-    "vag_detail": "Das VAG verpflichtet Versicherungsunternehmen zur Einhaltung umfangreicher Kapitalanforderungen (Solvency Capital Requirement und Minimum Capital Requirement) sowie zur ordnungsgemäßen Geschäftsführung durch geeignete und zuverlässige Personen. Für private Krankenversicherer gelten besondere Bestimmungen zur Kalkulation der Prämien und zur Bildung von Alterungsrückstellungen — ein Bereich, der für die Beratung selbstständiger Unternehmer besonders relevant ist.",
-    "vag_provisions_headline": "Wesentliche Regelungen",
-    "vag_provision_0": "§ 11 VAG — Erlaubnispflicht: Verbot des Betriebs von Versicherungsgeschäften ohne Erlaubnis der BaFin, verbunden mit einem Katalog der erlaubnispflichtigen Versicherungssparten.",
-    "vag_provision_1": "§ 124 VAG — Kapitalanlagemanagement: Anforderungen an die Anlage der Vermögenswerte nach dem Grundsatz der unternehmerischen Vorsicht (Prudent Person Principle).",
-    "vag_provision_2": "§ 22 VAG — Geschäftsleiter: Anforderungen an Zuverlässigkeit und fachliche Eignung der verantwortlichen Personen in Schlüsselfunktionen eines Versicherungsunternehmens.",
-    "vag_provision_3": "§ 294 VAG — Aufsichtsbefugnisse der BaFin: Umfangreiche Aufsichts- und Eingriffsbefugnisse der Bundesanstalt gegenüber beaufsichtigten Versicherungsunternehmen.",
-    "vag_consulting_headline": "FIECON-Beratung im VAG-Kontext",
-    "vag_consulting_text": "FIECON berät bei der Strukturierung von Versicherungslösungen für internationale Unternehmer und Selbstständige, insbesondere im Bereich der privaten Krankenversicherung (PKV). Wir analysieren Tarifstrukturen unter Berücksichtigung der aufsichtsrechtlichen Vorgaben des VAG und begleiten Mandanten bei der optimalen Absicherung ihrer persönlichen Risiken.",
+    "vag_name": "Att dwar is- Sorveljanza ta' l- Assigurazzjoni",
+    "vag_intro": "L-Att dwar is-Superviżjoni tal-Assigurazzjoni (VAG) jirregola s-superviżjoni statali tal-kumpaniji tal-assigurazzjoni fil-Ġermanja u jservi primarjament biex jipproteġi lid-detenturi tal-poloz. Hija timplimenta d-Direttiva Ewropea tas-Solvenza II fil-liġi Ġermaniża u tiżgura li l-assiguraturi jkunu jistgħu jissodisfaw b'mod permanenti l-obbligi tagħhom lejn l-assigurat.",
+    "vag_detail": "Il-VAG jobbliga lill-kumpaniji tal-assigurazzjoni biex jikkonformaw ma’ rekwiżiti kapitali estensivi (Rekwiżit Kapitali tas-Solvenza u Rekwiżit Kapitali Minimu) kif ukoll ġestjoni xierqa minn nies xierqa u affidabbli. Regolamenti speċjali japplikaw għall-assiguraturi tas-saħħa privati ​​fir-rigward tal-kalkolu tal-primjums u l-formazzjoni ta 'dispożizzjonijiet ta' tixjiħ - qasam li huwa partikolarment rilevanti għall-għoti ta 'pariri lill-imprendituri li jaħdmu għal rashom.",
+    "vag_provisions_headline": "Regolamenti essenzjali",
+    "vag_provision_0": "§ 11 VAG - Obbligu li tinkiseb awtorizzazzjoni: Projbizzjoni tat-twettiq ta' negozju ta' assigurazzjoni mingħajr il-permess ta' BaFin, flimkien ma' katalgu tal-linji ta' assigurazzjoni li jeħtieġu awtorizzazzjoni.",
+    "vag_provision_1": "§ 124 VAG - Ġestjoni ta' investiment kapitali: Rekwiżiti għall-investiment ta' assi skont il-prinċipju ta' prudenza intraprenditorjali (Prinċipju ta' Persuna Prudent).",
+    "vag_provision_2": "§ 22 VAG - Maniġers: Rekwiżiti għall-affidabbiltà u l-idoneità professjonali tal-persuni responsabbli f'funzjonijiet ewlenin ta' kumpanija tal-assigurazzjoni.",
+    "vag_provision_3": "§ 294 VAG — Setgħat superviżorji ta' BaFin: Setgħat estensivi ta' sorveljanza u intervent tal-Awtorità Federali ta' Sorveljanza Finanzjarja lejn kumpaniji tal-assigurazzjoni taħt superviżjoni.",
+    "vag_consulting_headline": "konsultazzjoni FIECON fil-kuntest VAG",
+    "vag_consulting_text": "FIECON jagħti pariri dwar l-istrutturar ta 'soluzzjonijiet ta' assigurazzjoni għal intraprendituri internazzjonali u dawk li jaħdmu għal rashom, speċjalment fil-qasam tal-assigurazzjoni tas-saħħa privata (PKV). Aħna nanalizzaw l-istrutturi tat-tariffi billi nqisu r-rekwiżiti regolatorji tal-VAG u nappoġġjaw lill-klijenti biex jiżguraw bl-aħjar mod ir-riskji personali tagħhom.",
     "estg_abbreviation": "EStG",
-    "estg_name": "Einkommensteuergesetz",
-    "estg_intro": "Das Einkommensteuergesetz (EStG) regelt die Besteuerung des Einkommens natürlicher Personen in Deutschland. Als das zentrale Steuergesetz für Privatpersonen und Selbstständige definiert es die sieben Einkunftsarten, die persönlichen Freibeträge sowie die progressiven Steuersätze. Für international tätige Unternehmer ist das EStG besonders bedeutsam, da Deutschland das Welteinkommensprinzip anwendet.",
-    "estg_detail": "Wer in Deutschland unbeschränkt steuerpflichtig ist (§ 1 EStG), muss grundsätzlich sein gesamtes weltweites Einkommen in Deutschland versteuern — unabhängig davon, wo es erzielt wurde. Die korrekte Abgrenzung der Steuerpflicht, die Anwendung von Doppelbesteuerungsabkommen und die steuerlich optimale Gestaltung von Gesellschaftsstrukturen sind daher wesentliche Beratungsfelder für international tätige Mandanten.",
-    "estg_provisions_headline": "Wesentliche Regelungen",
-    "estg_provision_0": "§ 1 EStG — Unbeschränkte Steuerpflicht: Natürliche Personen mit Wohnsitz oder gewöhnlichem Aufenthalt in Deutschland unterliegen der unbeschränkten Einkommensteuerpflicht auf ihr Welteinkommen.",
-    "estg_provision_1": "§ 2 EStG — Einkunftsarten: Abschließende Definition der sieben Einkunftsarten, darunter Einkünfte aus Gewerbebetrieb, aus selbstständiger Arbeit und aus Kapitalvermögen.",
-    "estg_provision_2": "§ 19 EStG — Einkünfte aus nichtselbstständiger Arbeit: Regelung der Besteuerung von Arbeitslohn, Gehalt, Gratifikationen und geldwerten Vorteilen aus einem Arbeitsverhältnis.",
-    "estg_provision_3": "§ 49 EStG — Beschränkte Steuerpflicht: Besteuerung von Einkünften aus deutschen Quellen bei Personen ohne Wohnsitz in Deutschland — relevant für ausländische Gesellschafter und Geschäftsführer.",
-    "estg_consulting_headline": "FIECON-Beratung im EStG-Kontext",
-    "estg_consulting_text": "FIECON begleitet international tätige Unternehmer, Gesellschafter und Selbstständige bei der Analyse und Optimierung ihrer steuerlichen Situation unter dem EStG. Wir prüfen die persönliche Steuerpflicht, die Anwendbarkeit von Doppelbesteuerungsabkommen und entwickeln steuerlich effiziente Gesellschafts- und Vergütungsstrukturen. Für Selbstständige beraten wir zudem zur steuerlich optimalen Gestaltung der Vorsorge, insbesondere im Zusammenspiel mit der privaten Krankenversicherung.",
-    "cta_headline": "Regulatorische Fragen? Wir haben die Antworten.",
-    "cta_subline": "Ob KWG-Erlaubnisantrag, VAG-konforme Versicherungsstruktur oder steuerliche Optimierung nach EStG — sprechen Sie uns an.",
+    "estg_name": "Att dwar it-Taxxa fuq l-Income",
+    "estg_intro": "L-Att dwar it-Taxxa fuq id-Dħul (EStG) jirregola t-tassazzjoni tad-dħul ta' persuni fiżiċi fil-Ġermanja. Bħala l-liġi ċentrali tat-taxxa għall-individwi privati ​​u dawk li jaħdmu għal rashom, tiddefinixxi s-seba’ tipi ta’ dħul, l-allowances personali u r-rati tat-taxxa progressivi. L-EStG hija partikolarment importanti għal intraprendituri attivi internazzjonalment minħabba li l-Ġermanja tapplika l-prinċipju tad-dħul globali.",
+    "estg_detail": "Kull min huwa soġġett għal responsabbiltà tat-taxxa illimitata fil-Ġermanja (§ 1 EStG) ġeneralment irid iħallas taxxa fuq id-dħul kollu dinji tiegħu fil-Ġermanja - irrispettivament minn fejn ikun qala. Id-definizzjoni korretta tar-responsabbiltà tat-taxxa, l-applikazzjoni ta' ftehimiet ta' tassazzjoni doppja u t-tfassil ottimali tat-taxxa ta' strutturi korporattivi huma għalhekk oqsma essenzjali ta' pariri għal klijenti attivi internazzjonalment.",
+    "estg_provisions_headline": "Regolamenti essenzjali",
+    "estg_provision_0": "§ 1 EStG - Responsabbiltà tat-taxxa illimitata: Persuni fiżiċi b'residenza jew residenza abitwali fil-Ġermanja huma soġġetti għal responsabbiltà illimitata tat-taxxa fuq id-dħul tagħhom madwar id-dinja.",
+    "estg_provision_1": "§ 2 EStG — Tipi ta' dħul: Definizzjoni finali tas-seba' tipi ta' dħul, inkluż dħul minn operazzjonijiet kummerċjali, minn impjieg għal rasu u minn assi kapitali.",
+    "estg_provision_2": "§ 19 EStG - Dħul minn impjieg: Regolament tat-tassazzjoni ta' pagi, salarji, bonusijiet u benefiċċji monetarji minn relazzjoni ta' impjieg.",
+    "estg_provision_3": "§ 49 EStG - Responsabbiltà fiskali limitata: Tassazzjoni ta' dħul minn sorsi Ġermaniżi għal persuni mingħajr residenza fil-Ġermanja - rilevanti għal azzjonisti barranin u diretturi maniġerjali.",
+    "estg_consulting_headline": "Pariri FIECON fil-kuntest EStG",
+    "estg_consulting_text": "FIECON jappoġġja intraprendituri attivi internazzjonalment, azzjonisti u nies li jaħdmu għal rashom fl-analiżi u l-ottimizzazzjoni tas-sitwazzjoni tat-taxxa tagħhom taħt l-EStG. Aħna neżaminaw ir-responsabbiltà tat-taxxa personali, l-applikabbiltà ta’ ftehimiet ta’ tassazzjoni doppja u niżviluppaw strutturi korporattivi u ta’ remunerazzjoni effiċjenti fit-taxxa. Għal nies li jaħdmu għal rashom, aħna wkoll nagħtu pariri dwar l-aħjar struttura tat-taxxa għall-provvista tal-pensjoni, speċjalment flimkien mal-assigurazzjoni tas-saħħa privata.",
+    "cta_headline": "Mistoqsijiet regolatorji? Għandna t-tweġibiet.",
+    "cta_subline": "Kemm jekk hija applikazzjoni għal permess KWG, struttura tal-assigurazzjoni konformi mal-VAG jew ottimizzazzjoni tat-taxxa skont l-EStG - kellem magħna.",
     "cta_button": "Ibgħat email",
-    "cta_back": "Zur Startseite",
-    "kwg_provision_4": "§ 46 KWG — Maßnahmen bei Gefahr: Eingriffsbefugnisse der BaFin bei aufsichtsrechtlichen Missständen, insbesondere zur Sicherung der ordnungsgemäßen Geschäftsführung und zum Schutz von Gläubigern.",
-    "vag_provision_4": "§ 311 VAG — Besondere Vorgaben für die private Krankenversicherung: Regelungen zur Kalkulation, Prämienanpassung und dauerhaften Finanzierung über Alterungsrückstellungen.",
-    "estg_provision_4": "§ 22 EStG — Sonstige Einkünfte: Besteuerung insbesondere von wiederkehrenden Bezügen wie Renten sowie bestimmter weiterer Einkünfte außerhalb der klassischen Einkunftsarten.",
-    "estg_provision_5": "§ 23 EStG — Private Veräußerungsgeschäfte: Steuerliche Erfassung von Gewinnen aus der Veräußerung privater Wirtschaftsgüter innerhalb der gesetzlichen Haltefristen."
+    "cta_back": "Għall-paġna ewlenija",
+    "kwg_provision_4": "§ 46 KWG - Miżuri f'każ ta' periklu: setgħat tal-BaFin li tintervjeni fil-każ ta' ilmenti regolatorji, b'mod partikolari biex tiġi żgurata ġestjoni xierqa u biex jiġu protetti l-kredituri.",
+    "vag_provision_4": "§ 311 VAG - Rekwiżiti speċjali għall-assigurazzjoni tas-saħħa privata: regolamenti għall-kalkolu, aġġustament tal-primjum u finanzjament permanenti permezz ta 'dispożizzjonijiet ta' tixjiħ.",
+    "estg_provision_4": "§ 22 EStG - Dħul ieħor: Tassazzjoni b'mod partikolari ta' ħlasijiet rikorrenti bħal pensjonijiet u ċertu dħul ieħor barra mit-tipi klassiċi ta' dħul.",
+    "estg_provision_5": "§ 23 EStG - Tranżazzjonijiet ta' bejgħ privat: Rikonoxximent tat-taxxa ta' profitti mill-bejgħ ta' assi privati ​​fil-perjodi statutorji ta' żamma."
   },
   "fourPointPlan": {
-    "badge": "Vier-Punkte-Plan",
-    "headline": "Unser Vier-Punkte-Plan zur finanziellen Unabhängigkeit",
-    "subtitle": "Strukturierte Gesamtstrategie mit operativer Umsetzung und langfristiger Vermögenssicherung.",
-    "intro": "Der Plan folgt der klassischen unternehmerischen Logik: Struktur aufbauen, Steuern optimieren, Kosten senken und Vermögen langfristig steuerfrei aufbauen. Entscheidend ist nicht nur die Strategie, sondern die saubere Umsetzung im Tagesgeschäft.",
-    "cta_details": "Detaillierten Plan ansehen",
+    "badge": "Pjan ta’ erba’ punti",
+    "headline": "Il-pjan tagħna ta’ erba’ punti għall-indipendenza finanzjarja",
+    "subtitle": "Strateġija ġenerali strutturata b'implimentazzjoni operattiva u protezzjoni tal-assi fit-tul.",
+    "intro": "Il-pjan isegwi l-loġika intraprenditorjali klassika: tibni struttura, ottimizza t-taxxi, tnaqqas l-ispejjeż u tibni assi mingħajr taxxa fit-tul. Mhijiex biss l-istrateġija li hija importanti, iżda wkoll l-implimentazzjoni xierqa tagħha fin-negozju ta 'kuljum.",
+    "cta_details": "Ara pjan dettaljat",
     "detail": {
-      "meta_title": "Vier-Punkte-Plan zur finanziellen Unabhängigkeit",
-      "meta_description": "Detaillierte Darstellung des FIECON Vier-Punkte-Plans: Strategie und Organisation, steuerliche Optimierung, finanzielle Entlastung und steuerfreier Vermögensaufbau.",
-      "headline": "Vier-Punkte-Plan im Detail",
-      "subtitle": "Detaillierte Ausarbeitung aller Maßnahmen, Teilbereiche und operativen Umsetzungsschritte.",
-      "navigation_label": "Interaktive Navigation",
-      "focus_label": "Aktiver Schwerpunkt",
-      "subpoints_label": "Teilbereiche",
-      "items_label": "Maßnahmen",
-      "cta_panel_title": "Vom Plan zur Umsetzung",
-      "cta_panel_text": "Wir begleiten Sie nicht nur bei der Strategie, sondern bei der operativen Implementierung jeder einzelnen Maßnahme.",
-      "cta_contact": "Strategiegespräch vereinbaren",
-      "cta_back_home": "Zur Startseite"
+      "meta_title": "Pjan ta’ erba’ punti għall-indipendenza finanzjarja",
+      "meta_description": "Preżentazzjoni dettaljata tal-pjan ta’ erba’ punti FIECON: strateġija u organizzazzjoni, ottimizzazzjoni tat-taxxa, ħelsien finanzjarju u ħolqien ta’ ġid mingħajr taxxa.",
+      "headline": "Pjan ta 'erba' punti fid-dettall",
+      "subtitle": "Elaborazzjoni dettaljata tal-miżuri, sub-oqsma u passi ta' implimentazzjoni operazzjonali kollha.",
+      "navigation_label": "Navigazzjoni interattiva",
+      "focus_label": "Fokus attiv",
+      "subpoints_label": "Sub-oqsma",
+      "items_label": "Miżuri",
+      "cta_panel_title": "Mill-pjan għall-implimentazzjoni",
+      "cta_panel_text": "Aħna mhux biss nappoġġjawk bl-istrateġija, iżda wkoll bl-implimentazzjoni operattiva ta 'kull miżura individwali.",
+      "cta_contact": "Irranġa laqgħa ta' strateġija",
+      "cta_back_home": "Għall-paġna ewlenija"
     },
     "points": {
       "strategy": {
-        "title": "Strategie und Organisation",
-        "teaser": "Klare Zielstruktur und effiziente Umsetzung im Tagesgeschäft.",
-        "description": "Umsetzung des Tagesgeschäfts mit klaren Verantwortlichkeiten und belastbarer Struktur.",
+        "title": "Strateġija u organizzazzjoni",
+        "teaser": "Struttura ta' mira ċara u implimentazzjoni effiċjenti fin-negozju ta' kuljum.",
+        "description": "Implimentazzjoni ta 'negozju ta' kuljum b'responsabbiltajiet ċari u struttura reżiljenti.",
         "subpoints": {
           "1_1": {
-            "title": "1.1 Klare Definition der geschäftlichen Zielstruktur",
+            "title": "1.1 Definizzjoni ċara tal-istruttura tal-mira tan-negozju",
             "items": {
-              "0": "Festlegung der Unternehmensform(en) und Beteiligungsstruktur",
-              "1": "Erweiterung bestehender Geschäftsmodelle",
-              "2": "Trennung von operativem Geschäft und Vermögensverwaltung",
-              "3": "Aufbau einer rechtssicheren Organisationsstruktur"
+              "0": "Determinazzjoni tal-forma(i) tal-kumpanija u l-istruttura tal-ishma",
+              "1": "Espansjoni ta' mudelli ta' negozju eżistenti",
+              "2": "Separazzjoni ta' negozju operattiv u ġestjoni tal-assi",
+              "3": "Bini ta' struttura organizzattiva legalment sigura"
             }
           },
           "1_2": {
-            "title": "1.2 Effiziente Organisation des Tagesgeschäfts",
+            "title": "1.2 Organizzazzjoni effiċjenti tan-negozju ta' kuljum",
             "items": {
-              "0": "Standardisierung von Abläufen",
-              "1": "Delegation operativer Tätigkeiten",
-              "2": "Nutzung externer Dienstleister (Steuerberater, Buchhaltung, Verwaltung)"
+              "0": "Standardizzazzjoni ta' proċessi",
+              "1": "Delega ta' attivitajiet operattivi",
+              "2": "Użu ta' fornituri ta' servizzi esterni (konsulenti tat-taxxa, kontabilità, amministrazzjoni)"
             }
           }
         }
       },
       "tax": {
-        "title": "Steuerliche Optimierung",
-        "teaser": "Gesellschafts- und Gewinnstruktur steuerlich präzise ausrichten.",
-        "description": "Rechtskonforme Steuerstruktur, die Liquidität sichert und Wachstum fördert.",
+        "title": "Ottimizzazzjoni tat-taxxa",
+        "teaser": "Tallinja l-istruttura tal-kumpanija u tal-profitt preċiżament għal skopijiet ta’ taxxa.",
+        "description": "Struttura tat-taxxa konformi legalment li tiżgura l-likwidità u tippromwovi t-tkabbir.",
         "subpoints": {
           "2_1": {
-            "title": "2.1 Wahl der richtigen Gesellschaftsstruktur",
+            "title": "2.1 Għażla tal-istruttura korporattiva t-tajba",
             "items": {
-              "0": "Kombination aus Kapitalgesellschaft und Personengesellschaft",
-              "1": "Nutzung von Holding-Strukturen",
-              "2": "Trennung von Privatvermögen und Betriebsvermögen"
+              "0": "Għaqda ta' korporazzjoni u sħubija",
+              "1": "Użu ta' strutturi ta' azjenda",
+              "2": "Separazzjoni ta' assi privati ​​u assi tan-negozju"
             }
           },
           "2_2": {
-            "title": "2.2 Gewinnverlagerung und Gestaltung",
+            "title": "2.2 Ċaqliq tal-profitt u disinn",
             "items": {
-              "0": "Nutzung von Betriebsausgaben",
-              "1": "Gestaltung von Geschäftsführergehalt und Gewinnausschüttung",
-              "2": "Nutzung steuerlicher Freibeträge"
+              "0": "Użu ta' spejjeż ta' negozju",
+              "1": "Iddisinjar tas-salarji tad-direttur maniġerjali u t-tqassim tal-profitti",
+              "2": "Użu ta' allowances tat-taxxa"
             }
           },
           "2_3": {
-            "title": "2.3 Vermögensaufbau im Betriebsvermögen",
+            "title": "2.3 Akkumulazzjoni ta' assi f'assi tan-negozju",
             "items": {
-              "0": "Investitionen über die Gesellschaft"
+              "0": "Investimenti permezz tas-soċjetà"
             }
           }
         }
       },
       "relief": {
-        "title": "Finanzielle Entlastung",
-        "teaser": "Laufende Kosten gezielt reduzieren, insbesondere im PKV-Bereich.",
-        "description": "Gezielte Entlastung der laufenden Kosten, insbesondere im Bereich der PKV.",
+        "title": "Ħelsien finanzjarju",
+        "teaser": "Tnaqqis immirat tal-ispejjeż kontinwi, speċjalment fis-settur tal-assigurazzjoni tas-saħħa privata.",
+        "description": "Ħelsien immirat tal-ispejjeż kontinwi, speċjalment fil-qasam tal-assigurazzjoni tas-saħħa privata.",
         "subpoints": {
           "3_1": {
-            "title": "3.1 Analyse der bestehenden Kostenstruktur",
+            "title": "3.1 Analiżi tal-istruttura tal-ispejjeż eżistenti",
             "items": {
-              "0": "Krankenversicherung",
-              "1": "Altersvorsorge",
-              "2": "Laufende private Verpflichtungen"
+              "0": "assigurazzjoni tas-saħħa",
+              "1": "Ippjanar tal-irtirar",
+              "2": "Impenji personali kontinwi"
             }
           }
         }
       },
       "pension": {
-        "title": "Steuerfreie Rente",
-        "teaser": "Langfristiger Aufbau steuerfreien Vermögens unter Berücksichtigung der gesetzlichen Haltedauer.",
-        "description": "Aufbau der steuerfreien Rente mit Fokus auf gesetzliche Haltedauer, langfristige Planung und rechtssicheren Vermögensaufbau.",
+        "title": "Pensjoni bla taxxa",
+        "teaser": "Akkumulazzjoni fit-tul ta 'assi ħielsa mit-taxxa, b'kont meħud tal-perjodu ta' żamma legali.",
+        "description": "Il-bini ta' pensjoni ħielsa mit-taxxa b'fokus fuq perjodi statutorji ta' żamma, ippjanar fit-tul u akkumulazzjoni ta' assi legalment sigura.",
         "subpoints": {
           "4_1": {
-            "title": "4.1 Grundprinzip des steuerfreien Vermögensaufbaus",
+            "title": "4.1 Prinċipju bażiku ta' akkumulazzjoni ta' assi mingħajr taxxa",
             "items": {
-              "0": "Investition mit langfristiger Haltedauer",
-              "1": "Nutzung gesetzlicher Steuerbefreiungen",
-              "2": "Planung über mindestens 10+ Jahre"
+              "0": "Investiment b'perjodu ta' żamma fit-tul",
+              "1": "Użu ta' eżenzjonijiet statutorji tat-taxxa",
+              "2": "Ippjanar għal mill-inqas 10+ snin"
             }
           }
         }

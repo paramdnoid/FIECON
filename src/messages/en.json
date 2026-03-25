@@ -17,7 +17,7 @@
     "approach": "Approach",
     "offices": "Offices",
     "contact": "Contact",
-    "navigation": "Navigation",
+    "navigation": "navigation",
     "close_menu": "Close menu",
     "skip_to_content": "Skip to content",
     "gesetze": "Legislation"
@@ -117,17 +117,17 @@
     "laws": {
       "kwg": {
         "abbreviation": "KWG",
-        "name": "Kreditwesengesetz",
+        "name": "Banking Act",
         "description": "Governs the licensing requirements for banking and financial services in Germany. The KWG forms the basis of BaFin supervision and defines in § 1 KWG the key terms as well as in § 25a KWG the requirements for proper business organisation."
       },
       "vag": {
         "abbreviation": "VAG",
-        "name": "Versicherungsaufsichtsgesetz",
+        "name": "Insurance Supervision Act",
         "description": "Governs the supervision of insurance companies and serves to protect policyholders. The VAG ensures that insurers can permanently meet their obligations and are properly managed."
       },
       "estg": {
         "abbreviation": "EStG",
-        "name": "Einkommensteuergesetz",
+        "name": "Income Tax Act",
         "description": "Governs the taxation of personal income in Germany. The EStG defines the types of income, tax-free allowances and tax rates, forming the basis of personal income taxation."
       }
     },
@@ -299,7 +299,7 @@
     "dialog": {
       "title": "Send Message",
       "panel_subtitle": "We look forward to your inquiry and will get back to you promptly.",
-      "name": "Name",
+      "name": "name",
       "name_placeholder": "Your full name",
       "email": "Email Address",
       "email_placeholder": "your@email.com",
@@ -342,7 +342,7 @@
     "back": "Back to Homepage"
   },
   "team": {
-    "nav_label": "Team",
+    "nav_label": "team",
     "competencies_headline": "Areas of Expertise",
     "cta_headline": "Let's Start a Conversation",
     "cta_subline": "Whether an initial question or a concrete project — we take the time for you.",
@@ -420,7 +420,7 @@
     "phone_label": "Phone",
     "mobile_label": "Mobile",
     "email_label": "Email",
-    "homepage_label": "Homepage",
+    "homepage_label": "Website",
     "responsible_title": "Responsible for content according to § 55 para. 2 RStV",
     "responsible_name": "Peter Fiegler",
     "disclaimer_title": "Disclaimer",

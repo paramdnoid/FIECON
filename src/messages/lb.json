@@ -20,7 +20,7 @@
     "close_menu": "Menü zoumaachen",
     "skip_to_content": "Zum Inhalt sprangen",
     "gesetze": "Gesetzgebung",
-    "four_point_plan": "Vier-Punkte-Plan"
+    "four_point_plan": "Véier-Punkt Plang"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -49,12 +49,12 @@
       "title": "Gesellschaftsrecht & Firmengrënnungen",
       "description": "Eise Käerberäich: mir beroden bei der Grënnung, Strukturéierung a Gouvernance vu Firmen an internationale Jurisdiktiounen. Vum éischten Konzept bis zur rechtlech fundéierter Ëmsetzung stinn mir Iech zur Säit.",
       "items": {
-        "0": "Gesellschaftsrecht",
+        "0": "Firmenrecht",
         "1": "International Firmengrënnungen"
       }
     },
     "finance": {
-      "title": "Finanzverwaltung",
+      "title": "Finanzmanagement",
       "tab": "Allgemeng",
       "description": "Kloerheet schafft Vertrauen: mir iwwerhuelen Är Finanzverwaltung a schafen transparent Strukturen, déi nohaltegt Wuesstem erméiglechen.",
       "items": {
@@ -64,7 +64,7 @@
     },
     "construction": {
       "title": "Baufinanzéierung",
-      "tab": "Bau",
+      "tab": "Gebai",
       "description": "Bauprojete verlaangen finanziell Zouverlässegkeet. Mir strukturéieren an iwwerwaachen d'Finanzéierung vun Äre Bauvirhuelen — vun der éischter Kalkulatioun bis zur Fäerdegstellung.",
       "items": {
         "0": "Projetfinanzéierung",
@@ -74,7 +74,7 @@
     },
     "yacht": {
       "title": "Yachtbaufinanzéierung",
-      "tab": "Yachtbau",
+      "tab": "Yacht Gebai",
       "description": "En distinctive Segment verdéngt distinctive Betreiung. Mir beroden bei der Finanzéierung vu Yachtbauprojeten — diskret, perséinlech a mat engem echte Versteesdemech fir d'Standarden vun der Branche.",
       "items": {
         "0": "Yachtfinanzéierung",
@@ -82,12 +82,12 @@
       }
     },
     "private_health_insurance": {
-      "title": "PKV für selbstständige Unternehmer",
-      "description": "Wir begleiten Selbstständige bei der Auswahl, Strukturierung und Optimierung einer privaten Krankenversicherung — individuell auf Einkommenssituation, Leistungsbedarf und langfristige Planung abgestimmt.",
+      "title": "PKV fir selbstänneg Entrepreneuren",
+      "description": "Mir ënnerstëtzen selbstänneg Leit bei der Auswiel, der Struktur an der Optimisatioun vun der privater Krankeversécherung - individuell un hir Akommessituatioun, Beneficebedürfnisser a laangfristeg Planung ugepasst.",
       "items": {
-        "0": "Tarifvergleich & Auswahl",
-        "1": "Leistungs- und Beitragsoptimierung",
-        "2": "Langfristige Absicherungsstrategie"
+        "0": "Tarifvergleich & Auswiel",
+        "1": "Leeschtung a Bäitrag Optimisatioun",
+        "2": "Laangfristeg Hedging Strategie"
       }
     },
     "focus_headline": "Zentral Handlungsfelder",
@@ -117,28 +117,28 @@
     "laws": {
       "kwg": {
         "abbreviation": "KWG",
-        "name": "Kreditwesengesetz",
+        "name": "Bankgesetz",
         "description": "Reegelt d'Erlabnispflichte fir Bankgeschäfter a Finanzdienstleeschtungen an Däitschland. D'KWG bildt d'Basis vun der BaFin-Opsiicht an definéiert am § 1 KWG déi zentral Begrëffer souwéi am § 25a KWG d'Ufuerderunge fir eng uerdentlech Geschäftsorganisatioun."
       },
       "vag": {
         "abbreviation": "VAG",
-        "name": "Versicherungsaufsichtsgesetz",
+        "name": "Versécherungsiwwerwaachungsgesetz",
         "description": "Reegelt d'Opsiicht iwwer Versécherungsgesellschaften an déngt dem Schutz vun de Versécherten. D'VAG garantéiert, datt Versécherer hir Verpflichtunge permanent erfëlle kënnen an uerdentlech geféiert ginn."
       },
       "estg": {
         "abbreviation": "EStG",
-        "name": "Einkommensteuergesetz",
+        "name": "Akommes Steier Act",
         "description": "Reegelt d'Besteierung vum Akommes vu natierlech Persounen an Däitschland. D'EStG definéiert d'Akommensaarten, Fräibetréi an d'Steiersätz a bildt d'Basis vun der persounegebonnener Akommensbesteierung."
       }
     },
-    "mehr_erfahren": "Mehr erfahren"
+    "mehr_erfahren": "Léier méi"
   },
   "approach": {
     "badge": "Eisen Approche",
     "headline": "Wat eis ënnerscheet",
     "values": {
       "expertise": {
-        "title": "Internationale Expertise",
+        "title": "International Expertise",
         "description": "Déift Versteesdemech vu Rechtssystemer, Geschäftskulturen a regulatoresche Nuancen an Europa, den USA a Südosteuropa."
       },
       "personal": {
@@ -186,8 +186,8 @@
     "headline": "Loosst eis schwätzen",
     "subtitle": "Ob eng éischt Fro oder e konkreete Projet — mir huelen eis Zäit fir Iech.",
     "phone": "Telefon",
-    "mobile": "Mobil",
-    "email": "E-Mail",
+    "mobile": "Mobile",
+    "email": "e-mail",
     "address": "Adress",
     "cta": "E-Mail schécken",
     "dialog": {
@@ -221,7 +221,7 @@
     "services_title": "Servicer",
     "offices_title": "Büroen",
     "legal_title": "Rechtleches",
-    "impressum": "Impressum",
+    "impressum": "Ofdréck",
     "datenschutz": "Dateschutz",
     "copyright": "© {year} FIECON Consulting UG & Co KG. All Rechter virbehal."
   },
@@ -270,7 +270,7 @@
     "quote_attribution": "Andre Zimmermann",
     "competency_1_title": "Webentwécklung & Full-Stack",
     "competency_1_description": "Konzeptioun an Entwécklung vu moderne Webanwendungen — vun der Benotzeroberfläch bis zur Serverarchitektur. Performant, sécher a skaléierbar.",
-    "competency_2_title": "Software-Architektur",
+    "competency_2_title": "Software Architektur",
     "competency_2_description": "Entworf vu robuste Systemarchitekturen, déi mam Ënnernee wuessen. Vun der Technologieauswiel bis zur laangfristeger Wartbarkeet.",
     "competency_3_title": "IT-Projetleitung",
     "competency_3_description": "Féierung a Koordinatioun vu Entwécklungsteams an technesche Projeten — mat klore Prozesser, agilen Methoden an messbare Resultater.",
@@ -278,12 +278,12 @@
     "competency_4_description": "Opbau an Optiméierung vu digitaler Infrastrukture fir Ënnerneen — vun der Serveradministratioun bis zur Integratioun moderner Cloud-Léisungen."
   },
   "impressum": {
-    "title": "Impressum",
+    "title": "Ofdréck",
     "info_title": "Informatiounen no § 5 TMG",
     "contact_title": "Kontakt",
     "phone_label": "Telefon",
-    "mobile_label": "Mobil",
-    "email_label": "E-Mail",
+    "mobile_label": "Mobile",
+    "email_label": "e-mail",
     "homepage_label": "Homepage",
     "responsible_title": "Verantwortlech fir den Inhalt no § 55 Abs. 2 RStV",
     "responsible_name": "Peter Fiegler",
@@ -308,7 +308,7 @@
     "section_3_text": "Wann Dir eis per E-Mail oder iwwer d'Kontaktformulaire kontaktéiert, ginn Är Ugaben inklusiv den ugegebene Kontaktdaten zum Zweck vun der Veraarbechtung vun der Ufro a fir de Fall vu Nofroe gespäichert. Mir ginn dës Donnéeën net weider ouni Är Zoustëmmung.",
     "section_3_legal_basis": "Déi rechtlech Grondlag fir d'Veraarbechtung vun den Donnéeën ass Art. 6 Abs. 1 lit. b DSGVO (virvertraglech Moossnahmen) oder Art. 6 Abs. 1 lit. f DSGVO (berechtegten Interessi un der Veraarbechtung vun Ärer Ufro).",
     "section_3_retention": "Donnéeën, déi am Kader vun der Kontaktopnahm iwwerdroe goufen, ginn geläscht, soubal Är Ufro ofschléissend behandelt ass an keng gesetzlech Opbewahrungspflichten bestinn.",
-    "section_4_title": "4. E-Mail-Versand",
+    "section_4_title": "4. E-Mail",
     "section_4_text": "Fir den E-Mail-Versand iwwer eist Kontaktformulaire benotze mir en SMTP-Mailserver. D'Donnéeën, déi Dir agitt (Numm, E-Mail-Adress, Sujet, Noriicht), ginn un eisen E-Mail-Provider iwwerdroe, deen d'E-Mail an eisem Numm liwwert.",
     "section_5_title": "5. Är Rechter",
     "section_5_text_1": "Dir hutt folgend Rechter betreffend Är perséinlech Donnéeën:",
@@ -323,11 +323,11 @@
     "section_6_text": "Eis Websäit benotzt e funktionelle Cookie (NEXT_LOCALE), fir Är Sproochpreferenz ze späicheren. Dëse Cookie ass technesch néideg a brauch keng Zoustëmmung no § 25 Abs. 2 TDDDG. Et ginn keng Tracking- oder Analyse-Cookien benotzt.",
     "section_7_title": "7. Ännerungen un dëser Dateschutzerkläerung",
     "section_7_text": "Dës Dateschutzerkläerung ass aktuell gülteg. Duerch d'Weiderentwécklung vun eiser Websäit oder opgrond vun geännerten gesetzleche respektiv regulatoresche Viraussetzunge kann et néideg ginn, dës Dateschutzerkläerung unzepassen.",
-    "email_label": "E-Mail",
+    "email_label": "e-mail",
     "contact_label": "Kontakt"
   },
   "team": {
-    "nav_label": "Team",
+    "nav_label": "Equipe",
     "competencies_headline": "Kompetenzberäicher",
     "cta_headline": "Loosst eis an d'Gespréich kommen",
     "cta_subline": "Ob eng éischt Fro oder e konkreete Projet — mir huelen eis Zäit fir Iech.",
@@ -347,11 +347,11 @@
     "bio_3": "Seng Philosophie ass einfach: all Mandat verdéngt déiselwecht Suergfalt, déi hien senger eegener Firma widme géif. Dësen Usproch prägt all Berodung, all Struktur an all Empfeelung.",
     "quote": "Mir beroden, wéi wann et eis eege Firma wier.",
     "quote_attribution": "Peter Fiegler, Grënner",
-    "competency_1_title": "Gesellschaftsrecht",
+    "competency_1_title": "Firmenrecht",
     "competency_1_description": "Berodung bei der Grënnung, Strukturéierung a Féierung vu Gesellschaften — national an international. Vun der GmbH bis zur grenziwwerschreidender Holding.",
     "competency_2_title": "International Firmengrënnungen",
     "competency_2_description": "Ëmfaassend Begleedung bei Firmengrënnungen an Däitschland, Serbien, den USA a weideren Jurisdiktiounen. Rechtssëcher an effizient.",
-    "competency_3_title": "Finanzverwaltung & Compliance",
+    "competency_3_title": "Finanzmanagement & Konformitéit",
     "competency_3_description": "Transparent Finanzstrukturen, Meldepflichten an Transparenzregëster — fir eng Ënnernehmensféierung, déi Vertrauen schafft.",
     "competency_4_title": "Strategesch Berodung",
     "competency_4_description": "Laangfristeg Strategien fir Ënnernehmswuesstem, Beteilegungsstrukturen an international Expansioun — perséinlech a partnerschoftlech."
@@ -360,164 +360,164 @@
     "description": "FIECON Consulting UG & Co KG — International Berodung fir Gesellschaftsrecht, Firmengrënnungen, Finanzverwaltung a Baufinanzéierung. Büroen an Hamburg, Belgrad, Texas, Montenegro an Vanuatu.",
     "offer_catalog": "Servicer",
     "service_consulting": "Gesellschaftsrecht & Firmengrënnungen",
-    "service_finance": "Finanzverwaltung",
+    "service_finance": "Finanzmanagement",
     "service_construction": "Baufinanzéierung",
     "service_yacht": "Yachtbaufinanzéierung"
   },
   "gesetze_page": {
-    "meta_title": "Rechtliche Grundlagen — KWG, VAG & EStG",
-    "meta_description": "FIECON erläutert die regulatorischen Grundlagen: Kreditwesengesetz, Versicherungsaufsichtsgesetz und Einkommensteuergesetz — und wie wir Mandanten dabei begleiten.",
-    "breadcrumb_home": "Startseite",
-    "breadcrumb_current": "Gesetze",
-    "hero_badge": "Regulatorischer Rahmen",
-    "hero_headline": "Rechtliche Grundlagen",
-    "hero_intro_1": "Die Beratungspraxis von FIECON ist tief im deutschen und europäischen Regulierungsrahmen verankert. Das Kreditwesengesetz, das Versicherungsaufsichtsgesetz und das Einkommensteuergesetz bilden die rechtliche Grundlage für wesentliche Teile unserer täglichen Beratungsarbeit — von der Strukturierung internationaler Gesellschaften bis zur steuerlichen Optimierung für Unternehmer.",
-    "hero_intro_2": "Auf dieser Seite stellen wir Ihnen die drei zentralen Gesetze vor, erläutern ihre wesentlichen Regelungsbereiche und zeigen, wie FIECON Mandanten konkret dabei unterstützt, die Anforderungen dieser Regelwerke rechtssicher und effizient zu erfüllen.",
+    "meta_title": "Juristesch Basis - KWG, VAG & EStG",
+    "meta_description": "D'FIECON erkläert d'Reguléierungsbasis: d'Bankegesetz, d'Versécherungsiwwerwaachungsgesetz an d'Akommessteiergesetz - a wéi mir Clienten an dësem Beräich ënnerstëtzen.",
+    "breadcrumb_home": "Homepage",
+    "breadcrumb_current": "Gesetzer",
+    "hero_badge": "Regulatiouns Kader",
+    "hero_headline": "Juristesch Basis",
+    "hero_intro_1": "D'Berodungspraxis vum FIECON ass déif am däitschen an europäesche Regulatiounskader verankert. D'Bankegesetz, d'Assurance Iwwerwaachungsgesetz an d'Akommessteiergesetz bilden déi legal Basis fir wesentlech Deeler vun eiser deeglecher Berodungsaarbecht - vun der Strukturéierung vun internationale Firmen bis zur Steieroptimiséierung fir Entrepreneuren.",
+    "hero_intro_2": "Op dëser Säit stelle mir Iech déi dräi zentral Gesetzer vir, erkläre hir wichteg reglementaresch Beräicher a weisen wéi FIECON speziell Clienten ënnerstëtzt fir d'Ufuerderunge vun dëse Reglementer op eng gesetzlech sécher an effizient Manéier z'erhalen.",
     "hero_chip_kwg": "KWG",
     "hero_chip_vag": "VAG",
     "hero_chip_estg": "EStG",
     "kwg_abbreviation": "KWG",
-    "kwg_name": "Kreditwesengesetz",
-    "kwg_intro": "Das Kreditwesengesetz (KWG) bildet das Fundament der deutschen Bankenaufsicht. Es regelt, unter welchen Voraussetzungen Unternehmen Bankgeschäfte oder Finanzdienstleistungen erbringen dürfen, und legt die Anforderungen an Organisation, Kapitalausstattung und interne Kontrolle fest. Die Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin) überwacht auf Grundlage des KWG alle erlaubnispflichtigen Institute in Deutschland.",
-    "kwg_detail": "Für Unternehmen, die Bankgeschäfte betreiben oder Finanzdienstleistungen erbringen wollen, ist die Erlaubnispflicht nach § 32 KWG von zentraler Bedeutung. Das KWG definiert in § 1 einen breiten Katalog erlaubnispflichtiger Tätigkeiten — von der Kreditvergabe über die Anlageberatung bis hin zur Abschlussvermittlung. Gleichzeitig verpflichtet § 25a Institute zu einer ordnungsgemäßen Geschäftsorganisation mit angemessenem Risikomanagement.",
-    "kwg_provisions_headline": "Wesentliche Regelungen",
-    "kwg_provision_0": "§ 1 KWG — Begriffsbestimmungen: Abschließende Definition aller erlaubnispflichtigen Bank- und Finanzdienstleistungsgeschäfte, einschließlich Kreditgeschäft, Einlagengeschäft und Anlageberatung.",
-    "kwg_provision_1": "§ 25a KWG — Besondere organisatorische Pflichten: Anforderungen an eine ordnungsgemäße Geschäftsorganisation mit angemessenem Risikomanagement, internen Kontrollverfahren und Compliance-Strukturen.",
-    "kwg_provision_2": "§ 32 KWG — Erlaubnispflicht: Verbot der gewerbsmäßigen Erbringung von Bankgeschäften und Finanzdienstleistungen ohne schriftliche Erlaubnis der BaFin.",
-    "kwg_provision_3": "§ 44 KWG — Prüfungsrechte der BaFin: Befugnisse der Aufsichtsbehörde zur Durchführung von Prüfungen bei Instituten und zur Anforderung von Auskünften und Unterlagen.",
-    "kwg_consulting_headline": "FIECON-Beratung im KWG-Kontext",
-    "kwg_consulting_text": "FIECON begleitet Unternehmen und Gründer bei der Prüfung der Erlaubnispflicht nach dem KWG, bei der Vorbereitung und Einreichung von BaFin-Erlaubnisanträgen sowie bei der Implementierung der organisatorischen Anforderungen nach § 25a KWG. Wir unterstützen auch bei der laufenden regulatorischen Compliance und der Kommunikation mit der Aufsichtsbehörde.",
+    "kwg_name": "Bankgesetz",
+    "kwg_intro": "D'Bankegesetz (KWG) bildt d'Fundament vun der däitscher Bankeniwwerwaachung. Et reguléiert d'Konditiounen ënner deenen d'Firmen Bank- oder Finanzservicer ubidden a spezifizéiert d'Ufuerderunge fir Organisatioun, Kapitalressourcen an intern Kontroll. D'Federal Financial Supervisory Authority (BaFin) iwwerwaacht all Institutiounen an Däitschland déi Autorisatioun op Basis vum KWG erfuerderen.",
+    "kwg_detail": "Fir Firmen, déi Bankegeschäfter maachen oder Finanzservicer ubidden, ass d'Autorisatiounsfuerderung am Aklang mat Sektioun 32 vum KWG zentral. Am Sektioun 1 definéiert de KWG e breet Katalog vun Aktivitéiten déi Autorisatioun erfuerderen - vu Prêten ze ginn bis Investitiounsberodung a Brokering Deals. Zur selwechter Zäit verflicht den Sektioun 25a Institutiounen eng richteg Geschäftsorganisatioun mat passenden Risikomanagement ze hunn.",
+    "kwg_provisions_headline": "Wesentlech Reglementer",
+    "kwg_provision_0": "§ 1 KWG - Definitiounen: Finale Definitioun vun all Bank- a Finanzservicer Transaktiounen, déi Autorisatioun erfuerderen, dorënner Prêtgeschäft, Depotgeschäft an Investitiounsberodung.",
+    "kwg_provision_1": "§ 25a KWG - Besonnesch organisatoresch Obligatiounen: Ufuerderunge fir eng richteg Geschäftsorganisatioun mat passenden Risikomanagement, intern Kontrollprozeduren a Konformitéitsstrukturen.",
+    "kwg_provision_2": "§ 32 KWG - Verpflichtung fir Erlaabnis ze kréien: Verbuet vun der kommerziell Dispositioun vu Banktransaktiounen a Finanzservicer ouni schrëftlech Erlaabnes vu BaFin.",
+    "kwg_provision_3": "Sektioun 44 KWG - BaFin d'Audit Rechter: Muechten vun der Opsiichtsautoritéit Auditen vun Institutiounen auszeféieren an Informatiounen an Dokumenter ze froen.",
+    "kwg_consulting_headline": "FIECON Consulting am KWG Kontext",
+    "kwg_consulting_text": "FIECON ënnerstëtzt Firmen a Grënner bei der Iwwerpréiwung vun der Autorisatiounsfuerderung no der KWG, an der Virbereedung an der Soumissioun vu BaFin Autorisatiounsapplikatiounen an an der Ëmsetzung vun den organisatoreschen Ufuerderunge geméiss Sektioun 25a KWG. Mir ënnerstëtzen och lafend reglementaresch Konformitéit a Kommunikatioun mat der Iwwerwaachungsautoritéit.",
     "vag_abbreviation": "VAG",
-    "vag_name": "Versicherungsaufsichtsgesetz",
-    "vag_intro": "Das Versicherungsaufsichtsgesetz (VAG) regelt die staatliche Aufsicht über Versicherungsunternehmen in Deutschland und dient in erster Linie dem Schutz der Versicherungsnehmer. Es setzt die europäische Solvency II-Richtlinie in deutsches Recht um und stellt sicher, dass Versicherer dauerhaft in der Lage sind, ihre Verpflichtungen gegenüber den Versicherten zu erfüllen.",
-    "vag_detail": "Das VAG verpflichtet Versicherungsunternehmen zur Einhaltung umfangreicher Kapitalanforderungen (Solvency Capital Requirement und Minimum Capital Requirement) sowie zur ordnungsgemäßen Geschäftsführung durch geeignete und zuverlässige Personen. Für private Krankenversicherer gelten besondere Bestimmungen zur Kalkulation der Prämien und zur Bildung von Alterungsrückstellungen — ein Bereich, der für die Beratung selbstständiger Unternehmer besonders relevant ist.",
-    "vag_provisions_headline": "Wesentliche Regelungen",
-    "vag_provision_0": "§ 11 VAG — Erlaubnispflicht: Verbot des Betriebs von Versicherungsgeschäften ohne Erlaubnis der BaFin, verbunden mit einem Katalog der erlaubnispflichtigen Versicherungssparten.",
-    "vag_provision_1": "§ 124 VAG — Kapitalanlagemanagement: Anforderungen an die Anlage der Vermögenswerte nach dem Grundsatz der unternehmerischen Vorsicht (Prudent Person Principle).",
-    "vag_provision_2": "§ 22 VAG — Geschäftsleiter: Anforderungen an Zuverlässigkeit und fachliche Eignung der verantwortlichen Personen in Schlüsselfunktionen eines Versicherungsunternehmens.",
-    "vag_provision_3": "§ 294 VAG — Aufsichtsbefugnisse der BaFin: Umfangreiche Aufsichts- und Eingriffsbefugnisse der Bundesanstalt gegenüber beaufsichtigten Versicherungsunternehmen.",
-    "vag_consulting_headline": "FIECON-Beratung im VAG-Kontext",
-    "vag_consulting_text": "FIECON berät bei der Strukturierung von Versicherungslösungen für internationale Unternehmer und Selbstständige, insbesondere im Bereich der privaten Krankenversicherung (PKV). Wir analysieren Tarifstrukturen unter Berücksichtigung der aufsichtsrechtlichen Vorgaben des VAG und begleiten Mandanten bei der optimalen Absicherung ihrer persönlichen Risiken.",
+    "vag_name": "Versécherungsiwwerwaachungsgesetz",
+    "vag_intro": "D'Assurance Supervision Act (VAG) reguléiert déi staatlech Iwwerwaachung vun de Versécherungsgesellschaften an Däitschland an déngt virun allem fir d'Versécherungshalter ze schützen. Et implementéiert d'Europäesch Solvency II-Direktiv an Däitsch Gesetz a suergt dofir datt Versécherer permanent hir Verflichtunge vis-à-vis vun de Versécherten erfëllen.",
+    "vag_detail": "De VAG verflicht d'Versécherungsgesellschafte fir extensiv Kapitalfuerderunge (Solvenskapitalfuerderung a Minimum Kapitalfuerderung) respektéieren, souwéi eng korrekt Gestioun vu passenden an zouverléissege Leit. Besonnesch Reglementer gëlle fir privat Krankeversécherer iwwer d'Berechnung vun de Primen an d'Bildung vun Alterungsbestëmmungen - e Beräich dat besonnesch relevant ass fir selbstänneg Entrepreneuren ze beroden.",
+    "vag_provisions_headline": "Wesentlech Reglementer",
+    "vag_provision_0": "§ 11 VAG - Verpflichtung fir d'Autorisatioun ze kréien: Verbuet fir Versécherungsgeschäft ouni d'Erlaabnes vu BaFin ze maachen, kombinéiert mat engem Katalog vun de Versécherungslinnen déi Autorisatioun erfuerderen.",
+    "vag_provision_1": "§ 124 VAG - Kapitalinvestitiounsmanagement: Ufuerderunge fir d'Investitioun vu Verméigen am Aklang mam Prinzip vun der Entrepreneursprudenz (Prudent Person Principle).",
+    "vag_provision_2": "§ 22 VAG - Manager: Ufuerderunge fir Zouverlässegkeet a berufflech Eegenheet vun de responsabel Persounen an Schlëssel Funktiounen vun enger Versécherungsgesellschaft.",
+    "vag_provision_3": "§ 294 VAG - Iwwerwaachungsmuecht vu BaFin: Extensiv Iwwerwaachungs- an Interventiounsmuechte vun der Bundesfinanzkontrollautoritéit géintiwwer iwwerwaachte Versécherungsgesellschaften.",
+    "vag_consulting_headline": "FIECON Consulting am VAG Kontext",
+    "vag_consulting_text": "FIECON beréit iwwer d'Strukturéierung vun Versécherungsléisungen fir international Entrepreneuren a Selbstännegen, besonnesch am Beräich vun der privater Krankeversécherung (PKV). Mir analyséieren Tarifstrukturen ënner Berücksichtegung vun de reglementaresche Ufuerderunge vum VAG an ënnerstëtzen Clienten fir hir perséinlech Risiken optimal ze sécheren.",
     "estg_abbreviation": "EStG",
-    "estg_name": "Einkommensteuergesetz",
-    "estg_intro": "Das Einkommensteuergesetz (EStG) regelt die Besteuerung des Einkommens natürlicher Personen in Deutschland. Als das zentrale Steuergesetz für Privatpersonen und Selbstständige definiert es die sieben Einkunftsarten, die persönlichen Freibeträge sowie die progressiven Steuersätze. Für international tätige Unternehmer ist das EStG besonders bedeutsam, da Deutschland das Welteinkommensprinzip anwendet.",
-    "estg_detail": "Wer in Deutschland unbeschränkt steuerpflichtig ist (§ 1 EStG), muss grundsätzlich sein gesamtes weltweites Einkommen in Deutschland versteuern — unabhängig davon, wo es erzielt wurde. Die korrekte Abgrenzung der Steuerpflicht, die Anwendung von Doppelbesteuerungsabkommen und die steuerlich optimale Gestaltung von Gesellschaftsstrukturen sind daher wesentliche Beratungsfelder für international tätige Mandanten.",
-    "estg_provisions_headline": "Wesentliche Regelungen",
-    "estg_provision_0": "§ 1 EStG — Unbeschränkte Steuerpflicht: Natürliche Personen mit Wohnsitz oder gewöhnlichem Aufenthalt in Deutschland unterliegen der unbeschränkten Einkommensteuerpflicht auf ihr Welteinkommen.",
-    "estg_provision_1": "§ 2 EStG — Einkunftsarten: Abschließende Definition der sieben Einkunftsarten, darunter Einkünfte aus Gewerbebetrieb, aus selbstständiger Arbeit und aus Kapitalvermögen.",
-    "estg_provision_2": "§ 19 EStG — Einkünfte aus nichtselbstständiger Arbeit: Regelung der Besteuerung von Arbeitslohn, Gehalt, Gratifikationen und geldwerten Vorteilen aus einem Arbeitsverhältnis.",
-    "estg_provision_3": "§ 49 EStG — Beschränkte Steuerpflicht: Besteuerung von Einkünften aus deutschen Quellen bei Personen ohne Wohnsitz in Deutschland — relevant für ausländische Gesellschafter und Geschäftsführer.",
-    "estg_consulting_headline": "FIECON-Beratung im EStG-Kontext",
-    "estg_consulting_text": "FIECON begleitet international tätige Unternehmer, Gesellschafter und Selbstständige bei der Analyse und Optimierung ihrer steuerlichen Situation unter dem EStG. Wir prüfen die persönliche Steuerpflicht, die Anwendbarkeit von Doppelbesteuerungsabkommen und entwickeln steuerlich effiziente Gesellschafts- und Vergütungsstrukturen. Für Selbstständige beraten wir zudem zur steuerlich optimalen Gestaltung der Vorsorge, insbesondere im Zusammenspiel mit der privaten Krankenversicherung.",
-    "cta_headline": "Regulatorische Fragen? Wir haben die Antworten.",
-    "cta_subline": "Ob KWG-Erlaubnisantrag, VAG-konforme Versicherungsstruktur oder steuerliche Optimierung nach EStG — sprechen Sie uns an.",
+    "estg_name": "Akommes Steier Act",
+    "estg_intro": "Das Einkommensteuergesetz (EStG) regelt die Besteuerung des Einkommens natürlicher Personen in Deutschland. Als Zentralsteiergesetz fir Privatpersounen an Selbstännegen definéiert et déi siwen Aarte vun Akommes, d'Personalzoulagen an déi progressiv Steiersätz. Für international tätige Unternehmer ist das EStG besonders bedeutsam, da Deutschland das Welteinkommensprinzip anwendet.",
+    "estg_detail": "Jiddereen, deen an Däitschland unlimitéiert Steierverantwortung ënnerworf ass (§ 1 EStG) muss allgemeng Steier op hiert ganzt weltwäit Akommes an Däitschland bezuelen - egal wou et verdéngt gouf. Déi richteg Definitioun vun der Steierverantwortung, d'Uwendung vun Duebelbesteierungsverträg an den steieroptimalen Design vun de Firmenstrukturen sinn dofir wesentlech Berodungsberäicher fir international aktiv Clienten.",
+    "estg_provisions_headline": "Wesentlech Reglementer",
+    "estg_provision_0": "§ 1 EStG - Onlimitéiert Steierverantwortung: Natierlech Persoune mat Residenz oder Gewunnecht an Däitschland ënnerleien unlimitéiert Akommessteierhaftung op hirem weltwäiten Akommes.",
+    "estg_provision_1": "§ 2 EStG - Zorte vun Akommes: Finale Definitioun vun de siwen Zorte vun Akommes, dorënner Akommes aus kommerziell Operatiounen, aus Self-Employéen an aus Kapital Verméigen.",
+    "estg_provision_2": "§ 19 EStG - Akommes aus der Aarbecht: Regulatioun vun der Besteierung vun Léin, Gehälter, Bonus a monetär Virdeeler vun enger Aarbecht Relatioun.",
+    "estg_provision_3": "§ 49 EStG - Limitéiert Steierverantwortung: Besteierung vun Akommes aus däitsche Quelle fir Persounen ouni Residenz an Däitschland - relevant fir auslännesch Aktionären a Verwalte Direktere.",
+    "estg_consulting_headline": "FIECON Berodung am EStG Kontext",
+    "estg_consulting_text": "FIECON ënnerstëtzt international aktiv Entrepreneuren, Aktionären a Selbstännegen bei der Analyse an Optimisatioun vun hirer Steiersituatioun ënnert dem EStG. Mir iwwerpréiwen d'perséinlech Steierhaftung, d'Uwendbarkeet vun Duebelbesteierungsverträg an entwéckelen steiereffizient Firmen- a Remuneratiounsstrukturen. Fir Selbstännege berode mir och iwwer déi optimal Steierstruktur fir d'Pensiounsbezuelung, besonnesch a Verbindung mat der privater Krankeversécherung.",
+    "cta_headline": "Reguléierungsfroen? Mir hunn d'Äntwerten.",
+    "cta_subline": "Egal ob et eng KWG Permis-Uwendung ass, eng VAG-konform Versécherungsstruktur oder Steieroptimiséierung no der EStG - schwätzt mat eis.",
     "cta_button": "E-Mail schécken",
-    "cta_back": "Zur Startseite",
-    "kwg_provision_4": "§ 46 KWG — Maßnahmen bei Gefahr: Eingriffsbefugnisse der BaFin bei aufsichtsrechtlichen Missständen, insbesondere zur Sicherung der ordnungsgemäßen Geschäftsführung und zum Schutz von Gläubigern.",
-    "vag_provision_4": "§ 311 VAG — Besondere Vorgaben für die private Krankenversicherung: Regelungen zur Kalkulation, Prämienanpassung und dauerhaften Finanzierung über Alterungsrückstellungen.",
-    "estg_provision_4": "§ 22 EStG — Sonstige Einkünfte: Besteuerung insbesondere von wiederkehrenden Bezügen wie Renten sowie bestimmter weiterer Einkünfte außerhalb der klassischen Einkunftsarten.",
-    "estg_provision_5": "§ 23 EStG — Private Veräußerungsgeschäfte: Steuerliche Erfassung von Gewinnen aus der Veräußerung privater Wirtschaftsgüter innerhalb der gesetzlichen Haltefristen."
+    "cta_back": "Op d'Homepage",
+    "kwg_provision_4": "§ 46 KWG - Moossnamen am Fall vun Gefor: BaFin seng Muechten am Fall vun reglementaresche Griewer anzegräifen, virun allem fir eng richteg Gestioun ze garantéieren an d'Gläubiger ze schützen.",
+    "vag_provision_4": "§ 311 VAG - Besonnesch Ufuerderunge fir privat Krankeversécherung: Reglementer fir Berechnung, Premium Upassung a permanent Finanzéierung iwwer Alterungsbestëmmungen.",
+    "estg_provision_4": "§ 22 EStG - Aner Akommes: Besteierung besonnesch vun widderhuelende Bezuelungen wéi Pensiounen a bestëmmten aner Akommes ausserhalb vun de klassesche Aarte vun Akommes.",
+    "estg_provision_5": "§ 23 EStG - Privat Verkafstransaktiounen: Steiererkennung vu Gewënn aus dem Verkaf vu private Verméigen bannent de gesetzleche Holdingsperioden."
   },
   "fourPointPlan": {
-    "badge": "Vier-Punkte-Plan",
-    "headline": "Unser Vier-Punkte-Plan zur finanziellen Unabhängigkeit",
-    "subtitle": "Strukturierte Gesamtstrategie mit operativer Umsetzung und langfristiger Vermögenssicherung.",
-    "intro": "Der Plan folgt der klassischen unternehmerischen Logik: Struktur aufbauen, Steuern optimieren, Kosten senken und Vermögen langfristig steuerfrei aufbauen. Entscheidend ist nicht nur die Strategie, sondern die saubere Umsetzung im Tagesgeschäft.",
-    "cta_details": "Detaillierten Plan ansehen",
+    "badge": "Véier-Punkt Plang",
+    "headline": "Eise Véierpunkteplang fir finanziell Onofhängegkeet",
+    "subtitle": "Strukturéiert Gesamtstrategie mat operationeller Ëmsetzung a laangfristeg Verméigenschutz.",
+    "intro": "De Plang no der klassescher Entrepreneurslogik: Struktur opbauen, Steieren optimiséieren, Käschten reduzéieren an Verméigen laangfristeg steierfräi opbauen. Et ass net nëmmen d'Strategie déi wichteg ass, awer och hir korrekt Ëmsetzung am alldeegleche Geschäft.",
+    "cta_details": "Kuckt detailléiert Plang",
     "detail": {
-      "meta_title": "Vier-Punkte-Plan zur finanziellen Unabhängigkeit",
-      "meta_description": "Detaillierte Darstellung des FIECON Vier-Punkte-Plans: Strategie und Organisation, steuerliche Optimierung, finanzielle Entlastung und steuerfreier Vermögensaufbau.",
-      "headline": "Vier-Punkte-Plan im Detail",
-      "subtitle": "Detaillierte Ausarbeitung aller Maßnahmen, Teilbereiche und operativen Umsetzungsschritte.",
-      "navigation_label": "Interaktive Navigation",
-      "focus_label": "Aktiver Schwerpunkt",
-      "subpoints_label": "Teilbereiche",
-      "items_label": "Maßnahmen",
-      "cta_panel_title": "Vom Plan zur Umsetzung",
-      "cta_panel_text": "Wir begleiten Sie nicht nur bei der Strategie, sondern bei der operativen Implementierung jeder einzelnen Maßnahme.",
-      "cta_contact": "Strategiegespräch vereinbaren",
-      "cta_back_home": "Zur Startseite"
+      "meta_title": "Véier-Punkt Plang fir finanziell Onofhängegkeet",
+      "meta_description": "Detailléiert Presentatioun vum FIECON Véierpunkteplang: Strategie an Organisatioun, Steieroptimiséierung, finanziell Erliichterung a Steierfräi Verméigensschafung.",
+      "headline": "Véier-Punkt Plang am Detail",
+      "subtitle": "Detailléiert Ausschaffe vun all Moossnamen, Ënnerberäicher an operationell Ëmsetzung Schrëtt.",
+      "navigation_label": "Interaktiv Navigatioun",
+      "focus_label": "Aktive Fokus",
+      "subpoints_label": "Ënnerberäicher",
+      "items_label": "Moossnamen",
+      "cta_panel_title": "Vum Plang bis zur Ëmsetzung",
+      "cta_panel_text": "Mir ënnerstëtzen Iech net nëmme mat der Strategie, mee och mat der operationeller Ëmsetzung vun all eenzel Moossnam.",
+      "cta_contact": "Arrangéiert eng Strategie Reunioun",
+      "cta_back_home": "Op d'Homepage"
     },
     "points": {
       "strategy": {
-        "title": "Strategie und Organisation",
-        "teaser": "Klare Zielstruktur und effiziente Umsetzung im Tagesgeschäft.",
-        "description": "Umsetzung des Tagesgeschäfts mit klaren Verantwortlichkeiten und belastbarer Struktur.",
+        "title": "Strategie an Organisatioun",
+        "teaser": "Kloer Zilstruktur an effizient Ëmsetzung am alldeeglechen Geschäft.",
+        "description": "Ëmsetzung vun alldeeglechen Geschäft mat kloer Verantwortung an enger elastescher Struktur.",
         "subpoints": {
           "1_1": {
-            "title": "1.1 Klare Definition der geschäftlichen Zielstruktur",
+            "title": "1.1 Kloer Definitioun vun der Affär Zil Struktur",
             "items": {
-              "0": "Festlegung der Unternehmensform(en) und Beteiligungsstruktur",
-              "1": "Erweiterung bestehender Geschäftsmodelle",
-              "2": "Trennung von operativem Geschäft und Vermögensverwaltung",
-              "3": "Aufbau einer rechtssicheren Organisationsstruktur"
+              "0": "Bestëmmung vun der Firma Form(en) an Aktionär Struktur",
+              "1": "Expansioun vun bestehend Affär Modeller",
+              "2": "Trennung vun operationell Affär an Asset Management",
+              "3": "Bauen eng gesetzlech sécher Organisatiounsstruktur"
             }
           },
           "1_2": {
-            "title": "1.2 Effiziente Organisation des Tagesgeschäfts",
+            "title": "1.2 Effikass Organisatioun vun alldeeglechen Betrib",
             "items": {
-              "0": "Standardisierung von Abläufen",
-              "1": "Delegation operativer Tätigkeiten",
-              "2": "Nutzung externer Dienstleister (Steuerberater, Buchhaltung, Verwaltung)"
+              "0": "Standardiséierung vu Prozesser",
+              "1": "Delegatioun vun operationell Aktivitéiten",
+              "2": "Benotzung vun externen Déngschtleeschter (Steierberoder, Comptabilitéit, Administratioun)"
             }
           }
         }
       },
       "tax": {
-        "title": "Steuerliche Optimierung",
-        "teaser": "Gesellschafts- und Gewinnstruktur steuerlich präzise ausrichten.",
-        "description": "Rechtskonforme Steuerstruktur, die Liquidität sichert und Wachstum fördert.",
+        "title": "Steier Optimisatioun",
+        "teaser": "Alignéiert Firma a Gewënnstruktur präzis fir Steierzwecker.",
+        "description": "Juristesch konform Steierstruktur déi Liquiditéit séchert a Wuesstum fördert.",
         "subpoints": {
           "2_1": {
-            "title": "2.1 Wahl der richtigen Gesellschaftsstruktur",
+            "title": "2.1 Déi richteg Firmenstruktur auswielen",
             "items": {
-              "0": "Kombination aus Kapitalgesellschaft und Personengesellschaft",
-              "1": "Nutzung von Holding-Strukturen",
-              "2": "Trennung von Privatvermögen und Betriebsvermögen"
+              "0": "Kombinatioun vu Gesellschaft a Partnerschaft",
+              "1": "Benotzung vun Holding Strukturen",
+              "2": "Trennung vu private Verméigen a Betrib Verméigen"
             }
           },
           "2_2": {
-            "title": "2.2 Gewinnverlagerung und Gestaltung",
+            "title": "2.2 Gewënn Verréckelung an Design",
             "items": {
-              "0": "Nutzung von Betriebsausgaben",
-              "1": "Gestaltung von Geschäftsführergehalt und Gewinnausschüttung",
-              "2": "Nutzung steuerlicher Freibeträge"
+              "0": "Benotzung vun Affär Käschten",
+              "1": "Design vun de Gehälter a Gewënnverdeelungen vum Managing Director",
+              "2": "Benotzung vun Steier Erlaabnes"
             }
           },
           "2_3": {
-            "title": "2.3 Vermögensaufbau im Betriebsvermögen",
+            "title": "2.3 Verméigen Akkumulation am Betrib Verméigen",
             "items": {
-              "0": "Investitionen über die Gesellschaft"
+              "0": "Investitiounen duerch Societeit"
             }
           }
         }
       },
       "relief": {
-        "title": "Finanzielle Entlastung",
-        "teaser": "Laufende Kosten gezielt reduzieren, insbesondere im PKV-Bereich.",
-        "description": "Gezielte Entlastung der laufenden Kosten, insbesondere im Bereich der PKV.",
+        "title": "Finanziell Erliichterung",
+        "teaser": "Geziilte Reduktioun vun de lafende Käschten, besonnesch am private Gesondheetsversécherungssecteur.",
+        "description": "Geziilt Erliichterung vun de lafende Käschten, besonnesch am Beräich vun der privater Krankeversécherung.",
         "subpoints": {
           "3_1": {
-            "title": "3.1 Analyse der bestehenden Kostenstruktur",
+            "title": "3.1 Analyse vun der bestehend Käschte Struktur",
             "items": {
-              "0": "Krankenversicherung",
-              "1": "Altersvorsorge",
-              "2": "Laufende private Verpflichtungen"
+              "0": "Krankeversécherung",
+              "1": "Pensioun Planung",
+              "2": "Lafend perséinlech Engagementer"
             }
           }
         }
       },
       "pension": {
-        "title": "Steuerfreie Rente",
-        "teaser": "Langfristiger Aufbau steuerfreien Vermögens unter Berücksichtigung der gesetzlichen Haltedauer.",
-        "description": "Aufbau der steuerfreien Rente mit Fokus auf gesetzliche Haltedauer, langfristige Planung und rechtssicheren Vermögensaufbau.",
+        "title": "Steier-gratis Pensioun",
+        "teaser": "Laangfristeg Akkumulation vun Steier-gratis Verméigen, Rechnung huelen der legal Holding Period.",
+        "description": "Bau vun enger Steier-gratis Pensioun mat engem Fokus op gesetzlech Holding Perioden, laangfristeg Planung a gesetzlech geséchert Verméigen Akkumulation.",
         "subpoints": {
           "4_1": {
-            "title": "4.1 Grundprinzip des steuerfreien Vermögensaufbaus",
+            "title": "4.1 Grondprinzip vun Steier-gratis Verméigen Heefung",
             "items": {
-              "0": "Investition mit langfristiger Haltedauer",
-              "1": "Nutzung gesetzlicher Steuerbefreiungen",
-              "2": "Planung über mindestens 10+ Jahre"
+              "0": "Investitioun mat enger laangfristeg Holding Period",
+              "1": "Benotzung vu gesetzleche Steierbefreiungen",
+              "2": "Planung fir op d'mannst 10+ Joer"
             }
           }
         }

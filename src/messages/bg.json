@@ -20,7 +20,7 @@
     "close_menu": "Затвори менюто",
     "skip_to_content": "Преминаване към съдържанието",
     "gesetze": "Законодателство",
-    "four_point_plan": "Vier-Punkte-Plan"
+    "four_point_plan": "План от четири точки"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -82,12 +82,12 @@
       }
     },
     "private_health_insurance": {
-      "title": "PKV für selbstständige Unternehmer",
-      "description": "Wir begleiten Selbstständige bei der Auswahl, Strukturierung und Optimierung einer privaten Krankenversicherung — individuell auf Einkommenssituation, Leistungsbedarf und langfristige Planung abgestimmt.",
+      "title": "PKV за самостоятелно заети предприемачи",
+      "description": "Ние подкрепяме самостоятелно заетите лица при избора, структурирането и оптимизирането на частното здравно осигуряване - индивидуално съобразено с техните доходи, нужди от обезщетения и дългосрочно планиране.",
       "items": {
-        "0": "Tarifvergleich & Auswahl",
-        "1": "Leistungs- und Beitragsoptimierung",
-        "2": "Langfristige Absicherungsstrategie"
+        "0": "Сравнение и избор на тарифи",
+        "1": "Оптимизиране на ефективността и приноса",
+        "2": "Стратегия за дългосрочно хеджиране"
       }
     },
     "focus_headline": "Ключови области на дейност",
@@ -117,21 +117,21 @@
     "laws": {
       "kwg": {
         "abbreviation": "KWG",
-        "name": "Kreditwesengesetz",
+        "name": "Закон за банките",
         "description": "Регулира изискванията за лицензиране на банкови дейности и финансови услуги в Германия. KWG формира основата на надзора на BaFin и дефинира в § 1 KWG ключовите понятия, както и в § 25a KWG изискванията за надлежна бизнес организация."
       },
       "vag": {
         "abbreviation": "VAG",
-        "name": "Versicherungsaufsichtsgesetz",
+        "name": "Закон за застрахователния надзор",
         "description": "Регулира надзора над застрахователните дружества и служи за защита на застрахованите лица. VAG гарантира, че застрахователите могат трайно да изпълняват своите задължения и са надлежно управлявани."
       },
       "estg": {
         "abbreviation": "EStG",
-        "name": "Einkommensteuergesetz",
+        "name": "Закон за данъците върху доходите",
         "description": "Регулира облагането на доходите на физически лица в Германия. EStG дефинира видовете доходи, данъчните освобождения и данъчните ставки и формира основата на личното подоходно облагане."
       }
     },
-    "mehr_erfahren": "Mehr erfahren"
+    "mehr_erfahren": "Научете повече"
   },
   "approach": {
     "badge": "Нашият подход",
@@ -327,7 +327,7 @@
     "contact_label": "Контакт"
   },
   "team": {
-    "nav_label": "Team",
+    "nav_label": "екип",
     "competencies_headline": "Области на компетентност",
     "cta_headline": "Нека започнем разговор",
     "cta_subline": "Независимо дали е първоначален въпрос или конкретен проект — отделяме време за вас.",
@@ -365,159 +365,159 @@
     "service_yacht": "Финансиране на яхтено строителство"
   },
   "gesetze_page": {
-    "meta_title": "Rechtliche Grundlagen — KWG, VAG & EStG",
-    "meta_description": "FIECON erläutert die regulatorischen Grundlagen: Kreditwesengesetz, Versicherungsaufsichtsgesetz und Einkommensteuergesetz — und wie wir Mandanten dabei begleiten.",
-    "breadcrumb_home": "Startseite",
-    "breadcrumb_current": "Gesetze",
-    "hero_badge": "Regulatorischer Rahmen",
-    "hero_headline": "Rechtliche Grundlagen",
-    "hero_intro_1": "Die Beratungspraxis von FIECON ist tief im deutschen und europäischen Regulierungsrahmen verankert. Das Kreditwesengesetz, das Versicherungsaufsichtsgesetz und das Einkommensteuergesetz bilden die rechtliche Grundlage für wesentliche Teile unserer täglichen Beratungsarbeit — von der Strukturierung internationaler Gesellschaften bis zur steuerlichen Optimierung für Unternehmer.",
-    "hero_intro_2": "Auf dieser Seite stellen wir Ihnen die drei zentralen Gesetze vor, erläutern ihre wesentlichen Regelungsbereiche und zeigen, wie FIECON Mandanten konkret dabei unterstützt, die Anforderungen dieser Regelwerke rechtssicher und effizient zu erfüllen.",
+    "meta_title": "Правно основание — KWG, VAG & EStG",
+    "meta_description": "FIECON разяснява нормативната база: Закона за банките, Закона за застрахователния надзор и Закона за данъците върху доходите - и как подкрепяме клиентите в това отношение.",
+    "breadcrumb_home": "Начална страница",
+    "breadcrumb_current": "Закони",
+    "hero_badge": "Нормативна рамка",
+    "hero_headline": "Правно основание",
+    "hero_intro_1": "Консултантската практика на FIECON е дълбоко закотвена в немската и европейската регулаторна рамка. Законът за банките, Законът за застрахователния надзор и Законът за данъците върху доходите формират правната основа за съществени части от ежедневната ни консултантска работа - от структурирането на международни компании до данъчната оптимизация за предприемачите.",
+    "hero_intro_2": "На тази страница ви запознаваме с трите централни закона, обясняваме техните ключови регулаторни области и показваме как FIECON конкретно подкрепя клиентите при изпълнението на изискванията на тези разпоредби по правно сигурен и ефективен начин.",
     "hero_chip_kwg": "KWG",
     "hero_chip_vag": "VAG",
     "hero_chip_estg": "EStG",
     "kwg_abbreviation": "KWG",
-    "kwg_name": "Kreditwesengesetz",
-    "kwg_intro": "Das Kreditwesengesetz (KWG) bildet das Fundament der deutschen Bankenaufsicht. Es regelt, unter welchen Voraussetzungen Unternehmen Bankgeschäfte oder Finanzdienstleistungen erbringen dürfen, und legt die Anforderungen an Organisation, Kapitalausstattung und interne Kontrolle fest. Die Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin) überwacht auf Grundlage des KWG alle erlaubnispflichtigen Institute in Deutschland.",
-    "kwg_detail": "Für Unternehmen, die Bankgeschäfte betreiben oder Finanzdienstleistungen erbringen wollen, ist die Erlaubnispflicht nach § 32 KWG von zentraler Bedeutung. Das KWG definiert in § 1 einen breiten Katalog erlaubnispflichtiger Tätigkeiten — von der Kreditvergabe über die Anlageberatung bis hin zur Abschlussvermittlung. Gleichzeitig verpflichtet § 25a Institute zu einer ordnungsgemäßen Geschäftsorganisation mit angemessenem Risikomanagement.",
-    "kwg_provisions_headline": "Wesentliche Regelungen",
-    "kwg_provision_0": "§ 1 KWG — Begriffsbestimmungen: Abschließende Definition aller erlaubnispflichtigen Bank- und Finanzdienstleistungsgeschäfte, einschließlich Kreditgeschäft, Einlagengeschäft und Anlageberatung.",
-    "kwg_provision_1": "§ 25a KWG — Besondere organisatorische Pflichten: Anforderungen an eine ordnungsgemäße Geschäftsorganisation mit angemessenem Risikomanagement, internen Kontrollverfahren und Compliance-Strukturen.",
-    "kwg_provision_2": "§ 32 KWG — Erlaubnispflicht: Verbot der gewerbsmäßigen Erbringung von Bankgeschäften und Finanzdienstleistungen ohne schriftliche Erlaubnis der BaFin.",
-    "kwg_provision_3": "§ 44 KWG — Prüfungsrechte der BaFin: Befugnisse der Aufsichtsbehörde zur Durchführung von Prüfungen bei Instituten und zur Anforderung von Auskünften und Unterlagen.",
-    "kwg_consulting_headline": "FIECON-Beratung im KWG-Kontext",
-    "kwg_consulting_text": "FIECON begleitet Unternehmen und Gründer bei der Prüfung der Erlaubnispflicht nach dem KWG, bei der Vorbereitung und Einreichung von BaFin-Erlaubnisanträgen sowie bei der Implementierung der organisatorischen Anforderungen nach § 25a KWG. Wir unterstützen auch bei der laufenden regulatorischen Compliance und der Kommunikation mit der Aufsichtsbehörde.",
+    "kwg_name": "Закон за банките",
+    "kwg_intro": "Законът за банките (KWG) формира основата на германския банков надзор. Той регламентира условията, при които фирмите могат да предоставят банкови или финансови услуги и уточнява изискванията за организация, капиталови ресурси и вътрешен контрол. Федералният орган за финансов надзор (BaFin) наблюдава всички институции в Германия, които изискват разрешение въз основа на KWG.",
+    "kwg_detail": "За компании, които извършват банкова дейност или искат да предоставят финансови услуги, изискването за разрешение в съответствие с раздел 32 от KWG е от основно значение. В раздел 1 KWG дефинира широк каталог от дейности, които изискват разрешение - от отпускане на заеми до инвестиционни съвети и посреднически сделки. В същото време раздел 25а задължава институциите да имат подходяща бизнес организация с подходящо управление на риска.",
+    "kwg_provisions_headline": "Съществени разпоредби",
+    "kwg_provision_0": "§ 1 KWG - Дефиниции: Окончателна дефиниция на всички транзакции с банкови и финансови услуги, изискващи разрешение, включително бизнес с кредитиране, бизнес с депозити и инвестиционни съвети.",
+    "kwg_provision_1": "§ 25a KWG — Специални организационни задължения: Изисквания за правилна бизнес организация с подходящо управление на риска, процедури за вътрешен контрол и структури за съответствие.",
+    "kwg_provision_2": "§ 32 KWG - Задължение за получаване на разрешение: Забрана за търговско предоставяне на банкови транзакции и финансови услуги без писменото разрешение на BaFin.",
+    "kwg_provision_3": "Раздел 44 KWG – Права за одит на BaFin: Правомощия на надзорния орган да извършва одити на институции и да изисква информация и документи.",
+    "kwg_consulting_headline": "FIECON консултиране в контекста на KWG",
+    "kwg_consulting_text": "FIECON подкрепя компании и учредители при проверката на изискването за разрешение съгласно KWG, при подготовката и подаването на заявления за разрешение на BaFin и при прилагането на организационните изисквания съгласно раздел 25a KWG. Ние също така подкрепяме текущото регулаторно съответствие и комуникацията с надзорния орган.",
     "vag_abbreviation": "VAG",
-    "vag_name": "Versicherungsaufsichtsgesetz",
-    "vag_intro": "Das Versicherungsaufsichtsgesetz (VAG) regelt die staatliche Aufsicht über Versicherungsunternehmen in Deutschland und dient in erster Linie dem Schutz der Versicherungsnehmer. Es setzt die europäische Solvency II-Richtlinie in deutsches Recht um und stellt sicher, dass Versicherer dauerhaft in der Lage sind, ihre Verpflichtungen gegenüber den Versicherten zu erfüllen.",
-    "vag_detail": "Das VAG verpflichtet Versicherungsunternehmen zur Einhaltung umfangreicher Kapitalanforderungen (Solvency Capital Requirement und Minimum Capital Requirement) sowie zur ordnungsgemäßen Geschäftsführung durch geeignete und zuverlässige Personen. Für private Krankenversicherer gelten besondere Bestimmungen zur Kalkulation der Prämien und zur Bildung von Alterungsrückstellungen — ein Bereich, der für die Beratung selbstständiger Unternehmer besonders relevant ist.",
-    "vag_provisions_headline": "Wesentliche Regelungen",
-    "vag_provision_0": "§ 11 VAG — Erlaubnispflicht: Verbot des Betriebs von Versicherungsgeschäften ohne Erlaubnis der BaFin, verbunden mit einem Katalog der erlaubnispflichtigen Versicherungssparten.",
-    "vag_provision_1": "§ 124 VAG — Kapitalanlagemanagement: Anforderungen an die Anlage der Vermögenswerte nach dem Grundsatz der unternehmerischen Vorsicht (Prudent Person Principle).",
-    "vag_provision_2": "§ 22 VAG — Geschäftsleiter: Anforderungen an Zuverlässigkeit und fachliche Eignung der verantwortlichen Personen in Schlüsselfunktionen eines Versicherungsunternehmens.",
-    "vag_provision_3": "§ 294 VAG — Aufsichtsbefugnisse der BaFin: Umfangreiche Aufsichts- und Eingriffsbefugnisse der Bundesanstalt gegenüber beaufsichtigten Versicherungsunternehmen.",
-    "vag_consulting_headline": "FIECON-Beratung im VAG-Kontext",
-    "vag_consulting_text": "FIECON berät bei der Strukturierung von Versicherungslösungen für internationale Unternehmer und Selbstständige, insbesondere im Bereich der privaten Krankenversicherung (PKV). Wir analysieren Tarifstrukturen unter Berücksichtigung der aufsichtsrechtlichen Vorgaben des VAG und begleiten Mandanten bei der optimalen Absicherung ihrer persönlichen Risiken.",
+    "vag_name": "Закон за застрахователния надзор",
+    "vag_intro": "Законът за застрахователния надзор (VAG) регулира държавния надзор на застрахователните компании в Германия и служи предимно за защита на притежателите на полици. Той въвежда Европейската директива Платежоспособност II в германското законодателство и гарантира, че застрахователите са в състояние постоянно да изпълняват задълженията си към застрахованите.",
+    "vag_detail": "VAG задължава застрахователните компании да спазват обширни капиталови изисквания (капиталово изискване за платежоспособност и минимално капиталово изискване), както и правилно управление от подходящи и надеждни хора. За частните здравноосигурителни застрахователи се прилагат специални разпоредби по отношение на изчисляването на премиите и формирането на провизии за стареене - област, която е особено важна за консултирането на самостоятелно заети предприемачи.",
+    "vag_provisions_headline": "Съществени разпоредби",
+    "vag_provision_0": "§ 11 VAG - Задължение за получаване на разрешение: Забрана за извършване на застрахователна дейност без разрешение на BaFin, съчетано с каталог на застрахователните линии, изискващи разрешение.",
+    "vag_provision_1": "§ 124 VAG - Управление на капиталовите инвестиции: Изисквания за инвестиране на активи в съответствие с принципа на предприемаческата предпазливост (принцип на разумното лице).",
+    "vag_provision_2": "§ 22 VAG - Ръководители: Изисквания за надеждност и професионална пригодност на отговорните лица в ключови функции на застрахователното дружество.",
+    "vag_provision_3": "§ 294 VAG — Надзорни правомощия на BaFin: Обширни надзорни и интервенционни правомощия на Федералния орган за финансов надзор спрямо поднадзорните застрахователни компании.",
+    "vag_consulting_headline": "FIECON консултиране в контекста на VAG",
+    "vag_consulting_text": "FIECON съветва относно структурирането на застрахователни решения за международни предприемачи и самостоятелно заети лица, особено в областта на частното здравно осигуряване (PKV). Ние анализираме тарифните структури, като вземаме предвид регулаторните изисквания на VAG и подпомагаме клиентите при оптимално осигуряване на техните лични рискове.",
     "estg_abbreviation": "EStG",
-    "estg_name": "Einkommensteuergesetz",
-    "estg_intro": "Das Einkommensteuergesetz (EStG) regelt die Besteuerung des Einkommens natürlicher Personen in Deutschland. Als das zentrale Steuergesetz für Privatpersonen und Selbstständige definiert es die sieben Einkunftsarten, die persönlichen Freibeträge sowie die progressiven Steuersätze. Für international tätige Unternehmer ist das EStG besonders bedeutsam, da Deutschland das Welteinkommensprinzip anwendet.",
-    "estg_detail": "Wer in Deutschland unbeschränkt steuerpflichtig ist (§ 1 EStG), muss grundsätzlich sein gesamtes weltweites Einkommen in Deutschland versteuern — unabhängig davon, wo es erzielt wurde. Die korrekte Abgrenzung der Steuerpflicht, die Anwendung von Doppelbesteuerungsabkommen und die steuerlich optimale Gestaltung von Gesellschaftsstrukturen sind daher wesentliche Beratungsfelder für international tätige Mandanten.",
-    "estg_provisions_headline": "Wesentliche Regelungen",
-    "estg_provision_0": "§ 1 EStG — Unbeschränkte Steuerpflicht: Natürliche Personen mit Wohnsitz oder gewöhnlichem Aufenthalt in Deutschland unterliegen der unbeschränkten Einkommensteuerpflicht auf ihr Welteinkommen.",
-    "estg_provision_1": "§ 2 EStG — Einkunftsarten: Abschließende Definition der sieben Einkunftsarten, darunter Einkünfte aus Gewerbebetrieb, aus selbstständiger Arbeit und aus Kapitalvermögen.",
-    "estg_provision_2": "§ 19 EStG — Einkünfte aus nichtselbstständiger Arbeit: Regelung der Besteuerung von Arbeitslohn, Gehalt, Gratifikationen und geldwerten Vorteilen aus einem Arbeitsverhältnis.",
-    "estg_provision_3": "§ 49 EStG — Beschränkte Steuerpflicht: Besteuerung von Einkünften aus deutschen Quellen bei Personen ohne Wohnsitz in Deutschland — relevant für ausländische Gesellschafter und Geschäftsführer.",
-    "estg_consulting_headline": "FIECON-Beratung im EStG-Kontext",
-    "estg_consulting_text": "FIECON begleitet international tätige Unternehmer, Gesellschafter und Selbstständige bei der Analyse und Optimierung ihrer steuerlichen Situation unter dem EStG. Wir prüfen die persönliche Steuerpflicht, die Anwendbarkeit von Doppelbesteuerungsabkommen und entwickeln steuerlich effiziente Gesellschafts- und Vergütungsstrukturen. Für Selbstständige beraten wir zudem zur steuerlich optimalen Gestaltung der Vorsorge, insbesondere im Zusammenspiel mit der privaten Krankenversicherung.",
-    "cta_headline": "Regulatorische Fragen? Wir haben die Antworten.",
-    "cta_subline": "Ob KWG-Erlaubnisantrag, VAG-konforme Versicherungsstruktur oder steuerliche Optimierung nach EStG — sprechen Sie uns an.",
+    "estg_name": "Закон за данъците върху доходите",
+    "estg_intro": "Законът за данъка върху доходите (EStG) урежда данъчното облагане на доходите на физическите лица в Германия. Като централен данъчен закон за частни лица и самостоятелно заети лица, той определя седемте вида доходи, личните облекчения и прогресивните данъчни ставки. EStG е особено важен за международните предприемачи, тъй като Германия прилага принципа на глобалния доход.",
+    "estg_detail": "Всеки, който подлежи на неограничено данъчно задължение в Германия (§ 1 EStG), обикновено трябва да плаща данък върху целия си световен доход в Германия - независимо къде е спечелен. Поради това правилното определение на данъчното задължение, прилагането на споразумения за избягване на двойното данъчно облагане и оптималният за данъчно облагане дизайн на корпоративните структури са основни области на съвети за международни клиенти.",
+    "estg_provisions_headline": "Съществени разпоредби",
+    "estg_provision_0": "§ 1 EStG - Неограничено данъчно задължение: Физическите лица с пребиваване или обичайно местожителство в Германия подлежат на неограничено данъчно задължение върху доходите си в световен мащаб.",
+    "estg_provision_1": "§ 2 EStG — Видове доходи: Окончателно определение на седемте вида доходи, включително доходи от търговски операции, от самостоятелна заетост и от капиталови активи.",
+    "estg_provision_2": "§ 19 EStG - Доходи от трудови правоотношения: Регулиране на данъчното облагане на заплатите, възнагражденията, бонусите и паричните обезщетения по трудово правоотношение.",
+    "estg_provision_3": "§ 49 EStG - Ограничена данъчна отговорност: Данъчно облагане на доходи от германски източници за лица без местопребиваване в Германия - приложимо за чуждестранни акционери и управителни директори.",
+    "estg_consulting_headline": "Съвети на FIECON в контекста на EStG",
+    "estg_consulting_text": "FIECON подкрепя международно активни предприемачи, акционери и самостоятелно заети лица при анализирането и оптимизирането на тяхното данъчно положение съгласно EStG. Ние разглеждаме личните данъчни задължения, приложимостта на споразуменията за избягване на двойното данъчно облагане и разработваме данъчно ефективни корпоративни структури и структури за възнаграждения. За самостоятелно заетите лица ние също така съветваме оптималната данъчна структура за пенсионно осигуряване, особено във връзка с частно здравно осигуряване.",
+    "cta_headline": "Regulatory questions? Ние имаме отговорите.",
+    "cta_subline": "Независимо дали става въпрос за заявление за разрешително на KWG, съвместима с VAG застрахователна структура или данъчна оптимизация според EStG - говорете с нас.",
     "cta_button": "Изпрати имейл",
-    "cta_back": "Zur Startseite",
-    "kwg_provision_4": "§ 46 KWG — Maßnahmen bei Gefahr: Eingriffsbefugnisse der BaFin bei aufsichtsrechtlichen Missständen, insbesondere zur Sicherung der ordnungsgemäßen Geschäftsführung und zum Schutz von Gläubigern.",
-    "vag_provision_4": "§ 311 VAG — Besondere Vorgaben für die private Krankenversicherung: Regelungen zur Kalkulation, Prämienanpassung und dauerhaften Finanzierung über Alterungsrückstellungen.",
-    "estg_provision_4": "§ 22 EStG — Sonstige Einkünfte: Besteuerung insbesondere von wiederkehrenden Bezügen wie Renten sowie bestimmter weiterer Einkünfte außerhalb der klassischen Einkunftsarten.",
-    "estg_provision_5": "§ 23 EStG — Private Veräußerungsgeschäfte: Steuerliche Erfassung von Gewinnen aus der Veräußerung privater Wirtschaftsgüter innerhalb der gesetzlichen Haltefristen."
+    "cta_back": "Към началната страница",
+    "kwg_provision_4": "§ 46 KWG - Мерки в случай на опасност: Правомощията на BaFin да се намесва в случай на регулаторни оплаквания, по-специално за осигуряване на правилно управление и за защита на кредиторите.",
+    "vag_provision_4": "§ 311 VAG - Специални изисквания за частно здравно осигуряване: разпоредби за изчисляване, коригиране на премията и постоянно финансиране чрез разпоредби за застаряване.",
+    "estg_provision_4": "§ 22 EStG - Други доходи: Данъчно облагане по-специално на периодични плащания като пенсии и някои други доходи извън класическите видове доходи.",
+    "estg_provision_5": "§ 23 EStG – Транзакции за частни продажби: Данъчно признаване на печалби от продажба на частни активи в рамките на законоустановените периоди на държане."
   },
   "fourPointPlan": {
-    "badge": "Vier-Punkte-Plan",
-    "headline": "Unser Vier-Punkte-Plan zur finanziellen Unabhängigkeit",
-    "subtitle": "Strukturierte Gesamtstrategie mit operativer Umsetzung und langfristiger Vermögenssicherung.",
-    "intro": "Der Plan folgt der klassischen unternehmerischen Logik: Struktur aufbauen, Steuern optimieren, Kosten senken und Vermögen langfristig steuerfrei aufbauen. Entscheidend ist nicht nur die Strategie, sondern die saubere Umsetzung im Tagesgeschäft.",
-    "cta_details": "Detaillierten Plan ansehen",
+    "badge": "План от четири точки",
+    "headline": "Нашият план от четири точки за финансова независимост",
+    "subtitle": "Структурирана цялостна стратегия с оперативно изпълнение и дългосрочна защита на активите.",
+    "intro": "Планът следва класическата предприемаческа логика: изграждане на структура, оптимизиране на данъците, намаляване на разходите и изграждане на необлагаеми активи в дългосрочен план. Не само стратегията е важна, но и нейното правилно прилагане в ежедневния бизнес.",
+    "cta_details": "Вижте подробен план",
     "detail": {
-      "meta_title": "Vier-Punkte-Plan zur finanziellen Unabhängigkeit",
-      "meta_description": "Detaillierte Darstellung des FIECON Vier-Punkte-Plans: Strategie und Organisation, steuerliche Optimierung, finanzielle Entlastung und steuerfreier Vermögensaufbau.",
-      "headline": "Vier-Punkte-Plan im Detail",
-      "subtitle": "Detaillierte Ausarbeitung aller Maßnahmen, Teilbereiche und operativen Umsetzungsschritte.",
-      "navigation_label": "Interaktive Navigation",
-      "focus_label": "Aktiver Schwerpunkt",
-      "subpoints_label": "Teilbereiche",
-      "items_label": "Maßnahmen",
-      "cta_panel_title": "Vom Plan zur Umsetzung",
-      "cta_panel_text": "Wir begleiten Sie nicht nur bei der Strategie, sondern bei der operativen Implementierung jeder einzelnen Maßnahme.",
-      "cta_contact": "Strategiegespräch vereinbaren",
-      "cta_back_home": "Zur Startseite"
+      "meta_title": "План от четири точки за финансова независимост",
+      "meta_description": "Подробно представяне на плана от четири точки на FIECON: стратегия и организация, данъчна оптимизация, финансови облекчения и необлагаемо създаване на богатство.",
+      "headline": "Подробен план от четири точки",
+      "subtitle": "Детайлно разработка на всички мерки, подобласти и оперативни стъпки за изпълнение.",
+      "navigation_label": "Интерактивна навигация",
+      "focus_label": "Активен фокус",
+      "subpoints_label": "Подзони",
+      "items_label": "Мерки",
+      "cta_panel_title": "От план до изпълнение",
+      "cta_panel_text": "Ние ви подкрепяме не само със стратегията, но и с оперативното изпълнение на всяка отделна мярка.",
+      "cta_contact": "Организирайте стратегическа среща",
+      "cta_back_home": "Към началната страница"
     },
     "points": {
       "strategy": {
-        "title": "Strategie und Organisation",
-        "teaser": "Klare Zielstruktur und effiziente Umsetzung im Tagesgeschäft.",
-        "description": "Umsetzung des Tagesgeschäfts mit klaren Verantwortlichkeiten und belastbarer Struktur.",
+        "title": "Стратегия и организация",
+        "teaser": "Ясна целева структура и ефективно внедряване в ежедневния бизнес.",
+        "description": "Изпълнение на ежедневен бизнес с ясни отговорности и устойчива структура.",
         "subpoints": {
           "1_1": {
-            "title": "1.1 Klare Definition der geschäftlichen Zielstruktur",
+            "title": "1.1 Ясно дефиниране на целевата структура на бизнеса",
             "items": {
-              "0": "Festlegung der Unternehmensform(en) und Beteiligungsstruktur",
-              "1": "Erweiterung bestehender Geschäftsmodelle",
-              "2": "Trennung von operativem Geschäft und Vermögensverwaltung",
-              "3": "Aufbau einer rechtssicheren Organisationsstruktur"
+              "0": "Определяне на формата(ите) на дружеството и акционерната структура",
+              "1": "Разширяване на съществуващи бизнес модели",
+              "2": "Разделяне на оперативния бизнес и управлението на активи",
+              "3": "Изграждане на правно сигурна организационна структура"
             }
           },
           "1_2": {
-            "title": "1.2 Effiziente Organisation des Tagesgeschäfts",
+            "title": "1.2 Ефективна организация на ежедневния бизнес",
             "items": {
-              "0": "Standardisierung von Abläufen",
-              "1": "Delegation operativer Tätigkeiten",
-              "2": "Nutzung externer Dienstleister (Steuerberater, Buchhaltung, Verwaltung)"
+              "0": "Стандартизация на процесите",
+              "1": "Делегиране на оперативни дейности",
+              "2": "Използване на външни доставчици на услуги (данъчни консултанти, счетоводство, администрация)"
             }
           }
         }
       },
       "tax": {
-        "title": "Steuerliche Optimierung",
-        "teaser": "Gesellschafts- und Gewinnstruktur steuerlich präzise ausrichten.",
-        "description": "Rechtskonforme Steuerstruktur, die Liquidität sichert und Wachstum fördert.",
+        "title": "Данъчна оптимизация",
+        "teaser": "Съгласувайте компанията и структурата на печалбата точно за данъчни цели.",
+        "description": "Съобразена със закона данъчна структура, която осигурява ликвидност и насърчава растежа.",
         "subpoints": {
           "2_1": {
-            "title": "2.1 Wahl der richtigen Gesellschaftsstruktur",
+            "title": "2.1 Избор на правилната корпоративна структура",
             "items": {
-              "0": "Kombination aus Kapitalgesellschaft und Personengesellschaft",
-              "1": "Nutzung von Holding-Strukturen",
-              "2": "Trennung von Privatvermögen und Betriebsvermögen"
+              "0": "Комбинация от корпорация и партньорство",
+              "1": "Използване на задържащи структури",
+              "2": "Разделяне на частни активи от бизнес активи"
             }
           },
           "2_2": {
-            "title": "2.2 Gewinnverlagerung und Gestaltung",
+            "title": "2.2 Прехвърляне на печалба и дизайн",
             "items": {
-              "0": "Nutzung von Betriebsausgaben",
-              "1": "Gestaltung von Geschäftsführergehalt und Gewinnausschüttung",
-              "2": "Nutzung steuerlicher Freibeträge"
+              "0": "Използване на бизнес разходи",
+              "1": "Проектиране на заплатите на управляващия директор и разпределението на печалбата",
+              "2": "Използване на данъчни облекчения"
             }
           },
           "2_3": {
-            "title": "2.3 Vermögensaufbau im Betriebsvermögen",
+            "title": "2.3 Натрупване на активи в бизнес активи",
             "items": {
-              "0": "Investitionen über die Gesellschaft"
+              "0": "Инвестиции чрез обществото"
             }
           }
         }
       },
       "relief": {
-        "title": "Finanzielle Entlastung",
-        "teaser": "Laufende Kosten gezielt reduzieren, insbesondere im PKV-Bereich.",
-        "description": "Gezielte Entlastung der laufenden Kosten, insbesondere im Bereich der PKV.",
+        "title": "Финансово облекчение",
+        "teaser": "Целенасочено намаляване на текущите разходи, особено в сектора на частното здравно осигуряване.",
+        "description": "Целенасочено облекчаване на текущите разходи, особено в областта на частното здравно осигуряване.",
         "subpoints": {
           "3_1": {
-            "title": "3.1 Analyse der bestehenden Kostenstruktur",
+            "title": "3.1 Анализ на съществуващата структура на разходите",
             "items": {
-              "0": "Krankenversicherung",
-              "1": "Altersvorsorge",
-              "2": "Laufende private Verpflichtungen"
+              "0": "здравно осигуряване",
+              "1": "Планиране на пенсиониране",
+              "2": "Текущи лични ангажименти"
             }
           }
         }
       },
       "pension": {
-        "title": "Steuerfreie Rente",
-        "teaser": "Langfristiger Aufbau steuerfreien Vermögens unter Berücksichtigung der gesetzlichen Haltedauer.",
-        "description": "Aufbau der steuerfreien Rente mit Fokus auf gesetzliche Haltedauer, langfristige Planung und rechtssicheren Vermögensaufbau.",
+        "title": "Пенсия без данъци",
+        "teaser": "Дългосрочно натрупване на необлагаеми активи, като се вземе предвид законовият период на държане.",
+        "description": "Изграждане на необлагаема пенсия с акцент върху законоустановените периоди на притежаване, дългосрочно планиране и правно сигурно натрупване на активи.",
         "subpoints": {
           "4_1": {
-            "title": "4.1 Grundprinzip des steuerfreien Vermögensaufbaus",
+            "title": "4.1 Основен принцип на необлагаемо натрупване на активи",
             "items": {
-              "0": "Investition mit langfristiger Haltedauer",
-              "1": "Nutzung gesetzlicher Steuerbefreiungen",
-              "2": "Planung über mindestens 10+ Jahre"
+              "0": "Инвестиция с дългосрочен период на държане",
+              "1": "Използване на законови освобождавания от данъци",
+              "2": "Планиране за поне 10+ години"
             }
           }
         }

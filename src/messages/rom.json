@@ -20,7 +20,7 @@
     "close_menu": "Phand o menüo",
     "skip_to_content": "Dza ka o somipe",
     "gesetze": "Zakonipe",
-    "four_point_plan": "Vier-Punkte-Plan"
+    "four_point_plan": "Plano śtar-punktosqo"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -82,12 +82,12 @@
       }
     },
     "private_health_insurance": {
-      "title": "PKV für selbstständige Unternehmer",
-      "description": "Wir begleiten Selbstständige bei der Auswahl, Strukturierung und Optimierung einer privaten Krankenversicherung — individuell auf Einkommenssituation, Leistungsbedarf und langfristige Planung abgestimmt.",
+      "title": "PKV vaś e korkore butjarne antreprenèrură",
+      "description": "Amen suportisaras e manušen save keren buti korkore te alosaren, te keren struktura thaj te keren optimizacia e privatno sastipasko siguripasko - individualno kerdo pala lengi situacia e lovengi, trubujimata pala beneficie thaj lungo-vrjamake planiripe.",
       "items": {
-        "0": "Tarifvergleich & Auswahl",
-        "1": "Leistungs- und Beitragsoptimierung",
-        "2": "Langfristige Absicherungsstrategie"
+        "0": "Komparacia e tarifeski thaj selekcia",
+        "1": "Optimizàcia e performancaqi thaj e kontribuciaqi",
+        "2": "Lungo-vràmaqi stratègia vaś o garavipen"
       }
     },
     "focus_headline": "Sherutne butjake thana",
@@ -117,21 +117,21 @@
     "laws": {
       "kwg": {
         "abbreviation": "KWG",
-        "name": "Kreditwesengesetz",
+        "name": "Bankako Zakono",
         "description": "Regulišinel e zahtevura vaš dozvolipe vaš bankakere buća thaj finansijake službe ando Germanija. O KWG kerel e osnova e BaFin nadzoroskeri thaj definišinel ando § 1 KWG e ključno pojmura thaj ando § 25a KWG e zahtevura vaš uredno organiziribe e bućakero."
       },
       "vag": {
         "abbreviation": "VAG",
-        "name": "Versicherungsaufsichtsgesetz",
+        "name": "Zakono pal-i supervizìa e insuràncenqi",
         "description": "Regulišinel o nadzori upral e osiguravajuće kompanijende thaj služinel vaš zaštitibe e osiguranikengero. O VAG garantišinel kaj e osiguravačura šaj trajno te ispuninen pire obaveze thaj te oven uredno vodime."
       },
       "estg": {
         "abbreviation": "EStG",
-        "name": "Einkommensteuergesetz",
+        "name": "Zakono pal-o pokinipe",
         "description": "Regulišinel o oporezibe e dohodkoskero e fizičke manušengero ando Germanija. O EStG definišinel e vrste dohodkoskere, e poreska oslobođenja thaj e poreska stope thaj kerel e osnova e lično oporezibaskero e dohodkoskero."
       }
     },
-    "mehr_erfahren": "Mehr erfahren"
+    "mehr_erfahren": "Siklǒv maj but"
   },
   "approach": {
     "badge": "Amaro drom",
@@ -161,8 +161,8 @@
       "label": "Sherutno ofiso"
     },
     "belgrade": {
-      "city": "Belgrad",
-      "country": "Serbien",
+      "city": "Beogrado",
+      "country": "Srbija",
       "label": "Sudoistni Europa"
     },
     "texas": {
@@ -187,7 +187,7 @@
     "subtitle": "Dali si angluni puchiba vai konkretno proiekto — las amenge vreme tumenge.",
     "phone": "Telefono",
     "mobile": "Mobilo",
-    "email": "E-Mail",
+    "email": "e-mail",
     "address": "Adresa",
     "cta": "Bishan e-mail",
     "dialog": {
@@ -283,8 +283,8 @@
     "contact_title": "Kontakto",
     "phone_label": "Telefono",
     "mobile_label": "Mobilo",
-    "email_label": "E-Mail",
-    "homepage_label": "Homepage",
+    "email_label": "e-mail",
+    "homepage_label": "Kherutni rig",
     "responsible_title": "Responsabilno anglo soderzhanipe koring o § 55 Abs. 2 RStV",
     "responsible_name": "Peter Fiegler",
     "disclaimer_title": "Nasi-odpovedalnost",
@@ -323,11 +323,11 @@
     "section_6_text": "Amari pajina koristil jekh funkcionalno cookie (NEXT_LOCALE) te arakhel tumari chibaki preferencia. Kadava cookie si tehnikano trubuno thaj chi trubul dozvola koring o § 25 Abs. 2 TDDDG. Nane tracking vai analitikake cookie-ja.",
     "section_7_title": "7. Aktualnos thaj paruvipe kadala politikake le datenge arakhipeske",
     "section_7_text": "Kadaja politika le datenge arakhipeske si aktualno valabilni. Koring o dureder kerdipe amare pajinako vai koring paruvdle zakonske vai oficijalne truburimata, shaj te trubul te paruvav kadaja politika le datenge arakhipeske.",
-    "email_label": "E-Mail",
+    "email_label": "e-mail",
     "contact_label": "Kontakto"
   },
   "team": {
-    "nav_label": "Team",
+    "nav_label": "ekìpa",
     "competencies_headline": "Kompetenciake thana",
     "cta_headline": "Te shunav amen jekh avreske",
     "cta_subline": "Dali si angluni puchiba vai konkretno proiekto — las amenge vreme tumenge.",
@@ -365,159 +365,159 @@
     "service_yacht": "Jachtako konstrukciako finansipe"
   },
   "gesetze_page": {
-    "meta_title": "Rechtliche Grundlagen — KWG, VAG & EStG",
-    "meta_description": "FIECON erläutert die regulatorischen Grundlagen: Kreditwesengesetz, Versicherungsaufsichtsgesetz und Einkommensteuergesetz — und wie wir Mandanten dabei begleiten.",
-    "breadcrumb_home": "Startseite",
-    "breadcrumb_current": "Gesetze",
-    "hero_badge": "Regulatorischer Rahmen",
-    "hero_headline": "Rechtliche Grundlagen",
-    "hero_intro_1": "Die Beratungspraxis von FIECON ist tief im deutschen und europäischen Regulierungsrahmen verankert. Das Kreditwesengesetz, das Versicherungsaufsichtsgesetz und das Einkommensteuergesetz bilden die rechtliche Grundlage für wesentliche Teile unserer täglichen Beratungsarbeit — von der Strukturierung internationaler Gesellschaften bis zur steuerlichen Optimierung für Unternehmer.",
-    "hero_intro_2": "Auf dieser Seite stellen wir Ihnen die drei zentralen Gesetze vor, erläutern ihre wesentlichen Regelungsbereiche und zeigen, wie FIECON Mandanten konkret dabei unterstützt, die Anforderungen dieser Regelwerke rechtssicher und effizient zu erfüllen.",
+    "meta_title": "Legalno baza — KWG, VAG & ESTG",
+    "meta_description": "O FIECON mothol e regulaciaki baza: o Bankako Zakono, o Zakono vash o Supervizija e Insuranciako thaj o Zakono vash o Inkomstskatt - thaj sar amen zutisaras le klienton ande kado dikhipe.",
+    "breadcrumb_home": "Kherutni rig",
+    "breadcrumb_current": "Zakonura",
+    "hero_badge": "Regulaciaqo fremo",
+    "hero_headline": "Legalno baza",
+    "hero_intro_1": "E FIECON-esqi konsultaciaqi praktika si but phangli anθ-o Njamcicko thaj Evropako regulatòro fremo. O Zakono pal-i Banka, o Zakono pal-i Supervizia pal-i Insurància thaj o Zakono pal-o Takso pal-o Inkòsto keren i legalo baza vaś e esenciàlo kotora amare sakodivesutne konsultàciaqe butăqe - katar i strukturàcia e maśkarthemutne firmenqi źi k-i optimizàcia e taksenqi vaś e antreprenòrură.",
+    "hero_intro_2": "Pe kadi rig prezentisaras tumenqe e trin centralne zakonură, xramosaras lenqe śerutne regulaciaqe rigărde thaj sikavas sar o FIECON specifiko del suporto e kliènturenqe te resen e śajutnimata kadale regulacienqe anθ-i jekh legalo sekurno thaj efikasno drom.",
     "hero_chip_kwg": "KWG",
     "hero_chip_vag": "VAG",
     "hero_chip_estg": "EStG",
     "kwg_abbreviation": "KWG",
-    "kwg_name": "Kreditwesengesetz",
-    "kwg_intro": "Das Kreditwesengesetz (KWG) bildet das Fundament der deutschen Bankenaufsicht. Es regelt, unter welchen Voraussetzungen Unternehmen Bankgeschäfte oder Finanzdienstleistungen erbringen dürfen, und legt die Anforderungen an Organisation, Kapitalausstattung und interne Kontrolle fest. Die Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin) überwacht auf Grundlage des KWG alle erlaubnispflichtigen Institute in Deutschland.",
-    "kwg_detail": "Für Unternehmen, die Bankgeschäfte betreiben oder Finanzdienstleistungen erbringen wollen, ist die Erlaubnispflicht nach § 32 KWG von zentraler Bedeutung. Das KWG definiert in § 1 einen breiten Katalog erlaubnispflichtiger Tätigkeiten — von der Kreditvergabe über die Anlageberatung bis hin zur Abschlussvermittlung. Gleichzeitig verpflichtet § 25a Institute zu einer ordnungsgemäßen Geschäftsorganisation mit angemessenem Risikomanagement.",
-    "kwg_provisions_headline": "Wesentliche Regelungen",
-    "kwg_provision_0": "§ 1 KWG — Begriffsbestimmungen: Abschließende Definition aller erlaubnispflichtigen Bank- und Finanzdienstleistungsgeschäfte, einschließlich Kreditgeschäft, Einlagengeschäft und Anlageberatung.",
-    "kwg_provision_1": "§ 25a KWG — Besondere organisatorische Pflichten: Anforderungen an eine ordnungsgemäße Geschäftsorganisation mit angemessenem Risikomanagement, internen Kontrollverfahren und Compliance-Strukturen.",
-    "kwg_provision_2": "§ 32 KWG — Erlaubnispflicht: Verbot der gewerbsmäßigen Erbringung von Bankgeschäften und Finanzdienstleistungen ohne schriftliche Erlaubnis der BaFin.",
-    "kwg_provision_3": "§ 44 KWG — Prüfungsrechte der BaFin: Befugnisse der Aufsichtsbehörde zur Durchführung von Prüfungen bei Instituten und zur Anforderung von Auskünften und Unterlagen.",
-    "kwg_consulting_headline": "FIECON-Beratung im KWG-Kontext",
-    "kwg_consulting_text": "FIECON begleitet Unternehmen und Gründer bei der Prüfung der Erlaubnispflicht nach dem KWG, bei der Vorbereitung und Einreichung von BaFin-Erlaubnisanträgen sowie bei der Implementierung der organisatorischen Anforderungen nach § 25a KWG. Wir unterstützen auch bei der laufenden regulatorischen Compliance und der Kommunikation mit der Aufsichtsbehörde.",
+    "kwg_name": "Bankako Zakono",
+    "kwg_intro": "O Bankako Zakono (KWG) kerel o fundo vash e Njamcikani bankaki supervizia. Vov reguliril e kondicie savencar e kompanie śaj te den bankarsko vaj finansikane servisura thaj specifikuil e śajutnimata vaś organizacia, kapitaloske resurse thaj andruni kontrola. O Federalno Financialno Supervizorikano Autoriteto (BaFin) dikhel sa e institucie ki Njamco save trubun autorizacia pe baza e KWG-esko.",
+    "kwg_detail": "E firmenge save keren bankako bizniso ​​vaj kamen te den finansikane servisura, o mangipe pala autorizacia ande relacia e Sekciasa 32 katar o KWG si centralno importanca. Ano Sekcia 1, o KWG definisarel baro katalogo e aktiviteturengo save trubun autorizacia - katar o dende kreditura dži ko investiciake sovli thaj brokeringoske dealura. Ano sasto vakti, o kotor 25a obliguil e institucien te avel len lačhi biznis organizacia lačhe menadžmentosa e rizikosko.",
+    "kwg_provisions_headline": "Esencialne regulacie",
+    "kwg_provision_0": "§ 1 KWG - Definicie: Finalno definicia sa e bankake thaj finansikane servisurenqi transakcienqi save trubun autorizàcia, inkluziv o biznèso e kreditosqo, o biznèso e depozitosqo thaj o sovlipen pal-e investicie.",
+    "kwg_provision_1": "§ 25a KWG — Specialo organizaciaqe obligacie: Trubulimata vaś jekh laćhi biznèsosqi organizàcia laćhe rizikosqe manaźmèntoça, procedure vaś andruno kontrolo thaj strukture vaś o śajdipen.",
+    "kwg_provision_2": "§ 32 KWG - Obligacia te lel pes permisia: Zabrana e komercialno furnizipeski e bankake transakcienqi thaj e finansikane servisurenqi bi te avel xramosardo permisia katar o BaFin.",
+    "kwg_provision_3": "Sekcia 44 KWG - BaFin-esqe reviziaqe xakaja: Zora e supervizorikane autoritetosqe te kerel revizia e institucienqe thaj te mangel informacie thaj dokumentură.",
+    "kwg_consulting_headline": "FIECON konsultacia ando KWG konteksto",
+    "kwg_consulting_text": "FIECON del suporto e kompanijenge thaj e fundatorenqe te kontrolisaren o mangipen vaś autorizàcia palal o KWG, te keren i preparàcia thaj te bićhalen e aplikàcie pal-i autorizàcia e BaFin-esqi thaj te keren i implementàcia e organizaciaqe mangipnaski palal o Sekcia 25a KWG. Amen vi suportisaras o śajdipen e regulaciaqo thaj i komunikacia e supervizorikane autoritetosa.",
     "vag_abbreviation": "VAG",
-    "vag_name": "Versicherungsaufsichtsgesetz",
-    "vag_intro": "Das Versicherungsaufsichtsgesetz (VAG) regelt die staatliche Aufsicht über Versicherungsunternehmen in Deutschland und dient in erster Linie dem Schutz der Versicherungsnehmer. Es setzt die europäische Solvency II-Richtlinie in deutsches Recht um und stellt sicher, dass Versicherer dauerhaft in der Lage sind, ihre Verpflichtungen gegenüber den Versicherten zu erfüllen.",
-    "vag_detail": "Das VAG verpflichtet Versicherungsunternehmen zur Einhaltung umfangreicher Kapitalanforderungen (Solvency Capital Requirement und Minimum Capital Requirement) sowie zur ordnungsgemäßen Geschäftsführung durch geeignete und zuverlässige Personen. Für private Krankenversicherer gelten besondere Bestimmungen zur Kalkulation der Prämien und zur Bildung von Alterungsrückstellungen — ein Bereich, der für die Beratung selbstständiger Unternehmer besonders relevant ist.",
-    "vag_provisions_headline": "Wesentliche Regelungen",
-    "vag_provision_0": "§ 11 VAG — Erlaubnispflicht: Verbot des Betriebs von Versicherungsgeschäften ohne Erlaubnis der BaFin, verbunden mit einem Katalog der erlaubnispflichtigen Versicherungssparten.",
-    "vag_provision_1": "§ 124 VAG — Kapitalanlagemanagement: Anforderungen an die Anlage der Vermögenswerte nach dem Grundsatz der unternehmerischen Vorsicht (Prudent Person Principle).",
-    "vag_provision_2": "§ 22 VAG — Geschäftsleiter: Anforderungen an Zuverlässigkeit und fachliche Eignung der verantwortlichen Personen in Schlüsselfunktionen eines Versicherungsunternehmens.",
-    "vag_provision_3": "§ 294 VAG — Aufsichtsbefugnisse der BaFin: Umfangreiche Aufsichts- und Eingriffsbefugnisse der Bundesanstalt gegenüber beaufsichtigten Versicherungsunternehmen.",
-    "vag_consulting_headline": "FIECON-Beratung im VAG-Kontext",
-    "vag_consulting_text": "FIECON berät bei der Strukturierung von Versicherungslösungen für internationale Unternehmer und Selbstständige, insbesondere im Bereich der privaten Krankenversicherung (PKV). Wir analysieren Tarifstrukturen unter Berücksichtigung der aufsichtsrechtlichen Vorgaben des VAG und begleiten Mandanten bei der optimalen Absicherung ihrer persönlichen Risiken.",
+    "vag_name": "Zakono pal-i supervizìa e insuràncenqi",
+    "vag_intro": "O Zakono pal-i Supervizìa e Insuràncenqi (VAG) regulisarel i supervizìa e themesqi pal-e insurànce firmi anθ-i Njamco thaj maj anglal kerel buti te arakhel e insuràncenqe lila. Implementisarel i Evropaki Solvencija II Direktìva anθ-o Njamcicko zakono thaj siguril ke le asiguràcie si permanentno śajde te inkren pire obligacie karing le asiguràcie.",
+    "vag_detail": "O VAG obliguil e siguripaske kompanije te keren buti e bare kapitaloske mangipnasa (Solvencijako Kapitalosko Mangipe thaj Minimalno Kapitalosko Mangipe) sar vi lačho menadžmento katar lačhe thaj patjavne manuša. Specialne regulàcie si aplikime vaś e privatne sastipasqe asiguràcie pal-o ginavipen e premienqo thaj pal-i formacia e provizienqi pal-o phuripen - jekh rig savi si specialo relevanto vaś te del pes sovli e korkoro-butjarne antreprenorurenqe.",
+    "vag_provisions_headline": "Esencialne regulacie",
+    "vag_provision_0": "§ 11 VAG - Obligacia te lel pes autorizacia: Zabrana te kerel pes buti e insurànciaqi bi permisiaqo e BaFin-esqo, kombinime e katalògoça e insurànce linienqo save trubun autorizacia.",
+    "vag_provision_1": "§ 124 VAG - Menadžmento e investiciaqo anθ-o kapitalo: Trubulimata vaś i investicia e barvalipnasqi anθ-o phanglipe e princìposa e princìposqi e antreprenòriaqi (Principo e Prudentone Manuśenqo).",
+    "vag_provision_2": "§ 22 VAG - Menadžeria: Trubulimata vaś o patǐvipen thaj i profesiàlo śajutnipen e responsibilone manuśenqo anθ-e śerutne funkcie e jekhe insurànciaqe kompanìaqe.",
+    "vag_provision_3": "§ 294 VAG — Supervizorikane zora e BaFin-esqe: Bari supervizìaqe thaj intervenciaqe zoră e Federalne Finansiàlo Supervizorikane Autoritetosqe karing e supervizirime insurànce kompanìe.",
+    "vag_consulting_headline": "FIECON konsultàcia anθ-o kontèksto VAG",
+    "vag_consulting_text": "FIECON del sovli pal-i strukturàcia e insurànce solucienqi vaś e maśkarthemutne antreprenòre thaj e korkore butjarne, maj but anθ-i rig e privatno sastipasqi insurànciaqi (PKV). Amen analizisaras e tarifake strukture line sama e regulaciake trubuimaske katar o VAG thaj zutisaras e klijentonge te sigurinen optimalno lengere personalne rizikura.",
     "estg_abbreviation": "EStG",
-    "estg_name": "Einkommensteuergesetz",
-    "estg_intro": "Das Einkommensteuergesetz (EStG) regelt die Besteuerung des Einkommens natürlicher Personen in Deutschland. Als das zentrale Steuergesetz für Privatpersonen und Selbstständige definiert es die sieben Einkunftsarten, die persönlichen Freibeträge sowie die progressiven Steuersätze. Für international tätige Unternehmer ist das EStG besonders bedeutsam, da Deutschland das Welteinkommensprinzip anwendet.",
-    "estg_detail": "Wer in Deutschland unbeschränkt steuerpflichtig ist (§ 1 EStG), muss grundsätzlich sein gesamtes weltweites Einkommen in Deutschland versteuern — unabhängig davon, wo es erzielt wurde. Die korrekte Abgrenzung der Steuerpflicht, die Anwendung von Doppelbesteuerungsabkommen und die steuerlich optimale Gestaltung von Gesellschaftsstrukturen sind daher wesentliche Beratungsfelder für international tätige Mandanten.",
-    "estg_provisions_headline": "Wesentliche Regelungen",
-    "estg_provision_0": "§ 1 EStG — Unbeschränkte Steuerpflicht: Natürliche Personen mit Wohnsitz oder gewöhnlichem Aufenthalt in Deutschland unterliegen der unbeschränkten Einkommensteuerpflicht auf ihr Welteinkommen.",
-    "estg_provision_1": "§ 2 EStG — Einkunftsarten: Abschließende Definition der sieben Einkunftsarten, darunter Einkünfte aus Gewerbebetrieb, aus selbstständiger Arbeit und aus Kapitalvermögen.",
-    "estg_provision_2": "§ 19 EStG — Einkünfte aus nichtselbstständiger Arbeit: Regelung der Besteuerung von Arbeitslohn, Gehalt, Gratifikationen und geldwerten Vorteilen aus einem Arbeitsverhältnis.",
-    "estg_provision_3": "§ 49 EStG — Beschränkte Steuerpflicht: Besteuerung von Einkünften aus deutschen Quellen bei Personen ohne Wohnsitz in Deutschland — relevant für ausländische Gesellschafter und Geschäftsführer.",
-    "estg_consulting_headline": "FIECON-Beratung im EStG-Kontext",
-    "estg_consulting_text": "FIECON begleitet international tätige Unternehmer, Gesellschafter und Selbstständige bei der Analyse und Optimierung ihrer steuerlichen Situation unter dem EStG. Wir prüfen die persönliche Steuerpflicht, die Anwendbarkeit von Doppelbesteuerungsabkommen und entwickeln steuerlich effiziente Gesellschafts- und Vergütungsstrukturen. Für Selbstständige beraten wir zudem zur steuerlich optimalen Gestaltung der Vorsorge, insbesondere im Zusammenspiel mit der privaten Krankenversicherung.",
-    "cta_headline": "Regulatorische Fragen? Wir haben die Antworten.",
-    "cta_subline": "Ob KWG-Erlaubnisantrag, VAG-konforme Versicherungsstruktur oder steuerliche Optimierung nach EStG — sprechen Sie uns an.",
+    "estg_name": "Zakono pal-o pokinipe",
+    "estg_intro": "O Zakono pal-o Inkomesqo Tax (EStG) kerel regulacia pal-o taksacia e inkomesqi e naturalne manuśenqi anθ-i Njamco. Sar o centralno taksako zakono vash e privatne manusha thaj e korkore butjarne, vov definirinel e efta tipuria e lovengo, e personalno alosarimata thaj e progresivne taksake rate. O EStG si but importantno vash e internacionalno aktivno antrepreneria soske o Njamco kerel buti e globalno inkomeskere principosa.",
+    "estg_detail": "Sako manuš savo si subjekto e bi-limitime taksake obligaciako ki Njamco (§ 1 EStG) musaj generalo te pokinel takse pe sasto lumjako inkomesti ki Njamco - bizo dikhipe kotar sas kerdo. I ćaćutni definicia e taksaqe obligaciaqi, i aplikàcia e dujto taksaqe kontrakturenqi thaj o skato-optimalo dizajno e korporativne strukturenqo si odolesqe esencijalne thana vaś o sovlipen vaś e kliènturã save si maśkarthemutne aktivne.",
+    "estg_provisions_headline": "Esencialne regulacie",
+    "estg_provision_0": "§ 1 EStG - Bi-limitime taksaqi obligacia: E naturalne manuśa saven si len than vaj beśipen anθ-o Njamco si len bi-limitàciaqo taksaqo obligacia anθ-o lenqo lumǎqo inkrèsto.",
+    "estg_provision_1": "§ 2 EStG — Tipuria e inkomesqe: Finalno definicia e efta tipurenqi e inkomesqi, inkluziv o inkomesti katar e komercialne operacie, katar o korkoro-butjaripen thaj katar e kapitalne barvalimata.",
+    "estg_provision_2": "§ 19 EStG - Inkomesti katar butjaripe: Regulacia pala taksacia pala love, salarie, bonusura thaj lovenge beneficie katar jekh butjarimaski relacia.",
+    "estg_provision_3": "§ 49 EStG - Limitirime taksaqi obligacia: Taksacia e lovengi katar e Njamcikane źanglimata vaś e manuśa bi beśipnasqe anθ-i Njamco - relevanto vaś e avrutne akcionaria thaj e direktorură.",
+    "estg_consulting_headline": "FIECON-esqo sovlipen anθ-o ESTG-esqo kontèksto",
+    "estg_consulting_text": "FIECON del suporto e maśkarthemutne aktivne antreprenorenqe, e akcionàrenqe thaj e manuśenqe save keren buti korkorre te keren analìza thaj optimizàcia e taksaqe situàciaqi anθ-o EStG. Amen dikhas e personalo taksaki obligacia, i aplikabilitèta e dujto taksaqe kontrakturenqi thaj keras taksa-efikasne korporativne thaj remuneraciaqe strukture. E manušenge save keren buti korkore, amen vi das sovli pal-i optimalo skatoski struktura vaś e penzijaqi provizia, maj but ande relacia e privatno sastipasqe insuràciaça.",
+    "cta_headline": "Regulaciake pućhimata? Amen isi amen o atùnćimata.",
+    "cta_subline": "Te si jekh KWG permisiaki aplikàcia, jekh VAG-kompatibilno insurànciaqi struktura vaj jekh taksaqi optimizàcia palal o EStG - vorbin amenca.",
     "cta_button": "Bishan e-mail",
-    "cta_back": "Zur Startseite",
-    "kwg_provision_4": "§ 46 KWG — Maßnahmen bei Gefahr: Eingriffsbefugnisse der BaFin bei aufsichtsrechtlichen Missständen, insbesondere zur Sicherung der ordnungsgemäßen Geschäftsführung und zum Schutz von Gläubigern.",
-    "vag_provision_4": "§ 311 VAG — Besondere Vorgaben für die private Krankenversicherung: Regelungen zur Kalkulation, Prämienanpassung und dauerhaften Finanzierung über Alterungsrückstellungen.",
-    "estg_provision_4": "§ 22 EStG — Sonstige Einkünfte: Besteuerung insbesondere von wiederkehrenden Bezügen wie Renten sowie bestimmter weiterer Einkünfte außerhalb der klassischen Einkunftsarten.",
-    "estg_provision_5": "§ 23 EStG — Private Veräußerungsgeschäfte: Steuerliche Erfassung von Gewinnen aus der Veräußerung privater Wirtschaftsgüter innerhalb der gesetzlichen Haltefristen."
+    "cta_back": "Ki angluni rig",
+    "kwg_provision_4": "§ 46 KWG - Mesura kana si pharipa: E BaFin-esqe zora te kerel intervencia kana si regulatorne pharipa, ande partikularno te siguril laćho menadžmento thaj te arakhel e kreditoren.",
+    "vag_provision_4": "§ 311 VAG - Specialne śajutnimata vaś o privatno sastipasqo insurància: regulàcie vaś o ginavipen, o laćharipen e premienqo thaj o finansiripe permanento prekal e provizie vaś o phuripen.",
+    "estg_provision_4": "§ 22 EStG - Aver inkomesti: Taksacia ande partikularno e rekurzivno pochinimata sar so si e penzie thaj varesave aver inkomesti avrial e klasikane tipuria e inkomesqe.",
+    "estg_provision_5": "§ 23 EStG - Privatno bikinimaske transakcie: Priznavipe e taksaqo e profitosqo katar o bikinipen e privatne barvalipnasqo anθ-e periodură save si len o zakono."
   },
   "fourPointPlan": {
-    "badge": "Vier-Punkte-Plan",
-    "headline": "Unser Vier-Punkte-Plan zur finanziellen Unabhängigkeit",
-    "subtitle": "Strukturierte Gesamtstrategie mit operativer Umsetzung und langfristiger Vermögenssicherung.",
-    "intro": "Der Plan folgt der klassischen unternehmerischen Logik: Struktur aufbauen, Steuern optimieren, Kosten senken und Vermögen langfristig steuerfrei aufbauen. Entscheidend ist nicht nur die Strategie, sondern die saubere Umsetzung im Tagesgeschäft.",
-    "cta_details": "Detaillierten Plan ansehen",
+    "badge": "Plano śtar-punktosqo",
+    "headline": "Amaro śtar-punktosqo plano vaś finansiàlo indepedènca",
+    "subtitle": "Strukturirime generalo strategia e operativno implementàciaça thaj lungo-vràmaqe protekcia e barvalipnasqi.",
+    "intro": "O plano źal palal i klasikani logika e antreprenoriaqi: te vazdel pes i struktura, te optimizisarel pes e takse, te tiknjarel pes o kosto thaj te vazdel pes o barvalimos bi taksesqo anθ-o lungo vaxt. Na numaj i stratègia si importanto, numaj vi laqi laćhi implementàcia anθ-o sakodivesutno biznèso.",
+    "cta_details": "Dikh o plano detalura",
     "detail": {
-      "meta_title": "Vier-Punkte-Plan zur finanziellen Unabhängigkeit",
-      "meta_description": "Detaillierte Darstellung des FIECON Vier-Punkte-Plans: Strategie und Organisation, steuerliche Optimierung, finanzielle Entlastung und steuerfreier Vermögensaufbau.",
-      "headline": "Vier-Punkte-Plan im Detail",
-      "subtitle": "Detaillierte Ausarbeitung aller Maßnahmen, Teilbereiche und operativen Umsetzungsschritte.",
-      "navigation_label": "Interaktive Navigation",
-      "focus_label": "Aktiver Schwerpunkt",
-      "subpoints_label": "Teilbereiche",
-      "items_label": "Maßnahmen",
-      "cta_panel_title": "Vom Plan zur Umsetzung",
-      "cta_panel_text": "Wir begleiten Sie nicht nur bei der Strategie, sondern bei der operativen Implementierung jeder einzelnen Maßnahme.",
-      "cta_contact": "Strategiegespräch vereinbaren",
-      "cta_back_home": "Zur Startseite"
+      "meta_title": "Štar-punktosko plano vaś finansijaki indepedènca",
+      "meta_description": "Detaljime prezentàcia e FIECON-esqe śtar-punktosqe planosqi: stratègia thaj organizàcia, optimizàcia e taksenqi, finansiàlo źutimos thaj keripe barvalipnasqo bi-taksaqo.",
+      "headline": "Štar-punktosko plano ande detalura",
+      "subtitle": "Detaljime elaboracia sa e mesura, sub-aree thaj operativno implementaciake pasura.",
+      "navigation_label": "Interaktivo navigacia",
+      "focus_label": "Aktivno fokuso",
+      "subpoints_label": "Sub-aree",
+      "items_label": "Mapinel",
+      "cta_panel_title": "Katar o plano dži ko implementiribe",
+      "cta_panel_text": "Amen na numaj suportisaras tumen e strategijasa, numaj vi e operativno implementàciasa svakone individualne mesurenqi.",
+      "cta_contact": "Keren jekh strategijako kidipe",
+      "cta_back_home": "Ki angluni rig"
     },
     "points": {
       "strategy": {
-        "title": "Strategie und Organisation",
-        "teaser": "Klare Zielstruktur und effiziente Umsetzung im Tagesgeschäft.",
-        "description": "Umsetzung des Tagesgeschäfts mit klaren Verantwortlichkeiten und belastbarer Struktur.",
+        "title": "Strategia thaj organizacia",
+        "teaser": "Klaro ciljo struktura thaj efikasno implementàcia anθ-o divesutno biznèso.",
+        "description": "Implementàcia e sakodivesutne butăqi e klaro responsibilitèturenqe thaj jekh śukar struktura.",
         "subpoints": {
           "1_1": {
-            "title": "1.1 Klare Definition der geschäftlichen Zielstruktur",
+            "title": "1.1 Klaro definicia pal-i struktura e biznèsosqi",
             "items": {
-              "0": "Festlegung der Unternehmensform(en) und Beteiligungsstruktur",
-              "1": "Erweiterung bestehender Geschäftsmodelle",
-              "2": "Trennung von operativem Geschäft und Vermögensverwaltung",
-              "3": "Aufbau einer rechtssicheren Organisationsstruktur"
+              "0": "Determinàcia e formenqi e firmàqi thaj e struktura e akcienqi",
+              "1": "O barjaripe e egzistuime biznis modelurenqo",
+              "2": "Separacia e operativno biznisoski thaj o menadžmento e barvalipasko",
+              "3": "Te vazdel pes jekh legalno sekurno organizaciaki struktura"
             }
           },
           "1_2": {
-            "title": "1.2 Effiziente Organisation des Tagesgeschäfts",
+            "title": "1.2 Efikasno organizàcia e divesutne butăqi",
             "items": {
-              "0": "Standardisierung von Abläufen",
-              "1": "Delegation operativer Tätigkeiten",
-              "2": "Nutzung externer Dienstleister (Steuerberater, Buchhaltung, Verwaltung)"
+              "0": "Standardizàcia e procesurenqi",
+              "1": "Delegacia e operativne aktiviteturengi",
+              "2": "Utilizàcia e avrutne servisurenqi (konsiliàro vaś e takse, kontabiliteto, administracia)"
             }
           }
         }
       },
       "tax": {
-        "title": "Steuerliche Optimierung",
-        "teaser": "Gesellschafts- und Gewinnstruktur steuerlich präzise ausrichten.",
-        "description": "Rechtskonforme Steuerstruktur, die Liquidität sichert und Wachstum fördert.",
+        "title": "Optimizacia e taksengi",
+        "teaser": "Keren e kompanija thaj e profitoski struktura precizno vash e takse.",
+        "description": "Legalno konformno taksaki struktura savi siguril e likviditeta thaj promovirinel o barvalipe.",
         "subpoints": {
           "2_1": {
-            "title": "2.1 Wahl der richtigen Gesellschaftsstruktur",
+            "title": "2.1 Alosaripe e laćhe korporativno strukturako",
             "items": {
-              "0": "Kombination aus Kapitalgesellschaft und Personengesellschaft",
-              "1": "Nutzung von Holding-Strukturen",
-              "2": "Trennung von Privatvermögen und Betriebsvermögen"
+              "0": "Kombinacia e korporaciaki thaj e partneripeski",
+              "1": "Utilizipe e strukturengo save astaren",
+              "2": "Separacia e privatne barvalipasko thaj e biznis barvalipasko"
             }
           },
           "2_2": {
-            "title": "2.2 Gewinnverlagerung und Gestaltung",
+            "title": "2.2 O paruvipen e profitosqo thaj o dizajno",
             "items": {
-              "0": "Nutzung von Betriebsausgaben",
-              "1": "Gestaltung von Geschäftsführergehalt und Gewinnausschüttung",
-              "2": "Nutzung steuerlicher Freibeträge"
+              "0": "Utilizàcia e biznèsosqe ćhinadimatenqi",
+              "1": "Dizajniripe e śerutne direktoresqo thaj e distribùcie e profitosqe",
+              "2": "O labăripen e taksesqe śajutnimatenqo"
             }
           },
           "2_3": {
-            "title": "2.3 Vermögensaufbau im Betriebsvermögen",
+            "title": "2.3 Akumulàcia e barvalipnasqi anθ-e barvalimata e biznèsosqe",
             "items": {
-              "0": "Investitionen über die Gesellschaft"
+              "0": "Investicie prekal o societeto"
             }
           }
         }
       },
       "relief": {
-        "title": "Finanzielle Entlastung",
-        "teaser": "Laufende Kosten gezielt reduzieren, insbesondere im PKV-Bereich.",
-        "description": "Gezielte Entlastung der laufenden Kosten, insbesondere im Bereich der PKV.",
+        "title": "Finansiàlo źutipen",
+        "teaser": "Redukcia e ćhinavipnaski e ćhinavipnaski, maj but ano privatno sastipasko siguripasko sektor.",
+        "description": "O lačharipe e ćhinavipnasko e ćhinadipnasko, maj but ano rig e privatno sastipasko insurànciaqo.",
         "subpoints": {
           "3_1": {
-            "title": "3.1 Analyse der bestehenden Kostenstruktur",
+            "title": "3.1 Analiza e egzistuime kostosqi strukturaqi",
             "items": {
-              "0": "Krankenversicherung",
-              "1": "Altersvorsorge",
-              "2": "Laufende private Verpflichtungen"
+              "0": "sastipasko siguripe",
+              "1": "Planiripe e penzijaqo",
+              "2": "Personalno angažmanura save inkren pes"
             }
           }
         }
       },
       "pension": {
-        "title": "Steuerfreie Rente",
-        "teaser": "Langfristiger Aufbau steuerfreien Vermögens unter Berücksichtigung der gesetzlichen Haltedauer.",
-        "description": "Aufbau der steuerfreien Rente mit Fokus auf gesetzliche Haltedauer, langfristige Planung und rechtssicheren Vermögensaufbau.",
+        "title": "Penzija bi taksengi",
+        "teaser": "Lungo-vràmaqo akumulàcia e barvalipnasqi bi-taksaqo, lel pes anθ-o dikhipen o legalo vaxt e arakhipnasqo.",
+        "description": "Te vazdel pes jekh penzija bi-skatoski fokusirime pe statutarno periodura, lungo-vrjamake planiripe thaj legalno sekurno akumulacia e barvalipasko.",
         "subpoints": {
           "4_1": {
-            "title": "4.1 Grundprinzip des steuerfreien Vermögensaufbaus",
+            "title": "4.1 Bazikano princìpo vaś o ćhivipen e barvalipnasqo bi-taksaqo",
             "items": {
-              "0": "Investition mit langfristiger Haltedauer",
-              "1": "Nutzung gesetzlicher Steuerbefreiungen",
-              "2": "Planung über mindestens 10+ Jahre"
+              "0": "Investicia savi si la jekh lungo-vràmaqo vaxt",
+              "1": "Utilizipe e statutoske takseske exempcienqo",
+              "2": "Planiripe maj cerra 10+ berša"
             }
           }
         }

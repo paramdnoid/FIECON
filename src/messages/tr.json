@@ -117,17 +117,17 @@
     "laws": {
       "kwg": {
         "abbreviation": "KWG",
-        "name": "Kreditwesengesetz",
+        "name": "Bankacılık Kanunu",
         "description": "Almanya'da bankacılık faaliyetleri ve finansal hizmetler için lisans gerekliliklerini düzenler. KWG, BaFin denetiminin temelini oluşturur ve § 1 KWG'de temel kavramları, § 25a KWG'de ise uygun iş organizasyonu gerekliliklerini tanımlar."
       },
       "vag": {
         "abbreviation": "VAG",
-        "name": "Versicherungsaufsichtsgesetz",
+        "name": "Sigorta Denetleme Kanunu",
         "description": "Sigorta şirketlerinin denetimini düzenler ve sigortalıların korunmasına hizmet eder. VAG, sigortacıların yükümlülüklerini kalıcı olarak yerine getirebilmelerini ve uygun şekilde yönetilmelerini sağlar."
       },
       "estg": {
         "abbreviation": "EStG",
-        "name": "Einkommensteuergesetz",
+        "name": "Gelir Vergisi Kanunu",
         "description": "Almanya'da gerçek kişilerin gelirlerinin vergilendirilmesini düzenler. EStG, gelir türlerini, vergi muafiyetlerini ve vergi oranlarını tanımlar ve kişisel gelir vergisinin temelini oluşturur."
       }
     },

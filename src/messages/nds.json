@@ -12,15 +12,15 @@
     "home": "Na de Startsiet",
     "menu": "Menü opmaken",
     "about": "Över uns",
-    "services": "Leistungen",
-    "approach": "Ansatz",
+    "services": "Diensten",
+    "approach": "Benadering",
     "offices": "Standoorten",
-    "contact": "Kontakt",
-    "navigation": "Navigation",
+    "contact": "contact",
+    "navigation": "navigatie",
     "close_menu": "Menü sluten",
     "skip_to_content": "Ton Inholt springen",
     "gesetze": "Gesetten",
-    "four_point_plan": "Vier-Punkte-Plan"
+    "four_point_plan": "Vierpuntenplan"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -42,7 +42,7 @@
     "profile_link": "Mehr över Peter Fiegler erfahren"
   },
   "services": {
-    "badge": "Leistungen",
+    "badge": "Diensten",
     "headline": "Uns Expertise",
     "subtitle": "Veer Kompetenzfeller — een Ansprook: Juw internationale Vörhebben richtig optostellen.",
     "consulting": {
@@ -82,12 +82,12 @@
       }
     },
     "private_health_insurance": {
-      "title": "PKV für selbstständige Unternehmer",
-      "description": "Wir begleiten Selbstständige bei der Auswahl, Strukturierung und Optimierung einer privaten Krankenversicherung — individuell auf Einkommenssituation, Leistungsbedarf und langfristige Planung abgestimmt.",
+      "title": "PKV voor zelfstandig ondernemers",
+      "description": "Wij ondersteunen zelfstandigen bij het selecteren, structureren en optimaliseren van particuliere zorgverzekeringen – individueel afgestemd op hun inkomenssituatie, uitkeringsbehoefte en langetermijnplanning.",
       "items": {
-        "0": "Tarifvergleich & Auswahl",
-        "1": "Leistungs- und Beitragsoptimierung",
-        "2": "Langfristige Absicherungsstrategie"
+        "0": "Tariefvergelijking & selectie",
+        "1": "Prestatie- en contributieoptimalisatie",
+        "2": "Hedgingstrategie voor de lange termijn"
       }
     },
     "focus_headline": "Zentrale Handlungsfeller",
@@ -101,7 +101,7 @@
       }
     },
     "transparency": {
-      "title": "Transparenzregister",
+      "title": "Transparantieregister",
       "lead": "Pröfung vun all Meldepflichten to wirtschaftlich Berechtigten",
       "items": {
         "0": "Afgliek vun düütsche Vorgaven mit utländsche Sellschupsstrukturen",
@@ -112,33 +112,33 @@
   },
   "gesetze": {
     "badge": "Gesetten",
-    "headline": "Regulatorischer Rahmen",
+    "headline": "Regelgevingskader",
     "subtitle": "De rechtlichen Grundlagen vun uns Beratung.",
     "laws": {
       "kwg": {
         "abbreviation": "KWG",
-        "name": "Kreditwesengesetz",
+        "name": "Bankwet",
         "description": "Regelt de Erlabnispflichten för Bankgeschäften un Finanzdeenstleistungen in Düütschland. Dat KWG bildt de Grundlaag vun de BaFin-Oppsicht un defineert in § 1 KWG de zentralen Begriffe as ook in § 25a KWG de Anforderungen an en ordentliche Geschäftsorganisatschoon."
       },
       "vag": {
         "abbreviation": "VAG",
-        "name": "Versicherungsaufsichtsgesetz",
+        "name": "Wet toezicht verzekeringen",
         "description": "Regelt de Oppsicht över Versekerungs-Ünnernehmen un deent den Schutz vun de Versekerten. Dat VAG stellt seker, dat Versekerer ehr Verpflichtungen duerhaft erfüllen könnt un ordentlich föhrt warrt."
       },
       "estg": {
         "abbreviation": "EStG",
-        "name": "Einkommensteuergesetz",
+        "name": "Wet inkomstenbelasting",
         "description": "Regelt de Besteuerung vun dat Inkamen vun natürliche Personen in Düütschland. Dat EStG defineert de Inkamensarten, Freibeträge un Stüersätze un bildt de Grundlaag vun de persönliche Inkamensbesteuerung."
       }
     },
-    "mehr_erfahren": "Mehr erfahren"
+    "mehr_erfahren": "Meer informatie"
   },
   "approach": {
     "badge": "Uns Ansatz",
     "headline": "Wat uns utmaakt",
     "values": {
       "expertise": {
-        "title": "Internationale Expertise",
+        "title": "Internationale expertise",
         "description": "Deep Verstahn för Rechtssystemen, Geschäftskulturen un regulatorische Besünnerheiten in Europa, de USA un Südoosteuropa."
       },
       "personal": {
@@ -161,8 +161,8 @@
       "label": "Hööfdsitz"
     },
     "belgrade": {
-      "city": "Belgrad",
-      "country": "Serbien",
+      "city": "Belgrado",
+      "country": "Servië",
       "label": "Südoosteuropa"
     },
     "texas": {
@@ -182,12 +182,12 @@
     }
   },
   "contact": {
-    "badge": "Kontakt",
+    "badge": "contact",
     "headline": "Laat uns snacken",
     "subtitle": "Of en eerste Fraag oder en konkret Vörhebben — wi nehmt uns Tied för Se.",
-    "phone": "Telefon",
-    "mobile": "Mobil",
-    "email": "E-Mail",
+    "phone": "telefoon",
+    "mobile": "Mobiel",
+    "email": "e-mail",
     "address": "Adress",
     "cta": "E-Mail schrieven",
     "dialog": {
@@ -205,7 +205,7 @@
       "sending": "Warrt sennt...",
       "success_title": "Naricht sennt",
       "success_text": "Velen Dank! Wi mellt uns binnenkört bi Se.",
-      "error_title": "Fehler",
+      "error_title": "Fout",
       "error_text": "De Naricht kunn nich sennt warrn. Bitte versöökt Se dat nochmaal.",
       "error_network_text": "Kiek mol na dien Internetverbindung un versöök dat noch eenmal.",
       "error_timeout_text": "De Server antwoort nich. Versöök dat later noch eenmal.",
@@ -218,11 +218,11 @@
   },
   "footer": {
     "description": "FIECON Consulting UG & Co KG — Internationale Beradung för Sellschopsrecht, Firmengrünnen un mehr. Persöönlich. Präzies. Partnerschoplich.",
-    "services_title": "Leistungen",
+    "services_title": "Diensten",
     "offices_title": "Standoorten",
-    "legal_title": "Rechtliches",
-    "impressum": "Impressum",
-    "datenschutz": "Datenschutz",
+    "legal_title": "Legaal",
+    "impressum": "afdruk",
+    "datenschutz": "Gegevensbescherming",
     "copyright": "© {year} FIECON Consulting UG & Co KG. Alle Rechten vörbeholln."
   },
   "error": {
@@ -253,7 +253,7 @@
     "competency_2_description": "Spezialiseerte Beradung to Anlagen in Gold, Sülver un wietere Edelmetallen — as Instrument vun de Vermögenssekeren un Diversifikatioon.",
     "competency_3_title": "Personalberadung",
     "competency_3_description": "Erfarung in Human Resources un Personalberadung — för de Besetten vun Slötelpositioonen un den Opbo vun leistungsstarke Teams.",
-    "competency_4_title": "Vermögensstrategie",
+    "competency_4_title": "Rijkdom strategie",
     "competency_4_description": "Entwicklung individueller Anlagestrategien, de Sekerheit un Wasdom in Eenklaang bröökt — persöönlich, langfristig un transparent."
   },
   "team_andre_zimmermann": {
@@ -268,23 +268,23 @@
     "bio_3": "Sien Anspruch: Technologie schall keen Sülvsttweck wesen, man Warktüüch — präzies, verlässlich un up de Bedürfnisse vun dat Ünnernehmen togesneden. Mit KI as Partner warrt ut jed Vision en Ergevnis, dat övertuugt.",
     "quote": "Gode Technologie is unsichtbor — se funktioneert eenfach.",
     "quote_attribution": "Andre Zimmermann",
-    "competency_1_title": "Webentwicklung & Full-Stack",
+    "competency_1_title": "Webontwikkeling en volledige stapel",
     "competency_1_description": "Konzeption un Entwicklung moderner Webanwennen — vun de Benutzeroberflach bit to de Serverarchitektur. Performant, seker un skaleerbor.",
-    "competency_2_title": "Software-Architektur",
+    "competency_2_title": "Software-architectuur",
     "competency_2_description": "Entwurf vun robuste Systemarchitekturen, de mit dat Ünnernehmen wasst. Vun de Technologieutwahl bit to de langfristige Wartbarkeit.",
-    "competency_3_title": "IT-Projektleitung",
+    "competency_3_title": "IT-projectmanagement",
     "competency_3_description": "Föhrung un Koordinatschoon vun Entwicklungsteams un technische Projekten — mit klore Prozessen, agilen Methoden un meetbore Ergevnissen.",
-    "competency_4_title": "Digitale Infrastruktur",
+    "competency_4_title": "Digitale infrastructuur",
     "competency_4_description": "Opbo un Optimeren vun digitaler Infrastrukturen för Ünnernehmen — vun de Serveradministratschoon bit to de Integratschoon moderner Cloud-Lösungen."
   },
   "impressum": {
-    "title": "Impressum",
+    "title": "afdruk",
     "info_title": "Angaven na § 5 TMG",
-    "contact_title": "Kontakt",
-    "phone_label": "Telefon",
-    "mobile_label": "Mobil",
-    "email_label": "E-Mail",
-    "homepage_label": "Homepage",
+    "contact_title": "contact",
+    "phone_label": "telefoon",
+    "mobile_label": "Mobiel",
+    "email_label": "e-mail",
+    "homepage_label": "Startpagina",
     "responsible_title": "Verantwoortlich för den Inholt na § 55 Abs. 2 RStV",
     "responsible_name": "Peter Fiegler",
     "disclaimer_title": "Haftungsutsluss",
@@ -292,7 +292,7 @@
     "disclaimer_content_text": "De Inholten vun uns Sieden sünd mit gröttste Sorgfalt opstellt worrn. För de Richtigheit, Vullständigheit un Aktualiteet vun de Inholten köönt wi aver keen Gewähr övernehmen. As Deensteanbeder sünd wi na § 7 Abs. 1 TMG för egene Inholten op düsse Sieden na de allgemeenen Gesetzen verantwoortlich. Na §§ 8 bet 10 TMG sünd wi as Deensteanbeder aver nich verplicht, övermiddelte oder spiekerte fremde Informatioonen to överwaken oder na Ümständ to forschen, de op en rechtswidrige Tätigkeit henwiesen doot.",
     "disclaimer_links_title": "Haftung för Links",
     "disclaimer_links_text": "Uns Angebott enthöllt Links to externe Websieden vun Drüdde, op deren Inholten wi keen Influss hebbt. Dorüm köönt wi för düsse fremden Inholten ok keen Gewähr övernehmen. För de Inholten vun de verlinkten Sieden is jümmers de jeweilige Anbeder oder Bedriefer vun de Sieden verantwoortlich. De verlinkten Sieden sünd to'n Tiedpunkt vun de Verlinkung op mööglich Rechtsverstööt överprööft worrn. Rechtswidrige Inholten weern to'n Tiedpunkt vun de Verlinkung nich to erkennen.",
-    "copyright_title": "Urheberrecht",
+    "copyright_title": "copyright",
     "copyright_text": "De dörch de Siedenbedrievers opstellt Inholten un Warken op düsse Sieden ünnerliggt dat düütsche Urheberrecht. De Vervelfältigung, Bearbeidung, Verbreedung un jede Oort vun Verwertung buten de Grenzen vun dat Urheberrecht bruukt de schriftliche Tostimmung vun den jeweiligen Autor bzw. Opsteller."
   },
   "datenschutz": {
@@ -308,7 +308,7 @@
     "section_3_text": "Wenn Se uns per E-Mail oder över dat Kontaktformular kontakteert, warrt Juw Angaven inslietlich de vun Se dor angeven Kontaktdaten twecks Bearbeidung vun de Anfraag un för den Fall vun Anslussfrragen bi uns spiekert. Düsse Daten geevt wi nich ahn Juw Inwilligen wieder.",
     "section_3_legal_basis": "Rechtsgrundlaag för de Verarbeidung vun de Daten is Art. 6 Abs. 1 lit. b DSGVO (Vertragsanbahnung) bzw. Art. 6 Abs. 1 lit. f DSGVO (berechtigtet Interess an de Bearbeidung vun Juw Anfraag).",
     "section_3_retention": "De in den Rahmen vun de Kontaktopnahme övermiddelt Daten warrt löscht, sobald Juw Anfraag afsluutend bearbeidt worrn is un keen gesetzliche Opbewahrungsplichten dorto in'n Weg staht.",
-    "section_4_title": "4. E-Mail-Versand",
+    "section_4_title": "4. E-mailen",
     "section_4_text": "För den Versand vun E-Mails över uns Kontaktformular bruukt wi en SMTP-Mailserver. De vun Se ingeven Daten (Naam, E-Mail-Adress, Bedreff, Naricht) warrt dorbi an uns E-Mail-Provider övermiddelt, de de E-Mail in uns Opdrag tostellt.",
     "section_5_title": "5. Juw Rechten",
     "section_5_text_1": "Se hebbt gegenöver uns de folgenden Rechten hinsichtlich de Se bedreepende personenbezogene Daten:",
@@ -319,15 +319,15 @@
     "section_5_rights_4": "Recht op Datenöverdraaghbarkeit (Art. 20 DSGVO)",
     "section_5_rights_5": "Recht op Weddersprook gegen de Verarbeidung (Art. 21 DSGVO)",
     "section_5_text_2": "Se hebbt dor to dat Recht, sik bi en Datenschutz-Opsiichtsbehöörde över de Verarbeidung vun Juw personenbezogene Daten dörch uns to besweern.",
-    "section_6_title": "6. Cookies",
+    "section_6_title": "6. Koekjes",
     "section_6_text": "Uns Websiet bruukt en funktioonaal Cookie (NEXT_LOCALE) to't Spiekern vun Juw Spraakpräferenz. Dit Cookie is technisch nootwendig un bruukt keen Inwilligen na § 25 Abs. 2 TDDDG. Dat warrt keen Tracking- oder Analyse-Cookies insett.",
     "section_7_title": "7. Aktualiteet un Ännern vun düsse Datenschutzerklärung",
     "section_7_text": "Düsse Datenschutzerklärung is aktuell güllig. Dörch de Wiederentwicklung vun uns Websiet oder op Grund vun ännerte gesetzliche bzw. behöörtliche Vörgaven kann dat nootwendig warrn, düsse Datenschutzerklärung to ännern.",
-    "email_label": "E-Mail",
-    "contact_label": "Kontakt"
+    "email_label": "e-mail",
+    "contact_label": "contact"
   },
   "team": {
-    "nav_label": "Team",
+    "nav_label": "team",
     "competencies_headline": "Kompetenzfeller",
     "cta_headline": "Laat uns in't Gespräk kommen",
     "cta_subline": "Of en eerste Fraag oder en konkret Vörhebben — wi nehmt uns Tied för Se.",
@@ -358,166 +358,166 @@
   },
   "schema": {
     "description": "FIECON Consulting UG & Co KG — Internationale Beradung för Sellschopsrecht, Firmengrünnen, Finanzverwalten un Bufinanzeren. Standoorten in Hamborg, Belgrad, Texas, Montenegro un Vanuatu.",
-    "offer_catalog": "Leistungen",
+    "offer_catalog": "Diensten",
     "service_consulting": "Sellschopsrecht & Firmengrünnen",
     "service_finance": "Finanzverwalten",
     "service_construction": "Bufinanzeren",
     "service_yacht": "Jachtbufinanzeren"
   },
   "gesetze_page": {
-    "meta_title": "Rechtliche Grundlagen — KWG, VAG & EStG",
-    "meta_description": "FIECON erläutert die regulatorischen Grundlagen: Kreditwesengesetz, Versicherungsaufsichtsgesetz und Einkommensteuergesetz — und wie wir Mandanten dabei begleiten.",
-    "breadcrumb_home": "Startseite",
-    "breadcrumb_current": "Gesetze",
-    "hero_badge": "Regulatorischer Rahmen",
-    "hero_headline": "Rechtliche Grundlagen",
-    "hero_intro_1": "Die Beratungspraxis von FIECON ist tief im deutschen und europäischen Regulierungsrahmen verankert. Das Kreditwesengesetz, das Versicherungsaufsichtsgesetz und das Einkommensteuergesetz bilden die rechtliche Grundlage für wesentliche Teile unserer täglichen Beratungsarbeit — von der Strukturierung internationaler Gesellschaften bis zur steuerlichen Optimierung für Unternehmer.",
-    "hero_intro_2": "Auf dieser Seite stellen wir Ihnen die drei zentralen Gesetze vor, erläutern ihre wesentlichen Regelungsbereiche und zeigen, wie FIECON Mandanten konkret dabei unterstützt, die Anforderungen dieser Regelwerke rechtssicher und effizient zu erfüllen.",
+    "meta_title": "Rechtsgrondslag — KWG, VAG & EStG",
+    "meta_description": "FIECON legt uit wat de grondslagen van het toezicht zijn: de Bankenwet, de Wet toezicht verzekeringen en de Wet inkomstenbelasting - en hoe wij klanten daarbij ondersteunen.",
+    "breadcrumb_home": "Startpagina",
+    "breadcrumb_current": "Wetten",
+    "hero_badge": "Regelgevingskader",
+    "hero_headline": "Wettelijke basis",
+    "hero_intro_1": "De adviespraktijk van FIECON is diep verankerd in het Duitse en Europese regelgevingskader. De Bankenwet, de Wet toezicht verzekeringen en de Wet inkomstenbelasting vormen de wettelijke basis voor essentiële onderdelen van ons dagelijkse advieswerk: van het structureren van internationale bedrijven tot fiscale optimalisatie voor ondernemers.",
+    "hero_intro_2": "Op deze pagina laten we u kennismaken met de drie centrale wetten, leggen we de belangrijkste regelgevingsgebieden uit en laten we zien hoe FIECON cliënten specifiek ondersteunt om op een juridisch veilige en efficiënte manier aan de eisen van deze regelgeving te voldoen.",
     "hero_chip_kwg": "KWG",
     "hero_chip_vag": "VAG",
     "hero_chip_estg": "EStG",
     "kwg_abbreviation": "KWG",
-    "kwg_name": "Kreditwesengesetz",
-    "kwg_intro": "Das Kreditwesengesetz (KWG) bildet das Fundament der deutschen Bankenaufsicht. Es regelt, unter welchen Voraussetzungen Unternehmen Bankgeschäfte oder Finanzdienstleistungen erbringen dürfen, und legt die Anforderungen an Organisation, Kapitalausstattung und interne Kontrolle fest. Die Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin) überwacht auf Grundlage des KWG alle erlaubnispflichtigen Institute in Deutschland.",
-    "kwg_detail": "Für Unternehmen, die Bankgeschäfte betreiben oder Finanzdienstleistungen erbringen wollen, ist die Erlaubnispflicht nach § 32 KWG von zentraler Bedeutung. Das KWG definiert in § 1 einen breiten Katalog erlaubnispflichtiger Tätigkeiten — von der Kreditvergabe über die Anlageberatung bis hin zur Abschlussvermittlung. Gleichzeitig verpflichtet § 25a Institute zu einer ordnungsgemäßen Geschäftsorganisation mit angemessenem Risikomanagement.",
-    "kwg_provisions_headline": "Wesentliche Regelungen",
-    "kwg_provision_0": "§ 1 KWG — Begriffsbestimmungen: Abschließende Definition aller erlaubnispflichtigen Bank- und Finanzdienstleistungsgeschäfte, einschließlich Kreditgeschäft, Einlagengeschäft und Anlageberatung.",
-    "kwg_provision_1": "§ 25a KWG — Besondere organisatorische Pflichten: Anforderungen an eine ordnungsgemäße Geschäftsorganisation mit angemessenem Risikomanagement, internen Kontrollverfahren und Compliance-Strukturen.",
-    "kwg_provision_2": "§ 32 KWG — Erlaubnispflicht: Verbot der gewerbsmäßigen Erbringung von Bankgeschäften und Finanzdienstleistungen ohne schriftliche Erlaubnis der BaFin.",
-    "kwg_provision_3": "§ 44 KWG — Prüfungsrechte der BaFin: Befugnisse der Aufsichtsbehörde zur Durchführung von Prüfungen bei Instituten und zur Anforderung von Auskünften und Unterlagen.",
-    "kwg_consulting_headline": "FIECON-Beratung im KWG-Kontext",
-    "kwg_consulting_text": "FIECON begleitet Unternehmen und Gründer bei der Prüfung der Erlaubnispflicht nach dem KWG, bei der Vorbereitung und Einreichung von BaFin-Erlaubnisanträgen sowie bei der Implementierung der organisatorischen Anforderungen nach § 25a KWG. Wir unterstützen auch bei der laufenden regulatorischen Compliance und der Kommunikation mit der Aufsichtsbehörde.",
+    "kwg_name": "Bankwet",
+    "kwg_intro": "De Bankenwet (KWG) vormt de basis van het Duitse bankentoezicht. Het regelt de voorwaarden waaronder bedrijven bancaire of financiële diensten mogen verlenen en specificeert de vereisten voor organisatie, kapitaalmiddelen en interne controle. De Federale Financiële Toezichthoudende Autoriteit (BaFin) houdt toezicht op alle instellingen in Duitsland die een vergunning nodig hebben op basis van de KWG.",
+    "kwg_detail": "Voor bedrijven die een bankbedrijf uitoefenen of financiële diensten willen verlenen, is het vergunningvereiste conform artikel 32 KWG van cruciaal belang. In hoofdstuk 1 definieert de KWG een brede catalogus van activiteiten waarvoor toestemming nodig is – van het verstrekken van leningen tot beleggingsadvies en het bemiddelen in transacties. Tegelijkertijd verplicht artikel 25a instellingen tot een goede bedrijfsorganisatie met passend risicobeheer.",
+    "kwg_provisions_headline": "Essentiële regelgeving",
+    "kwg_provision_0": "§ 1 KWG - Definities: Definitieve definitie van alle bank- en financiële dienstentransacties waarvoor toestemming vereist is, inclusief kredietverlening, depositoactiviteiten en beleggingsadvies.",
+    "kwg_provision_1": "§ 25a KWG — Bijzondere organisatorische verplichtingen: vereisten voor een goede bedrijfsorganisatie met passend risicobeheer, interne controleprocedures en compliance-structuren.",
+    "kwg_provision_2": "§ 32 KWG - Verplichting om toestemming te verkrijgen: Verbod op het commercieel aanbieden van banktransacties en financiële diensten zonder schriftelijke toestemming van BaFin.",
+    "kwg_provision_3": "Artikel 44 KWG - Controlerechten van BaFin: Bevoegdheden van de toezichthoudende autoriteit om audits uit te voeren bij instellingen en om informatie en documenten op te vragen.",
+    "kwg_consulting_headline": "FIECON advies in KWG-verband",
+    "kwg_consulting_text": "FIECON ondersteunt bedrijven en oprichters bij het controleren van de vergunningplicht volgens de KWG, bij het opstellen en indienen van BaFin-vergunningaanvragen en bij de uitvoering van de organisatorische eisen volgens artikel 25a KWG. We ondersteunen ook de voortdurende naleving van de regelgeving en de communicatie met de toezichthoudende autoriteit.",
     "vag_abbreviation": "VAG",
-    "vag_name": "Versicherungsaufsichtsgesetz",
-    "vag_intro": "Das Versicherungsaufsichtsgesetz (VAG) regelt die staatliche Aufsicht über Versicherungsunternehmen in Deutschland und dient in erster Linie dem Schutz der Versicherungsnehmer. Es setzt die europäische Solvency II-Richtlinie in deutsches Recht um und stellt sicher, dass Versicherer dauerhaft in der Lage sind, ihre Verpflichtungen gegenüber den Versicherten zu erfüllen.",
-    "vag_detail": "Das VAG verpflichtet Versicherungsunternehmen zur Einhaltung umfangreicher Kapitalanforderungen (Solvency Capital Requirement und Minimum Capital Requirement) sowie zur ordnungsgemäßen Geschäftsführung durch geeignete und zuverlässige Personen. Für private Krankenversicherer gelten besondere Bestimmungen zur Kalkulation der Prämien und zur Bildung von Alterungsrückstellungen — ein Bereich, der für die Beratung selbstständiger Unternehmer besonders relevant ist.",
-    "vag_provisions_headline": "Wesentliche Regelungen",
-    "vag_provision_0": "§ 11 VAG — Erlaubnispflicht: Verbot des Betriebs von Versicherungsgeschäften ohne Erlaubnis der BaFin, verbunden mit einem Katalog der erlaubnispflichtigen Versicherungssparten.",
-    "vag_provision_1": "§ 124 VAG — Kapitalanlagemanagement: Anforderungen an die Anlage der Vermögenswerte nach dem Grundsatz der unternehmerischen Vorsicht (Prudent Person Principle).",
-    "vag_provision_2": "§ 22 VAG — Geschäftsleiter: Anforderungen an Zuverlässigkeit und fachliche Eignung der verantwortlichen Personen in Schlüsselfunktionen eines Versicherungsunternehmens.",
-    "vag_provision_3": "§ 294 VAG — Aufsichtsbefugnisse der BaFin: Umfangreiche Aufsichts- und Eingriffsbefugnisse der Bundesanstalt gegenüber beaufsichtigten Versicherungsunternehmen.",
-    "vag_consulting_headline": "FIECON-Beratung im VAG-Kontext",
-    "vag_consulting_text": "FIECON berät bei der Strukturierung von Versicherungslösungen für internationale Unternehmer und Selbstständige, insbesondere im Bereich der privaten Krankenversicherung (PKV). Wir analysieren Tarifstrukturen unter Berücksichtigung der aufsichtsrechtlichen Vorgaben des VAG und begleiten Mandanten bei der optimalen Absicherung ihrer persönlichen Risiken.",
+    "vag_name": "Wet toezicht verzekeringen",
+    "vag_intro": "De Wet toezicht verzekeringen (VAG) regelt het staatstoezicht op verzekeringsmaatschappijen in Duitsland en dient primair ter bescherming van polishouders. Het implementeert de Europese Solvency II-richtlijn in Duits recht en zorgt ervoor dat verzekeraars permanent aan hun verplichtingen jegens verzekerden kunnen voldoen.",
+    "vag_detail": "De VAG verplicht verzekeraars om te voldoen aan uitgebreide kapitaaleisen (solvabiliteitskapitaalvereiste en minimumkapitaalvereiste) en aan goed bestuur door geschikte en betrouwbare mensen. Voor particuliere zorgverzekeraars gelden bijzondere regels met betrekking tot de premieberekening en de vorming van ouderdomsvoorzieningen; een terrein dat vooral relevant is voor de advisering van zelfstandig ondernemers.",
+    "vag_provisions_headline": "Essentiële regelgeving",
+    "vag_provision_0": "§ 11 VAG - Verplichting tot het verkrijgen van een vergunning: Verbod op het uitoefenen van verzekeringsactiviteiten zonder de toestemming van BaFin, gecombineerd met een catalogus van de verzekeringslijnen waarvoor een vergunning vereist is.",
+    "vag_provision_1": "§ 124 VAG - Beheer van kapitaalinvesteringen: vereisten voor de belegging van activa in overeenstemming met het beginsel van ondernemersvoorzichtigheid (Prudent Person Principle).",
+    "vag_provision_2": "§ 22 VAG - Leidinggevenden: Eisen aan de betrouwbaarheid en professionele geschiktheid van de verantwoordelijke personen in sleutelfuncties van een verzekeringsmaatschappij.",
+    "vag_provision_3": "§ 294 VAG — Toezichtbevoegdheden van BaFin: Uitgebreide toezicht- en interventiebevoegdheden van de Federale Financiële Toezichtautoriteit jegens onder toezicht staande verzekeringsmaatschappijen.",
+    "vag_consulting_headline": "FIECON advies in VAG-context",
+    "vag_consulting_text": "FIECON adviseert bij het structureren van verzekeringsoplossingen voor internationale ondernemers en zelfstandigen, vooral op het gebied van particuliere zorgverzekeringen (PKV). Wij analyseren tariefstructuren rekening houdend met de wettelijke eisen van de VAG en ondersteunen klanten bij het optimaal beveiligen van hun persoonlijke risico’s.",
     "estg_abbreviation": "EStG",
-    "estg_name": "Einkommensteuergesetz",
-    "estg_intro": "Das Einkommensteuergesetz (EStG) regelt die Besteuerung des Einkommens natürlicher Personen in Deutschland. Als das zentrale Steuergesetz für Privatpersonen und Selbstständige definiert es die sieben Einkunftsarten, die persönlichen Freibeträge sowie die progressiven Steuersätze. Für international tätige Unternehmer ist das EStG besonders bedeutsam, da Deutschland das Welteinkommensprinzip anwendet.",
-    "estg_detail": "Wer in Deutschland unbeschränkt steuerpflichtig ist (§ 1 EStG), muss grundsätzlich sein gesamtes weltweites Einkommen in Deutschland versteuern — unabhängig davon, wo es erzielt wurde. Die korrekte Abgrenzung der Steuerpflicht, die Anwendung von Doppelbesteuerungsabkommen und die steuerlich optimale Gestaltung von Gesellschaftsstrukturen sind daher wesentliche Beratungsfelder für international tätige Mandanten.",
-    "estg_provisions_headline": "Wesentliche Regelungen",
-    "estg_provision_0": "§ 1 EStG — Unbeschränkte Steuerpflicht: Natürliche Personen mit Wohnsitz oder gewöhnlichem Aufenthalt in Deutschland unterliegen der unbeschränkten Einkommensteuerpflicht auf ihr Welteinkommen.",
-    "estg_provision_1": "§ 2 EStG — Einkunftsarten: Abschließende Definition der sieben Einkunftsarten, darunter Einkünfte aus Gewerbebetrieb, aus selbstständiger Arbeit und aus Kapitalvermögen.",
-    "estg_provision_2": "§ 19 EStG — Einkünfte aus nichtselbstständiger Arbeit: Regelung der Besteuerung von Arbeitslohn, Gehalt, Gratifikationen und geldwerten Vorteilen aus einem Arbeitsverhältnis.",
-    "estg_provision_3": "§ 49 EStG — Beschränkte Steuerpflicht: Besteuerung von Einkünften aus deutschen Quellen bei Personen ohne Wohnsitz in Deutschland — relevant für ausländische Gesellschafter und Geschäftsführer.",
-    "estg_consulting_headline": "FIECON-Beratung im EStG-Kontext",
-    "estg_consulting_text": "FIECON begleitet international tätige Unternehmer, Gesellschafter und Selbstständige bei der Analyse und Optimierung ihrer steuerlichen Situation unter dem EStG. Wir prüfen die persönliche Steuerpflicht, die Anwendbarkeit von Doppelbesteuerungsabkommen und entwickeln steuerlich effiziente Gesellschafts- und Vergütungsstrukturen. Für Selbstständige beraten wir zudem zur steuerlich optimalen Gestaltung der Vorsorge, insbesondere im Zusammenspiel mit der privaten Krankenversicherung.",
-    "cta_headline": "Regulatorische Fragen? Wir haben die Antworten.",
-    "cta_subline": "Ob KWG-Erlaubnisantrag, VAG-konforme Versicherungsstruktur oder steuerliche Optimierung nach EStG — sprechen Sie uns an.",
+    "estg_name": "Wet inkomstenbelasting",
+    "estg_intro": "De wet op de inkomstenbelasting (EStG) regelt de belastingheffing op het inkomen van natuurlijke personen in Duitsland. Als centrale belastingwet voor particulieren en zelfstandigen definieert zij de zeven inkomstensoorten, de persoonsgebonden aftrekposten en de progressieve belastingtarieven. De EStG is vooral belangrijk voor internationaal actieve ondernemers omdat Duitsland het mondiale inkomensprincipe toepast.",
+    "estg_detail": "Iedereen die in Duitsland onbeperkt belastingplichtig is (§ 1 EStG), moet in de regel belasting betalen over zijn gehele wereldinkomen in Duitsland - ongeacht waar dit is verdiend. De juiste definitie van belastingplicht, de toepassing van dubbelbelastingverdragen en het fiscaal optimale ontwerp van bedrijfsstructuren zijn daarom essentiële adviesgebieden voor internationaal actieve cliënten.",
+    "estg_provisions_headline": "Essentiële regelgeving",
+    "estg_provision_0": "§ 1 EStG - Onbeperkte belastingplicht: Natuurlijke personen met woon- of verblijfplaats in Duitsland zijn onderworpen aan onbeperkte inkomstenbelasting over hun wereldinkomen.",
+    "estg_provision_1": "§ 2 EStG — Soorten inkomsten: Definitieve definitie van de zeven soorten inkomsten, waaronder inkomsten uit commerciële activiteiten, uit zelfstandig ondernemerschap en uit kapitaalgoederen.",
+    "estg_provision_2": "§ 19 EStG - Inkomsten uit arbeid: Regulering van de belastingheffing op lonen, salarissen, bonussen en geldelijke voordelen uit een arbeidsrelatie.",
+    "estg_provision_3": "§ 49 EStG - Beperkte belastingplicht: belastingheffing op inkomsten uit Duitse bronnen voor personen zonder woonplaats in Duitsland - relevant voor buitenlandse aandeelhouders en directeuren.",
+    "estg_consulting_headline": "FIECON advies in EStG-context",
+    "estg_consulting_text": "FIECON ondersteunt internationaal actieve ondernemers, aandeelhouders en zelfstandigen bij het analyseren en optimaliseren van hun fiscale situatie onder de EStG. We onderzoeken de persoonlijke belastingplicht, de toepasbaarheid van overeenkomsten ter voorkoming van dubbele belasting en ontwikkelen fiscaal-efficiënte bedrijfs- en beloningsstructuren. Voor zelfstandigen adviseren wij ook over de optimale fiscale structuur voor de pensioenvoorziening, vooral in combinatie met particuliere zorgverzekeringen.",
+    "cta_headline": "Regelgevende vragen? Wij hebben de antwoorden.",
+    "cta_subline": "Of het nu gaat om een ​​KWG-vergunningaanvraag, een VAG-conforme verzekeringsstructuur of fiscale optimalisatie volgens de EStG: praat met ons.",
     "cta_button": "E-Mail schrieven",
-    "cta_back": "Zur Startseite",
-    "kwg_provision_4": "§ 46 KWG — Maßnahmen bei Gefahr: Eingriffsbefugnisse der BaFin bei aufsichtsrechtlichen Missständen, insbesondere zur Sicherung der ordnungsgemäßen Geschäftsführung und zum Schutz von Gläubigern.",
-    "vag_provision_4": "§ 311 VAG — Besondere Vorgaben für die private Krankenversicherung: Regelungen zur Kalkulation, Prämienanpassung und dauerhaften Finanzierung über Alterungsrückstellungen.",
-    "estg_provision_4": "§ 22 EStG — Sonstige Einkünfte: Besteuerung insbesondere von wiederkehrenden Bezügen wie Renten sowie bestimmter weiterer Einkünfte außerhalb der klassischen Einkunftsarten.",
-    "estg_provision_5": "§ 23 EStG — Private Veräußerungsgeschäfte: Steuerliche Erfassung von Gewinnen aus der Veräußerung privater Wirtschaftsgüter innerhalb der gesetzlichen Haltefristen."
+    "cta_back": "Naar de startpagina",
+    "kwg_provision_4": "§ 46 KWG - Maatregelen bij gevaar: de bevoegdheden van de BaFin om in te grijpen in geval van klachten over de regelgeving, met name om een ​​goed beheer te garanderen en crediteuren te beschermen.",
+    "vag_provision_4": "§ 311 VAG - Bijzondere eisen voor particuliere zorgverzekeringen: regels voor berekening, premieaanpassing en permanente financiering via ouderdomsvoorzieningen.",
+    "estg_provision_4": "§ 22 EStG - Overige inkomsten: Belastingheffing in het bijzonder op terugkerende betalingen zoals pensioenen en bepaalde andere inkomsten buiten de klassieke inkomenssoorten.",
+    "estg_provision_5": "§ 23 EStG - Privéverkooptransacties: fiscale erkenning van winst uit de verkoop van privévermogen binnen de wettelijke bezitsperioden."
   },
   "fourPointPlan": {
-    "badge": "Vier-Punkte-Plan",
-    "headline": "Unser Vier-Punkte-Plan zur finanziellen Unabhängigkeit",
-    "subtitle": "Strukturierte Gesamtstrategie mit operativer Umsetzung und langfristiger Vermögenssicherung.",
-    "intro": "Der Plan folgt der klassischen unternehmerischen Logik: Struktur aufbauen, Steuern optimieren, Kosten senken und Vermögen langfristig steuerfrei aufbauen. Entscheidend ist nicht nur die Strategie, sondern die saubere Umsetzung im Tagesgeschäft.",
-    "cta_details": "Detaillierten Plan ansehen",
+    "badge": "Vierpuntenplan",
+    "headline": "Ons vierpuntenplan voor financiële onafhankelijkheid",
+    "subtitle": "Gestructureerde algemene strategie met operationele implementatie en langetermijnbescherming van activa.",
+    "intro": "Het plan volgt de klassieke ondernemerslogica: structuur opbouwen, belastingen optimaliseren, kosten verlagen en op lange termijn belastingvrij vermogen opbouwen. Niet alleen de strategie is belangrijk, maar ook de juiste implementatie ervan in de dagelijkse bedrijfsvoering.",
+    "cta_details": "Bekijk gedetailleerd plan",
     "detail": {
-      "meta_title": "Vier-Punkte-Plan zur finanziellen Unabhängigkeit",
-      "meta_description": "Detaillierte Darstellung des FIECON Vier-Punkte-Plans: Strategie und Organisation, steuerliche Optimierung, finanzielle Entlastung und steuerfreier Vermögensaufbau.",
-      "headline": "Vier-Punkte-Plan im Detail",
-      "subtitle": "Detaillierte Ausarbeitung aller Maßnahmen, Teilbereiche und operativen Umsetzungsschritte.",
-      "navigation_label": "Interaktive Navigation",
-      "focus_label": "Aktiver Schwerpunkt",
-      "subpoints_label": "Teilbereiche",
-      "items_label": "Maßnahmen",
-      "cta_panel_title": "Vom Plan zur Umsetzung",
-      "cta_panel_text": "Wir begleiten Sie nicht nur bei der Strategie, sondern bei der operativen Implementierung jeder einzelnen Maßnahme.",
-      "cta_contact": "Strategiegespräch vereinbaren",
-      "cta_back_home": "Zur Startseite"
+      "meta_title": "Vierpuntenplan voor financiële onafhankelijkheid",
+      "meta_description": "Gedetailleerde presentatie van het FIECON-vierpuntenplan: strategie en organisatie, belastingoptimalisatie, financiële verlichting en belastingvrije vermogenscreatie.",
+      "headline": "Vierpuntenplan in detail",
+      "subtitle": "Gedetailleerde uitwerking van alle maatregelen, deelgebieden en operationele uitvoeringsstappen.",
+      "navigation_label": "Interactieve navigatie",
+      "focus_label": "Actieve focus",
+      "subpoints_label": "Deelgebieden",
+      "items_label": "Maatregelen",
+      "cta_panel_title": "Van plan tot uitvoering",
+      "cta_panel_text": "Wij ondersteunen u niet alleen met de strategie, maar ook met de operationele implementatie van elke afzonderlijke maatregel.",
+      "cta_contact": "Organiseer een strategiebijeenkomst",
+      "cta_back_home": "Naar de startpagina"
     },
     "points": {
       "strategy": {
-        "title": "Strategie und Organisation",
-        "teaser": "Klare Zielstruktur und effiziente Umsetzung im Tagesgeschäft.",
-        "description": "Umsetzung des Tagesgeschäfts mit klaren Verantwortlichkeiten und belastbarer Struktur.",
+        "title": "Strategie en organisatie",
+        "teaser": "Duidelijke doelstructuur en efficiënte implementatie in de dagelijkse bedrijfsvoering.",
+        "description": "Implementatie van de dagelijkse bedrijfsvoering met duidelijke verantwoordelijkheden en een veerkrachtige structuur.",
         "subpoints": {
           "1_1": {
-            "title": "1.1 Klare Definition der geschäftlichen Zielstruktur",
+            "title": "1.1 Duidelijke definitie van de bedrijfsdoelstructuur",
             "items": {
-              "0": "Festlegung der Unternehmensform(en) und Beteiligungsstruktur",
-              "1": "Erweiterung bestehender Geschäftsmodelle",
-              "2": "Trennung von operativem Geschäft und Vermögensverwaltung",
-              "3": "Aufbau einer rechtssicheren Organisationsstruktur"
+              "0": "Bepaling van de vennootschapsvorm(en) en aandeelhoudersstructuur",
+              "1": "Uitbreiding van bestaande businessmodellen",
+              "2": "Scheiding operationele zaken en assetmanagement",
+              "3": "Het opbouwen van een juridisch veilige organisatiestructuur"
             }
           },
           "1_2": {
-            "title": "1.2 Effiziente Organisation des Tagesgeschäfts",
+            "title": "1.2 Efficiënte organisatie van de dagelijkse gang van zaken",
             "items": {
-              "0": "Standardisierung von Abläufen",
-              "1": "Delegation operativer Tätigkeiten",
-              "2": "Nutzung externer Dienstleister (Steuerberater, Buchhaltung, Verwaltung)"
+              "0": "Standaardisatie van processen",
+              "1": "Delegatie van operationele activiteiten",
+              "2": "Gebruik van externe dienstverleners (belastingadviseurs, boekhouding, administratie)"
             }
           }
         }
       },
       "tax": {
-        "title": "Steuerliche Optimierung",
-        "teaser": "Gesellschafts- und Gewinnstruktur steuerlich präzise ausrichten.",
-        "description": "Rechtskonforme Steuerstruktur, die Liquidität sichert und Wachstum fördert.",
+        "title": "Belastingoptimalisatie",
+        "teaser": "Breng de ondernemings- en winststructuur fiscaal nauwkeurig op één lijn.",
+        "description": "Juridisch conforme belastingstructuur die de liquiditeit veiligstelt en de groei bevordert.",
         "subpoints": {
           "2_1": {
-            "title": "2.1 Wahl der richtigen Gesellschaftsstruktur",
+            "title": "2.1 Het kiezen van de juiste bedrijfsstructuur",
             "items": {
-              "0": "Kombination aus Kapitalgesellschaft und Personengesellschaft",
-              "1": "Nutzung von Holding-Strukturen",
-              "2": "Trennung von Privatvermögen und Betriebsvermögen"
+              "0": "Combinatie van vennootschap en vennootschap",
+              "1": "Gebruik van holdingstructuren",
+              "2": "Scheiding van privévermogen en zakelijk vermogen"
             }
           },
           "2_2": {
-            "title": "2.2 Gewinnverlagerung und Gestaltung",
+            "title": "2.2 Winstverschuiving en ontwerp",
             "items": {
-              "0": "Nutzung von Betriebsausgaben",
-              "1": "Gestaltung von Geschäftsführergehalt und Gewinnausschüttung",
-              "2": "Nutzung steuerlicher Freibeträge"
+              "0": "Gebruik van zakelijke uitgaven",
+              "1": "Het ontwerpen van de salarissen en winstuitkeringen van directeuren",
+              "2": "Gebruik van belastingvoordelen"
             }
           },
           "2_3": {
-            "title": "2.3 Vermögensaufbau im Betriebsvermögen",
+            "title": "2.3 Vermogensopbouw in bedrijfsmiddelen",
             "items": {
-              "0": "Investitionen über die Gesellschaft"
+              "0": "Investeringen via de samenleving"
             }
           }
         }
       },
       "relief": {
-        "title": "Finanzielle Entlastung",
-        "teaser": "Laufende Kosten gezielt reduzieren, insbesondere im PKV-Bereich.",
-        "description": "Gezielte Entlastung der laufenden Kosten, insbesondere im Bereich der PKV.",
+        "title": "Financiële verlichting",
+        "teaser": "Gerichte verlaging van de lopende kosten, vooral in de particuliere zorgverzekeringssector.",
+        "description": "Gerichte verlichting van lopende kosten, vooral op het gebied van particuliere zorgverzekeringen.",
         "subpoints": {
           "3_1": {
-            "title": "3.1 Analyse der bestehenden Kostenstruktur",
+            "title": "3.1 Analyse van de bestaande kostenstructuur",
             "items": {
-              "0": "Krankenversicherung",
-              "1": "Altersvorsorge",
-              "2": "Laufende private Verpflichtungen"
+              "0": "ziektekostenverzekering",
+              "1": "Pensioenplanning",
+              "2": "Doorlopende persoonlijke verplichtingen"
             }
           }
         }
       },
       "pension": {
-        "title": "Steuerfreie Rente",
-        "teaser": "Langfristiger Aufbau steuerfreien Vermögens unter Berücksichtigung der gesetzlichen Haltedauer.",
-        "description": "Aufbau der steuerfreien Rente mit Fokus auf gesetzliche Haltedauer, langfristige Planung und rechtssicheren Vermögensaufbau.",
+        "title": "Belastingvrij pensioen",
+        "teaser": "Langetermijnopbouw van belastingvrij vermogen, rekening houdend met de wettelijke bezitsperiode.",
+        "description": "Het opbouwen van een belastingvrij pensioen met de nadruk op wettelijke pensioenperioden, langetermijnplanning en juridisch zekere vermogensopbouw.",
         "subpoints": {
           "4_1": {
-            "title": "4.1 Grundprinzip des steuerfreien Vermögensaufbaus",
+            "title": "4.1 Basisprincipe van belastingvrije vermogensopbouw",
             "items": {
-              "0": "Investition mit langfristiger Haltedauer",
-              "1": "Nutzung gesetzlicher Steuerbefreiungen",
-              "2": "Planung über mindestens 10+ Jahre"
+              "0": "Belegging met een lange termijn van bezit",
+              "1": "Gebruik van wettelijke belastingvrijstellingen",
+              "2": "Planning voor minimaal 10+ jaar"
             }
           }
         }

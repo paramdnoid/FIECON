@@ -20,7 +20,7 @@
     "close_menu": "Menü bezárása",
     "skip_to_content": "Ugrás a tartalomhoz",
     "gesetze": "Jogszabályok",
-    "four_point_plan": "Vier-Punkte-Plan"
+    "four_point_plan": "Négypontos terv"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -82,12 +82,12 @@
       }
     },
     "private_health_insurance": {
-      "title": "PKV für selbstständige Unternehmer",
-      "description": "Wir begleiten Selbstständige bei der Auswahl, Strukturierung und Optimierung einer privaten Krankenversicherung — individuell auf Einkommenssituation, Leistungsbedarf und langfristige Planung abgestimmt.",
+      "title": "PKV egyéni vállalkozóknak",
+      "description": "Támogatjuk az egyéni vállalkozókat a magán egészségbiztosítás kiválasztásában, felépítésében és optimalizálásában – egyénileg, személyre szabottan jövedelmi helyzetükhöz, ellátási szükségleteikhez és hosszú távú tervezéshez.",
       "items": {
-        "0": "Tarifvergleich & Auswahl",
-        "1": "Leistungs- und Beitragsoptimierung",
-        "2": "Langfristige Absicherungsstrategie"
+        "0": "Díjszabás összehasonlítása és kiválasztása",
+        "1": "Teljesítmény és hozzájárulás optimalizálás",
+        "2": "Hosszú távú fedezeti stratégia"
       }
     },
     "focus_headline": "Kulcsfontosságú tevékenységi területek",
@@ -117,21 +117,21 @@
     "laws": {
       "kwg": {
         "abbreviation": "KWG",
-        "name": "Kreditwesengesetz",
+        "name": "Banktörvény",
         "description": "A németországi banki tevékenységek és pénzügyi szolgáltatások engedélyezési követelményeit szabályozza. A KWG a BaFin felügyeleti tevékenységének alapját képezi, és a § 1 KWG-ben a kulcsfogalmakat, valamint a § 25a KWG-ben a megfelelő üzletszervezési követelményeket határozza meg."
       },
       "vag": {
         "abbreviation": "VAG",
-        "name": "Versicherungsaufsichtsgesetz",
+        "name": "biztosítási felügyeleti törvény",
         "description": "A biztosítótársaságok felügyeletét szabályozza, és a biztosítottak védelmét szolgálja. A VAG biztosítja, hogy a biztosítók tartósan teljesíthessék kötelezettségeiket, és megfelelően irányítsák őket."
       },
       "estg": {
         "abbreviation": "EStG",
-        "name": "Einkommensteuergesetz",
+        "name": "Jövedelemadó törvény",
         "description": "A természetes személyek jövedelmének adóztatását szabályozza Németországban. Az EStG meghatározza a jövedelemtípusokat, az adómentességeket és az adókulcsokat, és a személyi jövedelemadóztatás alapját képezi."
       }
     },
-    "mehr_erfahren": "Mehr erfahren"
+    "mehr_erfahren": "További információ"
   },
   "approach": {
     "badge": "Megközelítésünk",
@@ -185,8 +185,8 @@
     "badge": "Kapcsolat",
     "headline": "Beszéljünk",
     "subtitle": "Legyen szó első kérdésről vagy konkrét projektről — időt szánunk Önre.",
-    "phone": "Telefon",
-    "mobile": "Mobil",
+    "phone": "telefon",
+    "mobile": "Mozgó",
     "email": "E-mail",
     "address": "Cím",
     "cta": "E-mail írása",
@@ -281,8 +281,8 @@
     "title": "Impresszum",
     "info_title": "Adatok a § 5 TMG szerint",
     "contact_title": "Kapcsolat",
-    "phone_label": "Telefon",
-    "mobile_label": "Mobil",
+    "phone_label": "telefon",
+    "mobile_label": "Mozgó",
     "email_label": "E-mail",
     "homepage_label": "Honlap",
     "responsible_title": "A tartalomért felelős a § 55 (2) bek. RStV szerint",
@@ -365,159 +365,159 @@
     "service_yacht": "Jachtépítési finanszírozás"
   },
   "gesetze_page": {
-    "meta_title": "Rechtliche Grundlagen — KWG, VAG & EStG",
-    "meta_description": "FIECON erläutert die regulatorischen Grundlagen: Kreditwesengesetz, Versicherungsaufsichtsgesetz und Einkommensteuergesetz — und wie wir Mandanten dabei begleiten.",
-    "breadcrumb_home": "Startseite",
-    "breadcrumb_current": "Gesetze",
-    "hero_badge": "Regulatorischer Rahmen",
-    "hero_headline": "Rechtliche Grundlagen",
-    "hero_intro_1": "Die Beratungspraxis von FIECON ist tief im deutschen und europäischen Regulierungsrahmen verankert. Das Kreditwesengesetz, das Versicherungsaufsichtsgesetz und das Einkommensteuergesetz bilden die rechtliche Grundlage für wesentliche Teile unserer täglichen Beratungsarbeit — von der Strukturierung internationaler Gesellschaften bis zur steuerlichen Optimierung für Unternehmer.",
-    "hero_intro_2": "Auf dieser Seite stellen wir Ihnen die drei zentralen Gesetze vor, erläutern ihre wesentlichen Regelungsbereiche und zeigen, wie FIECON Mandanten konkret dabei unterstützt, die Anforderungen dieser Regelwerke rechtssicher und effizient zu erfüllen.",
+    "meta_title": "Jogalap – KWG, VAG és EStG",
+    "meta_description": "A FIECON ismerteti a szabályozási alapokat: a banktörvényt, a biztosítási felügyeleti törvényt és a jövedelemadó-törvényt – és azt, hogy miként támogatjuk az ügyfeleket ebben.",
+    "breadcrumb_home": "Kezdőlap",
+    "breadcrumb_current": "Törvények",
+    "hero_badge": "Szabályozási keret",
+    "hero_headline": "Jogi alap",
+    "hero_intro_1": "A FIECON tanácsadói gyakorlata mélyen beépült a német és európai szabályozási keretbe. A banktörvény, a biztosítási felügyeleti törvény és a jövedelemadó törvény képezik mindennapi tanácsadói munkánk – a nemzetközi társaságok strukturálásától a vállalkozói adóoptimalizálásig – a jogalapját.",
+    "hero_intro_2": "Ezen az oldalon bemutatjuk a három központi törvényt, elmagyarázzuk a legfontosabb szabályozási területeiket, és bemutatjuk, hogy a FIECON konkrétan hogyan támogatja az ügyfeleket abban, hogy jogilag biztonságosan és hatékonyan teljesítsék a szabályozás követelményeit.",
     "hero_chip_kwg": "KWG",
     "hero_chip_vag": "VAG",
     "hero_chip_estg": "EStG",
     "kwg_abbreviation": "KWG",
-    "kwg_name": "Kreditwesengesetz",
-    "kwg_intro": "Das Kreditwesengesetz (KWG) bildet das Fundament der deutschen Bankenaufsicht. Es regelt, unter welchen Voraussetzungen Unternehmen Bankgeschäfte oder Finanzdienstleistungen erbringen dürfen, und legt die Anforderungen an Organisation, Kapitalausstattung und interne Kontrolle fest. Die Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin) überwacht auf Grundlage des KWG alle erlaubnispflichtigen Institute in Deutschland.",
-    "kwg_detail": "Für Unternehmen, die Bankgeschäfte betreiben oder Finanzdienstleistungen erbringen wollen, ist die Erlaubnispflicht nach § 32 KWG von zentraler Bedeutung. Das KWG definiert in § 1 einen breiten Katalog erlaubnispflichtiger Tätigkeiten — von der Kreditvergabe über die Anlageberatung bis hin zur Abschlussvermittlung. Gleichzeitig verpflichtet § 25a Institute zu einer ordnungsgemäßen Geschäftsorganisation mit angemessenem Risikomanagement.",
-    "kwg_provisions_headline": "Wesentliche Regelungen",
-    "kwg_provision_0": "§ 1 KWG — Begriffsbestimmungen: Abschließende Definition aller erlaubnispflichtigen Bank- und Finanzdienstleistungsgeschäfte, einschließlich Kreditgeschäft, Einlagengeschäft und Anlageberatung.",
-    "kwg_provision_1": "§ 25a KWG — Besondere organisatorische Pflichten: Anforderungen an eine ordnungsgemäße Geschäftsorganisation mit angemessenem Risikomanagement, internen Kontrollverfahren und Compliance-Strukturen.",
-    "kwg_provision_2": "§ 32 KWG — Erlaubnispflicht: Verbot der gewerbsmäßigen Erbringung von Bankgeschäften und Finanzdienstleistungen ohne schriftliche Erlaubnis der BaFin.",
-    "kwg_provision_3": "§ 44 KWG — Prüfungsrechte der BaFin: Befugnisse der Aufsichtsbehörde zur Durchführung von Prüfungen bei Instituten und zur Anforderung von Auskünften und Unterlagen.",
-    "kwg_consulting_headline": "FIECON-Beratung im KWG-Kontext",
-    "kwg_consulting_text": "FIECON begleitet Unternehmen und Gründer bei der Prüfung der Erlaubnispflicht nach dem KWG, bei der Vorbereitung und Einreichung von BaFin-Erlaubnisanträgen sowie bei der Implementierung der organisatorischen Anforderungen nach § 25a KWG. Wir unterstützen auch bei der laufenden regulatorischen Compliance und der Kommunikation mit der Aufsichtsbehörde.",
+    "kwg_name": "Banktörvény",
+    "kwg_intro": "A banktörvény (KWG) képezi a német bankfelügyelet alapját. Szabályozza azokat a feltételeket, amelyek mellett a társaságok banki vagy pénzügyi szolgáltatásokat nyújthatnak, és meghatározza a szervezeti, tőkeforrás- és belső ellenőrzési követelményeket. A Szövetségi Pénzügyi Felügyelet (BaFin) minden olyan intézményt felügyel Németországban, amelyeknek a KWG alapján engedélyre van szükségük.",
+    "kwg_detail": "A banki tevékenységet folytató vagy pénzügyi szolgáltatást nyújtani kívánó vállalkozások számára központi jelentőségű a KWG 32. §-a szerinti engedélyezési kötelezettség. Az 1. szakaszban a KWG az engedélyköteles tevékenységek széles körét határozza meg – a hitelnyújtástól a befektetési tanácsadásig és a brókerügyletekig. A 25a. § ugyanakkor arra kötelezi az intézményeket, hogy megfelelő gazdálkodó szervezettel rendelkezzenek megfelelő kockázatkezeléssel.",
+    "kwg_provisions_headline": "Lényeges előírások",
+    "kwg_provision_0": "KWG 1. § – Meghatározások: Az engedélyköteles banki és pénzügyi szolgáltatási tranzakciók végleges meghatározása, beleértve a hitelezési, betéti és befektetési tanácsadást.",
+    "kwg_provision_1": "KWG 25a. § – Különleges szervezeti kötelezettségek: Megfelelő kockázatkezeléssel, belső ellenőrzési eljárásokkal és megfelelőségi struktúrákkal rendelkező megfelelő üzleti szervezettel szemben támasztott követelmények.",
+    "kwg_provision_2": "KWG 32. § - Engedélyszerzési kötelezettség: Banki tranzakciók és pénzügyi szolgáltatások kereskedelmi nyújtásának tilalma a BaFin írásbeli engedélye nélkül.",
+    "kwg_provision_3": "KWG 44. § - A BaFin ellenőrzési jogai: A felügyeleti hatóság jogköre intézmények ellenőrzésére, információk és dokumentumok bekérésére.",
+    "kwg_consulting_headline": "FIECON tanácsadás a KWG kontextusában",
+    "kwg_consulting_text": "A FIECON támogatja a cégeket és az alapítókat a KWG szerinti engedélyezési követelmény ellenőrzésében, a BaFin engedélyezési kérelmek elkészítésében és benyújtásában, valamint a KWG 25a §-a szerinti szervezeti követelmények végrehajtásában. Támogatjuk a folyamatos szabályozási megfelelést és a felügyeleti hatósággal való kommunikációt is.",
     "vag_abbreviation": "VAG",
-    "vag_name": "Versicherungsaufsichtsgesetz",
-    "vag_intro": "Das Versicherungsaufsichtsgesetz (VAG) regelt die staatliche Aufsicht über Versicherungsunternehmen in Deutschland und dient in erster Linie dem Schutz der Versicherungsnehmer. Es setzt die europäische Solvency II-Richtlinie in deutsches Recht um und stellt sicher, dass Versicherer dauerhaft in der Lage sind, ihre Verpflichtungen gegenüber den Versicherten zu erfüllen.",
-    "vag_detail": "Das VAG verpflichtet Versicherungsunternehmen zur Einhaltung umfangreicher Kapitalanforderungen (Solvency Capital Requirement und Minimum Capital Requirement) sowie zur ordnungsgemäßen Geschäftsführung durch geeignete und zuverlässige Personen. Für private Krankenversicherer gelten besondere Bestimmungen zur Kalkulation der Prämien und zur Bildung von Alterungsrückstellungen — ein Bereich, der für die Beratung selbstständiger Unternehmer besonders relevant ist.",
-    "vag_provisions_headline": "Wesentliche Regelungen",
-    "vag_provision_0": "§ 11 VAG — Erlaubnispflicht: Verbot des Betriebs von Versicherungsgeschäften ohne Erlaubnis der BaFin, verbunden mit einem Katalog der erlaubnispflichtigen Versicherungssparten.",
-    "vag_provision_1": "§ 124 VAG — Kapitalanlagemanagement: Anforderungen an die Anlage der Vermögenswerte nach dem Grundsatz der unternehmerischen Vorsicht (Prudent Person Principle).",
-    "vag_provision_2": "§ 22 VAG — Geschäftsleiter: Anforderungen an Zuverlässigkeit und fachliche Eignung der verantwortlichen Personen in Schlüsselfunktionen eines Versicherungsunternehmens.",
-    "vag_provision_3": "§ 294 VAG — Aufsichtsbefugnisse der BaFin: Umfangreiche Aufsichts- und Eingriffsbefugnisse der Bundesanstalt gegenüber beaufsichtigten Versicherungsunternehmen.",
-    "vag_consulting_headline": "FIECON-Beratung im VAG-Kontext",
-    "vag_consulting_text": "FIECON berät bei der Strukturierung von Versicherungslösungen für internationale Unternehmer und Selbstständige, insbesondere im Bereich der privaten Krankenversicherung (PKV). Wir analysieren Tarifstrukturen unter Berücksichtigung der aufsichtsrechtlichen Vorgaben des VAG und begleiten Mandanten bei der optimalen Absicherung ihrer persönlichen Risiken.",
+    "vag_name": "biztosítási felügyeleti törvény",
+    "vag_intro": "A biztosítási felügyeleti törvény (VAG) szabályozza a biztosítótársaságok állami felügyeletét Németországban, és elsősorban a kötvénytulajdonosok védelmét szolgálja. Átülteti a Szolvencia II. európai irányelvet a német jogba, és biztosítja, hogy a biztosítók tartósan teljesíteni tudják a biztosítottakkal szemben fennálló kötelezettségeiket.",
+    "vag_detail": "A VAG arra kötelezi a biztosítókat, hogy megfeleljenek a kiterjedt tőkekövetelményeknek (szavatolótőke-szükséglet és minimális tőkeszükséglet), valamint a megfelelő és megbízható személyek által végzett megfelelő gazdálkodás. A magán egészségbiztosítókra külön szabályozás vonatkozik a díjszámításra és az öregedési céltartalék képzésére – ez a terület különösen fontos az egyéni vállalkozók tanácsadása szempontjából.",
+    "vag_provisions_headline": "Lényeges előírások",
+    "vag_provision_0": "VAG 11. § - Engedélyszerzési kötelezettség: A BaFin engedélye nélküli biztosítási tevékenység végzésének tilalma, az engedélyköteles biztosítási vonalak katalógusával kombinálva.",
+    "vag_provision_1": "VAG 124. § - Tőkebefektetés-kezelés: A vagyonbefektetés követelményei a vállalkozói körültekintés elvével (Prudent Person Principle).",
+    "vag_provision_2": "VAG 22. § - Vezetők: A biztosítótársaságok kulcsfontosságú funkcióiban a felelős személyek megbízhatóságára és szakmai alkalmasságára vonatkozó követelmények.",
+    "vag_provision_3": "VAG 294. § – A BaFin felügyeleti jogköre: A Szövetségi Pénzügyi Felügyeleti Hatóság kiterjedt felügyeleti és beavatkozási jogköre a felügyelt biztosítótársaságokkal szemben.",
+    "vag_consulting_headline": "FIECON tanácsadás a VAG kontextusában",
+    "vag_consulting_text": "A FIECON tanácsot ad nemzetközi vállalkozók és egyéni vállalkozók biztosítási megoldásainak felépítésében, különösen a magán egészségbiztosítás (PKV) területén. A tarifastruktúrákat a VAG szabályozási követelményeinek figyelembevételével elemezzük, és segítjük ügyfeleinket személyes kockázataik optimális biztosításában.",
     "estg_abbreviation": "EStG",
-    "estg_name": "Einkommensteuergesetz",
-    "estg_intro": "Das Einkommensteuergesetz (EStG) regelt die Besteuerung des Einkommens natürlicher Personen in Deutschland. Als das zentrale Steuergesetz für Privatpersonen und Selbstständige definiert es die sieben Einkunftsarten, die persönlichen Freibeträge sowie die progressiven Steuersätze. Für international tätige Unternehmer ist das EStG besonders bedeutsam, da Deutschland das Welteinkommensprinzip anwendet.",
-    "estg_detail": "Wer in Deutschland unbeschränkt steuerpflichtig ist (§ 1 EStG), muss grundsätzlich sein gesamtes weltweites Einkommen in Deutschland versteuern — unabhängig davon, wo es erzielt wurde. Die korrekte Abgrenzung der Steuerpflicht, die Anwendung von Doppelbesteuerungsabkommen und die steuerlich optimale Gestaltung von Gesellschaftsstrukturen sind daher wesentliche Beratungsfelder für international tätige Mandanten.",
-    "estg_provisions_headline": "Wesentliche Regelungen",
-    "estg_provision_0": "§ 1 EStG — Unbeschränkte Steuerpflicht: Natürliche Personen mit Wohnsitz oder gewöhnlichem Aufenthalt in Deutschland unterliegen der unbeschränkten Einkommensteuerpflicht auf ihr Welteinkommen.",
-    "estg_provision_1": "§ 2 EStG — Einkunftsarten: Abschließende Definition der sieben Einkunftsarten, darunter Einkünfte aus Gewerbebetrieb, aus selbstständiger Arbeit und aus Kapitalvermögen.",
-    "estg_provision_2": "§ 19 EStG — Einkünfte aus nichtselbstständiger Arbeit: Regelung der Besteuerung von Arbeitslohn, Gehalt, Gratifikationen und geldwerten Vorteilen aus einem Arbeitsverhältnis.",
-    "estg_provision_3": "§ 49 EStG — Beschränkte Steuerpflicht: Besteuerung von Einkünften aus deutschen Quellen bei Personen ohne Wohnsitz in Deutschland — relevant für ausländische Gesellschafter und Geschäftsführer.",
-    "estg_consulting_headline": "FIECON-Beratung im EStG-Kontext",
-    "estg_consulting_text": "FIECON begleitet international tätige Unternehmer, Gesellschafter und Selbstständige bei der Analyse und Optimierung ihrer steuerlichen Situation unter dem EStG. Wir prüfen die persönliche Steuerpflicht, die Anwendbarkeit von Doppelbesteuerungsabkommen und entwickeln steuerlich effiziente Gesellschafts- und Vergütungsstrukturen. Für Selbstständige beraten wir zudem zur steuerlich optimalen Gestaltung der Vorsorge, insbesondere im Zusammenspiel mit der privaten Krankenversicherung.",
-    "cta_headline": "Regulatorische Fragen? Wir haben die Antworten.",
-    "cta_subline": "Ob KWG-Erlaubnisantrag, VAG-konforme Versicherungsstruktur oder steuerliche Optimierung nach EStG — sprechen Sie uns an.",
+    "estg_name": "Jövedelemadó törvény",
+    "estg_intro": "A jövedelemadóról szóló törvény (EStG) szabályozza a természetes személyek jövedelmének megadóztatását Németországban. A magánszemélyek és egyéni vállalkozók központi adótörvényeként a hét jövedelemfajtát, a személyi kedvezményeket és a progresszív adókulcsokat határozza meg. Az EStG különösen fontos a nemzetközileg aktív vállalkozók számára, mivel Németország a globális jövedelem elvét alkalmazza.",
+    "estg_detail": "Mindenkinek, aki Németországban korlátlan adókötelezettség alá tartozik (EStG 1. §), általában Németországban kell adót fizetnie a teljes világjövedelme után – függetlenül attól, hogy azt hol szerezte. Az adókötelezettség helyes meghatározása, a kettős adóztatás elkerüléséről szóló megállapodások alkalmazása és a társasági struktúrák adózás szempontjából optimális kialakítása ezért elengedhetetlen tanácsi terület a nemzetközileg aktív ügyfelek számára.",
+    "estg_provisions_headline": "Lényeges előírások",
+    "estg_provision_0": "EStG 1. § – Korlátlan adókötelezettség: A Németországban lakóhellyel vagy szokásos tartózkodási hellyel rendelkező természetes személyek világméretű jövedelmük után korlátlan jövedelemadó-kötelezettséggel tartoznak.",
+    "estg_provision_1": "EStG 2. § – Jövedelemtípusok: A hét jövedelemtípus végleges meghatározása, beleértve a kereskedelmi tevékenységből, az önálló vállalkozói tevékenységből és a tőkevagyonból származó jövedelmet.",
+    "estg_provision_2": "EStG 19. § - Munkaviszonyból származó jövedelem: A munkaviszonyból származó bérek, fizetések, prémiumok és pénzbeli juttatások adóztatásának szabályozása.",
+    "estg_provision_3": "EStG 49. § - Korlátozott adókötelezettség: Németországban lakóhellyel nem rendelkező személyek német forrásból származó jövedelmének megadóztatása - külföldi részvényesek és ügyvezető igazgatók számára.",
+    "estg_consulting_headline": "FIECON tanácsadás az EStG kontextusban",
+    "estg_consulting_text": "A FIECON támogatja a nemzetközileg aktív vállalkozókat, részvényeseket és egyéni vállalkozókat adózási helyzetük EStG szerinti elemzésében és optimalizálásában. Vizsgáljuk a személyi adókötelezettséget, a kettős adóztatás elkerüléséről szóló megállapodások alkalmazhatóságát, valamint adóhatékony társasági és javadalmazási struktúrákat alakítunk ki. Az egyéni vállalkozók számára is tanácsot adunk a nyugdíjellátás optimális adószerkezetében, különösen a magán egészségbiztosítással együtt.",
+    "cta_headline": "Szabályozási kérdések? Megvannak a válaszok.",
+    "cta_subline": "Legyen szó KWG engedélykérelemről, VAG-konform biztosítási konstrukcióról vagy EStG szerinti adóoptimalizálásról – beszéljen velünk.",
     "cta_button": "E-mail írása",
-    "cta_back": "Zur Startseite",
-    "kwg_provision_4": "§ 46 KWG — Maßnahmen bei Gefahr: Eingriffsbefugnisse der BaFin bei aufsichtsrechtlichen Missständen, insbesondere zur Sicherung der ordnungsgemäßen Geschäftsführung und zum Schutz von Gläubigern.",
-    "vag_provision_4": "§ 311 VAG — Besondere Vorgaben für die private Krankenversicherung: Regelungen zur Kalkulation, Prämienanpassung und dauerhaften Finanzierung über Alterungsrückstellungen.",
-    "estg_provision_4": "§ 22 EStG — Sonstige Einkünfte: Besteuerung insbesondere von wiederkehrenden Bezügen wie Renten sowie bestimmter weiterer Einkünfte außerhalb der klassischen Einkunftsarten.",
-    "estg_provision_5": "§ 23 EStG — Private Veräußerungsgeschäfte: Steuerliche Erfassung von Gewinnen aus der Veräußerung privater Wirtschaftsgüter innerhalb der gesetzlichen Haltefristen."
+    "cta_back": "A kezdőlapra",
+    "kwg_provision_4": "KWG 46. § - Intézkedések veszély esetén: a BaFin beavatkozási jogköre szabályozási panaszok esetén, különös tekintettel a megfelelő gazdálkodás biztosítására és a hitelezők védelmére.",
+    "vag_provision_4": "VAG 311. § - Speciális követelmények a magán-egészségbiztosításra: számítási, díjbeigazítási és tartós finanszírozási előírás az öregedési tartalékon keresztül.",
+    "estg_provision_4": "EStG 22. § – Egyéb bevételek: Adózás, különösen az olyan ismétlődő kifizetések esetében, mint a nyugdíjak és bizonyos, a klasszikus jövedelemtípusokon kívüli egyéb bevételek.",
+    "estg_provision_5": "EStG 23. § – Magánértékesítési ügyletek: A magánvagyonnak a törvényes tartási időszakon belüli értékesítéséből származó nyereség adóelszámolása."
   },
   "fourPointPlan": {
-    "badge": "Vier-Punkte-Plan",
-    "headline": "Unser Vier-Punkte-Plan zur finanziellen Unabhängigkeit",
-    "subtitle": "Strukturierte Gesamtstrategie mit operativer Umsetzung und langfristiger Vermögenssicherung.",
-    "intro": "Der Plan folgt der klassischen unternehmerischen Logik: Struktur aufbauen, Steuern optimieren, Kosten senken und Vermögen langfristig steuerfrei aufbauen. Entscheidend ist nicht nur die Strategie, sondern die saubere Umsetzung im Tagesgeschäft.",
-    "cta_details": "Detaillierten Plan ansehen",
+    "badge": "Négypontos terv",
+    "headline": "Négypontos tervünk az anyagi függetlenség érdekében",
+    "subtitle": "Strukturált átfogó stratégia operatív megvalósítással és hosszú távú vagyonvédelemmel.",
+    "intro": "A terv a klasszikus vállalkozói logikát követi: hosszú távon adómentesen építs struktúrát, optimalizáld az adókat, csökkentsd a költségeket és gyarapíts vagyont. Nem csak a stratégia a fontos, hanem annak megfelelő megvalósítása is a mindennapi üzleti életben.",
+    "cta_details": "Részletes terv megtekintése",
     "detail": {
-      "meta_title": "Vier-Punkte-Plan zur finanziellen Unabhängigkeit",
-      "meta_description": "Detaillierte Darstellung des FIECON Vier-Punkte-Plans: Strategie und Organisation, steuerliche Optimierung, finanzielle Entlastung und steuerfreier Vermögensaufbau.",
-      "headline": "Vier-Punkte-Plan im Detail",
-      "subtitle": "Detaillierte Ausarbeitung aller Maßnahmen, Teilbereiche und operativen Umsetzungsschritte.",
-      "navigation_label": "Interaktive Navigation",
-      "focus_label": "Aktiver Schwerpunkt",
-      "subpoints_label": "Teilbereiche",
-      "items_label": "Maßnahmen",
-      "cta_panel_title": "Vom Plan zur Umsetzung",
-      "cta_panel_text": "Wir begleiten Sie nicht nur bei der Strategie, sondern bei der operativen Implementierung jeder einzelnen Maßnahme.",
-      "cta_contact": "Strategiegespräch vereinbaren",
-      "cta_back_home": "Zur Startseite"
+      "meta_title": "Négypontos terv az anyagi függetlenség érdekében",
+      "meta_description": "A FIECON négypontos tervének részletes bemutatása: stratégia és szervezés, adóoptimalizálás, pénzügyi könnyítés és adómentes vagyonteremtés.",
+      "headline": "Négypontos terv részletesen",
+      "subtitle": "Minden intézkedés, részterület és operatív megvalósítási lépés részletes kidolgozása.",
+      "navigation_label": "Interaktív navigáció",
+      "focus_label": "Aktív fókusz",
+      "subpoints_label": "Alterületek",
+      "items_label": "Intézkedések",
+      "cta_panel_title": "A tervtől a megvalósításig",
+      "cta_panel_text": "Nemcsak a stratégiával támogatjuk, hanem az egyes intézkedések operatív megvalósításában is.",
+      "cta_contact": "Szervezzen meg egy stratégiai találkozót",
+      "cta_back_home": "A kezdőlapra"
     },
     "points": {
       "strategy": {
-        "title": "Strategie und Organisation",
-        "teaser": "Klare Zielstruktur und effiziente Umsetzung im Tagesgeschäft.",
-        "description": "Umsetzung des Tagesgeschäfts mit klaren Verantwortlichkeiten und belastbarer Struktur.",
+        "title": "Stratégia és szervezés",
+        "teaser": "Világos célstruktúra és hatékony megvalósítás a mindennapi üzleti életben.",
+        "description": "Napi ügyvitel megvalósítása egyértelmű felelősségi körökkel és rugalmas struktúrával.",
         "subpoints": {
           "1_1": {
-            "title": "1.1 Klare Definition der geschäftlichen Zielstruktur",
+            "title": "1.1 Az üzleti célstruktúra egyértelmű meghatározása",
             "items": {
-              "0": "Festlegung der Unternehmensform(en) und Beteiligungsstruktur",
-              "1": "Erweiterung bestehender Geschäftsmodelle",
-              "2": "Trennung von operativem Geschäft und Vermögensverwaltung",
-              "3": "Aufbau einer rechtssicheren Organisationsstruktur"
+              "0": "A társasági forma(ok) és a részesedési struktúra meghatározása",
+              "1": "Meglévő üzleti modellek bővítése",
+              "2": "Az operatív üzletág és a vagyonkezelés szétválasztása",
+              "3": "Jogilag biztonságos szervezeti struktúra kiépítése"
             }
           },
           "1_2": {
-            "title": "1.2 Effiziente Organisation des Tagesgeschäfts",
+            "title": "1.2 A napi ügyek hatékony megszervezése",
             "items": {
-              "0": "Standardisierung von Abläufen",
-              "1": "Delegation operativer Tätigkeiten",
-              "2": "Nutzung externer Dienstleister (Steuerberater, Buchhaltung, Verwaltung)"
+              "0": "A folyamatok szabványosítása",
+              "1": "Operatív tevékenységek delegálása",
+              "2": "Külső szolgáltatók igénybevétele (adótanácsadó, könyvelés, ügyintézés)"
             }
           }
         }
       },
       "tax": {
-        "title": "Steuerliche Optimierung",
-        "teaser": "Gesellschafts- und Gewinnstruktur steuerlich präzise ausrichten.",
-        "description": "Rechtskonforme Steuerstruktur, die Liquidität sichert und Wachstum fördert.",
+        "title": "Adóoptimalizálás",
+        "teaser": "Pontosan igazítsa össze a társaságot és a profitstruktúrát az adózás szempontjából.",
+        "description": "Jogszabályoknak megfelelő adóstruktúra, amely biztosítja a likviditást és elősegíti a növekedést.",
         "subpoints": {
           "2_1": {
-            "title": "2.1 Wahl der richtigen Gesellschaftsstruktur",
+            "title": "2.1 A megfelelő vállalati struktúra kiválasztása",
             "items": {
-              "0": "Kombination aus Kapitalgesellschaft und Personengesellschaft",
-              "1": "Nutzung von Holding-Strukturen",
-              "2": "Trennung von Privatvermögen und Betriebsvermögen"
+              "0": "Vállalat és partnerség kombinációja",
+              "1": "Tartószerkezetek használata",
+              "2": "A magánvagyon és az üzleti vagyon elkülönítése"
             }
           },
           "2_2": {
-            "title": "2.2 Gewinnverlagerung und Gestaltung",
+            "title": "2.2 Profit-átcsoportosítás és tervezés",
             "items": {
-              "0": "Nutzung von Betriebsausgaben",
-              "1": "Gestaltung von Geschäftsführergehalt und Gewinnausschüttung",
-              "2": "Nutzung steuerlicher Freibeträge"
+              "0": "Vállalkozási költségek felhasználása",
+              "1": "Ügyvezetői fizetések és nyereségfelosztás tervezése",
+              "2": "Adókedvezmények igénybevétele"
             }
           },
           "2_3": {
-            "title": "2.3 Vermögensaufbau im Betriebsvermögen",
+            "title": "2.3 Eszközfelhalmozás az üzleti eszközökben",
             "items": {
-              "0": "Investitionen über die Gesellschaft"
+              "0": "Beruházások a társadalomon keresztül"
             }
           }
         }
       },
       "relief": {
-        "title": "Finanzielle Entlastung",
-        "teaser": "Laufende Kosten gezielt reduzieren, insbesondere im PKV-Bereich.",
-        "description": "Gezielte Entlastung der laufenden Kosten, insbesondere im Bereich der PKV.",
+        "title": "Pénzügyi könnyítés",
+        "teaser": "A folyamatos költségek célzott csökkentése, különösen a magán egészségbiztosítási szektorban.",
+        "description": "Folyamatos költségek célzott enyhítése, különösen a magán egészségbiztosítás területén.",
         "subpoints": {
           "3_1": {
-            "title": "3.1 Analyse der bestehenden Kostenstruktur",
+            "title": "3.1 A meglévő költségstruktúra elemzése",
             "items": {
-              "0": "Krankenversicherung",
-              "1": "Altersvorsorge",
-              "2": "Laufende private Verpflichtungen"
+              "0": "egészségbiztosítás",
+              "1": "Nyugdíjtervezés",
+              "2": "Folyamatos személyes kötelezettségvállalások"
             }
           }
         }
       },
       "pension": {
-        "title": "Steuerfreie Rente",
-        "teaser": "Langfristiger Aufbau steuerfreien Vermögens unter Berücksichtigung der gesetzlichen Haltedauer.",
-        "description": "Aufbau der steuerfreien Rente mit Fokus auf gesetzliche Haltedauer, langfristige Planung und rechtssicheren Vermögensaufbau.",
+        "title": "Adómentes nyugdíj",
+        "teaser": "Adómentes vagyon hosszú távú felhalmozása a törvényes tartási idő figyelembevételével.",
+        "description": "Adómentes nyugdíj kiépítése a törvényes tartási időszakokra, a hosszú távú tervezésre és a jogilag biztonságos eszközfelhalmozásra összpontosítva.",
         "subpoints": {
           "4_1": {
-            "title": "4.1 Grundprinzip des steuerfreien Vermögensaufbaus",
+            "title": "4.1 Az adómentes vagyonfelhalmozás alapelve",
             "items": {
-              "0": "Investition mit langfristiger Haltedauer",
-              "1": "Nutzung gesetzlicher Steuerbefreiungen",
-              "2": "Planung über mindestens 10+ Jahre"
+              "0": "Befektetés hosszú távú tartási idővel",
+              "1": "Törvényes adómentességek igénybevétele",
+              "2": "Tervezés legalább 10 évre"
             }
           }
         }

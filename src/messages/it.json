@@ -117,17 +117,17 @@
     "laws": {
       "kwg": {
         "abbreviation": "KWG",
-        "name": "Kreditwesengesetz",
+        "name": "Legge bancaria",
         "description": "Disciplina gli obblighi di autorizzazione per le operazioni bancarie e i servizi finanziari in Germania. Il KWG costituisce la base della vigilanza BaFin e definisce al § 1 KWG i termini chiave e al § 25a KWG i requisiti per un'organizzazione aziendale adeguata."
       },
       "vag": {
         "abbreviation": "VAG",
-        "name": "Versicherungsaufsichtsgesetz",
+        "name": "Legge sulla vigilanza delle assicurazioni",
         "description": "Disciplina la vigilanza sulle compagnie di assicurazione e serve a proteggere gli assicurati. Il VAG garantisce che gli assicuratori possano adempiere permanentemente ai loro obblighi e siano gestiti in modo appropriato."
       },
       "estg": {
         "abbreviation": "EStG",
-        "name": "Einkommensteuergesetz",
+        "name": "Legge sull'imposta sul reddito",
         "description": "Disciplina la tassazione del reddito delle persone fisiche in Germania. L'EStG definisce le tipologie di reddito, le esenzioni fiscali e le aliquote fiscali, costituendo la base dell'imposizione personale sul reddito."
       }
     },

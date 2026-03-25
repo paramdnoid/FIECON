@@ -20,7 +20,7 @@
     "close_menu": "მენიუს დახურვა",
     "skip_to_content": "გადასვლა შინაარსზე",
     "gesetze": "კანონმდებლობა",
-    "four_point_plan": "Vier-Punkte-Plan"
+    "four_point_plan": "ოთხპუნქტიანი გეგმა"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -117,21 +117,21 @@
     "laws": {
       "kwg": {
         "abbreviation": "KWG",
-        "name": "Kreditwesengesetz",
+        "name": "საბანკო აქტი",
         "description": "არეგულირებს საბანკო ოპერაციებისა და ფინანსური მომსახურების ლიცენზირების მოთხოვნებს გერმანიაში. KWG წარმოადგენს BaFin-ის ზედამხედველობის საფუძველს და განსაზღვრავს § 1 KWG-ში ძირითად ტერმინებს, ასევე § 25a KWG-ში სათანადო ბიზნეს ორგანიზაციის მოთხოვნებს."
       },
       "vag": {
         "abbreviation": "VAG",
-        "name": "Versicherungsaufsichtsgesetz",
+        "name": "დაზღვევის ზედამხედველობის აქტი",
         "description": "არეგულირებს სადაზღვევო კომპანიების ზედამხედველობას და ემსახურება დაზღვეულთა დაცვას. VAG უზრუნველყოფს, რომ მზღვეველებს შეუძლიათ მუდმივად შეასრულონ თავიანთი ვალდებულებები და სათანადოდ იმართებოდნენ."
       },
       "estg": {
         "abbreviation": "EStG",
-        "name": "Einkommensteuergesetz",
+        "name": "საშემოსავლო გადასახადის აქტი",
         "description": "არეგულირებს ფიზიკური პირების შემოსავლის დაბეგვრას გერმანიაში. EStG განსაზღვრავს შემოსავლის სახეებს, საგადასახადო შეღავათებს და საგადასახადო განაკვეთებს, რაც წარმოადგენს პირადი საშემოსავლო დაბეგვრის საფუძველს."
       }
     },
-    "mehr_erfahren": "Mehr erfahren"
+    "mehr_erfahren": "შეიტყვეთ მეტი"
   },
   "approach": {
     "badge": "ჩვენი მიდგომა",
@@ -327,7 +327,7 @@
     "contact_label": "კონტაქტი"
   },
   "team": {
-    "nav_label": "Team",
+    "nav_label": "გუნდი",
     "competencies_headline": "კომპეტენციის სფეროები",
     "cta_headline": "დავიწყოთ საუბარი",
     "cta_subline": "იქნება ეს პირველი კითხვა თუ კონკრეტული პროექტი — ჩვენ დროს ვიღებთ თქვენთვის.",
@@ -365,159 +365,159 @@
     "service_yacht": "იახტების მშენებლობის დაფინანსება"
   },
   "gesetze_page": {
-    "meta_title": "Rechtliche Grundlagen — KWG, VAG & EStG",
-    "meta_description": "FIECON erläutert die regulatorischen Grundlagen: Kreditwesengesetz, Versicherungsaufsichtsgesetz und Einkommensteuergesetz — und wie wir Mandanten dabei begleiten.",
-    "breadcrumb_home": "Startseite",
-    "breadcrumb_current": "Gesetze",
-    "hero_badge": "Regulatorischer Rahmen",
-    "hero_headline": "Rechtliche Grundlagen",
-    "hero_intro_1": "Die Beratungspraxis von FIECON ist tief im deutschen und europäischen Regulierungsrahmen verankert. Das Kreditwesengesetz, das Versicherungsaufsichtsgesetz und das Einkommensteuergesetz bilden die rechtliche Grundlage für wesentliche Teile unserer täglichen Beratungsarbeit — von der Strukturierung internationaler Gesellschaften bis zur steuerlichen Optimierung für Unternehmer.",
-    "hero_intro_2": "Auf dieser Seite stellen wir Ihnen die drei zentralen Gesetze vor, erläutern ihre wesentlichen Regelungsbereiche und zeigen, wie FIECON Mandanten konkret dabei unterstützt, die Anforderungen dieser Regelwerke rechtssicher und effizient zu erfüllen.",
+    "meta_title": "სამართლებრივი საფუძველი - KWG, VAG & EStG",
+    "meta_description": "FIECON განმარტავს მარეგულირებელ საფუძველს: საბანკო აქტი, დაზღვევის ზედამხედველობის აქტი და საშემოსავლო გადასახადის აქტი - და როგორ ვუჭერთ მხარს კლიენტებს ამ კუთხით.",
+    "breadcrumb_home": "მთავარი გვერდი",
+    "breadcrumb_current": "კანონები",
+    "hero_badge": "მარეგულირებელი ჩარჩო",
+    "hero_headline": "სამართლებრივი საფუძველი",
+    "hero_intro_1": "FIECON-ის საკონსულტაციო პრაქტიკა ღრმად არის მიბმული გერმანულ და ევროპულ მარეგულირებელ ჩარჩოში. საბანკო აქტი, დაზღვევის ზედამხედველობის აქტი და საშემოსავლო გადასახადის აქტი ქმნიან სამართლებრივ საფუძველს ჩვენი ყოველდღიური საკონსულტაციო მუშაობის არსებითი ნაწილებისთვის - საერთაშორისო კომპანიების სტრუქტურირებიდან მეწარმეებისთვის გადასახადების ოპტიმიზაციამდე.",
+    "hero_intro_2": "ამ გვერდზე ჩვენ წარმოგიდგენთ სამ ცენტრალურ კანონს, განვმარტავთ მათ ძირითად მარეგულირებელ სფეროებს და ვაჩვენებთ, თუ როგორ უჭერს მხარს FIECON კლიენტებს ამ რეგულაციების მოთხოვნების იურიდიულად უსაფრთხოდ და ეფექტურად შესრულებაში.",
     "hero_chip_kwg": "KWG",
     "hero_chip_vag": "VAG",
     "hero_chip_estg": "EStG",
     "kwg_abbreviation": "KWG",
-    "kwg_name": "Kreditwesengesetz",
-    "kwg_intro": "Das Kreditwesengesetz (KWG) bildet das Fundament der deutschen Bankenaufsicht. Es regelt, unter welchen Voraussetzungen Unternehmen Bankgeschäfte oder Finanzdienstleistungen erbringen dürfen, und legt die Anforderungen an Organisation, Kapitalausstattung und interne Kontrolle fest. Die Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin) überwacht auf Grundlage des KWG alle erlaubnispflichtigen Institute in Deutschland.",
-    "kwg_detail": "Für Unternehmen, die Bankgeschäfte betreiben oder Finanzdienstleistungen erbringen wollen, ist die Erlaubnispflicht nach § 32 KWG von zentraler Bedeutung. Das KWG definiert in § 1 einen breiten Katalog erlaubnispflichtiger Tätigkeiten — von der Kreditvergabe über die Anlageberatung bis hin zur Abschlussvermittlung. Gleichzeitig verpflichtet § 25a Institute zu einer ordnungsgemäßen Geschäftsorganisation mit angemessenem Risikomanagement.",
-    "kwg_provisions_headline": "Wesentliche Regelungen",
-    "kwg_provision_0": "§ 1 KWG — Begriffsbestimmungen: Abschließende Definition aller erlaubnispflichtigen Bank- und Finanzdienstleistungsgeschäfte, einschließlich Kreditgeschäft, Einlagengeschäft und Anlageberatung.",
-    "kwg_provision_1": "§ 25a KWG — Besondere organisatorische Pflichten: Anforderungen an eine ordnungsgemäße Geschäftsorganisation mit angemessenem Risikomanagement, internen Kontrollverfahren und Compliance-Strukturen.",
-    "kwg_provision_2": "§ 32 KWG — Erlaubnispflicht: Verbot der gewerbsmäßigen Erbringung von Bankgeschäften und Finanzdienstleistungen ohne schriftliche Erlaubnis der BaFin.",
-    "kwg_provision_3": "§ 44 KWG — Prüfungsrechte der BaFin: Befugnisse der Aufsichtsbehörde zur Durchführung von Prüfungen bei Instituten und zur Anforderung von Auskünften und Unterlagen.",
-    "kwg_consulting_headline": "FIECON-Beratung im KWG-Kontext",
-    "kwg_consulting_text": "FIECON begleitet Unternehmen und Gründer bei der Prüfung der Erlaubnispflicht nach dem KWG, bei der Vorbereitung und Einreichung von BaFin-Erlaubnisanträgen sowie bei der Implementierung der organisatorischen Anforderungen nach § 25a KWG. Wir unterstützen auch bei der laufenden regulatorischen Compliance und der Kommunikation mit der Aufsichtsbehörde.",
+    "kwg_name": "საბანკო აქტი",
+    "kwg_intro": "საბანკო აქტი (KWG) აყალიბებს გერმანიის საბანკო ზედამხედველობის საფუძველს. ის არეგულირებს პირობებს, რომლითაც კომპანიებს შეუძლიათ უზრუნველყონ საბანკო ან ფინანსური მომსახურება და განსაზღვრავს მოთხოვნებს ორგანიზაციის, კაპიტალის რესურსებისა და შიდა კონტროლის მიმართ. ფედერალური ფინანსური ზედამხედველობის ორგანო (BaFin) აკონტროლებს გერმანიის ყველა ინსტიტუტს, რომელიც მოითხოვს ავტორიზაციას KWG-ის საფუძველზე.",
+    "kwg_detail": "კომპანიებისთვის, რომლებიც ახორციელებენ საბანკო საქმიანობას ან სურთ ფინანსური მომსახურების გაწევა, ავტორიზაციის მოთხოვნა KWG-ის 32-ე მუხლის შესაბამისად ცენტრალური მნიშვნელობისაა. 1-ლ ნაწილში KWG განსაზღვრავს საქმიანობების ფართო კატალოგს, რომლებიც საჭიროებენ ავტორიზაციას - სესხების გაცემიდან საინვესტიციო რჩევებამდე და საბროკერო გარიგებებამდე. ამავდროულად, 25a მუხლი ავალდებულებს დაწესებულებებს ჰქონდეთ სათანადო ბიზნეს ორგანიზაცია, შესაბამისი რისკის მენეჯმენტით.",
+    "kwg_provisions_headline": "არსებითი რეგულაციები",
+    "kwg_provision_0": "§ 1 KWG - განმარტებები: ყველა საბანკო და ფინანსური მომსახურების ტრანზაქციის საბოლოო განმარტება, რომელიც საჭიროებს ავტორიზაციას, მათ შორის სასესხო ბიზნესს, სადეპოზიტო ბიზნესს და საინვესტიციო რჩევებს.",
+    "kwg_provision_1": "§ 25a KWG — სპეციალური ორგანიზაციული ვალდებულებები: მოთხოვნები სათანადო ბიზნეს ორგანიზაციისთვის, შესაბამისი რისკის მენეჯმენტით, შიდა კონტროლის პროცედურებით და შესაბამისობის სტრუქტურებით.",
+    "kwg_provision_2": "§ 32 KWG - ნებართვის მიღების ვალდებულება: საბანკო ოპერაციების და ფინანსური მომსახურების კომერციული მიწოდების აკრძალვა BaFin-ის წერილობითი ნებართვის გარეშე.",
+    "kwg_provision_3": "მუხლი 44 KWG - BaFin-ის აუდიტის უფლებები: ზედამხედველობის ორგანოს უფლებამოსილება განახორციელოს დაწესებულებების აუდიტი და მოითხოვოს ინფორმაცია და დოკუმენტები.",
+    "kwg_consulting_headline": "FIECON კონსულტაცია KWG კონტექსტში",
+    "kwg_consulting_text": "FIECON მხარს უჭერს კომპანიებსა და დამფუძნებლებს KWG-ის მიხედვით ავტორიზაციის მოთხოვნის შემოწმებაში, BaFin ავტორიზაციის განაცხადების მომზადებასა და წარდგენაში და ორგანიზაციული მოთხოვნების შესრულებაში 25a KWG პუნქტის შესაბამისად. ჩვენ ასევე მხარს ვუჭერთ მუდმივ მარეგულირებელ შესაბამისობას და კომუნიკაციას სამეთვალყურეო ორგანოსთან.",
     "vag_abbreviation": "VAG",
-    "vag_name": "Versicherungsaufsichtsgesetz",
-    "vag_intro": "Das Versicherungsaufsichtsgesetz (VAG) regelt die staatliche Aufsicht über Versicherungsunternehmen in Deutschland und dient in erster Linie dem Schutz der Versicherungsnehmer. Es setzt die europäische Solvency II-Richtlinie in deutsches Recht um und stellt sicher, dass Versicherer dauerhaft in der Lage sind, ihre Verpflichtungen gegenüber den Versicherten zu erfüllen.",
-    "vag_detail": "Das VAG verpflichtet Versicherungsunternehmen zur Einhaltung umfangreicher Kapitalanforderungen (Solvency Capital Requirement und Minimum Capital Requirement) sowie zur ordnungsgemäßen Geschäftsführung durch geeignete und zuverlässige Personen. Für private Krankenversicherer gelten besondere Bestimmungen zur Kalkulation der Prämien und zur Bildung von Alterungsrückstellungen — ein Bereich, der für die Beratung selbstständiger Unternehmer besonders relevant ist.",
-    "vag_provisions_headline": "Wesentliche Regelungen",
-    "vag_provision_0": "§ 11 VAG — Erlaubnispflicht: Verbot des Betriebs von Versicherungsgeschäften ohne Erlaubnis der BaFin, verbunden mit einem Katalog der erlaubnispflichtigen Versicherungssparten.",
-    "vag_provision_1": "§ 124 VAG — Kapitalanlagemanagement: Anforderungen an die Anlage der Vermögenswerte nach dem Grundsatz der unternehmerischen Vorsicht (Prudent Person Principle).",
-    "vag_provision_2": "§ 22 VAG — Geschäftsleiter: Anforderungen an Zuverlässigkeit und fachliche Eignung der verantwortlichen Personen in Schlüsselfunktionen eines Versicherungsunternehmens.",
-    "vag_provision_3": "§ 294 VAG — Aufsichtsbefugnisse der BaFin: Umfangreiche Aufsichts- und Eingriffsbefugnisse der Bundesanstalt gegenüber beaufsichtigten Versicherungsunternehmen.",
-    "vag_consulting_headline": "FIECON-Beratung im VAG-Kontext",
-    "vag_consulting_text": "FIECON berät bei der Strukturierung von Versicherungslösungen für internationale Unternehmer und Selbstständige, insbesondere im Bereich der privaten Krankenversicherung (PKV). Wir analysieren Tarifstrukturen unter Berücksichtigung der aufsichtsrechtlichen Vorgaben des VAG und begleiten Mandanten bei der optimalen Absicherung ihrer persönlichen Risiken.",
+    "vag_name": "დაზღვევის ზედამხედველობის აქტი",
+    "vag_intro": "დაზღვევის ზედამხედველობის აქტი (VAG) არეგულირებს სადაზღვევო კომპანიების სახელმწიფო ზედამხედველობას გერმანიაში და პირველ რიგში ემსახურება დაზღვეულის დაცვას. იგი ახორციელებს ევროპის გადახდისუნარიანობის II დირექტივას გერმანიის კანონმდებლობაში და უზრუნველყოფს, რომ მზღვეველებმა მუდმივად შეასრულონ თავიანთი ვალდებულებები დაზღვეულის წინაშე.",
+    "vag_detail": "VAG ავალდებულებს სადაზღვევო კომპანიებს დაიცვან ვრცელი კაპიტალის მოთხოვნები (გადახდისუნარიანობის კაპიტალის მოთხოვნა და მინიმალური კაპიტალის მოთხოვნილება), ასევე სათანადო და სანდო ადამიანების მიერ სათანადო მართვა. კერძო ჯანდაცვის დაზღვევის მიმართ ვრცელდება სპეციალური რეგულაციები პრემიების გამოთვლასა და დაბერების დებულებების ფორმირებასთან დაკავშირებით - სფერო, რომელიც განსაკუთრებით აქტუალურია თვითდასაქმებული მეწარმეების კონსულტაციისთვის.",
+    "vag_provisions_headline": "არსებითი რეგულაციები",
+    "vag_provision_0": "§ 11 VAG - ავტორიზაციის მიღების ვალდებულება: სადაზღვევო ბიზნესის წარმართვის აკრძალვა BaFin-ის ნებართვის გარეშე, კომბინირებული სადაზღვევო ხაზების კატალოგთან, რომლებიც საჭიროებენ ავტორიზაციას.",
+    "vag_provision_1": "§ 124 VAG - კაპიტალის ინვესტიციების მართვა: აქტივების ინვესტიციის მოთხოვნები სამეწარმეო წინდახედულობის პრინციპის შესაბამისად (Prudent Person Principle).",
+    "vag_provision_2": "§ 22 VAG - მენეჯერები: მოთხოვნები სადაზღვევო კომპანიის ძირითად ფუნქციებში პასუხისმგებელი პირების სანდოობისა და პროფესიული შესაბამისობის შესახებ.",
+    "vag_provision_3": "§ 294 VAG — BaFin-ის საზედამხედველო უფლებამოსილებები: ფედერალური ფინანსური ზედამხედველობის ორგანოს ფართო საზედამხედველო და ინტერვენციული უფლებამოსილებები ზედამხედველობის ქვეშ მყოფი სადაზღვევო კომპანიების მიმართ.",
+    "vag_consulting_headline": "FIECON კონსულტაცია VAG კონტექსტში",
+    "vag_consulting_text": "FIECON ურჩევს სადაზღვევო გადაწყვეტილებების სტრუქტურირებას საერთაშორისო მეწარმეებისა და თვითდასაქმებულებისთვის, განსაკუთრებით ჯანმრთელობის კერძო დაზღვევის (PKV) სფეროში. ჩვენ ვაანალიზებთ სატარიფო სტრუქტურებს VAG-ის მარეგულირებელი მოთხოვნების გათვალისწინებით და მხარს ვუჭერთ კლიენტებს მათი პირადი რისკების ოპტიმალურად უზრუნველყოფაში.",
     "estg_abbreviation": "EStG",
-    "estg_name": "Einkommensteuergesetz",
-    "estg_intro": "Das Einkommensteuergesetz (EStG) regelt die Besteuerung des Einkommens natürlicher Personen in Deutschland. Als das zentrale Steuergesetz für Privatpersonen und Selbstständige definiert es die sieben Einkunftsarten, die persönlichen Freibeträge sowie die progressiven Steuersätze. Für international tätige Unternehmer ist das EStG besonders bedeutsam, da Deutschland das Welteinkommensprinzip anwendet.",
-    "estg_detail": "Wer in Deutschland unbeschränkt steuerpflichtig ist (§ 1 EStG), muss grundsätzlich sein gesamtes weltweites Einkommen in Deutschland versteuern — unabhängig davon, wo es erzielt wurde. Die korrekte Abgrenzung der Steuerpflicht, die Anwendung von Doppelbesteuerungsabkommen und die steuerlich optimale Gestaltung von Gesellschaftsstrukturen sind daher wesentliche Beratungsfelder für international tätige Mandanten.",
-    "estg_provisions_headline": "Wesentliche Regelungen",
-    "estg_provision_0": "§ 1 EStG — Unbeschränkte Steuerpflicht: Natürliche Personen mit Wohnsitz oder gewöhnlichem Aufenthalt in Deutschland unterliegen der unbeschränkten Einkommensteuerpflicht auf ihr Welteinkommen.",
-    "estg_provision_1": "§ 2 EStG — Einkunftsarten: Abschließende Definition der sieben Einkunftsarten, darunter Einkünfte aus Gewerbebetrieb, aus selbstständiger Arbeit und aus Kapitalvermögen.",
-    "estg_provision_2": "§ 19 EStG — Einkünfte aus nichtselbstständiger Arbeit: Regelung der Besteuerung von Arbeitslohn, Gehalt, Gratifikationen und geldwerten Vorteilen aus einem Arbeitsverhältnis.",
-    "estg_provision_3": "§ 49 EStG — Beschränkte Steuerpflicht: Besteuerung von Einkünften aus deutschen Quellen bei Personen ohne Wohnsitz in Deutschland — relevant für ausländische Gesellschafter und Geschäftsführer.",
-    "estg_consulting_headline": "FIECON-Beratung im EStG-Kontext",
-    "estg_consulting_text": "FIECON begleitet international tätige Unternehmer, Gesellschafter und Selbstständige bei der Analyse und Optimierung ihrer steuerlichen Situation unter dem EStG. Wir prüfen die persönliche Steuerpflicht, die Anwendbarkeit von Doppelbesteuerungsabkommen und entwickeln steuerlich effiziente Gesellschafts- und Vergütungsstrukturen. Für Selbstständige beraten wir zudem zur steuerlich optimalen Gestaltung der Vorsorge, insbesondere im Zusammenspiel mit der privaten Krankenversicherung.",
-    "cta_headline": "Regulatorische Fragen? Wir haben die Antworten.",
-    "cta_subline": "Ob KWG-Erlaubnisantrag, VAG-konforme Versicherungsstruktur oder steuerliche Optimierung nach EStG — sprechen Sie uns an.",
+    "estg_name": "საშემოსავლო გადასახადის აქტი",
+    "estg_intro": "საშემოსავლო გადასახადის აქტი (EStG) არეგულირებს გერმანიაში ფიზიკური პირების შემოსავლის დაბეგვრას. როგორც კერძო პირებისა და თვითდასაქმებულთა ცენტრალური საგადასახადო კანონი, ის განსაზღვრავს შემოსავლის შვიდ სახეს, პირად დანამატებს და პროგრესულ გადასახადის განაკვეთებს. EStG განსაკუთრებით მნიშვნელოვანია საერთაშორისოდ აქტიური მეწარმეებისთვის, რადგან გერმანია იყენებს გლობალური შემოსავლის პრინციპს.",
+    "estg_detail": "ვინც გერმანიაში ულიმიტო საგადასახადო ვალდებულებას ექვემდებარება (§ 1 EStG) ზოგადად უნდა გადაიხადოს გადასახადი გერმანიაში მთელ მსოფლიოში შემოსავალზე - მიუხედავად იმისა, თუ სად არის მიღებული იგი. საგადასახადო ვალდებულების სწორი განსაზღვრა, ორმაგი დაბეგვრის ხელშეკრულებების გამოყენება და კორპორატიული სტრუქტურების საგადასახადო ოპტიმალური დიზაინი, შესაბამისად, რჩევის მნიშვნელოვანი სფეროა საერთაშორისო აქტიური კლიენტებისთვის.",
+    "estg_provisions_headline": "არსებითი რეგულაციები",
+    "estg_provision_0": "§ 1 EStG - შეუზღუდავი საგადასახადო ვალდებულება: ფიზიკური პირები, რომლებიც ცხოვრობენ ან ცხოვრობენ გერმანიაში, ექვემდებარებიან შეუზღუდავი საშემოსავლო გადასახადის ვალდებულებას თავიანთი მსოფლიო შემოსავალზე.",
+    "estg_provision_1": "§ 2 EStG — შემოსავლის სახეები: შვიდი ტიპის შემოსავლის საბოლოო განმარტება, მათ შორის შემოსავლები კომერციული ოპერაციებიდან, თვითდასაქმებიდან და კაპიტალური აქტივებიდან.",
+    "estg_provision_2": "§ 19 EStG - შემოსავალი დასაქმებიდან: შრომითი ურთიერთობიდან ხელფასების, ხელფასების, პრემიებისა და ფულადი სარგებლის დაბეგვრის რეგულირება.",
+    "estg_provision_3": "§ 49 EStG - შეზღუდული საგადასახადო ვალდებულება: გერმანული წყაროებიდან შემოსავლის დაბეგვრა გერმანიაში რეზიდენტობის გარეშე პირებისთვის - შესაბამისი უცხოელი აქციონერებისა და მმართველი დირექტორებისთვის.",
+    "estg_consulting_headline": "FIECON რჩევა EStG კონტექსტში",
+    "estg_consulting_text": "FIECON მხარს უჭერს საერთაშორისოდ აქტიურ მეწარმეებს, აქციონერებს და თვითდასაქმებულ ადამიანებს EStG-ის ფარგლებში მათი საგადასახადო მდგომარეობის ანალიზსა და ოპტიმიზაციაში. ჩვენ განვიხილავთ პირადი საგადასახადო ვალდებულებას, ორმაგი დაბეგვრის ხელშეკრულებების გამოყენებას და ვავითარებთ საგადასახადო ეფექტიან კორპორატიულ და ანაზღაურების სტრუქტურებს. თვითდასაქმებულთათვის, ჩვენ ასევე ვურჩევთ საპენსიო უზრუნველყოფის ოპტიმალურ საგადასახადო სტრუქტურას, განსაკუთრებით კერძო ჯანმრთელობის დაზღვევასთან ერთად.",
+    "cta_headline": "მარეგულირებელი კითხვები? ჩვენ გვაქვს პასუხები.",
+    "cta_subline": "იქნება ეს KWG ნებართვის განაცხადი, VAG-ის შესაბამისი სადაზღვევო სტრუქტურა თუ საგადასახადო ოპტიმიზაცია EStG-ის მიხედვით - გვესაუბრეთ.",
     "cta_button": "ელ. ფოსტის გაგზავნა",
-    "cta_back": "Zur Startseite",
-    "kwg_provision_4": "§ 46 KWG — Maßnahmen bei Gefahr: Eingriffsbefugnisse der BaFin bei aufsichtsrechtlichen Missständen, insbesondere zur Sicherung der ordnungsgemäßen Geschäftsführung und zum Schutz von Gläubigern.",
-    "vag_provision_4": "§ 311 VAG — Besondere Vorgaben für die private Krankenversicherung: Regelungen zur Kalkulation, Prämienanpassung und dauerhaften Finanzierung über Alterungsrückstellungen.",
-    "estg_provision_4": "§ 22 EStG — Sonstige Einkünfte: Besteuerung insbesondere von wiederkehrenden Bezügen wie Renten sowie bestimmter weiterer Einkünfte außerhalb der klassischen Einkunftsarten.",
-    "estg_provision_5": "§ 23 EStG — Private Veräußerungsgeschäfte: Steuerliche Erfassung von Gewinnen aus der Veräußerung privater Wirtschaftsgüter innerhalb der gesetzlichen Haltefristen."
+    "cta_back": "მთავარ გვერდზე",
+    "kwg_provision_4": "§ 46 KWG - ზომები საფრთხის შემთხვევაში: BaFin-ის უფლებამოსილება ჩაერიოს მარეგულირებელი საჩივრების შემთხვევაში, კერძოდ უზრუნველყოს სათანადო მართვა და დაიცვას კრედიტორები.",
+    "vag_provision_4": "§ 311 VAG - სპეციალური მოთხოვნები კერძო ჯანმრთელობის დაზღვევისთვის: რეგულაციები გაანგარიშებისთვის, პრემიის კორექტირება და მუდმივი დაფინანსება დაბერების დებულებების მეშვეობით.",
+    "estg_provision_4": "§ 22 EStG - სხვა შემოსავალი: გადასახადები, კერძოდ, განმეორებადი გადახდებისთვის, როგორიცაა პენსიები და გარკვეული სხვა შემოსავალი შემოსავლის კლასიკური ტიპების მიღმა.",
+    "estg_provision_5": "§ 23 EStG - კერძო გაყიდვების ოპერაციები: კერძო აქტივების გაყიდვიდან მიღებული მოგების საგადასახადო აღიარება კანონით დადგენილი ვადების ფარგლებში."
   },
   "fourPointPlan": {
-    "badge": "Vier-Punkte-Plan",
-    "headline": "Unser Vier-Punkte-Plan zur finanziellen Unabhängigkeit",
-    "subtitle": "Strukturierte Gesamtstrategie mit operativer Umsetzung und langfristiger Vermögenssicherung.",
-    "intro": "Der Plan folgt der klassischen unternehmerischen Logik: Struktur aufbauen, Steuern optimieren, Kosten senken und Vermögen langfristig steuerfrei aufbauen. Entscheidend ist nicht nur die Strategie, sondern die saubere Umsetzung im Tagesgeschäft.",
-    "cta_details": "Detaillierten Plan ansehen",
+    "badge": "ოთხპუნქტიანი გეგმა",
+    "headline": "ჩვენი ოთხპუნქტიანი გეგმა ფინანსური დამოუკიდებლობისთვის",
+    "subtitle": "სტრუქტურირებული საერთო სტრატეგია ოპერატიული განხორციელებით და გრძელვადიანი აქტივების დაცვით.",
+    "intro": "გეგმა მიჰყვება კლასიკურ სამეწარმეო ლოგიკას: სტრუქტურის აშენება, გადასახადების ოპტიმიზაცია, ხარჯების შემცირება და აქტივების შექმნა გრძელვადიან პერსპექტივაში. მნიშვნელოვანია არა მხოლოდ სტრატეგია, არამედ მისი სათანადო განხორციელება ყოველდღიურ ბიზნესში.",
+    "cta_details": "დეტალური გეგმის ნახვა",
     "detail": {
-      "meta_title": "Vier-Punkte-Plan zur finanziellen Unabhängigkeit",
-      "meta_description": "Detaillierte Darstellung des FIECON Vier-Punkte-Plans: Strategie und Organisation, steuerliche Optimierung, finanzielle Entlastung und steuerfreier Vermögensaufbau.",
-      "headline": "Vier-Punkte-Plan im Detail",
-      "subtitle": "Detaillierte Ausarbeitung aller Maßnahmen, Teilbereiche und operativen Umsetzungsschritte.",
-      "navigation_label": "Interaktive Navigation",
-      "focus_label": "Aktiver Schwerpunkt",
-      "subpoints_label": "Teilbereiche",
-      "items_label": "Maßnahmen",
-      "cta_panel_title": "Vom Plan zur Umsetzung",
-      "cta_panel_text": "Wir begleiten Sie nicht nur bei der Strategie, sondern bei der operativen Implementierung jeder einzelnen Maßnahme.",
-      "cta_contact": "Strategiegespräch vereinbaren",
-      "cta_back_home": "Zur Startseite"
+      "meta_title": "ფინანსური დამოუკიდებლობის ოთხპუნქტიანი გეგმა",
+      "meta_description": "FIECON-ის ოთხპუნქტიანი გეგმის დეტალური პრეზენტაცია: სტრატეგია და ორგანიზაცია, გადასახადების ოპტიმიზაცია, ფინანსური შეღავათები და გადასახადებისგან თავისუფალი სიმდიდრის შექმნა.",
+      "headline": "ოთხპუნქტიანი გეგმა დეტალურად",
+      "subtitle": "ყველა ღონისძიების, ქვეტერიტორიისა და ოპერატიული განხორციელების საფეხურის დეტალური შემუშავება.",
+      "navigation_label": "ინტერაქტიული ნავიგაცია",
+      "focus_label": "აქტიური ფოკუსი",
+      "subpoints_label": "ქვეტერიტორიები",
+      "items_label": "ზომები",
+      "cta_panel_title": "გეგმიდან განხორციელებამდე",
+      "cta_panel_text": "ჩვენ არა მხოლოდ მხარს გიჭერთ სტრატეგიით, არამედ თითოეული ინდივიდუალური ღონისძიების ოპერატიული განხორციელებაში.",
+      "cta_contact": "მოაწყეთ სტრატეგიული შეხვედრა",
+      "cta_back_home": "მთავარ გვერდზე"
     },
     "points": {
       "strategy": {
-        "title": "Strategie und Organisation",
-        "teaser": "Klare Zielstruktur und effiziente Umsetzung im Tagesgeschäft.",
-        "description": "Umsetzung des Tagesgeschäfts mit klaren Verantwortlichkeiten und belastbarer Struktur.",
+        "title": "სტრატეგია და ორგანიზაცია",
+        "teaser": "მკაფიო სამიზნე სტრუქტურა და ეფექტური განხორციელება ყოველდღიურ ბიზნესში.",
+        "description": "ყოველდღიური ბიზნესის განხორციელება მკაფიო პასუხისმგებლობებით და გამძლე სტრუქტურით.",
         "subpoints": {
           "1_1": {
-            "title": "1.1 Klare Definition der geschäftlichen Zielstruktur",
+            "title": "1.1 ბიზნესის მიზნობრივი სტრუქტურის მკაფიო განმარტება",
             "items": {
-              "0": "Festlegung der Unternehmensform(en) und Beteiligungsstruktur",
-              "1": "Erweiterung bestehender Geschäftsmodelle",
-              "2": "Trennung von operativem Geschäft und Vermögensverwaltung",
-              "3": "Aufbau einer rechtssicheren Organisationsstruktur"
+              "0": "კომპანიის ფორმის (ფორმების) და სააქციო სტრუქტურის განსაზღვრა",
+              "1": "არსებული ბიზნეს მოდელების გაფართოება",
+              "2": "საოპერაციო ბიზნესისა და აქტივების მართვის გამიჯვნა",
+              "3": "იურიდიულად დაცული ორგანიზაციული სტრუქტურის აგება"
             }
           },
           "1_2": {
-            "title": "1.2 Effiziente Organisation des Tagesgeschäfts",
+            "title": "1.2 ყოველდღიური ბიზნესის ეფექტური ორგანიზება",
             "items": {
-              "0": "Standardisierung von Abläufen",
-              "1": "Delegation operativer Tätigkeiten",
-              "2": "Nutzung externer Dienstleister (Steuerberater, Buchhaltung, Verwaltung)"
+              "0": "პროცესების სტანდარტიზაცია",
+              "1": "ოპერატიული საქმიანობის დელეგირება",
+              "2": "გარე სერვისის პროვაიდერების გამოყენება (საგადასახადო მრჩევლები, ბუღალტერია, ადმინისტრაცია)"
             }
           }
         }
       },
       "tax": {
-        "title": "Steuerliche Optimierung",
-        "teaser": "Gesellschafts- und Gewinnstruktur steuerlich präzise ausrichten.",
-        "description": "Rechtskonforme Steuerstruktur, die Liquidität sichert und Wachstum fördert.",
+        "title": "საგადასახადო ოპტიმიზაცია",
+        "teaser": "კომპანიისა და მოგების სტრუქტურის ზუსტად გასწორება საგადასახადო მიზნებისთვის.",
+        "description": "იურიდიულად შესაბამისი საგადასახადო სტრუქტურა, რომელიც უზრუნველყოფს ლიკვიდურობას და ხელს უწყობს ზრდას.",
         "subpoints": {
           "2_1": {
-            "title": "2.1 Wahl der richtigen Gesellschaftsstruktur",
+            "title": "2.1 სწორი კორპორატიული სტრუქტურის არჩევა",
             "items": {
-              "0": "Kombination aus Kapitalgesellschaft und Personengesellschaft",
-              "1": "Nutzung von Holding-Strukturen",
-              "2": "Trennung von Privatvermögen und Betriebsvermögen"
+              "0": "კორპორაციისა და პარტნიორობის კომბინაცია",
+              "1": "დამჭერი სტრუქტურების გამოყენება",
+              "2": "კერძო აქტივებისა და ბიზნეს აქტივების გამიჯვნა"
             }
           },
           "2_2": {
-            "title": "2.2 Gewinnverlagerung und Gestaltung",
+            "title": "2.2 მოგების შეცვლა და დიზაინი",
             "items": {
-              "0": "Nutzung von Betriebsausgaben",
-              "1": "Gestaltung von Geschäftsführergehalt und Gewinnausschüttung",
-              "2": "Nutzung steuerlicher Freibeträge"
+              "0": "ბიზნეს ხარჯების გამოყენება",
+              "1": "მმართველი დირექტორის ხელფასების და მოგების განაწილების პროექტირება",
+              "2": "საგადასახადო შეღავათების გამოყენება"
             }
           },
           "2_3": {
-            "title": "2.3 Vermögensaufbau im Betriebsvermögen",
+            "title": "2.3 აქტივების დაგროვება ბიზნეს აქტივებში",
             "items": {
-              "0": "Investitionen über die Gesellschaft"
+              "0": "ინვესტიციები საზოგადოების მეშვეობით"
             }
           }
         }
       },
       "relief": {
-        "title": "Finanzielle Entlastung",
-        "teaser": "Laufende Kosten gezielt reduzieren, insbesondere im PKV-Bereich.",
-        "description": "Gezielte Entlastung der laufenden Kosten, insbesondere im Bereich der PKV.",
+        "title": "ფინანსური შეღავათი",
+        "teaser": "მიმდინარე ხარჯების მიზნობრივი შემცირება, განსაკუთრებით კერძო ჯანმრთელობის დაზღვევის სექტორში.",
+        "description": "მიმდინარე ხარჯების მიზნობრივი შემსუბუქება, განსაკუთრებით კერძო ჯანმრთელობის დაზღვევის სფეროში.",
         "subpoints": {
           "3_1": {
-            "title": "3.1 Analyse der bestehenden Kostenstruktur",
+            "title": "3.1 არსებული ხარჯების სტრუქტურის ანალიზი",
             "items": {
-              "0": "Krankenversicherung",
-              "1": "Altersvorsorge",
-              "2": "Laufende private Verpflichtungen"
+              "0": "ჯანმრთელობის დაზღვევა",
+              "1": "საპენსიო დაგეგმვა",
+              "2": "მუდმივი პირადი ვალდებულებები"
             }
           }
         }
       },
       "pension": {
-        "title": "Steuerfreie Rente",
-        "teaser": "Langfristiger Aufbau steuerfreien Vermögens unter Berücksichtigung der gesetzlichen Haltedauer.",
-        "description": "Aufbau der steuerfreien Rente mit Fokus auf gesetzliche Haltedauer, langfristige Planung und rechtssicheren Vermögensaufbau.",
+        "title": "გადასახადის გარეშე პენსია",
+        "teaser": "დაუბეგრავი აქტივების გრძელვადიანი დაგროვება კანონიერი შენახვის პერიოდის გათვალისწინებით.",
+        "description": "გადასახადებისგან თავისუფალი პენსიის აშენება კანონით დადგენილ პერიოდებზე, გრძელვადიან დაგეგმვასა და კანონიერად უსაფრთხო აქტივების დაგროვებაზე აქცენტით.",
         "subpoints": {
           "4_1": {
-            "title": "4.1 Grundprinzip des steuerfreien Vermögensaufbaus",
+            "title": "4.1 დაუბეგრავი აქტივების დაგროვების ძირითადი პრინციპი",
             "items": {
-              "0": "Investition mit langfristiger Haltedauer",
-              "1": "Nutzung gesetzlicher Steuerbefreiungen",
-              "2": "Planung über mindestens 10+ Jahre"
+              "0": "ინვესტიცია გრძელვადიანი შენახვის ვადით",
+              "1": "კანონით დადგენილი საგადასახადო შეღავათების გამოყენება",
+              "2": "დაგეგმეთ მინიმუმ 10+ წელი"
             }
           }
         }

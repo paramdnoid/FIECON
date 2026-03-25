@@ -15,12 +15,12 @@
     "services": "Služby",
     "approach": "Prístup",
     "offices": "Kancelárie",
-    "contact": "Kontakt",
+    "contact": "kontakt",
     "navigation": "Navigácia",
     "close_menu": "Zavrieť menu",
     "skip_to_content": "Prejsť na obsah",
     "gesetze": "Legislatíva",
-    "four_point_plan": "Vier-Punkte-Plan"
+    "four_point_plan": "Štvorbodový plán"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -82,12 +82,12 @@
       }
     },
     "private_health_insurance": {
-      "title": "PKV für selbstständige Unternehmer",
-      "description": "Wir begleiten Selbstständige bei der Auswahl, Strukturierung und Optimierung einer privaten Krankenversicherung — individuell auf Einkommenssituation, Leistungsbedarf und langfristige Planung abgestimmt.",
+      "title": "PKV pre živnostníkov",
+      "description": "Podporujeme živnostníkov pri výbere, štruktúrovaní a optimalizácii súkromného zdravotného poistenia – individuálne prispôsobeného ich príjmovej situácii, potrebám dávok a dlhodobému plánovaniu.",
       "items": {
-        "0": "Tarifvergleich & Auswahl",
-        "1": "Leistungs- und Beitragsoptimierung",
-        "2": "Langfristige Absicherungsstrategie"
+        "0": "Porovnanie a výber taríf",
+        "1": "Optimalizácia výkonu a prínosu",
+        "2": "Dlhodobá hedgingová stratégia"
       }
     },
     "focus_headline": "Kľúčové oblasti činnosti",
@@ -117,21 +117,21 @@
     "laws": {
       "kwg": {
         "abbreviation": "KWG",
-        "name": "Kreditwesengesetz",
+        "name": "Zákon o bankách",
         "description": "Upravuje licenčné požiadavky pre bankové operácie a finančné služby v Nemecku. KWG tvorí základ dohľadu BaFin a definuje v § 1 KWG kľúčové pojmy a v § 25a KWG požiadavky na riadnu organizáciu podnikania."
       },
       "vag": {
         "abbreviation": "VAG",
-        "name": "Versicherungsaufsichtsgesetz",
+        "name": "Zákon o dohľade nad poisťovníctvom",
         "description": "Upravuje dohľad nad poisťovňami a slúži na ochranu poistencov. VAG zabezpečuje, že poisťovatelia môžu trvalo plniť svoje záväzky a sú riadne spravovaní."
       },
       "estg": {
         "abbreviation": "EStG",
-        "name": "Einkommensteuergesetz",
+        "name": "Zákon o dani z príjmov",
         "description": "Upravuje zdaňovanie príjmov fyzických osôb v Nemecku. EStG definuje druhy príjmov, daňové úľavy a sadzby dane a tvorí základ zdaňovania osobných príjmov."
       }
     },
-    "mehr_erfahren": "Mehr erfahren"
+    "mehr_erfahren": "Zistite viac"
   },
   "approach": {
     "badge": "Náš prístup",
@@ -182,7 +182,7 @@
     }
   },
   "contact": {
-    "badge": "Kontakt",
+    "badge": "kontakt",
     "headline": "Poďme sa porozprávať",
     "subtitle": "Či už ide o prvú otázku alebo konkrétny projekt — máme na vás čas.",
     "phone": "Telefón",
@@ -221,7 +221,7 @@
     "services_title": "Služby",
     "offices_title": "Kancelárie",
     "legal_title": "Právne informácie",
-    "impressum": "Impressum",
+    "impressum": "odtlačok",
     "datenschutz": "Ochrana osobných údajov",
     "copyright": "© {year} FIECON Consulting UG & Co KG. Všetky práva vyhradené."
   },
@@ -278,9 +278,9 @@
     "competency_4_description": "Budovanie a optimalizácia digitálnej infraštruktúry pre podniky — od serverovej administrácie po integráciu moderných cloudových riešení."
   },
   "impressum": {
-    "title": "Impressum",
+    "title": "odtlačok",
     "info_title": "Informácie podľa § 5 TMG",
-    "contact_title": "Kontakt",
+    "contact_title": "kontakt",
     "phone_label": "Telefón",
     "mobile_label": "Mobil",
     "email_label": "E-mail",
@@ -324,7 +324,7 @@
     "section_7_title": "7. Zmeny týchto zásad ochrany osobných údajov",
     "section_7_text": "Tieto zásady ochrany osobných údajov sú v súčasnosti platné. V dôsledku ďalšieho vývoja našich webových stránok alebo zmien právnych či regulačných požiadaviek môže byť potrebné tieto zásady ochrany osobných údajov upraviť.",
     "email_label": "E-mail",
-    "contact_label": "Kontakt"
+    "contact_label": "kontakt"
   },
   "team": {
     "nav_label": "Tím",
@@ -365,159 +365,159 @@
     "service_yacht": "Financovanie stavby jácht"
   },
   "gesetze_page": {
-    "meta_title": "Rechtliche Grundlagen — KWG, VAG & EStG",
-    "meta_description": "FIECON erläutert die regulatorischen Grundlagen: Kreditwesengesetz, Versicherungsaufsichtsgesetz und Einkommensteuergesetz — und wie wir Mandanten dabei begleiten.",
-    "breadcrumb_home": "Startseite",
-    "breadcrumb_current": "Gesetze",
-    "hero_badge": "Regulatorischer Rahmen",
-    "hero_headline": "Rechtliche Grundlagen",
-    "hero_intro_1": "Die Beratungspraxis von FIECON ist tief im deutschen und europäischen Regulierungsrahmen verankert. Das Kreditwesengesetz, das Versicherungsaufsichtsgesetz und das Einkommensteuergesetz bilden die rechtliche Grundlage für wesentliche Teile unserer täglichen Beratungsarbeit — von der Strukturierung internationaler Gesellschaften bis zur steuerlichen Optimierung für Unternehmer.",
-    "hero_intro_2": "Auf dieser Seite stellen wir Ihnen die drei zentralen Gesetze vor, erläutern ihre wesentlichen Regelungsbereiche und zeigen, wie FIECON Mandanten konkret dabei unterstützt, die Anforderungen dieser Regelwerke rechtssicher und effizient zu erfüllen.",
+    "meta_title": "Právny základ — KWG, VAG & EStG",
+    "meta_description": "FIECON vysvetľuje regulačný základ: zákon o bankách, zákon o dohľade nad poisťovníctvom a zákon o dani z príjmov – a ako v tomto smere podporujeme klientov.",
+    "breadcrumb_home": "Domovská stránka",
+    "breadcrumb_current": "zákonov",
+    "hero_badge": "regulačný rámec",
+    "hero_headline": "Právny základ",
+    "hero_intro_1": "Poradenská prax spoločnosti FIECON je hlboko ukotvená v nemeckom a európskom regulačnom rámci. Zákon o bankách, zákon o dohľade nad poisťovníctvom a zákon o dani z príjmov tvoria právny základ pre podstatné časti našej každodennej poradenskej práce – od štruktúrovania medzinárodných spoločností až po daňovú optimalizáciu pre podnikateľov.",
+    "hero_intro_2": "Na tejto stránke vám predstavíme tri centrálne zákony, vysvetlíme ich kľúčové regulačné oblasti a ukážeme, ako FIECON špecificky podporuje klientov pri plnení požiadaviek týchto predpisov právne bezpečným a efektívnym spôsobom.",
     "hero_chip_kwg": "KWG",
     "hero_chip_vag": "VAG",
     "hero_chip_estg": "EStG",
     "kwg_abbreviation": "KWG",
-    "kwg_name": "Kreditwesengesetz",
-    "kwg_intro": "Das Kreditwesengesetz (KWG) bildet das Fundament der deutschen Bankenaufsicht. Es regelt, unter welchen Voraussetzungen Unternehmen Bankgeschäfte oder Finanzdienstleistungen erbringen dürfen, und legt die Anforderungen an Organisation, Kapitalausstattung und interne Kontrolle fest. Die Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin) überwacht auf Grundlage des KWG alle erlaubnispflichtigen Institute in Deutschland.",
-    "kwg_detail": "Für Unternehmen, die Bankgeschäfte betreiben oder Finanzdienstleistungen erbringen wollen, ist die Erlaubnispflicht nach § 32 KWG von zentraler Bedeutung. Das KWG definiert in § 1 einen breiten Katalog erlaubnispflichtiger Tätigkeiten — von der Kreditvergabe über die Anlageberatung bis hin zur Abschlussvermittlung. Gleichzeitig verpflichtet § 25a Institute zu einer ordnungsgemäßen Geschäftsorganisation mit angemessenem Risikomanagement.",
-    "kwg_provisions_headline": "Wesentliche Regelungen",
-    "kwg_provision_0": "§ 1 KWG — Begriffsbestimmungen: Abschließende Definition aller erlaubnispflichtigen Bank- und Finanzdienstleistungsgeschäfte, einschließlich Kreditgeschäft, Einlagengeschäft und Anlageberatung.",
-    "kwg_provision_1": "§ 25a KWG — Besondere organisatorische Pflichten: Anforderungen an eine ordnungsgemäße Geschäftsorganisation mit angemessenem Risikomanagement, internen Kontrollverfahren und Compliance-Strukturen.",
-    "kwg_provision_2": "§ 32 KWG — Erlaubnispflicht: Verbot der gewerbsmäßigen Erbringung von Bankgeschäften und Finanzdienstleistungen ohne schriftliche Erlaubnis der BaFin.",
-    "kwg_provision_3": "§ 44 KWG — Prüfungsrechte der BaFin: Befugnisse der Aufsichtsbehörde zur Durchführung von Prüfungen bei Instituten und zur Anforderung von Auskünften und Unterlagen.",
-    "kwg_consulting_headline": "FIECON-Beratung im KWG-Kontext",
-    "kwg_consulting_text": "FIECON begleitet Unternehmen und Gründer bei der Prüfung der Erlaubnispflicht nach dem KWG, bei der Vorbereitung und Einreichung von BaFin-Erlaubnisanträgen sowie bei der Implementierung der organisatorischen Anforderungen nach § 25a KWG. Wir unterstützen auch bei der laufenden regulatorischen Compliance und der Kommunikation mit der Aufsichtsbehörde.",
+    "kwg_name": "Zákon o bankách",
+    "kwg_intro": "Zákon o bankách (KWG) tvorí základ nemeckého bankového dohľadu. Upravuje podmienky, za ktorých môžu spoločnosti poskytovať bankové alebo finančné služby a špecifikuje požiadavky na organizáciu, kapitálové zdroje a vnútornú kontrolu. Spolkový úrad pre finančný dohľad (BaFin) monitoruje všetky inštitúcie v Nemecku, ktoré vyžadujú povolenie na základe KWG.",
+    "kwg_detail": "Pre spoločnosti, ktoré vykonávajú bankovú činnosť alebo chcú poskytovať finančné služby, má kľúčový význam požiadavka povolenia v súlade s § 32 KWG. V časti 1 KWG definuje široký katalóg činností, ktoré si vyžadujú povolenie – od poskytovania úverov až po investičné poradenstvo a sprostredkovateľské obchody. Paragraf 25a zároveň ukladá inštitúciám povinnosť mať riadnu obchodnú organizáciu s primeraným riadením rizík.",
+    "kwg_provisions_headline": "Základné predpisy",
+    "kwg_provision_0": "§ 1 KWG - Definície: Konečná definícia všetkých transakcií bankových a finančných služieb vyžadujúcich povolenie, vrátane úverových obchodov, vkladov a investičného poradenstva.",
+    "kwg_provision_1": "§ 25a KWG – Osobitné organizačné povinnosti: Požiadavky na riadnu organizáciu podnikania s primeraným riadením rizík, internými kontrolnými postupmi a štruktúrami dodržiavania predpisov.",
+    "kwg_provision_2": "§ 32 KWG - Povinnosť získať povolenie: Zákaz komerčného poskytovania bankových transakcií a finančných služieb bez písomného povolenia BaFin.",
+    "kwg_provision_3": "§ 44 KWG - Práva auditu BaFin: Právomoci dozorného orgánu vykonávať audity inštitúcií a požadovať informácie a dokumenty.",
+    "kwg_consulting_headline": "Poradenstvo FIECON v kontexte KWG",
+    "kwg_consulting_text": "FIECON podporuje spoločnosti a zakladateľov pri kontrole požiadavky na autorizáciu podľa KWG, pri príprave a podávaní žiadostí o autorizáciu BaFin a pri implementácii organizačných požiadaviek podľa § 25a KWG. Podporujeme aj priebežné dodržiavanie predpisov a komunikáciu s dozorným orgánom.",
     "vag_abbreviation": "VAG",
-    "vag_name": "Versicherungsaufsichtsgesetz",
-    "vag_intro": "Das Versicherungsaufsichtsgesetz (VAG) regelt die staatliche Aufsicht über Versicherungsunternehmen in Deutschland und dient in erster Linie dem Schutz der Versicherungsnehmer. Es setzt die europäische Solvency II-Richtlinie in deutsches Recht um und stellt sicher, dass Versicherer dauerhaft in der Lage sind, ihre Verpflichtungen gegenüber den Versicherten zu erfüllen.",
-    "vag_detail": "Das VAG verpflichtet Versicherungsunternehmen zur Einhaltung umfangreicher Kapitalanforderungen (Solvency Capital Requirement und Minimum Capital Requirement) sowie zur ordnungsgemäßen Geschäftsführung durch geeignete und zuverlässige Personen. Für private Krankenversicherer gelten besondere Bestimmungen zur Kalkulation der Prämien und zur Bildung von Alterungsrückstellungen — ein Bereich, der für die Beratung selbstständiger Unternehmer besonders relevant ist.",
-    "vag_provisions_headline": "Wesentliche Regelungen",
-    "vag_provision_0": "§ 11 VAG — Erlaubnispflicht: Verbot des Betriebs von Versicherungsgeschäften ohne Erlaubnis der BaFin, verbunden mit einem Katalog der erlaubnispflichtigen Versicherungssparten.",
-    "vag_provision_1": "§ 124 VAG — Kapitalanlagemanagement: Anforderungen an die Anlage der Vermögenswerte nach dem Grundsatz der unternehmerischen Vorsicht (Prudent Person Principle).",
-    "vag_provision_2": "§ 22 VAG — Geschäftsleiter: Anforderungen an Zuverlässigkeit und fachliche Eignung der verantwortlichen Personen in Schlüsselfunktionen eines Versicherungsunternehmens.",
-    "vag_provision_3": "§ 294 VAG — Aufsichtsbefugnisse der BaFin: Umfangreiche Aufsichts- und Eingriffsbefugnisse der Bundesanstalt gegenüber beaufsichtigten Versicherungsunternehmen.",
-    "vag_consulting_headline": "FIECON-Beratung im VAG-Kontext",
-    "vag_consulting_text": "FIECON berät bei der Strukturierung von Versicherungslösungen für internationale Unternehmer und Selbstständige, insbesondere im Bereich der privaten Krankenversicherung (PKV). Wir analysieren Tarifstrukturen unter Berücksichtigung der aufsichtsrechtlichen Vorgaben des VAG und begleiten Mandanten bei der optimalen Absicherung ihrer persönlichen Risiken.",
+    "vag_name": "Zákon o dohľade nad poisťovníctvom",
+    "vag_intro": "Zákon o dohľade nad poisťovníctvom (VAG) upravuje štátny dozor nad poisťovňami v Nemecku a slúži predovšetkým na ochranu poistencov. Implementuje európsku smernicu Solventnosť II do nemeckého práva a zabezpečuje, aby boli poisťovatelia trvalo schopní plniť svoje záväzky voči poisteným.",
+    "vag_detail": "VAG zaväzuje poisťovne, aby dodržiavali rozsiahle kapitálové požiadavky (požiadavka na kapitálovú solventnosť a minimálna kapitálová požiadavka), ako aj riadne riadenie vhodnými a spoľahlivými ľuďmi. Pre súkromné ​​zdravotné poisťovne platia osobitné predpisy týkajúce sa výpočtu poistného a tvorby rezerv na starnutie – oblasť, ktorá je obzvlášť dôležitá pre poradenstvo živnostníkom.",
+    "vag_provisions_headline": "Základné predpisy",
+    "vag_provision_0": "§ 11 VAG - Povinnosť získať oprávnenie: Zákaz vykonávania poisťovacej činnosti bez povolenia BaFin v spojení s katalógom poistných línií vyžadujúcich oprávnenie.",
+    "vag_provision_1": "§ 124 VAG - Riadenie kapitálových investícií: Požiadavky na investovanie majetku v súlade so zásadou obozretnosti podnikania (Princíp obozretnej osoby).",
+    "vag_provision_2": "§ 22 VAG - Vedúci pracovníci: Požiadavky na spoľahlivosť a odbornú spôsobilosť zodpovedných osôb v kľúčových funkciách poisťovne.",
+    "vag_provision_3": "§ 294 VAG – Dozorné právomoci BaFin: Rozsiahle kontrolné a intervenčné právomoci Spolkového úradu pre finančný dohľad voči dohliadaným poisťovniam.",
+    "vag_consulting_headline": "Poradenstvo FIECON v kontexte VAG",
+    "vag_consulting_text": "FIECON radí pri štruktúrovaní poistných riešení pre medzinárodných podnikateľov a živnostníkov, najmä v oblasti súkromného zdravotného poistenia (PKV). Analyzujeme tarifné štruktúry s ohľadom na regulačné požiadavky VAG a podporujeme klientov pri optimálnom zabezpečení ich osobných rizík.",
     "estg_abbreviation": "EStG",
-    "estg_name": "Einkommensteuergesetz",
-    "estg_intro": "Das Einkommensteuergesetz (EStG) regelt die Besteuerung des Einkommens natürlicher Personen in Deutschland. Als das zentrale Steuergesetz für Privatpersonen und Selbstständige definiert es die sieben Einkunftsarten, die persönlichen Freibeträge sowie die progressiven Steuersätze. Für international tätige Unternehmer ist das EStG besonders bedeutsam, da Deutschland das Welteinkommensprinzip anwendet.",
-    "estg_detail": "Wer in Deutschland unbeschränkt steuerpflichtig ist (§ 1 EStG), muss grundsätzlich sein gesamtes weltweites Einkommen in Deutschland versteuern — unabhängig davon, wo es erzielt wurde. Die korrekte Abgrenzung der Steuerpflicht, die Anwendung von Doppelbesteuerungsabkommen und die steuerlich optimale Gestaltung von Gesellschaftsstrukturen sind daher wesentliche Beratungsfelder für international tätige Mandanten.",
-    "estg_provisions_headline": "Wesentliche Regelungen",
-    "estg_provision_0": "§ 1 EStG — Unbeschränkte Steuerpflicht: Natürliche Personen mit Wohnsitz oder gewöhnlichem Aufenthalt in Deutschland unterliegen der unbeschränkten Einkommensteuerpflicht auf ihr Welteinkommen.",
-    "estg_provision_1": "§ 2 EStG — Einkunftsarten: Abschließende Definition der sieben Einkunftsarten, darunter Einkünfte aus Gewerbebetrieb, aus selbstständiger Arbeit und aus Kapitalvermögen.",
-    "estg_provision_2": "§ 19 EStG — Einkünfte aus nichtselbstständiger Arbeit: Regelung der Besteuerung von Arbeitslohn, Gehalt, Gratifikationen und geldwerten Vorteilen aus einem Arbeitsverhältnis.",
-    "estg_provision_3": "§ 49 EStG — Beschränkte Steuerpflicht: Besteuerung von Einkünften aus deutschen Quellen bei Personen ohne Wohnsitz in Deutschland — relevant für ausländische Gesellschafter und Geschäftsführer.",
-    "estg_consulting_headline": "FIECON-Beratung im EStG-Kontext",
-    "estg_consulting_text": "FIECON begleitet international tätige Unternehmer, Gesellschafter und Selbstständige bei der Analyse und Optimierung ihrer steuerlichen Situation unter dem EStG. Wir prüfen die persönliche Steuerpflicht, die Anwendbarkeit von Doppelbesteuerungsabkommen und entwickeln steuerlich effiziente Gesellschafts- und Vergütungsstrukturen. Für Selbstständige beraten wir zudem zur steuerlich optimalen Gestaltung der Vorsorge, insbesondere im Zusammenspiel mit der privaten Krankenversicherung.",
-    "cta_headline": "Regulatorische Fragen? Wir haben die Antworten.",
-    "cta_subline": "Ob KWG-Erlaubnisantrag, VAG-konforme Versicherungsstruktur oder steuerliche Optimierung nach EStG — sprechen Sie uns an.",
+    "estg_name": "Zákon o dani z príjmov",
+    "estg_intro": "Zákon o dani z príjmov (EStG) upravuje zdaňovanie príjmov fyzických osôb v Nemecku. Ako centrálny daňový zákon pre fyzické osoby a samostatne zárobkovo činné osoby definuje sedem druhov príjmov, osobné príplatky a progresívne daňové sadzby. EStG je obzvlášť dôležité pre medzinárodne aktívnych podnikateľov, pretože Nemecko uplatňuje princíp globálneho príjmu.",
+    "estg_detail": "Každý, kto má neobmedzenú daňovú povinnosť v Nemecku (§ 1 EStG), musí vo všeobecnosti zaplatiť daň z celého svojho celosvetového príjmu v Nemecku – bez ohľadu na to, kde ho zarobil. Správna definícia daňovej povinnosti, uplatňovanie zmlúv o zamedzení dvojitého zdanenia a daňovo optimálny návrh podnikových štruktúr sú preto základnými oblasťami poradenstva pre medzinárodne aktívnych klientov.",
+    "estg_provisions_headline": "Základné predpisy",
+    "estg_provision_0": "§ 1 EStG - Neobmedzená daňová povinnosť: Fyzické osoby s trvalým pobytom alebo obvyklým pobytom v Nemecku podliehajú neobmedzenej dani z príjmu zo svojich celosvetových príjmov.",
+    "estg_provision_1": "§ 2 EStG – Druhy príjmov: Konečná definícia siedmich druhov príjmov vrátane príjmov z obchodnej činnosti, zo samostatnej zárobkovej činnosti a z kapitálového majetku.",
+    "estg_provision_2": "§ 19 EStG - Príjmy zo zamestnania: Úprava zdaňovania miezd, platov, prémií a peňažných plnení z pracovného pomeru.",
+    "estg_provision_3": "§ 49 EStG - Obmedzená daňová povinnosť: Zdaňovanie príjmov z nemeckých zdrojov pre osoby bez bydliska v Nemecku - relevantné pre zahraničných akcionárov a konateľov.",
+    "estg_consulting_headline": "Poradenstvo FIECON v kontexte EStG",
+    "estg_consulting_text": "FIECON podporuje medzinárodne aktívnych podnikateľov, akcionárov a samostatne zárobkovo činné osoby pri analýze a optimalizácii ich daňovej situácie v rámci EStG. Skúmame daňovú povinnosť fyzických osôb, uplatniteľnosť zmlúv o zamedzení dvojitého zdanenia a rozvíjame daňovo efektívne podnikové a odmeňovacie štruktúry. Pre živnostníkov tiež poradíme s optimálnou daňovou štruktúrou dôchodkového zabezpečenia, najmä v spojení so súkromným zdravotným poistením.",
+    "cta_headline": "Regulačné otázky? Máme odpovede.",
+    "cta_subline": "Či už ide o žiadosť o povolenie KWG, štruktúru poistenia v súlade s VAG alebo daňovú optimalizáciu podľa EStG – porozprávajte sa s nami.",
     "cta_button": "Odoslať e-mail",
-    "cta_back": "Zur Startseite",
-    "kwg_provision_4": "§ 46 KWG — Maßnahmen bei Gefahr: Eingriffsbefugnisse der BaFin bei aufsichtsrechtlichen Missständen, insbesondere zur Sicherung der ordnungsgemäßen Geschäftsführung und zum Schutz von Gläubigern.",
-    "vag_provision_4": "§ 311 VAG — Besondere Vorgaben für die private Krankenversicherung: Regelungen zur Kalkulation, Prämienanpassung und dauerhaften Finanzierung über Alterungsrückstellungen.",
-    "estg_provision_4": "§ 22 EStG — Sonstige Einkünfte: Besteuerung insbesondere von wiederkehrenden Bezügen wie Renten sowie bestimmter weiterer Einkünfte außerhalb der klassischen Einkunftsarten.",
-    "estg_provision_5": "§ 23 EStG — Private Veräußerungsgeschäfte: Steuerliche Erfassung von Gewinnen aus der Veräußerung privater Wirtschaftsgüter innerhalb der gesetzlichen Haltefristen."
+    "cta_back": "Na domovskú stránku",
+    "kwg_provision_4": "§ 46 KWG – Opatrenia v prípade nebezpečenstva: Právomoci BaFin zasiahnuť v prípade regulačných sťažností, najmä zabezpečiť riadne hospodárenie a chrániť veriteľov.",
+    "vag_provision_4": "§ 311 VAG - Osobitné požiadavky na súkromné ​​zdravotné poistenie: predpisy pre výpočet, úpravu poistného a trvalé financovanie prostredníctvom starobných rezerv.",
+    "estg_provision_4": "§ 22 EStG - Ostatné príjmy: Zdaňovanie najmä opakujúcich sa platieb, ako sú dôchodky a niektorých iných príjmov mimo klasických druhov príjmov.",
+    "estg_provision_5": "§ 23 EStG - Súkromné ​​predajné transakcie: Daňové uznanie ziskov z predaja súkromného majetku v rámci zákonom stanovených období držby."
   },
   "fourPointPlan": {
-    "badge": "Vier-Punkte-Plan",
-    "headline": "Unser Vier-Punkte-Plan zur finanziellen Unabhängigkeit",
-    "subtitle": "Strukturierte Gesamtstrategie mit operativer Umsetzung und langfristiger Vermögenssicherung.",
-    "intro": "Der Plan folgt der klassischen unternehmerischen Logik: Struktur aufbauen, Steuern optimieren, Kosten senken und Vermögen langfristig steuerfrei aufbauen. Entscheidend ist nicht nur die Strategie, sondern die saubere Umsetzung im Tagesgeschäft.",
-    "cta_details": "Detaillierten Plan ansehen",
+    "badge": "Štvorbodový plán",
+    "headline": "Náš štvorbodový plán finančnej nezávislosti",
+    "subtitle": "Štruktúrovaná celková stratégia s prevádzkovou implementáciou a dlhodobou ochranou majetku.",
+    "intro": "Plán sleduje klasickú podnikateľskú logiku: vybudovať štruktúru, optimalizovať dane, znížiť náklady a dlhodobo budovať majetok bez dane. Nie je dôležitá len stratégia, ale aj jej správna implementácia v každodennom biznise.",
+    "cta_details": "Zobraziť podrobný plán",
     "detail": {
-      "meta_title": "Vier-Punkte-Plan zur finanziellen Unabhängigkeit",
-      "meta_description": "Detaillierte Darstellung des FIECON Vier-Punkte-Plans: Strategie und Organisation, steuerliche Optimierung, finanzielle Entlastung und steuerfreier Vermögensaufbau.",
-      "headline": "Vier-Punkte-Plan im Detail",
-      "subtitle": "Detaillierte Ausarbeitung aller Maßnahmen, Teilbereiche und operativen Umsetzungsschritte.",
-      "navigation_label": "Interaktive Navigation",
-      "focus_label": "Aktiver Schwerpunkt",
-      "subpoints_label": "Teilbereiche",
-      "items_label": "Maßnahmen",
-      "cta_panel_title": "Vom Plan zur Umsetzung",
-      "cta_panel_text": "Wir begleiten Sie nicht nur bei der Strategie, sondern bei der operativen Implementierung jeder einzelnen Maßnahme.",
-      "cta_contact": "Strategiegespräch vereinbaren",
-      "cta_back_home": "Zur Startseite"
+      "meta_title": "Štvorbodový plán finančnej nezávislosti",
+      "meta_description": "Podrobná prezentácia štvorbodového plánu FIECON: stratégia a organizácia, daňová optimalizácia, finančné úľavy a nezdaniteľné vytváranie bohatstva.",
+      "headline": "Štvorbodový plán podrobne",
+      "subtitle": "Podrobné rozpracovanie všetkých opatrení, podoblastí a operatívnych realizačných krokov.",
+      "navigation_label": "Interaktívna navigácia",
+      "focus_label": "Aktívne zameranie",
+      "subpoints_label": "Čiastkové oblasti",
+      "items_label": "Opatrenia",
+      "cta_panel_title": "Od plánu až po realizáciu",
+      "cta_panel_text": "Podporujeme vás nielen pri stratégii, ale aj pri operatívnej implementácii každého jednotlivého opatrenia.",
+      "cta_contact": "Dohodnite si strategické stretnutie",
+      "cta_back_home": "Na domovskú stránku"
     },
     "points": {
       "strategy": {
-        "title": "Strategie und Organisation",
-        "teaser": "Klare Zielstruktur und effiziente Umsetzung im Tagesgeschäft.",
-        "description": "Umsetzung des Tagesgeschäfts mit klaren Verantwortlichkeiten und belastbarer Struktur.",
+        "title": "Stratégia a organizácia",
+        "teaser": "Jasná cieľová štruktúra a efektívna implementácia v každodennom podnikaní.",
+        "description": "Implementácia každodenného podnikania s jasnými zodpovednosťami a odolnou štruktúrou.",
         "subpoints": {
           "1_1": {
-            "title": "1.1 Klare Definition der geschäftlichen Zielstruktur",
+            "title": "1.1 Jasná definícia obchodnej cieľovej štruktúry",
             "items": {
-              "0": "Festlegung der Unternehmensform(en) und Beteiligungsstruktur",
-              "1": "Erweiterung bestehender Geschäftsmodelle",
-              "2": "Trennung von operativem Geschäft und Vermögensverwaltung",
-              "3": "Aufbau einer rechtssicheren Organisationsstruktur"
+              "0": "Určenie formy (foriem) spoločnosti a akcionárskej štruktúry",
+              "1": "Rozšírenie existujúcich obchodných modelov",
+              "2": "Oddelenie operatívneho obchodu a správy majetku",
+              "3": "Vybudovanie právne zabezpečenej organizačnej štruktúry"
             }
           },
           "1_2": {
-            "title": "1.2 Effiziente Organisation des Tagesgeschäfts",
+            "title": "1.2 Efektívna organizácia každodenného podnikania",
             "items": {
-              "0": "Standardisierung von Abläufen",
-              "1": "Delegation operativer Tätigkeiten",
-              "2": "Nutzung externer Dienstleister (Steuerberater, Buchhaltung, Verwaltung)"
+              "0": "Štandardizácia procesov",
+              "1": "Delegovanie operačných činností",
+              "2": "Využitie externých poskytovateľov služieb (daňoví poradcovia, účtovníctvo, administratíva)"
             }
           }
         }
       },
       "tax": {
-        "title": "Steuerliche Optimierung",
-        "teaser": "Gesellschafts- und Gewinnstruktur steuerlich präzise ausrichten.",
-        "description": "Rechtskonforme Steuerstruktur, die Liquidität sichert und Wachstum fördert.",
+        "title": "Daňová optimalizácia",
+        "teaser": "Presne zosúladiť štruktúru spoločnosti a zisku na daňové účely.",
+        "description": "Daňová štruktúra v súlade so zákonom, ktorá zabezpečuje likviditu a podporuje rast.",
         "subpoints": {
           "2_1": {
-            "title": "2.1 Wahl der richtigen Gesellschaftsstruktur",
+            "title": "2.1 Výber správnej podnikovej štruktúry",
             "items": {
-              "0": "Kombination aus Kapitalgesellschaft und Personengesellschaft",
-              "1": "Nutzung von Holding-Strukturen",
-              "2": "Trennung von Privatvermögen und Betriebsvermögen"
+              "0": "Spojenie korporácie a partnerstva",
+              "1": "Použitie nosných konštrukcií",
+              "2": "Oddelenie súkromného majetku a obchodného majetku"
             }
           },
           "2_2": {
-            "title": "2.2 Gewinnverlagerung und Gestaltung",
+            "title": "2.2 Presun zisku a dizajn",
             "items": {
-              "0": "Nutzung von Betriebsausgaben",
-              "1": "Gestaltung von Geschäftsführergehalt und Gewinnausschüttung",
-              "2": "Nutzung steuerlicher Freibeträge"
+              "0": "Použitie obchodných výdavkov",
+              "1": "Navrhovanie platov generálnych riaditeľov a rozdelenia zisku",
+              "2": "Použitie daňových úľav"
             }
           },
           "2_3": {
-            "title": "2.3 Vermögensaufbau im Betriebsvermögen",
+            "title": "2.3 Akumulácia majetku v majetku podniku",
             "items": {
-              "0": "Investitionen über die Gesellschaft"
+              "0": "Investície cez spoločnosť"
             }
           }
         }
       },
       "relief": {
-        "title": "Finanzielle Entlastung",
-        "teaser": "Laufende Kosten gezielt reduzieren, insbesondere im PKV-Bereich.",
-        "description": "Gezielte Entlastung der laufenden Kosten, insbesondere im Bereich der PKV.",
+        "title": "Finančná úľava",
+        "teaser": "Cielené znižovanie priebežných nákladov najmä v sektore súkromného zdravotného poistenia.",
+        "description": "Cielené odbúravanie priebežných nákladov najmä v oblasti súkromného zdravotného poistenia.",
         "subpoints": {
           "3_1": {
-            "title": "3.1 Analyse der bestehenden Kostenstruktur",
+            "title": "3.1 Analýza existujúcej štruktúry nákladov",
             "items": {
-              "0": "Krankenversicherung",
-              "1": "Altersvorsorge",
-              "2": "Laufende private Verpflichtungen"
+              "0": "zdravotné poistenie",
+              "1": "Plánovanie odchodu do dôchodku",
+              "2": "Pokračujúce osobné záväzky"
             }
           }
         }
       },
       "pension": {
-        "title": "Steuerfreie Rente",
-        "teaser": "Langfristiger Aufbau steuerfreien Vermögens unter Berücksichtigung der gesetzlichen Haltedauer.",
-        "description": "Aufbau der steuerfreien Rente mit Fokus auf gesetzliche Haltedauer, langfristige Planung und rechtssicheren Vermögensaufbau.",
+        "title": "Dôchodok oslobodený od dane",
+        "teaser": "Dlhodobá akumulácia majetku oslobodeného od dane s prihliadnutím na zákonnú dobu držby.",
+        "description": "Budovanie nezdaniteľného dôchodku so zameraním na zákonom stanovené doby držby, dlhodobé plánovanie a právne zabezpečenú akumuláciu majetku.",
         "subpoints": {
           "4_1": {
-            "title": "4.1 Grundprinzip des steuerfreien Vermögensaufbaus",
+            "title": "4.1 Základný princíp akumulácie majetku oslobodeného od dane",
             "items": {
-              "0": "Investition mit langfristiger Haltedauer",
-              "1": "Nutzung gesetzlicher Steuerbefreiungen",
-              "2": "Planung über mindestens 10+ Jahre"
+              "0": "Investícia s dlhodobou dobou držby",
+              "1": "Využitie zákonných daňových výnimiek",
+              "2": "Plánovanie aspoň na 10+ rokov"
             }
           }
         }

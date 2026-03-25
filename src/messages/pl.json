@@ -117,17 +117,17 @@
     "laws": {
       "kwg": {
         "abbreviation": "KWG",
-        "name": "Kreditwesengesetz",
+        "name": "Ustawa bankowa",
         "description": "Reguluje wymogi licencyjne dla działalności bankowej i usług finansowych w Niemczech. KWG stanowi podstawę nadzoru BaFin i definiuje w § 1 KWG kluczowe pojęcia oraz w § 25a KWG wymogi dotyczące właściwej organizacji działalności."
       },
       "vag": {
         "abbreviation": "VAG",
-        "name": "Versicherungsaufsichtsgesetz",
+        "name": "Ustawa o nadzorze ubezpieczeniowym",
         "description": "Reguluje nadzór nad firmami ubezpieczeniowymi i służy ochronie ubezpieczonych. VAG zapewnia, że ubezpieczyciele mogą trwale wypełniać swoje zobowiązania i są właściwie zarządzani."
       },
       "estg": {
         "abbreviation": "EStG",
-        "name": "Einkommensteuergesetz",
+        "name": "Ustawa o podatku dochodowym",
         "description": "Reguluje opodatkowanie dochodów osób fizycznych w Niemczech. EStG definiuje rodzaje dochodów, kwoty wolne od podatku i stawki podatkowe, stanowiąc podstawę opodatkowania dochodów osobistych."
       }
     },

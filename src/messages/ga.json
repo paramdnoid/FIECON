@@ -20,7 +20,7 @@
     "close_menu": "Dún roghchlár",
     "skip_to_content": "Léim go dtí an t-ábhar",
     "gesetze": "Reachtaíocht",
-    "four_point_plan": "Vier-Punkte-Plan"
+    "four_point_plan": "Plean ceithre phointe"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -117,21 +117,21 @@
     "laws": {
       "kwg": {
         "abbreviation": "KWG",
-        "name": "Kreditwesengesetz",
+        "name": "Acht Baincéireachta",
         "description": "Rialaíonn sé na ceanglais cheadúnais le haghaidh oibríochtaí baincéireachta agus seirbhísí airgeadais sa Ghearmáin. Is é an KWG bunús maoirseacht BaFin agus sainmhíníonn sé in § 1 KWG na príomhthéarmaí chomh maith le § 25a KWG na ceanglais maidir le heagrúchán gnó cuí."
       },
       "vag": {
         "abbreviation": "VAG",
-        "name": "Versicherungsaufsichtsgesetz",
+        "name": "Acht Maoirseachta Arachais",
         "description": "Rialaíonn sé maoirseacht cuideachtaí árachais agus fónann sé chun na n-árachaithe a chosaint. Cinntíonn an VAG gur féidir le hárachóirí a n-oibleagáidí a chomhlíonadh go buan agus go mbainistítear iad go cuí."
       },
       "estg": {
         "abbreviation": "EStG",
-        "name": "Einkommensteuergesetz",
+        "name": "An tAcht Cánach Ioncaim",
         "description": "Rialaíonn sé cánachas ioncaim daoine nádúrtha sa Ghearmáin. Sainmhíníonn an EStG na cineálacha ioncaim, na liúntais saor ó cháin agus na rátaí cánach, ag cruthú bunús na cánach ioncaim phearsanta."
       }
     },
-    "mehr_erfahren": "Mehr erfahren"
+    "mehr_erfahren": "Foghlaim níos mó"
   },
   "approach": {
     "badge": "Ár gcur chuige",
@@ -327,7 +327,7 @@
     "contact_label": "Teagmháil"
   },
   "team": {
-    "nav_label": "Team",
+    "nav_label": "foireann",
     "competencies_headline": "Réimsí inniúlachta",
     "cta_headline": "Cuirimis tús le comhrá",
     "cta_subline": "Cibé an ceist tosaigh nó tionscadal coincréiteach é — glacaimid an t-am duit.",
@@ -365,159 +365,159 @@
     "service_yacht": "Maoiniú tógála luamh"
   },
   "gesetze_page": {
-    "meta_title": "Rechtliche Grundlagen — KWG, VAG & EStG",
-    "meta_description": "FIECON erläutert die regulatorischen Grundlagen: Kreditwesengesetz, Versicherungsaufsichtsgesetz und Einkommensteuergesetz — und wie wir Mandanten dabei begleiten.",
-    "breadcrumb_home": "Startseite",
-    "breadcrumb_current": "Gesetze",
-    "hero_badge": "Regulatorischer Rahmen",
-    "hero_headline": "Rechtliche Grundlagen",
-    "hero_intro_1": "Die Beratungspraxis von FIECON ist tief im deutschen und europäischen Regulierungsrahmen verankert. Das Kreditwesengesetz, das Versicherungsaufsichtsgesetz und das Einkommensteuergesetz bilden die rechtliche Grundlage für wesentliche Teile unserer täglichen Beratungsarbeit — von der Strukturierung internationaler Gesellschaften bis zur steuerlichen Optimierung für Unternehmer.",
-    "hero_intro_2": "Auf dieser Seite stellen wir Ihnen die drei zentralen Gesetze vor, erläutern ihre wesentlichen Regelungsbereiche und zeigen, wie FIECON Mandanten konkret dabei unterstützt, die Anforderungen dieser Regelwerke rechtssicher und effizient zu erfüllen.",
+    "meta_title": "Bunús dlí — KWG, VAG & EStG",
+    "meta_description": "Míníonn FIECON an bunús rialála: an tAcht Baincéireachta, an tAcht um Maoirseacht Árachais agus an tAcht Cánach Ioncaim - agus conas a thacaímid le cliaint ina leith seo.",
+    "breadcrumb_home": "Leathanach baile",
+    "breadcrumb_current": "Dlíthe",
+    "hero_badge": "Creat rialála",
+    "hero_headline": "Bunús dlí",
+    "hero_intro_1": "Tá cleachtas comhairliúcháin FIECON daingnithe go domhain i gcreat rialála na Gearmáine agus na hEorpa. Tá an tAcht Baincéireachta, an tAcht um Maoirseacht Árachais agus an tAcht Cánach Ioncaim mar bhunús dlí le haghaidh codanna riachtanacha dár n-obair chomhairliúcháin laethúil - ó struchtúrú cuideachtaí idirnáisiúnta go barrfheabhsú cánach d'fhiontraithe.",
+    "hero_intro_2": "Ar an leathanach seo cuirimid na trí dhlí lárnach in aithne duit, mínímid a bpríomhréimsí rialála agus léirímid conas a thacaíonn FIECON go sonrach le cliaint chun ceanglais na rialachán seo a chomhlíonadh ar bhealach atá slán agus éifeachtach ó thaobh an dlí.",
     "hero_chip_kwg": "KWG",
     "hero_chip_vag": "VAG",
     "hero_chip_estg": "EStG",
     "kwg_abbreviation": "KWG",
-    "kwg_name": "Kreditwesengesetz",
-    "kwg_intro": "Das Kreditwesengesetz (KWG) bildet das Fundament der deutschen Bankenaufsicht. Es regelt, unter welchen Voraussetzungen Unternehmen Bankgeschäfte oder Finanzdienstleistungen erbringen dürfen, und legt die Anforderungen an Organisation, Kapitalausstattung und interne Kontrolle fest. Die Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin) überwacht auf Grundlage des KWG alle erlaubnispflichtigen Institute in Deutschland.",
-    "kwg_detail": "Für Unternehmen, die Bankgeschäfte betreiben oder Finanzdienstleistungen erbringen wollen, ist die Erlaubnispflicht nach § 32 KWG von zentraler Bedeutung. Das KWG definiert in § 1 einen breiten Katalog erlaubnispflichtiger Tätigkeiten — von der Kreditvergabe über die Anlageberatung bis hin zur Abschlussvermittlung. Gleichzeitig verpflichtet § 25a Institute zu einer ordnungsgemäßen Geschäftsorganisation mit angemessenem Risikomanagement.",
-    "kwg_provisions_headline": "Wesentliche Regelungen",
-    "kwg_provision_0": "§ 1 KWG — Begriffsbestimmungen: Abschließende Definition aller erlaubnispflichtigen Bank- und Finanzdienstleistungsgeschäfte, einschließlich Kreditgeschäft, Einlagengeschäft und Anlageberatung.",
-    "kwg_provision_1": "§ 25a KWG — Besondere organisatorische Pflichten: Anforderungen an eine ordnungsgemäße Geschäftsorganisation mit angemessenem Risikomanagement, internen Kontrollverfahren und Compliance-Strukturen.",
-    "kwg_provision_2": "§ 32 KWG — Erlaubnispflicht: Verbot der gewerbsmäßigen Erbringung von Bankgeschäften und Finanzdienstleistungen ohne schriftliche Erlaubnis der BaFin.",
-    "kwg_provision_3": "§ 44 KWG — Prüfungsrechte der BaFin: Befugnisse der Aufsichtsbehörde zur Durchführung von Prüfungen bei Instituten und zur Anforderung von Auskünften und Unterlagen.",
-    "kwg_consulting_headline": "FIECON-Beratung im KWG-Kontext",
-    "kwg_consulting_text": "FIECON begleitet Unternehmen und Gründer bei der Prüfung der Erlaubnispflicht nach dem KWG, bei der Vorbereitung und Einreichung von BaFin-Erlaubnisanträgen sowie bei der Implementierung der organisatorischen Anforderungen nach § 25a KWG. Wir unterstützen auch bei der laufenden regulatorischen Compliance und der Kommunikation mit der Aufsichtsbehörde.",
+    "kwg_name": "Acht Baincéireachta",
+    "kwg_intro": "Tá an tAcht Baincéireachta (KWG) mar bhunús do mhaoirseacht baincéireachta na Gearmáine. Rialaíonn sé na coinníollacha faoina bhféadfaidh cuideachtaí seirbhísí baincéireachta nó airgeadais a sholáthar agus sonraítear na ceanglais maidir le heagrú, acmhainní caipitil agus rialú inmheánach. Déanann an tÚdarás Feidearálach Maoirseachta Airgeadais (BaFin) monatóireacht ar gach institiúid sa Ghearmáin a dteastaíonn údarú uathu ar bhonn an KWG.",
+    "kwg_detail": "I gcás cuideachtaí a sheolann gnó baincéireachta nó ar mian leo seirbhísí airgeadais a sholáthar, tá an ceanglas údaraithe de réir Alt 32 den KWG ríthábhachtach. I gCuid 1, sainmhíníonn an KWG catalóg leathan de ghníomhaíochtaí a éilíonn údarú - ó iasachtaí a dheonú go comhairle infheistíochta agus margaí bróicéireachta. Ag an am céanna, cuireann Alt 25a d’oibleagáid ar institiúidí eagraíocht cheart gnó a bheith acu le bainistíocht riosca iomchuí.",
+    "kwg_provisions_headline": "Rialacháin riachtanacha",
+    "kwg_provision_0": "§ 1 KWG - Sainmhínithe: Sainmhíniú deiridh ar gach idirbheart baincéireachta agus seirbhísí airgeadais óna dteastaíonn údarú, lena n-áirítear gnó iasachtaithe, gnó taisce agus comhairle infheistíochta.",
+    "kwg_provision_1": "§ 25a KWG — Oibleagáidí eagraíochtúla speisialta: Ceanglais maidir le heagraíocht cheart gnó le bainistíocht riosca chuí, nósanna imeachta rialaithe inmheánaigh agus struchtúir chomhlíonta.",
+    "kwg_provision_2": "§ 32 KWG - Oibleagáid cead a fháil: Toirmeasc ar sholáthar tráchtála idirbheart baincéireachta agus seirbhísí airgeadais gan cead scríofa ó BaFin.",
+    "kwg_provision_3": "Alt 44 KWG - Cearta iniúchta BaFin: Cumhachtaí an údaráis mhaoirseachta iniúchtaí a dhéanamh ar institiúidí agus faisnéis agus doiciméid a iarraidh.",
+    "kwg_consulting_headline": "Comhairliúchán FIECON i gcomhthéacs KWG",
+    "kwg_consulting_text": "Tacaíonn FIECON le cuideachtaí agus le bunaitheoirí an ceanglas údaraithe a sheiceáil de réir an KWG, in ullmhú agus i gcur isteach iarratais údaraithe BaFin agus i gcur i bhfeidhm na gceanglas eagraíochtúil de réir Alt 25a KWG. Tacaímid freisin le comhlíonadh rialála leanúnach agus le cumarsáid leis an údarás maoirseachta.",
     "vag_abbreviation": "VAG",
-    "vag_name": "Versicherungsaufsichtsgesetz",
-    "vag_intro": "Das Versicherungsaufsichtsgesetz (VAG) regelt die staatliche Aufsicht über Versicherungsunternehmen in Deutschland und dient in erster Linie dem Schutz der Versicherungsnehmer. Es setzt die europäische Solvency II-Richtlinie in deutsches Recht um und stellt sicher, dass Versicherer dauerhaft in der Lage sind, ihre Verpflichtungen gegenüber den Versicherten zu erfüllen.",
-    "vag_detail": "Das VAG verpflichtet Versicherungsunternehmen zur Einhaltung umfangreicher Kapitalanforderungen (Solvency Capital Requirement und Minimum Capital Requirement) sowie zur ordnungsgemäßen Geschäftsführung durch geeignete und zuverlässige Personen. Für private Krankenversicherer gelten besondere Bestimmungen zur Kalkulation der Prämien und zur Bildung von Alterungsrückstellungen — ein Bereich, der für die Beratung selbstständiger Unternehmer besonders relevant ist.",
-    "vag_provisions_headline": "Wesentliche Regelungen",
-    "vag_provision_0": "§ 11 VAG — Erlaubnispflicht: Verbot des Betriebs von Versicherungsgeschäften ohne Erlaubnis der BaFin, verbunden mit einem Katalog der erlaubnispflichtigen Versicherungssparten.",
-    "vag_provision_1": "§ 124 VAG — Kapitalanlagemanagement: Anforderungen an die Anlage der Vermögenswerte nach dem Grundsatz der unternehmerischen Vorsicht (Prudent Person Principle).",
-    "vag_provision_2": "§ 22 VAG — Geschäftsleiter: Anforderungen an Zuverlässigkeit und fachliche Eignung der verantwortlichen Personen in Schlüsselfunktionen eines Versicherungsunternehmens.",
-    "vag_provision_3": "§ 294 VAG — Aufsichtsbefugnisse der BaFin: Umfangreiche Aufsichts- und Eingriffsbefugnisse der Bundesanstalt gegenüber beaufsichtigten Versicherungsunternehmen.",
-    "vag_consulting_headline": "FIECON-Beratung im VAG-Kontext",
-    "vag_consulting_text": "FIECON berät bei der Strukturierung von Versicherungslösungen für internationale Unternehmer und Selbstständige, insbesondere im Bereich der privaten Krankenversicherung (PKV). Wir analysieren Tarifstrukturen unter Berücksichtigung der aufsichtsrechtlichen Vorgaben des VAG und begleiten Mandanten bei der optimalen Absicherung ihrer persönlichen Risiken.",
+    "vag_name": "Acht Maoirseachta Arachais",
+    "vag_intro": "Rialaíonn an tAcht um Maoirseacht Árachais (VAG) maoirsiú stáit cuideachtaí árachais sa Ghearmáin agus feidhmíonn sé go príomha chun sealbhóirí polasaí a chosaint. Cuireann sé an Treoir Eorpach um Shócmhainneacht II i bhfeidhm i ndlí na Gearmáine agus áirithíonn sé go bhfuil árachóirí in ann go buan a n-oibleagáidí i leith an árachaí a chomhlíonadh.",
+    "vag_detail": "Cuireann an VAG iallach ar chuideachtaí árachais cloí le ceanglais fhairsinge caipitil (Ceanglas Sócmhainneachta Caipitil agus Ceanglas Caipitil Íosta) chomh maith le bainistíocht chuí ag daoine oiriúnacha iontaofa. Baineann rialacháin speisialta le hárachóirí sláinte príobháideacha maidir le ríomh préimheanna agus foirmiú forálacha aosaithe - réimse atá thar a bheith ábhartha chun comhairle a chur ar fhiontraithe féinfhostaithe.",
+    "vag_provisions_headline": "Rialacháin riachtanacha",
+    "vag_provision_0": "§ 11 VAG - Oibleagáid údarú a fháil: Toirmeasc ar ghnó árachais a sheoladh gan cead BaFin, in éineacht le catalóg de na línte árachais a éilíonn údarú.",
+    "vag_provision_1": "§ 124 VAG - Bainistíocht infheistíochta caipitil: Ceanglais maidir le sócmhainní a infheistiú i gcomhréir le prionsabal na stuamachta fiontraíochta (Prionsabal an Duine Stuama).",
+    "vag_provision_2": "§ 22 VAG - Bainisteoirí: Ceanglais maidir le hiontaofacht agus oiriúnacht ghairmiúil na ndaoine atá freagrach i bpríomhfheidhmeanna cuideachta árachais.",
+    "vag_provision_3": "§ 294 VAG — Cumhachtaí maoirseachta BaFin: Cumhachtaí fairsinge maoirseachta agus idirghabhála an Údaráis Chónaidhme Maoirseachta Airgeadais i leith cuideachtaí árachais faoi mhaoirseacht.",
+    "vag_consulting_headline": "Comhairliúchán FIECON i gcomhthéacs VAG",
+    "vag_consulting_text": "Tugann FIECON comhairle maidir le réitigh árachais a struchtúrú d’fhiontraithe idirnáisiúnta agus do dhaoine féinfhostaithe, go háirithe i réimse an árachais sláinte phríobháidigh (PKV). Déanaimid anailís ar struchtúir taraifí ag cur riachtanais rialála an VAG san áireamh agus tacaímid le cliaint chun a gcuid rioscaí pearsanta a chinntiú go barrmhaith.",
     "estg_abbreviation": "EStG",
-    "estg_name": "Einkommensteuergesetz",
-    "estg_intro": "Das Einkommensteuergesetz (EStG) regelt die Besteuerung des Einkommens natürlicher Personen in Deutschland. Als das zentrale Steuergesetz für Privatpersonen und Selbstständige definiert es die sieben Einkunftsarten, die persönlichen Freibeträge sowie die progressiven Steuersätze. Für international tätige Unternehmer ist das EStG besonders bedeutsam, da Deutschland das Welteinkommensprinzip anwendet.",
-    "estg_detail": "Wer in Deutschland unbeschränkt steuerpflichtig ist (§ 1 EStG), muss grundsätzlich sein gesamtes weltweites Einkommen in Deutschland versteuern — unabhängig davon, wo es erzielt wurde. Die korrekte Abgrenzung der Steuerpflicht, die Anwendung von Doppelbesteuerungsabkommen und die steuerlich optimale Gestaltung von Gesellschaftsstrukturen sind daher wesentliche Beratungsfelder für international tätige Mandanten.",
-    "estg_provisions_headline": "Wesentliche Regelungen",
-    "estg_provision_0": "§ 1 EStG — Unbeschränkte Steuerpflicht: Natürliche Personen mit Wohnsitz oder gewöhnlichem Aufenthalt in Deutschland unterliegen der unbeschränkten Einkommensteuerpflicht auf ihr Welteinkommen.",
-    "estg_provision_1": "§ 2 EStG — Einkunftsarten: Abschließende Definition der sieben Einkunftsarten, darunter Einkünfte aus Gewerbebetrieb, aus selbstständiger Arbeit und aus Kapitalvermögen.",
-    "estg_provision_2": "§ 19 EStG — Einkünfte aus nichtselbstständiger Arbeit: Regelung der Besteuerung von Arbeitslohn, Gehalt, Gratifikationen und geldwerten Vorteilen aus einem Arbeitsverhältnis.",
-    "estg_provision_3": "§ 49 EStG — Beschränkte Steuerpflicht: Besteuerung von Einkünften aus deutschen Quellen bei Personen ohne Wohnsitz in Deutschland — relevant für ausländische Gesellschafter und Geschäftsführer.",
-    "estg_consulting_headline": "FIECON-Beratung im EStG-Kontext",
-    "estg_consulting_text": "FIECON begleitet international tätige Unternehmer, Gesellschafter und Selbstständige bei der Analyse und Optimierung ihrer steuerlichen Situation unter dem EStG. Wir prüfen die persönliche Steuerpflicht, die Anwendbarkeit von Doppelbesteuerungsabkommen und entwickeln steuerlich effiziente Gesellschafts- und Vergütungsstrukturen. Für Selbstständige beraten wir zudem zur steuerlich optimalen Gestaltung der Vorsorge, insbesondere im Zusammenspiel mit der privaten Krankenversicherung.",
-    "cta_headline": "Regulatorische Fragen? Wir haben die Antworten.",
-    "cta_subline": "Ob KWG-Erlaubnisantrag, VAG-konforme Versicherungsstruktur oder steuerliche Optimierung nach EStG — sprechen Sie uns an.",
+    "estg_name": "An tAcht Cánach Ioncaim",
+    "estg_intro": "Rialaíonn an tAcht Cánach Ioncaim (EStG) an cánachas ar ioncam daoine nádúrtha sa Ghearmáin. Mar an dlí cánach lárnach do dhaoine aonair príobháideacha agus do dhaoine féinfhostaithe, sainmhíníonn sé na seacht gcineál ioncaim, na liúntais phearsanta agus na rátaí cánach forásacha. Tá an EStG thar a bheith tábhachtach d’fhiontraithe atá gníomhach go hidirnáisiúnta toisc go gcuireann an Ghearmáin prionsabal an ioncaim dhomhanda i bhfeidhm.",
+    "estg_detail": "Ní mór d’aon duine atá faoi réir dliteanas cánach neamhtheoranta sa Ghearmáin (§ 1 EStG) cáin a íoc go ginearálta ar a n-ioncam domhanda iomlán sa Ghearmáin - beag beann ar an áit ar thuill sé é. Is réimsí ríthábhachtacha comhairle, dá bhrí sin, do chliaint atá gníomhach go hidirnáisiúnta iad sainmhíniú ceart a dhéanamh ar dhliteanas cánach, comhaontuithe um chánachas dúbailte a chur i bhfeidhm agus dearadh barrmhaith cánach na struchtúr corparáideach.",
+    "estg_provisions_headline": "Rialacháin riachtanacha",
+    "estg_provision_0": "§ 1 EStG - Dliteanas cánach neamhtheoranta: Tá daoine nádúrtha a bhfuil cónaí orthu nó a bhfuil gnáthchónaí orthu sa Ghearmáin faoi réir dliteanas cánach ioncaim neamhtheoranta ar a n-ioncam domhanda.",
+    "estg_provision_1": "§ 2 EStG — Cineálacha ioncaim: An sainmhíniú deiridh ar na seacht gcineál ioncaim, lena n-áirítear ioncam ó oibríochtaí tráchtála, ó fhéinfhostaíocht agus ó shócmhainní caipitil.",
+    "estg_provision_2": "§ 19 EStG - Ioncam ó fhostaíocht: Rialú cánachas pá, tuarastail, bónais agus sochair airgeadaíochta ó chaidreamh fostaíochta.",
+    "estg_provision_3": "§ 49 EStG - Dliteanas cánach teoranta: Cánachas ar ioncam ó fhoinsí Gearmánacha do dhaoine nach bhfuil cónaí orthu sa Ghearmáin - ábhartha do scairshealbhóirí eachtracha agus stiúrthóirí bainistíochta.",
+    "estg_consulting_headline": "comhairle FIECON i gcomhthéacs EStG",
+    "estg_consulting_text": "Tacaíonn FIECON le fiontraithe atá gníomhach go hidirnáisiúnta, le scairshealbhóirí agus le daoine féinfhostaithe in anailís agus barrfheabhsú a dhéanamh ar a gcás cánach faoin EStG. Scrúdaímid dliteanas cánach pearsanta, infheidhmeacht comhaontuithe cánachais dúbailte agus forbraimid struchtúir chorparáideacha agus luach saothair atá tíosach ar cháin. Do dhaoine féinfhostaithe, tugaimid comhairle freisin maidir leis an struchtúr cánach is fearr le haghaidh soláthar pinsin, go háirithe i gcomhar le hárachas sláinte príobháideach.",
+    "cta_headline": "Ceisteanna rialála? Tá na freagraí againn.",
+    "cta_subline": "Cibé an iarratas ar chead KWG é, struchtúr árachais atá comhlíontach le VAG nó leas iomlán a bhaint cánach de réir an EStG - labhair linn.",
     "cta_button": "Seol ríomhphost",
-    "cta_back": "Zur Startseite",
-    "kwg_provision_4": "§ 46 KWG — Maßnahmen bei Gefahr: Eingriffsbefugnisse der BaFin bei aufsichtsrechtlichen Missständen, insbesondere zur Sicherung der ordnungsgemäßen Geschäftsführung und zum Schutz von Gläubigern.",
-    "vag_provision_4": "§ 311 VAG — Besondere Vorgaben für die private Krankenversicherung: Regelungen zur Kalkulation, Prämienanpassung und dauerhaften Finanzierung über Alterungsrückstellungen.",
-    "estg_provision_4": "§ 22 EStG — Sonstige Einkünfte: Besteuerung insbesondere von wiederkehrenden Bezügen wie Renten sowie bestimmter weiterer Einkünfte außerhalb der klassischen Einkunftsarten.",
-    "estg_provision_5": "§ 23 EStG — Private Veräußerungsgeschäfte: Steuerliche Erfassung von Gewinnen aus der Veräußerung privater Wirtschaftsgüter innerhalb der gesetzlichen Haltefristen."
+    "cta_back": "Go dtí an leathanach baile",
+    "kwg_provision_4": "§ 46 KWG - Bearta i gcás contúirte: Cumhachtaí BaFin idirghabháil a dhéanamh i gcás casaoidí rialála, go háirithe chun bainistíocht cheart a áirithiú agus chun creidiúnaithe a chosaint.",
+    "vag_provision_4": "§ 311 VAG - Ceanglais speisialta maidir le hárachas sláinte príobháideach: rialacháin maidir le ríomh, coigeartú préimhe agus buanmhaoiniú trí fhorálacha aosaithe.",
+    "estg_provision_4": "§ 22 EStG - Ioncam eile: Cánachas go háirithe ar íocaíochtaí athfhillteacha amhail pinsin agus ioncam áirithe eile lasmuigh de na cineálacha clasaiceacha ioncaim.",
+    "estg_provision_5": "§ 23 EStG - Idirbhearta díolacháin Príobháideacha: Aitheantas cánach ar bhrabúis ó dhíol sócmhainní príobháideacha laistigh de na tréimhsí sealbhaíochta reachtúla."
   },
   "fourPointPlan": {
-    "badge": "Vier-Punkte-Plan",
-    "headline": "Unser Vier-Punkte-Plan zur finanziellen Unabhängigkeit",
-    "subtitle": "Strukturierte Gesamtstrategie mit operativer Umsetzung und langfristiger Vermögenssicherung.",
-    "intro": "Der Plan folgt der klassischen unternehmerischen Logik: Struktur aufbauen, Steuern optimieren, Kosten senken und Vermögen langfristig steuerfrei aufbauen. Entscheidend ist nicht nur die Strategie, sondern die saubere Umsetzung im Tagesgeschäft.",
-    "cta_details": "Detaillierten Plan ansehen",
+    "badge": "Plean ceithre phointe",
+    "headline": "Ár bplean ceithre phointe don neamhspleáchas airgeadais",
+    "subtitle": "Straitéis fhoriomlán struchtúrtha le cur i bhfeidhm oibríochtúil agus cosaint sócmhainní fadtéarmach.",
+    "intro": "Leanann an plean an loighic chlasaiceach fiontraíochta: struchtúr a thógáil, cánacha a bharrfheabhsú, costais a laghdú agus sócmhainní a thógáil saor ó cháin san fhadtéarma. Ní hé an straitéis amháin atá tábhachtach, ach freisin a cur i bhfeidhm cuí i ngnó laethúil.",
+    "cta_details": "Féach ar phlean mionsonraithe",
     "detail": {
-      "meta_title": "Vier-Punkte-Plan zur finanziellen Unabhängigkeit",
-      "meta_description": "Detaillierte Darstellung des FIECON Vier-Punkte-Plans: Strategie und Organisation, steuerliche Optimierung, finanzielle Entlastung und steuerfreier Vermögensaufbau.",
-      "headline": "Vier-Punkte-Plan im Detail",
-      "subtitle": "Detaillierte Ausarbeitung aller Maßnahmen, Teilbereiche und operativen Umsetzungsschritte.",
-      "navigation_label": "Interaktive Navigation",
-      "focus_label": "Aktiver Schwerpunkt",
-      "subpoints_label": "Teilbereiche",
-      "items_label": "Maßnahmen",
-      "cta_panel_title": "Vom Plan zur Umsetzung",
-      "cta_panel_text": "Wir begleiten Sie nicht nur bei der Strategie, sondern bei der operativen Implementierung jeder einzelnen Maßnahme.",
-      "cta_contact": "Strategiegespräch vereinbaren",
-      "cta_back_home": "Zur Startseite"
+      "meta_title": "Plean ceithre phointe don neamhspleáchas airgeadais",
+      "meta_description": "Cur i láthair mionsonraithe ar phlean ceithre phointe FIECON: straitéis agus eagrú, barrfheabhsú cánach, faoiseamh airgeadais agus cruthú saibhris saor ó cháin.",
+      "headline": "Plean ceithre phointe go mion",
+      "subtitle": "Mionléiriú mionsonraithe ar na bearta, na fo-réimsí agus na céimeanna cur chun feidhme oibríochta go léir.",
+      "navigation_label": "Nascleanúint idirghníomhach",
+      "focus_label": "Fócas gníomhach",
+      "subpoints_label": "Fo-limistéir",
+      "items_label": "Tomhais",
+      "cta_panel_title": "Ó phlean go cur i bhfeidhm",
+      "cta_panel_text": "Tacaímid ní hamháin leat leis an straitéis, ach freisin le cur i bhfeidhm oibríochtúil gach beart aonair.",
+      "cta_contact": "Eagraigh cruinniú straitéise",
+      "cta_back_home": "Go dtí an leathanach baile"
     },
     "points": {
       "strategy": {
-        "title": "Strategie und Organisation",
-        "teaser": "Klare Zielstruktur und effiziente Umsetzung im Tagesgeschäft.",
-        "description": "Umsetzung des Tagesgeschäfts mit klaren Verantwortlichkeiten und belastbarer Struktur.",
+        "title": "Straitéis agus eagraíocht",
+        "teaser": "Struchtúr sprice soiléir agus cur i bhfeidhm éifeachtach i ngnó ó lá go lá.",
+        "description": "Gnó laethúil a chur i bhfeidhm le freagrachtaí soiléire agus struchtúr athléimneach.",
         "subpoints": {
           "1_1": {
-            "title": "1.1 Klare Definition der geschäftlichen Zielstruktur",
+            "title": "1.1 Sainiú soiléir ar an spriocstruchtúr gnó",
             "items": {
-              "0": "Festlegung der Unternehmensform(en) und Beteiligungsstruktur",
-              "1": "Erweiterung bestehender Geschäftsmodelle",
-              "2": "Trennung von operativem Geschäft und Vermögensverwaltung",
-              "3": "Aufbau einer rechtssicheren Organisationsstruktur"
+              "0": "Foirm(eacha) na cuideachta agus struchtúr na scairshealbhaíochta a chinneadh",
+              "1": "Leathnú ar mhúnlaí gnó atá ann cheana",
+              "2": "Scaradh gnó oibriúcháin agus bainistíocht sócmhainní",
+              "3": "Struchtúr eagraíochtúil atá slán ó thaobh an dlí a thógáil"
             }
           },
           "1_2": {
-            "title": "1.2 Effiziente Organisation des Tagesgeschäfts",
+            "title": "1.2 Eagrú éifeachtach gnó ó lá go lá",
             "items": {
-              "0": "Standardisierung von Abläufen",
-              "1": "Delegation operativer Tätigkeiten",
-              "2": "Nutzung externer Dienstleister (Steuerberater, Buchhaltung, Verwaltung)"
+              "0": "Próisis a chaighdeánú",
+              "1": "Gníomhaíochtaí oibríochtúla a tharmligean",
+              "2": "Úsáid soláthraithe seirbhíse seachtracha (comhairleoirí cánach, cuntasaíocht, riarachán)"
             }
           }
         }
       },
       "tax": {
-        "title": "Steuerliche Optimierung",
-        "teaser": "Gesellschafts- und Gewinnstruktur steuerlich präzise ausrichten.",
-        "description": "Rechtskonforme Steuerstruktur, die Liquidität sichert und Wachstum fördert.",
+        "title": "Leas iomlán a bhaint cánach",
+        "teaser": "Déan struchtúr cuideachta agus brabúis a ailíniú go beacht chun críocha cánach.",
+        "description": "Struchtúr cánach atá comhlíontach go dlíthiúil a chinntíonn leachtacht agus a chothaíonn fás.",
         "subpoints": {
           "2_1": {
-            "title": "2.1 Wahl der richtigen Gesellschaftsstruktur",
+            "title": "2.1 An struchtúr corparáideach ceart a roghnú",
             "items": {
-              "0": "Kombination aus Kapitalgesellschaft und Personengesellschaft",
-              "1": "Nutzung von Holding-Strukturen",
-              "2": "Trennung von Privatvermögen und Betriebsvermögen"
+              "0": "Comhcheangal corparáide agus comhpháirtíochta",
+              "1": "Úsáid struchtúir ghabháltais",
+              "2": "Sócmhainní príobháideacha agus sócmhainní gnó a scaradh"
             }
           },
           "2_2": {
-            "title": "2.2 Gewinnverlagerung und Gestaltung",
+            "title": "2.2 Aistriú brabúis agus dearadh",
             "items": {
-              "0": "Nutzung von Betriebsausgaben",
-              "1": "Gestaltung von Geschäftsführergehalt und Gewinnausschüttung",
-              "2": "Nutzung steuerlicher Freibeträge"
+              "0": "Úsáid costais ghnó",
+              "1": "Tuarastail stiúrthóirí bainistíochta agus dáileacháin brabúis a dhearadh",
+              "2": "Úsáid liúntais chánach"
             }
           },
           "2_3": {
-            "title": "2.3 Vermögensaufbau im Betriebsvermögen",
+            "title": "2.3 Carnadh sócmhainní i sócmhainní gnó",
             "items": {
-              "0": "Investitionen über die Gesellschaft"
+              "0": "Infheistíochtaí tríd an tsochaí"
             }
           }
         }
       },
       "relief": {
-        "title": "Finanzielle Entlastung",
-        "teaser": "Laufende Kosten gezielt reduzieren, insbesondere im PKV-Bereich.",
-        "description": "Gezielte Entlastung der laufenden Kosten, insbesondere im Bereich der PKV.",
+        "title": "Faoiseamh airgeadais",
+        "teaser": "Laghdú spriocdhírithe ar chostais leanúnacha, go háirithe san earnáil árachas sláinte príobháideach.",
+        "description": "Faoiseamh spriocdhírithe ar chostais leanúnacha, go háirithe i réimse an árachais sláinte phríobháidigh.",
         "subpoints": {
           "3_1": {
-            "title": "3.1 Analyse der bestehenden Kostenstruktur",
+            "title": "3.1 Anailís ar an struchtúr costais reatha",
             "items": {
-              "0": "Krankenversicherung",
-              "1": "Altersvorsorge",
-              "2": "Laufende private Verpflichtungen"
+              "0": "árachas sláinte",
+              "1": "Pleanáil scoir",
+              "2": "Ceangaltais phearsanta leanúnacha"
             }
           }
         }
       },
       "pension": {
-        "title": "Steuerfreie Rente",
-        "teaser": "Langfristiger Aufbau steuerfreien Vermögens unter Berücksichtigung der gesetzlichen Haltedauer.",
-        "description": "Aufbau der steuerfreien Rente mit Fokus auf gesetzliche Haltedauer, langfristige Planung und rechtssicheren Vermögensaufbau.",
+        "title": "Pinsean saor ó cháin",
+        "teaser": "Carnadh fadtéarmach sócmhainní saor ó cháin, agus an tréimhse shealbhaíochta dhlíthiúil á cur san áireamh.",
+        "description": "Pinsean saor ó cháin a thógáil le fócas ar thréimhsí sealbhaíochta reachtúla, pleanáil fhadtéarmach agus carnadh sócmhainní atá slán ó thaobh an dlí.",
         "subpoints": {
           "4_1": {
-            "title": "4.1 Grundprinzip des steuerfreien Vermögensaufbaus",
+            "title": "4.1 Bunphrionsabal maidir le carnadh sócmhainní saor ó cháin",
             "items": {
-              "0": "Investition mit langfristiger Haltedauer",
-              "1": "Nutzung gesetzlicher Steuerbefreiungen",
-              "2": "Planung über mindestens 10+ Jahre"
+              "0": "Infheistíocht le tréimhse shealbhaíochta fadtéarmach",
+              "1": "Díolúintí reachtúla cánach a úsáid",
+              "2": "Pleanáil ar feadh 10+ bliain ar a laghad"
             }
           }
         }

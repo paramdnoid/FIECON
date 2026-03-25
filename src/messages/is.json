@@ -20,7 +20,7 @@
     "close_menu": "Loka valmynd",
     "skip_to_content": "Fara í efni",
     "gesetze": "Löggjöf",
-    "four_point_plan": "Vier-Punkte-Plan"
+    "four_point_plan": "Fjögurra punkta áætlun"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -82,12 +82,12 @@
       }
     },
     "private_health_insurance": {
-      "title": "PKV für selbstständige Unternehmer",
-      "description": "Wir begleiten Selbstständige bei der Auswahl, Strukturierung und Optimierung einer privaten Krankenversicherung — individuell auf Einkommenssituation, Leistungsbedarf und langfristige Planung abgestimmt.",
+      "title": "PKV fyrir sjálfstætt starfandi frumkvöðla",
+      "description": "Við styðjum sjálfstætt starfandi fólk við að velja, skipuleggja og hagræða einkasjúkratryggingum - sérsniðnar að tekjustöðu þeirra, bótaþörfum og langtímaáætlun.",
       "items": {
-        "0": "Tarifvergleich & Auswahl",
-        "1": "Leistungs- und Beitragsoptimierung",
-        "2": "Langfristige Absicherungsstrategie"
+        "0": "Samanburður og úrval gjaldskrár",
+        "1": "Hagræðing afkasta og framlags",
+        "2": "Langtíma áhættuvarnarstefna"
       }
     },
     "focus_headline": "Helstu starfssvið",
@@ -117,21 +117,21 @@
     "laws": {
       "kwg": {
         "abbreviation": "KWG",
-        "name": "Kreditwesengesetz",
+        "name": "bankalaga",
         "description": "Stjórnar leyfiskröfur fyrir bankastarfsemi og fjármálaþjónustu í Þýskalandi. KWG myndar grundvöll BaFin-eftirlitsins og skilgreinir í § 1 KWG lykilhugtökin ásamt § 25a KWG kröfurnar um viðeigandi skipulag viðskipta."
       },
       "vag": {
         "abbreviation": "VAG",
-        "name": "Versicherungsaufsichtsgesetz",
+        "name": "laga um vátryggingaeftirlit",
         "description": "Stjórnar eftirliti með vátryggingafélögum og þjónar vernd vátryggðra. VAG tryggir að vátryggjendur geti varanlega uppfyllt skuldbindingar sínar og séu stjórnað á viðeigandi hátt."
       },
       "estg": {
         "abbreviation": "EStG",
-        "name": "Einkommensteuergesetz",
+        "name": "laga um tekjuskatt",
         "description": "Stjórnar skattlagningu tekna einstaklinga í Þýskalandi. EStG skilgreinir tekjuflokka, skattfrjáls frádráttar og skatthlutföll og myndar grundvöll skattlagningar persónutekna."
       }
     },
-    "mehr_erfahren": "Mehr erfahren"
+    "mehr_erfahren": "Lærðu meira"
   },
   "approach": {
     "badge": "Nálgun okkar",
@@ -327,7 +327,7 @@
     "contact_label": "Hafa samband"
   },
   "team": {
-    "nav_label": "Team",
+    "nav_label": "lið",
     "competencies_headline": "Hæfnissvið",
     "cta_headline": "Byrjum samtal",
     "cta_subline": "Hvort sem um er að ræða upphaflega spurningu eða tiltekið verkefni — við tökum okkur tíma fyrir þig.",
@@ -365,159 +365,159 @@
     "service_yacht": "Snekkjubyggingarfjármögnun"
   },
   "gesetze_page": {
-    "meta_title": "Rechtliche Grundlagen — KWG, VAG & EStG",
-    "meta_description": "FIECON erläutert die regulatorischen Grundlagen: Kreditwesengesetz, Versicherungsaufsichtsgesetz und Einkommensteuergesetz — und wie wir Mandanten dabei begleiten.",
-    "breadcrumb_home": "Startseite",
-    "breadcrumb_current": "Gesetze",
-    "hero_badge": "Regulatorischer Rahmen",
-    "hero_headline": "Rechtliche Grundlagen",
-    "hero_intro_1": "Die Beratungspraxis von FIECON ist tief im deutschen und europäischen Regulierungsrahmen verankert. Das Kreditwesengesetz, das Versicherungsaufsichtsgesetz und das Einkommensteuergesetz bilden die rechtliche Grundlage für wesentliche Teile unserer täglichen Beratungsarbeit — von der Strukturierung internationaler Gesellschaften bis zur steuerlichen Optimierung für Unternehmer.",
-    "hero_intro_2": "Auf dieser Seite stellen wir Ihnen die drei zentralen Gesetze vor, erläutern ihre wesentlichen Regelungsbereiche und zeigen, wie FIECON Mandanten konkret dabei unterstützt, die Anforderungen dieser Regelwerke rechtssicher und effizient zu erfüllen.",
+    "meta_title": "Lagagrundvöllur — KWG, VAG & EStG",
+    "meta_description": "FIECON útskýrir regluverkið: bankalögin, vátryggingaeftirlitslögin og tekjuskattslögin - og hvernig við styðjum viðskiptavini í því sambandi.",
+    "breadcrumb_home": "Heimasíða",
+    "breadcrumb_current": "Lög",
+    "hero_badge": "Regluverk",
+    "hero_headline": "Lagagrundvöllur",
+    "hero_intro_1": "Ráðgjafastarf FIECON er djúpt fest í þýska og evrópska regluverkinu. Bankalögin, vátryggingaeftirlitslögin og tekjuskattslögin eru lagastoð fyrir mikilvæga þætti í daglegu ráðgjafastarfi okkar - allt frá uppbyggingu alþjóðlegra fyrirtækja til skattahagræðingar fyrir frumkvöðla.",
+    "hero_intro_2": "Á þessari síðu kynnum við þér aðallögin þrjú, útskýrum helstu reglusvið þeirra og sýnum hvernig FIECON styður viðskiptavini sérstaklega við að uppfylla kröfur þessara reglugerða á lagalega öruggan og skilvirkan hátt.",
     "hero_chip_kwg": "KWG",
     "hero_chip_vag": "VAG",
     "hero_chip_estg": "EStG",
     "kwg_abbreviation": "KWG",
-    "kwg_name": "Kreditwesengesetz",
-    "kwg_intro": "Das Kreditwesengesetz (KWG) bildet das Fundament der deutschen Bankenaufsicht. Es regelt, unter welchen Voraussetzungen Unternehmen Bankgeschäfte oder Finanzdienstleistungen erbringen dürfen, und legt die Anforderungen an Organisation, Kapitalausstattung und interne Kontrolle fest. Die Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin) überwacht auf Grundlage des KWG alle erlaubnispflichtigen Institute in Deutschland.",
-    "kwg_detail": "Für Unternehmen, die Bankgeschäfte betreiben oder Finanzdienstleistungen erbringen wollen, ist die Erlaubnispflicht nach § 32 KWG von zentraler Bedeutung. Das KWG definiert in § 1 einen breiten Katalog erlaubnispflichtiger Tätigkeiten — von der Kreditvergabe über die Anlageberatung bis hin zur Abschlussvermittlung. Gleichzeitig verpflichtet § 25a Institute zu einer ordnungsgemäßen Geschäftsorganisation mit angemessenem Risikomanagement.",
-    "kwg_provisions_headline": "Wesentliche Regelungen",
-    "kwg_provision_0": "§ 1 KWG — Begriffsbestimmungen: Abschließende Definition aller erlaubnispflichtigen Bank- und Finanzdienstleistungsgeschäfte, einschließlich Kreditgeschäft, Einlagengeschäft und Anlageberatung.",
-    "kwg_provision_1": "§ 25a KWG — Besondere organisatorische Pflichten: Anforderungen an eine ordnungsgemäße Geschäftsorganisation mit angemessenem Risikomanagement, internen Kontrollverfahren und Compliance-Strukturen.",
-    "kwg_provision_2": "§ 32 KWG — Erlaubnispflicht: Verbot der gewerbsmäßigen Erbringung von Bankgeschäften und Finanzdienstleistungen ohne schriftliche Erlaubnis der BaFin.",
-    "kwg_provision_3": "§ 44 KWG — Prüfungsrechte der BaFin: Befugnisse der Aufsichtsbehörde zur Durchführung von Prüfungen bei Instituten und zur Anforderung von Auskünften und Unterlagen.",
-    "kwg_consulting_headline": "FIECON-Beratung im KWG-Kontext",
-    "kwg_consulting_text": "FIECON begleitet Unternehmen und Gründer bei der Prüfung der Erlaubnispflicht nach dem KWG, bei der Vorbereitung und Einreichung von BaFin-Erlaubnisanträgen sowie bei der Implementierung der organisatorischen Anforderungen nach § 25a KWG. Wir unterstützen auch bei der laufenden regulatorischen Compliance und der Kommunikation mit der Aufsichtsbehörde.",
+    "kwg_name": "bankalaga",
+    "kwg_intro": "Bankalögin (KWG) eru grunnurinn að þýsku bankaeftirliti. Þar er kveðið á um skilyrði þess að fyrirtæki megi veita banka- eða fjármálaþjónustu og tilgreina kröfur um skipulag, fjármagn og innra eftirlit. Alríkisfjármálaeftirlitið (BaFin) hefur eftirlit með öllum stofnunum í Þýskalandi sem þurfa leyfi á grundvelli KWG.",
+    "kwg_detail": "Fyrir fyrirtæki sem stunda bankaviðskipti eða vilja veita fjármálaþjónustu skiptir leyfisskylda samkvæmt 32. gr. KWG meginmáli. Í kafla 1 skilgreinir KWG víðtæka skrá yfir starfsemi sem krefst leyfis - allt frá lánveitingum til fjárfestingarráðgjafar og miðlunarsamninga. Jafnframt skuldbindur 25. gr. a stofnanir til að hafa eðlilegt viðskiptaskipulag með viðeigandi áhættustýringu.",
+    "kwg_provisions_headline": "Nauðsynlegar reglugerðir",
+    "kwg_provision_0": "§ 1 KWG - Skilgreiningar: Endanleg skilgreining á öllum banka- og fjármálaþjónustuviðskiptum sem krefjast leyfis, þar með talið útlánaviðskipti, innlánsviðskipti og fjárfestingarráðgjöf.",
+    "kwg_provision_1": "§ 25a KWG — Sérstakar skipulagsskyldur: Kröfur um rétta viðskiptaskipulag með viðeigandi áhættustýringu, innra eftirlitsferlum og regluskipulagi.",
+    "kwg_provision_2": "§ 32 KWG - Skylda til að fá leyfi: Bann við viðskiptabankaviðskiptum og fjármálaþjónustu án skriflegs leyfis BaFin.",
+    "kwg_provision_3": "44. kafli KWG - Endurskoðunarréttindi BaFin: Heimildir eftirlitsyfirvalds til að framkvæma úttektir á stofnunum og óska ​​eftir upplýsingum og skjölum.",
+    "kwg_consulting_headline": "FIECON ráðgjöf í KWG samhengi",
+    "kwg_consulting_text": "FIECON styður fyrirtæki og stofnendur við að athuga leyfiskröfur samkvæmt KWG, við gerð og skil BaFin leyfisumsókna og við framkvæmd skipulagskröfur samkvæmt kafla 25a KWG. Við styðjum einnig viðvarandi reglufylgni og samskipti við eftirlitsyfirvaldið.",
     "vag_abbreviation": "VAG",
-    "vag_name": "Versicherungsaufsichtsgesetz",
-    "vag_intro": "Das Versicherungsaufsichtsgesetz (VAG) regelt die staatliche Aufsicht über Versicherungsunternehmen in Deutschland und dient in erster Linie dem Schutz der Versicherungsnehmer. Es setzt die europäische Solvency II-Richtlinie in deutsches Recht um und stellt sicher, dass Versicherer dauerhaft in der Lage sind, ihre Verpflichtungen gegenüber den Versicherten zu erfüllen.",
-    "vag_detail": "Das VAG verpflichtet Versicherungsunternehmen zur Einhaltung umfangreicher Kapitalanforderungen (Solvency Capital Requirement und Minimum Capital Requirement) sowie zur ordnungsgemäßen Geschäftsführung durch geeignete und zuverlässige Personen. Für private Krankenversicherer gelten besondere Bestimmungen zur Kalkulation der Prämien und zur Bildung von Alterungsrückstellungen — ein Bereich, der für die Beratung selbstständiger Unternehmer besonders relevant ist.",
-    "vag_provisions_headline": "Wesentliche Regelungen",
-    "vag_provision_0": "§ 11 VAG — Erlaubnispflicht: Verbot des Betriebs von Versicherungsgeschäften ohne Erlaubnis der BaFin, verbunden mit einem Katalog der erlaubnispflichtigen Versicherungssparten.",
-    "vag_provision_1": "§ 124 VAG — Kapitalanlagemanagement: Anforderungen an die Anlage der Vermögenswerte nach dem Grundsatz der unternehmerischen Vorsicht (Prudent Person Principle).",
-    "vag_provision_2": "§ 22 VAG — Geschäftsleiter: Anforderungen an Zuverlässigkeit und fachliche Eignung der verantwortlichen Personen in Schlüsselfunktionen eines Versicherungsunternehmens.",
-    "vag_provision_3": "§ 294 VAG — Aufsichtsbefugnisse der BaFin: Umfangreiche Aufsichts- und Eingriffsbefugnisse der Bundesanstalt gegenüber beaufsichtigten Versicherungsunternehmen.",
-    "vag_consulting_headline": "FIECON-Beratung im VAG-Kontext",
-    "vag_consulting_text": "FIECON berät bei der Strukturierung von Versicherungslösungen für internationale Unternehmer und Selbstständige, insbesondere im Bereich der privaten Krankenversicherung (PKV). Wir analysieren Tarifstrukturen unter Berücksichtigung der aufsichtsrechtlichen Vorgaben des VAG und begleiten Mandanten bei der optimalen Absicherung ihrer persönlichen Risiken.",
+    "vag_name": "laga um vátryggingaeftirlit",
+    "vag_intro": "Lög um vátryggingaeftirlit (VAG) setja reglur um ríkiseftirlit með vátryggingafélögum í Þýskalandi og þjóna fyrst og fremst til að vernda vátryggingartaka. Það innleiðir evrópsku Solvency II tilskipunina í þýskan lög og tryggir að vátryggjendur geti varanlega uppfyllt skyldur sínar gagnvart hinum tryggða.",
+    "vag_detail": "VAG skuldbindur vátryggingafélög til að uppfylla víðtækar eiginfjárkröfur (gjaldþolskröfur og lágmarksfjármagnskröfur) sem og rétta stjórnun af hentugu og traustu fólki. Sérstakar reglur gilda um einkasjúkratrygginga um útreikning iðgjalda og myndun öldrunarákvæða - svið sem á sérstaklega við um ráðgjöf við sjálfstætt starfandi frumkvöðla.",
+    "vag_provisions_headline": "Nauðsynlegar reglugerðir",
+    "vag_provision_0": "§ 11 VAG - Skylda til að fá leyfi: Bann við að stunda vátryggingaviðskipti án leyfis BaFin, ásamt skrá yfir vátryggingagreinar sem þurfa leyfi.",
+    "vag_provision_1": "§ 124 VAG - Fjárfestingarstjórnun: Kröfur um fjárfestingu eigna í samræmi við meginregluna um varkárni í frumkvöðlastarfsemi (Prudent Person Principle).",
+    "vag_provision_2": "§ 22 VAG - Stjórnendur: Kröfur um áreiðanleika og faglega hæfi ábyrgðaraðila í lykilhlutverkum vátryggingafélags.",
+    "vag_provision_3": "§ 294 VAG — Eftirlitsheimildir BaFin: Víðtækar eftirlits- og íhlutunarheimildir alríkisfjármálaeftirlitsins gagnvart vátryggingafélögum undir eftirliti.",
+    "vag_consulting_headline": "FIECON ráðgjöf í VAG samhengi",
+    "vag_consulting_text": "FIECON veitir ráðgjöf um uppbyggingu tryggingalausna fyrir alþjóðlega frumkvöðla og sjálfstætt starfandi, sérstaklega á sviði einkasjúkratrygginga (PKV). Við greinum gjaldskrárgerð með hliðsjón af reglugerðarkröfum VAG og styðjum viðskiptavini við að tryggja persónulega áhættu sína sem best.",
     "estg_abbreviation": "EStG",
-    "estg_name": "Einkommensteuergesetz",
-    "estg_intro": "Das Einkommensteuergesetz (EStG) regelt die Besteuerung des Einkommens natürlicher Personen in Deutschland. Als das zentrale Steuergesetz für Privatpersonen und Selbstständige definiert es die sieben Einkunftsarten, die persönlichen Freibeträge sowie die progressiven Steuersätze. Für international tätige Unternehmer ist das EStG besonders bedeutsam, da Deutschland das Welteinkommensprinzip anwendet.",
-    "estg_detail": "Wer in Deutschland unbeschränkt steuerpflichtig ist (§ 1 EStG), muss grundsätzlich sein gesamtes weltweites Einkommen in Deutschland versteuern — unabhängig davon, wo es erzielt wurde. Die korrekte Abgrenzung der Steuerpflicht, die Anwendung von Doppelbesteuerungsabkommen und die steuerlich optimale Gestaltung von Gesellschaftsstrukturen sind daher wesentliche Beratungsfelder für international tätige Mandanten.",
-    "estg_provisions_headline": "Wesentliche Regelungen",
-    "estg_provision_0": "§ 1 EStG — Unbeschränkte Steuerpflicht: Natürliche Personen mit Wohnsitz oder gewöhnlichem Aufenthalt in Deutschland unterliegen der unbeschränkten Einkommensteuerpflicht auf ihr Welteinkommen.",
-    "estg_provision_1": "§ 2 EStG — Einkunftsarten: Abschließende Definition der sieben Einkunftsarten, darunter Einkünfte aus Gewerbebetrieb, aus selbstständiger Arbeit und aus Kapitalvermögen.",
-    "estg_provision_2": "§ 19 EStG — Einkünfte aus nichtselbstständiger Arbeit: Regelung der Besteuerung von Arbeitslohn, Gehalt, Gratifikationen und geldwerten Vorteilen aus einem Arbeitsverhältnis.",
-    "estg_provision_3": "§ 49 EStG — Beschränkte Steuerpflicht: Besteuerung von Einkünften aus deutschen Quellen bei Personen ohne Wohnsitz in Deutschland — relevant für ausländische Gesellschafter und Geschäftsführer.",
-    "estg_consulting_headline": "FIECON-Beratung im EStG-Kontext",
-    "estg_consulting_text": "FIECON begleitet international tätige Unternehmer, Gesellschafter und Selbstständige bei der Analyse und Optimierung ihrer steuerlichen Situation unter dem EStG. Wir prüfen die persönliche Steuerpflicht, die Anwendbarkeit von Doppelbesteuerungsabkommen und entwickeln steuerlich effiziente Gesellschafts- und Vergütungsstrukturen. Für Selbstständige beraten wir zudem zur steuerlich optimalen Gestaltung der Vorsorge, insbesondere im Zusammenspiel mit der privaten Krankenversicherung.",
-    "cta_headline": "Regulatorische Fragen? Wir haben die Antworten.",
-    "cta_subline": "Ob KWG-Erlaubnisantrag, VAG-konforme Versicherungsstruktur oder steuerliche Optimierung nach EStG — sprechen Sie uns an.",
+    "estg_name": "laga um tekjuskatt",
+    "estg_intro": "Tekjuskattslögin (EStG) setja reglur um skattlagningu tekna einstaklinga í Þýskalandi. Sem aðalskattalög fyrir einstaklinga og sjálfstætt starfandi, skilgreina þau sjö tekjutegundir, persónuafslátt og stighækkandi skatthlutfall. EStG er sérstaklega mikilvægt fyrir alþjóðlega virka frumkvöðla vegna þess að Þýskaland beitir alþjóðlegu tekjureglunni.",
+    "estg_detail": "Allir sem eru háðir ótakmarkaðri skattskyldu í Þýskalandi (§ 1 EStG) verða almennt að greiða skatt af öllum heimstekjum sínum í Þýskalandi - óháð því hvar þær voru aflaðar. Rétt skilgreining á skattskyldu, beiting tvísköttunarsamninga og skattaleg hönnun fyrirtækjaskipulags eru því nauðsynleg ráðgjöf fyrir alþjóðlega virka viðskiptavini.",
+    "estg_provisions_headline": "Nauðsynlegar reglugerðir",
+    "estg_provision_0": "§ 1 EStG - Ótakmörkuð skattskylda: Einstaklingar með búsetu eða fasta búsetu í Þýskalandi eru háðir ótakmarkaðri tekjuskattsskyldu af tekjum sínum um allan heim.",
+    "estg_provision_1": "§ 2 EStG — Tegundir tekna: Endanleg skilgreining á hinum sjö tekjutegundum, þ.mt tekjur af atvinnurekstri, af sjálfstæðum atvinnurekstri og af stofnfjáreignum.",
+    "estg_provision_2": "§ 19 EStG - Atvinnutekjur: Reglugerð um skattlagningu launa, launa, kaupauka og peningalegra fríðinda af ráðningarsambandi.",
+    "estg_provision_3": "§ 49 EStG - Takmörkuð skattskylda: Skattlagning tekna frá þýskum aðilum fyrir einstaklinga án búsetu í Þýskalandi - skiptir máli fyrir erlenda hluthafa og framkvæmdastjóra.",
+    "estg_consulting_headline": "FIECON ráðgjöf í EStG samhengi",
+    "estg_consulting_text": "FIECON styður alþjóðlega virka frumkvöðla, hluthafa og sjálfstætt starfandi fólk við að greina og hagræða skattastöðu sína samkvæmt EStG. Við skoðum skattskyldu einstaklinga, gildi tvísköttunarsamninga og þróum skattahagkvæmt skipulag fyrirtækja og launa. Fyrir sjálfstætt starfandi fólk ráðleggjum við einnig ákjósanlega skattlagningu fyrir lífeyrisgreiðslur, sérstaklega í tengslum við einkasjúkratryggingar.",
+    "cta_headline": "Reglugerðarspurningar? Við höfum svörin.",
+    "cta_subline": "Hvort sem um er að ræða KWG leyfisumsókn, VAG-samhæft tryggingakerfi eða skattahagræðingu samkvæmt EStG - talaðu við okkur.",
     "cta_button": "Senda tölvupóst",
-    "cta_back": "Zur Startseite",
-    "kwg_provision_4": "§ 46 KWG — Maßnahmen bei Gefahr: Eingriffsbefugnisse der BaFin bei aufsichtsrechtlichen Missständen, insbesondere zur Sicherung der ordnungsgemäßen Geschäftsführung und zum Schutz von Gläubigern.",
-    "vag_provision_4": "§ 311 VAG — Besondere Vorgaben für die private Krankenversicherung: Regelungen zur Kalkulation, Prämienanpassung und dauerhaften Finanzierung über Alterungsrückstellungen.",
-    "estg_provision_4": "§ 22 EStG — Sonstige Einkünfte: Besteuerung insbesondere von wiederkehrenden Bezügen wie Renten sowie bestimmter weiterer Einkünfte außerhalb der klassischen Einkunftsarten.",
-    "estg_provision_5": "§ 23 EStG — Private Veräußerungsgeschäfte: Steuerliche Erfassung von Gewinnen aus der Veräußerung privater Wirtschaftsgüter innerhalb der gesetzlichen Haltefristen."
+    "cta_back": "Á heimasíðuna",
+    "kwg_provision_4": "§ 46 KWG - Aðgerðir í hættutilvikum: Heimildir BaFin til að grípa inn í ef um er að ræða kvörtunarreglur, einkum til að tryggja rétta stjórnun og til að vernda kröfuhafa.",
+    "vag_provision_4": "§ 311 VAG - Sérkröfur fyrir einkasjúkratryggingar: reglur um útreikning, iðgjaldaaðlögun og varanlega fjármögnun með öldrunarákvæðum.",
+    "estg_provision_4": "§ 22 EStG - Aðrar tekjur: Skattlagning sérstaklega af endurteknum greiðslum eins og lífeyri og tilteknum öðrum tekjum utan hinna klassísku tekna.",
+    "estg_provision_5": "§ 23 EStG - Einkasöluviðskipti: Skattfærsla á hagnaði af sölu séreigna innan lögbundinna eignarhaldstímabila."
   },
   "fourPointPlan": {
-    "badge": "Vier-Punkte-Plan",
-    "headline": "Unser Vier-Punkte-Plan zur finanziellen Unabhängigkeit",
-    "subtitle": "Strukturierte Gesamtstrategie mit operativer Umsetzung und langfristiger Vermögenssicherung.",
-    "intro": "Der Plan folgt der klassischen unternehmerischen Logik: Struktur aufbauen, Steuern optimieren, Kosten senken und Vermögen langfristig steuerfrei aufbauen. Entscheidend ist nicht nur die Strategie, sondern die saubere Umsetzung im Tagesgeschäft.",
-    "cta_details": "Detaillierten Plan ansehen",
+    "badge": "Fjögurra punkta áætlun",
+    "headline": "Fjögurra punkta áætlun okkar um fjárhagslegt sjálfstæði",
+    "subtitle": "Skipulögð heildarstefna með rekstrarlegri innleiðingu og langtíma eignavernd.",
+    "intro": "Áætlunin fylgir klassískri frumkvöðlarógík: byggja upp uppbyggingu, hagræða skatta, draga úr kostnaði og byggja upp eignir skattfrjálsar til lengri tíma litið. Það er ekki bara stefnan sem skiptir máli heldur einnig rétta framkvæmd hennar í daglegum viðskiptum.",
+    "cta_details": "Skoða ítarlega áætlun",
     "detail": {
-      "meta_title": "Vier-Punkte-Plan zur finanziellen Unabhängigkeit",
-      "meta_description": "Detaillierte Darstellung des FIECON Vier-Punkte-Plans: Strategie und Organisation, steuerliche Optimierung, finanzielle Entlastung und steuerfreier Vermögensaufbau.",
-      "headline": "Vier-Punkte-Plan im Detail",
-      "subtitle": "Detaillierte Ausarbeitung aller Maßnahmen, Teilbereiche und operativen Umsetzungsschritte.",
-      "navigation_label": "Interaktive Navigation",
-      "focus_label": "Aktiver Schwerpunkt",
-      "subpoints_label": "Teilbereiche",
-      "items_label": "Maßnahmen",
-      "cta_panel_title": "Vom Plan zur Umsetzung",
-      "cta_panel_text": "Wir begleiten Sie nicht nur bei der Strategie, sondern bei der operativen Implementierung jeder einzelnen Maßnahme.",
-      "cta_contact": "Strategiegespräch vereinbaren",
-      "cta_back_home": "Zur Startseite"
+      "meta_title": "Fjögurra punkta áætlun um fjárhagslegt sjálfstæði",
+      "meta_description": "Ítarleg kynning á FIECON fjögurra punkta áætluninni: stefnumótun og skipulag, skattahagræðingu, fjárhagsaðstoð og skattfrjálsa auðsköpun.",
+      "headline": "Fjögurra punkta áætlun í smáatriðum",
+      "subtitle": "Ítarleg útfærsla á öllum ráðstöfunum, undirsviðum og framkvæmdarskrefum í rekstri.",
+      "navigation_label": "Gagnvirk leiðsögn",
+      "focus_label": "Virk fókus",
+      "subpoints_label": "Undirsvæði",
+      "items_label": "Ráðstafanir",
+      "cta_panel_title": "Frá áætlun til framkvæmda",
+      "cta_panel_text": "Við styðjum þig ekki aðeins við stefnuna heldur einnig við rekstrarlega útfærslu hverrar einstakrar ráðstöfunar.",
+      "cta_contact": "Boðaðu stefnumótunarfund",
+      "cta_back_home": "Á heimasíðuna"
     },
     "points": {
       "strategy": {
-        "title": "Strategie und Organisation",
-        "teaser": "Klare Zielstruktur und effiziente Umsetzung im Tagesgeschäft.",
-        "description": "Umsetzung des Tagesgeschäfts mit klaren Verantwortlichkeiten und belastbarer Struktur.",
+        "title": "Stefna og skipulag",
+        "teaser": "Skýr markmiðsuppbygging og skilvirk innleiðing í daglegum viðskiptum.",
+        "description": "Framkvæmd daglegra viðskipta með skýrri ábyrgð og seiglu skipulagi.",
         "subpoints": {
           "1_1": {
-            "title": "1.1 Klare Definition der geschäftlichen Zielstruktur",
+            "title": "1.1 Skýr skilgreining á skipulagi viðskiptamarkmiða",
             "items": {
-              "0": "Festlegung der Unternehmensform(en) und Beteiligungsstruktur",
-              "1": "Erweiterung bestehender Geschäftsmodelle",
-              "2": "Trennung von operativem Geschäft und Vermögensverwaltung",
-              "3": "Aufbau einer rechtssicheren Organisationsstruktur"
+              "0": "Ákvörðun félagsforms og eignarhalds",
+              "1": "Stækkun núverandi viðskiptamódel",
+              "2": "Aðskilnaður rekstrarviðskipta og eignastýringar",
+              "3": "Að byggja upp lagalega öruggt skipulag"
             }
           },
           "1_2": {
-            "title": "1.2 Effiziente Organisation des Tagesgeschäfts",
+            "title": "1.2 Skilvirkt skipulag daglegs viðskipta",
             "items": {
-              "0": "Standardisierung von Abläufen",
-              "1": "Delegation operativer Tätigkeiten",
-              "2": "Nutzung externer Dienstleister (Steuerberater, Buchhaltung, Verwaltung)"
+              "0": "Stöðlun ferla",
+              "1": "Framsal rekstrarstarfsemi",
+              "2": "Notkun utanaðkomandi þjónustuaðila (skattaráðgjafa, bókhald, stjórnun)"
             }
           }
         }
       },
       "tax": {
-        "title": "Steuerliche Optimierung",
-        "teaser": "Gesellschafts- und Gewinnstruktur steuerlich präzise ausrichten.",
-        "description": "Rechtskonforme Steuerstruktur, die Liquidität sichert und Wachstum fördert.",
+        "title": "Skattahagræðing",
+        "teaser": "Samræma fyrirtæki og hagnaðarskipulag nákvæmlega í skattalegum tilgangi.",
+        "description": "Lagalega samhæft skattkerfi sem tryggir lausafjárstöðu og stuðlar að vexti.",
         "subpoints": {
           "2_1": {
-            "title": "2.1 Wahl der richtigen Gesellschaftsstruktur",
+            "title": "2.1 Að velja rétta fyrirtækjauppbyggingu",
             "items": {
-              "0": "Kombination aus Kapitalgesellschaft und Personengesellschaft",
-              "1": "Nutzung von Holding-Strukturen",
-              "2": "Trennung von Privatvermögen und Betriebsvermögen"
+              "0": "Sambland hlutafélags og samstarfs",
+              "1": "Notkun burðarvirkja",
+              "2": "Aðskilnaður séreigna og atvinnueigna"
             }
           },
           "2_2": {
-            "title": "2.2 Gewinnverlagerung und Gestaltung",
+            "title": "2.2 Hagnaðarskipti og hönnun",
             "items": {
-              "0": "Nutzung von Betriebsausgaben",
-              "1": "Gestaltung von Geschäftsführergehalt und Gewinnausschüttung",
-              "2": "Nutzung steuerlicher Freibeträge"
+              "0": "Notkun viðskiptakostnaðar",
+              "1": "Hönnun framkvæmdastjóralauna og hagnaðarúthlutunar",
+              "2": "Notkun skattaafsláttar"
             }
           },
           "2_3": {
-            "title": "2.3 Vermögensaufbau im Betriebsvermögen",
+            "title": "2.3 Eignasöfnun í rekstrareignum",
             "items": {
-              "0": "Investitionen über die Gesellschaft"
+              "0": "Fjárfestingar í gegnum samfélagið"
             }
           }
         }
       },
       "relief": {
-        "title": "Finanzielle Entlastung",
-        "teaser": "Laufende Kosten gezielt reduzieren, insbesondere im PKV-Bereich.",
-        "description": "Gezielte Entlastung der laufenden Kosten, insbesondere im Bereich der PKV.",
+        "title": "Fjárhagsleg léttir",
+        "teaser": "Markviss lækkun á viðvarandi kostnaði, sérstaklega í einkareknum sjúkratryggingageiranum.",
+        "description": "Markviss léttir á áframhaldandi kostnaði, sérstaklega á sviði einkasjúkratrygginga.",
         "subpoints": {
           "3_1": {
-            "title": "3.1 Analyse der bestehenden Kostenstruktur",
+            "title": "3.1 Greining á núverandi kostnaðarskipulagi",
             "items": {
-              "0": "Krankenversicherung",
-              "1": "Altersvorsorge",
-              "2": "Laufende private Verpflichtungen"
+              "0": "sjúkratryggingar",
+              "1": "Eftirlaunaáætlun",
+              "2": "Viðvarandi persónulegar skuldbindingar"
             }
           }
         }
       },
       "pension": {
-        "title": "Steuerfreie Rente",
-        "teaser": "Langfristiger Aufbau steuerfreien Vermögens unter Berücksichtigung der gesetzlichen Haltedauer.",
-        "description": "Aufbau der steuerfreien Rente mit Fokus auf gesetzliche Haltedauer, langfristige Planung und rechtssicheren Vermögensaufbau.",
+        "title": "Skattfrjáls lífeyrir",
+        "teaser": "Langtímasöfnun skattfrjálsra eigna að teknu tilliti til löglegs eignarhaldstíma.",
+        "description": "Uppbygging skattfrjáls lífeyris með áherslu á lögbundin eignarhaldstímabil, langtímaáætlanagerð og lögtrygga eignasöfnun.",
         "subpoints": {
           "4_1": {
-            "title": "4.1 Grundprinzip des steuerfreien Vermögensaufbaus",
+            "title": "4.1 Grunnregla skattfrjálsrar eignasöfnunar",
             "items": {
-              "0": "Investition mit langfristiger Haltedauer",
-              "1": "Nutzung gesetzlicher Steuerbefreiungen",
-              "2": "Planung über mindestens 10+ Jahre"
+              "0": "Fjárfesting með langtíma eignarhaldstíma",
+              "1": "Notkun lögbundinna skattfrelsis",
+              "2": "Skipulag í að minnsta kosti 10+ ár"
             }
           }
         }

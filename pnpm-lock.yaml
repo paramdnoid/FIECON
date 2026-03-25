@@ -93,12 +93,18 @@ importers:
       eslint-config-next:
         specifier: ^16.1.6
         version: 16.1.6(@typescript-eslint/parser@8.54.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
+      google-translate-api-x:
+        specifier: ^10.7.2
+        version: 10.7.2
       jsdom:
         specifier: ^28.0.0
         version: 28.0.0
       puppeteer:
         specifier: ^24.37.3
         version: 24.37.3(typescript@5.9.3)
+      serbian-transliteration:
+        specifier: ^1.0.0
+        version: 1.0.0
       tailwindcss:
         specifier: ^4.1.18
         version: 4.1.18
@@ -2847,6 +2853,10 @@ packages:
     resolution: {integrity: sha512-DpLKbNU4WylpxJykQujfCcwYWiV/Jhm50Goo0wrVILAv5jOr9d+H+UR3PhSCD2rCCEIg0uc+G+muBTwD54JhDQ==}
     engines: {node: '>= 0.4'}
 
+  google-translate-api-x@10.7.2:
+    resolution: {integrity: sha512-GSmbvGMcnULaih2NFgD4Y6840DLAMot90mLWgwoB+FG/QpetyZkFrZkxop8ZxXgOAQXGskFOhGJady8nA6ZJ2g==}
+    engines: {node: '>=14.0.0'}
+
   gopd@1.2.0:
     resolution: {integrity: sha512-ZUKRh6/kUFoAiTAtTYPZJ3hw9wNxx+BIBOijnlG9PnrJsCcSjs1wyyD6vJpaYtgnzDrKYRSqf3OO6Rfa93xsRg==}
     engines: {node: '>= 0.4'}
@@ -3906,6 +3916,9 @@ packages:
     resolution: {integrity: sha512-vFKC2IEtQnVhpT78h1Yp8wzwrf8CM+MzKMHGJZfBtzhZNycRFnXsHk6E5TxIkkMsgNS7mdX3AGB7x2QM2di4lA==}
     engines: {node: '>=10'}
     hasBin: true
+
+  serbian-transliteration@1.0.0:
+    resolution: {integrity: sha512-wqbzb0Rg3AdrevT/XzEG6y6e/mtXuYU+nT6y+wTWX5PkqGar/GO1LquUA38SPSTbi60CUOrrD30Vz5B278hdUQ==}
 
   serialize-javascript@6.0.2:
     resolution: {integrity: sha512-Saa1xPByTTq2gdeFZYLLo+RFE35NHZkAbqZeWNd3BpzppeVisAqpDjcp8dyf6uIvEqJRd46jemmyA4iFIeVk8g==}
@@ -7517,6 +7530,8 @@ snapshots:
       define-properties: 1.2.1
       gopd: 1.2.0
 
+  google-translate-api-x@10.7.2: {}
+
   gopd@1.2.0: {}
 
   graceful-fs@4.2.11: {}
@@ -8684,6 +8699,8 @@ snapshots:
   semver@6.3.1: {}
 
   semver@7.7.4: {}
+
+  serbian-transliteration@1.0.0: {}
 
   serialize-javascript@6.0.2:
     dependencies:

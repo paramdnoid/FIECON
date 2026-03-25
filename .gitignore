@@ -42,6 +42,8 @@ next-env.d.ts
 
 # generated artifacts
 sbom.json
+scripts/.translate-placeholder-cache.json
+scripts/.translate-placeholder-cache.v2.json
 
 # IDE / AI tooling
 .claude/
