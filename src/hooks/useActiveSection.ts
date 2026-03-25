@@ -1,12 +1,16 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
-import { NAV_LINKS, HEADER_HEIGHT } from "@/lib/constants";
-
-const SECTION_IDS = NAV_LINKS.map((link) => link.href);
+import { useEffect, useMemo, useRef, useState } from "react";
+import { useLocale } from "next-intl";
+import { getNavLinks, HEADER_HEIGHT } from "@/lib/constants";
 
 export function useActiveSection() {
   const [activeSection, setActiveSection] = useState<string>("");
+  const locale = useLocale();
+  const sectionIds = useMemo(
+    () => getNavLinks(locale).map((link) => link.href),
+    [locale],
+  );
   const lastUrlSection = useRef<string>("");
   const mountedAt = useRef(0);
   const enabledOnThisPage = useRef(false);
@@ -30,7 +34,7 @@ export function useActiveSection() {
       let best: string = "";
       let bestDistance = Infinity;
 
-      for (const id of SECTION_IDS) {
+      for (const id of sectionIds) {
         const el = document.getElementById(id);
         if (!el) continue;
         const rect = el.getBoundingClientRect();
@@ -52,7 +56,7 @@ export function useActiveSection() {
     handleScroll();
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  }, [sectionIds]);
 
   // Sync URL hash with active section (delay on mount to allow ScrollToSection to work first)
   useEffect(() => {

@@ -2,15 +2,14 @@
 
 import { useRef } from "react";
 import Image from "next/image";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { AnimatePresence, motion } from "motion/react";
-import { NAV_LINKS, EASE_OUT_EXPO, COMPANY } from "@/lib/constants";
-import { scrollToSection } from "@/lib/utils";
+import { EASE_OUT_EXPO, COMPANY, getNavLinks } from "@/lib/constants";
 import { useActiveSection } from "@/hooks/useActiveSection";
 import { useFocusTrap } from "@/hooks/useFocusTrap";
 import { useDialogBehavior } from "@/hooks/useDialogBehavior";
-import { Link } from "@/i18n/navigation";
 import { LanguageSwitcher } from "./LanguageSwitcher";
+import { SectionNavLink } from "./SectionNavLink";
 
 type Props = {
   isOpen: boolean;
@@ -20,6 +19,8 @@ type Props = {
 export function MobileMenu({ isOpen, onClose }: Props) {
   const t = useTranslations("nav");
   const activeSection = useActiveSection();
+  const locale = useLocale();
+  const navLinks = getNavLinks(locale);
   const trapRef = useFocusTrap(isOpen);
   const closeButtonRef = useRef<HTMLButtonElement>(null);
 
@@ -52,7 +53,7 @@ export function MobileMenu({ isOpen, onClose }: Props) {
             aria-label={t("navigation")}
           >
             {/* Header row — matches main header height */}
-            <div className="flex items-center justify-between h-20 px-5 sm:px-8">
+            <div className="relative z-20 flex items-center justify-between h-20 px-5 sm:px-8">
               <div className="flex items-center gap-3">
                 <Image
                   src="/logo.svg"
@@ -88,11 +89,11 @@ export function MobileMenu({ isOpen, onClose }: Props) {
             </div>
 
             {/* Divider */}
-            <div className="mx-5 sm:mx-8 h-px bg-gradient-to-r from-beige-400/40 via-beige-400/20 to-transparent" />
+            <div className="relative z-10 mx-5 sm:mx-8 h-px bg-linear-to-r from-beige-400/40 via-beige-400/20 to-transparent" />
 
             {/* Navigation links */}
-            <nav className="flex-1 flex flex-col justify-center px-5 sm:px-8 -mt-12">
-              {NAV_LINKS.map((link, i) => {
+            <nav className="relative z-0 flex-1 flex flex-col justify-center px-5 sm:px-8 -mt-12">
+              {navLinks.map((link, i) => {
                 const isActive = activeSection === link.href;
                 return (
                   <motion.div
@@ -105,32 +106,13 @@ export function MobileMenu({ isOpen, onClose }: Props) {
                       ease: EASE_OUT_EXPO,
                     }}
                   >
-                    <Link
-                      href={`/#${link.href}`}
-                      onClick={(e) => {
-                        if (document.getElementById(link.href)) {
-                          e.preventDefault();
-                          scrollToSection(link.href);
-                        }
-                        onClose();
-                      }}
-                      className={`group flex items-center gap-4 py-4 text-left cursor-pointer transition-colors duration-300 ${
-                        isActive
-                          ? "text-bordeaux-900"
-                          : "text-text-primary hover:text-bordeaux-900"
-                      }`}
-                    >
-                      <span
-                        className={`h-px transition-all duration-300 ${
-                          isActive
-                            ? "w-8 bg-bordeaux-900"
-                            : "w-0 group-hover:w-8 bg-bordeaux-900/50"
-                        }`}
-                      />
-                      <span className="font-display text-xl sm:text-2xl md:text-3xl font-light tracking-tight">
-                        {t(link.id)}
-                      </span>
-                    </Link>
+                    <SectionNavLink
+                      link={link}
+                      label={t(link.id)}
+                      isActive={isActive}
+                      variant="mobile"
+                      onNavigate={onClose}
+                    />
                   </motion.div>
                 );
               })}
@@ -138,7 +120,7 @@ export function MobileMenu({ isOpen, onClose }: Props) {
 
             {/* Footer area */}
             <div className="px-5 sm:px-8 pb-10">
-              <div className="h-px bg-gradient-to-r from-beige-400/40 via-beige-400/20 to-transparent mb-6" />
+              <div className="h-px bg-linear-to-r from-beige-400/40 via-beige-400/20 to-transparent mb-6" />
               <div className="flex items-center justify-between">
                 <LanguageSwitcher />
                 <span className="text-xs text-text-muted tracking-wide">

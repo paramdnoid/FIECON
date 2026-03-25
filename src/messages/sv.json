@@ -19,7 +19,8 @@
     "navigation": "Navigering",
     "close_menu": "Stäng meny",
     "skip_to_content": "Hoppa till innehåll",
-    "gesetze": "Lagstiftning"
+    "gesetze": "Lagstiftning",
+    "four_point_plan": "Fyrpunktsplan"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -416,5 +417,111 @@
     "vag_provision_4": "§ 311 VAG — Specific rules for private health insurance: Provisions on actuarial calculation, premium adjustments and long-term financing through ageing reserves.",
     "estg_provision_4": "§ 22 EStG — Other income: Taxation in particular of recurring payments such as pensions, as well as certain other income outside the classic income categories.",
     "estg_provision_5": "§ 23 EStG — Private disposal transactions: Tax treatment of gains from the disposal of private assets within the statutory holding periods."
+  },
+  "fourPointPlan": {
+    "badge": "Fyrpunktsplan",
+    "headline": "Vår fyrpunktsplan för finansiellt oberoende",
+    "subtitle": "Strukturerad helhetsstrategi med operativt genomförande och långsiktig förmögenhetssäkring.",
+    "intro": "Planen följer klassisk företagsekonomisk logik: bygga struktur, optimera skatt, sänka kostnader och bygga långsiktigt skatteeffektiv förmögenhet. Avgörande är inte bara strategin, utan den disciplinerade genomförandetakten i den dagliga verksamheten.",
+    "cta_details": "Visa detaljerad plan",
+    "detail": {
+      "meta_title": "Fyrpunktsplan för finansiellt oberoende",
+      "meta_description": "Detaljerad presentation av FIECONs fyrpunktsplan: strategi och organisation, skatteoptimering, finansiell avlastning och långsiktigt skatteeffektiv förmögenhetsuppbyggnad.",
+      "headline": "Fyrpunktsplan i detalj",
+      "subtitle": "Detaljerad genomgång av åtgärder, delområden och operativa prioriteringar.",
+      "navigation_label": "Interaktiv navigation",
+      "focus_label": "Aktivt fokus",
+      "subpoints_label": "Delområden",
+      "items_label": "Åtgärder",
+      "cta_panel_title": "Från strategi till genomförande",
+      "cta_panel_text": "Vi utformar inte bara strategi - vi stödjer även den operativa implementeringen av varje enskild åtgärd.",
+      "cta_contact": "Boka strategisamtal",
+      "cta_back_home": "Till startsidan"
+    },
+    "points": {
+      "strategy": {
+        "title": "Strategi och organisation",
+        "teaser": "Tydlig målstruktur och effektivt operativt genomförande.",
+        "description": "Genomförande av den dagliga verksamheten med tydligt ansvar och robust struktur.",
+        "subpoints": {
+          "1_1": {
+            "title": "1.1 Tydlig definition av verksamhetens målstruktur",
+            "items": {
+              "0": "Fastställande av bolagsform(er) och ägarstruktur",
+              "1": "Utveckling av befintliga affärsmodeller",
+              "2": "Separation mellan operativ verksamhet och kapitalförvaltning",
+              "3": "Uppbyggnad av en juridiskt hållbar organisationsstruktur"
+            }
+          },
+          "1_2": {
+            "title": "1.2 Effektiv organisering av den dagliga verksamheten",
+            "items": {
+              "0": "Standardisering av processer",
+              "1": "Delegering av operativa aktiviteter",
+              "2": "Användning av externa tjänsteleverantörer (skatterådgivare, bokföring, administration)"
+            }
+          }
+        }
+      },
+      "tax": {
+        "title": "Skatteoptimering",
+        "teaser": "Anpassa bolags- och vinststruktur med hög skattemässig precision.",
+        "description": "Regelefterlevande skattestruktur som säkrar likviditet och stödjer tillväxt.",
+        "subpoints": {
+          "2_1": {
+            "title": "2.1 Val av rätt bolagsstruktur",
+            "items": {
+              "0": "Kombination av aktiebolag och personbolag",
+              "1": "Användning av holdingstrukturer",
+              "2": "Separation mellan privat förmögenhet och företagsförmögenhet"
+            }
+          },
+          "2_2": {
+            "title": "2.2 Vinstfördelning och strukturering",
+            "items": {
+              "0": "Användning av avdragsgilla kostnader",
+              "1": "Strukturering av vd-lön och utdelning",
+              "2": "Utnyttjande av skattemässiga fribelopp"
+            }
+          },
+          "2_3": {
+            "title": "2.3 Förmögenhetsuppbyggnad i företagsförmögenhet",
+            "items": {
+              "0": "Investeringar via bolaget"
+            }
+          }
+        }
+      },
+      "relief": {
+        "title": "Finansiell avlastning",
+        "teaser": "Minska löpande kostnader målmedvetet, särskilt inom privat sjukförsäkring.",
+        "description": "Målmedveten avlastning av löpande kostnader, särskilt inom privat sjukförsäkring.",
+        "subpoints": {
+          "3_1": {
+            "title": "3.1 Analys av befintlig kostnadsstruktur",
+            "items": {
+              "0": "Sjukförsäkring",
+              "1": "Pensionssparande",
+              "2": "Löpande privata åtaganden"
+            }
+          }
+        }
+      },
+      "pension": {
+        "title": "Skattefri pension",
+        "teaser": "Långsiktig skattefri förmögenhetsuppbyggnad med hänsyn till lagstadgade innehavstider.",
+        "description": "Uppbyggnad av skattefri pension med fokus på lagstadgade innehavstider, långsiktig planering och juridisk säkerhet.",
+        "subpoints": {
+          "4_1": {
+            "title": "4.1 Grundprincip för skattefri förmögenhetsuppbyggnad",
+            "items": {
+              "0": "Investering med långsiktig innehavshorisont",
+              "1": "Utnyttjande av lagstadgade skattebefrielser",
+              "2": "Planering över minst 10 år"
+            }
+          }
+        }
+      }
+    }
   }
 }

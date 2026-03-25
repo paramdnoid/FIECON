@@ -19,7 +19,8 @@
     "navigation": "Navigazione",
     "close_menu": "Chiudi menu",
     "skip_to_content": "Vai al contenuto",
-    "gesetze": "Legislazione"
+    "gesetze": "Legislazione",
+    "four_point_plan": "Piano a quattro punti"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -416,5 +417,111 @@
     "vag_provision_4": "§ 311 VAG — Specific rules for private health insurance: Provisions on actuarial calculation, premium adjustments and long-term financing through ageing reserves.",
     "estg_provision_4": "§ 22 EStG — Other income: Taxation in particular of recurring payments such as pensions, as well as certain other income outside the classic income categories.",
     "estg_provision_5": "§ 23 EStG — Private disposal transactions: Tax treatment of gains from the disposal of private assets within the statutory holding periods."
+  },
+  "fourPointPlan": {
+    "badge": "Piano a quattro punti",
+    "headline": "Il nostro piano a quattro punti per l'indipendenza finanziaria",
+    "subtitle": "Strategia complessiva strutturata con attuazione operativa e protezione patrimoniale di lungo periodo.",
+    "intro": "Il piano segue una logica imprenditoriale classica: creare struttura, ottimizzare la fiscalita, ridurre i costi e costruire patrimonio fiscalmente efficiente nel lungo periodo. Decisiva non e solo la strategia, ma la sua esecuzione disciplinata nella gestione quotidiana.",
+    "cta_details": "Visualizza il piano dettagliato",
+    "detail": {
+      "meta_title": "Piano a quattro punti per l'indipendenza finanziaria",
+      "meta_description": "Presentazione dettagliata del piano FIECON: strategia e organizzazione, ottimizzazione fiscale, alleggerimento finanziario e costruzione patrimoniale fiscalmente efficiente.",
+      "headline": "Piano a quattro punti in dettaglio",
+      "subtitle": "Sviluppo dettagliato di misure, sotto-ambiti e priorita esecutive.",
+      "navigation_label": "Navigazione interattiva",
+      "focus_label": "Focus attivo",
+      "subpoints_label": "Sotto-ambiti",
+      "items_label": "Misure",
+      "cta_panel_title": "Dalla strategia all'esecuzione",
+      "cta_panel_text": "Non definiamo solo la strategia: accompagniamo anche l'implementazione operativa di ogni singola misura.",
+      "cta_contact": "Prenota un colloquio strategico",
+      "cta_back_home": "Torna alla home"
+    },
+    "points": {
+      "strategy": {
+        "title": "Strategia e organizzazione",
+        "teaser": "Definire chiaramente la struttura-obiettivo ed eseguire con efficienza.",
+        "description": "Gestione operativa quotidiana fondata su responsabilita chiare e su una struttura solida.",
+        "subpoints": {
+          "1_1": {
+            "title": "1.1 Definizione chiara della struttura-obiettivo aziendale",
+            "items": {
+              "0": "Definizione della forma societaria e della struttura partecipativa",
+              "1": "Sviluppo dei modelli di business esistenti",
+              "2": "Separazione tra attivita operativa e gestione patrimoniale",
+              "3": "Costruzione di un assetto organizzativo giuridicamente sicuro"
+            }
+          },
+          "1_2": {
+            "title": "1.2 Organizzazione efficiente della gestione quotidiana",
+            "items": {
+              "0": "Standardizzazione dei processi",
+              "1": "Delega delle attivita operative",
+              "2": "Ricorso a fornitori esterni (consulente fiscale, contabilita, amministrazione)"
+            }
+          }
+        }
+      },
+      "tax": {
+        "title": "Ottimizzazione fiscale",
+        "teaser": "Allineare con precisione struttura societaria e struttura degli utili.",
+        "description": "Architettura fiscale conforme che tutela la liquidita e sostiene la crescita.",
+        "subpoints": {
+          "2_1": {
+            "title": "2.1 Scelta della struttura societaria corretta",
+            "items": {
+              "0": "Combinazione di societa di capitali e societa di persone",
+              "1": "Utilizzo di strutture holding",
+              "2": "Separazione tra patrimonio privato e patrimonio aziendale"
+            }
+          },
+          "2_2": {
+            "title": "2.2 Ridistribuzione e strutturazione degli utili",
+            "items": {
+              "0": "Utilizzo dei costi d'esercizio",
+              "1": "Strutturazione del compenso dell'amministratore e della distribuzione utili",
+              "2": "Utilizzo delle agevolazioni fiscali"
+            }
+          },
+          "2_3": {
+            "title": "2.3 Costruzione patrimoniale nel patrimonio d'impresa",
+            "items": {
+              "0": "Investimenti realizzati tramite la societa"
+            }
+          }
+        }
+      },
+      "relief": {
+        "title": "Alleggerimento finanziario",
+        "teaser": "Ridurre in modo mirato i costi ricorrenti, soprattutto nell'area PKV.",
+        "description": "Riduzione mirata dei costi ricorrenti, in particolare nell'ambito dell'assicurazione sanitaria privata.",
+        "subpoints": {
+          "3_1": {
+            "title": "3.1 Analisi della struttura dei costi esistente",
+            "items": {
+              "0": "Assicurazione sanitaria",
+              "1": "Previdenza pensionistica",
+              "2": "Impegni privati ricorrenti"
+            }
+          }
+        }
+      },
+      "pension": {
+        "title": "Pensione fiscalmente esente",
+        "teaser": "Costruzione patrimoniale fiscalmente esente nel lungo periodo, nel rispetto dei tempi legali di detenzione.",
+        "description": "Costruzione della pensione fiscalmente esente con focus su tempi legali di detenzione, pianificazione di lungo periodo e solidita giuridica.",
+        "subpoints": {
+          "4_1": {
+            "title": "4.1 Principio base della costruzione patrimoniale fiscalmente esente",
+            "items": {
+              "0": "Investimento con orizzonte di detenzione di lungo periodo",
+              "1": "Utilizzo delle esenzioni fiscali previste dalla legge",
+              "2": "Pianificazione su almeno 10 anni"
+            }
+          }
+        }
+      }
+    }
   }
 }

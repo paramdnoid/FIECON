@@ -1,5 +1,8 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from "vitest";
 import { renderHook, act } from "@testing-library/react";
+import { mockNextIntl } from "./test-utils/mocks";
+
+mockNextIntl();
 
 // ---------------------------------------------------------------------------
 // useScrollProgress
@@ -625,6 +628,7 @@ describe("useActiveSection", () => {
 
   beforeEach(() => {
     vi.useFakeTimers();
+    window.history.replaceState(null, "", "/de");
     replaceStateSpy = vi.fn();
     vi.stubGlobal("history", {
       ...window.history,
@@ -636,7 +640,7 @@ describe("useActiveSection", () => {
     vi.useRealTimers();
     vi.unstubAllGlobals();
     // Clean up any created elements
-    for (const id of ["about", "services", "approach", "offices", "contact"]) {
+    for (const id of ["about", "services", "four-point-plan", "gesetze", "approach", "offices", "contact"]) {
       document.getElementById(id)?.remove();
     }
   });
@@ -649,7 +653,7 @@ describe("useActiveSection", () => {
 
   it("returns the section ID closest to the detection line", async () => {
     // Create section elements
-    for (const id of ["about", "services", "approach", "offices", "contact"]) {
+    for (const id of ["about", "services", "four-point-plan", "gesetze", "approach", "offices", "contact"]) {
       const el = document.createElement("div");
       el.id = id;
       document.body.appendChild(el);
@@ -670,7 +674,7 @@ describe("useActiveSection", () => {
     });
 
     // Other elements are far away
-    for (const id of ["about", "approach", "offices", "contact"]) {
+    for (const id of ["about", "four-point-plan", "gesetze", "approach", "offices", "contact"]) {
       const el = document.getElementById(id)!;
       vi.spyOn(el, "getBoundingClientRect").mockReturnValue({
         top: 2000,

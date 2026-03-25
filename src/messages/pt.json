@@ -19,7 +19,8 @@
     "navigation": "Navegação",
     "close_menu": "Fechar menu",
     "skip_to_content": "Ir para o conteúdo",
-    "gesetze": "Legislação"
+    "gesetze": "Legislação",
+    "four_point_plan": "Plano de quatro pontos"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -416,5 +417,111 @@
     "vag_provision_4": "§ 311 VAG — Specific rules for private health insurance: Provisions on actuarial calculation, premium adjustments and long-term financing through ageing reserves.",
     "estg_provision_4": "§ 22 EStG — Other income: Taxation in particular of recurring payments such as pensions, as well as certain other income outside the classic income categories.",
     "estg_provision_5": "§ 23 EStG — Private disposal transactions: Tax treatment of gains from the disposal of private assets within the statutory holding periods."
+  },
+  "fourPointPlan": {
+    "badge": "Plano de quatro pontos",
+    "headline": "Nosso plano de quatro pontos para independencia financeira",
+    "subtitle": "Estrategia global estruturada com implementacao operacional e protecao patrimonial de longo prazo.",
+    "intro": "O plano segue a logica empresarial classica: estruturar, otimizar impostos, reduzir custos e construir patrimonio fiscalmente eficiente no longo prazo. O diferencial nao e apenas a estrategia, mas a execucao disciplinada no dia a dia.",
+    "cta_details": "Ver plano detalhado",
+    "detail": {
+      "meta_title": "Plano de quatro pontos para independencia financeira",
+      "meta_description": "Visao detalhada do plano FIECON: estrategia e organizacao, otimizacao fiscal, alivio financeiro e construcao patrimonial fiscalmente eficiente.",
+      "headline": "Plano de quatro pontos em detalhe",
+      "subtitle": "Detalhamento completo de medidas, subareas e prioridades de execucao.",
+      "navigation_label": "Navegacao interativa",
+      "focus_label": "Foco ativo",
+      "subpoints_label": "Subareas",
+      "items_label": "Medidas",
+      "cta_panel_title": "Da estrategia a execucao",
+      "cta_panel_text": "Nao desenhamos apenas a estrategia; tambem acompanhamos a implementacao operacional de cada medida.",
+      "cta_contact": "Agendar conversa estrategica",
+      "cta_back_home": "Voltar a pagina inicial"
+    },
+    "points": {
+      "strategy": {
+        "title": "Estrategia e organizacao",
+        "teaser": "Definir claramente a estrutura alvo e executar com eficiencia.",
+        "description": "Execucao operacional diaria com responsabilidades claras e estrutura robusta.",
+        "subpoints": {
+          "1_1": {
+            "title": "1.1 Definicao clara da estrutura objetivo do negocio",
+            "items": {
+              "0": "Definicao da forma societaria e da estrutura de participacao",
+              "1": "Expansao de modelos de negocio existentes",
+              "2": "Separacao entre atividade operacional e gestao patrimonial",
+              "3": "Construcao de uma estrutura organizacional juridicamente segura"
+            }
+          },
+          "1_2": {
+            "title": "1.2 Organizacao eficiente da operacao diaria",
+            "items": {
+              "0": "Padronizacao de processos",
+              "1": "Delegacao de atividades operacionais",
+              "2": "Uso de prestadores externos (consultoria fiscal, contabilidade, administracao)"
+            }
+          }
+        }
+      },
+      "tax": {
+        "title": "Otimizacao fiscal",
+        "teaser": "Alinhar com precisao a estrutura societaria e a estrutura de lucros.",
+        "description": "Arquitetura fiscal em conformidade que protege liquidez e sustenta crescimento.",
+        "subpoints": {
+          "2_1": {
+            "title": "2.1 Escolha da estrutura societaria adequada",
+            "items": {
+              "0": "Combinacao de sociedade de capital e sociedade de pessoas",
+              "1": "Uso de estruturas de holding",
+              "2": "Separacao entre patrimonio privado e patrimonio empresarial"
+            }
+          },
+          "2_2": {
+            "title": "2.2 Realocacao e estruturacao de lucros",
+            "items": {
+              "0": "Uso de despesas operacionais",
+              "1": "Estruturacao de pro-labore e distribuicao de lucros",
+              "2": "Uso de beneficios fiscais"
+            }
+          },
+          "2_3": {
+            "title": "2.3 Formacao patrimonial no ativo empresarial",
+            "items": {
+              "0": "Investimentos realizados pela sociedade"
+            }
+          }
+        }
+      },
+      "relief": {
+        "title": "Alivio financeiro",
+        "teaser": "Reduzir custos recorrentes de forma direcionada, especialmente em PKV.",
+        "description": "Reducao direcionada de encargos recorrentes, especialmente na area de seguro de saude privado.",
+        "subpoints": {
+          "3_1": {
+            "title": "3.1 Analise da estrutura de custos existente",
+            "items": {
+              "0": "Seguro de saude",
+              "1": "Previdencia",
+              "2": "Compromissos privados recorrentes"
+            }
+          }
+        }
+      },
+      "pension": {
+        "title": "Renda fiscalmente isenta",
+        "teaser": "Construcao patrimonial isenta de impostos no longo prazo, respeitando os prazos legais de detencao.",
+        "description": "Construcao da renda fiscalmente isenta com foco em prazos legais de detencao, planejamento de longo prazo e seguranca juridica.",
+        "subpoints": {
+          "4_1": {
+            "title": "4.1 Principio fundamental da acumulacao patrimonial isenta de impostos",
+            "items": {
+              "0": "Investimento com horizonte de detencao de longo prazo",
+              "1": "Uso das isencoes fiscais previstas em lei",
+              "2": "Planejamento de pelo menos 10 anos"
+            }
+          }
+        }
+      }
+    }
   }
 }

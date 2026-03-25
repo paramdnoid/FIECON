@@ -45,7 +45,7 @@ export function Philosophy() {
         </FadeIn>
 
         {/* Gradient divider */}
-        <div aria-hidden="true" className="h-px bg-gradient-to-r from-transparent via-beige-400/30 to-transparent mb-12" />
+        <div aria-hidden="true" className="h-px bg-linear-to-r from-transparent via-beige-400/30 to-transparent mb-12" />
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 items-stretch">
           {VALUES.map((value, index) => (
@@ -54,9 +54,9 @@ export function Philosophy() {
               delay={0.1 + index * 0.15}
               className="h-full"
             >
-              <div className="group relative flex h-full flex-col bg-white rounded-2xl border border-beige-200/60 p-6 sm:p-8 text-center overflow-hidden transition-all duration-400 hover:shadow-lg hover:shadow-bordeaux-900/8 hover:border-beige-400/50">
+              <div className="group fiecon-card-frame fiecon-card-interactive relative flex h-full flex-col rounded-2xl p-6 sm:p-8 text-center overflow-hidden hover:-translate-y-0.5">
                 {/* Accent bar top */}
-                <div className="absolute top-0 inset-x-0 h-[3px] bg-gradient-to-r from-bordeaux-900 via-bordeaux-700 to-beige-400 origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500" />
+                <div className="absolute top-0 inset-x-0 h-[3px] bg-linear-to-r from-bordeaux-900 via-bordeaux-700 to-beige-400 origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500" />
 
                 {/* Number watermark */}
                 <span aria-hidden="true" className="absolute top-4 right-5 font-display text-6xl font-light text-bordeaux-900 opacity-[0.04] select-none pointer-events-none">

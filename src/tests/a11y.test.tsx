@@ -2,62 +2,16 @@ import { describe, it, expect, vi } from "vitest";
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { FormField } from "@/components/ui/FormField";
+import {
+  mockMotionReact,
+  mockNextIntl,
+} from "./test-utils/mocks";
 
 // ---------------------------------------------------------------------------
 // Mocks required for ContactDialog (next-intl, framer-motion, custom hooks)
 // ---------------------------------------------------------------------------
-vi.mock("next-intl", () => ({
-  useTranslations: () => (key: string) => key,
-}));
-
-vi.mock("motion/react", () => {
-  const Passthrough = ({
-    children,
-    ...rest
-  }: React.PropsWithChildren<Record<string, unknown>>) => (
-    <div {...filterDomProps(rest)}>{children}</div>
-  );
-
-  // Strip non-DOM props that framer-motion would normally consume
-  function filterDomProps(props: Record<string, unknown>) {
-    const blocked = new Set([
-      "initial",
-      "animate",
-      "exit",
-      "transition",
-      "variants",
-      "whileHover",
-      "whileTap",
-      "layout",
-    ]);
-    const filtered: Record<string, unknown> = {};
-    for (const [k, v] of Object.entries(props)) {
-      if (!blocked.has(k)) filtered[k] = v;
-    }
-    return filtered;
-  }
-
-  return {
-    motion: new Proxy({} as Record<string, unknown>, {
-      get: (_target, prop: string) => {
-        // Return a passthrough component that renders a plain <div>
-        // regardless of the original element type (motion.div, motion.section, etc.)
-        const Comp = ({
-          children,
-          ...rest
-        }: React.PropsWithChildren<Record<string, unknown>>) => (
-          <div data-motion-element={prop} {...filterDomProps(rest)}>
-            {children}
-          </div>
-        );
-        Comp.displayName = `motion.${prop}`;
-        return Comp;
-      },
-    }),
-    AnimatePresence: Passthrough,
-    useReducedMotion: () => false,
-  };
-});
+mockNextIntl();
+mockMotionReact();
 
 vi.mock("@/hooks/useFocusTrap", () => ({
   useFocusTrap: () => ({ current: null }),

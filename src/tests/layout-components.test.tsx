@@ -1,59 +1,22 @@
 import { describe, it, expect, vi, beforeEach } from "vitest";
 import { render, screen } from "@testing-library/react";
+import { waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
+import {
+  mockMotionReact,
+  mockNextImage,
+  mockNextIntl,
+} from "./test-utils/mocks";
 
 // ---------------------------------------------------------------------------
 // Mocks
 // ---------------------------------------------------------------------------
-vi.mock("next-intl", () => ({
-  useTranslations: () => (key: string) => key,
-  useLocale: () => "de",
-}));
+mockNextIntl();
+mockMotionReact();
+mockNextImage();
 
-vi.mock("motion/react", () => {
-  function filterDomProps(props: Record<string, unknown>) {
-    const blocked = new Set([
-      "initial", "animate", "exit", "transition", "variants",
-      "whileHover", "whileTap", "whileInView", "viewport", "layout", "custom",
-    ]);
-    const filtered: Record<string, unknown> = {};
-    for (const [k, v] of Object.entries(props)) {
-      if (!blocked.has(k)) filtered[k] = v;
-    }
-    return filtered;
-  }
-
-  return {
-    motion: new Proxy({} as Record<string, unknown>, {
-      get: (_target, prop: string) => {
-        const Comp = ({
-          children,
-          ...rest
-        }: React.PropsWithChildren<Record<string, unknown>>) => (
-          <div data-motion-element={prop} {...filterDomProps(rest)}>
-            {children}
-          </div>
-        );
-        Comp.displayName = `motion.${prop}`;
-        return Comp;
-      },
-    }),
-    AnimatePresence: ({ children }: React.PropsWithChildren) => <>{children}</>,
-    useReducedMotion: () => false,
-    useScroll: () => ({ scrollYProgress: { get: () => 0 } }),
-  };
-});
-
-vi.mock("next/image", () => ({
-  default: ({ priority: _priority, fill: _fill, ...rest }: Record<string, unknown>) => {
-    // eslint-disable-next-line jsx-a11y/alt-text, @next/next/no-img-element
-    return <img {...rest} />;
-  },
-}));
-
-const mockPush = vi.fn();
-vi.mock("next/navigation", () => ({
-  useRouter: () => ({ push: mockPush }),
+const { mockPush } = vi.hoisted(() => ({
+  mockPush: vi.fn(),
 }));
 
 vi.mock("@/i18n/navigation", () => ({
@@ -70,6 +33,8 @@ vi.mock("@/i18n/navigation", () => ({
       </a>
     );
   },
+  useRouter: () => ({ push: mockPush }),
+  usePathname: () => "/de",
 }));
 
 vi.mock("@/hooks/useScrollProgress", () => ({
@@ -128,9 +93,9 @@ describe("Header", () => {
   it("renders navigation links for all NAV_LINKS", async () => {
     const { Header } = await import("@/components/layout/Header");
     render(<Header />);
-    // NAV_LINKS has 5 entries: about, services, approach, offices, contact
+    // German locale includes all links including the Four-Point-Plan.
     // In desktop nav each link renders with the translation key as text
-    for (const id of ["about", "services", "approach", "offices", "contact"]) {
+    for (const id of ["about", "services", "four_point_plan", "gesetze", "approach", "offices", "contact"]) {
       // There are multiple links (desktop nav + mobile menu), just check they exist
       const links = screen.getAllByText(id);
       expect(links.length).toBeGreaterThanOrEqual(1);
@@ -177,10 +142,10 @@ describe("MobileMenu", () => {
     expect(dialog.getAttribute("aria-modal")).toBe("true");
   });
 
-  it("renders all 5 nav links", async () => {
+  it("renders all nav links for de locale", async () => {
     const { MobileMenu } = await import("@/components/layout/MobileMenu");
     render(<MobileMenu isOpen={true} onClose={() => {}} />);
-    for (const id of ["about", "services", "approach", "offices", "contact"]) {
+    for (const id of ["about", "services", "four_point_plan", "gesetze", "approach", "offices", "contact"]) {
       expect(screen.getByText(id)).toBeDefined();
     }
   });
@@ -288,7 +253,7 @@ describe("LanguageSwitcher", () => {
     expect(deutschButton.getAttribute("aria-current")).toBe("true");
   });
 
-  it("clicking a locale button calls router.push", async () => {
+  it("clicking a locale button updates locale cookie and closes modal", async () => {
     const { LanguageSwitcher } = await import(
       "@/components/layout/LanguageSwitcher"
     );
@@ -301,7 +266,10 @@ describe("LanguageSwitcher", () => {
     const englishButton = screen.getByText("English").closest("button")!;
     await user.click(englishButton);
 
-    expect(mockPush).toHaveBeenCalledWith("/en");
+    await waitFor(() => {
+      expect(document.cookie).toContain("NEXT_LOCALE=en");
+      expect(screen.queryByRole("dialog")).toBeNull();
+    });
   });
 
   it("closes modal when Escape is pressed", async () => {

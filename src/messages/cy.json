@@ -19,7 +19,8 @@
     "navigation": "Llywio",
     "close_menu": "Cau dewislen",
     "skip_to_content": "Neidio i'r cynnwys",
-    "gesetze": "Deddfwriaeth"
+    "gesetze": "Deddfwriaeth",
+    "four_point_plan": "Four-Point Plan"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -416,5 +417,111 @@
     "vag_provision_4": "§ 311 VAG — Specific rules for private health insurance: Provisions on actuarial calculation, premium adjustments and long-term financing through ageing reserves.",
     "estg_provision_4": "§ 22 EStG — Other income: Taxation in particular of recurring payments such as pensions, as well as certain other income outside the classic income categories.",
     "estg_provision_5": "§ 23 EStG — Private disposal transactions: Tax treatment of gains from the disposal of private assets within the statutory holding periods."
+  },
+  "fourPointPlan": {
+    "badge": "Four-Point Plan",
+    "headline": "Our Four-Point Plan for Financial Independence",
+    "subtitle": "A structured end-to-end strategy with operational execution and long-term asset protection.",
+    "intro": "The model follows a classical entrepreneurial sequence: build structure, optimize taxes, reduce costs, and build long-term tax-efficient wealth. What matters most is not only strategy, but disciplined execution in day-to-day business.",
+    "cta_details": "View detailed plan",
+    "detail": {
+      "meta_title": "Four-Point Plan for Financial Independence",
+      "meta_description": "Detailed view of the FIECON Four-Point Plan: strategy and organization, tax optimization, financial relief, and tax-efficient long-term wealth building.",
+      "headline": "Four-Point Plan in Detail",
+      "subtitle": "Comprehensive breakdown of all measures, sub-areas, and execution priorities.",
+      "navigation_label": "Interactive Navigation",
+      "focus_label": "Active Focus",
+      "subpoints_label": "Sub-areas",
+      "items_label": "Measures",
+      "cta_panel_title": "From Strategy to Execution",
+      "cta_panel_text": "We do not only design strategy - we support the operational implementation of every single measure.",
+      "cta_contact": "Schedule a strategy call",
+      "cta_back_home": "Back to homepage"
+    },
+    "points": {
+      "strategy": {
+        "title": "Strategy and Organization",
+        "teaser": "Define target structures clearly and execute operations efficiently.",
+        "description": "Daily operations executed through clear governance and resilient structures.",
+        "subpoints": {
+          "1_1": {
+            "title": "1.1 Clear definition of the business target structure",
+            "items": {
+              "0": "Definition of legal entities and ownership structure",
+              "1": "Expansion of existing business models",
+              "2": "Separation of operating business and asset management",
+              "3": "Establishment of a legally robust organizational setup"
+            }
+          },
+          "1_2": {
+            "title": "1.2 Efficient organization of day-to-day business",
+            "items": {
+              "0": "Standardization of core processes",
+              "1": "Delegation of operational activities",
+              "2": "Use of external service providers (tax advisor, accounting, administration)"
+            }
+          }
+        }
+      },
+      "tax": {
+        "title": "Tax Optimization",
+        "teaser": "Align company and profit structures with tax precision.",
+        "description": "Compliant tax architecture that protects liquidity and supports growth.",
+        "subpoints": {
+          "2_1": {
+            "title": "2.1 Selecting the right company structure",
+            "items": {
+              "0": "Combination of corporation and partnership structures",
+              "1": "Use of holding structures",
+              "2": "Separation of private assets and business assets"
+            }
+          },
+          "2_2": {
+            "title": "2.2 Profit allocation and tax structuring",
+            "items": {
+              "0": "Use of operating expenses",
+              "1": "Structuring of managing director salary and profit distribution",
+              "2": "Use of tax allowances"
+            }
+          },
+          "2_3": {
+            "title": "2.3 Asset building inside business assets",
+            "items": {
+              "0": "Investments made through the company"
+            }
+          }
+        }
+      },
+      "relief": {
+        "title": "Financial Relief",
+        "teaser": "Reduce recurring burdens with focused cost optimization, especially PKV.",
+        "description": "Targeted reduction of recurring burdens, especially in private health insurance.",
+        "subpoints": {
+          "3_1": {
+            "title": "3.1 Analysis of the current cost structure",
+            "items": {
+              "0": "Health insurance",
+              "1": "Retirement provision",
+              "2": "Ongoing private obligations"
+            }
+          }
+        }
+      },
+      "pension": {
+        "title": "Tax-Free Retirement Wealth",
+        "teaser": "Long-term tax-free wealth building aligned with statutory holding periods.",
+        "description": "Tax-free retirement wealth strategy focused on statutory holding periods, long-term planning, and legally robust implementation.",
+        "subpoints": {
+          "4_1": {
+            "title": "4.1 Core principle of tax-free wealth accumulation",
+            "items": {
+              "0": "Investment with a long-term holding horizon",
+              "1": "Use of statutory tax exemptions",
+              "2": "Planning over at least 10+ years"
+            }
+          }
+        }
+      }
+    }
   }
 }

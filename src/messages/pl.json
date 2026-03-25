@@ -19,7 +19,8 @@
     "navigation": "Nawigacja",
     "close_menu": "Zamknij menu",
     "skip_to_content": "Przejdź do treści",
-    "gesetze": "Ustawodawstwo"
+    "gesetze": "Ustawodawstwo",
+    "four_point_plan": "Plan czteropunktowy"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -416,5 +417,111 @@
     "vag_provision_4": "§ 311 VAG — Specific rules for private health insurance: Provisions on actuarial calculation, premium adjustments and long-term financing through ageing reserves.",
     "estg_provision_4": "§ 22 EStG — Other income: Taxation in particular of recurring payments such as pensions, as well as certain other income outside the classic income categories.",
     "estg_provision_5": "§ 23 EStG — Private disposal transactions: Tax treatment of gains from the disposal of private assets within the statutory holding periods."
+  },
+  "fourPointPlan": {
+    "badge": "Plan czteropunktowy",
+    "headline": "Nasz plan czteropunktowy do niezaleznosci finansowej",
+    "subtitle": "Ustrukturyzowana strategia calosciowa z wdrozeniem operacyjnym i dlugoterminowym zabezpieczeniem majatku.",
+    "intro": "Plan opiera sie na klasycznej logice przedsiebiorczej: zbudowac strukture, zoptymalizowac podatki, obnizyc koszty i dlugoterminowo budowac efektywny podatkowo majatek. Kluczowa jest nie tylko strategia, lecz takze zdyscyplinowane wykonanie w codziennej dzialalnosci.",
+    "cta_details": "Zobacz plan szczegolowy",
+    "detail": {
+      "meta_title": "Plan czteropunktowy do niezaleznosci finansowej",
+      "meta_description": "Szczegolowe przedstawienie planu FIECON: strategia i organizacja, optymalizacja podatkowa, odciazenie finansowe oraz dlugoterminowa akumulacja majatku.",
+      "headline": "Plan czteropunktowy w szczegolach",
+      "subtitle": "Szczegolowe opracowanie dzialan, obszarow i priorytetow wdrozeniowych.",
+      "navigation_label": "Nawigacja interaktywna",
+      "focus_label": "Aktywny priorytet",
+      "subpoints_label": "Obszary",
+      "items_label": "Dzialania",
+      "cta_panel_title": "Od strategii do wdrozenia",
+      "cta_panel_text": "Nie tylko tworzymy strategie - wspieramy rowniez operacyjne wdrozenie kazdego dzialania.",
+      "cta_contact": "Umow rozmowe strategiczna",
+      "cta_back_home": "Powrot na strone glowna"
+    },
+    "points": {
+      "strategy": {
+        "title": "Strategia i organizacja",
+        "teaser": "Jasna struktura celow i efektywna realizacja operacyjna.",
+        "description": "Realizacja codziennej dzialalnosci w oparciu o klarowne odpowiedzialnosci i stabilna strukture.",
+        "subpoints": {
+          "1_1": {
+            "title": "1.1 Jasne zdefiniowanie docelowej struktury biznesowej",
+            "items": {
+              "0": "Ustalenie formy prawnej i struktury udzialowej",
+              "1": "Rozszerzenie istniejacych modeli biznesowych",
+              "2": "Rozdzielenie dzialalnosci operacyjnej i zarzadzania majatkiem",
+              "3": "Budowa prawnie bezpiecznej struktury organizacyjnej"
+            }
+          },
+          "1_2": {
+            "title": "1.2 Efektywna organizacja codziennej dzialalnosci",
+            "items": {
+              "0": "Standaryzacja procesow",
+              "1": "Delegowanie zadan operacyjnych",
+              "2": "Wykorzystanie zewnetrznych uslugodawcow (doradca podatkowy, ksiegowosc, administracja)"
+            }
+          }
+        }
+      },
+      "tax": {
+        "title": "Optymalizacja podatkowa",
+        "teaser": "Precyzyjne podatkowo ustawienie struktury spolki i zysku.",
+        "description": "Zgodna z prawem struktura podatkowa, ktora chroni plynnosc i wspiera wzrost.",
+        "subpoints": {
+          "2_1": {
+            "title": "2.1 Wybor wlasciwej struktury spolek",
+            "items": {
+              "0": "Polaczenie spolki kapitalowej i osobowej",
+              "1": "Wykorzystanie struktur holdingowych",
+              "2": "Rozdzielenie majatku prywatnego i firmowego"
+            }
+          },
+          "2_2": {
+            "title": "2.2 Przesuniecie i ksztaltowanie zysku",
+            "items": {
+              "0": "Wykorzystanie kosztow uzyskania przychodu",
+              "1": "Ksztaltowanie wynagrodzenia zarzadu i dystrybucji zysku",
+              "2": "Wykorzystanie ulg i zwolnien podatkowych"
+            }
+          },
+          "2_3": {
+            "title": "2.3 Budowa majatku w aktywach przedsiebiorstwa",
+            "items": {
+              "0": "Inwestycje realizowane przez spolke"
+            }
+          }
+        }
+      },
+      "relief": {
+        "title": "Odciazenie finansowe",
+        "teaser": "Celowa redukcja kosztow biezacych, zwlaszcza w obszarze PKV.",
+        "description": "Celowe odciazenie kosztow biezacych, w szczegolnosci w zakresie prywatnego ubezpieczenia zdrowotnego.",
+        "subpoints": {
+          "3_1": {
+            "title": "3.1 Analiza obecnej struktury kosztow",
+            "items": {
+              "0": "Ubezpieczenie zdrowotne",
+              "1": "Zabezpieczenie emerytalne",
+              "2": "Biezace zobowiazania prywatne"
+            }
+          }
+        }
+      },
+      "pension": {
+        "title": "Emerytura zwolniona podatkowo",
+        "teaser": "Dlugoterminowa akumulacja majatku zwolnionego podatkowo z uwzglednieniem ustawowych okresow utrzymania.",
+        "description": "Budowa emerytury zwolnionej podatkowo z naciskiem na ustawowe okresy utrzymania, planowanie dlugoterminowe i bezpieczenstwo prawne.",
+        "subpoints": {
+          "4_1": {
+            "title": "4.1 Podstawowa zasada zwolnionej podatkowo akumulacji majatku",
+            "items": {
+              "0": "Inwestowanie z dlugoterminowym horyzontem utrzymania",
+              "1": "Wykorzystanie ustawowych zwolnien podatkowych",
+              "2": "Planowanie na co najmniej 10 lat"
+            }
+          }
+        }
+      }
+    }
   }
 }

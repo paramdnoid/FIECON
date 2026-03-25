@@ -1,46 +1,16 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from "vitest";
 import { render, screen, waitFor, fireEvent } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
+import {
+  mockMotionReact,
+  mockNextIntl,
+} from "./test-utils/mocks";
 
 // ---------------------------------------------------------------------------
 // Mocks
 // ---------------------------------------------------------------------------
-vi.mock("next-intl", () => ({
-  useTranslations: () => (key: string) => key,
-}));
-
-vi.mock("motion/react", () => {
-  function filterDomProps(props: Record<string, unknown>) {
-    const blocked = new Set([
-      "initial", "animate", "exit", "transition", "variants",
-      "whileHover", "whileTap", "layout",
-    ]);
-    const filtered: Record<string, unknown> = {};
-    for (const [k, v] of Object.entries(props)) {
-      if (!blocked.has(k)) filtered[k] = v;
-    }
-    return filtered;
-  }
-
-  return {
-    motion: new Proxy({} as Record<string, unknown>, {
-      get: (_target, prop: string) => {
-        const Comp = ({
-          children,
-          ...rest
-        }: React.PropsWithChildren<Record<string, unknown>>) => (
-          <div data-motion-element={prop} {...filterDomProps(rest)}>
-            {children}
-          </div>
-        );
-        Comp.displayName = `motion.${prop}`;
-        return Comp;
-      },
-    }),
-    AnimatePresence: ({ children }: React.PropsWithChildren) => <>{children}</>,
-    useReducedMotion: () => false,
-  };
-});
+mockNextIntl();
+mockMotionReact();
 
 vi.mock("@/hooks/useFocusTrap", () => ({
   useFocusTrap: () => ({ current: null }),

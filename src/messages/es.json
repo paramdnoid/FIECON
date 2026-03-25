@@ -19,7 +19,8 @@
     "navigation": "Navegación",
     "close_menu": "Cerrar menú",
     "skip_to_content": "Ir al contenido",
-    "gesetze": "Legislación"
+    "gesetze": "Legislación",
+    "four_point_plan": "Plan de cuatro puntos"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -416,5 +417,111 @@
     "vag_provision_4": "§ 311 VAG — Specific rules for private health insurance: Provisions on actuarial calculation, premium adjustments and long-term financing through ageing reserves.",
     "estg_provision_4": "§ 22 EStG — Other income: Taxation in particular of recurring payments such as pensions, as well as certain other income outside the classic income categories.",
     "estg_provision_5": "§ 23 EStG — Private disposal transactions: Tax treatment of gains from the disposal of private assets within the statutory holding periods."
+  },
+  "fourPointPlan": {
+    "badge": "Plan de cuatro puntos",
+    "headline": "Nuestro plan de cuatro puntos para la independencia financiera",
+    "subtitle": "Estrategia global estructurada con ejecucion operativa y proteccion patrimonial a largo plazo.",
+    "intro": "El plan sigue la logica empresarial clasica: construir estructura, optimizar impuestos, reducir costes y crear patrimonio fiscalmente eficiente a largo plazo. Lo decisivo no es solo la estrategia, sino su ejecucion disciplinada en la operativa diaria.",
+    "cta_details": "Ver plan detallado",
+    "detail": {
+      "meta_title": "Plan de cuatro puntos para la independencia financiera",
+      "meta_description": "Vista detallada del plan FIECON: estrategia y organizacion, optimizacion fiscal, alivio financiero y construccion patrimonial fiscalmente eficiente.",
+      "headline": "Plan de cuatro puntos en detalle",
+      "subtitle": "Desarrollo detallado de medidas, subareas y prioridades de ejecucion.",
+      "navigation_label": "Navegacion interactiva",
+      "focus_label": "Enfoque activo",
+      "subpoints_label": "Subareas",
+      "items_label": "Medidas",
+      "cta_panel_title": "De la estrategia a la ejecucion",
+      "cta_panel_text": "No solo definimos la estrategia; tambien acompanamos la implementacion operativa de cada medida.",
+      "cta_contact": "Agendar una reunion estrategica",
+      "cta_back_home": "Volver a la pagina principal"
+    },
+    "points": {
+      "strategy": {
+        "title": "Estrategia y organizacion",
+        "teaser": "Definir con claridad la estructura objetivo y ejecutar con eficiencia.",
+        "description": "Operacion diaria con responsabilidades claras y una estructura solida.",
+        "subpoints": {
+          "1_1": {
+            "title": "1.1 Definicion clara de la estructura objetivo del negocio",
+            "items": {
+              "0": "Definicion de la forma societaria y de la estructura de participacion",
+              "1": "Ampliacion de modelos de negocio existentes",
+              "2": "Separacion entre operacion y gestion patrimonial",
+              "3": "Construccion de una estructura organizativa juridicamente segura"
+            }
+          },
+          "1_2": {
+            "title": "1.2 Organizacion eficiente de la operativa diaria",
+            "items": {
+              "0": "Estandarizacion de procesos",
+              "1": "Delegacion de tareas operativas",
+              "2": "Uso de proveedores externos (asesoria fiscal, contabilidad, administracion)"
+            }
+          }
+        }
+      },
+      "tax": {
+        "title": "Optimizacion fiscal",
+        "teaser": "Alinear con precision la estructura societaria y la estructura de beneficios.",
+        "description": "Arquitectura fiscal conforme que protege la liquidez y favorece el crecimiento.",
+        "subpoints": {
+          "2_1": {
+            "title": "2.1 Eleccion de la estructura societaria adecuada",
+            "items": {
+              "0": "Combinacion de sociedades de capital y sociedades de personas",
+              "1": "Uso de estructuras holding",
+              "2": "Separacion entre patrimonio privado y patrimonio empresarial"
+            }
+          },
+          "2_2": {
+            "title": "2.2 Reasignacion y estructuracion del beneficio",
+            "items": {
+              "0": "Aprovechamiento de gastos de explotacion",
+              "1": "Diseno de la remuneracion de direccion y reparto de beneficios",
+              "2": "Aprovechamiento de exenciones fiscales"
+            }
+          },
+          "2_3": {
+            "title": "2.3 Construccion patrimonial en activos empresariales",
+            "items": {
+              "0": "Inversiones realizadas a traves de la sociedad"
+            }
+          }
+        }
+      },
+      "relief": {
+        "title": "Alivio financiero",
+        "teaser": "Reducir de forma dirigida los costes recurrentes, en especial en PKV.",
+        "description": "Reduccion selectiva de costes recurrentes, especialmente en el ambito del seguro medico privado.",
+        "subpoints": {
+          "3_1": {
+            "title": "3.1 Analisis de la estructura de costes existente",
+            "items": {
+              "0": "Seguro medico",
+              "1": "Prevision para la jubilacion",
+              "2": "Compromisos privados recurrentes"
+            }
+          }
+        }
+      },
+      "pension": {
+        "title": "Jubilacion fiscalmente exenta",
+        "teaser": "Construccion patrimonial exenta de impuestos a largo plazo, respetando los plazos legales de tenencia.",
+        "description": "Construccion de la jubilacion fiscalmente exenta con enfoque en plazos legales de tenencia, planificacion a largo plazo y seguridad juridica.",
+        "subpoints": {
+          "4_1": {
+            "title": "4.1 Principio base de la acumulacion patrimonial exenta de impuestos",
+            "items": {
+              "0": "Inversion con horizonte de tenencia a largo plazo",
+              "1": "Uso de exenciones fiscales previstas por ley",
+              "2": "Planificacion de al menos 10 anos"
+            }
+          }
+        }
+      }
+    }
   }
 }

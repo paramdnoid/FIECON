@@ -1,72 +1,22 @@
-import { describe, it, expect, vi } from "vitest";
-import { render, screen } from "@testing-library/react";
+import { beforeEach, afterEach, describe, it, expect, vi } from "vitest";
+import { act, render, screen, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
+import {
+  mockMotionReact,
+  mockNavigation,
+  mockNextImage,
+  mockNextIntl,
+  mockNextIntlServer,
+} from "./test-utils/mocks";
 
 // ---------------------------------------------------------------------------
 // Mocks
 // ---------------------------------------------------------------------------
-vi.mock("next-intl", () => ({
-  useTranslations: () => (key: string) => key,
-  useLocale: () => "de",
-}));
-
-vi.mock("next-intl/server", () => ({
-  getTranslations: async () => (key: string) => key,
-  setRequestLocale: () => {},
-  getLocale: async () => "de",
-}));
-
-vi.mock("motion/react", () => {
-  function filterDomProps(props: Record<string, unknown>) {
-    const blocked = new Set([
-      "initial", "animate", "exit", "transition", "variants",
-      "whileHover", "whileTap", "whileInView", "viewport", "layout", "custom",
-      "style",
-    ]);
-    const filtered: Record<string, unknown> = {};
-    for (const [k, v] of Object.entries(props)) {
-      if (!blocked.has(k)) filtered[k] = v;
-    }
-    return filtered;
-  }
-
-  return {
-    motion: new Proxy({} as Record<string, unknown>, {
-      get: (_target, prop: string) => {
-        const Comp = ({
-          children,
-          ...rest
-        }: React.PropsWithChildren<Record<string, unknown>>) => (
-          <div data-motion-element={prop} {...filterDomProps(rest)}>{children}</div>
-        );
-        Comp.displayName = `motion.${prop}`;
-        return Comp;
-      },
-    }),
-    AnimatePresence: ({ children }: React.PropsWithChildren) => <>{children}</>,
-    useReducedMotion: () => false,
-    useScroll: () => ({ scrollYProgress: { get: () => 0 } }),
-    useTransform: () => 0,
-  };
-});
-
-vi.mock("next/image", () => ({
-  default: ({ priority: _p, fill: _f, ...rest }: Record<string, unknown>) => {
-    // eslint-disable-next-line jsx-a11y/alt-text, @next/next/no-img-element
-    return <img {...rest} />;
-  },
-}));
-
-vi.mock("@/i18n/navigation", () => ({
-  Link: ({
-    children,
-    href,
-    ...rest
-  }: React.PropsWithChildren<{ href: string } & Record<string, unknown>>) => {
-    const { locale: _l, prefetch: _p, ...domProps } = rest as Record<string, unknown>;
-    return <a href={href} {...domProps}>{children}</a>;
-  },
-}));
+mockNextIntl();
+mockNextIntlServer();
+mockMotionReact();
+mockNextImage();
+mockNavigation();
 
 vi.mock("@/components/sections/Hero", () => ({
   Hero: () => <div data-testid="hero" />,
@@ -100,9 +50,9 @@ vi.mock("@sentry/nextjs", () => ({
 describe("Loading page", () => {
   it("renders a loading spinner with status role", async () => {
     const Loading = (await import("@/app/[locale]/loading")).default;
-    render(<Loading />);
+    render(await Loading());
     expect(screen.getByRole("status")).toBeDefined();
-    expect(screen.getByText("Loading...")).toBeDefined();
+    expect(screen.getByText("sending")).toBeDefined();
   });
 });
 
@@ -175,6 +125,69 @@ describe("HomePage", () => {
     expect(screen.getByTestId("philosophy")).toBeDefined();
     expect(screen.getByTestId("offices")).toBeDefined();
     expect(screen.getByTestId("contact")).toBeDefined();
+  });
+});
+
+// ---------------------------------------------------------------------------
+// Four-Point-Plan detail page
+// ---------------------------------------------------------------------------
+describe("Four-Point-Plan page", () => {
+  beforeEach(() => {
+    window.scrollTo = vi.fn();
+  });
+
+  afterEach(() => {
+    vi.unstubAllGlobals();
+    vi.restoreAllMocks();
+  });
+
+  it("renders detailed plan content for de locale", async () => {
+    const FourPointPlanPage = (await import("@/app/[locale]/four-point-plan/page")).default;
+    render(await FourPointPlanPage({ params: Promise.resolve({ locale: "de" }) }));
+
+    const user = userEvent.setup();
+    expect(screen.getByText("cta_contact")).toBeDefined();
+    expect(screen.getByText("points.strategy.subpoints.1_1.items.0")).toBeDefined();
+
+    await user.click(screen.getAllByRole("button", { name: /points\.tax\.title/i })[0]);
+    await user.click(screen.getByRole("button", { name: /points\.tax\.subpoints\.2_2\.title/i }));
+    expect(screen.getByText("points.tax.subpoints.2_2.items.1")).toBeDefined();
+  });
+
+  it("syncs left navigation on window scroll progress", async () => {
+    const FourPointPlanPage = (await import("@/app/[locale]/four-point-plan/page")).default;
+    render(await FourPointPlanPage({ params: Promise.resolve({ locale: "de" }) }));
+
+    const scrollSyncRoot = document.querySelector("[data-scroll-sync-root='true']");
+    expect(scrollSyncRoot).toBeDefined();
+
+    Object.defineProperty(window, "innerHeight", { value: 1000, configurable: true });
+    Object.defineProperty(scrollSyncRoot as HTMLElement, "offsetHeight", {
+      value: 2400,
+      configurable: true,
+    });
+    (scrollSyncRoot as HTMLElement).getBoundingClientRect = () =>
+      ({
+        top: -300,
+        bottom: 2100,
+        height: 2400,
+        width: 0,
+        x: 0,
+        y: -300,
+        left: 0,
+        right: 0,
+        toJSON: () => ({}),
+      }) as DOMRect;
+    await act(async () => {
+      window.dispatchEvent(new Event("scroll"));
+    });
+
+    const leftNav = document.querySelector("aside");
+    expect(leftNav).toBeDefined();
+    const taxButtonInLeftNav = within(leftNav as HTMLElement).getByRole("button", {
+      name: /points\.tax\.title/i,
+    });
+    expect(taxButtonInLeftNav.getAttribute("aria-pressed")).toBe("true");
   });
 });
 

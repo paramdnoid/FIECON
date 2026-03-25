@@ -19,7 +19,8 @@
     "navigation": "Navigatie",
     "close_menu": "Menu sluiten",
     "skip_to_content": "Ga naar inhoud",
-    "gesetze": "Wetgeving"
+    "gesetze": "Wetgeving",
+    "four_point_plan": "Vierpuntenplan"
   },
   "hero": {
     "tagline": "FIECON Consulting",
@@ -416,5 +417,111 @@
     "vag_provision_4": "§ 311 VAG — Specific rules for private health insurance: Provisions on actuarial calculation, premium adjustments and long-term financing through ageing reserves.",
     "estg_provision_4": "§ 22 EStG — Other income: Taxation in particular of recurring payments such as pensions, as well as certain other income outside the classic income categories.",
     "estg_provision_5": "§ 23 EStG — Private disposal transactions: Tax treatment of gains from the disposal of private assets within the statutory holding periods."
+  },
+  "fourPointPlan": {
+    "badge": "Vierpuntenplan",
+    "headline": "Ons vierpuntenplan voor financiele onafhankelijkheid",
+    "subtitle": "Gestructureerde totaalstrategie met operationele uitvoering en langetermijn-vermogenszekerheid.",
+    "intro": "Het plan volgt de klassieke ondernemerslogica: structuur opbouwen, belastingen optimaliseren, kosten verlagen en op lange termijn fiscaal efficient vermogen opbouwen. Doorslaggevend is niet alleen de strategie, maar de consequente uitvoering in de dagelijkse praktijk.",
+    "cta_details": "Bekijk het gedetailleerde plan",
+    "detail": {
+      "meta_title": "Vierpuntenplan voor financiele onafhankelijkheid",
+      "meta_description": "Gedetailleerde uitwerking van het FIECON-vierpuntenplan: strategie en organisatie, fiscale optimalisatie, financiele ontlasting en fiscaal efficient vermogensopbouw.",
+      "headline": "Vierpuntenplan in detail",
+      "subtitle": "Uitgebreide uitwerking van maatregelen, deelgebieden en uitvoeringsprioriteiten.",
+      "navigation_label": "Interactieve navigatie",
+      "focus_label": "Actieve focus",
+      "subpoints_label": "Deelgebieden",
+      "items_label": "Maatregelen",
+      "cta_panel_title": "Van strategie naar uitvoering",
+      "cta_panel_text": "Wij ontwikkelen niet alleen strategie, maar begeleiden ook de operationele implementatie van elke maatregel.",
+      "cta_contact": "Plan een strategiegesprek",
+      "cta_back_home": "Terug naar de homepage"
+    },
+    "points": {
+      "strategy": {
+        "title": "Strategie en organisatie",
+        "teaser": "Doelstructuur helder definiëren en operationeel efficiënt uitvoeren.",
+        "description": "Dagelijkse uitvoering op basis van duidelijke verantwoordelijkheden en een robuuste structuur.",
+        "subpoints": {
+          "1_1": {
+            "title": "1.1 Heldere definitie van de zakelijke doelstructuur",
+            "items": {
+              "0": "Vastlegging van rechtsvorm(en) en participatiestructuur",
+              "1": "Uitbreiding van bestaande businessmodellen",
+              "2": "Scheiding van operationele activiteiten en vermogensbeheer",
+              "3": "Opbouw van een juridisch solide organisatiestructuur"
+            }
+          },
+          "1_2": {
+            "title": "1.2 Efficiënte organisatie van de dagelijkse operatie",
+            "items": {
+              "0": "Standaardisering van processen",
+              "1": "Delegatie van operationele taken",
+              "2": "Inzet van externe dienstverleners (fiscalist, boekhouding, administratie)"
+            }
+          }
+        }
+      },
+      "tax": {
+        "title": "Fiscale optimalisatie",
+        "teaser": "Vennootschaps- en winststructuur fiscaal nauwkeurig inrichten.",
+        "description": "Conforme fiscale structuur die liquiditeit beschermt en groei ondersteunt.",
+        "subpoints": {
+          "2_1": {
+            "title": "2.1 Keuze van de juiste vennootschapsstructuur",
+            "items": {
+              "0": "Combinatie van kapitaalvennootschap en personenvennootschap",
+              "1": "Gebruik van holdingstructuren",
+              "2": "Scheiding van privevermogen en ondernemingsvermogen"
+            }
+          },
+          "2_2": {
+            "title": "2.2 Winstverschuiving en fiscale vormgeving",
+            "items": {
+              "0": "Gebruik van bedrijfskosten",
+              "1": "Vormgeving van directiesalaris en winstuitkering",
+              "2": "Gebruik van fiscale vrijstellingen"
+            }
+          },
+          "2_3": {
+            "title": "2.3 Vermogensopbouw binnen het ondernemingsvermogen",
+            "items": {
+              "0": "Investeringen via de vennootschap"
+            }
+          }
+        }
+      },
+      "relief": {
+        "title": "Financiele ontlasting",
+        "teaser": "Doorlopende kosten gericht verlagen, met name in de PKV.",
+        "description": "Gerichte verlaging van terugkerende kosten, vooral binnen de private ziektekostenverzekering.",
+        "subpoints": {
+          "3_1": {
+            "title": "3.1 Analyse van de bestaande kostenstructuur",
+            "items": {
+              "0": "Ziektekostenverzekering",
+              "1": "Pensioenopbouw",
+              "2": "Lopende particuliere verplichtingen"
+            }
+          }
+        }
+      },
+      "pension": {
+        "title": "Fiscaal vrije pensioenopbouw",
+        "teaser": "Langetermijnvermogensopbouw met fiscale vrijstelling binnen wettelijke houdtermijnen.",
+        "description": "Opbouw van fiscaal vrije pensioenvermogens met focus op wettelijke houdtermijnen, langetermijnplanning en juridische zekerheid.",
+        "subpoints": {
+          "4_1": {
+            "title": "4.1 Kernprincipe van fiscaal vrije vermogensopbouw",
+            "items": {
+              "0": "Investeren met een langetermijn-houdhorizon",
+              "1": "Gebruik van wettelijke belastingvrijstellingen",
+              "2": "Planning over minimaal 10 jaar"
+            }
+          }
+        }
+      }
+    }
   }
 }

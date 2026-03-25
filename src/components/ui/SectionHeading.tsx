@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import { cn } from "@/lib/utils";
 
 type Props = {
   badge?: string;
@@ -24,16 +25,19 @@ export function SectionHeading({
   const alignment = align === "center" ? "text-center" : "text-left";
 
   return (
-    <div className={`${alignment} mb-10 sm:mb-12 lg:mb-16`}>
+    <div className={cn(alignment, "mb-10 sm:mb-12 lg:mb-16")}>
       {badge && (
         <span className="inline-block text-sm font-medium tracking-[0.4em] uppercase text-accent mb-4">
           {badge}
         </span>
       )}
       <h2
-        className={`font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light tracking-tight mb-6 text-balance ${
-          gradient ? "gradient-text" : "text-text-primary"
-        } ${italic ? "italic" : ""} ${headlineClassName ?? ""}`}
+        className={cn(
+          "font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light tracking-tight mb-6 text-balance",
+          gradient ? "gradient-text" : "text-text-primary",
+          italic && "italic",
+          headlineClassName,
+        )}
       >
         {headline}
       </h2>

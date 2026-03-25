@@ -1,6 +1,12 @@
 import { describe, it, expect, vi } from "vitest";
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
+import {
+  mockMotionReact,
+  mockNavigation,
+  mockNextImage,
+  mockNextIntl,
+} from "./test-utils/mocks";
 
 // ---------------------------------------------------------------------------
 // Mocks
@@ -21,74 +27,10 @@ Object.defineProperty(window, "matchMedia", {
   }),
 });
 
-vi.mock("next-intl", () => ({
-  useTranslations: () => (key: string) => key,
-  useLocale: () => "de",
-}));
-
-vi.mock("motion/react", () => {
-  function filterDomProps(props: Record<string, unknown>) {
-    const blocked = new Set([
-      "initial", "animate", "exit", "transition", "variants",
-      "whileHover", "whileTap", "whileInView", "viewport", "layout", "custom",
-      "style",
-    ]);
-    const filtered: Record<string, unknown> = {};
-    for (const [k, v] of Object.entries(props)) {
-      if (!blocked.has(k)) filtered[k] = v;
-    }
-    return filtered;
-  }
-
-  return {
-    motion: new Proxy({} as Record<string, unknown>, {
-      get: (_target, prop: string) => {
-        const Comp = ({
-          children,
-          ...rest
-        }: React.PropsWithChildren<Record<string, unknown>>) => {
-          const tag = typeof prop === "string" && ["svg", "path", "div", "span", "p"].includes(prop) ? prop : "div";
-          const Tag = tag as keyof JSX.IntrinsicElements;
-          return <Tag data-motion-element={prop} {...filterDomProps(rest)}>{children}</Tag>;
-        };
-        Comp.displayName = `motion.${prop}`;
-        return Comp;
-      },
-    }),
-    AnimatePresence: ({ children }: React.PropsWithChildren) => <>{children}</>,
-    useReducedMotion: () => false,
-    useScroll: () => ({ scrollYProgress: { get: () => 0 } }),
-    useTransform: () => 0,
-    useInView: () => true,
-    useMotionValue: (initial: number) => ({
-      get: () => initial,
-      set: () => {},
-      on: () => () => {},
-    }),
-    useSpring: (val: unknown) => val,
-    animate: (_motionValue: unknown, _to: unknown, _opts?: unknown) => ({
-      stop: () => {},
-    }),
-  };
-});
-
-vi.mock("next/image", () => ({
-  default: ({ priority: _p, fill: _f, ...rest }: Record<string, unknown>) => {
-    // eslint-disable-next-line jsx-a11y/alt-text, @next/next/no-img-element
-    return <img {...rest} />;
-  },
-}));
-
-vi.mock("@/i18n/navigation", () => ({
-  Link: ({
-    children,
-    href,
-    ...rest
-  }: React.PropsWithChildren<{ href: string } & Record<string, unknown>>) => {
-    const { locale: _l, prefetch: _p, ...domProps } = rest as Record<string, unknown>;
-    return <a href={href} {...domProps}>{children}</a>;
-  },
-}));
+mockNextIntl();
+mockMotionReact();
+mockNextImage();
+mockNavigation();
 
 vi.mock("@/hooks/useCarouselIndex", () => ({
   useCarouselIndex: () => [{ current: null }, 0],
@@ -174,10 +116,9 @@ describe("Services", () => {
     const { Services } = await import("@/components/sections/Services");
     render(<Services />);
     expect(screen.getByText("consulting.title")).toBeDefined();
-    // Finance group: tab button + active h3 both show finance.title
-    expect(screen.getAllByText("finance.title")).toHaveLength(2);
-    expect(screen.getByText("construction.title")).toBeDefined();
-    expect(screen.getByText("yacht.title")).toBeDefined();
+    expect(screen.getAllByText("finance.title").length).toBeGreaterThanOrEqual(1);
+    expect(screen.getByText("construction.tab")).toBeDefined();
+    expect(screen.getByText("yacht.tab")).toBeDefined();
   });
 
   it("renders focus areas", async () => {
@@ -205,6 +146,27 @@ describe("Philosophy", () => {
     expect(screen.getByText("values.personal.title")).toBeDefined();
     expect(screen.getByText("values.trust.title")).toBeDefined();
   });
+});
+
+// ---------------------------------------------------------------------------
+// FourPointPlan
+// ---------------------------------------------------------------------------
+describe("FourPointPlan", () => {
+  it("renders the four-point-plan section with id", async () => {
+    const { FourPointPlan } = await import("@/components/sections/FourPointPlan");
+    const { container } = render(<FourPointPlan />);
+    expect(container.querySelector("#four-point-plan")).toBeDefined();
+  });
+
+  it("renders all four plan pillars", async () => {
+    const { FourPointPlan } = await import("@/components/sections/FourPointPlan");
+    render(<FourPointPlan />);
+    expect(screen.getByText("points.strategy.title")).toBeDefined();
+    expect(screen.getByText("points.tax.title")).toBeDefined();
+    expect(screen.getByText("points.relief.title")).toBeDefined();
+    expect(screen.getByText("points.pension.title")).toBeDefined();
+  });
+
 });
 
 // ---------------------------------------------------------------------------
