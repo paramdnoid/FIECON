@@ -487,7 +487,7 @@
           "2_3": {
             "title": "2.3 Isletme varligi icinde varlik birikimi",
             "items": {
-              "0": "Yatirimlarin sirket uzerinden yapilmasi"
+              "0": "Şirket üzerinden yapılan edinimler"
             }
           }
         }
@@ -515,7 +515,7 @@
           "4_1": {
             "title": "4.1 Vergiden muaf varlik birikiminin temel ilkesi",
             "items": {
-              "0": "Uzun vadeli elde tutma perspektifiyle yatirim",
+              "0": "Uzun vadeli elde tutma amaçlı edinim",
               "1": "Yasal vergi muafiyetlerinin kullanimi",
               "2": "En az 10 yillik planlama"
             }

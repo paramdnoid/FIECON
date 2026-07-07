@@ -487,7 +487,7 @@
           "2_3": {
             "title": "2.3 Carnadh sócmhainní i sócmhainní gnó",
             "items": {
-              "0": "Infheistíochtaí tríd an tsochaí"
+              "0": "Éadálacha a dhéantar tríd an gcuideachta"
             }
           }
         }
@@ -515,7 +515,7 @@
           "4_1": {
             "title": "4.1 Bunphrionsabal maidir le carnadh sócmhainní saor ó cháin",
             "items": {
-              "0": "Infheistíocht le tréimhse shealbhaíochta fadtéarmach",
+              "0": "Éadáil le léaslíne sealbhaithe fadtéarmach",
               "1": "Díolúintí reachtúla cánach a úsáid",
               "2": "Pleanáil ar feadh 10+ bliain ar a laghad"
             }

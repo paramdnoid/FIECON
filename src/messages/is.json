@@ -487,7 +487,7 @@
           "2_3": {
             "title": "2.3 Eignasöfnun í rekstrareignum",
             "items": {
-              "0": "Fjárfestingar í gegnum samfélagið"
+              "0": "Kaup í gegnum félagið"
             }
           }
         }
@@ -515,7 +515,7 @@
           "4_1": {
             "title": "4.1 Grunnregla skattfrjálsrar eignasöfnunar",
             "items": {
-              "0": "Fjárfesting með langtíma eignarhaldstíma",
+              "0": "Kaup með langan eignarhaldstíma",
               "1": "Notkun lögbundinna skattfrelsis",
               "2": "Skipulag í að minnsta kosti 10+ ár"
             }

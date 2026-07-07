@@ -487,7 +487,7 @@
           "2_3": {
             "title": "2.3 Varade kogunemine ettevõtte varadesse",
             "items": {
-              "0": "Investeeringud läbi ühiskonna"
+              "0": "Soetamine ettevõtte kaudu"
             }
           }
         }
@@ -515,7 +515,7 @@
           "4_1": {
             "title": "4.1 Maksuvaba varade kogumise põhimõte",
             "items": {
-              "0": "Pikaajalise hoidmisperioodiga investeering",
+              "0": "Soetamine pika hoidmisperioodiga",
               "1": "Seadusjärgsete maksuvabastuste kasutamine",
               "2": "Planeerimine vähemalt 10+ aastat"
             }

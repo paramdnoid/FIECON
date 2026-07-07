@@ -487,7 +487,7 @@
           "2_3": {
             "title": "2.3 Varallisuuden kerryttäminen yritysvarallisuudessa",
             "items": {
-              "0": "Sijoitukset yhtiön kautta"
+              "0": "Hankinnat yhtiön kautta"
             }
           }
         }
@@ -515,7 +515,7 @@
           "4_1": {
             "title": "4.1 Verovapaan varallisuuden kerryttämisen periaate",
             "items": {
-              "0": "Sijoittaminen pitkällä omistushorisontilla",
+              "0": "Hankinta pitkällä pitoajalla",
               "1": "Lakisääteisten verovapauksien hyödyntäminen",
               "2": "Suunnittelu vähintään 10 vuoden aikajänteellä"
             }

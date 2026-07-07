@@ -487,7 +487,7 @@
           "2_3": {
             "title": "2.3 Turto kaupimas verslo turte",
             "items": {
-              "0": "Investicijos per visuomenę"
+              "0": "Įsigijimas per bendrovę"
             }
           }
         }
@@ -515,7 +515,7 @@
           "4_1": {
             "title": "4.1 Pagrindinis neapmokestinamo turto kaupimo principas",
             "items": {
-              "0": "Investicija su ilgalaikiu laikymo laikotarpiu",
+              "0": "Įsigijimas ilgalaikiam laikymui",
               "1": "Įstatymais numatytų mokesčių lengvatų naudojimas",
               "2": "Planavimas bent 10+ metų"
             }

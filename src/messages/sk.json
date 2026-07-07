@@ -487,7 +487,7 @@
           "2_3": {
             "title": "2.3 Akumulácia majetku v majetku podniku",
             "items": {
-              "0": "Investície cez spoločnosť"
+              "0": "Nadobudnutie prostredníctvom spoločnosti"
             }
           }
         }
@@ -515,7 +515,7 @@
           "4_1": {
             "title": "4.1 Základný princíp akumulácie majetku oslobodeného od dane",
             "items": {
-              "0": "Investícia s dlhodobou dobou držby",
+              "0": "Nadobudnutie s dlhodobým horizontom držby",
               "1": "Využitie zákonných daňových výnimiek",
               "2": "Plánovanie aspoň na 10+ rokov"
             }

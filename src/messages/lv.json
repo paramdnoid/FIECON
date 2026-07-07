@@ -487,7 +487,7 @@
           "2_3": {
             "title": "2.3. Aktīvu uzkrāšana uzņēmuma aktīvos",
             "items": {
-              "0": "Investīcijas caur sabiedrību"
+              "0": "Iegāde caur uzņēmumu"
             }
           }
         }
@@ -515,7 +515,7 @@
           "4_1": {
             "title": "4.1. Nenodokļu aktīvu uzkrāšanas pamatprincips",
             "items": {
-              "0": "Investīcijas ar ilgtermiņa turēšanas periodu",
+              "0": "Iegāde ar ilgtermiņa turēšanu",
               "1": "Likumā noteikto nodokļu atvieglojumu izmantošana",
               "2": "Plānošana vismaz 10+ gadiem"
             }

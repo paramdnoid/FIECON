@@ -487,7 +487,7 @@
           "2_3": {
             "title": "2.3 Akumulacija sredstev v poslovnih sredstvih",
             "items": {
-              "0": "Naložbe skozi družbo"
+              "0": "Pridobitev prek družbe"
             }
           }
         }
@@ -515,7 +515,7 @@
           "4_1": {
             "title": "4.1 Osnovno načelo neobdavčenega kopičenja sredstev",
             "items": {
-              "0": "Naložba z dolgoročno dobo posedovanja",
+              "0": "Pridobitev z dolgoročnim obdobjem imetja",
               "1": "Uporaba zakonsko predpisanih davčnih oprostitev",
               "2": "Načrtovanje za vsaj 10+ let"
             }

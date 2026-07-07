@@ -487,7 +487,7 @@
           "2_3": {
             "title": "2.3 Asedau busnes yn cronni",
             "items": {
-              "0": "Buddsoddiadau drwy gymdeithas"
+              "0": "Caffaeliadau a wneir drwy'r cwmni"
             }
           }
         }
@@ -515,7 +515,7 @@
           "4_1": {
             "title": "4.1 Egwyddor sylfaenol cronni asedau di-dreth",
             "items": {
-              "0": "Buddsoddiad gyda chyfnod dal tymor hir",
+              "0": "Caffaeliad â gorwel dal hirdymor",
               "1": "Defnyddio eithriadau treth statudol",
               "2": "Cynllunio am o leiaf 10+ mlynedd"
             }

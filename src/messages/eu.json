@@ -487,7 +487,7 @@
           "2_3": {
             "title": "2.3 Aktiboak metatzea enpresa-aktiboetan",
             "items": {
-              "0": "Inbertsioak gizartearen bidez"
+              "0": "Enpresaren bidez egindako eskurapenak"
             }
           }
         }
@@ -515,7 +515,7 @@
           "4_1": {
             "title": "4.1 Zergarik gabeko aktiboen metaketaren oinarrizko printzipioa",
             "items": {
-              "0": "Epe luzerako atxikipen-epea duen inbertsioa",
+              "0": "Epe luzeko atxikitze-horizontea duen eskurapena",
               "1": "Legezko zerga-salbuespenak erabiltzea",
               "2": "Gutxienez 10 urtetik gorako plangintza"
             }

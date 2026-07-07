@@ -487,7 +487,7 @@
           "2_3": {
             "title": "2.3 Akkumulazzjoni ta' assi f'assi tan-negozju",
             "items": {
-              "0": "Investimenti permezz tas-soċjetà"
+              "0": "Akkwisti magħmula permezz tal-kumpanija"
             }
           }
         }
@@ -515,7 +515,7 @@
           "4_1": {
             "title": "4.1 Prinċipju bażiku ta' akkumulazzjoni ta' assi mingħajr taxxa",
             "items": {
-              "0": "Investiment b'perjodu ta' żamma fit-tul",
+              "0": "Akkwist b'orizzont ta' żamma fit-tul",
               "1": "Użu ta' eżenzjonijiet statutorji tat-taxxa",
               "2": "Ippjanar għal mill-inqas 10+ snin"
             }

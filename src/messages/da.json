@@ -487,7 +487,7 @@
           "2_3": {
             "title": "2.3 Formueopbygning i virksomhedsformuen",
             "items": {
-              "0": "Investeringer via selskabet"
+              "0": "Anskaffelser gennem selskabet"
             }
           }
         }
@@ -515,7 +515,7 @@
           "4_1": {
             "title": "4.1 Grundprincip for skattefri formueopbygning",
             "items": {
-              "0": "Investering med langsigtet ejerhorisont",
+              "0": "Anskaffelse med en langsigtet ejerhorisont",
               "1": "Anvendelse af lovbestemte skattefritagelser",
               "2": "Planlægning over mindst 10 ar"
             }

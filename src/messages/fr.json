@@ -487,7 +487,7 @@
           "2_3": {
             "title": "2.3 Constitution patrimoniale dans l'actif professionnel",
             "items": {
-              "0": "Investissements realises via la societe"
+              "0": "Acquisitions réalisées par l'intermédiaire de la société"
             }
           }
         }
@@ -515,7 +515,7 @@
           "4_1": {
             "title": "4.1 Principe fondamental de la constitution patrimoniale exoneree d'impot",
             "items": {
-              "0": "Investissement avec horizon de detention long terme",
+              "0": "Acquisition avec un horizon de détention à long terme",
               "1": "Utilisation des exonérations fiscales prevues par la loi",
               "2": "Planification sur au moins 10 ans"
             }

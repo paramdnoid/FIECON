@@ -487,7 +487,7 @@
           "2_3": {
             "title": "2.3 Förmögenhetsuppbyggnad i företagsförmögenhet",
             "items": {
-              "0": "Investeringar via bolaget"
+              "0": "Förvärv genom bolaget"
             }
           }
         }
@@ -515,7 +515,7 @@
           "4_1": {
             "title": "4.1 Grundprincip för skattefri förmögenhetsuppbyggnad",
             "items": {
-              "0": "Investering med långsiktig innehavshorisont",
+              "0": "Förvärv med lång innehavshorisont",
               "1": "Utnyttjande av lagstadgade skattebefrielser",
               "2": "Planering över minst 10 år"
             }

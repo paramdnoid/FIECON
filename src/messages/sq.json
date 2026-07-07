@@ -487,7 +487,7 @@
           "2_3": {
             "title": "2.3 Akumulimi i aseteve në asetet e biznesit",
             "items": {
-              "0": "Investimet përmes shoqërisë"
+              "0": "Blerje të kryera nëpërmjet shoqërisë"
             }
           }
         }
@@ -515,7 +515,7 @@
           "4_1": {
             "title": "4.1 Parimi bazë i akumulimit të aktiveve pa taksa",
             "items": {
-              "0": "Investim me një periudhë mbajtjeje afatgjatë",
+              "0": "Blerje me horizont afatgjatë mbajtjeje",
               "1": "Përdorimi i përjashtimeve ligjore nga taksat",
               "2": "Planifikimi për të paktën 10+ vjet"
             }

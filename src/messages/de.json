@@ -220,7 +220,7 @@
           "2_3": {
             "title": "2.3 Vermögensaufbau im Betriebsvermögen",
             "items": {
-              "0": "Investitionen über die Gesellschaft"
+              "0": "Erwerb über die Gesellschaft"
             }
           }
         }
@@ -248,7 +248,7 @@
           "4_1": {
             "title": "4.1 Grundprinzip des steuerfreien Vermögensaufbaus",
             "items": {
-              "0": "Investition mit langfristiger Haltedauer",
+              "0": "Erwerb mit langfristiger Haltedauer",
               "1": "Nutzung gesetzlicher Steuerbefreiungen",
               "2": "Planung über mindestens 10+ Jahre"
             }

@@ -487,7 +487,7 @@
           "2_3": {
             "title": "2.3 Budowa majatku w aktywach przedsiebiorstwa",
             "items": {
-              "0": "Inwestycje realizowane przez spolke"
+              "0": "Nabycie za pośrednictwem spółki"
             }
           }
         }
@@ -515,7 +515,7 @@
           "4_1": {
             "title": "4.1 Podstawowa zasada zwolnionej podatkowo akumulacji majatku",
             "items": {
-              "0": "Inwestowanie z dlugoterminowym horyzontem utrzymania",
+              "0": "Nabycie z długim horyzontem posiadania",
               "1": "Wykorzystanie ustawowych zwolnien podatkowych",
               "2": "Planowanie na co najmniej 10 lat"
             }

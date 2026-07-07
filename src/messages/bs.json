@@ -487,7 +487,7 @@
           "2_3": {
             "title": "2.3 Akumulacija imovine u poslovnoj imovini",
             "items": {
-              "0": "Investicije kroz društvo"
+              "0": "Sticanje putem društva"
             }
           }
         }
@@ -515,7 +515,7 @@
           "4_1": {
             "title": "4.1 Osnovni princip neoporezive akumulacije imovine",
             "items": {
-              "0": "Investicija sa dugoročnim periodom držanja",
+              "0": "Sticanje s dugoročnim periodom držanja",
               "1": "Upotreba zakonskih poreskih oslobođenja",
               "2": "Planiranje za najmanje 10+ godina"
             }

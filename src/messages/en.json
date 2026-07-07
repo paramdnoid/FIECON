@@ -220,7 +220,7 @@
           "2_3": {
             "title": "2.3 Asset building inside business assets",
             "items": {
-              "0": "Investments made through the company"
+              "0": "Acquisitions made through the company"
             }
           }
         }
@@ -248,7 +248,7 @@
           "4_1": {
             "title": "4.1 Core principle of tax-free wealth accumulation",
             "items": {
-              "0": "Investment with a long-term holding horizon",
+              "0": "Acquisition with a long-term holding horizon",
               "1": "Use of statutory tax exemptions",
               "2": "Planning over at least 10+ years"
             }

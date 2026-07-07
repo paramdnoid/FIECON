@@ -487,7 +487,7 @@
           "2_3": {
             "title": "2.3 Acumulació d'actius en actius empresarials",
             "items": {
-              "0": "Inversions a través de la societat"
+              "0": "Adquisicions realitzades a través de la societat"
             }
           }
         }
@@ -515,7 +515,7 @@
           "4_1": {
             "title": "4.1 Principi bàsic d'acumulació d'actius lliures d'impostos",
             "items": {
-              "0": "Inversió amb un període de manteniment a llarg termini",
+              "0": "Adquisició amb horitzó de tinença a llarg termini",
               "1": "Ús de les exempcions fiscals legals",
               "2": "Planificació durant almenys 10 anys"
             }

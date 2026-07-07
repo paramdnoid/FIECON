@@ -487,7 +487,7 @@
           "2_3": {
             "title": "2.3 Formirovanie kapitala v aktivakh kompanii",
             "items": {
-              "0": "Investitsii cherez kompaniu"
+              "0": "Приобретение через компанию"
             }
           }
         }
@@ -515,7 +515,7 @@
           "4_1": {
             "title": "4.1 Bazovyy printsip nalogovo osvobozhdennogo nakopleniya kapitala",
             "items": {
-              "0": "Investitsii s dolgosrochnym gorizontom uderzhaniya",
+              "0": "Приобретение с длительным сроком владения",
               "1": "Ispolzovanie zakonnykh nalogovykh osvobozhdeniy",
               "2": "Planirovanie kak minimum na 10 let"
             }
