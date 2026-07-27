@@ -20,6 +20,7 @@ Corporate website for FIECON (Fiegler Consulting KG), an international consultin
 - `pnpm dev` — Dev server on port 3000 (if port 3000 is occupied, kill the existing process first — never use a different port)
 - `pnpm build` — Production build
 - `pnpm lint` — ESLint
+- `pnpm typecheck` — TypeScript (`tsc --noEmit`); not covered by `pnpm test`, which only transpiles
 - `pnpm test` — Vitest (run once)
 - `pnpm test:watch` — Vitest (watch mode)
 - `pnpm test:coverage` — Vitest with coverage
