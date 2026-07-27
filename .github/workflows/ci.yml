@@ -23,10 +23,13 @@ jobs:
       # Pinned here rather than via a packageManager field in package.json:
       # that field makes pnpm self-provision the same version on the production
       # server, which runs Node 20 and cannot execute pnpm 11 (needs >= 22.13).
+      # CI runs Node 22, so it can use pnpm 11 — it needs the built-in `sbom`
+      # command below, which does not exist in pnpm 10. The server keeps its own
+      # pnpm 10.29.3; both read the same lockfile (9.0) with --frozen-lockfile.
       - name: Install pnpm
         uses: pnpm/action-setup@v4
         with:
-          version: 10.29.3
+          version: 11.1.1
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
