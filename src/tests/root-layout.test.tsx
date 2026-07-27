@@ -1,4 +1,7 @@
-import { describe, it, expect, vi } from "vitest";
+import { describe, it, expect, vi, beforeEach } from "vitest";
+
+// Mutable stand-in for the x-locale header the middleware forwards
+const requestHeaders = vi.hoisted(() => ({ locale: null as string | null }));
 
 // ---------------------------------------------------------------------------
 // Mock next/font/google — returns fake font objects
@@ -7,6 +10,12 @@ vi.mock("next/font/google", () => ({
   Playfair_Display: () => ({ variable: "--font-playfair" }),
   DM_Sans: () => ({ variable: "--font-dm-sans" }),
   Noto_Sans_Arabic: () => ({ variable: "--font-arabic" }),
+}));
+
+vi.mock("next/headers", () => ({
+  headers: async () => ({
+    get: (name: string) => (name === "x-locale" ? requestHeaders.locale : null),
+  }),
 }));
 
 vi.mock("next-intl/server", () => ({
@@ -22,6 +31,10 @@ vi.mock("@/app/globals.css", () => ({}));
 // Root Layout
 // ---------------------------------------------------------------------------
 describe("RootLayout", () => {
+  beforeEach(() => {
+    requestHeaders.locale = null;
+  });
+
   it("returns JSX for ltr locale", async () => {
     const RootLayout = (await import("@/app/layout")).default;
     const result = await RootLayout({
@@ -49,6 +62,28 @@ describe("RootLayout", () => {
 
     expect(result.props.lang).toBe("ar");
     expect(result.props.dir).toBe("rtl");
+  });
+
+  it("prefers the x-locale header over getLocale", async () => {
+    // getLocale() resolves above the [locale] segment and returns the default,
+    // so only the forwarded header can produce the correct lang/dir here.
+    requestHeaders.locale = "ar";
+
+    const RootLayout = (await import("@/app/layout")).default;
+    const result = await RootLayout({ children: <div /> });
+
+    expect(result.props.lang).toBe("ar");
+    expect(result.props.dir).toBe("rtl");
+  });
+
+  it("ignores an unknown x-locale and falls back to getLocale", async () => {
+    requestHeaders.locale = "not-a-locale";
+
+    const RootLayout = (await import("@/app/layout")).default;
+    const result = await RootLayout({ children: <div /> });
+
+    expect(result.props.lang).toBe("de");
+    expect(result.props.dir).toBe("ltr");
   });
 
   it("renders body with children", async () => {
