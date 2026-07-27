@@ -2,6 +2,7 @@
   "name": "fiecon-consulting",
   "version": "0.2.0",
   "private": true,
+  "packageManager": "pnpm@11.1.1",
   "scripts": {
     "dev": "./scripts/kill-port.sh && next dev --turbopack",
     "build": "next build",
@@ -14,7 +15,6 @@
     "check:i18n": "node scripts/check-translations.js",
     "translate:placeholders": "node scripts/fill-placeholder-translations.mjs",
     "i18n:sync-all": "node scripts/fill-placeholder-translations.mjs && pnpm check:i18n",
-    "sbom": "cyclonedx-npm --output-file sbom.json --output-reproducible",
     "analyze": "ANALYZE=true next build",
     "deploy": "./deploy.sh"
   },
@@ -34,7 +34,6 @@
     "zod": "^4.3.6"
   },
   "devDependencies": {
-    "@cyclonedx/cyclonedx-npm": "^4.1.2",
     "@next/bundle-analyzer": "^16.1.6",
     "@tailwindcss/postcss": "^4.1.18",
     "@testing-library/jest-dom": "^6.9.1",
