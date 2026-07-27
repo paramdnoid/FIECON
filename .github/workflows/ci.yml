@@ -27,7 +27,7 @@ jobs:
       # command below, which does not exist in pnpm 10. The server keeps its own
       # pnpm 10.29.3; both read the same lockfile (9.0) with --frozen-lockfile.
       - name: Install pnpm
-        uses: pnpm/action-setup@v4
+        uses: pnpm/action-setup@v6
         with:
           version: 11.1.1
 
