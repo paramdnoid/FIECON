@@ -13,6 +13,19 @@ const iconProps = {
 };
 
 export const CompetencyIcons = {
+  wealthManagement: (
+    <svg {...iconProps}>
+      <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+    </svg>
+  ),
+  preciousMetals: (
+    <svg {...iconProps}>
+      <path d="M6 3h12l4 6-10 13L2 9z" />
+      <path d="M2 9h20" />
+      <path d="M10 9l2-6 2 6" />
+      <path d="M6.5 9L12 22l5.5-13" />
+    </svg>
+  ),
   hrConsulting: (
     <svg {...iconProps}>
       <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
@@ -21,27 +34,9 @@ export const CompetencyIcons = {
       <path d="M16 3.13a4 4 0 0 1 0 7.75" />
     </svg>
   ),
-  recruiting: (
+  assetStrategy: (
     <svg {...iconProps}>
-      <circle cx="10" cy="8" r="4" />
-      <path d="M4 21v-1a5 5 0 0 1 5-5h2a5 5 0 0 1 3 1" />
-      <path d="M17 14v6" />
-      <path d="M14 17h6" />
-    </svg>
-  ),
-  organisation: (
-    <svg {...iconProps}>
-      <rect x="9" y="2" width="6" height="6" rx="1" />
-      <rect x="2" y="16" width="6" height="6" rx="1" />
-      <rect x="16" y="16" width="6" height="6" rx="1" />
-      <path d="M12 8v4M5 16v-2h14v2M12 12v4" />
-    </svg>
-  ),
-  advisory: (
-    <svg {...iconProps}>
-      <path d="M12 2a7 7 0 0 0-4 12.7V17h8v-2.3A7 7 0 0 0 12 2z" />
-      <path d="M9 21h6" />
-      <path d="M10 17v4M14 17v4" />
+      <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
     </svg>
   ),
 } as const satisfies Record<string, React.ReactNode>;
