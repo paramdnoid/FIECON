@@ -111,7 +111,17 @@ rsync -avz --delete \
 
 echo ""
 echo "🔄 Installing dependencies and restarting on server..."
-ssh "${SERVER}" "cd ${REMOTE_DIR} && rm -rf .next node_modules && pnpm install --frozen-lockfile && pnpm build && pm2 restart fiecon --update-env || pm2 start ecosystem.config.cjs"
+# `set -e` so a failed install or build aborts here and leaves the currently
+# running app untouched. Previously the `||` fallback bound to the whole chain,
+# so a failed install still restarted the app — and because node_modules had
+# already been removed, that guaranteed an outage. Only .next is cleared now;
+# `pnpm install --frozen-lockfile` prunes node_modules by itself.
+ssh "${SERVER}" "set -e
+  cd ${REMOTE_DIR}
+  rm -rf .next
+  pnpm install --frozen-lockfile
+  pnpm build
+  pm2 restart fiecon --update-env || pm2 start ecosystem.config.cjs"
 
 echo ""
 echo "⏳ Waiting 10s before health check..."
