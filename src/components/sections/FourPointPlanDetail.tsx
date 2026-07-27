@@ -4,10 +4,7 @@ import React from "react";
 import { useReducedMotion, useScroll } from "motion/react";
 import { useTranslations } from "next-intl";
 import { Container } from "@/components/ui/Container";
-import {
-  FOUR_POINT_PLAN_POINTS,
-  type FourPointPlanPointKey,
-} from "@/components/sections/four-point-plan/plan-data";
+import { FOUR_POINT_PLAN_POINTS } from "@/components/sections/four-point-plan/plan-data";
 import { PlanDetailHero } from "@/components/sections/four-point-plan/PlanDetailHero";
 import { PlanDetailDesktopNav } from "@/components/sections/four-point-plan/PlanDetailDesktopNav";
 import { PlanDetailMobileNav } from "@/components/sections/four-point-plan/PlanDetailMobileNav";

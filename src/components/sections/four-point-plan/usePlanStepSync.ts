@@ -139,19 +139,22 @@ export function usePlanStepSync(prefersReducedMotion: boolean) {
       return;
     }
 
-    setActivePoint(hashPointKey);
-
+    // Deferred to the next frame: activating the point synchronously here would
+    // cascade an extra render on top of the mount effect above, and the scroll
+    // has to wait for layout anyway
     const element = stepRefs.current[hashPointKey];
-    if (!element || typeof element.scrollIntoView !== "function") {
-      return;
-    }
+    const frame = window.requestAnimationFrame(() => {
+      setActivePoint(hashPointKey);
 
-    window.requestAnimationFrame(() => {
-      element.scrollIntoView({
-        behavior: "auto",
-        block: "start",
-      });
+      if (element && typeof element.scrollIntoView === "function") {
+        element.scrollIntoView({
+          behavior: "auto",
+          block: "start",
+        });
+      }
     });
+
+    return () => window.cancelAnimationFrame(frame);
   }, []);
 
   const registerStepRef = (pointKey: FourPointPlanPointKey, element: HTMLElement | null) => {
