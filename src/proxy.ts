@@ -5,13 +5,13 @@ import { routing } from "@/i18n/routing";
 const intlMiddleware = createMiddleware(routing);
 
 /**
- * Middleware that:
+ * Proxy (formerly middleware) that:
  * 1. Handles locale routing via next-intl
  * 2. Forwards the URL locale so the root layout can set <html lang/dir>
  * 3. Generates a unique CSP nonce per request
  * 4. Sets strict Content-Security-Policy headers
  */
-export default function middleware(request: NextRequest) {
+export default function proxy(request: NextRequest) {
   // Run the next-intl middleware first
   const response = intlMiddleware(request);
 
