@@ -1,14 +1,16 @@
 import { describe, it, expect, vi, beforeEach } from "vitest";
 import { escapeHtml } from "@/lib/utils";
 
+// SMTP_HOST/USER/PASS and CONTACT_TO are .optional() in @/lib/env — mirror that
+// here so tests can clear them to exercise the "not configured" paths
 const mockEnv = {
   NODE_ENV: "test",
-  SMTP_HOST: "smtp.test.com",
+  SMTP_HOST: "smtp.test.com" as string | undefined,
   SMTP_PORT: 587,
-  SMTP_USER: "user@test.com",
-  SMTP_PASS: "password123",
+  SMTP_USER: "user@test.com" as string | undefined,
+  SMTP_PASS: "password123" as string | undefined,
   SMTP_FROM: undefined as string | undefined,
-  CONTACT_TO: "test@example.com",
+  CONTACT_TO: "test@example.com" as string | undefined,
   SITE_URL: "https://www.fiecon-consulting.eu",
   GOOGLE_SITE_VERIFICATION: undefined as string | undefined,
   NEXT_PUBLIC_SENTRY_DSN: undefined as string | undefined,
