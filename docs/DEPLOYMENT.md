@@ -37,14 +37,34 @@ Das Script installiert und konfiguriert:
 ```
 
 Das Script:
-1. Baut lokal (zur Verifikation)
-2. Synchronisiert den Quellcode per rsync auf den Server
-3. Führt auf dem Server aus: `pnpm install`, `pnpm build`, `pm2 restart`
+1. Bricht ab, wenn der Git-Working-Tree nicht sauber ist (`--force` übergeht das)
+2. Führt das Quality-Gate aus: `pnpm lint`, `pnpm typecheck`, `pnpm test`, `pnpm check:i18n`
+3. Baut lokal (zur Verifikation)
+4. Synchronisiert den Quellcode per rsync auf den Server
+5. Führt auf dem Server aus: `pnpm install`, `pnpm build`, `pm2 restart`
+6. Prüft `/api/health` und schlägt fehl, wenn nicht HTTP 200 zurückkommt
+
+Schlägt ein Gate-Schritt fehl, bricht das Deployment ab, bevor irgendetwas den
+Server erreicht.
 
 ### Nur Config-Änderungen deployen (ohne Build)
 
 ```bash
 ./deploy.sh --skip-build
+```
+
+### Quality-Gate überspringen
+
+Nur für Notfall-Deploys — umgeht Lint, Typecheck, Tests und i18n-Prüfung:
+
+```bash
+./deploy.sh --skip-checks
+```
+
+### Deployment-Plan ansehen, ohne zu deployen
+
+```bash
+./deploy.sh --dry-run
 ```
 
 ## Nginx + SSL (optional)

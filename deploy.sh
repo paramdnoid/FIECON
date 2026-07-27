@@ -3,10 +3,11 @@
 # FIECON Deployment Script
 # Deploys the Next.js app to root@217.154.23.84 via rsync + PM2
 #
-# Usage: ./deploy.sh [--skip-build] [--force] [--dry-run]
-#   --skip-build  Skip local build (e.g. config-only deploys)
-#   --force       Deploy even if git working tree is dirty
-#   --dry-run     Show rsync plan only; do not sync or restart
+# Usage: ./deploy.sh [--skip-build] [--skip-checks] [--force] [--dry-run]
+#   --skip-build   Skip local build (e.g. config-only deploys)
+#   --skip-checks  Skip the lint/typecheck/test/i18n quality gate
+#   --force        Deploy even if git working tree is dirty
+#   --dry-run      Show rsync plan only; do not sync or restart
 #
 
 set -e
@@ -37,15 +38,30 @@ RSYNC_EXCLUDES=(
 )
 
 SKIP_BUILD=""
+SKIP_CHECKS=""
 FORCE=""
 DRY_RUN=""
 for arg in "$@"; do
   case "$arg" in
-    --skip-build) SKIP_BUILD=1 ;;
-    --force)      FORCE=1 ;;
-    --dry-run)    DRY_RUN=1 ;;
+    --skip-build)  SKIP_BUILD=1 ;;
+    --skip-checks) SKIP_CHECKS=1 ;;
+    --force)       FORCE=1 ;;
+    --dry-run)     DRY_RUN=1 ;;
   esac
 done
+
+# Run a quality gate step; abort the deployment if it fails
+run_gate() {
+  local label="$1"
+  shift
+  if ! "$@"; then
+    echo ""
+    echo "❌ ${label} failed — aborting deployment."
+    echo "   Fix it, or run with --skip-checks to deploy anyway."
+    exit 1
+  fi
+  echo "   ✓ ${label}"
+}
 
 echo "🚀 FIECON Deployment"
 echo "===================="
@@ -56,6 +72,16 @@ if [[ -z "$FORCE" ]] && [[ -n $(git status --porcelain 2>/dev/null) ]]; then
   echo "⚠️  Git working tree has uncommitted changes."
   echo "   Commit or stash them, or run with --force to deploy anyway."
   exit 1
+fi
+
+if [[ -z "$SKIP_CHECKS" ]]; then
+  echo "🔍 Running quality gate..."
+  run_gate "lint"         pnpm lint
+  run_gate "typecheck"    pnpm typecheck
+  run_gate "tests"        pnpm test
+  run_gate "translations" pnpm check:i18n
+  echo "✓ Quality gate passed"
+  echo ""
 fi
 
 if [[ -z "$SKIP_BUILD" ]]; then
