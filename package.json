@@ -22,7 +22,7 @@
     "@sentry/nextjs": "^10.68.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "motion": "^12.33.0",
+    "motion": "^12.42.2",
     "next": "^16.1.6",
     "next-intl": "^4.8.2",
     "nodemailer": "^8.0.0",
