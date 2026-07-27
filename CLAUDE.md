@@ -32,7 +32,7 @@ Corporate website for FIECON (Fiegler Consulting KG), an international consultin
 
 ### Routing & i18n
 - Locale prefix always in URLs (`localePrefix: "always"`) — e.g. `/de/impressum`, `/en/impressum`
-- Middleware at `middleware.ts` handles locale routing (redirects `/` to `/de`)
+- Proxy at `src/proxy.ts` (the Next.js 16 successor to the `middleware` convention) handles locale routing, the CSP nonce, and forwards the URL locale as the `x-locale` header so the root layout can set `<html lang/dir>`. It must live in `src/` (next to `app/`) — at the repo root Next.js does not pick it up. `/` redirects to the browser's preferred locale, falling back to `/de`
 - Navigation helpers: `src/i18n/navigation.ts` exports locale-aware `Link`, `redirect`, `usePathname`, `useRouter` — always use these instead of `next/link`
 - i18n config: `src/i18n/routing.ts` (44 locale definitions) + `src/i18n/request.ts` (request config with cookie/header fallback)
 - Translation files: `src/messages/{locale}.json` (44 locales including de, en, fr, it, es, pt, nl, pl, ru, tr, ar, and more)
@@ -42,12 +42,12 @@ Corporate website for FIECON (Fiegler Consulting KG), an international consultin
 ```
 src/
 ├── app/
-│   ├── layout.tsx           # Root layout (passes children through)
+│   ├── layout.tsx           # Root layout (<html lang/dir> from x-locale, fonts, global CSS)
 │   ├── global-error.tsx     # Root error boundary (hardcoded German — no providers available)
 │   ├── globals.css          # Global styles + Tailwind @theme
 │   ├── robots.ts            # SEO: robots.txt
 │   ├── sitemap.ts           # SEO: sitemap.xml
-│   ├── page.tsx             # Root page (redirects to /de)
+│   ├── page.tsx             # Root page (fallback redirect to /de; proxy normally redirects first)
 │   ├── api/contact/route.ts # POST endpoint (nodemailer, rate-limited)
 │   ├── api/health/route.ts  # GET health check endpoint
 │   └── [locale]/

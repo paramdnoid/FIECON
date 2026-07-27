@@ -5,14 +5,23 @@ import { routing } from "@/i18n/routing";
 const intlMiddleware = createMiddleware(routing);
 
 /**
- * Middleware that:
+ * Proxy (formerly middleware) that:
  * 1. Handles locale routing via next-intl
- * 2. Generates a unique CSP nonce per request
- * 3. Sets strict Content-Security-Policy headers
+ * 2. Forwards the URL locale so the root layout can set <html lang/dir>
+ * 3. Generates a unique CSP nonce per request
+ * 4. Sets strict Content-Security-Policy headers
  */
-export default function middleware(request: NextRequest) {
+export default function proxy(request: NextRequest) {
   // Run the next-intl middleware first
   const response = intlMiddleware(request);
+
+  // The root layout renders <html> but sits above the [locale] segment, so
+  // getLocale() there resolves before the request locale is set and would
+  // always fall back to the default. Pass the locale from the URL instead.
+  const segment = request.nextUrl.pathname.split("/")[1];
+  if ((routing.locales as readonly string[]).includes(segment)) {
+    response.headers.set("x-locale", segment);
+  }
 
   // Generate a unique nonce for this request
   const nonce = Buffer.from(crypto.randomUUID()).toString("base64");

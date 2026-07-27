@@ -16,10 +16,10 @@ export const TEAM_PAGE_CONFIG: Record<string, {
   "rene-marquard": {
     memberIndex: 1,
     competencies: [
-      { id: "wealth-management", iconKey: "wealthManagement" },
+      { id: "precious-metals-expertise", iconKey: "preciousMetalsExpertise" },
       { id: "precious-metals", iconKey: "preciousMetals" },
       { id: "hr-consulting", iconKey: "hrConsulting" },
-      { id: "asset-strategy", iconKey: "assetStrategy" },
+      { id: "purchase-strategy", iconKey: "purchaseStrategy" },
     ],
     languages: ["de", "en"],
   },

@@ -14,8 +14,8 @@ für die FIECON Consulting KG Webplattform und die damit verbundenen organisator
 | Maßnahme | Status | Verweis |
 |---|---|---|
 | HTTPS-Enforcement (HSTS, 1 Jahr) | ✅ Implementiert | `next.config.ts` |
-| Content Security Policy (Nonce-basiert) | ✅ Implementiert | `middleware.ts` |
-| Clickjacking-Schutz (X-Frame-Options, frame-ancestors) | ✅ Implementiert | `next.config.ts`, `middleware.ts` |
+| Content Security Policy (Nonce-basiert) | ✅ Implementiert | `src/proxy.ts` |
+| Clickjacking-Schutz (X-Frame-Options, frame-ancestors) | ✅ Implementiert | `next.config.ts`, `src/proxy.ts` |
 | MIME-Sniffing-Schutz (X-Content-Type-Options) | ✅ Implementiert | `next.config.ts` |
 | Referrer-Policy | ✅ Implementiert | `next.config.ts` |
 | Permissions-Policy | ✅ Implementiert | `next.config.ts` |

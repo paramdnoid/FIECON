@@ -13,9 +13,11 @@ const iconProps = {
 };
 
 export const CompetencyIcons = {
-  wealthManagement: (
+  preciousMetalsExpertise: (
     <svg {...iconProps}>
-      <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+      <path d="M9 7h6l1 4H8z" />
+      <path d="M4.5 13h6l1 4H3.5z" />
+      <path d="M13.5 13h6l1 4h-8z" />
     </svg>
   ),
   preciousMetals: (
@@ -34,7 +36,7 @@ export const CompetencyIcons = {
       <path d="M16 3.13a4 4 0 0 1 0 7.75" />
     </svg>
   ),
-  assetStrategy: (
+  purchaseStrategy: (
     <svg {...iconProps}>
       <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
     </svg>
