@@ -21,10 +21,10 @@ export default defineConfig({
       // never met, so CI could not pass. These sit just below the current
       // coverage — raise them as tests are added, never lower them.
       thresholds: {
-        lines: 64,
-        functions: 61,
-        branches: 55,
-        statements: 63,
+        lines: 67,
+        functions: 65,
+        branches: 58,
+        statements: 66,
       },
     },
   },
