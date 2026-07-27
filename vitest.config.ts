@@ -17,14 +17,14 @@ export default defineConfig({
         "src/messages/**",
         "src/components/flags/**",
       ],
-      // Ratchet floor, not a target. The previous values (80/80/75/80) were
+      // Ratchet floor, not a target. The original values (80/80/75/80) were
       // never met, so CI could not pass. These sit just below the current
       // coverage — raise them as tests are added, never lower them.
       thresholds: {
-        lines: 62,
-        functions: 60,
-        branches: 54,
-        statements: 61,
+        lines: 64,
+        functions: 61,
+        branches: 55,
+        statements: 63,
       },
     },
   },
