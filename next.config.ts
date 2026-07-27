@@ -12,6 +12,14 @@ const withAnalyzer = withBundleAnalyzer({
 const nextConfig: NextConfig = {
   allowedDevOrigins: env.DEV_HOST ? [`${env.DEV_HOST}:3000`] : [],
 
+  // Pin the workspace root: a stray package-lock.json in the home directory
+  // otherwise makes Turbopack infer the wrong root for file tracing.
+  // Uses cwd, not __dirname — the latter resolves to the parent directory
+  // once Next.js has compiled this config file.
+  turbopack: {
+    root: process.cwd(),
+  },
+
   // Prefer AVIF (smaller) with WebP fallback for image optimization
   images: {
     formats: ["image/avif", "image/webp"],

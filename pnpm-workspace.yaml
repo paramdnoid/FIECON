@@ -1,0 +1,12 @@
+# Native postinstall build scripts pnpm is allowed to run.
+# pnpm blocks these by default; without an explicit decision every `pnpm <script>`
+# aborts with ERR_PNPM_IGNORED_BUILDS before the script itself runs.
+allowBuilds:
+  '@parcel/watcher': true # file watching (next-intl)
+  '@sentry/cli': true # source map upload during build
+  '@swc/core': true # Next.js compiler native binary
+  esbuild: true # Vitest transform
+  libxmljs2: true # native XML (CycloneDX SBOM)
+  puppeteer: true # Chromium download (direct devDependency)
+  sharp: true # Next.js image optimization
+  unrs-resolver: true # eslint-import-resolver-typescript
