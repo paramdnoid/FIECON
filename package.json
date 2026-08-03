@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.4",
-    "@sentry/nextjs": "^10.68.0",
+    "@sentry/nextjs": "^10.69.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "motion": "^12.42.2",
